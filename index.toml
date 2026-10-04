@@ -1,10 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = "config/EndRemastered-NeoForge/endrem.json"
-hash = "5a8e5f5fa575402b8c9d415833a7acc1858e124729ae81fdfa305a602cb4c180"
-
-[[files]]
 file = "config/apotheosis/apotheosis.cfg"
 hash = "ad433c66e209e94e11a907ff64f712a2c9664ce35fd37e7e816d38efd626c772"
 
