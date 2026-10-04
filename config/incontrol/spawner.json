@@ -1,0 +1,131 @@
+[
+  {
+    "mob": ["minecraft:zombie", "minecraft:skeleton", "minecraft:spider"],
+    "persecond": 0.12,
+    "attempts": 12,
+    "amount": {"minimum": 1, "maximum": 2},
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 32,
+      "maxdist": 72,
+      "minheight": -64,
+      "maxheight": -1,
+      "maxthis": 12,
+      "maxhostile": 80,
+      "and": {"seesky": false}
+    }
+  },
+  {
+    "mob": ["minecraft:zombie", "minecraft:skeleton", "minecraft:spider"],
+    "persecond": 0.18,
+    "attempts": 12,
+    "amount": {"minimum": 1, "maximum": 2},
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 32,
+      "maxdist": 72,
+      "minheight": -128,
+      "maxheight": -65,
+      "maxthis": 16,
+      "maxhostile": 80,
+      "and": {"seesky": false}
+    }
+  },
+  {
+    "mob": ["minecraft:zombie", "minecraft:skeleton", "minecraft:spider"],
+    "persecond": 0.20,
+    "attempts": 12,
+    "amount": {"minimum": 1, "maximum": 2},
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 32,
+      "maxdist": 72,
+      "minheight": -256,
+      "maxheight": -129,
+      "maxthis": 20,
+      "maxhostile": 80,
+      "and": {"seesky": false}
+    }
+  },
+  {
+    "mob": ["minecraft:zombie", "minecraft:skeleton", "minecraft:spider"],
+    "persecond": 0.24,
+    "attempts": 12,
+    "amount": {"minimum": 1, "maximum": 2},
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 32,
+      "maxdist": 72,
+      "minheight": -320,
+      "maxheight": -257,
+      "maxthis": 24,
+      "maxhostile": 80,
+      "and": {"seesky": false}
+    }
+  },
+  {
+    "mob": "creeperoverhaul:cave_creeper",
+    "persecond": 0.035,
+    "attempts": 12,
+    "amount": {"minimum": 1, "maximum": 1},
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 40,
+      "maxdist": 72,
+      "minheight": -128,
+      "maxheight": -65,
+      "maxthis": 2,
+      "maxhostile": 80,
+      "and": {"cave": true, "biometags": "creeperoverhaul:where_creepers_spawn"}
+    }
+  },
+  {
+    "mob": "creeperoverhaul:cave_creeper",
+    "persecond": 0.045,
+    "attempts": 12,
+    "amount": {"minimum": 1, "maximum": 1},
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 40,
+      "maxdist": 72,
+      "minheight": -256,
+      "maxheight": -129,
+      "maxthis": 2,
+      "maxhostile": 80,
+      "and": {"cave": true, "biometags": "creeperoverhaul:where_creepers_spawn"}
+    }
+  },
+  {
+    "mob": "creeperoverhaul:cave_creeper",
+    "persecond": 0.05,
+    "attempts": 12,
+    "amount": {"minimum": 1, "maximum": 1},
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 40,
+      "maxdist": 72,
+      "minheight": -320,
+      "maxheight": -257,
+      "maxthis": 2,
+      "maxhostile": 80,
+      "and": {"cave": true, "biometags": "creeperoverhaul:where_creepers_spawn"}
+    }
+  },
+  {
+    "mob": "mowziesmobs:grottol",
+    "persecond": 0.01,
+    "attempts": 12,
+    "amount": {"minimum": 1, "maximum": 1},
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 40,
+      "maxdist": 72,
+      "minheight": -320,
+      "maxheight": -129,
+      "maxthis": 1,
+      "maxhostile": 80,
+      "validspawn": true,
+      "and": {"cave": true, "seesky": false}
+    }
+  }
+]

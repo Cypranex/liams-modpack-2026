@@ -1,0 +1,110 @@
+[
+  {
+    "when": "finalize",
+    "dimension": "minecraft:overworld",
+    "mob": ["minecraft:zombie", "minecraft:husk", "minecraft:skeleton", "minecraft:stray", "minecraft:spider", "minecraft:creeper"],
+    "minheight": -320,
+    "maxheight": -257,
+    "healthmultiply": 2.5,
+    "damagemultiply": 2.0,
+    "speedmultiply": 1.2
+  },
+  {
+    "when": "finalize",
+    "dimension": "minecraft:overworld",
+    "mob": ["minecraft:zombie", "minecraft:husk", "minecraft:skeleton", "minecraft:stray", "minecraft:spider", "minecraft:creeper"],
+    "minheight": -256,
+    "maxheight": -129,
+    "healthmultiply": 2.2,
+    "damagemultiply": 1.75,
+    "speedmultiply": 1.18
+  },
+  {
+    "when": "finalize",
+    "dimension": "minecraft:overworld",
+    "mob": ["minecraft:zombie", "minecraft:husk", "minecraft:skeleton", "minecraft:stray", "minecraft:spider", "minecraft:creeper"],
+    "minheight": -128,
+    "maxheight": -65,
+    "healthmultiply": 1.8,
+    "damagemultiply": 1.5,
+    "speedmultiply": 1.12
+  },
+  {
+    "when": "finalize",
+    "dimension": "minecraft:overworld",
+    "mob": ["minecraft:zombie", "minecraft:husk", "minecraft:skeleton", "minecraft:stray", "minecraft:spider", "minecraft:creeper"],
+    "minheight": -64,
+    "maxheight": -1,
+    "healthmultiply": 1.45,
+    "damagemultiply": 1.3,
+    "speedmultiply": 1.06
+  },
+  {
+    "when": "finalize",
+    "dimension": "minecraft:overworld",
+    "mob": ["minecraft:zombie", "minecraft:husk", "minecraft:skeleton", "minecraft:stray", "minecraft:spider", "minecraft:creeper"],
+    "minheight": 0,
+    "maxheight": 47,
+    "seesky": false,
+    "healthmultiply": 1.2,
+    "damagemultiply": 1.15
+  },
+  {
+    "when": "finalize",
+    "dimension": "minecraft:overworld",
+    "mob": ["minecraft:zombie", "minecraft:husk", "minecraft:skeleton", "minecraft:stray", "minecraft:spider", "minecraft:creeper"],
+    "minheight": 48,
+    "maxheight": 639,
+    "seesky": false,
+    "healthmultiply": 1.1,
+    "damagemultiply": 1.05
+  },
+  {
+    "when": "finalize",
+    "dimension": "minecraft:overworld",
+    "mob": ["creeperoverhaul:cave_creeper", "creeperoverhaul:dripstone_creeper", "endermanoverhaul:cave_enderman", "regions_unexplored:ashen"],
+    "minheight": -320,
+    "maxheight": -257,
+    "healthmultiply": 1.8,
+    "damagemultiply": 1.5,
+    "speedmultiply": 1.1
+  },
+  {
+    "when": "finalize",
+    "dimension": "minecraft:overworld",
+    "mob": ["creeperoverhaul:cave_creeper", "creeperoverhaul:dripstone_creeper", "endermanoverhaul:cave_enderman", "regions_unexplored:ashen"],
+    "minheight": -256,
+    "maxheight": -129,
+    "healthmultiply": 1.6,
+    "damagemultiply": 1.35,
+    "speedmultiply": 1.08
+  },
+  {
+    "when": "finalize",
+    "dimension": "minecraft:overworld",
+    "mob": ["creeperoverhaul:cave_creeper", "creeperoverhaul:dripstone_creeper", "endermanoverhaul:cave_enderman", "regions_unexplored:ashen"],
+    "minheight": -128,
+    "maxheight": -65,
+    "healthmultiply": 1.35,
+    "damagemultiply": 1.2,
+    "speedmultiply": 1.05
+  },
+  {
+    "when": "finalize",
+    "dimension": "minecraft:overworld",
+    "mob": ["creeperoverhaul:cave_creeper", "creeperoverhaul:dripstone_creeper", "endermanoverhaul:cave_enderman", "regions_unexplored:ashen"],
+    "minheight": -64,
+    "maxheight": -1,
+    "healthmultiply": 1.2,
+    "damagemultiply": 1.1
+  },
+  {
+    "when": "finalize",
+    "dimension": "minecraft:overworld",
+    "mob": ["creeperoverhaul:cave_creeper", "creeperoverhaul:dripstone_creeper", "endermanoverhaul:cave_enderman", "regions_unexplored:ashen"],
+    "minheight": 0,
+    "maxheight": 47,
+    "seesky": false,
+    "healthmultiply": 1.1
+  }
+]

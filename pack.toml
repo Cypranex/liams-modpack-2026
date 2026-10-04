@@ -1,0 +1,16 @@
+name = "Liam's Modpack 2026"
+author = "Liam"
+version = "0.0.1"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "65c15fe9d1a5f80c4667176a0208611c918b5d3da6d504531b131dd60a4a8f87"
+
+[versions]
+minecraft = "1.21.1"
+neoforge = "21.1.255"
+
+[options]
+datapack-folder = "datapacks"

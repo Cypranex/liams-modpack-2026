@@ -1,0 +1,32 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "neverloadthisrecipekthx"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "eldritch_end:aberration_heart"
+    },
+    "O": {
+      "item": "simplyswords:runic_tablet"
+    },
+    "S": {
+      "item": "simplyswords:empowered_remnant"
+    },
+    "X": {
+      "item": "simplyswords:runic_twinblade"
+    }
+  },
+  "pattern": [
+    "#O#",
+    "OXO",
+    "#S#"
+  ],
+  "result": {
+    "count": 1,
+    "id": "simplyswords:dreadtide"
+  }
+}

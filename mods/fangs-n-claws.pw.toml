@@ -1,0 +1,13 @@
+name = "Fangs 'n Claws"
+filename = "fangs_n_claws-1.2.5.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "ac4a39fc38eb89d06076d5970a56d916c6a0719e"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8836720
+project-id = 1551870

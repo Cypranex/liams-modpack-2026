@@ -1,0 +1,43 @@
+[Global]
+	#Should explosions only start to heal when the night passes? (This would ignore all delays)
+	onlyHealPastMorning = false
+	#Should the explosiont:filter Block Tag be a Whitelist, or a Blacklist? (TRUE:WHITELIST, FALSE:BLACKLIST)
+	filterType = false
+	#Should the explosiont:dimension_filter Dimension Tag be a Whitelist, or a Blacklist? (TRUE:WHITELIST, FALSE:BLACKLIST)
+	dimensionFilterType = false
+	#Should healing blocks play sounds? (Set to false for a fully silent regen)
+	healSoundsEnabled = true
+
+[Explosiont]
+	#Should explosions be healed?
+	ExplosionHealingEnabled = true
+	#Should only creeper explosions be healed? (Excluding any other type of explosive)
+	OnlyHealCreepers = true
+	#How many ticks should pass until the healing starts after the explosion? (TICKS, 20 = 1 second on a non-laggy server)
+	# Default: 600
+	# Range: 0 ~ 100000
+	healDelayExplosion = 600
+	#How many ticks should it take between each heal for exploded blocks? (TICKS)
+	# Default: 10.0
+	# Range: 0.0 ~ 100.0
+	ticksPerHealExplosion = 10.0
+	#Past what number of blocks should rebuild speed start scaling for exploded blocks? (If this is set to 1000, past 1000, the speed will double every 1000 blocks, so at 2000 = 200% speed, 5000 = 500% speed, 0 = no scaling)
+	# Default: 1000
+	# Range: 0 ~ 100000
+	speedUpTresholdExplosion = 1000
+
+[Firent]
+	#Should fires be healed?
+	FireHealingEnabled = true
+	#How many ticks should pass until the healing starts after the fire? (TICKS, 20 = 1 second on a non-laggy server)
+	# Default: 18000
+	# Range: 0 ~ 100000
+	healDelayFire = 18000
+	#How many ticks should it take between each heal for burnt blocks? (TICKS)
+	# Default: 1.0
+	# Range: 0.0 ~ 100.0
+	ticksPerHealFire = 1.0
+	#Past what number of blocks should rebuild speed start scaling for burnt blocks? (If this is set to 1000, past 1000, the speed will double every 1000 blocks, so at 2000 = 200% speed, 5000 = 500% speed, 0 = no scaling)
+	# Default: 2500
+	# Range: 0 ~ 100000
+	speedUpTresholdFire = 2500

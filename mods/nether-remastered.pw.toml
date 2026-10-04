@@ -1,0 +1,13 @@
+name = "Nether Remastered"
+filename = "nether_remastered-2.6-neoforge-1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/EGQuQeJV/versions/w356CaSk/nether_remastered-2.6-neoforge-1.21.1.jar"
+hash-format = "sha512"
+hash = "161c1b0447d712eccc3875c41deee7e2cae0fe0a100c2af7763f6f3cca35bf5e384704d0f84c7cfaa3fabf3fdfdc3509dda026006c83812c56729f71de61c8ec"
+
+[update]
+[update.modrinth]
+mod-id = "EGQuQeJV"
+version = "w356CaSk"

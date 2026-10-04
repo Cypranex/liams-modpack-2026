@@ -1,0 +1,13 @@
+name = "Polyarmory: Combat Collection"
+filename = "polyarmory-neoforge-1.0.0-1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "fee83a659a070599c894a9a2a763f6956b09fbd5"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7564413
+project-id = 1451788

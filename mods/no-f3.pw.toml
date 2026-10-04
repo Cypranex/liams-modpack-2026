@@ -1,0 +1,13 @@
+name = "no f3"
+filename = "no-f3-4.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/MPFUV2Ds/versions/ajcRa0aS/no-f3-4.jar"
+hash-format = "sha512"
+hash = "190e2d79399bfc6bd482768403c480b6e0ff50fb2eb14b7175825a7d3c5d85722200447c453c05be7cc04a4fdcec94ae3820d876c57a73e3520a6b113a612de1"
+
+[update]
+[update.modrinth]
+mod-id = "MPFUV2Ds"
+version = "ajcRa0aS"

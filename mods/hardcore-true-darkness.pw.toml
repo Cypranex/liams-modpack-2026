@@ -1,0 +1,13 @@
+name = "Hardcore True Darkness"
+filename = "hardcore_true_darkness-6.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "1f24aff310a91a61f04bf90d74f7fdb2870605af"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8795099
+project-id = 1280023

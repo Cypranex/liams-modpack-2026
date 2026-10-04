@@ -1,0 +1,13 @@
+name = "SeeU"
+filename = "seeu-neoforge-1.21.1-0.9.1.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/coyNPDey/versions/G1VqnokG/seeu-neoforge-1.21.1-0.9.1.1.jar"
+hash-format = "sha512"
+hash = "bd7e08ce6caf6b73f6ad9f4c793033759d9f3b800d7daa22b339ce0d614c9ff1738f10e61f5669c8ad08b3603e5b80da4aa8d5409c9114d3b44e20c81b075244"
+
+[update]
+[update.modrinth]
+mod-id = "coyNPDey"
+version = "G1VqnokG"
