@@ -65,6 +65,10 @@ file = "config/servercore/config.yml"
 hash = "77b6ea2b491a838d4f4c691d18e4f50de27d3ba393bb0739b425c606927ba1a5"
 
 [[files]]
+file = "datapacks/Liam's FreeTerraForged Preset.zip"
+hash = "d60b9d9921f44daef1edbecfabd00c08e875a5b76baa20f6e96e294a84eba18f"
+
+[[files]]
 file = "kubejs/data/apotheosis/data_maps/item/loot_category_overrides.json"
 hash = "724f4f83d3aa7d19a8ab58a6cc07c6acbbb68cfb4e8c97498ebc0e24195a4b16"
 
