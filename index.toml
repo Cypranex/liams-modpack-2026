@@ -29,6 +29,10 @@ file = "config/incontrol/spawner.json"
 hash = "019408e08fe61128160fc6752e8f37f31944928648f90615a26b3e6967baba26"
 
 [[files]]
+file = "config/irons_restrictions-common.toml"
+hash = "135c5a81719235ce405070ed29b59b3844f2f26a07561a7e9b24c6db265d8f00"
+
+[[files]]
 file = "config/lithium.properties"
 hash = "7555077253c07f0695f66834d6f22d3ff4a2e076f384f5fe42c3f8365c002020"
 
@@ -49,6 +53,10 @@ file = "config/paxi-neoforge-1_21.toml"
 hash = "93e6db1672e3a55fd77265c85a394a691a3206c7a49637fa42dc5b9853f51f86"
 
 [[files]]
+file = "config/pmweather-server.toml"
+hash = "ecbf4c205c059603d5032d54c75ffeef63ee7e5a01460eb9db742de2c45254ac"
+
+[[files]]
 file = "config/quark-common.toml"
 hash = "133ada38bc047d26b508ad140dfd39af86153682241132e800a92db6653ffbbd"
 
@@ -63,6 +71,14 @@ hash = "9c085189f8f23b08a76552fd11549593f89c86293edc70fdd6354b128e927985"
 [[files]]
 file = "config/servercore/config.yml"
 hash = "77b6ea2b491a838d4f4c691d18e4f50de27d3ba393bb0739b425c606927ba1a5"
+
+[[files]]
+file = "config/voicechat/voicechat-server.properties"
+hash = "55b6c2c7eeed565835b19c98dad8a408ea6f58dbc4bb4a478cd2c55c951b6724"
+
+[[files]]
+file = "datapacks/Apotheosis Gems Rare.zip"
+hash = "5f015ec83f97779457effc89dd89e1a35f4407ef68564bc7536e466fc72b8351"
 
 [[files]]
 file = "datapacks/Liam's FreeTerraForged Preset.zip"
@@ -151,6 +167,10 @@ hash = "518b6216f911f760c34e9e78c5fde10b0dfa15734851de5bb10d52c5420ce488"
 [[files]]
 file = "kubejs/data/simplyswords/recipe/mythicmetals_compat/adamantite/adamantite_twinblade.json"
 hash = "d5ca2831a686fa65befc9a7cc2a15b9fa5295987f6126155f38574abbde421ed"
+
+[[files]]
+file = "kubejs/server_scripts/aeronautics_aether_recipes.js"
+hash = "f52e465a5f45bd74514f7cfd58c193433b2081c1b1610070fcdec457b71a35c7"
 
 [[files]]
 file = "kubejs/server_scripts/depth_chest_rewards.js"
@@ -379,6 +399,11 @@ metafile = true
 [[files]]
 file = "mods/deep-aether.pw.toml"
 hash = "e3211d7d54a7203a183ed3b453be5dd52d27f389dbef26dd7e769f20e1dea81f"
+metafile = true
+
+[[files]]
+file = "mods/default-options.pw.toml"
+hash = "a6967d761dde867ccc1af53dc9f4e530eb9917a9cb21d0fc15708e8cd2c0f2ba"
 metafile = true
 
 [[files]]
@@ -661,6 +686,11 @@ hash = "adf945224f27dae32902e21466da01ba0803d1ecba8e6a6fdb20178619cfd2ff"
 metafile = true
 
 [[files]]
+file = "mods/irons-spells-n-spellbooks-restricitons.pw.toml"
+hash = "382160851eecbbf7aaa9dceae151dbb12147a0cac047384f32fb99bc3d9d4276"
+metafile = true
+
+[[files]]
 file = "mods/irons-spells-n-spellbooks.pw.toml"
 hash = "4623bbc102dd3b7648a96569a1ab49b868774d46355b305ac40c4c79ad1c74e2"
 metafile = true
@@ -791,6 +821,10 @@ hash = "cf98a93ea429786de97d9d7b70c72468909e0b9d1799def65b7c29c419c8d362"
 metafile = true
 
 [[files]]
+file = "mods/naturalregrowth-4.3.0-registry-fix.jar"
+hash = "cf262c10452d362aad76bd4386e9b2ee54b1c68d52b758817b1b07de21fca6d4"
+
+[[files]]
 file = "mods/nether-remastered.pw.toml"
 hash = "2e6ee0ac7c755d4244be58e12a61936154eed972270659bde10471fe6d7f48f5"
 metafile = true
@@ -863,6 +897,11 @@ metafile = true
 [[files]]
 file = "mods/prickle.pw.toml"
 hash = "c99c5bac469e8d6ece5aae80f08635e3bbb8367f0c586b6288573c725faefe69"
+metafile = true
+
+[[files]]
+file = "mods/protomanlys-weather.pw.toml"
+hash = "9458b75e060d61edd0b9cd33c7cf41bc6d26dca7cd6e5732535106f1d6301a35"
 metafile = true
 
 [[files]]

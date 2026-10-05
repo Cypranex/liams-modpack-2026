@@ -1,0 +1,13 @@
+name = "Irons Spells 'n Spellbooks Restrictions"
+filename = "irons_restrictions-1.21.1-5.2.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/Hrfqig7V/versions/CZzeonys/irons_restrictions-1.21.1-5.2.0.jar"
+hash-format = "sha512"
+hash = "4dede15acea9d561fb5c6187a6ff576259be835fb3efe1b6847a3cb43ed44b02364c00950bbae6372efa8cf01ca5cfff9319b379f592e9d3a685789af314f5a5"
+
+[update]
+[update.modrinth]
+mod-id = "Hrfqig7V"
+version = "CZzeonys"
