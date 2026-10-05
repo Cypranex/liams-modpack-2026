@@ -73,6 +73,10 @@ file = "config/servercore/config.yml"
 hash = "77b6ea2b491a838d4f4c691d18e4f50de27d3ba393bb0739b425c606927ba1a5"
 
 [[files]]
+file = "config/tide/tide_server.json"
+hash = "21637d8c2986c8e786ef18c1cf974f1406127cdf0860122174b2d12dccdee1bf"
+
+[[files]]
 file = "config/voicechat/voicechat-server.properties"
 hash = "55b6c2c7eeed565835b19c98dad8a408ea6f58dbc4bb4a478cd2c55c951b6724"
 
