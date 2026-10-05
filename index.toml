@@ -17,6 +17,18 @@ file = "config/cumulus_menus-client.toml"
 hash = "63515bffd023b9bfff8f54db7d180f12ec53062255d9e290ed0c3a1ae51450ed"
 
 [[files]]
+file = "config/defaultoptions/keybindings.txt"
+hash = "932073577184658a64ddd56e9c35641f3122bf88cb5535d103f893fa97807f70"
+
+[[files]]
+file = "config/defaultoptions/options.txt"
+hash = "7f881ee37fc0133cf89ce5a956d7ca565ab76f4aee59b5ac531be46eb0bf134b"
+
+[[files]]
+file = "config/defaultoptions/servers.dat"
+hash = "7fc5e334bb7c997e20dbf96445bba15a70f212561fc915f87608127526f8c66d"
+
+[[files]]
 file = "config/enhancedcelestials2core/mixins.properties"
 hash = "36b0d118a1924aa3f2436fa16cc46a366c9a7f138765ae86caec05977be98bd5"
 
@@ -286,7 +298,7 @@ hash = "0ea6e77ad4f3424147a9852bfb23a08ea50ed0e90019b8fbd5c4f5f9ab6a09b6"
 
 [[files]]
 file = "kubejs/server_scripts/remove_portable_engines_and_deep_seas.js"
-hash = "242a77cb06f4b3ea65c0c6c8a5a134a5b2c9c68c6294a77dec527b5751cef881"
+hash = "e90e9853bb46ffb7ce03aa3608cce49739d0d46d90dd8b784b80967070e602ef"
 
 [[files]]
 file = "mods/3dskinlayers.pw.toml"

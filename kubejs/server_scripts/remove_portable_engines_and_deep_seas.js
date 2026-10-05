@@ -14,6 +14,14 @@ ServerEvents.recipes(event => {
   })
   event.remove({ id: 'simulated:crafting/portable_engine_dyeing' })
 
+  const highSeasItems = [
+    'boat_engine', 'seaglide'
+  ]
+
+  highSeasItems.forEach(item => {
+    event.remove({ output: `create_high_seas:${item}` })
+  })
+
   // The mod's own recipes include custom recipe types whose outputs cannot
   // always be matched by an item-output filter.
   event.remove({ mod: 'create_submarine' })
