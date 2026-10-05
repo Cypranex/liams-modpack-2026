@@ -456,6 +456,11 @@ hash = "22286fa216349c0767808903a0a38662857d2adee54950a18cbf26c167a06029"
 metafile = true
 
 [[files]]
+file = "mods/colorwheel.pw.toml"
+hash = "6867922a8ccface85edc8df2268e4996c6ab6867b9da34258b6bf6efc0bc2efa"
+metafile = true
+
+[[files]]
 file = "mods/comforts.pw.toml"
 hash = "36f2f6e74b7dbeccb504572d47006582207544fa234a095093b97adfc7ecd5ac"
 metafile = true
@@ -645,6 +650,11 @@ hash = "70f586b80beb657a8676b1147b1b96c4abd0aa421c819aa138038e082c41bc4d"
 metafile = true
 
 [[files]]
+file = "mods/enhanced-celestials-2-shader-support.pw.toml"
+hash = "118cc51b91c098a97d8a95de27c43d95556515a3bde0dce7a2a3eb1eff336a64"
+metafile = true
+
+[[files]]
 file = "mods/entity-model-features.pw.toml"
 hash = "b363434af9ce56fc7243c0db537bec2f99ecbfc618e226dbeda8835f435b887c"
 metafile = true
@@ -807,6 +817,11 @@ metafile = true
 [[files]]
 file = "mods/in-control.pw.toml"
 hash = "8311cf201aa8d3c5d0c0291194f3c76d825591122b7ccf4f2fea08f6b39af526"
+metafile = true
+
+[[files]]
+file = "mods/iris.pw.toml"
+hash = "db1c1e6382878b78e994dba1b9026935f8d1c5ca685c89d2437858e0a0dcab58"
 metafile = true
 
 [[files]]
@@ -1317,3 +1332,11 @@ metafile = true
 file = "mods/zfastnoise.pw.toml"
 hash = "b24c213b8727e80ca559670e97971c735c4dc4be1d1a4bd637c41450e7654c1e"
 metafile = true
+
+[[files]]
+file = "shaderpacks/Shader Pack.txt"
+hash = "d798b37468d3b21da1811b5aef687967e4ea8eeebdd600f66ebbaf430f63faa9"
+
+[[files]]
+file = "shaderpacks/Shader Pack.zip"
+hash = "4b6efa3d726fd3df4929d02ce9e1c894a33074ab3e12b57845ffe3f67243b556"
