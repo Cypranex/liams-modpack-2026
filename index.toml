@@ -821,10 +821,6 @@ hash = "cf98a93ea429786de97d9d7b70c72468909e0b9d1799def65b7c29c419c8d362"
 metafile = true
 
 [[files]]
-file = "mods/naturalregrowth-4.3.0-registry-fix.jar"
-hash = "cf262c10452d362aad76bd4386e9b2ee54b1c68d52b758817b1b07de21fca6d4"
-
-[[files]]
 file = "mods/nether-remastered.pw.toml"
 hash = "2e6ee0ac7c755d4244be58e12a61936154eed972270659bde10471fe6d7f48f5"
 metafile = true
@@ -897,11 +893,6 @@ metafile = true
 [[files]]
 file = "mods/prickle.pw.toml"
 hash = "c99c5bac469e8d6ece5aae80f08635e3bbb8367f0c586b6288573c725faefe69"
-metafile = true
-
-[[files]]
-file = "mods/protomanlys-weather.pw.toml"
-hash = "9458b75e060d61edd0b9cd33c7cf41bc6d26dca7cd6e5732535106f1d6301a35"
 metafile = true
 
 [[files]]
