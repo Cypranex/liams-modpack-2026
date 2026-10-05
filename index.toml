@@ -67,6 +67,7 @@ hash = "f6c8d0fa635dfec81ca6f9c894a167962719f73839859922401fed49f29dcd38"
 [[files]]
 file = "config/incontrol/spawn.json"
 hash = "0354b4278805e2b9f55d0b4f961c46cc1fb51bef7f4138ed2f60e56f4991a318"
+hash = "0354b4278805e2b9f55d0b4f961c46cc1fb51bef7f4138ed2f60e56f4991a318"
 
 [[files]]
 file = "config/incontrol/spawner.json"
@@ -245,6 +246,26 @@ file = "kubejs/data/caverns_and_chasms/worldgen/structure/vault.json"
 hash = "65cb6bdcbad2650a59e264d64fa62ee84917c67322b9d404cef0cfde38302e0d"
 
 [[files]]
+file = "kubejs/data/caverns_and_chasms/worldgen/placed_feature/ore_gold_and_silver_lower.json"
+hash = "29942fcb602be4d02dad9dd2d9c7c7c4f62c235c983ef8e095fd42f4c42f859c"
+
+[[files]]
+file = "kubejs/data/caverns_and_chasms/worldgen/placed_feature/ore_gold_buried_with_silver.json"
+hash = "e612c3692d8a8122a915cd06708eb5e2556ce6e7e0bd382e61c3640618f34d5e"
+
+[[files]]
+file = "kubejs/data/caverns_and_chasms/worldgen/placed_feature/ore_silver_buried_with_gold.json"
+hash = "80a48235c2a0b0df211de1216626d5afdf3accb75fc1cb09c2053f7f7347ed0b"
+
+[[files]]
+file = "kubejs/data/caverns_and_chasms/worldgen/placed_feature/ore_spinel_buried.json"
+hash = "df5c353c920db3c7f3fdbb8eca29060b1cf9e38fe564ed4a1fbb92ef81a8e8e4"
+
+[[files]]
+file = "kubejs/data/caverns_and_chasms/worldgen/structure/vault.json"
+hash = "65cb6bdcbad2650a59e264d64fa62ee84917c67322b9d404cef0cfde38302e0d"
+
+[[files]]
 file = "kubejs/data/create/worldgen/placed_feature/zinc_ore.json"
 hash = "88228f1829276017c1ed4af0a1944b6fff1edc7e6f00ce35a99360fb3ad511a0"
 
@@ -326,6 +347,7 @@ hash = "f52e465a5f45bd74514f7cfd58c193433b2081c1b1610070fcdec457b71a35c7"
 
 [[files]]
 file = "kubejs/server_scripts/depth_chest_rewards.js"
+hash = "58b0c8ffeaa4993634b81a3f576844177ddd8b2f74632722af6c2c65b37d5b24"
 hash = "58b0c8ffeaa4993634b81a3f576844177ddd8b2f74632722af6c2c65b37d5b24"
 
 [[files]]
@@ -485,11 +507,6 @@ metafile = true
 [[files]]
 file = "mods/caverns-and-chasms.pw.toml"
 hash = "574149e660cbe7f90bcde3838770bc076cfb17858583996f35cef180bc6d07e4"
-metafile = true
-
-[[files]]
-file = "mods/chefs-delight.pw.toml"
-hash = "114dcc3cdc8283320c4a22a586cb9f826490fc2332e0d7b1b88b78043fda5634"
 metafile = true
 
 [[files]]
