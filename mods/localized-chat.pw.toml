@@ -1,13 +1,13 @@
 name = "Localized Chat"
-filename = "LocalizedChat-neoforge-1.21.1-5.2.1.jar"
+filename = "LocalizedChat-neoforge-1.21.1-5.4.0.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/c8zyAYHe/versions/TIWxEoAA/LocalizedChat-neoforge-1.21.1-5.2.1.jar"
+url = "https://cdn.modrinth.com/data/c8zyAYHe/versions/fudezCG6/LocalizedChat-neoforge-1.21.1-5.4.0.jar"
 hash-format = "sha512"
-hash = "6a6a4050fce1a50279f75b2c185762ffdae3352dc9d1155c803cfe0451c0246e6ee9c8a9ae978b7b12c10d9aa8fcd72f3d49687271fd27ff12c8213a881b5c86"
+hash = "79ed07da5b91849bbbceadd16affd5c7c7c80e61763a5554fc12ba773b662225be1e52580fb7a79387b245993b5f01848c47421fe406ca333b6e134b3ff92112"
 
 [update]
 [update.modrinth]
 mod-id = "c8zyAYHe"
-version = "TIWxEoAA"
+version = "fudezCG6"

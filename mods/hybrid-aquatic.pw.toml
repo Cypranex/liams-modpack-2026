@@ -1,13 +1,13 @@
 name = "Hybrid Aquatic"
-filename = "hybrid_aquatic-neoforge-1.21.1-1.7.3.jar"
+filename = "hybrid_aquatic-neoforge-1.21.1-1.7.4.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/HH4FjUqN/versions/WoaSrx48/hybrid_aquatic-neoforge-1.21.1-1.7.3.jar"
+url = "https://cdn.modrinth.com/data/HH4FjUqN/versions/jdOU7Pzu/hybrid_aquatic-neoforge-1.21.1-1.7.4.jar"
 hash-format = "sha512"
-hash = "77526884a075ff99f2b9ea5a821ee3f987f72cdcea80d49938679dd59ef68d92a3519649bcc6c1d02e6b8845b177a86de907aedb1610e3556a39f96671333f8e"
+hash = "c71f952db5416b019007c71175c151c443a1724acce20e1a0ed7be9e4c88a68061b5cf18d57625414941928e5a21ac1f141ca922cc45ff627ecad9039e5f2a2b"
 
 [update]
 [update.modrinth]
 mod-id = "HH4FjUqN"
-version = "WoaSrx48"
+version = "jdOU7Pzu"
