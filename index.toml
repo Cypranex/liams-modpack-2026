@@ -13,6 +13,10 @@ file = "config/create-client.toml"
 hash = "a24ca52e9c93885f97f5cea636b5f34fc7be72d800b20aee21ad4e9bc10b97dc"
 
 [[files]]
+file = "config/create_submarine-client.toml"
+hash = "8876263a73287c1a3b103858d1d1f0d682dc3e224902044697908cbf1f52f56c"
+
+[[files]]
 file = "config/cumulus_menus-client.toml"
 hash = "63515bffd023b9bfff8f54db7d180f12ec53062255d9e290ed0c3a1ae51450ed"
 
