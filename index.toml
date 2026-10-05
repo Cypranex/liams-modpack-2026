@@ -1,8 +1,20 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/aether-startup.toml"
+hash = "e3915bf50d806c5caa3dcebc243818c2c4aeb149599b33e6286ea2828370dd69"
+
+[[files]]
 file = "config/apotheosis/apotheosis.cfg"
 hash = "ad433c66e209e94e11a907ff64f712a2c9664ce35fd37e7e816d38efd626c772"
+
+[[files]]
+file = "config/create-client.toml"
+hash = "a24ca52e9c93885f97f5cea636b5f34fc7be72d800b20aee21ad4e9bc10b97dc"
+
+[[files]]
+file = "config/cumulus_menus-client.toml"
+hash = "63515bffd023b9bfff8f54db7d180f12ec53062255d9e290ed0c3a1ae51450ed"
 
 [[files]]
 file = "config/enhancedcelestials2core/mixins.properties"
@@ -55,6 +67,26 @@ hash = "1ea0142ca426103fa7c62bc43999ddf420102e8558a5463d3ca07961bf4dc400"
 [[files]]
 file = "config/nether remastered.toml"
 hash = "2d73e0101fdbec4e5967079683e11aa2f691103a00fa12040f33a068fbd2be4f"
+
+[[files]]
+file = "config/obscuria/aquamirae-client.toml"
+hash = "052a7c7dcd2003c1eaf95b5750199584897fdd5e7c1f3d544e44e0bfe26778be"
+
+[[files]]
+file = "config/obscuria/aquamirae-common-1.toml.bak"
+hash = "d27849b34a7e0ac1dd6ed69adeade44a686b46df849959c2ec976bb56a4d0c96"
+
+[[files]]
+file = "config/obscuria/aquamirae-common.toml"
+hash = "a0212675cc77b74d72a47f21026a749d90de1d81994b3aa6c92ce1698b8e1fb6"
+
+[[files]]
+file = "config/obscuria/aquamirae-early.json"
+hash = "48d7cb1ed8ff2224a17840d28c3ebddc47bd355d46df2ef1eba7778cfffcc125"
+
+[[files]]
+file = "config/obscuria/cache/aquamirae-keepsakes.json"
+hash = "1be1a2361ff9cef42c36b3c13f596110bf443552e080903ef3058401bbd66815"
 
 [[files]]
 file = "config/particle_core_config.toml"
@@ -110,7 +142,7 @@ hash = "ecbf4c205c059603d5032d54c75ffeef63ee7e5a01460eb9db742de2c45254ac"
 
 [[files]]
 file = "config/quark-common.toml"
-hash = "133ada38bc047d26b508ad140dfd39af86153682241132e800a92db6653ffbbd"
+hash = "ef4a4308e9108b02d30e9571381fe4ea8e7132d5faeee4fa1764aa25235e09d3"
 
 [[files]]
 file = "config/ragdoll_corpse-common.toml"
@@ -127,6 +159,10 @@ hash = "47ce0829199dd60876f1371a93c6e3534d927d55ce2b95d11418fddfb9db8305"
 [[files]]
 file = "config/servercore/config.yml"
 hash = "77b6ea2b491a838d4f4c691d18e4f50de27d3ba393bb0739b425c606927ba1a5"
+
+[[files]]
+file = "config/supplementaries-client.toml"
+hash = "fcbff2c28c3ae0282ce1805e43e495bc76a9cb7d6bcd930bbc5dc31839cfd2e6"
 
 [[files]]
 file = "config/supplementaries-common.toml"
