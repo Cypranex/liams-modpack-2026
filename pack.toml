@@ -8,6 +8,7 @@ file = "index.toml"
 hash-format = "sha256"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 hash = "8eb677dc5471b9130d002356f1ab24564ac002c9d068910e3291032ab54eb608"
 =======
 hash = "5d594728d9222485c92244bb0189215e1e78b8ef6d3be2eb68c467176e8ee9b1"
@@ -15,6 +16,9 @@ hash = "5d594728d9222485c92244bb0189215e1e78b8ef6d3be2eb68c467176e8ee9b1"
 =======
 hash = "644a12929f393e6204b7521b33815753f254c4e8157728550abd06955b526e8a"
 >>>>>>> d030e15 (Disable ecliptic season tooltips)
+=======
+hash = "a5f0bdff313c78d4c7fa7b3183c9d119c72b1468f7a15fab0f1995b75fc6c76c"
+>>>>>>> e86c551 (Add hybrid aquatic mountain fix, update quark and aces spells, add upgrade-aquatic)
 
 [versions]
 minecraft = "1.21.1"

@@ -1372,11 +1372,14 @@ hash = "09bbef89f8f99a1d499e60f4973cca3c46ccb0bf54eeb89723e7af5c739310eb"
 metafile = true
 
 [[files]]
+<<<<<<< HEAD
 file = "mods/variants-and-ventures.pw.toml"
 hash = "968071ee9dcd29fd9c5444242859a3e30715f48f7ca7378a2ff3fa7358e04cf7"
 metafile = true
 
 [[files]]
+=======
+>>>>>>> e86c551 (Add hybrid aquatic mountain fix, update quark and aces spells, add upgrade-aquatic)
 file = "mods/wakes-reforged.pw.toml"
 hash = "8e464c45945b7311b01d0be50a714e8a64d389dc27331f4a27d7981fd29131b9"
 metafile = true
