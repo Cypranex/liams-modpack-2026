@@ -6,7 +6,11 @@ pack-format = "packwiz:1.1.0"
 [index]
 file = "index.toml"
 hash-format = "sha256"
+<<<<<<< HEAD
 hash = "8eb677dc5471b9130d002356f1ab24564ac002c9d068910e3291032ab54eb608"
+=======
+hash = "5d594728d9222485c92244bb0189215e1e78b8ef6d3be2eb68c467176e8ee9b1"
+>>>>>>> 42a9dee (Caverns and chasms)
 
 [versions]
 minecraft = "1.21.1"

@@ -66,7 +66,11 @@ hash = "f6c8d0fa635dfec81ca6f9c894a167962719f73839859922401fed49f29dcd38"
 
 [[files]]
 file = "config/incontrol/spawn.json"
+<<<<<<< HEAD
 hash = "5b90085c4aff81b036b5aa9638922cd61027baf67c6289502fe26879dad2ebfe"
+=======
+hash = "0354b4278805e2b9f55d0b4f961c46cc1fb51bef7f4138ed2f60e56f4991a318"
+>>>>>>> 42a9dee (Caverns and chasms)
 
 [[files]]
 file = "config/incontrol/spawner.json"
@@ -249,6 +253,7 @@ file = "kubejs/data/caverns_and_chasms/worldgen/structure/vault.json"
 hash = "65cb6bdcbad2650a59e264d64fa62ee84917c67322b9d404cef0cfde38302e0d"
 
 [[files]]
+<<<<<<< HEAD
 file = "kubejs/data/caverns_and_chasms/worldgen/placed_feature/ore_gold_and_silver_lower.json"
 hash = "29942fcb602be4d02dad9dd2d9c7c7c4f62c235c983ef8e095fd42f4c42f859c"
 
@@ -269,6 +274,8 @@ file = "kubejs/data/caverns_and_chasms/worldgen/structure/vault.json"
 hash = "65cb6bdcbad2650a59e264d64fa62ee84917c67322b9d404cef0cfde38302e0d"
 
 [[files]]
+=======
+>>>>>>> 42a9dee (Caverns and chasms)
 file = "kubejs/data/create/worldgen/placed_feature/zinc_ore.json"
 hash = "88228f1829276017c1ed4af0a1944b6fff1edc7e6f00ce35a99360fb3ad511a0"
 
@@ -351,7 +358,10 @@ hash = "f52e465a5f45bd74514f7cfd58c193433b2081c1b1610070fcdec457b71a35c7"
 [[files]]
 file = "kubejs/server_scripts/depth_chest_rewards.js"
 hash = "58b0c8ffeaa4993634b81a3f576844177ddd8b2f74632722af6c2c65b37d5b24"
+<<<<<<< HEAD
 hash = "58b0c8ffeaa4993634b81a3f576844177ddd8b2f74632722af6c2c65b37d5b24"
+=======
+>>>>>>> 42a9dee (Caverns and chasms)
 
 [[files]]
 file = "kubejs/server_scripts/remove_portable_engines_and_deep_seas.js"
@@ -518,11 +528,14 @@ hash = "574149e660cbe7f90bcde3838770bc076cfb17858583996f35cef180bc6d07e4"
 metafile = true
 
 [[files]]
+<<<<<<< HEAD
 file = "mods/chefs-delight.pw.toml"
 hash = "114dcc3cdc8283320c4a22a586cb9f826490fc2332e0d7b1b88b78043fda5634"
 metafile = true
 
 [[files]]
+=======
+>>>>>>> 42a9dee (Caverns and chasms)
 file = "mods/climate-rivers.pw.toml"
 hash = "b468173f5c612f78a2a715a54a7a228d90322c8fd5b619a50be2597fb1e46c50"
 metafile = true
