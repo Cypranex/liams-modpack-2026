@@ -5,6 +5,18 @@ file = "config/apotheosis/apotheosis.cfg"
 hash = "ad433c66e209e94e11a907ff64f712a2c9664ce35fd37e7e816d38efd626c772"
 
 [[files]]
+file = "config/enhancedcelestials2core/mixins.properties"
+hash = "36b0d118a1924aa3f2436fa16cc46a366c9a7f138765ae86caec05977be98bd5"
+
+[[files]]
+file = "config/enhancedcelestials2core/translations-cache/en_us.json"
+hash = "d778c9cb9ca4272326dbf8577b9ed4ed5951cbaad116851a0e709b0f5074afe6"
+
+[[files]]
+file = "config/enhancedcelestials2core/translations.json"
+hash = "24c34c89632454822eb2acc91d2b38b1a72fd370925c544c796396b2b174a205"
+
+[[files]]
 file = "config/entityculling.json"
 hash = "4ed978bf3fbb16c0f1101c29c7735549e161bc337396c507e5a6adf3e81885a7"
 
@@ -109,8 +121,16 @@ file = "config/regions_unexplored/common.json"
 hash = "9c085189f8f23b08a76552fd11549593f89c86293edc70fdd6354b128e927985"
 
 [[files]]
+file = "config/seeu-client.json"
+hash = "47ce0829199dd60876f1371a93c6e3534d927d55ce2b95d11418fddfb9db8305"
+
+[[files]]
 file = "config/servercore/config.yml"
 hash = "77b6ea2b491a838d4f4c691d18e4f50de27d3ba393bb0739b425c606927ba1a5"
+
+[[files]]
+file = "config/supplementaries-common.toml"
+hash = "b014d704c97dfd8e585d766c8d6abcac00aea25c9ac306f269728d6562cc5e9b"
 
 [[files]]
 file = "config/tide/tide_server.json"
@@ -223,6 +243,10 @@ hash = "f52e465a5f45bd74514f7cfd58c193433b2081c1b1610070fcdec457b71a35c7"
 [[files]]
 file = "kubejs/server_scripts/depth_chest_rewards.js"
 hash = "0ea6e77ad4f3424147a9852bfb23a08ea50ed0e90019b8fbd5c4f5f9ab6a09b6"
+
+[[files]]
+file = "kubejs/server_scripts/remove_portable_engines_and_deep_seas.js"
+hash = "242a77cb06f4b3ea65c0c6c8a5a134a5b2c9c68c6294a77dec527b5751cef881"
 
 [[files]]
 file = "mods/3dskinlayers.pw.toml"
