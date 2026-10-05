@@ -137,6 +137,10 @@ file = "config/tide/tide_server.json"
 hash = "21637d8c2986c8e786ef18c1cf974f1406127cdf0860122174b2d12dccdee1bf"
 
 [[files]]
+file = "config/trulydark.properties"
+hash = "62442360bef40147ee8b9990f4bd58debea254f90c143da34533a431e8adfb8b"
+
+[[files]]
 file = "config/voicechat/voicechat-server.properties"
 hash = "55b6c2c7eeed565835b19c98dad8a408ea6f58dbc4bb4a478cd2c55c951b6724"
 
@@ -733,11 +737,6 @@ hash = "6b235aa1d0c43ab4fa7eacca3eb3c62530fa6ae1b44bc56aecc25c636a8ffc5b"
 metafile = true
 
 [[files]]
-file = "mods/hardcore-true-darkness.pw.toml"
-hash = "22ca6c4fbc6111972ad16f1f8a9f409068541581dc11e591182ea63d8d183217"
-metafile = true
-
-[[files]]
 file = "mods/hidden-names.pw.toml"
 hash = "79b1a08c2a6852ece32b04fa6ea3a892fc5f7c3af6cf75556d0b9659e41d9550"
 metafile = true
@@ -1166,6 +1165,10 @@ metafile = true
 file = "mods/tide.pw.toml"
 hash = "7b4d98d9a07495eb4c8e7181a6fbff38ffed9cec7995104937cd17b764dcd9e0"
 metafile = true
+
+[[files]]
+file = "mods/trulydark-neoforge-1.21.1-2.1.0.jar"
+hash = "1947b964f7c2c36b1ef4d544f775877bcce5f97f3c501f2d1cf8f1802bdbf689"
 
 [[files]]
 file = "mods/unlit-campfire.pw.toml"
