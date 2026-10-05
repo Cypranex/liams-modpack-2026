@@ -53,6 +53,46 @@ file = "config/paxi-neoforge-1_21.toml"
 hash = "93e6db1672e3a55fd77265c85a394a691a3206c7a49637fa42dc5b9853f51f86"
 
 [[files]]
+file = "config/paxi/resourcepacks/aether-regenerated.pw.toml"
+hash = "ba4187846b392f31c59c032e83e46644af7e5cfd1529c4c10a28beac3448fde2"
+metafile = true
+
+[[files]]
+file = "config/paxi/resourcepacks/aures-medieval-style-lootr.pw.toml"
+hash = "2f38aed008a57219d6b218d9c574341e2a3af472b77543f748e637750b1bb079"
+metafile = true
+
+[[files]]
+file = "config/paxi/resourcepacks/beautiful-enchanted-books.pw.toml"
+hash = "f95fcabcaee7588dcebbced4017083a1633afefc04c8c1612a0d7ac335d28d54"
+metafile = true
+
+[[files]]
+file = "config/paxi/resourcepacks/better-leaves.pw.toml"
+hash = "c26f8da8b6f013fb7e917e29fc6ae783eb379c539da12d9d61196bc762fd26e1"
+metafile = true
+
+[[files]]
+file = "config/paxi/resourcepacks/fancy-crops.pw.toml"
+hash = "0cb5fc8c29fb99530cc20e013347558e198a686420aaf996fa03b9e23fa291dd"
+metafile = true
+
+[[files]]
+file = "config/paxi/resourcepacks/neta.pw.toml"
+hash = "40817ac42c4b4c25a9b579c0dda4a456e5e66614353711ff140bc65d44ddfe3b"
+metafile = true
+
+[[files]]
+file = "config/paxi/resourcepacks/os-colorful-grasses.pw.toml"
+hash = "f917f523f840a66d9cab3a98ab9dce9c17dd9e5fa7be13cccc4c2da4a020cd29"
+metafile = true
+
+[[files]]
+file = "config/paxi/resourcepacks/universal-bushy-leaves.pw.toml"
+hash = "35e316a0b3d9076db048ff8ffd36acd016d33f4dca14035abb3e851bdbeb91bf"
+metafile = true
+
+[[files]]
 file = "config/pmweather-server.toml"
 hash = "ecbf4c205c059603d5032d54c75ffeef63ee7e5a01460eb9db742de2c45254ac"
 
@@ -79,6 +119,10 @@ hash = "21637d8c2986c8e786ef18c1cf974f1406127cdf0860122174b2d12dccdee1bf"
 [[files]]
 file = "config/voicechat/voicechat-server.properties"
 hash = "55b6c2c7eeed565835b19c98dad8a408ea6f58dbc4bb4a478cd2c55c951b6724"
+
+[[files]]
+file = "config/wakes-client.toml"
+hash = "51f2c4e7d90673329adddfff7e4b65e97bbd925cf93fb9578e83d55a66e769d3"
 
 [[files]]
 file = "datapacks/Apotheosis Gems Rare.zip"
@@ -188,6 +232,11 @@ metafile = true
 [[files]]
 file = "mods/aces-spell-utils.pw.toml"
 hash = "c236c1d05b9381bc12527d06a1e8ec360e1df99652e93fac24073c6edd627d5a"
+metafile = true
+
+[[files]]
+file = "mods/aether-emissivity.pw.toml"
+hash = "71b37e848b677dccc17c05a6a68a0a52f45d055a9f1e168d277946569bbb8a36"
 metafile = true
 
 [[files]]
@@ -585,6 +634,16 @@ hash = "73360e397134d238ee8fd21d33fd7f9275e9441f74f8f1b6ed92278877c0b9f1"
 metafile = true
 
 [[files]]
+file = "mods/fishing-real-extra-compatibility.pw.toml"
+hash = "eea89bf33b21fe1e312213bd68cf174405ee43c2ebe490725ea02221d9f7544d"
+metafile = true
+
+[[files]]
+file = "mods/fishing-real.pw.toml"
+hash = "c1e4014b420a33cf7fb761c45b89b44ede1895cb564f9bf4ca9a219311e5dcd2"
+metafile = true
+
+[[files]]
 file = "mods/flimsy-torches.pw.toml"
 hash = "f7ab2d9281464857a203814f9c3766ed8143c45c95d081b02c38a9adf69efa5f"
 metafile = true
@@ -825,6 +884,10 @@ hash = "cf98a93ea429786de97d9d7b70c72468909e0b9d1799def65b7c29c419c8d362"
 metafile = true
 
 [[files]]
+file = "mods/naturalregrowth-4.3.0-registry-fix.jar"
+hash = "cf262c10452d362aad76bd4386e9b2ee54b1c68d52b758817b1b07de21fca6d4"
+
+[[files]]
 file = "mods/nether-remastered.pw.toml"
 hash = "2e6ee0ac7c755d4244be58e12a61936154eed972270659bde10471fe6d7f48f5"
 metafile = true
@@ -897,6 +960,11 @@ metafile = true
 [[files]]
 file = "mods/prickle.pw.toml"
 hash = "c99c5bac469e8d6ece5aae80f08635e3bbb8367f0c586b6288573c725faefe69"
+metafile = true
+
+[[files]]
+file = "mods/protomanlys-weather.pw.toml"
+hash = "9458b75e060d61edd0b9cd33c7cf41bc6d26dca7cd6e5732535106f1d6301a35"
 metafile = true
 
 [[files]]
@@ -1045,6 +1113,11 @@ hash = "993b4e4970e1a5ef2fe7c6712212f57a84dcf8b31d4b6863540b6395c4f9ce09"
 metafile = true
 
 [[files]]
+file = "mods/spawn-animations.pw.toml"
+hash = "5e91e5aea16a60450da6df9c5cdb056ae5f2d25967fcc8b16c7ccb3a7403b7c9"
+metafile = true
+
+[[files]]
 file = "mods/streams-reflowing.pw.toml"
 hash = "71a0020d9e46242e4445a06fff9ca1dd5600ca8a6bc38629b07eb1182d1dc2ab"
 metafile = true
@@ -1177,9 +1250,4 @@ metafile = true
 [[files]]
 file = "mods/zfastnoise.pw.toml"
 hash = "b24c213b8727e80ca559670e97971c735c4dc4be1d1a4bd637c41450e7654c1e"
-metafile = true
-
-[[files]]
-file = "resourcepacks/beautiful-enchanted-books.pw.toml"
-hash = "f95fcabcaee7588dcebbced4017083a1633afefc04c8c1612a0d7ac335d28d54"
 metafile = true
