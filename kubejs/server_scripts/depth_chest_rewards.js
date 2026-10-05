@@ -1,12 +1,13 @@
-// Vanilla underground structure tables only. These one-time bonuses run when a
-// chest's loot table is rolled, using the chest position rather than player Y.
+// Underground structure tables. These one-time bonuses run when a chest's loot
+// table is rolled, using the chest position rather than player Y.
 LootJS.modifiers(event => {
   const tables = [
     'minecraft:chests/simple_dungeon',
     'minecraft:chests/abandoned_mineshaft',
     'minecraft:chests/stronghold_corridor',
     'minecraft:chests/stronghold_crossing',
-    'minecraft:chests/stronghold_library'
+    'minecraft:chests/stronghold_library',
+    'caverns_and_chasms:chests/vault'
   ]
 
   tables.forEach(table => {
