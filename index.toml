@@ -209,6 +209,10 @@ file = "datapacks/Apotheosis Gems Rare.zip"
 hash = "5f015ec83f97779457effc89dd89e1a35f4407ef68564bc7536e466fc72b8351"
 
 [[files]]
+file = "datapacks/Hybrid Aquatic NeoForge Depth Disable.zip"
+hash = "4fa32a133f53131af0f93d63f6c293e6c160c2a67f084d6e53f428913509220c"
+
+[[files]]
 file = "datapacks/Liam's FreeTerraForged Preset.zip"
 hash = "d60b9d9921f44daef1edbecfabd00c08e875a5b76baa20f6e96e294a84eba18f"
 
@@ -335,7 +339,7 @@ metafile = true
 
 [[files]]
 file = "mods/aces-spell-utils.pw.toml"
-hash = "c236c1d05b9381bc12527d06a1e8ec360e1df99652e93fac24073c6edd627d5a"
+hash = "1dcb802c746c037ee4f5e7f6fd0f2ef83809ec36db953c491939118136669709"
 metafile = true
 
 [[files]]
@@ -1089,7 +1093,7 @@ metafile = true
 
 [[files]]
 file = "mods/quark.pw.toml"
-hash = "44c0434a0c305ffa4a3d31911a766c27c21eeab8d907cbaf7adc23bf5b8c516e"
+hash = "6390e31a740d60ba3a66edaf86f5e2788b7d03ff18fd43580f12f665e25f73f9"
 metafile = true
 
 [[files]]
@@ -1269,6 +1273,11 @@ hash = "1947b964f7c2c36b1ef4d544f775877bcce5f97f3c501f2d1cf8f1802bdbf689"
 [[files]]
 file = "mods/unlit-campfire.pw.toml"
 hash = "510f939cc01aa660f4d0f4d1d1625a0a08bf0c3184045c3254d9e07e649908f7"
+metafile = true
+
+[[files]]
+file = "mods/upgrade-aquatic.pw.toml"
+hash = "09bbef89f8f99a1d499e60f4973cca3c46ccb0bf54eeb89723e7af5c739310eb"
 metafile = true
 
 [[files]]
