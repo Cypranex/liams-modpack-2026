@@ -33,6 +33,10 @@ file = "config/defaultoptions/servers.dat"
 hash = "7fc5e334bb7c997e20dbf96445bba15a70f212561fc915f87608127526f8c66d"
 
 [[files]]
+file = "config/eclipticseasons-common.toml"
+hash = "99b3d3a6dc3a30e334167484f57b56705f4a6ee675bc0fae0ccbd85a79a5ea16"
+
+[[files]]
 file = "config/enhancedcelestials2core/mixins.properties"
 hash = "36b0d118a1924aa3f2436fa16cc46a366c9a7f138765ae86caec05977be98bd5"
 
