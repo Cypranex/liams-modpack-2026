@@ -513,6 +513,11 @@ hash = "574149e660cbe7f90bcde3838770bc076cfb17858583996f35cef180bc6d07e4"
 metafile = true
 
 [[files]]
+file = "mods/chefs-delight.pw.toml"
+hash = "114dcc3cdc8283320c4a22a586cb9f826490fc2332e0d7b1b88b78043fda5634"
+metafile = true
+
+[[files]]
 file = "mods/climate-rivers.pw.toml"
 hash = "b468173f5c612f78a2a715a54a7a228d90322c8fd5b619a50be2597fb1e46c50"
 metafile = true
