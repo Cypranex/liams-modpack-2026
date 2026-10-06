@@ -731,6 +731,11 @@ hash = "1a518584c9e3a73366f40b3c9e6fe1b25d9dd4aab9d14e82001b337033048a08"
 metafile = true
 
 [[files]]
+file = "mods/euphoria-patches.pw.toml"
+hash = "a245469cf91e7f3c8aec3b0f5ad3d79b1846ac0696543f892b426faea5f91cab"
+metafile = true
+
+[[files]]
 file = "mods/excavated_variants.pw.toml"
 hash = "c4bc7c10328b5a2aafcb916dff29cdb3f2be812c3e6d80d921ea1cfd2f761251"
 metafile = true
@@ -1284,6 +1289,11 @@ hash = "20d767f7f803fd43e7b539046878bf97a27458595a1beff0b28002aca1b671de"
 metafile = true
 
 [[files]]
+file = "mods/supplemental-patches.pw.toml"
+hash = "9771274186a524c958a5157ec373d949f51935b34411d6b2e2df55cf83c14722"
+metafile = true
+
+[[files]]
 file = "mods/supplementaries.pw.toml"
 hash = "25fdaaf01546f4083aa00f85b6c1c4b67434f6d068d3e1725d4437576ca34a7a"
 metafile = true
@@ -1423,17 +1433,10 @@ hash = "b24c213b8727e80ca559670e97971c735c4dc4be1d1a4bd637c41450e7654c1e"
 metafile = true
 
 [[files]]
-file = "shaderpacks/Shader Pack.txt"
-hash = "d798b37468d3b21da1811b5aef687967e4ea8eeebdd600f66ebbaf430f63faa9"
+file = "shaderpacks/Supplemental Patches 1.0.2.txt"
+hash = "a1777647256ce02e20a6cee21d44f4aaf8eb28b868c57340c809fd2d985885b6"
 
 [[files]]
-file = "shaderpacks/Shader Pack.zip"
-hash = "4b6efa3d726fd3df4929d02ce9e1c894a33074ab3e12b57845ffe3f67243b556"
-
-[[files]]
-file = "shaderpacks/Supplemental Patches 1.0.2.zip"
-hash = "d3a818296057321732f62662289d54429b2608aac16c97ae517d711f8336a766"
-
-[[files]]
-file = "shaderpacks/Supplemental Patches 1.0.2.zip.txt"
-hash = "0f246a7b4a78f05b56220309edb39b01c5bbe75e10132f2d564fd25e4d16e576"
+file = "shaderpacks/complementary-reimagined.pw.toml"
+hash = "507cb3963240110bc71ed7c75cac1682e66d3609536b0bc5ef90a01db3cce21f"
+metafile = true
