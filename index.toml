@@ -26,7 +26,7 @@ hash = "932073577184658a64ddd56e9c35641f3122bf88cb5535d103f893fa97807f70"
 
 [[files]]
 file = "config/defaultoptions/options.txt"
-hash = "7f881ee37fc0133cf89ce5a956d7ca565ab76f4aee59b5ac531be46eb0bf134b"
+hash = "6bda6961954aa0dc942fbb59c88ab3735d753256200bb04a9bdc41c2ec9ff8d8"
 
 [[files]]
 file = "config/defaultoptions/servers.dat"
@@ -75,6 +75,10 @@ hash = "019408e08fe61128160fc6752e8f37f31944928648f90615a26b3e6967baba26"
 [[files]]
 file = "config/irons_restrictions-common.toml"
 hash = "135c5a81719235ce405070ed29b59b3844f2f26a07561a7e9b24c6db265d8f00"
+
+[[files]]
+file = "config/lambdynlights.toml"
+hash = "b832ba4307ce2454b508f4888c4e4f33b71c663083992f30f7aecd682bcb1787"
 
 [[files]]
 file = "config/lithium.properties"
