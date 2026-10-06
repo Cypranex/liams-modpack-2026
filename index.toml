@@ -940,10 +940,6 @@ file = "mods/liams-corpse-controls-1.0.0.jar"
 hash = "05da0498ed9a0ccea95981c65669432efa098f9f4924a061002effc0342ca586"
 
 [[files]]
-file = "mods/liams-ragdoll-revival-controls-1.0.0.jar"
-hash = "e09a3f53eda6131afe6ae3d43f41cea57129549f58d8ab06adfbd8a959d2cdb7"
-
-[[files]]
 file = "mods/liams-ragdoll-revival-fix-1.0.0.jar"
 hash = "81b41f1503d333eb0b6c0edaa9ee7fd3557ebaf30e935faa8de0dca52493864b"
 
