@@ -68,6 +68,7 @@ hash = "f6c8d0fa635dfec81ca6f9c894a167962719f73839859922401fed49f29dcd38"
 file = "config/incontrol/spawn.json"
 hash = "0354b4278805e2b9f55d0b4f961c46cc1fb51bef7f4138ed2f60e56f4991a318"
 hash = "0354b4278805e2b9f55d0b4f961c46cc1fb51bef7f4138ed2f60e56f4991a318"
+hash = "5b90085c4aff81b036b5aa9638922cd61027baf67c6289502fe26879dad2ebfe"
 
 [[files]]
 file = "config/incontrol/spawner.json"
@@ -196,6 +197,10 @@ hash = "21637d8c2986c8e786ef18c1cf974f1406127cdf0860122174b2d12dccdee1bf"
 [[files]]
 file = "config/trulydark.properties"
 hash = "62442360bef40147ee8b9990f4bd58debea254f90c143da34533a431e8adfb8b"
+
+[[files]]
+file = "config/variantsandventures.json"
+hash = "713aa852dc54d09230f6e111c6385d5409464c4244a9d37ea58604310555adbd"
 
 [[files]]
 file = "config/voicechat/voicechat-server.properties"
@@ -421,7 +426,7 @@ metafile = true
 
 [[files]]
 file = "mods/azurelib.pw.toml"
-hash = "f47b8d0f4360c8bbc8fc710ad333065b77cd4b9b43ca52439de7ce715215e336"
+hash = "f15a47040f70e3780910f8b5a1dfae03d08d8fb8f224672a4d56428fad9fadc2"
 metafile = true
 
 [[files]]
@@ -964,6 +969,14 @@ hash = "ebf0dae777cc19c354a662dc8144009dff7269b2d05624b4591fcb7de56fc14e"
 metafile = true
 
 [[files]]
+file = "mods/liams-corpse-controls-1.0.0.jar"
+hash = "05da0498ed9a0ccea95981c65669432efa098f9f4924a061002effc0342ca586"
+
+[[files]]
+file = "mods/liams-ragdoll-revival-fix-1.0.0.jar"
+hash = "81b41f1503d333eb0b6c0edaa9ee7fd3557ebaf30e935faa8de0dca52493864b"
+
+[[files]]
 file = "mods/lionfish-api.pw.toml"
 hash = "c27c2b642deba3609c6e5741ee6360cb8d760e5bf5b2595fd4fa01c01dc5f074"
 metafile = true
@@ -1110,7 +1123,7 @@ metafile = true
 
 [[files]]
 file = "mods/placebo.pw.toml"
-hash = "2f9f0f8c05ce7e410a70cfed595e623fe8031df89a8a9ba9a8aaaa419eb4d18b"
+hash = "66721ef8bf191ccbc1ebe53ef163d2b233be19e3617dac277b16c765a67ba9c7"
 metafile = true
 
 [[files]]
@@ -1274,6 +1287,11 @@ hash = "993b4e4970e1a5ef2fe7c6712212f57a84dcf8b31d4b6863540b6395c4f9ce09"
 metafile = true
 
 [[files]]
+file = "mods/spawn-animations-compats.pw.toml"
+hash = "2136f6e6edb0d6df44e9f9630ac722a0af55340b79e209265376b63c3184312d"
+metafile = true
+
+[[files]]
 file = "mods/spawn-animations.pw.toml"
 hash = "5e91e5aea16a60450da6df9c5cdb056ae5f2d25967fcc8b16c7ccb3a7403b7c9"
 metafile = true
@@ -1325,6 +1343,11 @@ metafile = true
 [[files]]
 file = "mods/upgrade-aquatic.pw.toml"
 hash = "09bbef89f8f99a1d499e60f4973cca3c46ccb0bf54eeb89723e7af5c739310eb"
+metafile = true
+
+[[files]]
+file = "mods/variants-and-ventures.pw.toml"
+hash = "968071ee9dcd29fd9c5444242859a3e30715f48f7ca7378a2ff3fa7358e04cf7"
 metafile = true
 
 [[files]]
