@@ -592,6 +592,16 @@ hash = "ae6fd52d8bdcbeca5bbe6db840f22f92c1928fe0fda22017b19612b9b00a245a"
 metafile = true
 
 [[files]]
+file = "mods/dynamic-trees-addon-lib.pw.toml"
+hash = "4d0941c66826c0c400ee6c9845c7a3f94ca1907101ced355f88f514f999f76aa"
+metafile = true
+
+[[files]]
+file = "mods/dynamic-trees-fruits-delight.pw.toml"
+hash = "d858460f084abed46952c5e9cb4b5c56509065b9c92b4aba9c2843ced26354f8"
+metafile = true
+
+[[files]]
 file = "mods/dynamic-trees-quark.pw.toml"
 hash = "87a61d4fb5ff4a4800c3af8f71ba66e79583b769b6b53f50dcb5089cd660774f"
 metafile = true
@@ -789,6 +799,11 @@ metafile = true
 [[files]]
 file = "mods/friends-and-foes-forge.pw.toml"
 hash = "78a50ddf9108d1dda82e7de46a991dcd61a046e4ea2279aa551071ba8f178f86"
+metafile = true
+
+[[files]]
+file = "mods/fruits-delight.pw.toml"
+hash = "bd54b25ed6127a176979f89d56ebee73856ff5023c575232ee707571fcdb2c1c"
 metafile = true
 
 [[files]]
