@@ -67,10 +67,14 @@ hash = "f6c8d0fa635dfec81ca6f9c894a167962719f73839859922401fed49f29dcd38"
 [[files]]
 file = "config/incontrol/spawn.json"
 <<<<<<< HEAD
+<<<<<<< HEAD
 hash = "5b90085c4aff81b036b5aa9638922cd61027baf67c6289502fe26879dad2ebfe"
 =======
 hash = "0354b4278805e2b9f55d0b4f961c46cc1fb51bef7f4138ed2f60e56f4991a318"
 >>>>>>> 42a9dee (Caverns and chasms)
+=======
+hash = "5b90085c4aff81b036b5aa9638922cd61027baf67c6289502fe26879dad2ebfe"
+>>>>>>> fe0db47 (Adjust spawn rules for variants&ventures, add patch mods to adjust ragdoll corpses, attempt to fix ragdoll revival bug,)
 
 [[files]]
 file = "config/incontrol/spawner.json"
@@ -1379,13 +1383,19 @@ metafile = true
 
 [[files]]
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> fe0db47 (Adjust spawn rules for variants&ventures, add patch mods to adjust ragdoll corpses, attempt to fix ragdoll revival bug,)
 file = "mods/variants-and-ventures.pw.toml"
 hash = "968071ee9dcd29fd9c5444242859a3e30715f48f7ca7378a2ff3fa7358e04cf7"
 metafile = true
 
 [[files]]
+<<<<<<< HEAD
 =======
 >>>>>>> e86c551 (Add hybrid aquatic mountain fix, update quark and aces spells, add upgrade-aquatic)
+=======
+>>>>>>> fe0db47 (Adjust spawn rules for variants&ventures, add patch mods to adjust ragdoll corpses, attempt to fix ragdoll revival bug,)
 file = "mods/wakes-reforged.pw.toml"
 hash = "8e464c45945b7311b01d0be50a714e8a64d389dc27331f4a27d7981fd29131b9"
 metafile = true
