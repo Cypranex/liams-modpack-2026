@@ -13,6 +13,7 @@ hash-format = "sha256"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 hash = "8eb677dc5471b9130d002356f1ab24564ac002c9d068910e3291032ab54eb608"
 =======
 hash = "5d594728d9222485c92244bb0189215e1e78b8ef6d3be2eb68c467176e8ee9b1"
@@ -35,6 +36,9 @@ hash = "38669620a9079d549e1ade60e17f877fcacebab6b882d67a376473407d5c9d36"
 =======
 hash = "0d95b0460a4c65fcbcd2c8a2aeab88950fa24cbfbe759488f4620dc2a50b4be4"
 >>>>>>> fe0db47 (Adjust spawn rules for variants&ventures, add patch mods to adjust ragdoll corpses, attempt to fix ragdoll revival bug,)
+=======
+hash = "e61ba63f7588324fcc3b7106e0348d2097d504983df3c7b28ef50ac81d50218f"
+>>>>>>> 11dbb67 (Add allurement)
 
 [versions]
 minecraft = "1.21.1"
