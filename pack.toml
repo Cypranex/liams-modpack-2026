@@ -11,6 +11,7 @@ hash-format = "sha256"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 hash = "8eb677dc5471b9130d002356f1ab24564ac002c9d068910e3291032ab54eb608"
 =======
 hash = "5d594728d9222485c92244bb0189215e1e78b8ef6d3be2eb68c467176e8ee9b1"
@@ -27,6 +28,9 @@ hash = "ed5c07e5d59fea5af3e021c3503ffebb0b709276aa47f9a3add9b1e7ac3d6cb2"
 =======
 hash = "2a7e68a28cb1fbb811f8608043e356fbc5c79551457401fd94a626af46356bb9"
 >>>>>>> e5ffb2a (Add brewin and chewin)
+=======
+hash = "38669620a9079d549e1ade60e17f877fcacebab6b882d67a376473407d5c9d36"
+>>>>>>> b3ac420 (Add chef's delight)
 
 [versions]
 minecraft = "1.21.1"

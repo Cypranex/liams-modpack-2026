@@ -529,13 +529,19 @@ metafile = true
 
 [[files]]
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b3ac420 (Add chef's delight)
 file = "mods/chefs-delight.pw.toml"
 hash = "114dcc3cdc8283320c4a22a586cb9f826490fc2332e0d7b1b88b78043fda5634"
 metafile = true
 
 [[files]]
+<<<<<<< HEAD
 =======
 >>>>>>> 42a9dee (Caverns and chasms)
+=======
+>>>>>>> b3ac420 (Add chef's delight)
 file = "mods/climate-rivers.pw.toml"
 hash = "b468173f5c612f78a2a715a54a7a228d90322c8fd5b619a50be2597fb1e46c50"
 metafile = true
