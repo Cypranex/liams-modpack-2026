@@ -1461,6 +1461,11 @@ hash = "b24c213b8727e80ca559670e97971c735c4dc4be1d1a4bd637c41450e7654c1e"
 metafile = true
 
 [[files]]
+file = "resourcepacks/fresh-animations.pw.toml"
+hash = "9dc9b1568b6eaa48e16455e2a119566aa0e1c0e6f3e71099b97c535a73d0cd84"
+metafile = true
+
+[[files]]
 file = "shaderpacks/Supplemental Patches 1.0.2.txt"
 hash = "a1777647256ce02e20a6cee21d44f4aaf8eb28b868c57340c809fd2d985885b6"
 
