@@ -610,6 +610,11 @@ hash = "0c20fea3407ed0db85b4b171f1820a24987f2659946fadd30bae044205041b09"
 metafile = true
 
 [[files]]
+file = "mods/distraction-free-recipes.pw.toml"
+hash = "820727a4852072ccad40e99d05fdab98d7d5b214ef2fa1b01fc102408b0d322c"
+metafile = true
+
+[[files]]
 file = "mods/dtru-1.1.2-patched.jar"
 hash = "8997b46d118c541ec8fe3bec87aa0e080bf8e36722c9ed2bfb5600e1ab24a16f"
 
@@ -694,6 +699,41 @@ hash = "ace039fb8b073cdd59bb726234c4a6e30ba5b3c7b4145f63929de0d09bdda33d"
 metafile = true
 
 [[files]]
+file = "mods/emi-enchanting.pw.toml"
+hash = "ff029ee6fc50f2696e96cdbcc696f42e75b483c9d7b83f2b1447dcf5c865e664"
+metafile = true
+
+[[files]]
+file = "mods/emi-for-create.pw.toml"
+hash = "8b86b6aeeb27dc6e110e76176184eda8e0a2addc7c7932095d053925ab3a1fc3"
+metafile = true
+
+[[files]]
+file = "mods/emi-loot.pw.toml"
+hash = "519f011d36736129795025f19301ad2d6141f422857d6154a3df2e2019f416f3"
+metafile = true
+
+[[files]]
+file = "mods/emi-ores.pw.toml"
+hash = "f2cbcb3d01017133313e1594cb89f052923592b7fa0c78eb9b6d09fb6e03bfb5"
+metafile = true
+
+[[files]]
+file = "mods/emi.pw.toml"
+hash = "67bb77eae0b644960be3b1074178ceb5d54facbb42f326981b9d94625238a54a"
+metafile = true
+
+[[files]]
+file = "mods/emiaccelerator.pw.toml"
+hash = "e9fbc5439ee6f35669a9e3dc7eedd1244bd173caba3045b45d9ee6c7e5a4f2ef"
+metafile = true
+
+[[files]]
+file = "mods/emiffect.pw.toml"
+hash = "b53c40130b7c2f91237cf62480877414296fbea3525f2c824351c0c07f136ddb"
+metafile = true
+
+[[files]]
 file = "mods/enchantment-descriptions.pw.toml"
 hash = "88b9e727611f06350c407aeb4ccb41207b5058fef127abe0ff24c13505618aaf"
 metafile = true
@@ -759,6 +799,11 @@ hash = "9b0fab7837bb7de7cc77fbbd6b925b35cb87ff9921c1202095f406fc5913feec"
 metafile = true
 
 [[files]]
+file = "mods/extra-mod-integrations.pw.toml"
+hash = "1c516c3cdedc1a2b6bdd4d7ab12469142d5ee9dadc03e815be3f2a04b95f7135"
+metafile = true
+
+[[files]]
 file = "mods/fangs-n-claws.pw.toml"
 hash = "d5dade346e8d11b6f549f31990b72d2d3a08d70f18b80c33aac2b7e5a0f8765d"
 metafile = true
@@ -811,6 +856,11 @@ metafile = true
 [[files]]
 file = "mods/flimsy-torches.pw.toml"
 hash = "f7ab2d9281464857a203814f9c3766ed8143c45c95d081b02c38a9adf69efa5f"
+metafile = true
+
+[[files]]
+file = "mods/forgematica.pw.toml"
+hash = "451c96f6fc12e0af29ddb579b69aa085420e638b23bbf24526997e9c7fb69dc7"
 metafile = true
 
 [[files]]
@@ -1029,6 +1079,11 @@ metafile = true
 [[files]]
 file = "mods/lootr.pw.toml"
 hash = "0d3683a8c533e1fb67bf0b1668089a322fc5f594f9610d441657378ab4f64383"
+metafile = true
+
+[[files]]
+file = "mods/mafglib.pw.toml"
+hash = "2726c6991c3cc6ee3644725fd98759b6d8b2cfd96d0fcb7ad8e266924f741f52"
 metafile = true
 
 [[files]]
@@ -1349,6 +1404,11 @@ metafile = true
 [[files]]
 file = "mods/trulydark-neoforge-1.21.1-2.1.0.jar"
 hash = "1947b964f7c2c36b1ef4d544f775877bcce5f97f3c501f2d1cf8f1802bdbf689"
+
+[[files]]
+file = "mods/txnilib.pw.toml"
+hash = "bbf8f2ba1e4bba18c1f61b2f003063052f56dd9951ceae3e227b6cbf9affd29f"
+metafile = true
 
 [[files]]
 file = "mods/unlit-campfire.pw.toml"

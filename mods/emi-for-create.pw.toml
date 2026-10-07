@@ -1,0 +1,13 @@
+name = "EMI for Create"
+filename = "emicreatecompat-1.1.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "35cc49f8d4da49445511e138e5d529c1a9974f16"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8609093
+project-id = 1625163
