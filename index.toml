@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/aether-common.toml"
+hash = "ca238f4a111024496670e9da871b30dceeac7887d649fb75b92e1046dd0c2c05"
+
+[[files]]
 file = "config/aether-startup.toml"
 hash = "e3915bf50d806c5caa3dcebc243818c2c4aeb149599b33e6286ea2828370dd69"
 
@@ -205,6 +209,10 @@ hash = "3976bd306546ed3f2b13c829ad01edc3a8dc1b6263375ccba158b162a31f5c0b"
 [[files]]
 file = "config/simplyswords/loot.toml"
 hash = "df4f5aec9a48bf94fcece0dd35f182473b2c5e9c7a355b2df00b917b2efd1a1e"
+
+[[files]]
+file = "config/simplytooltips/config.toml"
+hash = "8d841088fcf91c96c3c4bff112f604961129c55687906fa0e8fd3968cc45002a"
 
 [[files]]
 file = "config/supplementaries-client.toml"
@@ -644,6 +652,10 @@ metafile = true
 file = "mods/distanthorizons.pw.toml"
 hash = "0c20fea3407ed0db85b4b171f1820a24987f2659946fadd30bae044205041b09"
 metafile = true
+
+[[files]]
+file = "mods/dtaether-1.21.1-1.0.0.jar"
+hash = "c84acef6e82b28905866cb2769d81f40f50ff932c76894b5269ae2137f88850d"
 
 [[files]]
 file = "mods/dtru-1.1.2-patched.jar"
@@ -1290,6 +1302,11 @@ metafile = true
 [[files]]
 file = "mods/simply-swords.pw.toml"
 hash = "f11837c4f049aeb3b7ceb086f4c7b1347bfad1826f47722cbdc8b2b38df0067e"
+metafile = true
+
+[[files]]
+file = "mods/simply-tooltips.pw.toml"
+hash = "bb5dc8ac909aee1955532a65145f7ebfc3a88289610298e821a974fdda5f1822"
 metafile = true
 
 [[files]]
