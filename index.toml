@@ -347,6 +347,10 @@ file = "kubejs/data/simplyswords/recipe/mythicmetals_compat/adamantite/adamantit
 hash = "d5ca2831a686fa65befc9a7cc2a15b9fa5295987f6126155f38574abbde421ed"
 
 [[files]]
+file = "kubejs/data/upgrade_aquatic/neoforge/biome_modifier/add_feature/river_tree.json"
+hash = "99b969132018e9da1071065a8593ba9564928b1ed0aa5ae3ab45f9dac071f7d5"
+
+[[files]]
 file = "kubejs/server_scripts/aeronautics_aether_recipes.js"
 hash = "f52e465a5f45bd74514f7cfd58c193433b2081c1b1610070fcdec457b71a35c7"
 
