@@ -62,7 +62,7 @@ hash = "3002bec3a6c7f34bbbaf958d7d2f1d805b68f95af26437a95d9b77270d35ca9c"
 
 [[files]]
 file = "config/flimsytorches-common.toml"
-hash = "e5130f8553aa9bfbd332e5648b4b009e861720b475c60495593da21326359230"
+hash = "f76072e946cce2b8452db790cfa9451523101542c6edd481bf8d661b2cef1731"
 
 [[files]]
 file = "config/hybrid_aquatic.json"
@@ -236,7 +236,7 @@ hash = "713aa852dc54d09230f6e111c6385d5409464c4244a9d37ea58604310555adbd"
 
 [[files]]
 file = "config/voicechat/voicechat-server.properties"
-hash = "55b6c2c7eeed565835b19c98dad8a408ea6f58dbc4bb4a478cd2c55c951b6724"
+hash = "656a6e688281ff209d947f33863c752301069687266cf7cf7bc670c3b91cf29c"
 
 [[files]]
 file = "config/wakes-client.toml"
