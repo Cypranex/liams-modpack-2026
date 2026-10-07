@@ -345,6 +345,10 @@ file = "kubejs/server_scripts/depth_chest_rewards.js"
 hash = "58b0c8ffeaa4993634b81a3f576844177ddd8b2f74632722af6c2c65b37d5b24"
 
 [[files]]
+file = "kubejs/server_scripts/remove_chipped_torches.js"
+hash = "99571c19fc8cd469d46fcd02bbb634dc788e949cd2403470a4767ab96b5aca36"
+
+[[files]]
 file = "kubejs/server_scripts/remove_portable_engines_and_deep_seas.js"
 hash = "e90e9853bb46ffb7ce03aa3608cce49739d0d46d90dd8b784b80967070e602ef"
 
@@ -416,6 +420,11 @@ metafile = true
 [[files]]
 file = "mods/astikorcarts-redux.pw.toml"
 hash = "5d9bdb9a8bcd02fe6f867d52c52a8f20100422de6db324b02543a1d2aff362fa"
+metafile = true
+
+[[files]]
+file = "mods/athena-ctm.pw.toml"
+hash = "f54cf71372645810ce22b0ba68e706139565437150e4cfd22bde4c14606099c4"
 metafile = true
 
 [[files]]
@@ -511,6 +520,11 @@ metafile = true
 [[files]]
 file = "mods/chefs-delight.pw.toml"
 hash = "114dcc3cdc8283320c4a22a586cb9f826490fc2332e0d7b1b88b78043fda5634"
+metafile = true
+
+[[files]]
+file = "mods/chipped.pw.toml"
+hash = "24c6c3fe917ffbcef04e788dec3e003d0ed03433bc00f9cf4f23fe9b85636aa7"
 metafile = true
 
 [[files]]
@@ -865,6 +879,11 @@ metafile = true
 [[files]]
 file = "mods/guard-villagers.pw.toml"
 hash = "6b235aa1d0c43ab4fa7eacca3eb3c62530fa6ae1b44bc56aecc25c636a8ffc5b"
+metafile = true
+
+[[files]]
+file = "mods/handcrafted.pw.toml"
+hash = "0004feab868f7b873c12db05aae0d0dac6c87b497490b48bb66480e7c8d0f340"
 metafile = true
 
 [[files]]
