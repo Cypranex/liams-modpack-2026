@@ -81,6 +81,10 @@ file = "config/lithium.properties"
 hash = "7555077253c07f0695f66834d6f22d3ff4a2e076f384f5fe42c3f8365c002020"
 
 [[files]]
+file = "config/loot.toml"
+hash = "df4f5aec9a48bf94fcece0dd35f182473b2c5e9c7a355b2df00b917b2efd1a1e"
+
+[[files]]
 file = "config/modernfix-mixins.properties"
 hash = "1ea0142ca426103fa7c62bc43999ddf420102e8558a5463d3ca07961bf4dc400"
 
@@ -179,6 +183,10 @@ hash = "47ce0829199dd60876f1371a93c6e3534d927d55ce2b95d11418fddfb9db8305"
 [[files]]
 file = "config/servercore/config.yml"
 hash = "77b6ea2b491a838d4f4c691d18e4f50de27d3ba393bb0739b425c606927ba1a5"
+
+[[files]]
+file = "config/simplyswords/loot.toml"
+hash = "df4f5aec9a48bf94fcece0dd35f182473b2c5e9c7a355b2df00b917b2efd1a1e"
 
 [[files]]
 file = "config/supplementaries-client.toml"
