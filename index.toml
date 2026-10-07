@@ -199,6 +199,10 @@ file = "config/servercore/config.yml"
 hash = "77b6ea2b491a838d4f4c691d18e4f50de27d3ba393bb0739b425c606927ba1a5"
 
 [[files]]
+file = "config/simplyswords/general.json5"
+hash = "3976bd306546ed3f2b13c829ad01edc3a8dc1b6263375ccba158b162a31f5c0b"
+
+[[files]]
 file = "config/simplyswords/loot.toml"
 hash = "df4f5aec9a48bf94fcece0dd35f182473b2c5e9c7a355b2df00b917b2efd1a1e"
 
@@ -1266,11 +1270,6 @@ metafile = true
 [[files]]
 file = "mods/simply-swords.pw.toml"
 hash = "f11837c4f049aeb3b7ceb086f4c7b1347bfad1826f47722cbdc8b2b38df0067e"
-metafile = true
-
-[[files]]
-file = "mods/simply-tooltips.pw.toml"
-hash = "bb5dc8ac909aee1955532a65145f7ebfc3a88289610298e821a974fdda5f1822"
 metafile = true
 
 [[files]]
