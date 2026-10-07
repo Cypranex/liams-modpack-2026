@@ -125,6 +125,10 @@ file = "config/paxi-neoforge-1_21.toml"
 hash = "93e6db1672e3a55fd77265c85a394a691a3206c7a49637fa42dc5b9853f51f86"
 
 [[files]]
+file = "config/paxi/resourcepack_load_order.json"
+hash = "f7b0b9a3e4c35f9360fa0ffba2d7d8dc64b30612556aed95b5d8a1ac8bfdea37"
+
+[[files]]
 file = "config/paxi/resourcepacks/aether-regenerated.pw.toml"
 hash = "ba4187846b392f31c59c032e83e46644af7e5cfd1529c4c10a28beac3448fde2"
 metafile = true
