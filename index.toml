@@ -141,8 +141,18 @@ hash = "c26f8da8b6f013fb7e917e29fc6ae783eb379c539da12d9d61196bc762fd26e1"
 metafile = true
 
 [[files]]
+file = "config/paxi/resourcepacks/fa-player-extension.pw.toml"
+hash = "b10943dd0c7472c8782d27e1239a851dfa41ee21608dff9207b84c0a81b56e20"
+metafile = true
+
+[[files]]
 file = "config/paxi/resourcepacks/fancy-crops.pw.toml"
 hash = "0cb5fc8c29fb99530cc20e013347558e198a686420aaf996fa03b9e23fa291dd"
+metafile = true
+
+[[files]]
+file = "config/paxi/resourcepacks/fresh-animations.pw.toml"
+hash = "9dc9b1568b6eaa48e16455e2a119566aa0e1c0e6f3e71099b97c535a73d0cd84"
 metafile = true
 
 [[files]]
@@ -1477,11 +1487,6 @@ metafile = true
 [[files]]
 file = "mods/zfastnoise.pw.toml"
 hash = "b24c213b8727e80ca559670e97971c735c4dc4be1d1a4bd637c41450e7654c1e"
-metafile = true
-
-[[files]]
-file = "resourcepacks/fresh-animations.pw.toml"
-hash = "9dc9b1568b6eaa48e16455e2a119566aa0e1c0e6f3e71099b97c535a73d0cd84"
 metafile = true
 
 [[files]]
