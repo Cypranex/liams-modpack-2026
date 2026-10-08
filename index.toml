@@ -231,6 +231,10 @@ file = "config/simplytooltips/config.toml"
 hash = "8d841088fcf91c96c3c4bff112f604961129c55687906fa0e8fd3968cc45002a"
 
 [[files]]
+file = "config/sol_valheim_reforged-client.toml"
+hash = "678c03a94341146fe7b91049d624e70f9b7efbf87d97e31497b2e7103ed8e07f"
+
+[[files]]
 file = "config/supplementaries-client.toml"
 hash = "fcbff2c28c3ae0282ce1805e43e495bc76a9cb7d6bcd930bbc5dc31839cfd2e6"
 
