@@ -38,7 +38,7 @@ hash = "7fc5e334bb7c997e20dbf96445bba15a70f212561fc915f87608127526f8c66d"
 
 [[files]]
 file = "config/eclipticseasons-common.toml"
-hash = "99b3d3a6dc3a30e334167484f57b56705f4a6ee675bc0fae0ccbd85a79a5ea16"
+hash = "73d6c02fb6e971f75f0feb731d75d78610cc4430afe13eeb469f1f3121c2f95c"
 
 [[files]]
 file = "config/enhancedcelestials2core/mixins.properties"
@@ -62,7 +62,7 @@ hash = "3002bec3a6c7f34bbbaf958d7d2f1d805b68f95af26437a95d9b77270d35ca9c"
 
 [[files]]
 file = "config/flimsytorches-common.toml"
-hash = "e5130f8553aa9bfbd332e5648b4b009e861720b475c60495593da21326359230"
+hash = "f76072e946cce2b8452db790cfa9451523101542c6edd481bf8d661b2cef1731"
 
 [[files]]
 file = "config/hybrid_aquatic.json"
@@ -87,6 +87,10 @@ hash = "7555077253c07f0695f66834d6f22d3ff4a2e076f384f5fe42c3f8365c002020"
 [[files]]
 file = "config/loot.toml"
 hash = "df4f5aec9a48bf94fcece0dd35f182473b2c5e9c7a355b2df00b917b2efd1a1e"
+
+[[files]]
+file = "config/map_atlases-client.toml"
+hash = "152a5482ea911a6737a9359e8c2807d9e1ccc9eca3b81aae52d010a987194adb"
 
 [[files]]
 file = "config/modernfix-mixins.properties"
@@ -191,6 +195,10 @@ file = "config/ragdoll_corpse-common.toml"
 hash = "85e60eb298a84d702e474552e544636016814ba75414c666fdb12657c4435fc1"
 
 [[files]]
+file = "config/ragdoll_reactions-server.toml"
+hash = "cf8a27aaa0013575a4cdc99e6b5796e59f214bff42c6b8e01f5d5d408198196f"
+
+[[files]]
 file = "config/regions_unexplored/common.json"
 hash = "9c085189f8f23b08a76552fd11549593f89c86293edc70fdd6354b128e927985"
 
@@ -236,7 +244,7 @@ hash = "713aa852dc54d09230f6e111c6385d5409464c4244a9d37ea58604310555adbd"
 
 [[files]]
 file = "config/voicechat/voicechat-server.properties"
-hash = "55b6c2c7eeed565835b19c98dad8a408ea6f58dbc4bb4a478cd2c55c951b6724"
+hash = "656a6e688281ff209d947f33863c752301069687266cf7cf7bc670c3b91cf29c"
 
 [[files]]
 file = "config/wakes-client.toml"
