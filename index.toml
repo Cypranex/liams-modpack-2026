@@ -395,6 +395,10 @@ file = "kubejs/server_scripts/remove_portable_engines_and_deep_seas.js"
 hash = "e90e9853bb46ffb7ce03aa3608cce49739d0d46d90dd8b784b80967070e602ef"
 
 [[files]]
+file = "kubejs/server_scripts/startup_commands.js"
+hash = "d47ef3249b51f29c6a303bc7ca1af01803c05890b531f8708d77e5b6520a7e72"
+
+[[files]]
 file = "mods/3dskinlayers.pw.toml"
 hash = "b3b67f83faf9dcc4985b7a13fa8affb71062461d271f80cc0958652df9f3126b"
 metafile = true
@@ -983,6 +987,11 @@ hash = "57db227711481c9b6fbc89a5ea04f2810c9f27035baa7f33437a80a94ae9609f"
 metafile = true
 
 [[files]]
+file = "mods/knaves-needs.pw.toml"
+hash = "28144b27f38089220cb9c3f4aeb735210eb957a550e72b1cb3653970f5ce4eb0"
+metafile = true
+
+[[files]]
 file = "mods/kotlin-for-forge.pw.toml"
 hash = "712a69b3569a8055979de6eea262068535fe182dffb3833e53e5833e9cbf9766"
 metafile = true
@@ -1206,6 +1215,11 @@ hash = "89bd0f15795c70a1e06074e22bc5d80969abd48e1f540c79e3023cf8be51bef9"
 metafile = true
 
 [[files]]
+file = "mods/raided.pw.toml"
+hash = "2ecb8bc24e1d68a35565f4ae80dc47e7cf4e9a903d7b30c54a00fb37391e24d8"
+metafile = true
+
+[[files]]
 file = "mods/regions-unexplored.pw.toml"
 hash = "9a94f2e57b081963d11a33a9be6435046bfb8720defac9d2cced4d37b3db7299"
 metafile = true
@@ -1338,6 +1352,11 @@ metafile = true
 [[files]]
 file = "mods/spawn-animations.pw.toml"
 hash = "5e91e5aea16a60450da6df9c5cdb056ae5f2d25967fcc8b16c7ccb3a7403b7c9"
+metafile = true
+
+[[files]]
+file = "mods/spice-of-life-valheim-reforged.pw.toml"
+hash = "c16e1be49014758e7f357283f803233903375ab94e36dd2f0d647901327524ec"
 metafile = true
 
 [[files]]
