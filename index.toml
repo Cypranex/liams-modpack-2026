@@ -715,6 +715,11 @@ hash = "a8bd418c6fa0d8fafaeeff65467261713ddd0698f4bd7d6e08b4df8f78303910"
 metafile = true
 
 [[files]]
+file = "mods/e4mc.pw.toml"
+hash = "c64bffb51596c65dbea0a7f12a6bd55ea55ef015dcc27779a87f7092714fe9a9"
+metafile = true
+
+[[files]]
 file = "mods/ecliptic-seasons.pw.toml"
 hash = "c761d635b05c8216d3ae3da3068f91663768c08e7b02b1643f93cb7c086db0a8"
 metafile = true
