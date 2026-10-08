@@ -1,7 +1,7 @@
 #Ticks until a downed player dies (20 ticks = 1 second).
 # Default: 1200
 # Range: 20 ~ 72000
-bleedoutTicks = 2400
+bleedoutTicks = 3600
 #Ticks of continuous Shift + right click needed to revive.
 # Default: 60
 # Range: 1 ~ 1200
