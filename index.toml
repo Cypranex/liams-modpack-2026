@@ -38,7 +38,7 @@ hash = "7fc5e334bb7c997e20dbf96445bba15a70f212561fc915f87608127526f8c66d"
 
 [[files]]
 file = "config/eclipticseasons-common.toml"
-hash = "99b3d3a6dc3a30e334167484f57b56705f4a6ee675bc0fae0ccbd85a79a5ea16"
+hash = "73d6c02fb6e971f75f0feb731d75d78610cc4430afe13eeb469f1f3121c2f95c"
 
 [[files]]
 file = "config/enhancedcelestials2core/mixins.properties"
@@ -87,6 +87,10 @@ hash = "7555077253c07f0695f66834d6f22d3ff4a2e076f384f5fe42c3f8365c002020"
 [[files]]
 file = "config/loot.toml"
 hash = "df4f5aec9a48bf94fcece0dd35f182473b2c5e9c7a355b2df00b917b2efd1a1e"
+
+[[files]]
+file = "config/map_atlases-client.toml"
+hash = "152a5482ea911a6737a9359e8c2807d9e1ccc9eca3b81aae52d010a987194adb"
 
 [[files]]
 file = "config/modernfix-mixins.properties"
@@ -189,6 +193,10 @@ hash = "ef4a4308e9108b02d30e9571381fe4ea8e7132d5faeee4fa1764aa25235e09d3"
 [[files]]
 file = "config/ragdoll_corpse-common.toml"
 hash = "85e60eb298a84d702e474552e544636016814ba75414c666fdb12657c4435fc1"
+
+[[files]]
+file = "config/ragdoll_reactions-server.toml"
+hash = "cf8a27aaa0013575a4cdc99e6b5796e59f214bff42c6b8e01f5d5d408198196f"
 
 [[files]]
 file = "config/regions_unexplored/common.json"
