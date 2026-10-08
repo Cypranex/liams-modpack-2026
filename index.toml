@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/liams_ragdoll_revival-common.toml"
+hash = "8c4d801a57beb19c4b543b2f16c752f7227cd9c5e49aa80ea0679aa9d3b8e8b6"
+
+[[files]]
 file = "kubejs/data/apotheosis/data_maps/item/loot_category_overrides.json"
 hash = "724f4f83d3aa7d19a8ab58a6cc07c6acbbb68cfb4e8c97498ebc0e24195a4b16"
 
@@ -125,12 +129,17 @@ file = "kubejs/server_scripts/remove_portable_engines_and_deep_seas.js"
 hash = "e90e9853bb46ffb7ce03aa3608cce49739d0d46d90dd8b784b80967070e602ef"
 
 [[files]]
+file = "mods/e4mc.pw.toml"
+hash = "c64bffb51596c65dbea0a7f12a6bd55ea55ef015dcc27779a87f7092714fe9a9"
+metafile = true
+
+[[files]]
 file = "mods/liams-corpse-controls-1.0.0.jar"
 hash = "05da0498ed9a0ccea95981c65669432efa098f9f4924a061002effc0342ca586"
 
 [[files]]
 file = "mods/liams-ragdoll-revival-1.0.0.jar"
-hash = "47df8a133b7c1cd63a7ab591e23ba971faf780c9287b6ef00cc56197a6911b1e"
+hash = "423cb94258dceaefe2d0b799af67b8ce94e1259ba3b6e611404d8e6ba6d12730"
 
 [[files]]
 file = "mods/sable-cleanup.pw.toml"
