@@ -25,18 +25,6 @@ file = "config/cumulus_menus-client.toml"
 hash = "63515bffd023b9bfff8f54db7d180f12ec53062255d9e290ed0c3a1ae51450ed"
 
 [[files]]
-file = "config/defaultoptions/keybindings.txt"
-hash = "932073577184658a64ddd56e9c35641f3122bf88cb5535d103f893fa97807f70"
-
-[[files]]
-file = "config/defaultoptions/options.txt"
-hash = "6bda6961954aa0dc942fbb59c88ab3735d753256200bb04a9bdc41c2ec9ff8d8"
-
-[[files]]
-file = "config/defaultoptions/servers.dat"
-hash = "7fc5e334bb7c997e20dbf96445bba15a70f212561fc915f87608127526f8c66d"
-
-[[files]]
 file = "config/eclipticseasons-common.toml"
 hash = "73d6c02fb6e971f75f0feb731d75d78610cc4430afe13eeb469f1f3121c2f95c"
 
