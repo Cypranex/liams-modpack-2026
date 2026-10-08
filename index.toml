@@ -81,6 +81,10 @@ file = "config/irons_restrictions-common.toml"
 hash = "135c5a81719235ce405070ed29b59b3844f2f26a07561a7e9b24c6db265d8f00"
 
 [[files]]
+file = "config/liams_ragdoll_revival-common.toml"
+hash = "7270b87a30c82eee781a87ba4e249e37b129377931e9b845440cac3f6dba12ec"
+
+[[files]]
 file = "config/lithium.properties"
 hash = "7555077253c07f0695f66834d6f22d3ff4a2e076f384f5fe42c3f8365c002020"
 
@@ -1009,8 +1013,8 @@ file = "mods/liams-corpse-controls-1.0.0.jar"
 hash = "05da0498ed9a0ccea95981c65669432efa098f9f4924a061002effc0342ca586"
 
 [[files]]
-file = "mods/liams-ragdoll-revival-fix-1.0.0.jar"
-hash = "81b41f1503d333eb0b6c0edaa9ee7fd3557ebaf30e935faa8de0dca52493864b"
+file = "mods/liams-ragdoll-revival-1.0.0.jar"
+hash = "fa84d0e91f930f298ab89db2faf5bc32c1154959a5274ba0982d8a669cf45e8e"
 
 [[files]]
 file = "mods/lionfish-api.pw.toml"
@@ -1250,11 +1254,6 @@ metafile = true
 [[files]]
 file = "mods/sable-ragdoll-corpse.pw.toml"
 hash = "e48a9f24f9c0e937b4aa46bcfec7e8ceaa40a4f29f4ea1c659c6d28575560320"
-metafile = true
-
-[[files]]
-file = "mods/sable-ragdoll-revival.pw.toml"
-hash = "4662bb5d15b8aafe6dd49b4211959508d63c0e8b570635f048f1c02db06b3475"
 metafile = true
 
 [[files]]
