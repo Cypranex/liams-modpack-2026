@@ -399,14 +399,6 @@ file = "kubejs/data/liams_modpack/worldgen/placed_feature/deep_cave_spinel.json"
 hash = "f893b81e50f29d6e60d51931a68e498053f62500c6310d8b4edfe312e33b742c"
 
 [[files]]
-file = "kubejs/data/liams_modpack/worldgen/structure/deep_wrought_chamber.json"
-hash = "6189d67ac86eac9da52546307c5b421cc5c05afb0f5735d6617dc5d56e0dca67"
-
-[[files]]
-file = "kubejs/data/liams_modpack/worldgen/template_pool/deep_wrought_chamber.json"
-hash = "32abf8cb27c62935e5043b7ebd0589f33843be714531c5ef2408fbfe9cc09456"
-
-[[files]]
 file = "kubejs/data/minecraft/worldgen/placed_feature/ore_diamond.json"
 hash = "86d213f029f7194ddc5208a30227d41a38ee5b409c4b3a1b3c393a301e2ff417"
 
@@ -461,10 +453,6 @@ hash = "91943948e1bdece8fa0c4eefe7722db608fffe746d2083390c806a8baef13109"
 [[files]]
 file = "kubejs/data/minecraft/worldgen/structure/trial_chambers.json"
 hash = "adaeb5598d289fe343a1507f3cf61c323afad31a0d07e02bd8d76413b630bee1"
-
-[[files]]
-file = "kubejs/data/mowziesmobs/worldgen/structure_set/wrought_chambers.json"
-hash = "1c946cb99ba035f6ce853bc7f367add67c810b3cce48e91caa17c0784833df17"
 
 [[files]]
 file = "kubejs/data/nova_structures/worldgen/structure/deepslate_camp.json"
