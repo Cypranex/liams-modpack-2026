@@ -232,7 +232,7 @@ hash = "678c03a94341146fe7b91049d624e70f9b7efbf87d97e31497b2e7103ed8e07f"
 
 [[files]]
 file = "config/sparsestructures.json5"
-hash = "edc75803f23b1e3ffd23f07cfe8c5c153885795df1d934cb2fdab499862c72ff"
+hash = "dd966dfa854dc9036f2f341704ea858c8c85979b27c38d2816e11389d7363e65"
 
 [[files]]
 file = "config/supplementaries-client.toml"
