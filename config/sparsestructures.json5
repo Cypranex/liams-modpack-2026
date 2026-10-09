@@ -1,39 +1,33 @@
-// Keep the global surface-structure spread factor of 2.
-// Dedicated underground sets use their original spacing with factor 1.
-// Mixed surface/underground sets cannot be separated by this config.
+// Keep surface structures at the pack-wide spread factor of 2.
+// Restore or partly restore underground discovery rates for new chunks.
 {
   "spreadFactor": 2,
   "idBasedSalt": true,
   "customSpreadFactors": [
-    { "structure": "minecraft:ancient_cities", "factor": 1 },
-    { "structure": "minecraft:trial_chambers", "factor": 1 },
-    { "structure": "minecraft:mineshafts", "factor": 1 },
-    { "structure": "minecraft:strongholds", "factor": 1 },
+    // Frequent small finds and exploration networks.
+    { "structure": "betterdungeons:small_dungeons", "factor": 0.5 },
+    { "structure": "bettermineshafts:mineshafts", "factor": 0.5 },
+    { "structure": "nova_structures:deepslate_camp", "factor": 0.5 },
+    { "structure": "nova_structures:underground_house", "factor": 0.5 },
 
-    { "structure": "betterdungeons:small_dungeons", "factor": 1 },
-    { "structure": "betterdungeons:skeleton_dungeons", "factor": 1 },
-    { "structure": "betterdungeons:spider_dungeons", "factor": 1 },
-    { "structure": "betterdungeons:zombie_dungeons", "factor": 1 },
-    { "structure": "betterdungeons:small_nether_dungeons", "factor": 1 },
-    { "structure": "bettermineshafts:mineshafts", "factor": 1 },
+    // Larger dungeons and uncommon points of interest.
+    { "structure": "betterdungeons:skeleton_dungeons", "factor": 0.75 },
+    { "structure": "betterdungeons:spider_dungeons", "factor": 0.75 },
+    { "structure": "betterdungeons:zombie_dungeons", "factor": 0.75 },
+    { "structure": "caverns_and_chasms:forges", "factor": 0.75 },
+    { "structure": "caverns_and_chasms:vaults", "factor": 0.75 },
+    { "structure": "nova_structures:undead_crypt", "factor": 0.75 },
+    { "structure": "irons_spellbooks:catacombs", "factor": 0.75 },
+    { "structure": "cataclysm:amethyst_nest", "factor": 0.75 },
+    { "structure": "minecraft:trial_chambers", "factor": 0.75 },
+
+    // Large or boss encounters remain comparatively rare.
+    { "structure": "nova_structures:illager_hideout", "factor": 1 },
+    { "structure": "cataclysm:ancient_factory", "factor": 1 },
+    { "structure": "minecraft:ancient_cities", "factor": 1 },
+    { "structure": "mowziesmobs:wrought_chambers", "factor": 1 },
+    { "structure": "minecraft:ancient_cities", "factor": 1 }
     { "structure": "betterstrongholds:stronghold", "factor": 1 },
 
-    { "structure": "caverns_and_chasms:forges", "factor": 1 },
-    { "structure": "caverns_and_chasms:vaults", "factor": 1 },
-    { "structure": "cataclysm:amethyst_nest", "factor": 1 },
-    { "structure": "cataclysm:ancient_factory", "factor": 1 },
-
-    { "structure": "nova_structures:deepslate_camp", "factor": 1 },
-    { "structure": "nova_structures:underground_house", "factor": 1 },
-    { "structure": "nova_structures:undead_crypt", "factor": 1 },
-    { "structure": "nova_structures:illager_hideout", "factor": 1 },
-    { "structure": "nova_structures:bunker", "factor": 1 },
-    { "structure": "nova_structures:creeping_crypt", "factor": 1 },
-
-    { "structure": "irons_spellbooks:catacombs", "factor": 1 },
-    { "structure": "irons_spellbooks:ice_spider_den", "factor": 1 },
-    { "structure": "mowziesmobs:wrought_chambers", "factor": 1 },
-    { "structure": "formationsnether:ore_shards", "factor": 1 },
-    { "structure": "betterend:sulphuric_cave", "factor": 1 }
   ]
 }

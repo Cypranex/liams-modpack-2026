@@ -1,0 +1,11 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#minecraft:is_overworld",
+  "features": [
+    "liams_modpack:deep_cave_diamond",
+    "liams_modpack:deep_cave_gold",
+    "liams_modpack:deep_cave_mithril",
+    "liams_modpack:deep_cave_spinel"
+  ],
+  "step": "underground_ores"
+}
