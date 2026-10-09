@@ -14,7 +14,7 @@ hash = "ad433c66e209e94e11a907ff64f712a2c9664ce35fd37e7e816d38efd626c772"
 
 [[files]]
 file = "config/bettercaves/neoforge-1_21_1/liquidregions.json"
-hash = "2e7d0c96ee0fef1004f12f9284a62581a140aebd150c825d1a8e778ce87bb49a"
+hash = "4cb57f82ffc75cf89eca62c93cd41df9b0d5241f2f67d118296e6650484878f1"
 
 [[files]]
 file = "config/bettermineshafts-neoforge-1_21.toml"
@@ -232,7 +232,7 @@ hash = "678c03a94341146fe7b91049d624e70f9b7efbf87d97e31497b2e7103ed8e07f"
 
 [[files]]
 file = "config/sparsestructures.json5"
-hash = "df0a686fc6e62f8b9e969e6a8ab91a89a34de11b48b6b8233015eaa6d9ead9e8"
+hash = "edc75803f23b1e3ffd23f07cfe8c5c153885795df1d934cb2fdab499862c72ff"
 
 [[files]]
 file = "config/supplementaries-client.toml"
@@ -558,7 +558,7 @@ metafile = true
 
 [[files]]
 file = "mods/apothic-enchanting.pw.toml"
-hash = "497f5cc4ff9f5b371393e3b22e5437a0164262eb43aba60e1ae68675ec0cbe8e"
+hash = "0d3ca07f510b7674932be8e109f394ab23aa4cd1aee04020ea0d509a0d1dd619"
 metafile = true
 
 [[files]]
@@ -583,7 +583,7 @@ metafile = true
 
 [[files]]
 file = "mods/azurelib.pw.toml"
-hash = "f15a47040f70e3780910f8b5a1dfae03d08d8fb8f224672a4d56428fad9fadc2"
+hash = "402c11fcd575325433097a42c2d2fcabc67df6685ae07a6ca35ec4d5b0e94099"
 metafile = true
 
 [[files]]
@@ -613,7 +613,7 @@ metafile = true
 
 [[files]]
 file = "mods/better-archeology.pw.toml"
-hash = "737828afd79fae8bc2cf535ae48cca409dc4a86b93312ad0c88e4fd8009fe8c2"
+hash = "ddebe944d10b4a129d4fe780f15fa98dcccfabddda76d029307d8e1a8c318104"
 metafile = true
 
 [[files]]
@@ -628,7 +628,7 @@ metafile = true
 
 [[files]]
 file = "mods/betterend-neoforge.pw.toml"
-hash = "d86ed90b803932d8de1404064d02cabf943c81f4b19d8125340a404117a6e48d"
+hash = "c430ac5fe10a7c373106a1956fe5bcab3f907157c834cf2ad09c0f9d98bb93c6"
 metafile = true
 
 [[files]]
@@ -733,7 +733,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-emf-compat-skyhook.pw.toml"
-hash = "726fe4ee74cc23e9d3f88288277110f7d0fa61ab10beb8800d7a5410cf37deb7"
+hash = "e9077163c023577cb6a75c826ab59322ea254f79c14377acf65fdace67145253"
 metafile = true
 
 [[files]]
@@ -846,17 +846,17 @@ metafile = true
 
 [[files]]
 file = "mods/emf-compat-better-combat.pw.toml"
-hash = "15c960031b5cdc1b3b4281483121555a9428d8c9300d82bc0743f935ae7bccb2"
+hash = "b9c2ed9b639b9d8e8d4cdd09c48ca1acfcc2109fe1866785423412ebb1c3e2e8"
 metafile = true
 
 [[files]]
 file = "mods/emf-compat-core.pw.toml"
-hash = "a222eef673ac26f0ee746dffbf8b5b018864349cdbf673f5e4377e39ff3c96b1"
+hash = "321dba443268b96b71b77b4d0b93a20d4e92379de7ca4daf68d0dfdf2e01ec4e"
 metafile = true
 
 [[files]]
 file = "mods/emf-compat-irons-spells-n-spellbooks.pw.toml"
-hash = "95ba797e3d1a9be33bd555e0e4d212960d417a2717978c2e08d2411936d0777a"
+hash = "9492fd9176367e82fe4e0411d83d5782a19d584e42dd3288088788f0ccd19d4e"
 metafile = true
 
 [[files]]
@@ -906,7 +906,7 @@ metafile = true
 
 [[files]]
 file = "mods/entityculling.pw.toml"
-hash = "30d6875d934c57d5827f29f35ca77efc72a21df361ad3d578b93e7e137a39654"
+hash = "426238488c9ffd843f661f8bc74aa8e585fa6b4d342c43c4ba4cb8451298b725"
 metafile = true
 
 [[files]]
@@ -1011,7 +1011,7 @@ metafile = true
 
 [[files]]
 file = "mods/friends-and-foes-forge.pw.toml"
-hash = "78a50ddf9108d1dda82e7de46a991dcd61a046e4ea2279aa551071ba8f178f86"
+hash = "3e3f571c6895e35244fb2b5dd400398a119e86d0ca85bce330533accfee3ea37"
 metafile = true
 
 [[files]]
@@ -1214,7 +1214,7 @@ metafile = true
 
 [[files]]
 file = "mods/modernfix.pw.toml"
-hash = "c84140c66f233909b392bd7253ca33c59903ffda51beff558d9a2a4a8c6bc269"
+hash = "d10fbef1555f5277563b9cbf7683811ac0f38c1af41646e6ce5c3aaa2149425d"
 metafile = true
 
 [[files]]
@@ -1249,7 +1249,7 @@ metafile = true
 
 [[files]]
 file = "mods/not-enough-animations-emf-compat.pw.toml"
-hash = "48e8d6ae84526b5055d62fec178cc7dd62bcbc481b721b70708dada965c3c7d5"
+hash = "c8aed774579c58e6cef4ea8fd4831385e35afab512bb9837032dcdfd26b65ce1"
 metafile = true
 
 [[files]]
@@ -1314,12 +1314,12 @@ metafile = true
 
 [[files]]
 file = "mods/puzzles-lib.pw.toml"
-hash = "6b1ee632cee2d75301016eaac99a3446ad605f11fbfda631effac0eb7da59f6c"
+hash = "3b5f787b41d1814911aad8f199ad7db55a65459e1833b843abb12615dfa0a580"
 metafile = true
 
 [[files]]
 file = "mods/quantified-api.pw.toml"
-hash = "e2ff81d07d8100c2cfcc19a84ddcefea122c1cb3faaa6111c36ed84103caba0c"
+hash = "ceb833b23cd930d7ec0ee2bca4312722f408bdd4d238e5d5b5dd835c8a95eff7"
 metafile = true
 
 [[files]]

@@ -1,13 +1,13 @@
 name = "EMF Compat: Better Combat"
-filename = "emf_compat_better_combat_1.21.1_2.0.0.jar"
+filename = "emf_compat_better_combat_neoforge_1.21.1_2.1.0.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/Smytm33T/versions/m3PyTVNC/emf_compat_better_combat_1.21.1_2.0.0.jar"
+url = "https://cdn.modrinth.com/data/Smytm33T/versions/SrMjYphR/emf_compat_better_combat_neoforge_1.21.1_2.1.0.jar"
 hash-format = "sha512"
-hash = "e04cae7c2c9ed64808577453f45bd02224c0f5096f9aa58a19a198c022f748ebfc25ba22a2a209cebd9d23667e2e51ae890d973d788d46b3e6b9fa175cff761f"
+hash = "ba8bc819cc5511c39e077cb20465bba07116ff1155af7393fd821ee580d89739be11e83681a0629cba75103470e4b3ce382d60cd210206784d70650ff2da512a"
 
 [update]
 [update.modrinth]
 mod-id = "Smytm33T"
-version = "m3PyTVNC"
+version = "SrMjYphR"
