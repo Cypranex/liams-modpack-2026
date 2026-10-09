@@ -1,0 +1,33 @@
+// Keep surface structures at the pack-wide spread factor of 2.
+// Restore or partly restore underground discovery rates for new chunks.
+{
+  "spreadFactor": 2,
+  "idBasedSalt": true,
+  "customSpreadFactors": [
+    // Frequent small finds and exploration networks.
+    { "structure": "betterdungeons:small_dungeons", "factor": 0.25 },
+    { "structure": "bettermineshafts:mineshafts", "factor": 0.25 },
+    { "structure": "nova_structures:deepslate_camp", "factor": 0.25 },
+    { "structure": "nova_structures:underground_house", "factor": 0.25 },
+
+    // Larger dungeons and uncommon points of interest.
+    { "structure": "betterdungeons:skeleton_dungeons", "factor": 0.5 },
+    { "structure": "betterdungeons:spider_dungeons", "factor": 0.5 },
+    { "structure": "betterdungeons:zombie_dungeons", "factor": 0.5 },
+    { "structure": "caverns_and_chasms:forges", "factor": 0.5 },
+    { "structure": "caverns_and_chasms:vaults", "factor": 0.5 },
+    { "structure": "nova_structures:undead_crypt", "factor": 0.5 },
+    { "structure": "irons_spellbooks:catacombs", "factor": 0.5 },
+    { "structure": "cataclysm:amethyst_nest", "factor": 0.5 },
+    { "structure": "minecraft:trial_chambers", "factor": 0.5 },
+
+    // Large or boss encounters remain comparatively rare.
+    { "structure": "nova_structures:illager_hideout", "factor": 1 },
+    { "structure": "cataclysm:ancient_factory", "factor": 1 },
+    { "structure": "minecraft:ancient_cities", "factor": 1 },
+    { "structure": "mowziesmobs:wrought_chambers", "factor": 1 },
+    { "structure": "minecraft:ancient_cities", "factor": 1 },
+    { "structure": "betterstrongholds:stronghold", "factor": 1 }
+
+  ]
+}
