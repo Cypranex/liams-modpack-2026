@@ -1,16 +1,76 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/bettercaves/neoforge-1_21_1/liquidregions.json"
+hash = "2e7d0c96ee0fef1004f12f9284a62581a140aebd150c825d1a8e778ce87bb49a"
+
+[[files]]
+file = "config/bettermineshafts-neoforge-1_21.toml"
+hash = "deb28cda8a953f7c170c24cbcd42fbce7041f4bf38f3983b7bb369987184396b"
+
+[[files]]
 file = "config/liams_ragdoll_revival-common.toml"
 hash = "8c4d801a57beb19c4b543b2f16c752f7227cd9c5e49aa80ea0679aa9d3b8e8b6"
+
+[[files]]
+file = "config/mowziesmobs-common.toml"
+hash = "5bdb1341455819c292bfd9fef0c3e05ad1ab881c2b33c4519f1f7108f6550200"
+
+[[files]]
+file = "config/quark-common.toml"
+hash = "dfea052db7050da49203e2290ee32a0d27cd649e1571321b2008b6cedc1f65e1"
+
+[[files]]
+file = "config/sol_valheim_reforged-client.toml"
+hash = "678c03a94341146fe7b91049d624e70f9b7efbf87d97e31497b2e7103ed8e07f"
+
+[[files]]
+file = "config/sparsestructures.json5"
+hash = "df0a686fc6e62f8b9e969e6a8ab91a89a34de11b48b6b8233015eaa6d9ead9e8"
 
 [[files]]
 file = "kubejs/data/apotheosis/data_maps/item/loot_category_overrides.json"
 hash = "724f4f83d3aa7d19a8ab58a6cc07c6acbbb68cfb4e8c97498ebc0e24195a4b16"
 
 [[files]]
+file = "kubejs/data/bettercaves/worldgen/configured_carver/better_cave.json"
+hash = "af69be85a8564b01c6186149aa8c6c20cdf945026e9b14c415f61abb9c1ddebb"
+
+[[files]]
+file = "kubejs/data/bettercaves/worldgen/configured_carver/surface_cave.json"
+hash = "91dfb715179055ce5163326937e8608f201a80d8fe3088a74d203d6a30696a1f"
+
+[[files]]
+file = "kubejs/data/betterdungeons/worldgen/structure/skeleton_dungeon.json"
+hash = "c145c7dc7a0791e689245092b82d880820984e2d6beadaeff1181ed234fb6ea1"
+
+[[files]]
+file = "kubejs/data/betterdungeons/worldgen/structure/small_dungeon.json"
+hash = "2f31a19fc37d0e7a36b3a1484d4831f002aefd15efc34fb715b5eeb8c9ef4c0b"
+
+[[files]]
+file = "kubejs/data/betterdungeons/worldgen/structure/spider_dungeon.json"
+hash = "b601a5ae0658758bee9f97bc9f92e35fcb629d51f8910dbd7b8f99fbb399f9c5"
+
+[[files]]
+file = "kubejs/data/betterdungeons/worldgen/structure/zombie_dungeon.json"
+hash = "a09601f971bfa90ec3e667e9163eb0811dd9b999aabe26e981e7119d552eb5ec"
+
+[[files]]
+file = "kubejs/data/betterstrongholds/worldgen/structure/stronghold.json"
+hash = "ca2e1b743c6567863dbbe6a4b8f30e8a15c6419f4dff73810115bd3265388144"
+
+[[files]]
 file = "kubejs/data/blueprint/data_maps/dimension/modded_biome_slice_sizes.json"
 hash = "638af9ec90e2d3afdeca35ec1da9e601deee2b08b5d30af9aa9f84c86778064b"
+
+[[files]]
+file = "kubejs/data/cataclysm/worldgen/structure/amethyst_nest.json"
+hash = "c1a323a9922882ae9eebf74b48c7446f1bc953c14cc534b2d331eaa12aa9662e"
+
+[[files]]
+file = "kubejs/data/cataclysm/worldgen/structure/ancient_factory.json"
+hash = "6cc24d991dedb3c5b3cef89a533c813cdc9fa141797071b8f356e78ef08977a0"
 
 [[files]]
 file = "kubejs/data/caverns_and_chasms/worldgen/placed_feature/ore_gold_and_silver_lower.json"
@@ -27,6 +87,10 @@ hash = "80a48235c2a0b0df211de1216626d5afdf3accb75fc1cb09c2053f7f7347ed0b"
 [[files]]
 file = "kubejs/data/caverns_and_chasms/worldgen/placed_feature/ore_spinel_buried.json"
 hash = "df5c353c920db3c7f3fdbb8eca29060b1cf9e38fe564ed4a1fbb92ef81a8e8e4"
+
+[[files]]
+file = "kubejs/data/caverns_and_chasms/worldgen/structure/forge.json"
+hash = "09a39cc32043ad1ef78d1ca04a43bd706d3022586f733e66760fc1e16c0103a8"
 
 [[files]]
 file = "kubejs/data/caverns_and_chasms/worldgen/structure/vault.json"
@@ -47,6 +111,46 @@ hash = "0c615d27d6e7932dab70603593b0d4b2098f06e605c17c7e8549a677ec84ef94"
 [[files]]
 file = "kubejs/data/irons_spellbooks/worldgen/placed_feature/ore_mithril_placement.json"
 hash = "8e19834fd34684af29a2ce2165f5c1383b5215b0cf9f7e8ece7b2885fe3cd880"
+
+[[files]]
+file = "kubejs/data/irons_spellbooks/worldgen/structure/catacombs.json"
+hash = "9e692d10372ee26e6e768aa80d2016ae71cba006b65cbe4b32b8ca4e8081f238"
+
+[[files]]
+file = "kubejs/data/liams_modpack/neoforge/biome_modifier/add_deep_cave_ores.json"
+hash = "7419c66ad8aff6405c0beff2ba0c2b09b91a5a6dd6707b1d2adbd6f5d8d050b5"
+
+[[files]]
+file = "kubejs/data/liams_modpack/worldgen/configured_feature/deep_cave_diamond.json"
+hash = "6b99623f9e07dcfedba3e153880c30d7c6d0b51219022c882a7a7fa8e8d2f922"
+
+[[files]]
+file = "kubejs/data/liams_modpack/worldgen/configured_feature/deep_cave_gold.json"
+hash = "02c760cccb23a084c5e8ec5130033cbb55dc5bc9b133bd0d7e85c48c05eaf425"
+
+[[files]]
+file = "kubejs/data/liams_modpack/worldgen/configured_feature/deep_cave_mithril.json"
+hash = "d98206235d79a69ecc8e36a3d6a94e579dc11b1005cc42b5e0db8a2710ea9c55"
+
+[[files]]
+file = "kubejs/data/liams_modpack/worldgen/configured_feature/deep_cave_spinel.json"
+hash = "0de6806f550fea269bafbbfc4bdb32757cdd0ebf749e5c28944d726b83ff6411"
+
+[[files]]
+file = "kubejs/data/liams_modpack/worldgen/placed_feature/deep_cave_diamond.json"
+hash = "9588e2e5aaec5bff994228c4a133e899aed220677e18a1d5878b3b8a42ba10aa"
+
+[[files]]
+file = "kubejs/data/liams_modpack/worldgen/placed_feature/deep_cave_gold.json"
+hash = "567eb54b06c0378971bfb0e17d474f1a42a73115e43e38e3986d53fc886abf30"
+
+[[files]]
+file = "kubejs/data/liams_modpack/worldgen/placed_feature/deep_cave_mithril.json"
+hash = "d3f1e08b321fc893eaba6d8acf5af9de19f6858e5b54b7ec134bd250f85bb381"
+
+[[files]]
+file = "kubejs/data/liams_modpack/worldgen/placed_feature/deep_cave_spinel.json"
+hash = "f893b81e50f29d6e60d51931a68e498053f62500c6310d8b4edfe312e33b742c"
 
 [[files]]
 file = "kubejs/data/minecraft/worldgen/placed_feature/ore_diamond.json"
@@ -97,6 +201,30 @@ file = "kubejs/data/minecraft/worldgen/placed_feature/ore_redstone_lower.json"
 hash = "2e7e99d69c81595e89795c15e5c684f3a51db448bec64a0de72f18142a5d283f"
 
 [[files]]
+file = "kubejs/data/minecraft/worldgen/structure/ancient_city.json"
+hash = "91943948e1bdece8fa0c4eefe7722db608fffe746d2083390c806a8baef13109"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/structure/trial_chambers.json"
+hash = "adaeb5598d289fe343a1507f3cf61c323afad31a0d07e02bd8d76413b630bee1"
+
+[[files]]
+file = "kubejs/data/nova_structures/worldgen/structure/deepslate_camp.json"
+hash = "f2e6d75a405f7e60838c93eddce33a6de8adb9d517c3668d7d4c345490361b4c"
+
+[[files]]
+file = "kubejs/data/nova_structures/worldgen/structure/illager_hideout.json"
+hash = "4d46fdaa4dfd9f7d00edf250ba982bdf8724ae5f5419b1fe1b31a19bab0d2433"
+
+[[files]]
+file = "kubejs/data/nova_structures/worldgen/structure/undead_crypt.json"
+hash = "e0b482a40691b9b473d361168463aa904eb2065a1fda87397eca8febff05870e"
+
+[[files]]
+file = "kubejs/data/nova_structures/worldgen/structure/underground_house.json"
+hash = "0a1308c780aa4542444d34018117a92e8b059e5653ed9f6ac70690a7e5981907"
+
+[[files]]
 file = "kubejs/data/quark/worldgen/placed_feature/ore_lapis_extra.json"
 hash = "3b007fbbc855ba4e8b906569ab47a592d988691b043a86f99c5fc0fc49a563c7"
 
@@ -129,9 +257,8 @@ file = "kubejs/server_scripts/remove_portable_engines_and_deep_seas.js"
 hash = "e90e9853bb46ffb7ce03aa3608cce49739d0d46d90dd8b784b80967070e602ef"
 
 [[files]]
-file = "mods/e4mc.pw.toml"
-hash = "c64bffb51596c65dbea0a7f12a6bd55ea55ef015dcc27779a87f7092714fe9a9"
-metafile = true
+file = "kubejs/server_scripts/startup_commands.js"
+hash = "d47ef3249b51f29c6a303bc7ca1af01803c05890b531f8708d77e5b6520a7e72"
 
 [[files]]
 file = "mods/liams-corpse-controls-1.0.0.jar"
@@ -139,7 +266,12 @@ hash = "05da0498ed9a0ccea95981c65669432efa098f9f4924a061002effc0342ca586"
 
 [[files]]
 file = "mods/liams-ragdoll-revival-1.0.0.jar"
-hash = "423cb94258dceaefe2d0b799af67b8ce94e1259ba3b6e611404d8e6ba6d12730"
+hash = "4178b8f7de7050c0a8ed5dc5701dc6f1e4025100d7aa613605a0b81da4a8e49f"
+
+[[files]]
+file = "mods/reliable-backpacks.pw.toml"
+hash = "aa1f11c5c82e46adec78ef656dae8edb9aab6c18bb761697d9e89ca0f66f4889"
+metafile = true
 
 [[files]]
 file = "mods/sable-cleanup.pw.toml"
@@ -159,6 +291,11 @@ metafile = true
 [[files]]
 file = "mods/sable.pw.toml"
 hash = "fadb5c9cfe145e51992894fe57209fc8f1696ef892ee9702a24c6205f042e9b2"
+metafile = true
+
+[[files]]
+file = "mods/spice-of-life-valheim-reforged.pw.toml"
+hash = "c16e1be49014758e7f357283f803233903375ab94e36dd2f0d647901327524ec"
 metafile = true
 
 [[files]]
