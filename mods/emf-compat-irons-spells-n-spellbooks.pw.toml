@@ -1,13 +1,13 @@
 name = "EMF Compat: Iron's Spells 'n Spellbooks"
-filename = "emf_compat_iron_spells_1.21.1_2.0.0.jar"
+filename = "emf_compat_iron_spells_neoforge_1.21.1_2.1.0.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/rk0DMjc3/versions/WYdjExJI/emf_compat_iron_spells_1.21.1_2.0.0.jar"
+url = "https://cdn.modrinth.com/data/rk0DMjc3/versions/Zt9SCiVI/emf_compat_iron_spells_neoforge_1.21.1_2.1.0.jar"
 hash-format = "sha512"
-hash = "f35a08596fdc04dcc78c581bc043fab1e9efb2ddc14f0357830c2c53722bcd176bd2759ebb02df4e4dd9903a68c5e91cf3f479a55909eae92320d8ab661912d0"
+hash = "20c731a880684b43fd426ee3e9eb7e6060bf7c24ec9f544eadab8d28023fab0e0c32f1dfd86f87089edba2df48a01b5dd2641bcd4c92e4cfbc619b911938e183"
 
 [update]
 [update.modrinth]
 mod-id = "rk0DMjc3"
-version = "WYdjExJI"
+version = "Zt9SCiVI"

@@ -1,0 +1,16 @@
+{
+  "feature": "liams_modpack:deep_cave_mithril",
+  "placement": [
+    { "type": "minecraft:count", "count": 2 },
+    { "type": "minecraft:in_square" },
+    {
+      "type": "minecraft:height_range",
+      "height": {
+        "type": "minecraft:biased_to_bottom",
+        "min_inclusive": { "absolute": -312 },
+        "max_inclusive": { "absolute": -257 }
+      }
+    },
+    { "type": "minecraft:biome" }
+  ]
+}
