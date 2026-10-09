@@ -13,6 +13,10 @@ file = "config/apotheosis/apotheosis.cfg"
 hash = "ad433c66e209e94e11a907ff64f712a2c9664ce35fd37e7e816d38efd626c772"
 
 [[files]]
+file = "config/bettercaves/neoforge-1_21_1/liquidregions.json"
+hash = "2e7d0c96ee0fef1004f12f9284a62581a140aebd150c825d1a8e778ce87bb49a"
+
+[[files]]
 file = "config/bettermineshafts-neoforge-1_21.toml"
 hash = "deb28cda8a953f7c170c24cbcd42fbce7041f4bf38f3983b7bb369987184396b"
 
@@ -228,7 +232,7 @@ hash = "678c03a94341146fe7b91049d624e70f9b7efbf87d97e31497b2e7103ed8e07f"
 
 [[files]]
 file = "config/sparsestructures.json5"
-hash = "d3f81953b434168f48aca98ec3db69f5105b021f3bce3927076bc565f03f465a"
+hash = "df0a686fc6e62f8b9e969e6a8ab91a89a34de11b48b6b8233015eaa6d9ead9e8"
 
 [[files]]
 file = "config/supplementaries-client.toml"
@@ -273,6 +277,14 @@ hash = "d60b9d9921f44daef1edbecfabd00c08e875a5b76baa20f6e96e294a84eba18f"
 [[files]]
 file = "kubejs/data/apotheosis/data_maps/item/loot_category_overrides.json"
 hash = "724f4f83d3aa7d19a8ab58a6cc07c6acbbb68cfb4e8c97498ebc0e24195a4b16"
+
+[[files]]
+file = "kubejs/data/bettercaves/worldgen/configured_carver/better_cave.json"
+hash = "af69be85a8564b01c6186149aa8c6c20cdf945026e9b14c415f61abb9c1ddebb"
+
+[[files]]
+file = "kubejs/data/bettercaves/worldgen/configured_carver/surface_cave.json"
+hash = "91dfb715179055ce5163326937e8608f201a80d8fe3088a74d203d6a30696a1f"
 
 [[files]]
 file = "kubejs/data/betterdungeons/worldgen/structure/skeleton_dungeon.json"
@@ -349,6 +361,42 @@ hash = "8e19834fd34684af29a2ce2165f5c1383b5215b0cf9f7e8ece7b2885fe3cd880"
 [[files]]
 file = "kubejs/data/irons_spellbooks/worldgen/structure/catacombs.json"
 hash = "9e692d10372ee26e6e768aa80d2016ae71cba006b65cbe4b32b8ca4e8081f238"
+
+[[files]]
+file = "kubejs/data/liams_modpack/neoforge/biome_modifier/add_deep_cave_ores.json"
+hash = "7419c66ad8aff6405c0beff2ba0c2b09b91a5a6dd6707b1d2adbd6f5d8d050b5"
+
+[[files]]
+file = "kubejs/data/liams_modpack/worldgen/configured_feature/deep_cave_diamond.json"
+hash = "6b99623f9e07dcfedba3e153880c30d7c6d0b51219022c882a7a7fa8e8d2f922"
+
+[[files]]
+file = "kubejs/data/liams_modpack/worldgen/configured_feature/deep_cave_gold.json"
+hash = "02c760cccb23a084c5e8ec5130033cbb55dc5bc9b133bd0d7e85c48c05eaf425"
+
+[[files]]
+file = "kubejs/data/liams_modpack/worldgen/configured_feature/deep_cave_mithril.json"
+hash = "d98206235d79a69ecc8e36a3d6a94e579dc11b1005cc42b5e0db8a2710ea9c55"
+
+[[files]]
+file = "kubejs/data/liams_modpack/worldgen/configured_feature/deep_cave_spinel.json"
+hash = "0de6806f550fea269bafbbfc4bdb32757cdd0ebf749e5c28944d726b83ff6411"
+
+[[files]]
+file = "kubejs/data/liams_modpack/worldgen/placed_feature/deep_cave_diamond.json"
+hash = "9588e2e5aaec5bff994228c4a133e899aed220677e18a1d5878b3b8a42ba10aa"
+
+[[files]]
+file = "kubejs/data/liams_modpack/worldgen/placed_feature/deep_cave_gold.json"
+hash = "567eb54b06c0378971bfb0e17d474f1a42a73115e43e38e3986d53fc886abf30"
+
+[[files]]
+file = "kubejs/data/liams_modpack/worldgen/placed_feature/deep_cave_mithril.json"
+hash = "d3f1e08b321fc893eaba6d8acf5af9de19f6858e5b54b7ec134bd250f85bb381"
+
+[[files]]
+file = "kubejs/data/liams_modpack/worldgen/placed_feature/deep_cave_spinel.json"
+hash = "f893b81e50f29d6e60d51931a68e498053f62500c6310d8b4edfe312e33b742c"
 
 [[files]]
 file = "kubejs/data/minecraft/worldgen/placed_feature/ore_diamond.json"
@@ -624,6 +672,11 @@ hash = "574149e660cbe7f90bcde3838770bc076cfb17858583996f35cef180bc6d07e4"
 metafile = true
 
 [[files]]
+file = "mods/chalk-mod.pw.toml"
+hash = "c6b9662ee5f41840989a380ec14b648ec0c1cc138d1d035cef42a9f65d6b886f"
+metafile = true
+
+[[files]]
 file = "mods/chefs-delight.pw.toml"
 hash = "114dcc3cdc8283320c4a22a586cb9f826490fc2332e0d7b1b88b78043fda5634"
 metafile = true
@@ -864,6 +917,11 @@ metafile = true
 [[files]]
 file = "mods/excavated_variants.pw.toml"
 hash = "c4bc7c10328b5a2aafcb916dff29cdb3f2be812c3e6d80d921ea1cfd2f761251"
+metafile = true
+
+[[files]]
+file = "mods/explorify.pw.toml"
+hash = "6adce6422e74091638dbd7872270ee58d9a22dc18340580f809cc50c739e0d4f"
 metafile = true
 
 [[files]]
@@ -1435,6 +1493,11 @@ hash = "edfee65caf18a07742eee36865643bd63d071a4419b8c0f6452980228dea8e65"
 metafile = true
 
 [[files]]
+file = "mods/structory.pw.toml"
+hash = "3c4da8a221086153d491104bba4fd8796dac92d5c3e0b2dc111a6c5d53b65484"
+metafile = true
+
+[[files]]
 file = "mods/structure-layout-optimizer.pw.toml"
 hash = "20d767f7f803fd43e7b539046878bf97a27458595a1beff0b28002aca1b671de"
 metafile = true
@@ -1519,6 +1582,11 @@ hash = "dde31f05114c72cb2f58e522417487730b872e456f77fdd02c032c9235791f6c"
 metafile = true
 
 [[files]]
+file = "mods/yungs-better-caves.pw.toml"
+hash = "2e941f9fa48f2049290a1f26306109d5d461b98b61ffee554075a78a9901dca0"
+metafile = true
+
+[[files]]
 file = "mods/yungs-better-desert-temples.pw.toml"
 hash = "c2cb28859e7bcc0eb4ce59c5792f90fa5f8ab8865f5867ba26a5a345ec60b498"
 metafile = true
@@ -1561,6 +1629,11 @@ metafile = true
 [[files]]
 file = "mods/yungs-better-witch-huts.pw.toml"
 hash = "9854b699d5a067c46ac99b1dedeeb529bff3fc18dd079e29b438c4cbf9725f68"
+metafile = true
+
+[[files]]
+file = "mods/yungs-cave-biomes.pw.toml"
+hash = "5a334201feff0fb2f76d486399f47d0ce5b5818c284fea895706c92bb2119470"
 metafile = true
 
 [[files]]
