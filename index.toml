@@ -267,232 +267,1072 @@ file = "config/wakes-client.toml"
 hash = "51f2c4e7d90673329adddfff7e4b65e97bbd925cf93fb9578e83d55a66e769d3"
 
 [[files]]
-file = "datapacks/Apotheosis Gems Rare.zip"
-hash = "5f015ec83f97779457effc89dd89e1a35f4407ef68564bc7536e466fc72b8351"
+file = "datapacks/Apotheosis Gems Rare/data/apotheosis/loot_modifiers/gem_entity_drops.json"
+hash = "4a4ccb74bad6ad429ac38bead44facb4fa41e8218ebf298189b020f354a3751a"
 
 [[files]]
-file = "datapacks/Hybrid Aquatic NeoForge Depth Disable.zip"
-hash = "4fa32a133f53131af0f93d63f6c293e6c160c2a67f084d6e53f428913509220c"
+file = "datapacks/Apotheosis Gems Rare/data/apotheosis/loot_modifiers/gem_entity_drops_from_real_players.json"
+hash = "ff0c821b13a258c76fb816899985aa60cc07a89f2d0e402b268f964d9da00091"
 
 [[files]]
-file = "datapacks/Liam's FreeTerraForged Preset.zip"
-hash = "c02bde52cc16662e9d638f45a544e7b87c1734e888bee7a314f53c3ecf5ddf6c"
+file = "datapacks/Apotheosis Gems Rare/data/apotheosis/loot_modifiers/gem_loot_injection.json"
+hash = "bba853f2a0ea29ef6ce8be290deb2d84df894db83ca7955e096c15d4fb2d7d85"
 
 [[files]]
-file = "kubejs/data/apotheosis/data_maps/item/loot_category_overrides.json"
-hash = "724f4f83d3aa7d19a8ab58a6cc07c6acbbb68cfb4e8c97498ebc0e24195a4b16"
+file = "datapacks/Apotheosis Gems Rare/data/apotheosis/loot_table/chests/chest_valuable.json"
+hash = "072a4acb692ac1edca89456f9eef2cc6977c3e27216636ce583bd31fcb6f4331"
 
 [[files]]
-file = "kubejs/data/bettercaves/worldgen/configured_carver/better_cave.json"
-hash = "af69be85a8564b01c6186149aa8c6c20cdf945026e9b14c415f61abb9c1ddebb"
+file = "datapacks/Apotheosis Gems Rare/data/apotheosis/loot_table/chests/tome_tower.json"
+hash = "371f0ae1fabac4255350f17c590d1bfe536f688796cacd2ec011f522fb4615f2"
 
 [[files]]
-file = "kubejs/data/bettercaves/worldgen/configured_carver/surface_cave.json"
-hash = "91dfb715179055ce5163326937e8608f201a80d8fe3088a74d203d6a30696a1f"
+file = "datapacks/Apotheosis Gems Rare/data/apotheosis/loot_table/entity/boss_drops.json"
+hash = "f13f7affc39b801d94b33610f4723ad5740170387ca3a18dddbb2aa3cb3bf592"
 
 [[files]]
-file = "kubejs/data/betterdungeons/worldgen/structure/skeleton_dungeon.json"
-hash = "c145c7dc7a0791e689245092b82d880820984e2d6beadaeff1181ed234fb6ea1"
+file = "datapacks/Apotheosis Gems Rare/data/apotheosis/loot_table/entity/rare_boss_drops.json"
+hash = "4944394628fb042de03a5f7e485401d5765863a96ab46d45ea294939cafa1ec4"
 
 [[files]]
-file = "kubejs/data/betterdungeons/worldgen/structure/small_dungeon.json"
-hash = "2f31a19fc37d0e7a36b3a1484d4831f002aefd15efc34fb715b5eeb8c9ef4c0b"
+file = "datapacks/Apotheosis Gems Rare/data/apotheosis/loot_table/entity/treasure_goblin.json"
+hash = "27f5ccdcbad36175c1333716810687d021888808ff6d7dd5f3da2acf0739af5a"
 
 [[files]]
-file = "kubejs/data/betterdungeons/worldgen/structure/spider_dungeon.json"
-hash = "b601a5ae0658758bee9f97bc9f92e35fcb629d51f8910dbd7b8f99fbb399f9c5"
+file = "datapacks/Apotheosis Gems Rare/pack.mcmeta"
+hash = "0e31ccd0ae06b52f2422f61298fdec8c77e250d6e224123edf8b120ec31897a4"
 
 [[files]]
-file = "kubejs/data/betterdungeons/worldgen/structure/zombie_dungeon.json"
-hash = "a09601f971bfa90ec3e667e9163eb0811dd9b999aabe26e981e7119d552eb5ec"
-
-[[files]]
-file = "kubejs/data/betterstrongholds/worldgen/structure/stronghold.json"
-hash = "ca2e1b743c6567863dbbe6a4b8f30e8a15c6419f4dff73810115bd3265388144"
-
-[[files]]
-file = "kubejs/data/blueprint/data_maps/dimension/modded_biome_slice_sizes.json"
-hash = "638af9ec90e2d3afdeca35ec1da9e601deee2b08b5d30af9aa9f84c86778064b"
-
-[[files]]
-file = "kubejs/data/cataclysm/worldgen/structure/amethyst_nest.json"
-hash = "c1a323a9922882ae9eebf74b48c7446f1bc953c14cc534b2d331eaa12aa9662e"
-
-[[files]]
-file = "kubejs/data/cataclysm/worldgen/structure/ancient_factory.json"
-hash = "6cc24d991dedb3c5b3cef89a533c813cdc9fa141797071b8f356e78ef08977a0"
-
-[[files]]
-file = "kubejs/data/caverns_and_chasms/worldgen/placed_feature/ore_gold_and_silver_lower.json"
-hash = "29942fcb602be4d02dad9dd2d9c7c7c4f62c235c983ef8e095fd42f4c42f859c"
-
-[[files]]
-file = "kubejs/data/caverns_and_chasms/worldgen/placed_feature/ore_gold_buried_with_silver.json"
-hash = "e612c3692d8a8122a915cd06708eb5e2556ce6e7e0bd382e61c3640618f34d5e"
-
-[[files]]
-file = "kubejs/data/caverns_and_chasms/worldgen/placed_feature/ore_silver_buried_with_gold.json"
-hash = "80a48235c2a0b0df211de1216626d5afdf3accb75fc1cb09c2053f7f7347ed0b"
-
-[[files]]
-file = "kubejs/data/caverns_and_chasms/worldgen/placed_feature/ore_spinel_buried.json"
-hash = "df5c353c920db3c7f3fdbb8eca29060b1cf9e38fe564ed4a1fbb92ef81a8e8e4"
-
-[[files]]
-file = "kubejs/data/caverns_and_chasms/worldgen/structure/forge.json"
-hash = "09a39cc32043ad1ef78d1ca04a43bd706d3022586f733e66760fc1e16c0103a8"
-
-[[files]]
-file = "kubejs/data/caverns_and_chasms/worldgen/structure/vault.json"
-hash = "65cb6bdcbad2650a59e264d64fa62ee84917c67322b9d404cef0cfde38302e0d"
-
-[[files]]
-file = "kubejs/data/create/worldgen/placed_feature/zinc_ore.json"
-hash = "88228f1829276017c1ed4af0a1944b6fff1edc7e6f00ce35a99360fb3ad511a0"
-
-[[files]]
-file = "kubejs/data/endersdelight/recipe/chorus_pie_slice.json"
-hash = "0dcdb65c4ff7b236cffb4bc23b02235a7b31b481d70a19d7ba4418f7f09ffafb"
-
-[[files]]
-file = "kubejs/data/hybrid_aquatic/tags/worldgen/biome/has_whale_fall.json"
+file = "datapacks/Aquatic Worldgen Cleanup/data/hybrid_aquatic/tags/worldgen/biome/has_whale_fall.json"
 hash = "0c615d27d6e7932dab70603593b0d4b2098f06e605c17c7e8549a677ec84ef94"
 
 [[files]]
-file = "kubejs/data/irons_spellbooks/worldgen/placed_feature/ore_mithril_placement.json"
+file = "datapacks/Aquatic Worldgen Cleanup/data/upgrade_aquatic/neoforge/biome_modifier/add_feature/driftwood.json"
+hash = "99b969132018e9da1071065a8593ba9564928b1ed0aa5ae3ab45f9dac071f7d5"
+
+[[files]]
+file = "datapacks/Aquatic Worldgen Cleanup/data/upgrade_aquatic/neoforge/biome_modifier/add_feature/river_tree.json"
+hash = "99b969132018e9da1071065a8593ba9564928b1ed0aa5ae3ab45f9dac071f7d5"
+
+[[files]]
+file = "datapacks/Aquatic Worldgen Cleanup/pack.mcmeta"
+hash = "4c7d0d0fb0559726695a0c73fdb437aa7746e74f07727a5bcb89e9709196a8cd"
+
+[[files]]
+file = "datapacks/Biome Slice Compatibility/data/blueprint/data_maps/dimension/modded_biome_slice_sizes.json"
+hash = "638af9ec90e2d3afdeca35ec1da9e601deee2b08b5d30af9aa9f84c86778064b"
+
+[[files]]
+file = "datapacks/Biome Slice Compatibility/pack.mcmeta"
+hash = "04c303c5eb7fba041311db7430e1856c3c0df8682903632d851d6c3ec51fc8c8"
+
+[[files]]
+file = "datapacks/Deep Ore Progression/data/caverns_and_chasms/worldgen/placed_feature/ore_gold_and_silver_lower.json"
+hash = "29942fcb602be4d02dad9dd2d9c7c7c4f62c235c983ef8e095fd42f4c42f859c"
+
+[[files]]
+file = "datapacks/Deep Ore Progression/data/caverns_and_chasms/worldgen/placed_feature/ore_gold_buried_with_silver.json"
+hash = "e612c3692d8a8122a915cd06708eb5e2556ce6e7e0bd382e61c3640618f34d5e"
+
+[[files]]
+file = "datapacks/Deep Ore Progression/data/caverns_and_chasms/worldgen/placed_feature/ore_silver_buried_with_gold.json"
+hash = "80a48235c2a0b0df211de1216626d5afdf3accb75fc1cb09c2053f7f7347ed0b"
+
+[[files]]
+file = "datapacks/Deep Ore Progression/data/caverns_and_chasms/worldgen/placed_feature/ore_spinel_buried.json"
+hash = "df5c353c920db3c7f3fdbb8eca29060b1cf9e38fe564ed4a1fbb92ef81a8e8e4"
+
+[[files]]
+file = "datapacks/Deep Ore Progression/data/create/worldgen/placed_feature/zinc_ore.json"
+hash = "88228f1829276017c1ed4af0a1944b6fff1edc7e6f00ce35a99360fb3ad511a0"
+
+[[files]]
+file = "datapacks/Deep Ore Progression/data/irons_spellbooks/worldgen/placed_feature/ore_mithril_placement.json"
 hash = "8e19834fd34684af29a2ce2165f5c1383b5215b0cf9f7e8ece7b2885fe3cd880"
 
 [[files]]
-file = "kubejs/data/irons_spellbooks/worldgen/structure/catacombs.json"
-hash = "9e692d10372ee26e6e768aa80d2016ae71cba006b65cbe4b32b8ca4e8081f238"
-
-[[files]]
-file = "kubejs/data/liams_modpack/neoforge/biome_modifier/add_deep_cave_ores.json"
+file = "datapacks/Deep Ore Progression/data/liams_modpack/neoforge/biome_modifier/add_deep_cave_ores.json"
 hash = "7419c66ad8aff6405c0beff2ba0c2b09b91a5a6dd6707b1d2adbd6f5d8d050b5"
 
 [[files]]
-file = "kubejs/data/liams_modpack/worldgen/configured_feature/deep_cave_diamond.json"
+file = "datapacks/Deep Ore Progression/data/liams_modpack/worldgen/configured_feature/deep_cave_diamond.json"
 hash = "6b99623f9e07dcfedba3e153880c30d7c6d0b51219022c882a7a7fa8e8d2f922"
 
 [[files]]
-file = "kubejs/data/liams_modpack/worldgen/configured_feature/deep_cave_gold.json"
+file = "datapacks/Deep Ore Progression/data/liams_modpack/worldgen/configured_feature/deep_cave_gold.json"
 hash = "02c760cccb23a084c5e8ec5130033cbb55dc5bc9b133bd0d7e85c48c05eaf425"
 
 [[files]]
-file = "kubejs/data/liams_modpack/worldgen/configured_feature/deep_cave_mithril.json"
+file = "datapacks/Deep Ore Progression/data/liams_modpack/worldgen/configured_feature/deep_cave_mithril.json"
 hash = "d98206235d79a69ecc8e36a3d6a94e579dc11b1005cc42b5e0db8a2710ea9c55"
 
 [[files]]
-file = "kubejs/data/liams_modpack/worldgen/configured_feature/deep_cave_spinel.json"
+file = "datapacks/Deep Ore Progression/data/liams_modpack/worldgen/configured_feature/deep_cave_spinel.json"
 hash = "0de6806f550fea269bafbbfc4bdb32757cdd0ebf749e5c28944d726b83ff6411"
 
 [[files]]
-file = "kubejs/data/liams_modpack/worldgen/placed_feature/deep_cave_diamond.json"
+file = "datapacks/Deep Ore Progression/data/liams_modpack/worldgen/placed_feature/deep_cave_diamond.json"
 hash = "9588e2e5aaec5bff994228c4a133e899aed220677e18a1d5878b3b8a42ba10aa"
 
 [[files]]
-file = "kubejs/data/liams_modpack/worldgen/placed_feature/deep_cave_gold.json"
+file = "datapacks/Deep Ore Progression/data/liams_modpack/worldgen/placed_feature/deep_cave_gold.json"
 hash = "567eb54b06c0378971bfb0e17d474f1a42a73115e43e38e3986d53fc886abf30"
 
 [[files]]
-file = "kubejs/data/liams_modpack/worldgen/placed_feature/deep_cave_mithril.json"
+file = "datapacks/Deep Ore Progression/data/liams_modpack/worldgen/placed_feature/deep_cave_mithril.json"
 hash = "d3f1e08b321fc893eaba6d8acf5af9de19f6858e5b54b7ec134bd250f85bb381"
 
 [[files]]
-file = "kubejs/data/liams_modpack/worldgen/placed_feature/deep_cave_spinel.json"
+file = "datapacks/Deep Ore Progression/data/liams_modpack/worldgen/placed_feature/deep_cave_spinel.json"
 hash = "f893b81e50f29d6e60d51931a68e498053f62500c6310d8b4edfe312e33b742c"
 
 [[files]]
-file = "kubejs/data/minecraft/worldgen/placed_feature/ore_diamond.json"
+file = "datapacks/Deep Ore Progression/data/minecraft/worldgen/placed_feature/ore_diamond.json"
 hash = "86d213f029f7194ddc5208a30227d41a38ee5b409c4b3a1b3c393a301e2ff417"
 
 [[files]]
-file = "kubejs/data/minecraft/worldgen/placed_feature/ore_diamond_buried.json"
+file = "datapacks/Deep Ore Progression/data/minecraft/worldgen/placed_feature/ore_diamond_buried.json"
 hash = "67907ff9fc9c41b9865d42d8d3d7c8ea958c1db4c2ec18a356f61982e6892b60"
 
 [[files]]
-file = "kubejs/data/minecraft/worldgen/placed_feature/ore_diamond_large.json"
+file = "datapacks/Deep Ore Progression/data/minecraft/worldgen/placed_feature/ore_diamond_large.json"
 hash = "6f5379eceb799f4550d3a834e9834064dc3eafdd8a1815ed23750d7e1965e15d"
 
 [[files]]
-file = "kubejs/data/minecraft/worldgen/placed_feature/ore_diamond_medium.json"
+file = "datapacks/Deep Ore Progression/data/minecraft/worldgen/placed_feature/ore_diamond_medium.json"
 hash = "215bf22e4ecd9217c1680d41c132e3400ca28a71dfa29020e4ae50b4fcef363f"
 
 [[files]]
-file = "kubejs/data/minecraft/worldgen/placed_feature/ore_gold.json"
+file = "datapacks/Deep Ore Progression/data/minecraft/worldgen/placed_feature/ore_gold.json"
 hash = "8d06f7264d99f82bf1220644d48143b0cdd5b5a45852507f2011865b69935914"
 
 [[files]]
-file = "kubejs/data/minecraft/worldgen/placed_feature/ore_gold_lower.json"
+file = "datapacks/Deep Ore Progression/data/minecraft/worldgen/placed_feature/ore_gold_lower.json"
 hash = "a30a12dc1b4465a0959c5b369c190bd6cd2db48309f17855d080f59d8daeaabc"
 
 [[files]]
-file = "kubejs/data/minecraft/worldgen/placed_feature/ore_iron_middle.json"
+file = "datapacks/Deep Ore Progression/data/minecraft/worldgen/placed_feature/ore_iron_middle.json"
 hash = "7b4f632dbc6a9a5c1db3d445d7882680360978fbe19c4c0abbd595f0920d66ab"
 
 [[files]]
-file = "kubejs/data/minecraft/worldgen/placed_feature/ore_iron_small.json"
+file = "datapacks/Deep Ore Progression/data/minecraft/worldgen/placed_feature/ore_iron_small.json"
 hash = "f4fecfafef6fb22f7c3fd3eee7dd4da37493cf83a452d10799246dbde0ace7bb"
 
 [[files]]
-file = "kubejs/data/minecraft/worldgen/placed_feature/ore_lapis.json"
+file = "datapacks/Deep Ore Progression/data/minecraft/worldgen/placed_feature/ore_lapis.json"
 hash = "5b6d9b3899414ae25ca970e45220c9a4b3e1d21ddd46c75cc06af3bfc1ab3820"
 
 [[files]]
-file = "kubejs/data/minecraft/worldgen/placed_feature/ore_lapis_buried.json"
+file = "datapacks/Deep Ore Progression/data/minecraft/worldgen/placed_feature/ore_lapis_buried.json"
 hash = "b838c2698a85d5aea3f32cfe1014dd8b9fa7e676381c4be60352d1a927d257b8"
 
 [[files]]
-file = "kubejs/data/minecraft/worldgen/placed_feature/ore_redstone.json"
+file = "datapacks/Deep Ore Progression/data/minecraft/worldgen/placed_feature/ore_redstone.json"
 hash = "8de25adc76756440a1aae228a4a319f3aaf568565e096dde263f1ba0332cd364"
 
 [[files]]
-file = "kubejs/data/minecraft/worldgen/placed_feature/ore_redstone_lower.json"
+file = "datapacks/Deep Ore Progression/data/minecraft/worldgen/placed_feature/ore_redstone_lower.json"
 hash = "2e7e99d69c81595e89795c15e5c684f3a51db448bec64a0de72f18142a5d283f"
 
 [[files]]
-file = "kubejs/data/minecraft/worldgen/structure/ancient_city.json"
-hash = "91943948e1bdece8fa0c4eefe7722db608fffe746d2083390c806a8baef13109"
-
-[[files]]
-file = "kubejs/data/minecraft/worldgen/structure/trial_chambers.json"
-hash = "adaeb5598d289fe343a1507f3cf61c323afad31a0d07e02bd8d76413b630bee1"
-
-[[files]]
-file = "kubejs/data/nova_structures/worldgen/structure/deepslate_camp.json"
-hash = "f2e6d75a405f7e60838c93eddce33a6de8adb9d517c3668d7d4c345490361b4c"
-
-[[files]]
-file = "kubejs/data/nova_structures/worldgen/structure/illager_hideout.json"
-hash = "4d46fdaa4dfd9f7d00edf250ba982bdf8724ae5f5419b1fe1b31a19bab0d2433"
-
-[[files]]
-file = "kubejs/data/nova_structures/worldgen/structure/undead_crypt.json"
-hash = "e0b482a40691b9b473d361168463aa904eb2065a1fda87397eca8febff05870e"
-
-[[files]]
-file = "kubejs/data/nova_structures/worldgen/structure/underground_house.json"
-hash = "0a1308c780aa4542444d34018117a92e8b059e5653ed9f6ac70690a7e5981907"
-
-[[files]]
-file = "kubejs/data/quark/worldgen/placed_feature/ore_lapis_extra.json"
+file = "datapacks/Deep Ore Progression/data/quark/worldgen/placed_feature/ore_lapis_extra.json"
 hash = "3b007fbbc855ba4e8b906569ab47a592d988691b043a86f99c5fc0fc49a563c7"
 
 [[files]]
-file = "kubejs/data/simplyswords/recipe/eldritch_end/dreadtide.json"
+file = "datapacks/Deep Ore Progression/pack.mcmeta"
+hash = "4127b0e3f4f945193c5e3e2122a3393334b98a26622c0e2f2afe6f055653c7fd"
+
+[[files]]
+file = "datapacks/Deep Underground Structures/data/betterdungeons/worldgen/structure/skeleton_dungeon.json"
+hash = "c145c7dc7a0791e689245092b82d880820984e2d6beadaeff1181ed234fb6ea1"
+
+[[files]]
+file = "datapacks/Deep Underground Structures/data/betterdungeons/worldgen/structure/small_dungeon.json"
+hash = "2f31a19fc37d0e7a36b3a1484d4831f002aefd15efc34fb715b5eeb8c9ef4c0b"
+
+[[files]]
+file = "datapacks/Deep Underground Structures/data/betterdungeons/worldgen/structure/spider_dungeon.json"
+hash = "b601a5ae0658758bee9f97bc9f92e35fcb629d51f8910dbd7b8f99fbb399f9c5"
+
+[[files]]
+file = "datapacks/Deep Underground Structures/data/betterdungeons/worldgen/structure/zombie_dungeon.json"
+hash = "a09601f971bfa90ec3e667e9163eb0811dd9b999aabe26e981e7119d552eb5ec"
+
+[[files]]
+file = "datapacks/Deep Underground Structures/data/betterstrongholds/worldgen/structure/stronghold.json"
+hash = "ca2e1b743c6567863dbbe6a4b8f30e8a15c6419f4dff73810115bd3265388144"
+
+[[files]]
+file = "datapacks/Deep Underground Structures/data/cataclysm/worldgen/structure/amethyst_nest.json"
+hash = "c1a323a9922882ae9eebf74b48c7446f1bc953c14cc534b2d331eaa12aa9662e"
+
+[[files]]
+file = "datapacks/Deep Underground Structures/data/cataclysm/worldgen/structure/ancient_factory.json"
+hash = "6cc24d991dedb3c5b3cef89a533c813cdc9fa141797071b8f356e78ef08977a0"
+
+[[files]]
+file = "datapacks/Deep Underground Structures/data/caverns_and_chasms/worldgen/structure/forge.json"
+hash = "09a39cc32043ad1ef78d1ca04a43bd706d3022586f733e66760fc1e16c0103a8"
+
+[[files]]
+file = "datapacks/Deep Underground Structures/data/caverns_and_chasms/worldgen/structure/vault.json"
+hash = "65cb6bdcbad2650a59e264d64fa62ee84917c67322b9d404cef0cfde38302e0d"
+
+[[files]]
+file = "datapacks/Deep Underground Structures/data/irons_spellbooks/worldgen/structure/catacombs.json"
+hash = "9e692d10372ee26e6e768aa80d2016ae71cba006b65cbe4b32b8ca4e8081f238"
+
+[[files]]
+file = "datapacks/Deep Underground Structures/data/minecraft/worldgen/structure/ancient_city.json"
+hash = "91943948e1bdece8fa0c4eefe7722db608fffe746d2083390c806a8baef13109"
+
+[[files]]
+file = "datapacks/Deep Underground Structures/data/minecraft/worldgen/structure/trial_chambers.json"
+hash = "adaeb5598d289fe343a1507f3cf61c323afad31a0d07e02bd8d76413b630bee1"
+
+[[files]]
+file = "datapacks/Deep Underground Structures/data/nova_structures/worldgen/structure/deepslate_camp.json"
+hash = "f2e6d75a405f7e60838c93eddce33a6de8adb9d517c3668d7d4c345490361b4c"
+
+[[files]]
+file = "datapacks/Deep Underground Structures/data/nova_structures/worldgen/structure/illager_hideout.json"
+hash = "4d46fdaa4dfd9f7d00edf250ba982bdf8724ae5f5419b1fe1b31a19bab0d2433"
+
+[[files]]
+file = "datapacks/Deep Underground Structures/data/nova_structures/worldgen/structure/undead_crypt.json"
+hash = "e0b482a40691b9b473d361168463aa904eb2065a1fda87397eca8febff05870e"
+
+[[files]]
+file = "datapacks/Deep Underground Structures/data/nova_structures/worldgen/structure/underground_house.json"
+hash = "0a1308c780aa4542444d34018117a92e8b059e5653ed9f6ac70690a7e5981907"
+
+[[files]]
+file = "datapacks/Deep Underground Structures/pack.mcmeta"
+hash = "e4bf5a07d051510070733bca5b775abe25be76832f0ffaf0c0fbd02262b7f090"
+
+[[files]]
+file = "datapacks/Full Depth Caves/data/bettercaves/worldgen/configured_carver/better_cave.json"
+hash = "af69be85a8564b01c6186149aa8c6c20cdf945026e9b14c415f61abb9c1ddebb"
+
+[[files]]
+file = "datapacks/Full Depth Caves/data/bettercaves/worldgen/configured_carver/surface_cave.json"
+hash = "91dfb715179055ce5163326937e8608f201a80d8fe3088a74d203d6a30696a1f"
+
+[[files]]
+file = "datapacks/Full Depth Caves/pack.mcmeta"
+hash = "eff2d2a23b538f0e59a02ef33768c0bc20d96bad9bf34e7d4f8febc8f83b043b"
+
+[[files]]
+file = "datapacks/Hybrid Aquatic NeoForge Depth Disable/data/hybrid_aquatic/hybrid_aquatic/density_function_wrapper/ocean_depth_modifier.json"
+hash = "7e63843de8eb949fe8a899c68cc0f2a4881738a0b81e73a76827aa81236b447e"
+
+[[files]]
+file = "datapacks/Hybrid Aquatic NeoForge Depth Disable/data/hybrid_aquatic/hybrid_aquatic/density_function_wrapper/trench_depth_modifier.json"
+hash = "7e63843de8eb949fe8a899c68cc0f2a4881738a0b81e73a76827aa81236b447e"
+
+[[files]]
+file = "datapacks/Hybrid Aquatic NeoForge Depth Disable/pack.mcmeta"
+hash = "e46f413ccb0a6739b6ef1ae10fab7b2f58b98d37052fb7dff0294eca67b0db75"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/freeterraforged/worldgen/noise/climate/biome_edge_shape.json"
+hash = "925c616d83693da0de288a87cad7792718621979c2ad5212f0dafadfb1c9742e"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/freeterraforged/worldgen/noise/strata/depth.json"
+hash = "26264027d7e64ceee1cfa602646511848322ba11897b89963035d3fab71d8a2f"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/freeterraforged/worldgen/noise/strata/selector.json"
+hash = "87be91ce31029bc46af9ed158748e61e8d194f7246d8e63ab45503760ef47a5b"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/freeterraforged/worldgen/noise/surface/desert.json"
+hash = "898d683e6537a621ea7b6d5f7d685a433a6bc2d73c8c97ed74447e3da52a87c8"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/freeterraforged/worldgen/noise/surface/forest.json"
+hash = "b33c728675b4b0142d466b56252f0a630256f46c684b5308ed1cd7062bf9dc46"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/freeterraforged/worldgen/noise/surface/iceberg/deep/down.json"
+hash = "2c3f6382af737971ad0f01ce71802885382cb8d6037ad48c701afad6929f0fca"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/freeterraforged/worldgen/noise/surface/iceberg/deep/fade_down.json"
+hash = "bdf366094c1a5b6b06282e11ce1c2ae9500c1f6345beac2651a5e3785b43a725"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/freeterraforged/worldgen/noise/surface/iceberg/deep/fade_up.json"
+hash = "53db34d4b13e047ce970b7c2596dbd4375606535f77277e6c8e77742094eba51"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/freeterraforged/worldgen/noise/surface/iceberg/deep/mask.json"
+hash = "1332f1c2be95fa1b084dd40d84c8d96605d7a5f8f626c5240c6c3eec397e1843"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/freeterraforged/worldgen/noise/surface/iceberg/deep/shape.json"
+hash = "8202d0c3738bcdf72be0b39f9d371852e718c25243540dee25bd64cb013020d1"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/freeterraforged/worldgen/noise/surface/iceberg/deep/top.json"
+hash = "3a73131a73e061db0402e675b71f68011790a1aa76b3a20f08c38b848e14c47e"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/freeterraforged/worldgen/noise/surface/iceberg/deep/up.json"
+hash = "69390de4e7c890ec188e57cc573106ecd91d0aa7211de6383c9fb6e5824a25d4"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/freeterraforged/worldgen/noise/surface/iceberg/shallow/down.json"
+hash = "4dc404f7e7bb4e5182c55112af381b5655fb056d0407bcc1e9518154fdcff885"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/freeterraforged/worldgen/noise/surface/iceberg/shallow/fade_down.json"
+hash = "ccce61da3de8db8266c001162e8c21ab50233f3ebd510f159bfa0574b748c550"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/freeterraforged/worldgen/noise/surface/iceberg/shallow/fade_up.json"
+hash = "9d1be54578b1a05b4948c371eda90961374b0ca99045021d89e00bc4a9d733b8"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/freeterraforged/worldgen/noise/surface/iceberg/shallow/mask.json"
+hash = "474193867d6915731036d61b9a67c8ca6875baed944eab2076e74c36af64c71f"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/freeterraforged/worldgen/noise/surface/iceberg/shallow/shape.json"
+hash = "1f59d08c1b393cd2e313cfb21c7f735a2ca6a6143f211d7564aa769528a96c8f"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/freeterraforged/worldgen/noise/surface/iceberg/shallow/top.json"
+hash = "928eddc932a83a6934ceeab615dd142cf0d24ecabf2e68d1d276dad6f9d90c07"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/freeterraforged/worldgen/noise/surface/iceberg/shallow/up.json"
+hash = "7fca8ededba6834f2a6b9a8f3837c36c00b40e486cffdeabf246793823e4fe52"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/freeterraforged/worldgen/noise/surface/strata/depth.json"
+hash = "54d1dd35586d80565bd7532e80a0bcfe5140f164706bf0fa11eb3653ff671993"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/freeterraforged/worldgen/noise/surface/strata/selector.json"
+hash = "9f4a35799c5fc7f1e706d28b163d265317055e9d5235b0bb2fee0974a650aa38"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/freeterraforged/worldgen/noise/surface/swamp.json"
+hash = "e7482d8d97beb44f84765b318d3211fb634981e08f4fd18b8e20eede2bac2dbe"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/freeterraforged/worldgen/noise/terrain/erosion.json"
+hash = "6978695a6ac099b5260bb2472338a3c8251a7bcb6beee3e45ac4a6c21dcb51a8"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/freeterraforged/worldgen/noise/terrain/ground.json"
+hash = "b276c58d08000191d0250d1f00597182b619e2d12a60343cbdda77d2d9ee42aa"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/freeterraforged/worldgen/noise/terrain/mountain_chain_alpha.json"
+hash = "affa519ab1db57668a9fc1dfb27696af5903f80cd9f814739dd8c10244fefaa2"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/freeterraforged/worldgen/noise/terrain/ridges.json"
+hash = "6978695a6ac099b5260bb2472338a3c8251a7bcb6beee3e45ac4a6c21dcb51a8"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/freeterraforged/worldgen/preset/preset.json"
+hash = "f599dce2a226e9127eb4503de7e2a734195cfc7acf37287d0790fe3f1dc6db15"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/neoforge/biome_modifier/add_birch_forest_grass.json"
+hash = "34f61fb4f4d300d06937b29019eff46eb4af63d22aff02f23dd72836ae88a520"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/neoforge/biome_modifier/add_cold_steppe_bush.json"
+hash = "c6eade389bc936256ab5adcaae262d58f77e7dac938a8838ad3616a47afa68d5"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/neoforge/biome_modifier/add_erosion.json"
+hash = "655679fb98a2d5e098e332e3e4741c90c6bf21fc1add50ceb47b7f3a9af56258"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/neoforge/biome_modifier/add_forest_grass.json"
+hash = "4f7df9c8dd32d3b4ad405de8490c3f03f2c8b60cb1fb586c06555942155f4a40"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/neoforge/biome_modifier/add_marsh_bush.json"
+hash = "8ce2770d47721465f9ac5824d3cd4fbeaa7ab6312bf995d4a4ad34cadc6cf8cd"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/neoforge/biome_modifier/add_plains_bush.json"
+hash = "8307e54899c2749a224387ca6bd401a444d15f4a965671df38783e5c4c5b4cd1"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/neoforge/biome_modifier/add_river_gasket.json"
+hash = "5f59cbf47f4803f63a7dcd6d47eb60eab3310753f4516902d9efa392e2fc1a9d"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/neoforge/biome_modifier/add_snow_processing.json"
+hash = "f4f1014999d48515a3bea0c8ae0ba880369f2e0c3a80ae17f9e5d97ed3c7ad76"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/neoforge/biome_modifier/add_stepps_bush.json"
+hash = "6b22236d09b003daee8deee4d3f49bd11384d1988fcd2deb9c7bf930b23138e9"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/neoforge/biome_modifier/add_swamp_surface.json"
+hash = "11f5a941943ab0d23b2e75a10e9b845821f45e60ac41f1fc1aee1be12f1240cc"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/neoforge/biome_modifier/add_taiga_scrub_bush.json"
+hash = "57ee0562d00cc9135d97bc63997062b4d9abc41f111bb5a547565cf09adcc8a6"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/neoforge/biome_modifier/replace_badlands_trees.json"
+hash = "964c5c6f7d3f11203613523d4695c1ad26bcd7007b47a5b9977dfb129654fc3b"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/neoforge/biome_modifier/replace_birch_trees.json"
+hash = "b60c69e73efb55d35881b166d41480eb4f4aac3e642dea8d81ea584a91d8790e"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/neoforge/biome_modifier/replace_dark_forest_trees.json"
+hash = "d899f84139a701b9fe5cf238c3477357bf7863eec415361781aba5bd7095d5cb"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/neoforge/biome_modifier/replace_fir_trees.json"
+hash = "2eb2f77236e4ccb9209dbfe0a517497fc7a376891cdeed316e067fe167297041"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/neoforge/biome_modifier/replace_flower_forest_trees.json"
+hash = "18cd9ea229c6455692249c5ac6dc53c50ae0eecc8192a4422b5f70b1a3fdaf3b"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/neoforge/biome_modifier/replace_forest_trees.json"
+hash = "f8dbbfc006244aa4d0fb4c5f1fe216ae9ae0527421d5461cbab268b9b26266e9"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/neoforge/biome_modifier/replace_jungle_edge_trees.json"
+hash = "e71ea82abdaf8b5662755f1857a664a8865852f8b1c60029fbce167757776638"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/neoforge/biome_modifier/replace_jungle_trees.json"
+hash = "2b719857a8ff4a00a408623838aa9d99c5e756d456e5e230210689c8e4f6c65c"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/neoforge/biome_modifier/replace_meadow_trees.json"
+hash = "6f1d27b228acb3161de12d8bb2111145aefe9fa6e51d2856c3f21ea0d3df001e"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/neoforge/biome_modifier/replace_pine_trees.json"
+hash = "fedd54d0bc46bf08786df68e92f2eff6ac4350a57f65947058cbcd3c1ff2e014"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/neoforge/biome_modifier/replace_plains_trees.json"
+hash = "1bf8dab0c6bcf8fc238f54f07ada189b5e2885da078727c9b1a1696dcebe6285"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/neoforge/biome_modifier/replace_redwood_trees.json"
+hash = "aef2341c419f4f6842e669dfa1477e03f9de28e3a2a879fbbd52eecfb770410a"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/neoforge/biome_modifier/replace_savanna_trees.json"
+hash = "352ee4ac739934820deb564f534411b2d89f78d7b8c87c0c38ab12f7b4d20ea1"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/neoforge/biome_modifier/replace_spruce_trees.json"
+hash = "b3ce446a39f7b8364fe98d94195fce45e0758b473a7c20fb3d7ae696b386b613"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/neoforge/biome_modifier/replace_spruce_tundra_trees.json"
+hash = "48fa1ce3726cf338548063826736c972bb1ccfa4dda51af2965b010de04df410"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/neoforge/biome_modifier/replace_swamp_trees.json"
+hash = "93ddb44e03b93a3c72bb134d40e39561f49978162e95b6d77079c1288e6f67f4"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/neoforge/biome_modifier/replace_windswept_hills_fir_trees.json"
+hash = "959340b6eda5b9e7235a2662036dfb0134846a4ab5ec3079052dca68455c017f"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/neoforge/biome_modifier/replace_wooded_badlands_trees.json"
+hash = "67fc35bda89962a023c83f6b81cdacc6cc08bb3ca5d46dbc9e426ab4580f69a5"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/tags/block/clay.json"
+hash = "7cbbc9d5d3bc7c9a5f25486c13e0257beeeb33f5dd9d0e67e3c2e1cd5317fc0c"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/tags/block/erodible.json"
+hash = "d572216ebecd315f36a2cb5ef1e45dfe715852e04ad7f43dc7e7df3c2b7ec3c7"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/tags/block/rock.json"
+hash = "e50937de2d491c6bd538806558585f7d813d5d962c843698eb6de82a1fb23d30"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/tags/block/sediment.json"
+hash = "923dfa0130fd7b2f8e08429f822578816b0bb5e5a1c9577dc8bfb8843a3a2a28"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/tags/block/soil.json"
+hash = "ae8a393079208767105954b2360b85750c7432d32fa5a9213f906e352e087adb"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/tags/worldgen/density_function/additional_noise_router_functions.json"
+hash = "df18a30958f06f29ac4f61894b92dfe21921f0654dccc296924298155af42954"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/worldgen/configured_feature/acacia/bush.json"
+hash = "d8f5861212ae0f8df395cbf33afe815c8c9e2e77b5892b0a3139c64bdeafb19a"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/worldgen/configured_feature/acacia/large.json"
+hash = "84557154e2bd5183481add5b770b219389bd7ddc36b2057912711bd08654bd2e"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/worldgen/configured_feature/acacia/small.json"
+hash = "ffeb0c2a127a5fd16ce48822c13f7d04ab7a57be8eab0c28284831421d9a10cd"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/worldgen/configured_feature/badlands_trees.json"
+hash = "d27ec0ecd089511f94c7c58cb66cc81a1de8cfa48e7d45b248375e35a661dd85"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/worldgen/configured_feature/birch/forest.json"
+hash = "b46b048d7e42f0ffa649b7afe2db892446600d29269adf6d917be0e0f53a20ab"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/worldgen/configured_feature/birch/large.json"
+hash = "01a3eb4af2723f269a2afd400e1788946c065fd0f74ef3efcc0824295785e46f"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/worldgen/configured_feature/birch/small.json"
+hash = "373f94b030632e36e76ffb27f4e188211b34379e663f3189fcd2e9a7b8520f46"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/worldgen/configured_feature/birch_forest_grass.json"
+hash = "be62e4eb44c9af662e2f055104825a666d22ef1807a43c16e672c9b3a9f10deb"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/worldgen/configured_feature/birch_trees.json"
+hash = "9a880df3950293a6f93c141ebde4a12f77a87052b9578928e15e284bda9088cb"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/worldgen/configured_feature/dark_forest_trees.json"
+hash = "6f646199f24306dba767c406c0cba055476930cfc28ad8ffab33675fb9136431"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/worldgen/configured_feature/dark_oak/large.json"
+hash = "b620b5d9ba2736bf14bec3d88a917469f0a4200f6e06950dca6b043404b66700"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/worldgen/configured_feature/dark_oak/small.json"
+hash = "a7a7f6388e159492e6b7cf33d0d999546f3f289d6c517522095068be0d0a175b"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/worldgen/configured_feature/decorate_snow.json"
+hash = "dabf21f7576aa2102b93d2386ece0e15f2134c1022a34dbc73296334287ada7e"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/worldgen/configured_feature/erode.json"
+hash = "8d4f6a95782c09bf9144f982d13297e44cb243cecfabaa8c8bf0e0d620ddf88c"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/worldgen/configured_feature/fir_trees.json"
+hash = "3c6ba5b25fd8c8beb4a28fe5a929d4f0becb714e04a3af590202cbaa72ba0811"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/worldgen/configured_feature/flower_forest_trees.json"
+hash = "152432d8932fb317727d629944a5f496e6804adc0350b6f2be7bacbcf2631964"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/worldgen/configured_feature/forest_grass.json"
+hash = "b9aac354210283c206b979fd3a1c30c4f8217db7b56430adb07ff6cdf918fa1f"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/worldgen/configured_feature/forest_trees.json"
+hash = "cd6c425c4d40c0510aec4a10f690f884e3b3b652423852ffe6f59cd63bb07d89"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/worldgen/configured_feature/jungle/huge.json"
+hash = "557174dfb0cb1cf6f546c9cca2e6fc5c3782e4fd13662f139d832efc1ee43735"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/worldgen/configured_feature/jungle/large.json"
+hash = "924520702e57fc13040715640b04afb01113cf49e6c831cce189a5dd609f11d7"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/worldgen/configured_feature/jungle/small.json"
+hash = "5e255873c6b549a63d64142eb2b9fbecde4d92e512ab3e9464b4e79228f7c327"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/worldgen/configured_feature/jungle_edge_trees.json"
+hash = "5709e33103fe7acdbba9278fef3db909392b85d6fa0fe6954bfd27e2566cba29"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/worldgen/configured_feature/jungle_trees.json"
+hash = "333a835aa8eb3fd5d5bf83b07b5da1dd871204a1191f5fe5d6bfa594658ac4e3"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/worldgen/configured_feature/mushrooms/huge_brown_mushroom.json"
+hash = "50bdcd9e300962f6aba20a640f5b1a8bd6c3751f18111f41b42acfcd2ff80f38"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/worldgen/configured_feature/mushrooms/huge_red_mushroom.json"
+hash = "4abe8118494f1dda3293c20c172264054f81509ab8e1c67148d20becf6767691"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/worldgen/configured_feature/oak/forest.json"
+hash = "2810bc409d8a31695e133ebff5737cea6b124d92c36fd10b9f2b2c189f8096dd"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/worldgen/configured_feature/oak/large.json"
+hash = "323065eb60ba1541799b6d9e1dda8db389941e3ff80c2541d898392d45eb676e"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/worldgen/configured_feature/oak/small.json"
+hash = "03a884371a6dae5f88977f00932b9867c3c0128b258a783701175262ae936ffb"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/worldgen/configured_feature/pine.json"
+hash = "11bde21c0ae3cd034c797968214a1729452f479109d068389b59d55b1c6d4eb5"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/worldgen/configured_feature/plains_trees.json"
+hash = "cd6c425c4d40c0510aec4a10f690f884e3b3b652423852ffe6f59cd63bb07d89"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/worldgen/configured_feature/redwood/huge.json"
+hash = "27dad094fbf30ca71c2780a0fc8d1148b160e82b9874ac4b60a7e615d751f164"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/worldgen/configured_feature/redwood/large.json"
+hash = "005a555e83a6be90c4ab536dfbbfd4f7b46b2fbfd2787bef6934c34f05245585"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/worldgen/configured_feature/redwood_trees.json"
+hash = "c14f3c67f9a7d35616e9326865d9ca1bcbba5ad2d45332c7a53056e7d4b919c6"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/worldgen/configured_feature/river_gasket.json"
+hash = "27829feb35a88c0024cfac0482df0068fa9911d5e3f5bf55320f23133a9e93ae"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/worldgen/configured_feature/savanna_trees.json"
+hash = "728988a70194f66273b01fd3646a730530241fbc94caf8bfe55b3095cdbf7949"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/worldgen/configured_feature/shrubs/cold_steppe_bush.json"
+hash = "9f65944bc54c20ebeeae9ae3b160547fa68f68df71b5dfd8c6dc856e94fa999b"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/worldgen/configured_feature/shrubs/marsh_bush.json"
+hash = "6b2a94e5734174fae4699d7a6ca7a5c2f551fdaad70581f109b20c770c9136ba"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/worldgen/configured_feature/shrubs/plains_bush.json"
+hash = "6b2a94e5734174fae4699d7a6ca7a5c2f551fdaad70581f109b20c770c9136ba"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/worldgen/configured_feature/shrubs/steppe_bush.json"
+hash = "a35c29f0905508917f2c41e538cf94fc5261ffea0a94ca90d36bd0b8f0400cb0"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/worldgen/configured_feature/shrubs/taiga_scrub_bush.json"
+hash = "e2086a39253daadd504314fe354258ee754ad7540835b8416211f3392cd355d6"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/worldgen/configured_feature/spruce/large.json"
+hash = "aca38aa0ed578bb078d1d92148ab3211498f7818ef6be13a2ac474588d0b8338"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/worldgen/configured_feature/spruce/small.json"
+hash = "ff30394bbde670d813135211b70bf2f72d196f2c75f25139c7fec1b4412fc2c2"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/worldgen/configured_feature/swamp_surface.json"
+hash = "a4f3ba68d5dbbee1172b337da47186f917e574d4d220edd79be1f33a48652396"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/worldgen/configured_feature/swamp_trees.json"
+hash = "9c9aa1d07418deabc17fbceb9df647bbd7797ad16a9a281f80287fb65d07bb66"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/worldgen/configured_feature/willow/large.json"
+hash = "c72f9745e2dbcd4beb7161ffbc893bdfb391bcc41a68c6fc24a9bb9a3c93479c"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/worldgen/configured_feature/willow/small.json"
+hash = "9401f7936ac975d37a6656524059e42564fe5e13bb28dbe56cde482620ef884b"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/worldgen/configured_feature/wooded_badlands_trees.json"
+hash = "cda11854445a4111a350777ddb64be4f525386c7e7c30c289aa60821d8b9d338"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/worldgen/density_function/erosion.json"
+hash = "3c65452a31ca2aaa034e42bfd08ce5dc63c4e7306d2bda15846024cf1db9381a"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/worldgen/density_function/gradient.json"
+hash = "f9aa7427ad89a4dfd930afb948af63a4b5ce333624cf1817e01d6211c2bc33cc"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/worldgen/density_function/height.json"
+hash = "d6919e8c39b739f44ec3507c1ba9ef5dfd2086257ea545d19b1a3a62ce459e2b"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/worldgen/density_function/sediment.json"
+hash = "9502e5745c6daa9c7691b3f7ef244331e47d704f2b6628aee1382494638099d1"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/worldgen/placed_feature/acacia/bush.json"
+hash = "beda3409a15382373943cf2ac9372ada4b1235dbd23b879272aad9b94945d78a"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/worldgen/placed_feature/acacia/large.json"
+hash = "a75fc5d3b58ca5bb3fb99494c8731aa18976944c21e0d5d05ca7f6eafe22e521"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/worldgen/placed_feature/acacia/small.json"
+hash = "e4013846b9d13e2faf9dff441f835bce8f8bb2b0b5f12f10e22e23b6fc2745a9"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/worldgen/placed_feature/badlands_trees.json"
+hash = "90cf6b6843d8776c465d06dc02ed23873b39374416e97f0d69884c0b5d91fd67"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/worldgen/placed_feature/birch/forest.json"
+hash = "7ee2f968eac32e8023168a4baaa5895ef3c0665c852010ba686284ed4d16a676"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/worldgen/placed_feature/birch/large.json"
+hash = "408dc8829ff0f5d848f0d0afed94c21801b6dcd16c16f4ba52cc4340952c7891"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/worldgen/placed_feature/birch/small.json"
+hash = "5ac00ee14248c61ff5cb22bf6d15a128002fcf259e2f08414805da20305b9345"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/worldgen/placed_feature/birch_forest_grass.json"
+hash = "6d43d50136eb98f9c6f2576299e4ce57504172c0f6e94000b04615f438bf8f3d"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/worldgen/placed_feature/birch_trees.json"
+hash = "2a649d76c5c713f5a93033a4fb38df3576bd7c55c70f5f13718c0ae857c2e9b8"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/worldgen/placed_feature/dark_forest_trees.json"
+hash = "d7f1bfb4adabb804f3775e2d5510c6a83a13c3990e8ad351af011ccf8bf5859a"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/worldgen/placed_feature/dark_oak/large.json"
+hash = "c336a43cabdd09d851b5e7ac817647d7a2411f2b8eb7e1e2df9ec648fb30f7db"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/worldgen/placed_feature/dark_oak/small.json"
+hash = "0550723e3d50bd44373c29142d9e4a0161270b653a29d83c6f83887fa0e4374e"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/worldgen/placed_feature/decorate_snow.json"
+hash = "57b7916cef35462f2321791bcc1ab7744d80ab693cd013821b4c91e9707bcc71"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/worldgen/placed_feature/erode.json"
+hash = "6392d620a18ebe986bc0e6b58148acda4cfe1c252fd4f1f31fb3118415cfeca2"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/worldgen/placed_feature/fir_trees.json"
+hash = "188d9fff91270c08ec5789c05597b5dfd60bfb7274cb71bce8f470138d0721b9"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/worldgen/placed_feature/flower_forest_trees.json"
+hash = "7ade5bec9312b60e06a57ddfef46a390473e7f7d5a4eda7d26741d2340003b04"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/worldgen/placed_feature/forest_grass.json"
+hash = "8f9f3f1f925d115328730e33bfc51477bb3ce583fd12e70c2dd86a843473cac4"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/worldgen/placed_feature/forest_trees.json"
+hash = "c7008718a28ffe62a088a896955c5659a3e7b0d3e21e17eaf532480d4049247c"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/worldgen/placed_feature/jungle/huge.json"
+hash = "6bbb096c8e38fe957edad80c0684322f912bfb1be6baa8658980b260bbe41054"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/worldgen/placed_feature/jungle/large.json"
+hash = "2ecfb438721b05260249f2c7cf08b2fdaff731ed25449136a28a798b5907baae"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/worldgen/placed_feature/jungle/small.json"
+hash = "9d3e62a42537218c40262dd86461c3181f0317214068aa609769f1ac71d9d09d"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/worldgen/placed_feature/jungle_edge_trees.json"
+hash = "23439e00d6846b9ec6e81347077fea6c7953c594a82c97c5ebda7ac109b45d3b"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/worldgen/placed_feature/jungle_trees.json"
+hash = "a764c910ebd37fbffbc8e7ae5864054c6e9382b30080be94838344f653c2d924"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/worldgen/placed_feature/meadow_trees.json"
+hash = "79df22c40a2eaf36eec8cd5e2527816ad589bf674e2d5a1e76b67c4da7bb5986"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/worldgen/placed_feature/mushrooms/huge_brown_mushroom.json"
+hash = "a61c0121b1f227a1ed8f9232660ca07957f1df4c43e35b72f0a8a4e2faa3aa20"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/worldgen/placed_feature/mushrooms/huge_red_mushroom.json"
+hash = "d4f27eac894189d9c546850121fed0f788dfb9b1ee896f23d27511a8d1ebeca9"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/worldgen/placed_feature/oak/forest.json"
+hash = "b0756e9bdd88d31054a636e3a3544397fcf4107999d7d1074efb059866773daa"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/worldgen/placed_feature/oak/large.json"
+hash = "81cfa2cc45e0a9390238b588db64275113c01bdf9b3404abee361c82240dd579"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/worldgen/placed_feature/oak/small.json"
+hash = "247b40be75156295a42b9032a5ab4858910e2c0f0e9a1e7a357bfc6d6a621868"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/worldgen/placed_feature/pine.json"
+hash = "8f24d87990522a0aabe3646176891fa8be9acb3997efd7a7d3b3d54b6897e56e"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/worldgen/placed_feature/pine_trees.json"
+hash = "206c89023dd96088910b6732db1ddaa81ca4315b03f89a15bf7c00558f78237d"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/worldgen/placed_feature/plains_trees.json"
+hash = "78402e175f4e8fbbf1856f983fd6136b048cca1b52364a042c825ded538a0006"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/worldgen/placed_feature/redwood/huge.json"
+hash = "436c721b688c2341798e30c627f717ccaba9b9f477d3ef8a5667c17dbc5744c4"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/worldgen/placed_feature/redwood/large.json"
+hash = "a9f182a8f50899a3e3fed9d944b62b778d4632a07be2d36748e84ff3c65d0e2e"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/worldgen/placed_feature/redwood_trees.json"
+hash = "350d2b0b636f99b36fbb95e6b28809438847d448c9474f4ba7f3fc2afc2a4e3e"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/worldgen/placed_feature/river_gasket.json"
+hash = "5694768f143ed632de946a18aeb6fd8ff9ec32a88b244da31b300b4582182ada"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/worldgen/placed_feature/savanna_trees.json"
+hash = "56faee3ac99a1e6e7046939db3cbb8aa792daed6b2ab0c24410fdf9f69d56352"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/worldgen/placed_feature/shrubs/cold_steppe_bush.json"
+hash = "387f0403572aeb7361708ba69cb396121c03b2e5bc305a23bad77bd9483a2753"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/worldgen/placed_feature/shrubs/marsh_bush.json"
+hash = "d6c2186c0d772a790182f10ba7941414d060f2569ea6a6c2a2185b7576823cbf"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/worldgen/placed_feature/shrubs/plains_bush.json"
+hash = "4e7f7dce36427b97bb9f3924c45da5727a34f3845c089ae89006a7df7113761f"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/worldgen/placed_feature/shrubs/steppe_bush.json"
+hash = "345ec9519ec63309540b97b2ab12b1a3c32fe58fa7f4af193d1023252cbf24b2"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/worldgen/placed_feature/shrubs/taiga_scrub_bush.json"
+hash = "a5b534cbe5c0a1222c54487708d8098e8894cca4168b7c0a8083b4a076b6d005"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/worldgen/placed_feature/spruce/large.json"
+hash = "74e63ca8d7da430f9fd012e07d9e3db0befe9140a9600efe830b0b902ff2e6ad"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/worldgen/placed_feature/spruce/small.json"
+hash = "da14db6a908a67e0c2db041c5b6b6d1abb477e73dbe6b3d70ffec6e4da58b7af"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/worldgen/placed_feature/spruce_trees.json"
+hash = "e02fc3a248945501560c6d8c3e5761cdb057ca4274fb0937e469d88671fc2851"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/worldgen/placed_feature/spruce_tundra_trees.json"
+hash = "bc8b05e48c208c58ac9df32dd1cb8fe963afbbc2afeebac7be8214be7935ae61"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/worldgen/placed_feature/swamp_surface.json"
+hash = "ab1f481fc3147507c1dc8469851a5925e8bd084daf0aba1bafb83fa9e965119d"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/worldgen/placed_feature/swamp_trees.json"
+hash = "390905008c1fe6a26499d9895d3468153a9bd435218593b0463a773235d6f1db"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/worldgen/placed_feature/willow/large.json"
+hash = "3eea923d17a6ed5532b1700b0f0c394ec969b0cb3ae7608a86f30aae87e0cccd"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/worldgen/placed_feature/willow/small.json"
+hash = "2fffba3f8dec4695e768e080390da2d35d92108d78c942d53834d3c26d596266"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/worldgen/placed_feature/windswept_hills_fir_trees.json"
+hash = "7bf9d0b26a9be816ad92daf32cd56adf65ff8daa2e4be6332e5b13b0053dda39"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/worldgen/placed_feature/wooded_badlands_trees.json"
+hash = "71398e476f24ae156a799f5d889cf60901544efa159ddddaa0bbd36e70fddde5"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/minecraft/dimension_type/overworld.json"
+hash = "dde1239326513ed065751dfffe8c328233348d9d2e5897ce8d836829ed355060"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/minecraft/worldgen/configured_feature/disk_clay.json"
+hash = "26d9db1cd407797320a7a20192e9794e78a48f424e37e4743912ea1d3775a1c2"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/minecraft/worldgen/configured_feature/disk_gravel.json"
+hash = "9b0befe2951b5510c3d5cc322a1e17ee3cb95eadfb96abd13a68756079aa2828"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/minecraft/worldgen/configured_feature/disk_sand.json"
+hash = "7c5f6725a08e39c7a07780e8417248c3b97930836287035ca876dae0bb8d117b"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/minecraft/worldgen/density_function/overworld/base_3d_noise.json"
+hash = "8aed642bf5118b9d3c859bd4be35ecac75b6e873cce34e7b6f554b06f75550d7"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/minecraft/worldgen/density_function/overworld/caves/entrances.json"
+hash = "5e7e157b179efe1cf1f3cb7df771386c2e22000f855989a662d08f826efff32a"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/minecraft/worldgen/density_function/overworld/caves/noodle.json"
+hash = "375872475c3c11f3e8666a12c665e3eae7d882a30a21bac90162eec2a678920e"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/minecraft/worldgen/density_function/overworld/caves/spaghetti_2d.json"
+hash = "126b2eedb2da1a8f61afcb22b7e10850d869e91f4108364957034188f1695a96"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/minecraft/worldgen/density_function/overworld/continents.json"
+hash = "23be6b3861b79e04d7e1bfa0eba6ff04506a64e62fe6a6f4bae5f304da4a07bb"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/minecraft/worldgen/density_function/overworld/depth.json"
+hash = "b366d0e17a5d496f50121a653030dbe7adfbd7b4f309bc11a233a2bf4aef10be"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/minecraft/worldgen/density_function/overworld/erosion.json"
+hash = "8c1dfae7337532f027745a43c7fcce7552cd45c3c27302e26580c58d9e7531de"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/minecraft/worldgen/density_function/overworld/jaggedness.json"
+hash = "68f48bc4ca178ad71232fc79c1ba7c4dd290398df4f9548d9751cd9578377a2b"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/minecraft/worldgen/density_function/overworld/offset.json"
+hash = "2c5898fca0416a1cb974547417cc12055da44448533281f001364412a8cb999b"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/minecraft/worldgen/density_function/overworld/ridges.json"
+hash = "e781b2aa442a1e5e31423338ff044f3ecd23ad5bd902c2a819eb0a5d74b4193f"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/minecraft/worldgen/noise_settings/overworld.json"
+hash = "ffe5b8bb2ff685c8a7f9bce1e6bb605031783f17771f5174b4eda31b52475be1"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/minecraft/worldgen/placed_feature/lake_lava_surface.json"
+hash = "09f374923dc837131321b56981b06cf76f8432d3a629a3e60e50ec7caae58f14"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/minecraft/worldgen/placed_feature/lake_lava_underground.json"
+hash = "09f374923dc837131321b56981b06cf76f8432d3a629a3e60e50ec7caae58f14"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/minecraft/worldgen/placed_feature/ore_andesite_lower.json"
+hash = "80acad3053cd03e871e36bff3e03e347abc2418a2beffa0bdf49fb39e38fe977"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/minecraft/worldgen/placed_feature/ore_andesite_upper.json"
+hash = "ce18f7c52c3d10ad77e436c2185a6f9e7129f5d6be5f7725d7cc4b2e4f82fa1d"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/minecraft/worldgen/placed_feature/ore_diorite_lower.json"
+hash = "e43581f22d582708b50d17757c338e06c20db215d0bb3b5fe8792448a7ccf9b0"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/minecraft/worldgen/placed_feature/ore_diorite_upper.json"
+hash = "e43581f22d582708b50d17757c338e06c20db215d0bb3b5fe8792448a7ccf9b0"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/minecraft/worldgen/placed_feature/ore_dirt.json"
+hash = "4bbeb75109fdff1d62ce71378ed073ea33e9c2fa3d77311ad57a015b35b35a91"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/minecraft/worldgen/placed_feature/ore_granite_lower.json"
+hash = "4ce874c28225bde708c323d7ec134e245d61322f9ecb99a34a57dbd057f79083"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/minecraft/worldgen/placed_feature/ore_granite_upper.json"
+hash = "4ce874c28225bde708c323d7ec134e245d61322f9ecb99a34a57dbd057f79083"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/minecraft/worldgen/placed_feature/ore_gravel.json"
+hash = "f25e164ae9b55b8a212345f056dc7a39bbeab96f147fab495edcbb45d45e82b1"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/minecraft/worldgen/placed_feature/spring_lava.json"
+hash = "c12b53102458633f81e2541d5b7b9d72f26cdcda4301fbed88236d8e1a025454"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/minecraft/worldgen/placed_feature/spring_lava_frozen.json"
+hash = "1b848a16084e3c43bb2ba0cd398cdb02cb5c3ba6351e797d6ccf1e552a7e98b9"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/data/terrablender/worldgen/density_function/uniqueness.json"
+hash = "fb2355b8ab6bf1fcd1e218c707c73f8685a3dfc09954ba94382682904b83ab24"
+
+[[files]]
+file = "datapacks/Liam's FreeTerraForged Preset/pack.mcmeta"
+hash = "b5822279d2f64adb0fc9d65f9deb90f52098ebfbdc4bdcd4bf99aac442ed6e5e"
+
+[[files]]
+file = "datapacks/Loot Category Compatibility/data/apotheosis/data_maps/item/loot_category_overrides.json"
+hash = "724f4f83d3aa7d19a8ab58a6cc07c6acbbb68cfb4e8c97498ebc0e24195a4b16"
+
+[[files]]
+file = "datapacks/Loot Category Compatibility/pack.mcmeta"
+hash = "6d5a3e61aacf4f9cfe9deb1085d7590a73e21314aef70aeaba0722adf9dec9b9"
+
+[[files]]
+file = "datapacks/Recipe Restrictions/data/endersdelight/recipe/chorus_pie_slice.json"
+hash = "0dcdb65c4ff7b236cffb4bc23b02235a7b31b481d70a19d7ba4418f7f09ffafb"
+
+[[files]]
+file = "datapacks/Recipe Restrictions/data/simplyswords/recipe/eldritch_end/dreadtide.json"
 hash = "518b6216f911f760c34e9e78c5fde10b0dfa15734851de5bb10d52c5420ce488"
 
 [[files]]
-file = "kubejs/data/simplyswords/recipe/mythicmetals_compat/adamantite/adamantite_twinblade.json"
+file = "datapacks/Recipe Restrictions/data/simplyswords/recipe/mythicmetals_compat/adamantite/adamantite_twinblade.json"
 hash = "d5ca2831a686fa65befc9a7cc2a15b9fa5295987f6126155f38574abbde421ed"
 
 [[files]]
-file = "kubejs/data/upgrade_aquatic/neoforge/biome_modifier/add_feature/driftwood.json"
-hash = "99b969132018e9da1071065a8593ba9564928b1ed0aa5ae3ab45f9dac071f7d5"
-
-[[files]]
-file = "kubejs/data/upgrade_aquatic/neoforge/biome_modifier/add_feature/river_tree.json"
-hash = "99b969132018e9da1071065a8593ba9564928b1ed0aa5ae3ab45f9dac071f7d5"
+file = "datapacks/Recipe Restrictions/pack.mcmeta"
+hash = "daf90d1093fd7f5c1af9fda24974a97008471be6e08dc890c0aa26959d9cbc45"
 
 [[files]]
 file = "kubejs/server_scripts/aeronautics_aether_recipes.js"

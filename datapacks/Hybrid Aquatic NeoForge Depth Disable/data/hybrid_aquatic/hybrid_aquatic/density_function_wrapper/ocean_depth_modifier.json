@@ -1,0 +1,10 @@
+{
+  "target_function": "minecraft:overworld/offset",
+  "wrapper_function": {
+    "type": "minecraft:add",
+    "argument1": 0.0,
+    "argument2": {
+      "type": "hybrid_aquatic:wrapped_marker"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "freeterraforged:decorate_snow",
+  "config": {
+    "erode": true,
+    "erode_config": {
+      "dirt_min": 124,
+      "dirt_steepness": 0.4,
+      "dirt_var": 60,
+      "height_modifier": 0.023529412,
+      "rock_min": 560,
+      "rock_steepness": 0.8,
+      "rock_var": 45,
+      "scree_steepness": 0.6,
+      "slope_modifier": 0.011764706
+    },
+    "smooth": true
+  }
+}
