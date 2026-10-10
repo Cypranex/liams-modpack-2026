@@ -228,7 +228,7 @@ hash = "8d841088fcf91c96c3c4bff112f604961129c55687906fa0e8fd3968cc45002a"
 
 [[files]]
 file = "config/sol_valheim_reforged-client.toml"
-hash = "678c03a94341146fe7b91049d624e70f9b7efbf87d97e31497b2e7103ed8e07f"
+hash = "e8fcba43167b4854bfed7a4046b9d39b52c3407edb765ea732260e8bc3525197"
 
 [[files]]
 file = "config/sparsestructures.json5"

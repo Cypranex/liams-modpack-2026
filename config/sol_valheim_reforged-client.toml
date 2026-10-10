@@ -1,6 +1,6 @@
 [food_hud_position_preset]
 	#Position of the food slots on the HUD (accepted values: default, bottom_right, bottom_left, custom)
-	hud_preset = "default"
+	hud_preset = "bottom_right"
 
 [food_hud_position_custom]
 	#Horizontal (X-axis) position of the food slots on the HUD (default = 47)
