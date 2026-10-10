@@ -1837,6 +1837,10 @@ hash = "f7ab2d9281464857a203814f9c3766ed8143c45c95d081b02c38a9adf69efa5f"
 metafile = true
 
 [[files]]
+file = "mods/flimsy-wall-lanterns-1.0.1.jar"
+hash = "fd6158a59d5fd3c8b054b10c458fa0f76736636c9201c00d17561c130cc105c7"
+
+[[files]]
 file = "mods/formations-nether.pw.toml"
 hash = "7d2556c288b12cef4a353656da58802a1882c3524b6eeccb8600615cf936e419"
 metafile = true
