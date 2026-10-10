@@ -1183,6 +1183,11 @@ hash = "57db227711481c9b6fbc89a5ea04f2810c9f27035baa7f33437a80a94ae9609f"
 metafile = true
 
 [[files]]
+file = "mods/jade.pw.toml"
+hash = "4de3e4a1a49e332c1ad313283e0403c4273b628d634c17a9ff0c9da3d6b67f9a"
+metafile = true
+
+[[files]]
 file = "mods/knaves-needs.pw.toml"
 hash = "28144b27f38089220cb9c3f4aeb735210eb957a550e72b1cb3653970f5ce4eb0"
 metafile = true
