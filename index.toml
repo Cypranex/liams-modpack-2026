@@ -10,7 +10,7 @@ hash = "e3915bf50d806c5caa3dcebc243818c2c4aeb149599b33e6286ea2828370dd69"
 
 [[files]]
 file = "config/apotheosis/apotheosis.cfg"
-hash = "ad433c66e209e94e11a907ff64f712a2c9664ce35fd37e7e816d38efd626c772"
+hash = "e4b25a887e9a7c50ca1d8949d26f9a47d8890bd3c264c6192d071e91545f94cc"
 
 [[files]]
 file = "config/bettercaves/neoforge-1_21_1/liquidregions.json"
@@ -103,6 +103,10 @@ hash = "5bdb1341455819c292bfd9fef0c3e05ad1ab881c2b33c4519f1f7108f6550200"
 [[files]]
 file = "config/nether remastered.toml"
 hash = "2d73e0101fdbec4e5967079683e11aa2f691103a00fa12040f33a068fbd2be4f"
+
+[[files]]
+file = "config/notenoughanimations.json"
+hash = "b4857fc5663509f73d2423dc9903e75c4d1eef1ce838c3210fe15a7332ebb0a6"
 
 [[files]]
 file = "config/obscuria/aquamirae-client.toml"
@@ -1355,6 +1359,10 @@ file = "kubejs/server_scripts/startup_commands.js"
 hash = "d47ef3249b51f29c6a303bc7ca1af01803c05890b531f8708d77e5b6520a7e72"
 
 [[files]]
+file = "kubejs/server_scripts/torch_arrow_recipe.js"
+hash = "bea2f40afa40053b83a040f640fba145976d503808e211cb753fc9b8064f0ff6"
+
+[[files]]
 file = "mods/3dskinlayers.pw.toml"
 hash = "b3b67f83faf9dcc4985b7a13fa8affb71062461d271f80cc0958652df9f3126b"
 metafile = true
@@ -2018,6 +2026,10 @@ hash = "05da0498ed9a0ccea95981c65669432efa098f9f4924a061002effc0342ca586"
 [[files]]
 file = "mods/liams-ragdoll-revival-1.0.0.jar"
 hash = "4178b8f7de7050c0a8ed5dc5701dc6f1e4025100d7aa613605a0b81da4a8e49f"
+
+[[files]]
+file = "mods/liams-torch-compat-1.0.0.jar"
+hash = "b6f0d39674d21af7355cf297d7a4777b8d9cdf6da7afb68eb500506084f6c358"
 
 [[files]]
 file = "mods/lionfish-api.pw.toml"
