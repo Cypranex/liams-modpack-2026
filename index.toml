@@ -243,12 +243,8 @@ file = "config/simplytooltips/config.toml"
 hash = "8d841088fcf91c96c3c4bff112f604961129c55687906fa0e8fd3968cc45002a"
 
 [[files]]
-file = "config/sol_valheim_reforged-client.toml"
-hash = "e8fcba43167b4854bfed7a4046b9d39b52c3407edb765ea732260e8bc3525197"
-
-[[files]]
-file = "config/sol_valheim_reforged-common.toml"
-hash = "b52df0b244cb334f11670db2de9446089e0539237dd048c0ef5e95f416e881a9"
+file = "config/sound_physics_remastered/soundphysics.properties"
+hash = "92c20ef5a34d83e4df6c35bce72e69abb5721e4010a2e99d2274ec46ffdd5df5"
 
 [[files]]
 file = "config/sparsestructures.json5"
@@ -2384,11 +2380,6 @@ metafile = true
 [[files]]
 file = "mods/spawn-animations.pw.toml"
 hash = "5e91e5aea16a60450da6df9c5cdb056ae5f2d25967fcc8b16c7ccb3a7403b7c9"
-metafile = true
-
-[[files]]
-file = "mods/spice-of-life-valheim-reforged.pw.toml"
-hash = "c16e1be49014758e7f357283f803233903375ab94e36dd2f0d647901327524ec"
 metafile = true
 
 [[files]]
