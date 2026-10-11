@@ -507,6 +507,10 @@ file = "datapacks/Deep Underground Structures/data/minecraft/worldgen/structure/
 hash = "adaeb5598d289fe343a1507f3cf61c323afad31a0d07e02bd8d76413b630bee1"
 
 [[files]]
+file = "datapacks/Deep Underground Structures/data/mowziesmobs/worldgen/structure/wrought_chamber.json"
+hash = "66453cc36395709d201ec99ed01ac1ab6aa060ec7d00bea223a37694c37dbbab"
+
+[[files]]
 file = "datapacks/Deep Underground Structures/data/nova_structures/worldgen/structure/deepslate_camp.json"
 hash = "f2e6d75a405f7e60838c93eddce33a6de8adb9d517c3668d7d4c345490361b4c"
 
@@ -1335,6 +1339,22 @@ file = "datapacks/Loot Category Compatibility/pack.mcmeta"
 hash = "6d5a3e61aacf4f9cfe9deb1085d7590a73e21314aef70aeaba0722adf9dec9b9"
 
 [[files]]
+file = "datapacks/Mowzie Biome Compatibility/data/mowziesmobs/tags/worldgen/biome/has_structure/frostmaw_arena_biomes.json"
+hash = "25f74f53b93e790bf15926e41c564068ae1681d01a2b2a326a809e92860a219c"
+
+[[files]]
+file = "datapacks/Mowzie Biome Compatibility/data/mowziesmobs/tags/worldgen/biome/has_structure/monastery_biomes.json"
+hash = "f26e977590507779521a44f9b71d04ff63e3571069903aa0815e3b5328b5fbb5"
+
+[[files]]
+file = "datapacks/Mowzie Biome Compatibility/data/mowziesmobs/tags/worldgen/biome/has_structure/umvunthana_grove_biomes.json"
+hash = "dd93e98944a875cab442218291fb7feb51183b5f47aad557be14900df3bfa396"
+
+[[files]]
+file = "datapacks/Mowzie Biome Compatibility/pack.mcmeta"
+hash = "70ed0c5eff6cfd96f09a16d848ed9dc845549b4cc9a15773dda7f8f5d13d9976"
+
+[[files]]
 file = "datapacks/Recipe Restrictions/data/endersdelight/recipe/chorus_pie_slice.json"
 hash = "0dcdb65c4ff7b236cffb4bc23b02235a7b31b481d70a19d7ba4418f7f09ffafb"
 
@@ -1949,6 +1969,21 @@ metafile = true
 [[files]]
 file = "mods/in-control.pw.toml"
 hash = "8311cf201aa8d3c5d0c0291194f3c76d825591122b7ccf4f2fea08f6b39af526"
+metafile = true
+
+[[files]]
+file = "mods/integrated-api.pw.toml"
+hash = "d78071eb244731b62027bb24e0d9bdf5976925ea67972994c261dd1ba4b77832"
+metafile = true
+
+[[files]]
+file = "mods/integrated-mowzies-mobs.pw.toml"
+hash = "9dd3defce2078341de1f362f85a0cf622014e4694ff4c17d94e24d509adc3dea"
+metafile = true
+
+[[files]]
+file = "mods/integrated-patches.pw.toml"
+hash = "6bcee0b532f103b2470994eb5225c65f07ce19cf192c9f1508628ece757278c9"
 metafile = true
 
 [[files]]

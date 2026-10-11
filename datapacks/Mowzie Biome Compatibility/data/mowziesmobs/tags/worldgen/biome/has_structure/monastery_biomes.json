@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:meadow",
+    "minecraft:sunflower_plains",
+    { "id": "regions_unexplored:orchard", "required": false },
+    { "id": "regions_unexplored:wisteria_grove", "required": false }
+  ]
+}
