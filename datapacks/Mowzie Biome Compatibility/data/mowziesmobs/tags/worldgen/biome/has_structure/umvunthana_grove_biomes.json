@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:plains",
+    "minecraft:sunflower_plains",
+    { "id": "regions_unexplored:prairie", "required": false },
+    { "id": "regions_unexplored:grassland", "required": false },
+    { "id": "regions_unexplored:outback", "required": false },
+    { "id": "regions_unexplored:clover_plains", "required": false },
+    { "id": "regions_unexplored:flower_fields", "required": false }
+  ]
+}
