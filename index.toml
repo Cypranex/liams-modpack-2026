@@ -527,6 +527,14 @@ file = "datapacks/Deep Underground Structures/pack.mcmeta"
 hash = "e4bf5a07d051510070733bca5b775abe25be76832f0ffaf0c0fbd02262b7f090"
 
 [[files]]
+file = "datapacks/Fangs and Claws Persistent Animals/data/respawninganimals/tags/entity_type/persistent_animals.json"
+hash = "7025ccd8d40ddd2745b59aaa0e96aafb97aa324dbc369eb7040ce6e04851e2db"
+
+[[files]]
+file = "datapacks/Fangs and Claws Persistent Animals/pack.mcmeta"
+hash = "4d0550e3f55da32c2eed49f87a76f1eaf6d6943c0fa09f4d3056cc29abd16693"
+
+[[files]]
 file = "datapacks/Full Depth Caves/data/bettercaves/worldgen/configured_carver/better_cave.json"
 hash = "af69be85a8564b01c6186149aa8c6c20cdf945026e9b14c415f61abb9c1ddebb"
 
