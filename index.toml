@@ -13,12 +13,20 @@ file = "config/apotheosis/apotheosis.cfg"
 hash = "e4b25a887e9a7c50ca1d8949d26f9a47d8890bd3c264c6192d071e91545f94cc"
 
 [[files]]
+file = "config/betteradvancements-client.toml"
+hash = "5b965898d5b13c5557b603c68ed4ac79a4f850f3a7205eb3dbfc6116f2caf19a"
+
+[[files]]
 file = "config/bettercaves/neoforge-1_21_1/liquidregions.json"
 hash = "4cb57f82ffc75cf89eca62c93cd41df9b0d5241f2f67d118296e6650484878f1"
 
 [[files]]
 file = "config/bettermineshafts-neoforge-1_21.toml"
 hash = "deb28cda8a953f7c170c24cbcd42fbce7041f4bf38f3983b7bb369987184396b"
+
+[[files]]
+file = "config/caverns_and_chasms-client.toml"
+hash = "b8038eaf11ea5642cc80cfcd0a2aeb37d6e1a22f5507622170e9bfb1c65ac017"
 
 [[files]]
 file = "config/create-client.toml"
@@ -75,6 +83,10 @@ hash = "019408e08fe61128160fc6752e8f37f31944928648f90615a26b3e6967baba26"
 [[files]]
 file = "config/irons_restrictions-common.toml"
 hash = "135c5a81719235ce405070ed29b59b3844f2f26a07561a7e9b24c6db265d8f00"
+
+[[files]]
+file = "config/jade/plugins.json"
+hash = "1e8434164f00f7524b4fb931c2552c317164e2617bda75904c02cc874552962d"
 
 [[files]]
 file = "config/liams_ragdoll_revival-common.toml"
@@ -231,12 +243,8 @@ file = "config/simplytooltips/config.toml"
 hash = "8d841088fcf91c96c3c4bff112f604961129c55687906fa0e8fd3968cc45002a"
 
 [[files]]
-file = "config/sol_valheim_reforged-client.toml"
-hash = "e8fcba43167b4854bfed7a4046b9d39b52c3407edb765ea732260e8bc3525197"
-
-[[files]]
-file = "config/sol_valheim_reforged-common.toml"
-hash = "b52df0b244cb334f11670db2de9446089e0539237dd048c0ef5e95f416e881a9"
+file = "config/sound_physics_remastered/soundphysics.properties"
+hash = "92c20ef5a34d83e4df6c35bce72e69abb5721e4010a2e99d2274ec46ffdd5df5"
 
 [[files]]
 file = "config/sparsestructures.json5"
@@ -495,6 +503,10 @@ file = "datapacks/Deep Underground Structures/data/minecraft/worldgen/structure/
 hash = "adaeb5598d289fe343a1507f3cf61c323afad31a0d07e02bd8d76413b630bee1"
 
 [[files]]
+file = "datapacks/Deep Underground Structures/data/mowziesmobs/worldgen/structure/wrought_chamber.json"
+hash = "66453cc36395709d201ec99ed01ac1ab6aa060ec7d00bea223a37694c37dbbab"
+
+[[files]]
 file = "datapacks/Deep Underground Structures/data/nova_structures/worldgen/structure/deepslate_camp.json"
 hash = "f2e6d75a405f7e60838c93eddce33a6de8adb9d517c3668d7d4c345490361b4c"
 
@@ -513,6 +525,14 @@ hash = "0a1308c780aa4542444d34018117a92e8b059e5653ed9f6ac70690a7e5981907"
 [[files]]
 file = "datapacks/Deep Underground Structures/pack.mcmeta"
 hash = "e4bf5a07d051510070733bca5b775abe25be76832f0ffaf0c0fbd02262b7f090"
+
+[[files]]
+file = "datapacks/Fangs and Claws Persistent Animals/data/respawninganimals/tags/entity_type/persistent_animals.json"
+hash = "7025ccd8d40ddd2745b59aaa0e96aafb97aa324dbc369eb7040ce6e04851e2db"
+
+[[files]]
+file = "datapacks/Fangs and Claws Persistent Animals/pack.mcmeta"
+hash = "4d0550e3f55da32c2eed49f87a76f1eaf6d6943c0fa09f4d3056cc29abd16693"
 
 [[files]]
 file = "datapacks/Full Depth Caves/data/bettercaves/worldgen/configured_carver/better_cave.json"
@@ -1323,6 +1343,22 @@ file = "datapacks/Loot Category Compatibility/pack.mcmeta"
 hash = "6d5a3e61aacf4f9cfe9deb1085d7590a73e21314aef70aeaba0722adf9dec9b9"
 
 [[files]]
+file = "datapacks/Mowzie Biome Compatibility/data/mowziesmobs/tags/worldgen/biome/has_structure/frostmaw_arena_biomes.json"
+hash = "25f74f53b93e790bf15926e41c564068ae1681d01a2b2a326a809e92860a219c"
+
+[[files]]
+file = "datapacks/Mowzie Biome Compatibility/data/mowziesmobs/tags/worldgen/biome/has_structure/monastery_biomes.json"
+hash = "f26e977590507779521a44f9b71d04ff63e3571069903aa0815e3b5328b5fbb5"
+
+[[files]]
+file = "datapacks/Mowzie Biome Compatibility/data/mowziesmobs/tags/worldgen/biome/has_structure/umvunthana_grove_biomes.json"
+hash = "dd93e98944a875cab442218291fb7feb51183b5f47aad557be14900df3bfa396"
+
+[[files]]
+file = "datapacks/Mowzie Biome Compatibility/pack.mcmeta"
+hash = "70ed0c5eff6cfd96f09a16d848ed9dc845549b4cc9a15773dda7f8f5d13d9976"
+
+[[files]]
 file = "datapacks/Recipe Restrictions/data/endersdelight/recipe/chorus_pie_slice.json"
 hash = "0dcdb65c4ff7b236cffb4bc23b02235a7b31b481d70a19d7ba4418f7f09ffafb"
 
@@ -1955,6 +1991,21 @@ hash = "8311cf201aa8d3c5d0c0291194f3c76d825591122b7ccf4f2fea08f6b39af526"
 metafile = true
 
 [[files]]
+file = "mods/integrated-api.pw.toml"
+hash = "d78071eb244731b62027bb24e0d9bdf5976925ea67972994c261dd1ba4b77832"
+metafile = true
+
+[[files]]
+file = "mods/integrated-mowzies-mobs.pw.toml"
+hash = "9dd3defce2078341de1f362f85a0cf622014e4694ff4c17d94e24d509adc3dea"
+metafile = true
+
+[[files]]
+file = "mods/integrated-patches.pw.toml"
+hash = "6bcee0b532f103b2470994eb5225c65f07ce19cf192c9f1508628ece757278c9"
+metafile = true
+
+[[files]]
 file = "mods/iris.pw.toml"
 hash = "db1c1e6382878b78e994dba1b9026935f8d1c5ca685c89d2437858e0a0dcab58"
 metafile = true
@@ -2212,6 +2263,10 @@ hash = "6390e31a740d60ba3a66edaf86f5e2788b7d03ff18fd43580f12f665e25f73f9"
 metafile = true
 
 [[files]]
+file = "mods/ragdoll-pathing-guard-1.0.0.jar"
+hash = "14fdd320b04c57a571d98a595272d5a4a01f14877091b435bcfd022ddc4ffcf3"
+
+[[files]]
 file = "mods/ragdoll-reactions.pw.toml"
 hash = "89bd0f15795c70a1e06074e22bc5d80969abd48e1f540c79e3023cf8be51bef9"
 metafile = true
@@ -2353,11 +2408,6 @@ metafile = true
 [[files]]
 file = "mods/spawn-animations.pw.toml"
 hash = "5e91e5aea16a60450da6df9c5cdb056ae5f2d25967fcc8b16c7ccb3a7403b7c9"
-metafile = true
-
-[[files]]
-file = "mods/spice-of-life-valheim-reforged.pw.toml"
-hash = "c16e1be49014758e7f357283f803233903375ab94e36dd2f0d647901327524ec"
 metafile = true
 
 [[files]]
