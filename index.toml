@@ -13,12 +13,20 @@ file = "config/apotheosis/apotheosis.cfg"
 hash = "e4b25a887e9a7c50ca1d8949d26f9a47d8890bd3c264c6192d071e91545f94cc"
 
 [[files]]
+file = "config/betteradvancements-client.toml"
+hash = "5b965898d5b13c5557b603c68ed4ac79a4f850f3a7205eb3dbfc6116f2caf19a"
+
+[[files]]
 file = "config/bettercaves/neoforge-1_21_1/liquidregions.json"
 hash = "4cb57f82ffc75cf89eca62c93cd41df9b0d5241f2f67d118296e6650484878f1"
 
 [[files]]
 file = "config/bettermineshafts-neoforge-1_21.toml"
 hash = "deb28cda8a953f7c170c24cbcd42fbce7041f4bf38f3983b7bb369987184396b"
+
+[[files]]
+file = "config/caverns_and_chasms-client.toml"
+hash = "b8038eaf11ea5642cc80cfcd0a2aeb37d6e1a22f5507622170e9bfb1c65ac017"
 
 [[files]]
 file = "config/create-client.toml"
@@ -75,6 +83,10 @@ hash = "019408e08fe61128160fc6752e8f37f31944928648f90615a26b3e6967baba26"
 [[files]]
 file = "config/irons_restrictions-common.toml"
 hash = "135c5a81719235ce405070ed29b59b3844f2f26a07561a7e9b24c6db265d8f00"
+
+[[files]]
+file = "config/jade/plugins.json"
+hash = "1e8434164f00f7524b4fb931c2552c317164e2617bda75904c02cc874552962d"
 
 [[files]]
 file = "config/liams_ragdoll_revival-common.toml"
@@ -2190,6 +2202,10 @@ metafile = true
 file = "mods/quark.pw.toml"
 hash = "6390e31a740d60ba3a66edaf86f5e2788b7d03ff18fd43580f12f665e25f73f9"
 metafile = true
+
+[[files]]
+file = "mods/ragdoll-pathing-guard-1.0.0.jar"
+hash = "14fdd320b04c57a571d98a595272d5a4a01f14877091b435bcfd022ddc4ffcf3"
 
 [[files]]
 file = "mods/ragdoll-reactions.pw.toml"
