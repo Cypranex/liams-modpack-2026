@@ -69,6 +69,10 @@ file = "config/flimsytorches-common.toml"
 hash = "f76072e946cce2b8452db790cfa9451523101542c6edd481bf8d661b2cef1731"
 
 [[files]]
+file = "config/hordes-common.toml"
+hash = "847edc3000fb633894e26a842b442ff2663d117abf7980e9386c129ec203b219"
+
+[[files]]
 file = "config/hybrid_aquatic.json"
 hash = "f6c8d0fa635dfec81ca6f9c894a167962719f73839859922401fed49f29dcd38"
 
@@ -337,6 +341,42 @@ hash = "638af9ec90e2d3afdeca35ec1da9e601deee2b08b5d30af9aa9f84c86778064b"
 [[files]]
 file = "datapacks/Biome Slice Compatibility/pack.mcmeta"
 hash = "04c303c5eb7fba041311db7430e1856c3c0df8682903632d851d6c3ec51fc8c8"
+
+[[files]]
+file = "datapacks/Blood Moon Hordes/README.md"
+hash = "2ebe8315bc86aaaa1071f4e02a69532b2c8a2ed6ee8d5fa53b0002622fcc6d6d"
+
+[[files]]
+file = "datapacks/Blood Moon Hordes/data/liamshordes/horde_data/tables/dread_legion.json"
+hash = "5e3b8af0047e2687dcd09ee4823382e42182d757265fdc90fc486872ea060bca"
+
+[[files]]
+file = "datapacks/Blood Moon Hordes/data/liamshordes/horde_data/tables/forgotten.json"
+hash = "1fe1b9c7f602ecc53689acd7566d6feba9a831b7b03acf3829107d27b458b8c0"
+
+[[files]]
+file = "datapacks/Blood Moon Hordes/data/liamshordes/horde_data/tables/gravebound.json"
+hash = "e5d61a8ea2766df42042369b5f2919374aa44f627a19ee42c07df912841f43a6"
+
+[[files]]
+file = "datapacks/Blood Moon Hordes/data/liamshordes/horde_data/tables/nightmare_breach.json"
+hash = "26d959edfc454a41ce51ae9c2219f4e2ce4fe0ee42ee0e8b22b8e6d1ebd30079"
+
+[[files]]
+file = "datapacks/Blood Moon Hordes/data/liamshordes/horde_data/tables/powder_keg.json"
+hash = "0c053dce1908ac04c5a8e4ac2e9c68fc568a4508e35bdc92a964bc7cefb88dfa"
+
+[[files]]
+file = "datapacks/Blood Moon Hordes/data/liamshordes/horde_data/tables/shadow_hunt.json"
+hash = "2330a155a25b867e756cb16b7618ec976ae3f8f4df736af528ca850a6be22695"
+
+[[files]]
+file = "datapacks/Blood Moon Hordes/data/liamshordes/horde_data/tables/skittering.json"
+hash = "57600ed619f88183ae12b2e8028cc8c04b2f5ef150ffb1d93993c5f87286afc5"
+
+[[files]]
+file = "datapacks/Blood Moon Hordes/pack.mcmeta"
+hash = "90afbf3b0eed4b0ee5636c324438c7372e5c493dd2e2e25fd726621ca0211e7c"
 
 [[files]]
 file = "datapacks/Deep Ore Progression/data/caverns_and_chasms/worldgen/placed_feature/ore_gold_and_silver_lower.json"
@@ -1379,6 +1419,10 @@ file = "kubejs/server_scripts/aeronautics_aether_recipes.js"
 hash = "f52e465a5f45bd74514f7cfd58c193433b2081c1b1610070fcdec457b71a35c7"
 
 [[files]]
+file = "kubejs/server_scripts/blood_moon_hordes.js"
+hash = "a94d841e022aa3c5cc681b4a5f7b76bd8aca2705553469809d75aacc0110dfa0"
+
+[[files]]
 file = "kubejs/server_scripts/depth_chest_rewards.js"
 hash = "58b0c8ffeaa4993634b81a3f576844177ddd8b2f74632722af6c2c65b37d5b24"
 
@@ -1471,6 +1515,11 @@ metafile = true
 [[files]]
 file = "mods/athena-ctm.pw.toml"
 hash = "f54cf71372645810ce22b0ba68e706139565437150e4cfd22bde4c14606099c4"
+metafile = true
+
+[[files]]
+file = "mods/atlas-lib.pw.toml"
+hash = "57d314558add15212267a2a73439def174a8d8179e3cbd6abf8926f23fbca2e5"
 metafile = true
 
 [[files]]
@@ -2432,6 +2481,11 @@ metafile = true
 [[files]]
 file = "mods/the-aethers-delight.pw.toml"
 hash = "055283aa7790b335df36917fd72eb9f35f4d5cbe3a1e66d53efba4fe79ec1266"
+metafile = true
+
+[[files]]
+file = "mods/the-hordes.pw.toml"
+hash = "9e035295e6ec2f37ff3bfe1c2e224c000b9322e8753ef0d8b67e0e45f844a375"
 metafile = true
 
 [[files]]

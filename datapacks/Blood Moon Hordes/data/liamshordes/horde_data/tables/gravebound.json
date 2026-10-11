@@ -1,0 +1,9 @@
+[
+  {"entity":"minecraft:zombie","weight":36,"first_day":0,"last_day":0},
+  {"entity":"minecraft:husk","weight":12,"first_day":0,"last_day":0},
+  {"entity":"variantsandventures:gelid","weight":8,"first_day":0,"last_day":0},
+  {"entity":"variantsandventures:thicket","weight":8,"first_day":0,"last_day":0},
+  {"entity":"variantsandventures:murk","weight":8,"first_day":0,"last_day":0},
+  {"entity":"variantsandventures:verdant","weight":8,"first_day":0,"last_day":0},
+  {"entity":"cataclysm:draugr","weight":4,"first_day":0,"last_day":0}
+]
