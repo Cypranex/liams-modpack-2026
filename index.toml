@@ -568,7 +568,7 @@ hash = "e4bf5a07d051510070733bca5b775abe25be76832f0ffaf0c0fbd02262b7f090"
 
 [[files]]
 file = "datapacks/Fangs and Claws Persistent Animals/data/respawninganimals/tags/entity_type/persistent_animals.json"
-hash = "7025ccd8d40ddd2745b59aaa0e96aafb97aa324dbc369eb7040ce6e04851e2db"
+hash = "de82bc923f468fdd0b0cbc6ac2e071c6b658d0e022f5bcfa464a0a8d29f453d0"
 
 [[files]]
 file = "datapacks/Fangs and Claws Persistent Animals/pack.mcmeta"
@@ -2298,6 +2298,10 @@ metafile = true
 [[files]]
 file = "mods/ragdoll-pathing-guard-1.0.0.jar"
 hash = "14fdd320b04c57a571d98a595272d5a4a01f14877091b435bcfd022ddc4ffcf3"
+
+[[files]]
+file = "mods/ragdoll-pearl-fix-1.0.0.jar"
+hash = "d5082eaed247023b9f7cdadd0dab261277f79e3485a763b83b8867fc35cb5545"
 
 [[files]]
 file = "mods/ragdoll-reactions.pw.toml"
