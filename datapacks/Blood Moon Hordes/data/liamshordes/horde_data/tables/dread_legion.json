@@ -1,0 +1,9 @@
+[
+  {"entity":"minecraft:zombie","weight":20,"first_day":0,"last_day":0},
+  {"entity":"minecraft:wither_skeleton","weight":5,"first_day":0,"last_day":0},
+  {"entity":"variantsandventures:thicket","weight":12,"first_day":0,"last_day":0},
+  {"entity":"variantsandventures:murk","weight":12,"first_day":0,"last_day":0},
+  {"entity":"cataclysm:draugr","weight":16,"first_day":0,"last_day":0},
+  {"entity":"cataclysm:elite_draugr","weight":5,"first_day":0,"last_day":0},
+  {"entity":"cataclysm:royal_draugr","weight":1,"first_day":0,"last_day":0}
+]

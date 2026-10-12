@@ -1,0 +1,10 @@
+[
+  {"entity":"minecraft:enderman","weight":12,"first_day":0,"last_day":0},
+  {"entity":"minecraft:witch","weight":12,"first_day":0,"last_day":0},
+  {"entity":"minecraft:spider","weight":16,"first_day":0,"last_day":0},
+  {"entity":"spider_overhaul:sculk_spider","weight":8,"first_day":0,"last_day":0},
+  {"entity":"endermanoverhaul:cave_enderman","weight":10,"first_day":0,"last_day":0},
+  {"entity":"endermanoverhaul:dark_oak_enderman","weight":8,"first_day":0,"last_day":0},
+  {"entity":"cataclysm:endermaptera","weight":8,"first_day":0,"last_day":0},
+  {"entity":"caverns_and_chasms:mime","weight":8,"first_day":0,"last_day":0}
+]
