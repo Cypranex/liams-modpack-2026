@@ -98,7 +98,7 @@ hash = "1e8434164f00f7524b4fb931c2552c317164e2617bda75904c02cc874552962d"
 
 [[files]]
 file = "config/liams_ragdoll_revival-common.toml"
-hash = "7270b87a30c82eee781a87ba4e249e37b129377931e9b845440cac3f6dba12ec"
+hash = "17d2acdbd6be77a8a7fd02cdfa8c246fefcf7932e94b7859d337f0b33ee882f3"
 
 [[files]]
 file = "config/lithium.properties"
@@ -224,7 +224,7 @@ hash = "dfea052db7050da49203e2290ee32a0d27cd649e1571321b2008b6cedc1f65e1"
 
 [[files]]
 file = "config/ragdoll_corpse-common.toml"
-hash = "85e60eb298a84d702e474552e544636016814ba75414c666fdb12657c4435fc1"
+hash = "b29552d154c017bfd6addee69af59919ee954a27dd1f1193e2b42ae0358620f0"
 
 [[files]]
 file = "config/ragdoll_reactions-server.toml"
@@ -1792,6 +1792,11 @@ metafile = true
 [[files]]
 file = "mods/dynamictreesplus.pw.toml"
 hash = "a8bd418c6fa0d8fafaeeff65467261713ddd0698f4bd7d6e08b4df8f78303910"
+metafile = true
+
+[[files]]
+file = "mods/e4mc.pw.toml"
+hash = "c64bffb51596c65dbea0a7f12a6bd55ea55ef015dcc27779a87f7092714fe9a9"
 metafile = true
 
 [[files]]
