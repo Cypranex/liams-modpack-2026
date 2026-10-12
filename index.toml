@@ -316,27 +316,55 @@ hash = "04c303c5eb7fba041311db7430e1856c3c0df8682903632d851d6c3ec51fc8c8"
 
 [[files]]
 file = "datapacks/Blood Moon Hordes/README.md"
-hash = "2ebe8315bc86aaaa1071f4e02a69532b2c8a2ed6ee8d5fa53b0002622fcc6d6d"
+hash = "04b8aae54d28b8c9ed65e8942feabdd8ea946937f8c88e7c7027b09dcdec0d30"
 
 [[files]]
 file = "datapacks/Blood Moon Hordes/data/liamshordes/horde_data/tables/dread_legion.json"
 hash = "5e3b8af0047e2687dcd09ee4823382e42182d757265fdc90fc486872ea060bca"
 
 [[files]]
+file = "datapacks/Blood Moon Hordes/data/liamshordes/horde_data/tables/forest_predators.json"
+hash = "2a47bd14fadd47dc0c4ea1c2fbb1bf21464ff20afb85313369881cfb83a040cf"
+
+[[files]]
 file = "datapacks/Blood Moon Hordes/data/liamshordes/horde_data/tables/forgotten.json"
 hash = "1fe1b9c7f602ecc53689acd7566d6feba9a831b7b03acf3829107d27b458b8c0"
+
+[[files]]
+file = "datapacks/Blood Moon Hordes/data/liamshordes/horde_data/tables/frostbound.json"
+hash = "c66dabe925c27941a5c3c8c6a952c6aad6c7b00e7fe845eea245540f5240e72e"
+
+[[files]]
+file = "datapacks/Blood Moon Hordes/data/liamshordes/horde_data/tables/goblin_raiders.json"
+hash = "cbfb731c6eaa9327649c40b2d0d003a74804889962e3ae90877ecdc5723630bf"
 
 [[files]]
 file = "datapacks/Blood Moon Hordes/data/liamshordes/horde_data/tables/gravebound.json"
 hash = "e5d61a8ea2766df42042369b5f2919374aa44f627a19ee42c07df912841f43a6"
 
 [[files]]
+file = "datapacks/Blood Moon Hordes/data/liamshordes/horde_data/tables/infernal_rift.json"
+hash = "b8f24d9ec39d9cebdc9bfbf06b8fb2459f331b78d40407aba241f59502c2629b"
+
+[[files]]
 file = "datapacks/Blood Moon Hordes/data/liamshordes/horde_data/tables/nightmare_breach.json"
 hash = "26d959edfc454a41ce51ae9c2219f4e2ce4fe0ee42ee0e8b22b8e6d1ebd30079"
 
 [[files]]
+file = "datapacks/Blood Moon Hordes/data/liamshordes/horde_data/tables/ogre_warband.json"
+hash = "46996294117538efe9ec9cc336b94f37ca2419619d8a4f83288432afc3c4e782"
+
+[[files]]
 file = "datapacks/Blood Moon Hordes/data/liamshordes/horde_data/tables/powder_keg.json"
 hash = "0c053dce1908ac04c5a8e4ac2e9c68fc568a4508e35bdc92a964bc7cefb88dfa"
+
+[[files]]
+file = "datapacks/Blood Moon Hordes/data/liamshordes/horde_data/tables/scorpion_nest.json"
+hash = "283ed6755035aa7e5fbe4a9c14af428a00742578ee0a1cd025aed3ab0c601c08"
+
+[[files]]
+file = "datapacks/Blood Moon Hordes/data/liamshordes/horde_data/tables/scorpion_storm.json"
+hash = "17321ba7f85c47d0868a88ff5d6f98ed59a6b924affd2abb0ff73812d6df1c5b"
 
 [[files]]
 file = "datapacks/Blood Moon Hordes/data/liamshordes/horde_data/tables/shadow_hunt.json"
@@ -345,6 +373,10 @@ hash = "2330a155a25b867e756cb16b7618ec976ae3f8f4df736af528ca850a6be22695"
 [[files]]
 file = "datapacks/Blood Moon Hordes/data/liamshordes/horde_data/tables/skittering.json"
 hash = "57600ed619f88183ae12b2e8028cc8c04b2f5ef150ffb1d93993c5f87286afc5"
+
+[[files]]
+file = "datapacks/Blood Moon Hordes/data/liamshordes/horde_data/tables/wild_hunt.json"
+hash = "780b4eb050c25a2793d831f21d5eb5f41132e88bac018ecc687b71420acd0d5f"
 
 [[files]]
 file = "datapacks/Blood Moon Hordes/pack.mcmeta"
@@ -1388,7 +1420,7 @@ hash = "f52e465a5f45bd74514f7cfd58c193433b2081c1b1610070fcdec457b71a35c7"
 
 [[files]]
 file = "kubejs/server_scripts/blood_moon_hordes.js"
-hash = "a94d841e022aa3c5cc681b4a5f7b76bd8aca2705553469809d75aacc0110dfa0"
+hash = "2dc96d5fa8816a398a17af0e31997f667d7ff794e5291d7155dcbd4b69adb677"
 
 [[files]]
 file = "kubejs/server_scripts/depth_chest_rewards.js"
