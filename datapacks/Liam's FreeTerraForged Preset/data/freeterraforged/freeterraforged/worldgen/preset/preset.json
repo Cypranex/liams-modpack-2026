@@ -236,7 +236,7 @@
     },
     "properties": {
       "lavaLevel": -288,
-      "oceanDepth": 256,
+      "oceanDepth": 140,
       "seaLevel": 63,
       "spawnType": "CONTINENT_CENTER",
       "worldDepth": 320,

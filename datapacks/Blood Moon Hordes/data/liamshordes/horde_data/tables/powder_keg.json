@@ -1,0 +1,9 @@
+[
+  {"entity":"minecraft:skeleton","weight":34,"first_day":0,"last_day":0},
+  {"entity":"minecraft:pillager","weight":22,"first_day":0,"last_day":0},
+  {"entity":"minecraft:creeper","weight":8,"first_day":0,"last_day":0},
+  {"entity":"creeperoverhaul:cave_creeper","weight":4,"first_day":0,"last_day":0},
+  {"entity":"creeperoverhaul:dripstone_creeper","weight":4,"first_day":0,"last_day":0},
+  {"entity":"variantsandventures:gelid","weight":8,"first_day":0,"last_day":0},
+  {"entity":"caverns_and_chasms:mime","weight":5,"first_day":0,"last_day":0}
+]

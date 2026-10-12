@@ -1,0 +1,9 @@
+[
+  {"entity":"minecraft:skeleton","weight":24,"first_day":0,"last_day":0},
+  {"entity":"minecraft:pillager","weight":15,"first_day":0,"last_day":0},
+  {"entity":"creeperoverhaul:cave_creeper","weight":8,"first_day":0,"last_day":0},
+  {"entity":"creeperoverhaul:dripstone_creeper","weight":8,"first_day":0,"last_day":0},
+  {"entity":"spider_overhaul:cavern_spider","weight":10,"first_day":0,"last_day":0},
+  {"entity":"caverns_and_chasms:evendeeper","weight":6,"first_day":0,"last_day":0},
+  {"entity":"cataclysm:elite_draugr","weight":4,"first_day":0,"last_day":0}
+]

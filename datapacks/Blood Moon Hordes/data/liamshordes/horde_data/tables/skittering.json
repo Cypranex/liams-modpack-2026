@@ -1,0 +1,9 @@
+[
+  {"entity":"minecraft:spider","weight":30,"first_day":0,"last_day":0},
+  {"entity":"minecraft:cave_spider","weight":10,"first_day":0,"last_day":0},
+  {"entity":"spider_overhaul:birch_spider","weight":12,"first_day":0,"last_day":0},
+  {"entity":"spider_overhaul:cavern_spider","weight":10,"first_day":0,"last_day":0},
+  {"entity":"spider_overhaul:taiga_spider","weight":10,"first_day":0,"last_day":0},
+  {"entity":"spider_overhaul:swamp_spider","weight":8,"first_day":0,"last_day":0},
+  {"entity":"caverns_and_chasms:peeper","weight":8,"first_day":0,"last_day":0}
+]
