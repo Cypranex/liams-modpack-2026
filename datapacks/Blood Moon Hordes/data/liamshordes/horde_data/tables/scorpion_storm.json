@@ -1,0 +1,8 @@
+[
+  {"entity":"fangs_n_claws:scorpion","weight":20,"first_day":0,"last_day":0},
+  {"entity":"fangs_n_claws:desert_scorpion","weight":14,"first_day":0,"last_day":0},
+  {"entity":"fangs_n_claws:frost_scorpion","weight":12,"first_day":0,"last_day":0},
+  {"entity":"fangs_n_claws:nether_scorpion","weight":8,"first_day":0,"last_day":0},
+  {"entity":"endermanoverhaul:scarab","weight":8,"first_day":0,"last_day":0},
+  {"entity":"cataclysm:wadjet","weight":4,"first_day":0,"last_day":0}
+]

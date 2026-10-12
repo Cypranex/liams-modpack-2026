@@ -1,0 +1,7 @@
+[
+  {"entity":"variantsandventures:gelid","weight":20,"first_day":0,"last_day":0},
+  {"entity":"spider_overhaul:ice_spider","weight":14,"first_day":0,"last_day":0},
+  {"entity":"creeperoverhaul:snowy_creeper","weight":10,"first_day":0,"last_day":0},
+  {"entity":"fangs_n_claws:frost_scorpion","weight":9,"first_day":0,"last_day":0},
+  {"entity":"endermanoverhaul:ice_spikes_enderman","weight":4,"first_day":0,"last_day":0}
+]
