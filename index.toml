@@ -73,8 +73,12 @@ file = "config/flimsytorches-common.toml"
 hash = "04cc5345c68e0e5622ab7fdfce75d1e607322e389e4e17b57b277173b27569a7"
 
 [[files]]
+file = "config/hordes-client.toml"
+hash = "0b8d5ea96417a7674cbd8d64cefd724e5263ca7673e199bd96b9b3ac95272b19"
+
+[[files]]
 file = "config/hordes-common.toml"
-hash = "847edc3000fb633894e26a842b442ff2663d117abf7980e9386c129ec203b219"
+hash = "125157135aaebcaf43c9b60c7d1eac9fe52292e99f3248ea75276e48742061e5"
 
 [[files]]
 file = "config/hybrid_aquatic.json"
@@ -1423,10 +1427,6 @@ file = "kubejs/server_scripts/aeronautics_aether_recipes.js"
 hash = "f52e465a5f45bd74514f7cfd58c193433b2081c1b1610070fcdec457b71a35c7"
 
 [[files]]
-file = "kubejs/server_scripts/blood_moon_hordes.js"
-hash = "2dc96d5fa8816a398a17af0e31997f667d7ff794e5291d7155dcbd4b69adb677"
-
-[[files]]
 file = "kubejs/server_scripts/depth_chest_rewards.js"
 hash = "58b0c8ffeaa4993634b81a3f576844177ddd8b2f74632722af6c2c65b37d5b24"
 
@@ -2029,10 +2029,6 @@ hash = "79b1a08c2a6852ece32b04fa6ea3a892fc5f7c3af6cf75556d0b9659e41d9550"
 metafile = true
 
 [[files]]
-file = "mods/hordes-compat-fix-1.0.0.jar"
-hash = "484c10ff36ccdd6dd37a61b35b961280a60f977a285d4a0ff4e3794782b261c8"
-
-[[files]]
 file = "mods/hybrid-api.pw.toml"
 hash = "fdc55b26800127cafd9a88b2bd03615fc49ced589cffb036145d98c029af437f"
 metafile = true
@@ -2533,11 +2529,6 @@ metafile = true
 [[files]]
 file = "mods/the-aethers-delight.pw.toml"
 hash = "055283aa7790b335df36917fd72eb9f35f4d5cbe3a1e66d53efba4fe79ec1266"
-metafile = true
-
-[[files]]
-file = "mods/the-hordes.pw.toml"
-hash = "9e035295e6ec2f37ff3bfe1c2e224c000b9322e8753ef0d8b67e0e45f844a375"
 metafile = true
 
 [[files]]
