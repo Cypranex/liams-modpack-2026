@@ -70,7 +70,7 @@ hash = "3002bec3a6c7f34bbbaf958d7d2f1d805b68f95af26437a95d9b77270d35ca9c"
 
 [[files]]
 file = "config/flimsytorches-common.toml"
-hash = "f76072e946cce2b8452db790cfa9451523101542c6edd481bf8d661b2cef1731"
+hash = "04cc5345c68e0e5622ab7fdfce75d1e607322e389e4e17b57b277173b27569a7"
 
 [[files]]
 file = "config/hordes-common.toml"
@@ -1445,7 +1445,7 @@ metafile = true
 
 [[files]]
 file = "mods/aces-spell-utils.pw.toml"
-hash = "1dcb802c746c037ee4f5e7f6fd0f2ef83809ec36db953c491939118136669709"
+hash = "c5a86e9008c5cc4a583450bc29e496f424ec14071823f060129758a548e68265"
 metafile = true
 
 [[files]]
@@ -1475,7 +1475,7 @@ metafile = true
 
 [[files]]
 file = "mods/amendments.pw.toml"
-hash = "c81bee190ce936bc46b98b20f3dff4a7b9689cb7ac168a1674f5378c882f304a"
+hash = "a3c9b772845b9dab436aa5ba14b9596b314006ced8fbd2a6b0286dc0c70cf220"
 metafile = true
 
 [[files]]
@@ -1490,7 +1490,7 @@ metafile = true
 
 [[files]]
 file = "mods/aquamirae.pw.toml"
-hash = "e6a467189e205ef2a715773dbafd48a6dadf67fa93d1493c32b694e44108d0a6"
+hash = "a0e1131ed6d7fab5650544ee043831f5709eb80d3cf2ea31ce18d7427e5915a2"
 metafile = true
 
 [[files]]
@@ -1640,7 +1640,7 @@ metafile = true
 
 [[files]]
 file = "mods/corgilib.pw.toml"
-hash = "2b8c5286980b8d864085d02a6b2153cefa401a965833139ffac8e7661a322f7c"
+hash = "9ae835550d113663b527b6ba934dd7d758d8e0a93c68bb44d84eb1ef1be69159"
 metafile = true
 
 [[files]]
@@ -1778,7 +1778,7 @@ metafile = true
 
 [[files]]
 file = "mods/ecliptic-seasons.pw.toml"
-hash = "c761d635b05c8216d3ae3da3068f91663768c08e7b02b1643f93cb7c086db0a8"
+hash = "b50ba1deb15705888717669b42fadb5d3a0be4f740cdd4a578aca272f7fa3369"
 metafile = true
 
 [[files]]
@@ -1923,12 +1923,12 @@ metafile = true
 
 [[files]]
 file = "mods/flimsy-torches.pw.toml"
-hash = "f7ab2d9281464857a203814f9c3766ed8143c45c95d081b02c38a9adf69efa5f"
+hash = "c80d22d2ee14e99fc47c454ea1cd57cea6cac1b4034bbe0a66ac7f4eb7a4001e"
 metafile = true
 
 [[files]]
-file = "mods/flimsy-wall-lanterns-1.0.1.jar"
-hash = "fd6158a59d5fd3c8b054b10c458fa0f76736636c9201c00d17561c130cc105c7"
+file = "mods/flimsy-wall-lanterns-1.0.2.jar"
+hash = "9453a68bc4377aa184b9e2e06b292fd7cdd83d045cf4195eed1d10af9ec3331d"
 
 [[files]]
 file = "mods/formations-nether.pw.toml"
@@ -2117,8 +2117,8 @@ file = "mods/liams-ragdoll-revival-1.0.0.jar"
 hash = "4178b8f7de7050c0a8ed5dc5701dc6f1e4025100d7aa613605a0b81da4a8e49f"
 
 [[files]]
-file = "mods/liams-torch-compat-1.0.0.jar"
-hash = "b6f0d39674d21af7355cf297d7a4777b8d9cdf6da7afb68eb500506084f6c358"
+file = "mods/liams-torch-compat-1.0.1.jar"
+hash = "babaaf8cf853e5a2678bce622b28a6a016d0a33f0cd15fd50f27c68521d49262"
 
 [[files]]
 file = "mods/lionfish-api.pw.toml"
@@ -2192,7 +2192,7 @@ metafile = true
 
 [[files]]
 file = "mods/moonlight.pw.toml"
-hash = "8a69517eb999eacd8842d42fb2f9cdfda43fe11e70d72eabc54969b4d9e38f5a"
+hash = "709bfedec583aee1370ad11210b75a454b1e3f10c0a1da7fe25abd1c28a8681d"
 metafile = true
 
 [[files]]
@@ -2287,7 +2287,7 @@ metafile = true
 
 [[files]]
 file = "mods/puzzles-lib.pw.toml"
-hash = "3b5f787b41d1814911aad8f199ad7db55a65459e1833b843abb12615dfa0a580"
+hash = "0a04f1d0b86262c6dfdbd14e0493d7f4786f24054a95a07ff7b41a7870bb258d"
 metafile = true
 
 [[files]]
@@ -2474,7 +2474,7 @@ metafile = true
 
 [[files]]
 file = "mods/streams-reflowing.pw.toml"
-hash = "edfee65caf18a07742eee36865643bd63d071a4419b8c0f6452980228dea8e65"
+hash = "c61ff41aad75ce42d75002db6e771c16acdb0b0e01597077f9d7663f561e89d1"
 metafile = true
 
 [[files]]
@@ -2489,7 +2489,7 @@ metafile = true
 
 [[files]]
 file = "mods/supplementaries.pw.toml"
-hash = "25fdaaf01546f4083aa00f85b6c1c4b67434f6d068d3e1725d4437576ca34a7a"
+hash = "b88bbb62ccc2222c4736899745678d83e2dff37bf29ceff94cca94a90a7b68fe"
 metafile = true
 
 [[files]]
