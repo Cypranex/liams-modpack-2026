@@ -1511,6 +1511,11 @@ hash = "89bd0f15795c70a1e06074e22bc5d80969abd48e1f540c79e3023cf8be51bef9"
 metafile = true
 
 [[files]]
+file = "mods/reliable-backpacks.pw.toml"
+hash = "aa1f11c5c82e46adec78ef656dae8edb9aab6c18bb761697d9e89ca0f66f4889"
+metafile = true
+
+[[files]]
 file = "mods/sable-cleanup.pw.toml"
 hash = "a853620e7a9fff71bb22f2e467b5861bafdea792d4e679709800c587c98ae95c"
 metafile = true
@@ -1528,11 +1533,6 @@ metafile = true
 [[files]]
 file = "mods/sable_player_ragdoll-1.21.1-0.7.5-rider-fix.jar"
 hash = "31faa6088a07a711211ea9c39ea4fb3013a216c2d4012ffda373ef41a7f1b9f7"
-
-[[files]]
-file = "mods/seeu.pw.toml"
-hash = "5623012c69f84163d97a82a5e2b1653093e6cf41b8a959293e397ce866582922"
-metafile = true
 
 [[files]]
 file = "mods/stormies-spiders.pw.toml"
