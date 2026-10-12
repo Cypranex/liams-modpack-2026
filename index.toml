@@ -9,6 +9,14 @@ file = "config/aether-startup.toml"
 hash = "e3915bf50d806c5caa3dcebc243818c2c4aeb149599b33e6286ea2828370dd69"
 
 [[files]]
+file = "config/apotheosis/apothic_enchanting.cfg"
+hash = "80bc14418cd225db1afffe473ebc812dbd85862eb137417150c31fa8777110c4"
+
+[[files]]
+file = "config/apotheosis/enchantments.cfg"
+hash = "7c343c56880dbcb47a6252d1d9a7d11036cb0c2d608f36bfdc21fa46cd1b5e01"
+
+[[files]]
 file = "config/betteradvancements-client.toml"
 hash = "5b965898d5b13c5557b603c68ed4ac79a4f850f3a7205eb3dbfc6116f2caf19a"
 
