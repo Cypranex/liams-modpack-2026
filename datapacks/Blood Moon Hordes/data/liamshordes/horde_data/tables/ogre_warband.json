@@ -1,0 +1,8 @@
+[
+  {"entity":"fangs_n_claws:goblin","weight":22,"first_day":0,"last_day":0},
+  {"entity":"fangs_n_claws:dart_goblin","weight":14,"first_day":0,"last_day":0},
+  {"entity":"fangs_n_claws:ogre","weight":8,"first_day":0,"last_day":0},
+  {"entity":"fangs_n_claws:cave_ogre","weight":5,"first_day":0,"last_day":0},
+  {"entity":"caverns_and_chasms:deeper","weight":10,"first_day":0,"last_day":0},
+  {"entity":"cataclysm:koboleton","weight":8,"first_day":0,"last_day":0}
+]
