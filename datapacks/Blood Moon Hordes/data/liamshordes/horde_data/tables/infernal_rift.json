@@ -1,0 +1,8 @@
+[
+  {"entity":"fangs_n_claws:imp","weight":23,"first_day":0,"last_day":0},
+  {"entity":"minecraft:wither_skeleton","weight":13,"first_day":0,"last_day":0},
+  {"entity":"cataclysm:ignited_revenant","weight":9,"first_day":0,"last_day":0},
+  {"entity":"fangs_n_claws:fire_ghost","weight":8,"first_day":0,"last_day":0},
+  {"entity":"fangs_n_claws:hell_ogre","weight":5,"first_day":0,"last_day":0},
+  {"entity":"cataclysm:ignited_berserker","weight":3,"first_day":0,"last_day":0}
+]

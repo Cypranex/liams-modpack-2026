@@ -14,7 +14,11 @@ const BLOOD_MOON_HORDES = {
       { id: 'liamshordes:gravebound', weight: 4 },
       { id: 'liamshordes:skittering', weight: 3 },
       { id: 'liamshordes:powder_keg', weight: 2 },
-      { id: 'liamshordes:forgotten', weight: 2 }
+      { id: 'liamshordes:forgotten', weight: 2 },
+      { id: 'liamshordes:wild_hunt', weight: 3 },
+      { id: 'liamshordes:goblin_raiders', weight: 3 },
+      { id: 'liamshordes:scorpion_nest', weight: 2 },
+      { id: 'liamshordes:forest_predators', weight: 2 }
     ]
   },
   super: {
@@ -24,7 +28,11 @@ const BLOOD_MOON_HORDES = {
     presets: [
       { id: 'liamshordes:dread_legion', weight: 3 },
       { id: 'liamshordes:nightmare_breach', weight: 3 },
-      { id: 'liamshordes:shadow_hunt', weight: 2 }
+      { id: 'liamshordes:shadow_hunt', weight: 2 },
+      { id: 'liamshordes:ogre_warband', weight: 3 },
+      { id: 'liamshordes:infernal_rift', weight: 2 },
+      { id: 'liamshordes:scorpion_storm', weight: 2 },
+      { id: 'liamshordes:frostbound', weight: 2 }
     ]
   }
 }
