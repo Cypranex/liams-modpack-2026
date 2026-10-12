@@ -1978,6 +1978,10 @@ hash = "79b1a08c2a6852ece32b04fa6ea3a892fc5f7c3af6cf75556d0b9659e41d9550"
 metafile = true
 
 [[files]]
+file = "mods/hordes-compat-fix-1.0.0.jar"
+hash = "484c10ff36ccdd6dd37a61b35b961280a60f977a285d4a0ff4e3794782b261c8"
+
+[[files]]
 file = "mods/hybrid-api.pw.toml"
 hash = "fdc55b26800127cafd9a88b2bd03615fc49ced589cffb036145d98c029af437f"
 metafile = true
