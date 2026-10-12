@@ -1,0 +1,178 @@
+#============================================================
+# Localized Chat — channel costs and ranges
+#============================================================
+# Every communication method this mod owns is a 'channel'.
+# Each channel has:
+#   enable     - false turns the channel off. Players get an error.
+#   distance   - Manhattan range: |dx|+|dy|+|z|.
+#                -1 = unlimited (still respects dimension for non-ops
+#                     unless they are exempt; exempt ops are heard by everyone).
+#                 0 = only the sender hears talk/shout/me; tell reaches nobody.
+#   cost_type  - which resources to charge. Valid values:
+#                  none
+#                  hp          (health, half-hearts, 20 = full bar)
+#                  hunger      (food level, 20 = full bar)
+#                  xp          (experience POINTS, not levels)
+#                  hp,hunger   (or hp+hunger — any combo)
+#                  hp,xp
+#                  hunger,xp
+#                  hp,hunger,xp
+#                  all
+#   cost_hp / cost_hunger / cost_xp
+#                Amount taken from each selected resource.
+#                Unselected resources are ignored even if the number is not 0.
+#                0 on a selected resource means that resource is free.
+# Combinations charge EVERY selected resource. If the player cannot pay
+# any one of them, nothing is deducted and the action fails.
+#
+# Operators (see opAsPlayer below):
+#   false = exempt from costs, and every player hears them on that channel.
+#   true  = ops pay and obey range like everyone else.
+[general]
+	#If true, operators pay costs and obey range like normal players.
+	#If false, operators are exempt from costs and everyone hears them.
+	#Default: false
+	opAsPlayer = false
+
+#Normal chat. No command required.
+#This is the local 'talk' channel the mod is built around.
+[talk]
+	#Allow normal chat. Default: true
+	enable_talk = true
+	#Talk range in blocks. Default: 100. Use -1 for unlimited.
+	# Default: 100
+	# Range: > -1
+	talk_distance = 100
+	#none | hp | hunger | xp | comma/plus combinations | all. Default: none
+	talk_cost_type = "none"
+	#Half-hearts charged when talk_cost_type includes hp. Default: 0
+	# Default: 0
+	# Range: 0 ~ 20
+	talk_cost_hp = 0
+	#Food points charged when talk_cost_type includes hunger. Default: 0
+	# Default: 0
+	# Range: 0 ~ 20
+	talk_cost_hunger = 0
+	#XP points charged when talk_cost_type includes xp. Default: 0
+	# Default: 0
+	# Range: > 0
+	talk_cost_xp = 0
+
+#/shout  /s  /sh
+#Long-range speech. Used to be hunger-only; now any resource mix.
+[shout]
+	#Allow /shout /s /sh. Default: true
+	enable_shout = true
+	#Shout range in blocks. Default: 400. Use -1 for unlimited.
+	# Default: 400
+	# Range: > -1
+	shout_distance = 400
+	#none | hp | hunger | xp | combinations | all. Default: hunger
+	shout_cost_type = "hunger"
+	#Half-hearts charged when shout_cost_type includes hp. Default: 0
+	# Default: 0
+	# Range: 0 ~ 20
+	shout_cost_hp = 0
+	#Food points charged when shout_cost_type includes hunger. Default: 1
+	# Default: 1
+	# Range: 0 ~ 20
+	shout_cost_hunger = 1
+	#XP points charged when shout_cost_type includes xp. Default: 0
+	# Default: 0
+	# Range: > 0
+	shout_cost_xp = 0
+
+#/me   (vanilla emote; the requested 'whisper' toggle lives here)
+#Example: /me waves  ->  * Steve waves
+[whisper]
+	#Allow /me. Default: true
+	enable_whisper = true
+	# /me range in blocks. Default: 100. Use -1 for unlimited.
+	# Default: 100
+	# Range: > -1
+	whisper_distance = 100
+	#none | hp | hunger | xp | combinations | all. Default: none
+	whisper_cost_type = "none"
+	#Half-hearts charged when whisper_cost_type includes hp. Default: 0
+	# Default: 0
+	# Range: 0 ~ 20
+	whisper_cost_hp = 0
+	#Food points charged when whisper_cost_type includes hunger. Default: 0
+	# Default: 0
+	# Range: 0 ~ 20
+	whisper_cost_hunger = 0
+	#XP points charged when whisper_cost_type includes xp. Default: 0
+	# Default: 0
+	# Range: > 0
+	whisper_cost_xp = 0
+
+#/tell  /msg  /w   vanilla private messages.
+#Distance is measured to each target. Out-of-range targets are skipped.
+#Cost is paid once if at least one target receives the message.
+[tell]
+	#Allow /tell /msg /w. Default: true
+	enable_tell = false
+	#Private-message range. Default: -1 (unlimited). 1500 is a solid 'same region' cap.
+	# Default: -1
+	# Range: > -1
+	tell_distance = -1
+	#none | hp | hunger | xp | combinations | all. Default: none
+	tell_cost_type = "none"
+	#Half-hearts charged when tell_cost_type includes hp. Default: 0
+	# Default: 0
+	# Range: 0 ~ 20
+	tell_cost_hp = 0
+	#Food points charged when tell_cost_type includes hunger. Default: 0
+	# Default: 0
+	# Range: 0 ~ 20
+	tell_cost_hunger = 0
+	#XP points charged when tell_cost_type includes xp. Default: 0
+	# Default: 0
+	# Range: > 0
+	tell_cost_xp = 0
+
+#Other commands (homes, RTP, warp, teammsg, whatever).
+#These may or may not be chat, so they only get a toggle and a cost. No range.
+#
+#Format of each entry:
+#  command|enabled|cost_type|hp|hunger|xp
+#
+#Examples:
+#  home|true|hunger|0|2|0
+#  rtp|true|hp,xp|4|0|50
+#  spawn|true|none|0|0|0
+#  back|false|none|0|0|0
+#
+#Shorthand: 'home' means enabled with no cost.
+#Do not put a slash on the name. Only the root command is matched.
+#  /execute ... run home   will NOT match an extra_commands 'home' entry.
+#talk / shout / me / tell / msg / w / s / sh are ignored here;
+#configure those in the channel sections above.
+[extra_commands]
+	#List of command|enabled|cost_type|hp|hunger|xp entries.
+	entries = []
+
+#Miscellaneous
+[miscellaneous]
+	#If alternate prefix is enabled then the distance won't be displayed but this prefix will.
+	prefix = ""
+	#Enable to use the prefix you set above
+	usePrefix = false
+	#Should the distance away be indicated in the chat? This also disables the custom prefix.
+	rangeNotifier = false
+
+#These codes control the output of the colors sent to the client for the various parts of the mod
+#Color codes reference at http://minecraft.wikia.com/wiki/Formatting_Codes
+[color_codes]
+	#Sets the color for brackets []
+	bracketColor = "§6"
+	#Sets the color for angle braces <>
+	angleBraceColor = "§7"
+	#Sets the color for positional information
+	posColor = "§e"
+	#Sets the color to be used player names
+	nameColor = "§f"
+	#Sets the color the body of the message
+	bodyColor = "§f"
+	#The color to use when no other color will do
+	defaultColor = "§f"
