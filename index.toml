@@ -109,6 +109,10 @@ file = "config/lithium.properties"
 hash = "7555077253c07f0695f66834d6f22d3ff4a2e076f384f5fe42c3f8365c002020"
 
 [[files]]
+file = "config/localizedchat-common.toml"
+hash = "a74574357ff7f93c62d6a5aaaf3e86ccc8a2c4712097b9b138632ccfb2f973b4"
+
+[[files]]
 file = "config/loot.toml"
 hash = "df4f5aec9a48bf94fcece0dd35f182473b2c5e9c7a355b2df00b917b2efd1a1e"
 
@@ -283,8 +287,12 @@ file = "config/variantsandventures.json"
 hash = "713aa852dc54d09230f6e111c6385d5409464c4244a9d37ea58604310555adbd"
 
 [[files]]
+file = "config/vcinteraction-common.toml"
+hash = "0bb36e3a8790d49451b97e62e1610fd46edd60b79d2a7609542074c9e85ceb09"
+
+[[files]]
 file = "config/voicechat/voicechat-server.properties"
-hash = "656a6e688281ff209d947f33863c752301069687266cf7cf7bc670c3b91cf29c"
+hash = "fc6f28e3ac52bb24cacb406b68660b235b1e861b7a44cbdaded206f47f52d273"
 
 [[files]]
 file = "config/wakes-client.toml"
@@ -2549,6 +2557,10 @@ metafile = true
 file = "mods/variants-and-ventures.pw.toml"
 hash = "968071ee9dcd29fd9c5444242859a3e30715f48f7ca7378a2ff3fa7358e04cf7"
 metafile = true
+
+[[files]]
+file = "mods/voicechat-interaction-neoforge-1.0.0.jar"
+hash = "a2d539c08e558c35c27f3a0e5806048de2f29da6d4ab78018b95589f69f35d42"
 
 [[files]]
 file = "mods/wakes-reforged.pw.toml"
