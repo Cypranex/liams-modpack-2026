@@ -1,0 +1,14 @@
+#If group voice chat should create vibrations
+group_interaction = true
+#If whispering should create vibrations
+whisper_interaction = false
+#If talking while sneaking should create vibrations
+sneak_interaction = true
+#Redstone frequency of the voice vibration
+# Default: 7
+# Range: 1 ~ 15
+voice_sculk_frequency = 7
+#Minimum voice level in dB
+# Default: -50
+# Range: -127 ~ 0
+minimum_activation_threshold = -50
