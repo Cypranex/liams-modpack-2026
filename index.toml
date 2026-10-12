@@ -9,10 +9,6 @@ file = "config/aether-startup.toml"
 hash = "e3915bf50d806c5caa3dcebc243818c2c4aeb149599b33e6286ea2828370dd69"
 
 [[files]]
-file = "config/apotheosis/apotheosis.cfg"
-hash = "e4b25a887e9a7c50ca1d8949d26f9a47d8890bd3c264c6192d071e91545f94cc"
-
-[[files]]
 file = "config/betteradvancements-client.toml"
 hash = "5b965898d5b13c5557b603c68ed4ac79a4f850f3a7205eb3dbfc6116f2caf19a"
 
@@ -281,42 +277,6 @@ hash = "656a6e688281ff209d947f33863c752301069687266cf7cf7bc670c3b91cf29c"
 [[files]]
 file = "config/wakes-client.toml"
 hash = "51f2c4e7d90673329adddfff7e4b65e97bbd925cf93fb9578e83d55a66e769d3"
-
-[[files]]
-file = "datapacks/Apotheosis Gems Rare/data/apotheosis/loot_modifiers/gem_entity_drops.json"
-hash = "4a4ccb74bad6ad429ac38bead44facb4fa41e8218ebf298189b020f354a3751a"
-
-[[files]]
-file = "datapacks/Apotheosis Gems Rare/data/apotheosis/loot_modifiers/gem_entity_drops_from_real_players.json"
-hash = "ff0c821b13a258c76fb816899985aa60cc07a89f2d0e402b268f964d9da00091"
-
-[[files]]
-file = "datapacks/Apotheosis Gems Rare/data/apotheosis/loot_modifiers/gem_loot_injection.json"
-hash = "bba853f2a0ea29ef6ce8be290deb2d84df894db83ca7955e096c15d4fb2d7d85"
-
-[[files]]
-file = "datapacks/Apotheosis Gems Rare/data/apotheosis/loot_table/chests/chest_valuable.json"
-hash = "072a4acb692ac1edca89456f9eef2cc6977c3e27216636ce583bd31fcb6f4331"
-
-[[files]]
-file = "datapacks/Apotheosis Gems Rare/data/apotheosis/loot_table/chests/tome_tower.json"
-hash = "371f0ae1fabac4255350f17c590d1bfe536f688796cacd2ec011f522fb4615f2"
-
-[[files]]
-file = "datapacks/Apotheosis Gems Rare/data/apotheosis/loot_table/entity/boss_drops.json"
-hash = "f13f7affc39b801d94b33610f4723ad5740170387ca3a18dddbb2aa3cb3bf592"
-
-[[files]]
-file = "datapacks/Apotheosis Gems Rare/data/apotheosis/loot_table/entity/rare_boss_drops.json"
-hash = "4944394628fb042de03a5f7e485401d5765863a96ab46d45ea294939cafa1ec4"
-
-[[files]]
-file = "datapacks/Apotheosis Gems Rare/data/apotheosis/loot_table/entity/treasure_goblin.json"
-hash = "27f5ccdcbad36175c1333716810687d021888808ff6d7dd5f3da2acf0739af5a"
-
-[[files]]
-file = "datapacks/Apotheosis Gems Rare/pack.mcmeta"
-hash = "0e31ccd0ae06b52f2422f61298fdec8c77e250d6e224123edf8b120ec31897a4"
 
 [[files]]
 file = "datapacks/Aquatic Worldgen Cleanup/data/hybrid_aquatic/tags/worldgen/biome/has_whale_fall.json"
@@ -1375,14 +1335,6 @@ file = "datapacks/Liam's FreeTerraForged Preset/pack.mcmeta"
 hash = "b5822279d2f64adb0fc9d65f9deb90f52098ebfbdc4bdcd4bf99aac442ed6e5e"
 
 [[files]]
-file = "datapacks/Loot Category Compatibility/data/apotheosis/data_maps/item/loot_category_overrides.json"
-hash = "724f4f83d3aa7d19a8ab58a6cc07c6acbbb68cfb4e8c97498ebc0e24195a4b16"
-
-[[files]]
-file = "datapacks/Loot Category Compatibility/pack.mcmeta"
-hash = "6d5a3e61aacf4f9cfe9deb1085d7590a73e21314aef70aeaba0722adf9dec9b9"
-
-[[files]]
 file = "datapacks/Mowzie Biome Compatibility/data/mowziesmobs/tags/worldgen/biome/has_structure/frostmaw_arena_biomes.json"
 hash = "25f74f53b93e790bf15926e41c564068ae1681d01a2b2a326a809e92860a219c"
 
@@ -1473,23 +1425,8 @@ hash = "c81bee190ce936bc46b98b20f3dff4a7b9689cb7ac168a1674f5378c882f304a"
 metafile = true
 
 [[files]]
-file = "mods/apotheosis.pw.toml"
-hash = "e154d7fb16dc7eb6ace7b88b3896955bb66f58c2daafe93c7ae3327ee418a509"
-metafile = true
-
-[[files]]
 file = "mods/apothic-attributes.pw.toml"
 hash = "8f5f05a72596ecc0dd11be483785c8a521e987dc2fe6d2fef212c2a382a0c779"
-metafile = true
-
-[[files]]
-file = "mods/apothic-category-compat.pw.toml"
-hash = "806aa82d9603611c16f5de91e699a3926ba7feb916fe3571a8f06d3bf0a31bfb"
-metafile = true
-
-[[files]]
-file = "mods/apothic-combat.pw.toml"
-hash = "1b48a649e684ae1b73f49676450ab123ad28c02459cf28b2bb231b9c1112ca3b"
 metafile = true
 
 [[files]]
