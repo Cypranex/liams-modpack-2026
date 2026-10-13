@@ -1935,8 +1935,8 @@ hash = "c80d22d2ee14e99fc47c454ea1cd57cea6cac1b4034bbe0a66ac7f4eb7a4001e"
 metafile = true
 
 [[files]]
-file = "mods/flimsy-wall-lanterns-1.0.2.jar"
-hash = "9453a68bc4377aa184b9e2e06b292fd7cdd83d045cf4195eed1d10af9ec3331d"
+file = "mods/flimsy-wall-lanterns-1.0.3.jar"
+hash = "bcad5e5a8bccef07f4e27ed3171be6392a5e0f933f5f8e20aa5a5d0826f37d93"
 
 [[files]]
 file = "mods/formations-nether.pw.toml"
@@ -2117,8 +2117,8 @@ file = "mods/liams-corpse-expiry-fix-1.1.0.jar"
 hash = "0abf90fc3cfb13acf7f1550d67a2c99b69698b300c30b02ae1c94ba6f89d3649"
 
 [[files]]
-file = "mods/liams-ragdoll-revival-1.0.0.jar"
-hash = "4178b8f7de7050c0a8ed5dc5701dc6f1e4025100d7aa613605a0b81da4a8e49f"
+file = "mods/liams-ragdoll-revival-1.0.1.jar"
+hash = "e4a5b75cd01c67134f1788c8cb08365430bedf263d99c937caf9d9d7b35a56b4"
 
 [[files]]
 file = "mods/liams-torch-compat-1.0.1.jar"
