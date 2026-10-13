@@ -130,7 +130,7 @@ hash = "5bdb1341455819c292bfd9fef0c3e05ad1ab881c2b33c4519f1f7108f6550200"
 
 [[files]]
 file = "config/nether remastered.toml"
-hash = "2d73e0101fdbec4e5967079683e11aa2f691103a00fa12040f33a068fbd2be4f"
+hash = "43b508ce487811c27ff6175e0aab22a8dd4b9565a44bfc6cdccffa209dce2881"
 
 [[files]]
 file = "config/notenoughanimations.json"
