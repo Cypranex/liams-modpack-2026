@@ -232,7 +232,7 @@ hash = "85e60eb298a84d702e474552e544636016814ba75414c666fdb12657c4435fc1"
 
 [[files]]
 file = "config/ragdoll_reactions-server.toml"
-hash = "cf8a27aaa0013575a4cdc99e6b5796e59f214bff42c6b8e01f5d5d408198196f"
+hash = "c13d851a96936dd1c906cdf4030e34be8f357b7bccd83d6e731be40e9b221628"
 
 [[files]]
 file = "config/regions_unexplored/common.json"
