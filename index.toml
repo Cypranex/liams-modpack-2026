@@ -134,7 +134,7 @@ hash = "5bdb1341455819c292bfd9fef0c3e05ad1ab881c2b33c4519f1f7108f6550200"
 
 [[files]]
 file = "config/nether remastered.toml"
-hash = "2d73e0101fdbec4e5967079683e11aa2f691103a00fa12040f33a068fbd2be4f"
+hash = "43b508ce487811c27ff6175e0aab22a8dd4b9565a44bfc6cdccffa209dce2881"
 
 [[files]]
 file = "config/notenoughanimations.json"
@@ -236,7 +236,7 @@ hash = "85e60eb298a84d702e474552e544636016814ba75414c666fdb12657c4435fc1"
 
 [[files]]
 file = "config/ragdoll_reactions-server.toml"
-hash = "cf8a27aaa0013575a4cdc99e6b5796e59f214bff42c6b8e01f5d5d408198196f"
+hash = "c13d851a96936dd1c906cdf4030e34be8f357b7bccd83d6e731be40e9b221628"
 
 [[files]]
 file = "config/regions_unexplored/common.json"
@@ -1431,6 +1431,10 @@ file = "kubejs/server_scripts/aeronautics_aether_recipes.js"
 hash = "f52e465a5f45bd74514f7cfd58c193433b2081c1b1610070fcdec457b71a35c7"
 
 [[files]]
+file = "kubejs/server_scripts/cupric_campfire_recipe.js"
+hash = "fd66dab44fe0e4e84ca05f3833f09b95097a6f2b50a4290741f3426133cfdef5"
+
+[[files]]
 file = "kubejs/server_scripts/depth_chest_rewards.js"
 hash = "58b0c8ffeaa4993634b81a3f576844177ddd8b2f74632722af6c2c65b37d5b24"
 
@@ -1939,8 +1943,8 @@ hash = "c80d22d2ee14e99fc47c454ea1cd57cea6cac1b4034bbe0a66ac7f4eb7a4001e"
 metafile = true
 
 [[files]]
-file = "mods/flimsy-wall-lanterns-1.0.2.jar"
-hash = "9453a68bc4377aa184b9e2e06b292fd7cdd83d045cf4195eed1d10af9ec3331d"
+file = "mods/flimsy-wall-lanterns-1.0.3.jar"
+hash = "bcad5e5a8bccef07f4e27ed3171be6392a5e0f933f5f8e20aa5a5d0826f37d93"
 
 [[files]]
 file = "mods/formations-nether.pw.toml"
@@ -2121,8 +2125,8 @@ file = "mods/liams-corpse-expiry-fix-1.1.0.jar"
 hash = "0abf90fc3cfb13acf7f1550d67a2c99b69698b300c30b02ae1c94ba6f89d3649"
 
 [[files]]
-file = "mods/liams-ragdoll-revival-1.0.0.jar"
-hash = "4178b8f7de7050c0a8ed5dc5701dc6f1e4025100d7aa613605a0b81da4a8e49f"
+file = "mods/liams-ragdoll-revival-1.0.1.jar"
+hash = "e4a5b75cd01c67134f1788c8cb08365430bedf263d99c937caf9d9d7b35a56b4"
 
 [[files]]
 file = "mods/liams-torch-compat-1.0.1.jar"
