@@ -1427,6 +1427,10 @@ file = "kubejs/server_scripts/aeronautics_aether_recipes.js"
 hash = "f52e465a5f45bd74514f7cfd58c193433b2081c1b1610070fcdec457b71a35c7"
 
 [[files]]
+file = "kubejs/server_scripts/astikorcarts_chest_recipes.js"
+hash = "db793a9b01fb2cdacefbf3240a8035aafde544b884d9cbee241448fa028047d8"
+
+[[files]]
 file = "kubejs/server_scripts/cupric_campfire_recipe.js"
 hash = "fd66dab44fe0e4e84ca05f3833f09b95097a6f2b50a4290741f3426133cfdef5"
 
