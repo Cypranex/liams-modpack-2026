@@ -1,13 +1,13 @@
 name = "Streams Reflowing"
-filename = "StreamsReflowing-1.21.1-neoforge-2.15.0.jar"
+filename = "StreamsReflowing-1.21.1-neoforge-2.15.2.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/oLS8HdJ1/versions/aN4I2sbB/StreamsReflowing-1.21.1-neoforge-2.15.0.jar"
+url = "https://cdn.modrinth.com/data/oLS8HdJ1/versions/vbJ5meb8/StreamsReflowing-1.21.1-neoforge-2.15.2.jar"
 hash-format = "sha512"
-hash = "4e35a7cbd6ce222d54efb9e4b734f6bd4a1acd5d721c4e2572558efc3b7eb15d09ae90b53cc04cbee10165714c9bc9445a35c966df8eb1a83fc3cdfa1afd28e4"
+hash = "ffcab786e1d634d4a2d19fef3f7b819fd51868da7d2807f8af2efa35c8b55d543a285ab2c57f2e8fc60c3102eeac13aea410ed85220f27a3261e9b73c71a5af3"
 
 [update]
 [update.modrinth]
 mod-id = "oLS8HdJ1"
-version = "aN4I2sbB"
+version = "vbJ5meb8"
