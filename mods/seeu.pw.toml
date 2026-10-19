@@ -1,13 +1,13 @@
 name = "SeeU"
-filename = "seeu-neoforge-1.21.1-0.9.1.1.jar"
+filename = "seeu-neoforge-1.21.1-0.9.5.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/coyNPDey/versions/G1VqnokG/seeu-neoforge-1.21.1-0.9.1.1.jar"
+url = "https://cdn.modrinth.com/data/coyNPDey/versions/605DdKxy/seeu-neoforge-1.21.1-0.9.5.jar"
 hash-format = "sha512"
-hash = "bd7e08ce6caf6b73f6ad9f4c793033759d9f3b800d7daa22b339ce0d614c9ff1738f10e61f5669c8ad08b3603e5b80da4aa8d5409c9114d3b44e20c81b075244"
+hash = "9ed3fc0176081eb07f339ae87262f9298967e114ed4e901bed162c54895195c00b2bee1c7179e81fe4056cade81400599ce10fd90245711daf6f9400d0f0cb7c"
 
 [update]
 [update.modrinth]
 mod-id = "coyNPDey"
-version = "G1VqnokG"
+version = "605DdKxy"
