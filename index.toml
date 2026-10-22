@@ -212,7 +212,7 @@ metafile = true
 
 [[files]]
 file = "config/paxi/resourcepacks/fresh-animations.pw.toml"
-hash = "070948ef5674abf5d87f737453ee394531834602091aaa04dec192472cfa531e"
+hash = "542220c06477ee4ca5797b53f941de4f4128f71080298d92ad2a0fa9a8489fbb"
 metafile = true
 
 [[files]]
@@ -1500,7 +1500,7 @@ metafile = true
 
 [[files]]
 file = "mods/aero-player-tilt.pw.toml"
-hash = "cfd7eddb73512a84dba9bf9be7583a404a174260a97919a173b85df1ec935936"
+hash = "b65fdd02f754c63393e2a9352e845d63c229abb0cd162fb0823956b23cd2a33c"
 metafile = true
 
 [[files]]
@@ -1530,7 +1530,7 @@ metafile = true
 
 [[files]]
 file = "mods/amendments.pw.toml"
-hash = "a3c9b772845b9dab436aa5ba14b9596b314006ced8fbd2a6b0286dc0c70cf220"
+hash = "27bf52b4265eda868c46a325f3a86cec1db5ff24ffb808aed671972d51883792"
 metafile = true
 
 [[files]]
@@ -1595,7 +1595,7 @@ metafile = true
 
 [[files]]
 file = "mods/bclib-neoforge.pw.toml"
-hash = "f06ffaf5e2e06ee937a20f4c59644438ef33ce31c6ab289b579876b9803b4dc0"
+hash = "c3c9a50495bda856f0d71e5f71f13dff3a66ce5b41fd70d2ff385f31bef819a4"
 metafile = true
 
 [[files]]
@@ -1630,12 +1630,12 @@ metafile = true
 
 [[files]]
 file = "mods/betterend-neoforge.pw.toml"
-hash = "ac20c51937d8fa76f37bb1dee9c9ef2f0e51f0079f2f02547b38901e6350867e"
+hash = "ac0bcb27f3ac227eb4ec843f912c23d478648dae650d6048e3814c005d4a4031"
 metafile = true
 
 [[files]]
 file = "mods/betternether-neoforge.pw.toml"
-hash = "e818e4f4238f07a8755699d6a60a4375913953f9ca076d527239e7850af7055c"
+hash = "7503a41d41923545aff680a9bf0becf8d6bd007b4118c1d1b52eefe3d76a6107"
 metafile = true
 
 [[files]]
@@ -2388,7 +2388,7 @@ metafile = true
 
 [[files]]
 file = "mods/puzzles-lib.pw.toml"
-hash = "0a04f1d0b86262c6dfdbd14e0493d7f4786f24054a95a07ff7b41a7870bb258d"
+hash = "2e0b31d4a3d4298045b368558ce7fe191a13bccb02a4524ca748598a9dcf4ca5"
 metafile = true
 
 [[files]]
@@ -2515,7 +2515,7 @@ metafile = true
 
 [[files]]
 file = "mods/simple-voice-chat.pw.toml"
-hash = "8045c493b0eb0196880817b529417742bb65b250805cc14f7abe5ac5f1e4d4b1"
+hash = "44db699e3dee8a6d4a787281bd5f3f1a87f88fcf5babf8fa11cb5d9582d43ebe"
 metafile = true
 
 [[files]]
@@ -2550,7 +2550,7 @@ metafile = true
 
 [[files]]
 file = "mods/sound-physics-remastered.pw.toml"
-hash = "258a77de0a6db4c9ab045cbb240bcf4eac0dbbca3f6bc981fb461e55c247f23f"
+hash = "6727704e22c27be46fc08859f94dd0061cecf27ed2a7451c5bc1a0bdf50edbe5"
 metafile = true
 
 [[files]]
@@ -2698,7 +2698,7 @@ metafile = true
 
 [[files]]
 file = "mods/worldweaver-neoforge.pw.toml"
-hash = "fa561f7a526241e08d517812f3e0b907809fff4241a93bfcc1263501763f7337"
+hash = "d0bafb124a7c57aa04dfcf237bf1359fa466f0fea90c4030e4a3d97f3bfce7c6"
 metafile = true
 
 [[files]]
