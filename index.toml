@@ -222,6 +222,11 @@ hash = "f917f523f840a66d9cab3a98ab9dce9c17dd9e5fa7be13cccc4c2da4a020cd29"
 metafile = true
 
 [[files]]
+file = "config/paxi/resourcepacks/rainbows-foliage.pw.toml"
+hash = "bc43f3308f4db0902c14ba5aa0d719526413f2dfe9baf93c44144c7c7b7df6af"
+metafile = true
+
+[[files]]
 file = "config/paxi/resourcepacks/universal-bushy-leaves.pw.toml"
 hash = "35e316a0b3d9076db048ff8ffd36acd016d33f4dca14035abb3e851bdbeb91bf"
 metafile = true
@@ -1629,6 +1634,11 @@ hash = "4c20f91ab620cc2ff82cda94d40c0d8249d08e7e166b5e1273a7b829c078e46c"
 metafile = true
 
 [[files]]
+file = "mods/bettercombatpunchyfix.pw.toml"
+hash = "0d32763b4e87d5340a9f9ac63bdc6902a4d55b94ddceb4e18e1be1bd78d634d5"
+metafile = true
+
+[[files]]
 file = "mods/betterend-neoforge.pw.toml"
 hash = "ac0bcb27f3ac227eb4ec843f912c23d478648dae650d6048e3814c005d4a4031"
 metafile = true
@@ -1766,6 +1776,11 @@ metafile = true
 [[files]]
 file = "mods/create.pw.toml"
 hash = "dcaf5f2e28db0b9a127d0167456832341045ddc9aec058c3d9fcf53f618d2404"
+metafile = true
+
+[[files]]
+file = "mods/createbetterfps.pw.toml"
+hash = "b6a535a801939a78f255203f7b28319773becca20cc88348f8764f4078816300"
 metafile = true
 
 [[files]]
@@ -2071,6 +2086,11 @@ hash = "bd54b25ed6127a176979f89d56ebee73856ff5023c575232ee707571fcdb2c1c"
 metafile = true
 
 [[files]]
+file = "mods/fwa.pw.toml"
+hash = "3d8367a300c9058a2d97aaea91b42d91ffae892cbffcd774417c4b4c306ca311"
+metafile = true
+
+[[files]]
 file = "mods/fzzy-config.pw.toml"
 hash = "932c65fb598293dba5dc60a76fc64c2579db427018b10dd4757dd421d9abcaf0"
 metafile = true
@@ -2357,6 +2377,11 @@ hash = "7333c29c224d843384e26b2c7d9af1d31dada870d776fb1ad8f3d8c3040b313d"
 metafile = true
 
 [[files]]
+file = "mods/particle-rain.pw.toml"
+hash = "0036fedda388192221893df1b2e5c1e23af000f98c52fea383e6d2d1e85a3bcd"
+metafile = true
+
+[[files]]
 file = "mods/patchouli.pw.toml"
 hash = "d7f360ebb9f009d6dc0b368cd8fa399bdff70c0f6ef931687b2a35137f72715d"
 metafile = true
@@ -2392,8 +2417,18 @@ hash = "5b30dafc9e96471978376ee010cec0ddf592377ac94192c9370cb37973e1e95f"
 metafile = true
 
 [[files]]
+file = "mods/plunderengine.pw.toml"
+hash = "85171f8791aeb78cde208009f684e8e5ecce2cd6e0f2b58a5f54d7470df9cada"
+metafile = true
+
+[[files]]
 file = "mods/polyarmory-combat-collection.pw.toml"
 hash = "9b393be1bf93fd5c65598583c49c5b6bed0b6a2c7d182eb7bbd786d977f2a5e1"
+metafile = true
+
+[[files]]
+file = "mods/polytone.pw.toml"
+hash = "e11504484e971c47e4a97a86213fafa45149baaa0e75e3913b03523a894fc878"
 metafile = true
 
 [[files]]
@@ -2709,6 +2744,11 @@ metafile = true
 [[files]]
 file = "mods/weaponmaster.pw.toml"
 hash = "6910872a2662cdc05acd0c3fb435855fe171c69629b68b2e72f69695e2428d4b"
+metafile = true
+
+[[files]]
+file = "mods/windlink.pw.toml"
+hash = "922f84931785f04b514d0ce78cb53b52f347b513dce385c34bade59a6ad6b156"
 metafile = true
 
 [[files]]
