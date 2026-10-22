@@ -107,7 +107,7 @@
 			"quark:dirty_glass_pane" = "minecraft:glass_pane"
 
 	[functional.cannon]
-		enabled = true
+		enabled = false
 		#Makes TNT-like block shot from a cannon explode on impact
 		#Allowed Values: IGNITE, IGNITE_ON_IMPACT, NONE
 		explode_tnt = "IGNITE"
