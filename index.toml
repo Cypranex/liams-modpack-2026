@@ -236,6 +236,14 @@ file = "config/pmweather-server.toml"
 hash = "ecbf4c205c059603d5032d54c75ffeef63ee7e5a01460eb9db742de2c45254ac"
 
 [[files]]
+file = "config/punchy/punchy_config.json"
+hash = "fed178c2752554084a861f69db42b1c236632230d9cc2451eda7c700bee45a79"
+
+[[files]]
+file = "config/punchy_config.json"
+hash = "fed178c2752554084a861f69db42b1c236632230d9cc2451eda7c700bee45a79"
+
+[[files]]
 file = "config/quark-common.toml"
 hash = "dfea052db7050da49203e2290ee32a0d27cd649e1571321b2008b6cedc1f65e1"
 
