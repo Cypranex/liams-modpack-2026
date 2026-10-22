@@ -2009,7 +2009,7 @@ metafile = true
 
 [[files]]
 file = "mods/flimsy-wall-lanterns-1.0.3.jar"
-hash = "bcad5e5a8bccef07f4e27ed3171be6392a5e0f933f5f8e20aa5a5d0826f37d93"
+hash = "66caa0c856f026b57bd038b91ec05e925244449817017bf4cc9251db46688135"
 
 [[files]]
 file = "mods/formations-nether.pw.toml"
@@ -2205,7 +2205,7 @@ hash = "e4a5b75cd01c67134f1788c8cb08365430bedf263d99c937caf9d9d7b35a56b4"
 
 [[files]]
 file = "mods/liams-torch-compat-1.0.1.jar"
-hash = "babaaf8cf853e5a2678bce622b28a6a016d0a33f0cd15fd50f27c68521d49262"
+hash = "b9aeb39d98d211fecc52955db217a6dad8aba5b85e26f8ce2b2612e177eff4dc"
 
 [[files]]
 file = "mods/lionfish-api.pw.toml"
