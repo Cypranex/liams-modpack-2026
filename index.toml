@@ -292,7 +292,7 @@ hash = "fcbff2c28c3ae0282ce1805e43e495bc76a9cb7d6bcd930bbc5dc31839cfd2e6"
 
 [[files]]
 file = "config/supplementaries-common.toml"
-hash = "b014d704c97dfd8e585d766c8d6abcac00aea25c9ac306f269728d6562cc5e9b"
+hash = "e04be0c93a8fe962f26114f182a7106244c2de43fffa9623cffef25d90e43f59"
 
 [[files]]
 file = "config/tide/tide_server.json"
@@ -1440,7 +1440,7 @@ hash = "d5ca2831a686fa65befc9a7cc2a15b9fa5295987f6126155f38574abbde421ed"
 
 [[files]]
 file = "datapacks/Recipe Restrictions/pack.mcmeta"
-hash = "daf90d1093fd7f5c1af9fda24974a97008471be6e08dc890c0aa26959d9cbc45"
+hash = "88e4d580dc2272f401d7562cd5a8545314d4f6067a41b8c04f67898290406148"
 
 [[files]]
 file = "kubejs/server_scripts/aeronautics_aether_recipes.js"
@@ -1457,6 +1457,10 @@ hash = "fd66dab44fe0e4e84ca05f3833f09b95097a6f2b50a4290741f3426133cfdef5"
 [[files]]
 file = "kubejs/server_scripts/depth_chest_rewards.js"
 hash = "58b0c8ffeaa4993634b81a3f576844177ddd8b2f74632722af6c2c65b37d5b24"
+
+[[files]]
+file = "kubejs/server_scripts/fantasy_cannons.js"
+hash = "77bcbb7b469e369e221288a6afb06c9c17ebc291599606dff2e6cba40616bfff"
 
 [[files]]
 file = "kubejs/server_scripts/remove_chipped_torches.js"
