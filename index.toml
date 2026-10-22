@@ -1456,7 +1456,7 @@ hash = "e90e9853bb46ffb7ce03aa3608cce49739d0d46d90dd8b784b80967070e602ef"
 
 [[files]]
 file = "kubejs/server_scripts/startup_commands.js"
-hash = "d47ef3249b51f29c6a303bc7ca1af01803c05890b531f8708d77e5b6520a7e72"
+hash = "cfc92cf498bc8ef348a1503a898c43bd29707a281400afb9e39823197a36350f"
 
 [[files]]
 file = "kubejs/server_scripts/torch_arrow_recipe.js"
