@@ -232,6 +232,10 @@ hash = "35e316a0b3d9076db048ff8ffd36acd016d33f4dca14035abb3e851bdbeb91bf"
 metafile = true
 
 [[files]]
+file = "config/plunderlink.json"
+hash = "b8276eac95307880aa24684daeb10b7d6930bfcaa7d6915ce35235594e90ea3c"
+
+[[files]]
 file = "config/pmweather-server.toml"
 hash = "ecbf4c205c059603d5032d54c75ffeef63ee7e5a01460eb9db742de2c45254ac"
 
