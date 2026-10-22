@@ -2,5 +2,13 @@
   "pack": {
     "pack_format": 48,
     "description": "Disable incompatible or unwanted modded recipes"
+  },
+  "filter": {
+    "block": [
+      {
+        "namespace": "createbigcannons",
+        "path": "createbigcannons/block_recipes/.*(autocannon|sliding_breech|screw_breech).*\\.json"
+      }
+    ]
   }
 }
