@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "config/aether-common.toml"
-hash = "ca238f4a111024496670e9da871b30dceeac7887d649fb75b92e1046dd0c2c05"
+hash = "1791b241545674f2d41bace9c0dea3dcecfbfdc096e77ea1209535a8fa8f4797"
 
 [[files]]
 file = "config/aether-startup.toml"
@@ -1452,7 +1452,7 @@ hash = "e90e9853bb46ffb7ce03aa3608cce49739d0d46d90dd8b784b80967070e602ef"
 
 [[files]]
 file = "kubejs/server_scripts/startup_commands.js"
-hash = "c3f3a0266e47ad93094fe357a1d3f197c7312caf4cf947da67a86ae5ff254496"
+hash = "cfc92cf498bc8ef348a1503a898c43bd29707a281400afb9e39823197a36350f"
 
 [[files]]
 file = "kubejs/server_scripts/torch_arrow_recipe.js"
@@ -1461,6 +1461,16 @@ hash = "bea2f40afa40053b83a040f640fba145976d503808e211cb753fc9b8064f0ff6"
 [[files]]
 file = "mods/3dskinlayers.pw.toml"
 hash = "2dc498bd8a43a8e02fc9d08fe5846ac17f6eabbecbf38ae39aa7b1f23fe100b0"
+metafile = true
+
+[[files]]
+file = "mods/accessories-compat-layer.pw.toml"
+hash = "b77da93300cfb9a239aa33ad731f9672ae3c74d3218aa149df89449962cb8594"
+metafile = true
+
+[[files]]
+file = "mods/accessories.pw.toml"
+hash = "2017362c793d95887d38b3353abb7c77f212175e82ed848296575ea0e466b7d7"
 metafile = true
 
 [[files]]
