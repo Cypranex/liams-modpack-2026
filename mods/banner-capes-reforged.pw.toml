@@ -1,0 +1,13 @@
+name = "Banner Capes"
+filename = "bannercapes-1.21.1-1.2.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/CJfMTaPB/versions/iRd2XIrj/bannercapes-1.21.1-1.2.0.jar"
+hash-format = "sha512"
+hash = "c0ccfd5cdef0d50965c1b7fd7fd6491f8828fe8776e3a2805e72cb8b19930a4defb8f3de4b0b4fff6a75b6222b07115a6f46240dc2711c11b66108dcd16f3859"
+
+[update]
+[update.modrinth]
+mod-id = "CJfMTaPB"
+version = "iRd2XIrj"

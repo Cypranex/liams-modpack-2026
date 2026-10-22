@@ -1,0 +1,13 @@
+name = "Better Mob Combat - Reimagined"
+filename = "better_mob_combat_reimagined-1.1.16.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/ZMyutZkx/versions/EasF5aC6/better_mob_combat_reimagined-1.1.16.jar"
+hash-format = "sha512"
+hash = "1f99d75771736c8dc806e3869fa70586c8c569aad67a4a1a7aa511d633d8209ae601f2a31ce436626e787c08ee8809f8c46f83a1cd1ad8e2eadae8963777c9e9"
+
+[update]
+[update.modrinth]
+mod-id = "ZMyutZkx"
+version = "EasF5aC6"
