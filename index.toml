@@ -2631,11 +2631,6 @@ hash = "5b30dafc9e96471978376ee010cec0ddf592377ac94192c9370cb37973e1e95f"
 metafile = true
 
 [[files]]
-file = "mods/plunderengine.pw.toml"
-hash = "85171f8791aeb78cde208009f684e8e5ecce2cd6e0f2b58a5f54d7470df9cada"
-metafile = true
-
-[[files]]
 file = "mods/polyarmory-combat-collection.pw.toml"
 hash = "9b393be1bf93fd5c65598583c49c5b6bed0b6a2c7d182eb7bbd786d977f2a5e1"
 metafile = true
@@ -2967,11 +2962,6 @@ metafile = true
 [[files]]
 file = "mods/weaponmaster.pw.toml"
 hash = "6910872a2662cdc05acd0c3fb435855fe171c69629b68b2e72f69695e2428d4b"
-metafile = true
-
-[[files]]
-file = "mods/windlink.pw.toml"
-hash = "922f84931785f04b514d0ce78cb53b52f347b513dce385c34bade59a6ad6b156"
 metafile = true
 
 [[files]]
