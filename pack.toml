@@ -10,7 +10,7 @@ hash = "bc46a409de595691e83fd4c567144ef9a9c94806b81e181c09b640fd71d11f3b"
 
 [versions]
 minecraft = "1.21.1"
-neoforge = "21.1.256"
+neoforge = "21.1.264"
 
 [options]
 datapack-folder = "config/paxi/datapacks"
