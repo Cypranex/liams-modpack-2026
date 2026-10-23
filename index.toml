@@ -2371,6 +2371,11 @@ hash = "6bcee0b532f103b2470994eb5225c65f07ce19cf192c9f1508628ece757278c9"
 metafile = true
 
 [[files]]
+file = "mods/iris-veil-compat.pw.toml"
+hash = "b476c11bda5022790fab2474dbdae4a21b23c84d652615ab1e7678503f6d3888"
+metafile = true
+
+[[files]]
 file = "mods/iris.pw.toml"
 hash = "db1c1e6382878b78e994dba1b9026935f8d1c5ca685c89d2437858e0a0dcab58"
 metafile = true
