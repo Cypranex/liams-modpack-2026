@@ -4,4 +4,4 @@
 .aws/
 .packwizignore
 .gitattributes
-torch-compat-mod/
+update_packs.sh

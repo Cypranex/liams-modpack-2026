@@ -1,0 +1,11 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#minecraft:is_overworld",
+  "features": [
+    "liams_modpack:boulders_deepslate",
+    "liams_modpack:boulders_deep",
+    "liams_modpack:boulders_lower",
+    "liams_modpack:boulders_abyss"
+  ],
+  "step": "underground_decoration"
+}

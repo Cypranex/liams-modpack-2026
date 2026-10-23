@@ -1,0 +1,69 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "#c:bosses",
+      "required": false
+    },
+    {
+      "id": "minecraft:warden",
+      "required": false
+    },
+    {
+      "id": "minecraft:wither",
+      "required": false
+    },
+    {
+      "id": "minecraft:ender_dragon",
+      "required": false
+    },
+    {
+      "id": "minecraft:elder_guardian",
+      "required": false
+    },
+    {
+      "id": "fangs_n_claws:purple_worm",
+      "required": false
+    },
+    {
+      "id": "fangs_n_claws:purple_worm_arm",
+      "required": false
+    },
+    {
+      "id": "aquamirae:captain_cornelia",
+      "required": false
+    },
+    {
+      "id": "cataclysm_spellbooks:nameless_sorcerer",
+      "required": false
+    },
+    {
+      "id": "cataclysm_spellbooks:ancient_ancient_remnant",
+      "required": false
+    },
+    {
+      "id": "friendsandfoes:wildfire",
+      "required": false
+    },
+    {
+      "id": "cataclysm:the_prowler",
+      "required": false
+    },
+    {
+      "id": "cataclysm:aptrgangr",
+      "required": false
+    },
+    {
+      "id": "cataclysm:kobolediator",
+      "required": false
+    },
+    {
+      "id": "cataclysm:wadjet",
+      "required": false
+    },
+    {
+      "id": "cataclysm:coralssus",
+      "required": false
+    }
+  ]
+}
