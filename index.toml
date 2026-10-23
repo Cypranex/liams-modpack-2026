@@ -2870,7 +2870,7 @@ metafile = true
 
 [[files]]
 file = "shaderpacks/Supplemental Patches 1.0.2.txt"
-hash = "2e83d40e9f7acdde09e0b0f9405711ab037b56e4c7f5a581bacc40c6b9f939c9"
+hash = "34c9dd7f4a5b5d5d1296ea629b768dfa07688a63b760756558181a9a3506dee8"
 
 [[files]]
 file = "shaderpacks/complementary-reimagined.pw.toml"
