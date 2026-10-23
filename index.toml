@@ -173,6 +173,10 @@ file = "config/paxi/resourcepack_load_order.json"
 hash = "f7b0b9a3e4c35f9360fa0ffba2d7d8dc64b30612556aed95b5d8a1ac8bfdea37"
 
 [[files]]
+file = "config/paxi/resourcepacks/Torches x Punchy.zip"
+hash = "f9abf25ee5aa87698a59c92de4a093598c5b2b47d82913fd1f15b3228e86fd56"
+
+[[files]]
 file = "config/paxi/resourcepacks/aether-regenerated.pw.toml"
 hash = "ba4187846b392f31c59c032e83e46644af7e5cfd1529c4c10a28beac3448fde2"
 metafile = true
@@ -190,6 +194,11 @@ metafile = true
 [[files]]
 file = "config/paxi/resourcepacks/better-leaves.pw.toml"
 hash = "c26f8da8b6f013fb7e917e29fc6ae783eb379c539da12d9d61196bc762fd26e1"
+metafile = true
+
+[[files]]
+file = "config/paxi/resourcepacks/drigo-3d-lanterns-x-punchy.pw.toml"
+hash = "b76db6ae5b94ad509c10165373bd1e98220b4fd5bb838eddcad700a1bae5fea4"
 metafile = true
 
 [[files]]
@@ -2994,13 +3003,4 @@ metafile = true
 [[files]]
 file = "mods/zfastnoise.pw.toml"
 hash = "b24c213b8727e80ca559670e97971c735c4dc4be1d1a4bd637c41450e7654c1e"
-metafile = true
-
-[[files]]
-file = "resourcepacks/Flimsy Torches x Punchy.zip"
-hash = "f9abf25ee5aa87698a59c92de4a093598c5b2b47d82913fd1f15b3228e86fd56"
-
-[[files]]
-file = "resourcepacks/drigo-3d-lanterns-x-punchy.pw.toml"
-hash = "b76db6ae5b94ad509c10165373bd1e98220b4fd5bb838eddcad700a1bae5fea4"
 metafile = true
