@@ -2,10 +2,26 @@
   "type": "neoforge:add_features",
   "biomes": "#minecraft:is_overworld",
   "features": [
+    "liams_modpack:deep_cave_diamond_deepslate",
+    "liams_modpack:deep_cave_diamond_deep",
+    "liams_modpack:deep_cave_diamond_lower",
     "liams_modpack:deep_cave_diamond",
-    "liams_modpack:deep_cave_gold",
+    "liams_modpack:deep_cave_mithril_lower",
     "liams_modpack:deep_cave_mithril",
-    "liams_modpack:deep_cave_spinel"
+    "liams_modpack:deep_cave_spinel_deepslate",
+    "liams_modpack:deep_cave_spinel_deep",
+    "liams_modpack:deep_cave_spinel_lower",
+    "liams_modpack:deep_cave_spinel",
+    "liams_modpack:deep_cave_iron_deep",
+    "liams_modpack:deep_cave_iron_lower",
+    "liams_modpack:deep_cave_iron",
+    "liams_modpack:deep_cave_gold_lower",
+    "liams_modpack:deep_cave_gold",
+    "liams_modpack:deep_cave_silver_lower",
+    "liams_modpack:deep_cave_silver",
+    "liams_modpack:deep_cave_lapis_deep",
+    "liams_modpack:deep_cave_lapis_lower",
+    "liams_modpack:deep_cave_lapis"
   ],
   "step": "underground_ores"
 }

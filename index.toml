@@ -90,11 +90,11 @@ hash = "f6c8d0fa635dfec81ca6f9c894a167962719f73839859922401fed49f29dcd38"
 
 [[files]]
 file = "config/incontrol/spawn.json"
-hash = "5b90085c4aff81b036b5aa9638922cd61027baf67c6289502fe26879dad2ebfe"
+hash = "22fbe495b4181f20c89aea413cd21446717df6ded67e2a6426dfa49c914fd79e"
 
 [[files]]
 file = "config/incontrol/spawner.json"
-hash = "019408e08fe61128160fc6752e8f37f31944928648f90615a26b3e6967baba26"
+hash = "3f0366ad9435d2236ad56aaeafa04372c9eb94fcf658d6fb324d0e40ebc11779"
 
 [[files]]
 file = "config/irons_restrictions-common.toml"
@@ -143,10 +143,6 @@ hash = "b4857fc5663509f73d2423dc9903e75c4d1eef1ce838c3210fe15a7332ebb0a6"
 [[files]]
 file = "config/obscuria/aquamirae-client.toml"
 hash = "052a7c7dcd2003c1eaf95b5750199584897fdd5e7c1f3d544e44e0bfe26778be"
-
-[[files]]
-file = "config/obscuria/aquamirae-common-1.toml.bak"
-hash = "d27849b34a7e0ac1dd6ed69adeade44a686b46df849959c2ec976bb56a4d0c96"
 
 [[files]]
 file = "config/obscuria/aquamirae-common.toml"
@@ -291,6 +287,10 @@ file = "config/sparsestructures.json5"
 hash = "dd966dfa854dc9036f2f341704ea858c8c85979b27c38d2816e11389d7363e65"
 
 [[files]]
+file = "config/spelunkers_charm-common.toml"
+hash = "7225ac690b707a1fd0436e9cb13ea52a144d6ae8f1b245eb8d704cd00498f10d"
+
+[[files]]
 file = "config/supplementaries-client.toml"
 hash = "fcbff2c28c3ae0282ce1805e43e495bc76a9cb7d6bcd930bbc5dc31839cfd2e6"
 
@@ -415,88 +415,240 @@ file = "datapacks/Blood Moon Hordes/pack.mcmeta"
 hash = "90afbf3b0eed4b0ee5636c324438c7372e5c493dd2e2e25fd726621ca0211e7c"
 
 [[files]]
+file = "datapacks/Deep Boulders/data/liams_modpack/neoforge/biome_modifier/add_deep_boulders.json"
+hash = "55e7972fa2fbf79e54b922f4eda4f5a356f410b49dd1ae800f942fb19c610704"
+
+[[files]]
+file = "datapacks/Deep Boulders/data/liams_modpack/worldgen/placed_feature/boulders_abyss.json"
+hash = "014348b962e2715de7605231f851dbe929e49fc766d8673ba1389ea7e387642c"
+
+[[files]]
+file = "datapacks/Deep Boulders/data/liams_modpack/worldgen/placed_feature/boulders_deep.json"
+hash = "ededa1bf2a468940b6da6758ab23db5b8df06824c90fc3e02a101bcb7bb7f4db"
+
+[[files]]
+file = "datapacks/Deep Boulders/data/liams_modpack/worldgen/placed_feature/boulders_deepslate.json"
+hash = "899df24e43783ca74a446a69f326a5e1319f5b8f084cfe4f8c4a8461dbcfa2ce"
+
+[[files]]
+file = "datapacks/Deep Boulders/data/liams_modpack/worldgen/placed_feature/boulders_lower.json"
+hash = "8e9ead8a23a755afed3bc141309848376edceafba8f245bbacfaa0efd7a309b8"
+
+[[files]]
+file = "datapacks/Deep Boulders/pack.mcmeta"
+hash = "a576aacc9343468e1dd62d56aabfb4fffe3efc2e990ca52a75d67d75a3e2240d"
+
+[[files]]
 file = "datapacks/Deep Ore Progression/data/caverns_and_chasms/worldgen/placed_feature/ore_gold_and_silver_lower.json"
-hash = "29942fcb602be4d02dad9dd2d9c7c7c4f62c235c983ef8e095fd42f4c42f859c"
+hash = "74e07ddd443ed1d2aa47a0e8e1a5f06c0dd48a2953524024b46875650445212a"
 
 [[files]]
 file = "datapacks/Deep Ore Progression/data/caverns_and_chasms/worldgen/placed_feature/ore_gold_buried_with_silver.json"
-hash = "e612c3692d8a8122a915cd06708eb5e2556ce6e7e0bd382e61c3640618f34d5e"
+hash = "8e4b5fdcdf1a41c2e8cc4d8fb23c49c60cde1b56dc133164959464385f1a066f"
 
 [[files]]
 file = "datapacks/Deep Ore Progression/data/caverns_and_chasms/worldgen/placed_feature/ore_silver_buried_with_gold.json"
-hash = "80a48235c2a0b0df211de1216626d5afdf3accb75fc1cb09c2053f7f7347ed0b"
+hash = "d9e04b3b8a1f58893867e26346b6e9d44fe5a4aa67acdd3a4b02e271c461059d"
 
 [[files]]
 file = "datapacks/Deep Ore Progression/data/caverns_and_chasms/worldgen/placed_feature/ore_spinel_buried.json"
-hash = "df5c353c920db3c7f3fdbb8eca29060b1cf9e38fe564ed4a1fbb92ef81a8e8e4"
+hash = "55b9ab241a55125a814a8e59534744b968ff357ac12b9620a9808d68baac0a8f"
 
 [[files]]
 file = "datapacks/Deep Ore Progression/data/create/worldgen/placed_feature/zinc_ore.json"
-hash = "88228f1829276017c1ed4af0a1944b6fff1edc7e6f00ce35a99360fb3ad511a0"
+hash = "485691e8f2ad61616f0ff19c9101828bb8c559a7421888e0be9cdc48e2bec131"
 
 [[files]]
 file = "datapacks/Deep Ore Progression/data/irons_spellbooks/worldgen/placed_feature/ore_mithril_placement.json"
-hash = "8e19834fd34684af29a2ce2165f5c1383b5215b0cf9f7e8ece7b2885fe3cd880"
+hash = "bdb7fcdd4fe9001c45e23ea36042dcdb4cb6ce957e2cca86040d28e605a5b5ca"
 
 [[files]]
 file = "datapacks/Deep Ore Progression/data/liams_modpack/neoforge/biome_modifier/add_deep_cave_ores.json"
-hash = "7419c66ad8aff6405c0beff2ba0c2b09b91a5a6dd6707b1d2adbd6f5d8d050b5"
+hash = "c9eb652ad5a980b28e9eccb95800a3fbdccaa9093a0896c0ae9d5ea8d94c19e3"
 
 [[files]]
 file = "datapacks/Deep Ore Progression/data/liams_modpack/worldgen/configured_feature/deep_cave_diamond.json"
-hash = "6b99623f9e07dcfedba3e153880c30d7c6d0b51219022c882a7a7fa8e8d2f922"
+hash = "1284867fe7d79b930c40d19fa628fdd04af564935afe0ca1ca444c238aca64df"
+
+[[files]]
+file = "datapacks/Deep Ore Progression/data/liams_modpack/worldgen/configured_feature/deep_cave_diamond_deep.json"
+hash = "7ad28e8e8b1ca3a3d0daaa5aa1eab4d4f6e2939432918bf5a8331286dba2cbe5"
+
+[[files]]
+file = "datapacks/Deep Ore Progression/data/liams_modpack/worldgen/configured_feature/deep_cave_diamond_deepslate.json"
+hash = "59d5b1925daba411a0ce7c2d8e8a866de5541719b87319706041dbb156db87b5"
+
+[[files]]
+file = "datapacks/Deep Ore Progression/data/liams_modpack/worldgen/configured_feature/deep_cave_diamond_lower.json"
+hash = "fcc82e6f1e726e15e4ecc886beece5c38d9b91be194365c315b9e7e9fd0e4ab0"
 
 [[files]]
 file = "datapacks/Deep Ore Progression/data/liams_modpack/worldgen/configured_feature/deep_cave_gold.json"
-hash = "02c760cccb23a084c5e8ec5130033cbb55dc5bc9b133bd0d7e85c48c05eaf425"
+hash = "f583adae65377104ed593a37bc29cd762ea97aec1e51298f519ae0cfbfa5432d"
+
+[[files]]
+file = "datapacks/Deep Ore Progression/data/liams_modpack/worldgen/configured_feature/deep_cave_gold_lower.json"
+hash = "eeee96df582a4de88c9db4175b4b9ce3a4e9906a5eac9aacd1a8df413d1e1c0e"
+
+[[files]]
+file = "datapacks/Deep Ore Progression/data/liams_modpack/worldgen/configured_feature/deep_cave_iron.json"
+hash = "b8fa35f7c7200a6f3393491666834de2bcfcb840677e46e33fe4ef337a3a1aad"
+
+[[files]]
+file = "datapacks/Deep Ore Progression/data/liams_modpack/worldgen/configured_feature/deep_cave_iron_deep.json"
+hash = "a15b140af9931686fad4553ebcc6d17629b502809ff70ec2497013e9e1ee6a63"
+
+[[files]]
+file = "datapacks/Deep Ore Progression/data/liams_modpack/worldgen/configured_feature/deep_cave_iron_lower.json"
+hash = "d443ca3671b1c370c398f6fde31c39baf7cfa561ba16ae470e574752961b3008"
+
+[[files]]
+file = "datapacks/Deep Ore Progression/data/liams_modpack/worldgen/configured_feature/deep_cave_lapis.json"
+hash = "4a83c132f7907fc8decf7c658d8412da2f35eaee4ece05dd85e06081b22f1620"
+
+[[files]]
+file = "datapacks/Deep Ore Progression/data/liams_modpack/worldgen/configured_feature/deep_cave_lapis_deep.json"
+hash = "e37d7148dd824184d75368be5b0f920aaecbc6d6594cf820edd8eb571a31d94d"
+
+[[files]]
+file = "datapacks/Deep Ore Progression/data/liams_modpack/worldgen/configured_feature/deep_cave_lapis_lower.json"
+hash = "68ee1d4818a72e2a916030c7998ace6bbbefda3fc716b0d7f351ebc9ea92e18e"
 
 [[files]]
 file = "datapacks/Deep Ore Progression/data/liams_modpack/worldgen/configured_feature/deep_cave_mithril.json"
-hash = "d98206235d79a69ecc8e36a3d6a94e579dc11b1005cc42b5e0db8a2710ea9c55"
+hash = "84d0bb5af7693673f7ef7ba5d77a0f781cd0a7224f8a869f9d12ca41f6825bab"
+
+[[files]]
+file = "datapacks/Deep Ore Progression/data/liams_modpack/worldgen/configured_feature/deep_cave_mithril_lower.json"
+hash = "53fdb36717fa23388c0db416b42b1879fc585775060ea48b99d16da962defb0a"
+
+[[files]]
+file = "datapacks/Deep Ore Progression/data/liams_modpack/worldgen/configured_feature/deep_cave_silver.json"
+hash = "2ce4ee370d41ffcba20ffad09eec848654e687d50a520892e86aec33f240f041"
+
+[[files]]
+file = "datapacks/Deep Ore Progression/data/liams_modpack/worldgen/configured_feature/deep_cave_silver_lower.json"
+hash = "520e7464344f6d0d20b2d335ada55aca9c66e1e13791e622cd17328e9b404bfb"
 
 [[files]]
 file = "datapacks/Deep Ore Progression/data/liams_modpack/worldgen/configured_feature/deep_cave_spinel.json"
-hash = "0de6806f550fea269bafbbfc4bdb32757cdd0ebf749e5c28944d726b83ff6411"
+hash = "c68e16c27ecd12a25d0072d39433dd71d5f0e94b462b22c13fb0839ecd21eb7f"
+
+[[files]]
+file = "datapacks/Deep Ore Progression/data/liams_modpack/worldgen/configured_feature/deep_cave_spinel_deep.json"
+hash = "c7c5e09db2c69ba589fae492ec917d0dbc7df944137991aae58d0d98ad90f725"
+
+[[files]]
+file = "datapacks/Deep Ore Progression/data/liams_modpack/worldgen/configured_feature/deep_cave_spinel_deepslate.json"
+hash = "c7c5e09db2c69ba589fae492ec917d0dbc7df944137991aae58d0d98ad90f725"
+
+[[files]]
+file = "datapacks/Deep Ore Progression/data/liams_modpack/worldgen/configured_feature/deep_cave_spinel_lower.json"
+hash = "ba3300fd61f200ce4dedbb0529b0381029d9401e9efd3078d68e34046929591c"
 
 [[files]]
 file = "datapacks/Deep Ore Progression/data/liams_modpack/worldgen/placed_feature/deep_cave_diamond.json"
-hash = "9588e2e5aaec5bff994228c4a133e899aed220677e18a1d5878b3b8a42ba10aa"
+hash = "744447ff9e75bcca995acaceaf526d08be26963aa37b98901ba89961776f4ddb"
+
+[[files]]
+file = "datapacks/Deep Ore Progression/data/liams_modpack/worldgen/placed_feature/deep_cave_diamond_deep.json"
+hash = "8afd5f59c35e3a783cdcfd298b76f41df3c2ea405cda13e4665171af45012668"
+
+[[files]]
+file = "datapacks/Deep Ore Progression/data/liams_modpack/worldgen/placed_feature/deep_cave_diamond_deepslate.json"
+hash = "a2ffd72b8e369946e38614e9d0a0e2b6df9966c9913ca59b1f2290f19dce6bc2"
+
+[[files]]
+file = "datapacks/Deep Ore Progression/data/liams_modpack/worldgen/placed_feature/deep_cave_diamond_lower.json"
+hash = "6dd334cffb2da19cb8aca7027788bee20a248a64280f3da51cfa64d5d1adf04a"
 
 [[files]]
 file = "datapacks/Deep Ore Progression/data/liams_modpack/worldgen/placed_feature/deep_cave_gold.json"
-hash = "567eb54b06c0378971bfb0e17d474f1a42a73115e43e38e3986d53fc886abf30"
+hash = "e61f1d6da93e2559db47e98cf6d45118baf80e8bf892ee6f00a85d39e4e1bfe2"
+
+[[files]]
+file = "datapacks/Deep Ore Progression/data/liams_modpack/worldgen/placed_feature/deep_cave_gold_lower.json"
+hash = "71f3beb64855566f401bd681b943ff403bb37852e05571cad59b9336275b75e1"
+
+[[files]]
+file = "datapacks/Deep Ore Progression/data/liams_modpack/worldgen/placed_feature/deep_cave_iron.json"
+hash = "ec81a98486bae78e36fa00a7e8451aed9a2caa7a51264b63acfc6f984e599221"
+
+[[files]]
+file = "datapacks/Deep Ore Progression/data/liams_modpack/worldgen/placed_feature/deep_cave_iron_deep.json"
+hash = "e7a3d26c00fb10e1d0f9475481a78f5d43e49414263d124ae9736e6c65ce31ab"
+
+[[files]]
+file = "datapacks/Deep Ore Progression/data/liams_modpack/worldgen/placed_feature/deep_cave_iron_lower.json"
+hash = "4f5001062d9e0ecf7e615c9c236be2b5c2c6084fc249334d66fe0df05c85e82c"
+
+[[files]]
+file = "datapacks/Deep Ore Progression/data/liams_modpack/worldgen/placed_feature/deep_cave_lapis.json"
+hash = "f316e7c9b09b1a961d8f8f01b8e6abc93da7a704e9af7bfc8ad140e29bccb1ce"
+
+[[files]]
+file = "datapacks/Deep Ore Progression/data/liams_modpack/worldgen/placed_feature/deep_cave_lapis_deep.json"
+hash = "0b791233f65a4e5d15c1648c08e5c407a1e61a6296fea5d93d2e271b20a904c0"
+
+[[files]]
+file = "datapacks/Deep Ore Progression/data/liams_modpack/worldgen/placed_feature/deep_cave_lapis_lower.json"
+hash = "5c1a4cbfd23efdd2836d33996e94ca5d56eae3f6a6b73550849c7f2ee461fd87"
 
 [[files]]
 file = "datapacks/Deep Ore Progression/data/liams_modpack/worldgen/placed_feature/deep_cave_mithril.json"
-hash = "d3f1e08b321fc893eaba6d8acf5af9de19f6858e5b54b7ec134bd250f85bb381"
+hash = "7eef617f2a786c7a39b2b13ba00de50bcc01bb58e1b4d1708bb67e63596eee41"
+
+[[files]]
+file = "datapacks/Deep Ore Progression/data/liams_modpack/worldgen/placed_feature/deep_cave_mithril_lower.json"
+hash = "bfecd19d41ec5a9ae092a44d98b2b4fc486c2dbd5430ac95f33777b8df887ed7"
+
+[[files]]
+file = "datapacks/Deep Ore Progression/data/liams_modpack/worldgen/placed_feature/deep_cave_silver.json"
+hash = "8bf221169fc298120046319905cd7be6531b97bc22054c941e026243050e7508"
+
+[[files]]
+file = "datapacks/Deep Ore Progression/data/liams_modpack/worldgen/placed_feature/deep_cave_silver_lower.json"
+hash = "83ce54754e94bd1e29d36b416fb3c4c4da669a2231782c5dba0df612a69cd7e0"
 
 [[files]]
 file = "datapacks/Deep Ore Progression/data/liams_modpack/worldgen/placed_feature/deep_cave_spinel.json"
-hash = "f893b81e50f29d6e60d51931a68e498053f62500c6310d8b4edfe312e33b742c"
+hash = "57bac3660cb2e9b1d31897deaea5e565049395be9b6edf5ee6e32d5b75766395"
+
+[[files]]
+file = "datapacks/Deep Ore Progression/data/liams_modpack/worldgen/placed_feature/deep_cave_spinel_deep.json"
+hash = "b615edbc6e179829a9076cc4de77f8a9f02b4988617270737ea43974f1184682"
+
+[[files]]
+file = "datapacks/Deep Ore Progression/data/liams_modpack/worldgen/placed_feature/deep_cave_spinel_deepslate.json"
+hash = "ad42d32613c79cbc743388f8742e2ca5431ced7627371ee2f7a6debee66c24d7"
+
+[[files]]
+file = "datapacks/Deep Ore Progression/data/liams_modpack/worldgen/placed_feature/deep_cave_spinel_lower.json"
+hash = "753a5766179291b8b1f2e47da6a76893a70916f2e413414500689c0b09419c09"
 
 [[files]]
 file = "datapacks/Deep Ore Progression/data/minecraft/worldgen/placed_feature/ore_diamond.json"
-hash = "86d213f029f7194ddc5208a30227d41a38ee5b409c4b3a1b3c393a301e2ff417"
+hash = "cadaeb6004c79e606e919961a22f42d89c4f8692e5290c14796efd7393191759"
 
 [[files]]
 file = "datapacks/Deep Ore Progression/data/minecraft/worldgen/placed_feature/ore_diamond_buried.json"
-hash = "67907ff9fc9c41b9865d42d8d3d7c8ea958c1db4c2ec18a356f61982e6892b60"
+hash = "5c921aae22d8bd1255de01077107d458ec51ef34cfbf1d1b3ae946212606b807"
 
 [[files]]
 file = "datapacks/Deep Ore Progression/data/minecraft/worldgen/placed_feature/ore_diamond_large.json"
-hash = "6f5379eceb799f4550d3a834e9834064dc3eafdd8a1815ed23750d7e1965e15d"
+hash = "3afa54918fea009e389417e2504c26b14ce5fe49b438ba2946ca564b358087fc"
 
 [[files]]
 file = "datapacks/Deep Ore Progression/data/minecraft/worldgen/placed_feature/ore_diamond_medium.json"
-hash = "215bf22e4ecd9217c1680d41c132e3400ca28a71dfa29020e4ae50b4fcef363f"
+hash = "8561b7fb96c72bcc3d46b3e74c8af968a235ae5a5d60d962ad84f4a8ceab9ed8"
 
 [[files]]
 file = "datapacks/Deep Ore Progression/data/minecraft/worldgen/placed_feature/ore_gold.json"
-hash = "8d06f7264d99f82bf1220644d48143b0cdd5b5a45852507f2011865b69935914"
+hash = "09e8ddf1300bef5d5b13403352832d042134e935fd5e72e0d7fd19d0bd94adad"
 
 [[files]]
 file = "datapacks/Deep Ore Progression/data/minecraft/worldgen/placed_feature/ore_gold_lower.json"
-hash = "a30a12dc1b4465a0959c5b369c190bd6cd2db48309f17855d080f59d8daeaabc"
+hash = "df4007db00c176816fa7aef1097dfb4ae0a14d6f1a013ee16d3393f18506a33e"
 
 [[files]]
 file = "datapacks/Deep Ore Progression/data/minecraft/worldgen/placed_feature/ore_iron_middle.json"
@@ -508,23 +660,23 @@ hash = "f4fecfafef6fb22f7c3fd3eee7dd4da37493cf83a452d10799246dbde0ace7bb"
 
 [[files]]
 file = "datapacks/Deep Ore Progression/data/minecraft/worldgen/placed_feature/ore_lapis.json"
-hash = "5b6d9b3899414ae25ca970e45220c9a4b3e1d21ddd46c75cc06af3bfc1ab3820"
+hash = "4a5aa25d8331129f19c1a745208607933a80b531c7698ce82bb9245e74a69103"
 
 [[files]]
 file = "datapacks/Deep Ore Progression/data/minecraft/worldgen/placed_feature/ore_lapis_buried.json"
-hash = "b838c2698a85d5aea3f32cfe1014dd8b9fa7e676381c4be60352d1a927d257b8"
+hash = "79eaa70a93c137caeb69971693c767214bf7b11c3cacb936b5071edb50d387e6"
 
 [[files]]
 file = "datapacks/Deep Ore Progression/data/minecraft/worldgen/placed_feature/ore_redstone.json"
-hash = "8de25adc76756440a1aae228a4a319f3aaf568565e096dde263f1ba0332cd364"
+hash = "f53068df315ad225bf5b6c9faad1c12c72958500dd773565ac283b8e22571422"
 
 [[files]]
 file = "datapacks/Deep Ore Progression/data/minecraft/worldgen/placed_feature/ore_redstone_lower.json"
-hash = "2e7e99d69c81595e89795c15e5c684f3a51db448bec64a0de72f18142a5d283f"
+hash = "508b51d433af854090fbd4dc3eebc6ae0c752bac4078676207778f241ebafddd"
 
 [[files]]
 file = "datapacks/Deep Ore Progression/data/quark/worldgen/placed_feature/ore_lapis_extra.json"
-hash = "3b007fbbc855ba4e8b906569ab47a592d988691b043a86f99c5fc0fc49a563c7"
+hash = "f888116e78d47d689faae7c257f89c7a08b444a36cd88f8a94b648e30eaed8a4"
 
 [[files]]
 file = "datapacks/Deep Ore Progression/data/spelunkers_charm/tags/block/overworld_replaceable.json"
@@ -532,7 +684,7 @@ hash = "bbb0316d5df4d9d97fd8ffb490d97689795d8c5667cd0f8775ea9f823a6b845f"
 
 [[files]]
 file = "datapacks/Deep Ore Progression/pack.mcmeta"
-hash = "4127b0e3f4f945193c5e3e2122a3393334b98a26622c0e2f2afe6f055653c7fd"
+hash = "af2d3ac9317cf9cf3ec0a4c1e97c71204e3089d174510aef705bb78389284f43"
 
 [[files]]
 file = "datapacks/Deep Underground Structures/data/betterdungeons/worldgen/structure/skeleton_dungeon.json"
@@ -1447,6 +1599,14 @@ file = "datapacks/Recipe Restrictions/pack.mcmeta"
 hash = "88e4d580dc2272f401d7562cd5a8545314d4f6067a41b8c04f67898290406148"
 
 [[files]]
+file = "kubejs/data/liams_modpack/tags/entity_type/depth_scaling_excluded.json"
+hash = "3d4fa2570182050b271954e192125e0b16609f5079ff64c3576e3de7f7c23080"
+
+[[files]]
+file = "kubejs/data/liams_modpack/tags/entity_type/depth_scaling_hostiles.json"
+hash = "0c615d27d6e7932dab70603593b0d4b2098f06e605c17c7e8549a677ec84ef94"
+
+[[files]]
 file = "kubejs/server_scripts/aeronautics_aether_recipes.js"
 hash = "f52e465a5f45bd74514f7cfd58c193433b2081c1b1610070fcdec457b71a35c7"
 
@@ -1457,10 +1617,6 @@ hash = "db793a9b01fb2cdacefbf3240a8035aafde544b884d9cbee241448fa028047d8"
 [[files]]
 file = "kubejs/server_scripts/cupric_campfire_recipe.js"
 hash = "fd66dab44fe0e4e84ca05f3833f09b95097a6f2b50a4290741f3426133cfdef5"
-
-[[files]]
-file = "kubejs/server_scripts/depth_chest_rewards.js"
-hash = "58b0c8ffeaa4993634b81a3f576844177ddd8b2f74632722af6c2c65b37d5b24"
 
 [[files]]
 file = "kubejs/server_scripts/fantasy_cannons.js"
@@ -1481,6 +1637,10 @@ hash = "cfc92cf498bc8ef348a1503a898c43bd29707a281400afb9e39823197a36350f"
 [[files]]
 file = "kubejs/server_scripts/torch_arrow_recipe.js"
 hash = "bea2f40afa40053b83a040f640fba145976d503808e211cb753fc9b8064f0ff6"
+
+[[files]]
+file = "kubejs/server_scripts/underground_damage_scaling.js"
+hash = "1a9fab53853efd3faaa81edfacda5b918744acdeb3c8a9f209802d732a7c1284"
 
 [[files]]
 file = "mods/3dskinlayers.pw.toml"
@@ -2216,6 +2376,10 @@ file = "mods/liams-corpse-expiry-fix-1.1.0.jar"
 hash = "0abf90fc3cfb13acf7f1550d67a2c99b69698b300c30b02ae1c94ba6f89d3649"
 
 [[files]]
+file = "mods/liams-native-ore-placement-1.0.1.jar"
+hash = "fabf2e6db29510739d8dc6885ac6e4f5036930e023edc929eaf3d839753df140"
+
+[[files]]
 file = "mods/liams-ragdoll-revival-1.0.1.jar"
 hash = "e4a5b75cd01c67134f1788c8cb08365430bedf263d99c937caf9d9d7b35a56b4"
 
@@ -2806,7 +2970,3 @@ metafile = true
 file = "mods/zfastnoise.pw.toml"
 hash = "b24c213b8727e80ca559670e97971c735c4dc4be1d1a4bd637c41450e7654c1e"
 metafile = true
-
-[[files]]
-file = "update_packs.sh"
-hash = "980c18172cb22240a83520363e0b117e545bb0ef28ba2ab9d18b834965a33aca"
