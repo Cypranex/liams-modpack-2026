@@ -1,16 +1,39 @@
 {
   "feature": "liams_modpack:deep_cave_diamond",
   "placement": [
-    { "type": "minecraft:count", "count": 2 },
-    { "type": "minecraft:in_square" },
+    {
+      "type": "minecraft:count",
+      "count": {
+        "type": "minecraft:weighted_list",
+        "distribution": [
+          {
+            "data": 3,
+            "weight": 1
+          },
+          {
+            "data": 4,
+            "weight": 4
+          }
+        ]
+      }
+    },
+    {
+      "type": "minecraft:in_square"
+    },
     {
       "type": "minecraft:height_range",
       "height": {
-        "type": "minecraft:biased_to_bottom",
-        "min_inclusive": { "absolute": -312 },
-        "max_inclusive": { "absolute": -257 }
+        "type": "minecraft:uniform",
+        "min_inclusive": {
+          "absolute": -316
+        },
+        "max_inclusive": {
+          "absolute": -257
+        }
       }
     },
-    { "type": "minecraft:biome" }
+    {
+      "type": "minecraft:biome"
+    }
   ]
 }

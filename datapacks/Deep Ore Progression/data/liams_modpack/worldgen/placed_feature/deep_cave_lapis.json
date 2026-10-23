@@ -1,0 +1,31 @@
+{
+  "feature": "liams_modpack:deep_cave_lapis",
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 2,
+        "max_inclusive": 3
+      }
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:height_range",
+      "height": {
+        "type": "minecraft:uniform",
+        "min_inclusive": {
+          "absolute": -316
+        },
+        "max_inclusive": {
+          "absolute": -257
+        }
+      }
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}
