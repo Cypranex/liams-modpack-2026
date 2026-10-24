@@ -102,7 +102,7 @@ hash = "135c5a81719235ce405070ed29b59b3844f2f26a07561a7e9b24c6db265d8f00"
 
 [[files]]
 file = "config/irons_ring_durability-common.toml"
-hash = "c8fab174481cdd0162f0ccbc4fdaf70eac90caa44e133c7aa261e8346d789c8f"
+hash = "53e0862056da0a54afb157bbae0b9b5fc25718dd14b63be9b426878b9cb1f21a"
 
 [[files]]
 file = "config/jade/plugins.json"
@@ -1705,11 +1705,6 @@ hash = "ccd0a3a090f99cec2d34923a8d69f103fb845ae3a40595079c24839c523a1801"
 metafile = true
 
 [[files]]
-file = "mods/aeronautics-wind-sound.pw.toml"
-hash = "980a23bd1d06f53cf9c912293cf0a9233c06c729d586c4e38fab26b6f4c125b7"
-metafile = true
-
-[[files]]
 file = "mods/aether-emissivity.pw.toml"
 hash = "71b37e848b677dccc17c05a6a68a0a52f45d055a9f1e168d277946569bbb8a36"
 metafile = true
@@ -1906,11 +1901,6 @@ metafile = true
 [[files]]
 file = "mods/comforts.pw.toml"
 hash = "36f2f6e74b7dbeccb504572d47006582207544fa234a095093b97adfc7ecd5ac"
-metafile = true
-
-[[files]]
-file = "mods/cool-rain-reforged.pw.toml"
-hash = "7c5d1fb47ffd309dc332ad2011e2e392b54d74dc49607872af01222a1df24186"
 metafile = true
 
 [[files]]
@@ -2565,11 +2555,6 @@ hash = "62d7231bec1dde8ff674068adec4e8fe2e11a4667d04cfffbc9248cbb2bf685a"
 metafile = true
 
 [[files]]
-file = "mods/perception.pw.toml"
-hash = "378f188dd4dd616783418b9169e6016d5eff359a13c6debeb64c82093637e8e9"
-metafile = true
-
-[[files]]
 file = "mods/pf-neoforge.pw.toml"
 hash = "1ef7ce6d5fe6e584914680f5463508996f0dd1c2bdbc051b8b3b050c85e134ff"
 metafile = true
@@ -2689,11 +2674,6 @@ metafile = true
 [[files]]
 file = "mods/sable-cleanup.pw.toml"
 hash = "a853620e7a9fff71bb22f2e467b5861bafdea792d4e679709800c587c98ae95c"
-metafile = true
-
-[[files]]
-file = "mods/sable-cool-rain.pw.toml"
-hash = "d83497f150d4938933f135fe1b79fd34bae71b2c4e9698c41b8177537d1cef3f"
 metafile = true
 
 [[files]]
