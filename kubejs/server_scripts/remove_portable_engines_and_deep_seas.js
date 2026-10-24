@@ -31,7 +31,7 @@ ServerEvents.recipes(event => {
   const deepSeasItems = [
     'arresting_hook', 'ballast_tank', 'ballast_vent', 'barometer',
     'command_sub', 'copper_pressurizer', 'creative_oxygenator',
-    'decompression_chamber', 'electrolyzer', 'floater',
+    'decompression_chamber', 'electrolyzer',
     'industrial_alarm', 'iron_pressurizer', 'oxygen_bucket',
     'oxygene_diffuser', 'phycological_membrane', 'pulley',
     'pump_controller', 'rockcutting_wheel', 'sonar', 'steel_cable',
