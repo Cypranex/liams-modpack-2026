@@ -1661,11 +1661,11 @@ hash = "99571c19fc8cd469d46fcd02bbb634dc788e949cd2403470a4767ab96b5aca36"
 
 [[files]]
 file = "kubejs/server_scripts/remove_portable_engines_and_deep_seas.js"
-hash = "e90e9853bb46ffb7ce03aa3608cce49739d0d46d90dd8b784b80967070e602ef"
+hash = "58a6a158807aa1986f873e368b4437dd253d44f95bd914509af301de8fb8bd16"
 
 [[files]]
 file = "kubejs/server_scripts/startup_commands.js"
-hash = "cfc92cf498bc8ef348a1503a898c43bd29707a281400afb9e39823197a36350f"
+hash = "aec92d31b788863b85cf2b13cd685cdfa75892d8740298b5e042f70c1d6bab02"
 
 [[files]]
 file = "kubejs/server_scripts/torch_arrow_recipe.js"
