@@ -101,6 +101,10 @@ file = "config/irons_restrictions-common.toml"
 hash = "135c5a81719235ce405070ed29b59b3844f2f26a07561a7e9b24c6db265d8f00"
 
 [[files]]
+file = "config/irons_ring_durability-common.toml"
+hash = "c8fab174481cdd0162f0ccbc4fdaf70eac90caa44e133c7aa261e8346d789c8f"
+
+[[files]]
 file = "config/jade/plugins.json"
 hash = "1e8434164f00f7524b4fb931c2552c317164e2617bda75904c02cc874552962d"
 
@@ -1647,6 +1651,10 @@ file = "kubejs/server_scripts/fantasy_cannons.js"
 hash = "77bcbb7b469e369e221288a6afb06c9c17ebc291599606dff2e6cba40616bfff"
 
 [[files]]
+file = "kubejs/server_scripts/irons_curios_loot_only.js"
+hash = "03420c61bd4536965f3e76bf058c680a0d098572d8d7b7fe8af7ef68c81505d4"
+
+[[files]]
 file = "kubejs/server_scripts/remove_chipped_torches.js"
 hash = "99571c19fc8cd469d46fcd02bbb634dc788e949cd2403470a4767ab96b5aca36"
 
@@ -2204,8 +2212,8 @@ hash = "c80d22d2ee14e99fc47c454ea1cd57cea6cac1b4034bbe0a66ac7f4eb7a4001e"
 metafile = true
 
 [[files]]
-file = "mods/flimsy-wall-lanterns-1.0.3.jar"
-hash = "66caa0c856f026b57bd038b91ec05e925244449817017bf4cc9251db46688135"
+file = "mods/flimsy-wall-lanterns-1.0.4.jar"
+hash = "eef0ebfd1b5edb26309902b3d4a84be6eacd0014bcc5ebe4215085bddc6769d8"
 
 [[files]]
 file = "mods/formations-nether.pw.toml"
@@ -2331,6 +2339,10 @@ metafile = true
 file = "mods/irons-lib.pw.toml"
 hash = "3f8f749b654d18560d45dfb160e839566f72d9150e86f7f881c5e205f5660c55"
 metafile = true
+
+[[files]]
+file = "mods/irons-ring-durability-1.0.4.jar"
+hash = "838da066d0dce4bfd2451dfd6cec2a0b76c0d61a1dd7a40359398220ff26a699"
 
 [[files]]
 file = "mods/irons-simple-blood.pw.toml"
