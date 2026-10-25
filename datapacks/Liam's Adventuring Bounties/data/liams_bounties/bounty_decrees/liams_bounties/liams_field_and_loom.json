@@ -1,0 +1,22 @@
+{
+  "requires": [
+    "bountiful",
+    "bountiful_contract_fairness",
+    "create",
+    "fowlplay",
+    "rusticdelight"
+  ],
+  "objectives": [
+    "liams_field_and_loom_objectives"
+  ],
+  "rewards": [
+    "liams_workshop_rewards"
+  ],
+  "canSpawn": true,
+  "canReveal": true,
+  "canWanderBuy": true,
+  "linkedProfessions": [
+    "shepherd",
+    "farmer"
+  ]
+}

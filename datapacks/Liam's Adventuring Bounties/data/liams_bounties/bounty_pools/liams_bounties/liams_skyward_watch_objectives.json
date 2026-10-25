@@ -1,0 +1,64 @@
+{
+  "requires": [
+    "aether",
+    "bountiful",
+    "bountiful_contract_fairness"
+  ],
+  "content": {
+    "aether_cockatrice": {
+      "type": "minecraft:entity",
+      "content": "aether:cockatrice",
+      "amount": {
+        "min": 4,
+        "max": 12
+      },
+      "unitWorth": 160.0,
+      "timeMult": 160,
+      "rarity": "COMMON"
+    },
+    "aether_aechor_plant": {
+      "type": "minecraft:entity",
+      "content": "aether:aechor_plant",
+      "amount": {
+        "min": 4,
+        "max": 12
+      },
+      "unitWorth": 160.0,
+      "timeMult": 160,
+      "rarity": "COMMON"
+    },
+    "aether_zephyr": {
+      "type": "minecraft:entity",
+      "content": "aether:zephyr",
+      "amount": {
+        "min": 4,
+        "max": 12
+      },
+      "unitWorth": 160.0,
+      "timeMult": 160,
+      "rarity": "COMMON"
+    },
+    "aether_sentry": {
+      "type": "minecraft:entity",
+      "content": "aether:sentry",
+      "amount": {
+        "min": 3,
+        "max": 9
+      },
+      "unitWorth": 200.0,
+      "timeMult": 160,
+      "rarity": "COMMON"
+    },
+    "aether_mimic": {
+      "type": "minecraft:entity",
+      "content": "aether:mimic",
+      "amount": {
+        "min": 3,
+        "max": 9
+      },
+      "unitWorth": 200.0,
+      "timeMult": 160,
+      "rarity": "COMMON"
+    }
+  }
+}

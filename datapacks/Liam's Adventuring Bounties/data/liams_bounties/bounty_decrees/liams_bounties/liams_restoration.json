@@ -1,0 +1,21 @@
+{
+  "requires": [
+    "betterarcheology",
+    "bountiful",
+    "bountiful_contract_fairness",
+    "create",
+    "fowlplay"
+  ],
+  "objectives": [
+    "liams_restoration_objectives"
+  ],
+  "rewards": [
+    "liams_workshop_rewards"
+  ],
+  "canSpawn": true,
+  "canReveal": true,
+  "canWanderBuy": true,
+  "linkedProfessions": [
+    "mason"
+  ]
+}

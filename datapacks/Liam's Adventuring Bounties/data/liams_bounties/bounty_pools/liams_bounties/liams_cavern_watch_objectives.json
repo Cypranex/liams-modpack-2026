@@ -1,0 +1,65 @@
+{
+  "requires": [
+    "bountiful",
+    "bountiful_contract_fairness",
+    "caverns_and_chasms",
+    "quark"
+  ],
+  "content": {
+    "caverns_and_chasms_deeper": {
+      "type": "minecraft:entity",
+      "content": "caverns_and_chasms:deeper",
+      "amount": {
+        "min": 4,
+        "max": 12
+      },
+      "unitWorth": 160.0,
+      "timeMult": 160,
+      "rarity": "COMMON"
+    },
+    "caverns_and_chasms_evendeeper": {
+      "type": "minecraft:entity",
+      "content": "caverns_and_chasms:evendeeper",
+      "amount": {
+        "min": 2,
+        "max": 6
+      },
+      "unitWorth": 350.0,
+      "timeMult": 200,
+      "rarity": "COMMON"
+    },
+    "caverns_and_chasms_peeper": {
+      "type": "minecraft:entity",
+      "content": "caverns_and_chasms:peeper",
+      "amount": {
+        "min": 4,
+        "max": 12
+      },
+      "unitWorth": 160.0,
+      "timeMult": 160,
+      "rarity": "COMMON"
+    },
+    "caverns_and_chasms_mime": {
+      "type": "minecraft:entity",
+      "content": "caverns_and_chasms:mime",
+      "amount": {
+        "min": 2,
+        "max": 6
+      },
+      "unitWorth": 350.0,
+      "timeMult": 200,
+      "rarity": "COMMON"
+    },
+    "quark_forgotten": {
+      "type": "minecraft:entity",
+      "content": "quark:forgotten",
+      "amount": {
+        "min": 2,
+        "max": 6
+      },
+      "unitWorth": 350.0,
+      "timeMult": 200,
+      "rarity": "COMMON"
+    }
+  }
+}

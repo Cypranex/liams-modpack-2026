@@ -1,0 +1,53 @@
+{
+  "requires": [
+    "betterarcheology",
+    "bountiful",
+    "bountiful_contract_fairness"
+  ],
+  "content": {
+    "betterarcheology_rotten_planks": {
+      "type": "minecraft:item",
+      "content": "betterarcheology:rotten_planks",
+      "amount": {
+        "min": 32,
+        "max": 128
+      },
+      "unitWorth": 16.0,
+      "timeMult": 120,
+      "rarity": "COMMON"
+    },
+    "betterarcheology_cracked_mud_bricks": {
+      "type": "minecraft:item",
+      "content": "betterarcheology:cracked_mud_bricks",
+      "amount": {
+        "min": 8,
+        "max": 24
+      },
+      "unitWorth": 64.0,
+      "timeMult": 160,
+      "rarity": "COMMON"
+    },
+    "minecraft_mud_bricks": {
+      "type": "minecraft:item",
+      "content": "minecraft:mud_bricks",
+      "amount": {
+        "min": 8,
+        "max": 24
+      },
+      "unitWorth": 64.0,
+      "timeMult": 160,
+      "rarity": "COMMON"
+    },
+    "minecraft_terracotta": {
+      "type": "minecraft:item",
+      "content": "minecraft:terracotta",
+      "amount": {
+        "min": 8,
+        "max": 24
+      },
+      "unitWorth": 64.0,
+      "timeMult": 160,
+      "rarity": "COMMON"
+    }
+  }
+}

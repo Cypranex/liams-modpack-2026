@@ -1,0 +1,307 @@
+{
+  "requires": [],
+  "content": {
+    "minecraft_diamond": {
+      "type": "minecraft:item",
+      "content": "minecraft:diamond",
+      "amount": {
+        "min": 3,
+        "max": 3
+      },
+      "unitWorth": 333.3333333333333,
+      "rarity": "EPIC"
+    },
+    "minecraft_diamond_pickaxe": {
+      "type": "minecraft:item",
+      "content": "minecraft:diamond_pickaxe",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000.0,
+      "rarity": "EPIC"
+    },
+    "minecraft_diamond_helmet": {
+      "type": "minecraft:item",
+      "content": "minecraft:diamond_helmet",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000.0,
+      "rarity": "EPIC"
+    },
+    "champion_duelist_kit": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000.0,
+      "rarity": "EPIC",
+      "name": "Champion Duelist Kit",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Champion Duelist Kit\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "minecraft:diamond_sword",
+              "count": 1,
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:sharpness": 3
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"1 × Diamond Sword (Sharpness III)\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      },
+      "weightMult": 0.125
+    },
+    "champion_undead_hunter_kit": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000.0,
+      "rarity": "EPIC",
+      "name": "Champion Undead Hunter Kit",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Champion Undead Hunter Kit\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "minecraft:diamond_sword",
+              "count": 1,
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:smite": 3
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"1 × Diamond Sword (Smite III)\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      },
+      "weightMult": 0.125
+    },
+    "champion_axeman_kit": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000.0,
+      "rarity": "EPIC",
+      "name": "Champion Axeman Kit",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Champion Axeman Kit\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "minecraft:diamond_axe",
+              "count": 1,
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:sharpness": 3
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"1 × Diamond Axe (Sharpness III)\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      },
+      "weightMult": 0.125
+    },
+    "champion_stalwart_kit": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000.0,
+      "rarity": "EPIC",
+      "name": "Champion Stalwart Kit",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Champion Stalwart Kit\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "minecraft:diamond_axe",
+              "count": 1,
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:unbreaking": 3
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"1 × Diamond Axe (Unbreaking III)\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      },
+      "weightMult": 0.125
+    },
+    "champion_sentinel_kit": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000.0,
+      "rarity": "EPIC",
+      "name": "Champion Sentinel Kit",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Champion Sentinel Kit\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "minecraft:diamond_helmet",
+              "count": 1,
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:protection": 3
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"1 × Diamond Helmet (Protection III)\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      },
+      "weightMult": 0.125
+    },
+    "champion_marksman_guard_kit": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000.0,
+      "rarity": "EPIC",
+      "name": "Champion Marksman Guard Kit",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Champion Marksman Guard Kit\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "minecraft:diamond_chestplate",
+              "count": 1,
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:projectile_protection": 3
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"1 × Diamond Chestplate (Projectile Protection III)\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      },
+      "weightMult": 0.125
+    },
+    "champion_demolition_guard_kit": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000.0,
+      "rarity": "EPIC",
+      "name": "Champion Demolition Guard Kit",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Champion Demolition Guard Kit\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "minecraft:diamond_leggings",
+              "count": 1,
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:blast_protection": 3
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"1 × Diamond Leggings (Blast Protection III)\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      },
+      "weightMult": 0.125
+    },
+    "champion_pathfinder_kit": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000.0,
+      "rarity": "EPIC",
+      "name": "Champion Pathfinder Kit",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Champion Pathfinder Kit\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "minecraft:diamond_boots",
+              "count": 1,
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:protection": 3
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"1 × Diamond Boots (Protection III)\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      },
+      "weightMult": 0.125
+    }
+  }
+}

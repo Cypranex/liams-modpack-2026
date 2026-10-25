@@ -1,0 +1,17 @@
+{
+  "requires": [
+    "bountiful",
+    "bountiful_contract_fairness",
+    "mowziesmobs"
+  ],
+  "objectives": [
+    "liams_boss_wroughtnaut_objectives"
+  ],
+  "rewards": [
+    "liams_boss_wroughtnaut_rewards"
+  ],
+  "canSpawn": false,
+  "canReveal": false,
+  "canWanderBuy": false,
+  "linkedProfessions": []
+}

@@ -1,0 +1,20 @@
+{
+  "requires": [
+    "bountiful",
+    "bountiful_contract_fairness",
+    "mowziesmobs"
+  ],
+  "content": {
+    "mowziesmobs_ferrous_wroughtnaut": {
+      "type": "minecraft:entity",
+      "content": "mowziesmobs:ferrous_wroughtnaut",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000.0,
+      "timeMult": 240,
+      "rarity": "EPIC"
+    }
+  }
+}

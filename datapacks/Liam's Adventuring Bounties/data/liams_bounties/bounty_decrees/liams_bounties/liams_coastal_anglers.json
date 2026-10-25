@@ -1,0 +1,23 @@
+{
+  "requires": [
+    "bountiful",
+    "bountiful_contract_fairness",
+    "caverns_and_chasms",
+    "hybrid_aquatic",
+    "mr_tide_extracompatibility",
+    "tide",
+    "upgrade_aquatic"
+  ],
+  "objectives": [
+    "liams_coastal_anglers_objectives"
+  ],
+  "rewards": [
+    "liams_mariner_rewards"
+  ],
+  "canSpawn": true,
+  "canReveal": true,
+  "canWanderBuy": true,
+  "linkedProfessions": [
+    "fisherman"
+  ]
+}

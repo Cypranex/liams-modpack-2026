@@ -1,0 +1,19 @@
+{
+  "requires": [
+    "aether",
+    "bountiful",
+    "bountiful_contract_fairness",
+    "deep_aether",
+    "irons_spellbooks"
+  ],
+  "objectives": [
+    "liams_storm_garden_objectives"
+  ],
+  "rewards": [
+    "liams_aether_botany_rewards"
+  ],
+  "canSpawn": false,
+  "canReveal": true,
+  "canWanderBuy": true,
+  "linkedProfessions": []
+}

@@ -1,0 +1,86 @@
+{
+  "requires": [
+    "bountiful",
+    "bountiful_contract_fairness",
+    "mynethersdelight"
+  ],
+  "content": {
+    "mynethersdelight_bullet_pepper": {
+      "type": "minecraft:item",
+      "content": "mynethersdelight:bullet_pepper",
+      "amount": {
+        "min": 24,
+        "max": 64
+      },
+      "unitWorth": 25.0,
+      "timeMult": 120,
+      "rarity": "COMMON"
+    },
+    "mynethersdelight_cooked_loin": {
+      "type": "minecraft:item",
+      "content": "mynethersdelight:cooked_loin",
+      "amount": {
+        "min": 2,
+        "max": 8
+      },
+      "unitWorth": 250.0,
+      "timeMult": 120,
+      "rarity": "COMMON"
+    },
+    "mynethersdelight_roasted_sausage": {
+      "type": "minecraft:item",
+      "content": "mynethersdelight:roasted_sausage",
+      "amount": {
+        "min": 2,
+        "max": 8
+      },
+      "unitWorth": 250.0,
+      "timeMult": 120,
+      "rarity": "COMMON"
+    },
+    "mynethersdelight_boiled_egg": {
+      "type": "minecraft:item",
+      "content": "mynethersdelight:boiled_egg",
+      "amount": {
+        "min": 4,
+        "max": 16
+      },
+      "unitWorth": 125.0,
+      "timeMult": 120,
+      "rarity": "COMMON"
+    },
+    "mynethersdelight_stuffed_pepper": {
+      "type": "minecraft:item",
+      "content": "mynethersdelight:stuffed_pepper",
+      "amount": {
+        "min": 2,
+        "max": 8
+      },
+      "unitWorth": 250.0,
+      "timeMult": 120,
+      "rarity": "COMMON"
+    },
+    "minecraft_crimson_fungus": {
+      "type": "minecraft:item",
+      "content": "minecraft:crimson_fungus",
+      "amount": {
+        "min": 24,
+        "max": 64
+      },
+      "unitWorth": 25.0,
+      "timeMult": 120,
+      "rarity": "COMMON"
+    },
+    "minecraft_warped_fungus": {
+      "type": "minecraft:item",
+      "content": "minecraft:warped_fungus",
+      "amount": {
+        "min": 24,
+        "max": 64
+      },
+      "unitWorth": 25.0,
+      "timeMult": 120,
+      "rarity": "COMMON"
+    }
+  }
+}

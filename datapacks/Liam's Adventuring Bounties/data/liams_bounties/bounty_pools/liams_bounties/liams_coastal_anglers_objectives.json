@@ -1,0 +1,210 @@
+{
+  "requires": [
+    "bountiful",
+    "bountiful_contract_fairness",
+    "hybrid_aquatic",
+    "mr_tide_extracompatibility",
+    "tide",
+    "upgrade_aquatic"
+  ],
+  "content": {
+    "minecraft_cod": {
+      "type": "minecraft:item",
+      "content": "minecraft:cod",
+      "amount": {
+        "min": 6,
+        "max": 16
+      },
+      "unitWorth": 100.0,
+      "timeMult": 180,
+      "rarity": "COMMON"
+    },
+    "minecraft_pufferfish": {
+      "type": "minecraft:item",
+      "content": "minecraft:pufferfish",
+      "amount": {
+        "min": 3,
+        "max": 8
+      },
+      "unitWorth": 200.0,
+      "timeMult": 240,
+      "rarity": "COMMON"
+    },
+    "minecraft_tropical_fish": {
+      "type": "minecraft:item",
+      "content": "minecraft:tropical_fish",
+      "amount": {
+        "min": 3,
+        "max": 8
+      },
+      "unitWorth": 200.0,
+      "timeMult": 240,
+      "rarity": "COMMON"
+    },
+    "tide_anchovy": {
+      "type": "minecraft:item",
+      "content": "tide:anchovy",
+      "amount": {
+        "min": 6,
+        "max": 16
+      },
+      "unitWorth": 100.0,
+      "timeMult": 180,
+      "rarity": "COMMON"
+    },
+    "tide_mackerel": {
+      "type": "minecraft:item",
+      "content": "tide:mackerel",
+      "amount": {
+        "min": 6,
+        "max": 16
+      },
+      "unitWorth": 100.0,
+      "timeMult": 180,
+      "rarity": "COMMON"
+    },
+    "tide_ocean_perch": {
+      "type": "minecraft:item",
+      "content": "tide:ocean_perch",
+      "amount": {
+        "min": 6,
+        "max": 16
+      },
+      "unitWorth": 100.0,
+      "timeMult": 180,
+      "rarity": "COMMON"
+    },
+    "tide_red_snapper": {
+      "type": "minecraft:item",
+      "content": "tide:red_snapper",
+      "amount": {
+        "min": 6,
+        "max": 16
+      },
+      "unitWorth": 100.0,
+      "timeMult": 180,
+      "rarity": "COMMON"
+    },
+    "tide_flounder": {
+      "type": "minecraft:item",
+      "content": "tide:flounder",
+      "amount": {
+        "min": 6,
+        "max": 16
+      },
+      "unitWorth": 100.0,
+      "timeMult": 180,
+      "rarity": "COMMON"
+    },
+    "tide_tuna": {
+      "type": "minecraft:item",
+      "content": "tide:tuna",
+      "amount": {
+        "min": 6,
+        "max": 16
+      },
+      "unitWorth": 100.0,
+      "timeMult": 180,
+      "rarity": "COMMON"
+    },
+    "tide_snook": {
+      "type": "minecraft:item",
+      "content": "tide:snook",
+      "amount": {
+        "min": 3,
+        "max": 8
+      },
+      "unitWorth": 200.0,
+      "timeMult": 240,
+      "rarity": "COMMON"
+    },
+    "tide_mahi_mahi": {
+      "type": "minecraft:item",
+      "content": "tide:mahi_mahi",
+      "amount": {
+        "min": 2,
+        "max": 4
+      },
+      "unitWorth": 500.0,
+      "timeMult": 300,
+      "rarity": "COMMON"
+    },
+    "hybrid_aquatic_herring": {
+      "type": "minecraft:item",
+      "content": "hybrid_aquatic:herring",
+      "amount": {
+        "min": 6,
+        "max": 16
+      },
+      "unitWorth": 100.0,
+      "timeMult": 180,
+      "rarity": "COMMON"
+    },
+    "hybrid_aquatic_sea_bass": {
+      "type": "minecraft:item",
+      "content": "hybrid_aquatic:sea_bass",
+      "amount": {
+        "min": 6,
+        "max": 16
+      },
+      "unitWorth": 100.0,
+      "timeMult": 180,
+      "rarity": "COMMON"
+    },
+    "hybrid_aquatic_mackerel": {
+      "type": "minecraft:item",
+      "content": "hybrid_aquatic:mackerel",
+      "amount": {
+        "min": 6,
+        "max": 16
+      },
+      "unitWorth": 100.0,
+      "timeMult": 180,
+      "rarity": "COMMON"
+    },
+    "hybrid_aquatic_tuna": {
+      "type": "minecraft:item",
+      "content": "hybrid_aquatic:tuna",
+      "amount": {
+        "min": 6,
+        "max": 16
+      },
+      "unitWorth": 100.0,
+      "timeMult": 180,
+      "rarity": "COMMON"
+    },
+    "hybrid_aquatic_rockfish": {
+      "type": "minecraft:item",
+      "content": "hybrid_aquatic:rockfish",
+      "amount": {
+        "min": 3,
+        "max": 8
+      },
+      "unitWorth": 200.0,
+      "timeMult": 240,
+      "rarity": "COMMON"
+    },
+    "hybrid_aquatic_flying_fish": {
+      "type": "minecraft:item",
+      "content": "hybrid_aquatic:flying_fish",
+      "amount": {
+        "min": 6,
+        "max": 16
+      },
+      "unitWorth": 100.0,
+      "timeMult": 180,
+      "rarity": "COMMON"
+    },
+    "upgrade_aquatic_lionfish": {
+      "type": "minecraft:item",
+      "content": "upgrade_aquatic:lionfish",
+      "amount": {
+        "min": 3,
+        "max": 8
+      },
+      "unitWorth": 200.0,
+      "timeMult": 240,
+      "rarity": "COMMON"
+    }
+  }
+}

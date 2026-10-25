@@ -1,0 +1,75 @@
+{
+  "requires": [
+    "bountiful",
+    "bountiful_contract_fairness",
+    "deep_aether"
+  ],
+  "content": {
+    "deep_aether_venomite": {
+      "type": "minecraft:entity",
+      "content": "deep_aether:venomite",
+      "amount": {
+        "min": 3,
+        "max": 9
+      },
+      "unitWorth": 200.0,
+      "timeMult": 160,
+      "rarity": "COMMON"
+    },
+    "deep_aether_aerglow_blossom": {
+      "type": "minecraft:item",
+      "content": "deep_aether:aerglow_blossom",
+      "amount": {
+        "min": 16,
+        "max": 48
+      },
+      "unitWorth": 40.0,
+      "timeMult": 200,
+      "rarity": "COMMON"
+    },
+    "deep_aether_aerlavender": {
+      "type": "minecraft:item",
+      "content": "deep_aether:aerlavender",
+      "amount": {
+        "min": 16,
+        "max": 48
+      },
+      "unitWorth": 40.0,
+      "timeMult": 200,
+      "rarity": "COMMON"
+    },
+    "deep_aether_goldenleaf_berries": {
+      "type": "minecraft:item",
+      "content": "deep_aether:goldenleaf_berries",
+      "amount": {
+        "min": 16,
+        "max": 48
+      },
+      "unitWorth": 40.0,
+      "timeMult": 200,
+      "rarity": "COMMON"
+    },
+    "deep_aether_blue_aercloud_mushrooms": {
+      "type": "minecraft:item",
+      "content": "deep_aether:blue_aercloud_mushrooms",
+      "amount": {
+        "min": 16,
+        "max": 48
+      },
+      "unitWorth": 40.0,
+      "timeMult": 200,
+      "rarity": "COMMON"
+    },
+    "deep_aether_pink_aercloud_mushrooms": {
+      "type": "minecraft:item",
+      "content": "deep_aether:pink_aercloud_mushrooms",
+      "amount": {
+        "min": 16,
+        "max": 48
+      },
+      "unitWorth": 40.0,
+      "timeMult": 200,
+      "rarity": "COMMON"
+    }
+  }
+}

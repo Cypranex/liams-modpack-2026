@@ -1,0 +1,19 @@
+{
+  "requires": [
+    "bountiful",
+    "bountiful_contract_fairness",
+    "create",
+    "creeperoverhaul",
+    "shieldexp"
+  ],
+  "objectives": [
+    "liams_powder_watch_objectives"
+  ],
+  "rewards": [
+    "liams_quarry_patrol_rewards"
+  ],
+  "canSpawn": true,
+  "canReveal": true,
+  "canWanderBuy": true,
+  "linkedProfessions": []
+}

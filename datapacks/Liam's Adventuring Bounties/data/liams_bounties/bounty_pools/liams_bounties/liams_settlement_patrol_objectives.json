@@ -1,0 +1,30 @@
+{
+  "requires": [
+    "bountiful",
+    "bountiful_contract_fairness"
+  ],
+  "content": {
+    "minecraft_zombie": {
+      "type": "minecraft:entity",
+      "content": "minecraft:zombie",
+      "amount": {
+        "min": 5,
+        "max": 16
+      },
+      "unitWorth": 125.0,
+      "timeMult": 120,
+      "rarity": "COMMON"
+    },
+    "minecraft_skeleton": {
+      "type": "minecraft:entity",
+      "content": "minecraft:skeleton",
+      "amount": {
+        "min": 5,
+        "max": 16
+      },
+      "unitWorth": 125.0,
+      "timeMult": 120,
+      "rarity": "COMMON"
+    }
+  }
+}

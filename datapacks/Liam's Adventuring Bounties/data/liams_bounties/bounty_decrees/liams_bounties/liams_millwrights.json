@@ -1,0 +1,22 @@
+{
+  "requires": [
+    "astikorcartsredux",
+    "bountiful",
+    "bountiful_contract_fairness",
+    "create",
+    "create_high_seas",
+    "create_submarine"
+  ],
+  "objectives": [
+    "liams_millwrights_objectives"
+  ],
+  "rewards": [
+    "liams_workshop_mid_rewards"
+  ],
+  "canSpawn": true,
+  "canReveal": true,
+  "canWanderBuy": true,
+  "linkedProfessions": [
+    "toolsmith"
+  ]
+}

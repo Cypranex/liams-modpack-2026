@@ -1,0 +1,530 @@
+{
+  "requires": [
+    "aquamirae",
+    "betterarcheology",
+    "caverns_and_chasms",
+    "chalk",
+    "spelunkers_charm"
+  ],
+  "content": {
+    "minecraft_iron_ingot": {
+      "type": "minecraft:item",
+      "content": "minecraft:iron_ingot",
+      "amount": {
+        "min": 32,
+        "max": 32
+      },
+      "unitWorth": 31.25,
+      "rarity": "COMMON"
+    },
+    "minecraft_gold_ingot": {
+      "type": "minecraft:item",
+      "content": "minecraft:gold_ingot",
+      "amount": {
+        "min": 16,
+        "max": 16
+      },
+      "unitWorth": 62.5,
+      "rarity": "COMMON"
+    },
+    "caverns_and_chasms_silver_ingot": {
+      "type": "minecraft:item",
+      "content": "caverns_and_chasms:silver_ingot",
+      "amount": {
+        "min": 16,
+        "max": 16
+      },
+      "unitWorth": 62.5,
+      "rarity": "COMMON"
+    },
+    "prospectors_field_cache": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000.0,
+      "rarity": "COMMON",
+      "name": "Prospector’s Field Cache",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Prospector\\u2019s Field Cache\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "minecraft:iron_ingot",
+              "count": 24
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "minecraft:gold_ingot",
+              "count": 8
+            }
+          },
+          {
+            "slot": 2,
+            "item": {
+              "id": "minecraft:lapis_lazuli",
+              "count": 24
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"24 × Iron Ingot\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"8 × Gold Ingot\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"24 × Lapis Lazuli\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      }
+    },
+    "cave_survey_kit": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000.0,
+      "rarity": "COMMON",
+      "name": "Cave Survey Kit",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Cave Survey Kit\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "spelunkers_charm:candle_helmet",
+              "count": 1
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "minecraft:iron_ingot",
+              "count": 20
+            }
+          },
+          {
+            "slot": 2,
+            "item": {
+              "id": "chalk:chalk",
+              "count": 1
+            }
+          },
+          {
+            "slot": 3,
+            "item": {
+              "id": "chalk:chalk",
+              "count": 1
+            }
+          },
+          {
+            "slot": 4,
+            "item": {
+              "id": "chalk:chalk",
+              "count": 1
+            }
+          },
+          {
+            "slot": 5,
+            "item": {
+              "id": "chalk:chalk",
+              "count": 1
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"1 \\u00d7 Candle Helmet\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"20 × Iron Ingot\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"4 × Chalk\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      }
+    },
+    "archeologist_field_kit_-_unbreaking_i": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000.0,
+      "rarity": "COMMON",
+      "name": "Archeologist Field Kit - Unbreaking I",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Archeologist Field Kit - Unbreaking I\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "betterarcheology:iron_brush",
+              "count": 1,
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:unbreaking": 1
+                  }
+                }
+              }
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "minecraft:iron_ingot",
+              "count": 20
+            }
+          },
+          {
+            "slot": 2,
+            "item": {
+              "id": "chalk:chalk",
+              "count": 1
+            }
+          },
+          {
+            "slot": 3,
+            "item": {
+              "id": "chalk:chalk",
+              "count": 1
+            }
+          },
+          {
+            "slot": 4,
+            "item": {
+              "id": "chalk:chalk",
+              "count": 1
+            }
+          },
+          {
+            "slot": 5,
+            "item": {
+              "id": "chalk:chalk",
+              "count": 1
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"1 × Iron Brush (Unbreaking I)\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"20 × Iron Ingot\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"1 × Chalk\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"1 × Chalk\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"1 × Chalk\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"1 × Chalk\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      },
+      "weightMult": 0.5
+    },
+    "archeologist_field_kit_-_unbreaking_ii": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000.0,
+      "rarity": "COMMON",
+      "name": "Archeologist Field Kit - Unbreaking II",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Archeologist Field Kit - Unbreaking II\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "betterarcheology:iron_brush",
+              "count": 1,
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:unbreaking": 2
+                  }
+                }
+              }
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "minecraft:iron_ingot",
+              "count": 20
+            }
+          },
+          {
+            "slot": 2,
+            "item": {
+              "id": "chalk:chalk",
+              "count": 1
+            }
+          },
+          {
+            "slot": 3,
+            "item": {
+              "id": "chalk:chalk",
+              "count": 1
+            }
+          },
+          {
+            "slot": 4,
+            "item": {
+              "id": "chalk:chalk",
+              "count": 1
+            }
+          },
+          {
+            "slot": 5,
+            "item": {
+              "id": "chalk:chalk",
+              "count": 1
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"1 × Iron Brush (Unbreaking II)\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"20 × Iron Ingot\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"1 × Chalk\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"1 × Chalk\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"1 × Chalk\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"1 × Chalk\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      },
+      "weightMult": 0.5
+    },
+    "silver_sentinel_kit_-_sharpness_i": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000.0,
+      "rarity": "COMMON",
+      "name": "Silver Sentinel Kit - Sharpness I",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Silver Sentinel Kit - Sharpness I\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "caverns_and_chasms:silver_sword",
+              "count": 1,
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:sharpness": 1
+                  }
+                }
+              }
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "caverns_and_chasms:silver_ingot",
+              "count": 8
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"1 × Silver Sword (Sharpness I)\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"8 × Silver Ingot\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      },
+      "weightMult": 0.25
+    },
+    "silver_sentinel_kit_-_smite_i": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000.0,
+      "rarity": "COMMON",
+      "name": "Silver Sentinel Kit - Smite I",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Silver Sentinel Kit - Smite I\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "caverns_and_chasms:silver_sword",
+              "count": 1,
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:smite": 1
+                  }
+                }
+              }
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "caverns_and_chasms:silver_ingot",
+              "count": 8
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"1 × Silver Sword (Smite I)\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"8 × Silver Ingot\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      },
+      "weightMult": 0.25
+    },
+    "silver_sentinel_kit_-_bane_of_arthropods_i": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000.0,
+      "rarity": "COMMON",
+      "name": "Silver Sentinel Kit - Bane Of Arthropods I",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Silver Sentinel Kit - Bane Of Arthropods I\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "caverns_and_chasms:silver_sword",
+              "count": 1,
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:bane_of_arthropods": 1
+                  }
+                }
+              }
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "caverns_and_chasms:silver_ingot",
+              "count": 8
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"1 × Silver Sword (Bane Of Arthropods I)\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"8 × Silver Ingot\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      },
+      "weightMult": 0.25
+    },
+    "silver_sentinel_kit_-_unbreaking_i": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000.0,
+      "rarity": "COMMON",
+      "name": "Silver Sentinel Kit - Unbreaking I",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Silver Sentinel Kit - Unbreaking I\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "caverns_and_chasms:silver_sword",
+              "count": 1,
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:unbreaking": 1
+                  }
+                }
+              }
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "caverns_and_chasms:silver_ingot",
+              "count": 8
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"1 × Silver Sword (Unbreaking I)\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"8 × Silver Ingot\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      },
+      "weightMult": 0.25
+    },
+    "icebound_lantern_kit": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000.0,
+      "rarity": "COMMON",
+      "name": "Icebound Lantern Kit",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Icebound Lantern Kit\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "aquamirae:luminescent_lamp",
+              "count": 1
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "minecraft:iron_ingot",
+              "count": 16
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"1 × Luminescent Lamp\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"16 × Iron Ingot\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      }
+    },
+    "icebound_ration_supplies": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000.0,
+      "rarity": "COMMON",
+      "name": "Icebound Ration Supplies",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Icebound Ration Supplies\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "aquamirae:cooked_spinefish",
+              "count": 8
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "minecraft:iron_ingot",
+              "count": 16
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"8 × Cooked Spinefish\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"16 × Iron Ingot\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      }
+    }
+  }
+}

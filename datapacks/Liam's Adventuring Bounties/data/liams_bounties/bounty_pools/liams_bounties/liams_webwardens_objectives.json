@@ -1,0 +1,97 @@
+{
+  "requires": [
+    "bountiful",
+    "bountiful_contract_fairness",
+    "spider_overhaul"
+  ],
+  "content": {
+    "spider_overhaul_cavern_spider": {
+      "type": "minecraft:entity",
+      "content": "spider_overhaul:cavern_spider",
+      "amount": {
+        "min": 6,
+        "max": 20
+      },
+      "unitWorth": 100.0,
+      "timeMult": 120,
+      "rarity": "COMMON"
+    },
+    "spider_overhaul_desert_spider": {
+      "type": "minecraft:entity",
+      "content": "spider_overhaul:desert_spider",
+      "amount": {
+        "min": 6,
+        "max": 20
+      },
+      "unitWorth": 100.0,
+      "timeMult": 120,
+      "rarity": "COMMON"
+    },
+    "spider_overhaul_ice_spider": {
+      "type": "minecraft:entity",
+      "content": "spider_overhaul:ice_spider",
+      "amount": {
+        "min": 6,
+        "max": 20
+      },
+      "unitWorth": 100.0,
+      "timeMult": 120,
+      "rarity": "COMMON"
+    },
+    "spider_overhaul_jungle_spider": {
+      "type": "minecraft:entity",
+      "content": "spider_overhaul:jungle_spider",
+      "amount": {
+        "min": 6,
+        "max": 20
+      },
+      "unitWorth": 100.0,
+      "timeMult": 120,
+      "rarity": "COMMON"
+    },
+    "spider_overhaul_swamp_spider": {
+      "type": "minecraft:entity",
+      "content": "spider_overhaul:swamp_spider",
+      "amount": {
+        "min": 6,
+        "max": 20
+      },
+      "unitWorth": 100.0,
+      "timeMult": 120,
+      "rarity": "COMMON"
+    },
+    "minecraft_spider": {
+      "type": "minecraft:entity",
+      "content": "minecraft:spider",
+      "amount": {
+        "min": 5,
+        "max": 16
+      },
+      "unitWorth": 125.0,
+      "timeMult": 120,
+      "rarity": "COMMON"
+    },
+    "minecraft_cave_spider": {
+      "type": "minecraft:entity",
+      "content": "minecraft:cave_spider",
+      "amount": {
+        "min": 4,
+        "max": 12
+      },
+      "unitWorth": 160.0,
+      "timeMult": 160,
+      "rarity": "COMMON"
+    },
+    "spider_overhaul_birch_spider": {
+      "type": "minecraft:entity",
+      "content": "spider_overhaul:birch_spider",
+      "amount": {
+        "min": 6,
+        "max": 20
+      },
+      "unitWorth": 100.0,
+      "timeMult": 120,
+      "rarity": "COMMON"
+    }
+  }
+}

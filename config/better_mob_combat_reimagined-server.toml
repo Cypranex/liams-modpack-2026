@@ -1,0 +1,2 @@
+# Wild wolves handle bite timing themselves; delayed fallback attacks prevent damage.
+entityBlacklist = ["fangs_n_claws:wild_wolf"]

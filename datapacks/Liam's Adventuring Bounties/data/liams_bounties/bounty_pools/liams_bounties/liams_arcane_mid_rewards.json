@@ -1,0 +1,57 @@
+{
+  "requires": [
+    "irons_spellbooks"
+  ],
+  "content": {
+    "irons_spellbooks_uncommon_ink": {
+      "type": "minecraft:item",
+      "content": "irons_spellbooks:uncommon_ink",
+      "amount": {
+        "min": 2,
+        "max": 2
+      },
+      "unitWorth": 500.0,
+      "rarity": "COMMON"
+    },
+    "irons_spellbooks_rare_ink": {
+      "type": "minecraft:item",
+      "content": "irons_spellbooks:rare_ink",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1200.0,
+      "rarity": "COMMON"
+    },
+    "irons_spellbooks_lesser_spell_slot_upgrade": {
+      "type": "minecraft:item",
+      "content": "irons_spellbooks:lesser_spell_slot_upgrade",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1400.0,
+      "rarity": "COMMON"
+    },
+    "irons_spellbooks_arcane_ingot": {
+      "type": "minecraft:item",
+      "content": "irons_spellbooks:arcane_ingot",
+      "amount": {
+        "min": 4,
+        "max": 4
+      },
+      "unitWorth": 250.0,
+      "rarity": "COMMON"
+    },
+    "irons_spellbooks_magic_cloth": {
+      "type": "minecraft:item",
+      "content": "irons_spellbooks:magic_cloth",
+      "amount": {
+        "min": 4,
+        "max": 4
+      },
+      "unitWorth": 250.0,
+      "rarity": "COMMON"
+    }
+  }
+}

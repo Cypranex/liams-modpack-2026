@@ -1,0 +1,64 @@
+{
+  "requires": [
+    "aquamirae",
+    "bountiful",
+    "bountiful_contract_fairness"
+  ],
+  "content": {
+    "aquamirae_maw": {
+      "type": "minecraft:entity",
+      "content": "aquamirae:maw",
+      "amount": {
+        "min": 2,
+        "max": 6
+      },
+      "unitWorth": 350.0,
+      "timeMult": 200,
+      "rarity": "COMMON"
+    },
+    "aquamirae_anglerfish": {
+      "type": "minecraft:entity",
+      "content": "aquamirae:anglerfish",
+      "amount": {
+        "min": 2,
+        "max": 6
+      },
+      "unitWorth": 350.0,
+      "timeMult": 200,
+      "rarity": "COMMON"
+    },
+    "aquamirae_eel": {
+      "type": "minecraft:entity",
+      "content": "aquamirae:eel",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 600.0,
+      "timeMult": 240,
+      "rarity": "COMMON"
+    },
+    "aquamirae_fin": {
+      "type": "minecraft:item",
+      "content": "aquamirae:fin",
+      "amount": {
+        "min": 16,
+        "max": 32
+      },
+      "unitWorth": 40.0,
+      "timeMult": 180,
+      "rarity": "COMMON"
+    },
+    "aquamirae_sharp_bones": {
+      "type": "minecraft:item",
+      "content": "aquamirae:sharp_bones",
+      "amount": {
+        "min": 16,
+        "max": 32
+      },
+      "unitWorth": 40.0,
+      "timeMult": 180,
+      "rarity": "COMMON"
+    }
+  }
+}

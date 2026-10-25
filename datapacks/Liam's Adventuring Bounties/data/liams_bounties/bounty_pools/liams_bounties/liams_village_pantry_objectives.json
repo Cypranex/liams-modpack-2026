@@ -1,0 +1,119 @@
+{
+  "requires": [
+    "bountiful",
+    "bountiful_contract_fairness",
+    "farmersdelight"
+  ],
+  "content": {
+    "farmersdelight_cabbage": {
+      "type": "minecraft:item",
+      "content": "farmersdelight:cabbage",
+      "amount": {
+        "min": 24,
+        "max": 64
+      },
+      "unitWorth": 25.0,
+      "timeMult": 120,
+      "rarity": "COMMON"
+    },
+    "farmersdelight_tomato": {
+      "type": "minecraft:item",
+      "content": "farmersdelight:tomato",
+      "amount": {
+        "min": 24,
+        "max": 64
+      },
+      "unitWorth": 25.0,
+      "timeMult": 120,
+      "rarity": "COMMON"
+    },
+    "farmersdelight_onion": {
+      "type": "minecraft:item",
+      "content": "farmersdelight:onion",
+      "amount": {
+        "min": 24,
+        "max": 64
+      },
+      "unitWorth": 25.0,
+      "timeMult": 120,
+      "rarity": "COMMON"
+    },
+    "farmersdelight_rice": {
+      "type": "minecraft:item",
+      "content": "farmersdelight:rice",
+      "amount": {
+        "min": 24,
+        "max": 64
+      },
+      "unitWorth": 25.0,
+      "timeMult": 120,
+      "rarity": "COMMON"
+    },
+    "farmersdelight_straw": {
+      "type": "minecraft:item",
+      "content": "farmersdelight:straw",
+      "amount": {
+        "min": 24,
+        "max": 64
+      },
+      "unitWorth": 25.0,
+      "timeMult": 120,
+      "rarity": "COMMON"
+    },
+    "farmersdelight_rice_panicle": {
+      "type": "minecraft:item",
+      "content": "farmersdelight:rice_panicle",
+      "amount": {
+        "min": 24,
+        "max": 64
+      },
+      "unitWorth": 25.0,
+      "timeMult": 120,
+      "rarity": "COMMON"
+    },
+    "minecraft_carrot": {
+      "type": "minecraft:item",
+      "content": "minecraft:carrot",
+      "amount": {
+        "min": 24,
+        "max": 64
+      },
+      "unitWorth": 25.0,
+      "timeMult": 120,
+      "rarity": "COMMON"
+    },
+    "minecraft_potato": {
+      "type": "minecraft:item",
+      "content": "minecraft:potato",
+      "amount": {
+        "min": 24,
+        "max": 64
+      },
+      "unitWorth": 25.0,
+      "timeMult": 120,
+      "rarity": "COMMON"
+    },
+    "minecraft_beetroot": {
+      "type": "minecraft:item",
+      "content": "minecraft:beetroot",
+      "amount": {
+        "min": 24,
+        "max": 64
+      },
+      "unitWorth": 25.0,
+      "timeMult": 120,
+      "rarity": "COMMON"
+    },
+    "minecraft_wheat": {
+      "type": "minecraft:item",
+      "content": "minecraft:wheat",
+      "amount": {
+        "min": 24,
+        "max": 64
+      },
+      "unitWorth": 25.0,
+      "timeMult": 120,
+      "rarity": "COMMON"
+    }
+  }
+}

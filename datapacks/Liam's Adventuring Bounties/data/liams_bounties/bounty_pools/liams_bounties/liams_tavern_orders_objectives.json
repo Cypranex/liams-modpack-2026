@@ -1,0 +1,97 @@
+{
+  "requires": [
+    "bountiful",
+    "bountiful_contract_fairness",
+    "farmersdelight"
+  ],
+  "content": {
+    "farmersdelight_vegetable_soup": {
+      "type": "minecraft:item",
+      "content": "farmersdelight:vegetable_soup",
+      "amount": {
+        "min": 2,
+        "max": 8
+      },
+      "unitWorth": 250.0,
+      "timeMult": 120,
+      "rarity": "COMMON"
+    },
+    "farmersdelight_chicken_soup": {
+      "type": "minecraft:item",
+      "content": "farmersdelight:chicken_soup",
+      "amount": {
+        "min": 2,
+        "max": 8
+      },
+      "unitWorth": 250.0,
+      "timeMult": 120,
+      "rarity": "COMMON"
+    },
+    "farmersdelight_mushroom_rice": {
+      "type": "minecraft:item",
+      "content": "farmersdelight:mushroom_rice",
+      "amount": {
+        "min": 2,
+        "max": 8
+      },
+      "unitWorth": 250.0,
+      "timeMult": 120,
+      "rarity": "COMMON"
+    },
+    "farmersdelight_cooked_rice": {
+      "type": "minecraft:item",
+      "content": "farmersdelight:cooked_rice",
+      "amount": {
+        "min": 4,
+        "max": 16
+      },
+      "unitWorth": 125.0,
+      "timeMult": 120,
+      "rarity": "COMMON"
+    },
+    "farmersdelight_fish_stew": {
+      "type": "minecraft:item",
+      "content": "farmersdelight:fish_stew",
+      "amount": {
+        "min": 2,
+        "max": 8
+      },
+      "unitWorth": 250.0,
+      "timeMult": 120,
+      "rarity": "COMMON"
+    },
+    "farmersdelight_baked_cod_stew": {
+      "type": "minecraft:item",
+      "content": "farmersdelight:baked_cod_stew",
+      "amount": {
+        "min": 2,
+        "max": 8
+      },
+      "unitWorth": 250.0,
+      "timeMult": 120,
+      "rarity": "COMMON"
+    },
+    "farmersdelight_noodle_soup": {
+      "type": "minecraft:item",
+      "content": "farmersdelight:noodle_soup",
+      "amount": {
+        "min": 2,
+        "max": 8
+      },
+      "unitWorth": 250.0,
+      "timeMult": 120,
+      "rarity": "COMMON"
+    },
+    "farmersdelight_ratatouille": {
+      "type": "minecraft:item",
+      "content": "farmersdelight:ratatouille",
+      "amount": {
+        "min": 2,
+        "max": 8
+      },
+      "unitWorth": 250.0,
+      "timeMult": 120,
+      "rarity": "COMMON"
+    }
+  }
+}

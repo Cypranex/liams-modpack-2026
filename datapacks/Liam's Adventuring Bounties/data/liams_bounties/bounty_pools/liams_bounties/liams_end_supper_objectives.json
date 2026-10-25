@@ -1,0 +1,31 @@
+{
+  "requires": [
+    "bountiful",
+    "bountiful_contract_fairness",
+    "endersdelight"
+  ],
+  "content": {
+    "endersdelight_chorus_juice": {
+      "type": "minecraft:item",
+      "content": "endersdelight:chorus_juice",
+      "amount": {
+        "min": 2,
+        "max": 8
+      },
+      "unitWorth": 250.0,
+      "timeMult": 120,
+      "rarity": "COMMON"
+    },
+    "endersdelight_chorus_pie_slice": {
+      "type": "minecraft:item",
+      "content": "endersdelight:chorus_pie_slice",
+      "amount": {
+        "min": 4,
+        "max": 16
+      },
+      "unitWorth": 125.0,
+      "timeMult": 120,
+      "rarity": "COMMON"
+    }
+  }
+}

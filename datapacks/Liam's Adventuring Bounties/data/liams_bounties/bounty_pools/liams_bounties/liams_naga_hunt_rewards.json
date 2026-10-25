@@ -1,0 +1,83 @@
+{
+  "requires": [
+    "mowziesmobs"
+  ],
+  "content": {
+    "naga_hunter_blowgun_kit": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000.0,
+      "rarity": "COMMON",
+      "name": "Naga Hunter Blowgun Kit",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Naga Hunter Blowgun Kit\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "mowziesmobs:blowgun",
+              "count": 1
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "mowziesmobs:dart",
+              "count": 16
+            }
+          },
+          {
+            "slot": 2,
+            "item": {
+              "id": "minecraft:iron_ingot",
+              "count": 12
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"1 × Blowgun\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"16 × Dart\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"12 × Iron Ingot\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      }
+    },
+    "naga_fang_salvage_bonus": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000.0,
+      "rarity": "COMMON",
+      "name": "Naga Fang Salvage Bonus",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Naga Fang Salvage Bonus\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "mowziesmobs:naga_fang",
+              "count": 2
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "minecraft:iron_ingot",
+              "count": 16
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"2 × Naga Fang\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"16 × Iron Ingot\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      }
+    }
+  }
+}

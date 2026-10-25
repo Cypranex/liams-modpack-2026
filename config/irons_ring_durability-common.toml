@@ -1,0 +1,57 @@
+#One trigger per blocked fire hit, at most once per 20 ticks.
+[fireward]
+	#Maximum durability. Applies to existing rings when carried or equipped. Lowering this can break already worn rings.
+	# Default: 256
+	# Range: 1 ~ 1000000
+	durability = 256
+	#Durability lost per trigger. 0 disables wear. Unbreaking does not reduce this cost.
+	# Default: 1
+	# Range: 0 ~ 1000000
+	drainPerTrigger = 1
+
+#One trigger per 20 ticks of freezing prevention or powder-snow support.
+[frostward]
+	#Maximum durability. Applies to existing rings when carried or equipped. Lowering this can break already worn rings.
+	# Default: 256
+	# Range: 1 ~ 1000000
+	durability = 256
+	#Durability lost per trigger. 0 disables wear. Unbreaking does not reduce this cost.
+	# Default: 1
+	# Range: 0 ~ 1000000
+	drainPerTrigger = 1
+
+#One trigger per successful poison cleanse, at most once per 20 ticks.
+[poisonward]
+	#Maximum durability. Applies to existing rings when carried or equipped. Lowering this can break already worn rings.
+	# Default: 256
+	# Range: 1 ~ 1000000
+	durability = 256
+	#Durability lost per trigger. 0 disables wear. Unbreaking does not reduce this cost.
+	# Default: 1
+	# Range: 0 ~ 1000000
+	drainPerTrigger = 8
+
+#One trigger per 20 ticks equipped, even when no invisible entities are nearby.
+[invisibility]
+	#Maximum durability. Applies to existing rings when carried or equipped. Lowering this can break already worn rings.
+	# Default: 256
+	# Range: 1 ~ 1000000
+	durability = 256
+	#Durability lost per trigger. 0 disables wear. Unbreaking does not reduce this cost.
+	# Default: 1
+	# Range: 0 ~ 1000000
+	drainPerTrigger = 1
+
+#One trigger each time Emerald Stoneplate actually increases slain-creature XP. No cooldown.
+[emeraldStoneplate]
+	#Maximum durability.
+	durability = 256
+	#Durability lost per XP-increase trigger; 0 disables wear.
+	drainPerTrigger = 1
+
+#One trigger per applied spell cooldown actually shortened by this ring. No time cooldown.
+[recovery]
+	#Maximum durability.
+	durability = 256
+	#Durability lost per shortened cooldown; 0 disables wear.
+	drainPerTrigger = 1

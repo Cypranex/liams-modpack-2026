@@ -1,0 +1,236 @@
+{
+  "requires": [
+    "create",
+    "fowlplay"
+  ],
+  "content": {
+    "minecraft_iron_ingot": {
+      "type": "minecraft:item",
+      "content": "minecraft:iron_ingot",
+      "amount": {
+        "min": 16,
+        "max": 16
+      },
+      "unitWorth": 50.0,
+      "rarity": "COMMON"
+    },
+    "minecraft_gold_ingot": {
+      "type": "minecraft:item",
+      "content": "minecraft:gold_ingot",
+      "amount": {
+        "min": 8,
+        "max": 8
+      },
+      "unitWorth": 100.0,
+      "rarity": "COMMON"
+    },
+    "create_zinc_ingot": {
+      "type": "minecraft:item",
+      "content": "create:zinc_ingot",
+      "amount": {
+        "min": 24,
+        "max": 24
+      },
+      "unitWorth": 37.5,
+      "rarity": "COMMON"
+    },
+    "create_brass_ingot": {
+      "type": "minecraft:item",
+      "content": "create:brass_ingot",
+      "amount": {
+        "min": 12,
+        "max": 12
+      },
+      "unitWorth": 83.33333333333333,
+      "rarity": "COMMON"
+    },
+    "minecraft_slime_ball": {
+      "type": "minecraft:item",
+      "content": "minecraft:slime_ball",
+      "amount": {
+        "min": 16,
+        "max": 16
+      },
+      "unitWorth": 50.0,
+      "rarity": "COMMON"
+    },
+    "workshop_supply_cache": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000.0,
+      "rarity": "COMMON",
+      "name": "Workshop Supply Cache",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Workshop Supply Cache\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "minecraft:iron_ingot",
+              "count": 16
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "minecraft:redstone",
+              "count": 24
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"16 × Iron Ingot\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"24 × Redstone Dust\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      }
+    },
+    "sheet_metal_supply_kit": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000.0,
+      "rarity": "COMMON",
+      "name": "Sheet Metal Supply Kit",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Sheet Metal Supply Kit\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "create:iron_sheet",
+              "count": 12
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "create:copper_sheet",
+              "count": 12
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"12 × Iron Sheet\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"12 × Copper Sheet\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      }
+    },
+    "andesite_workshop_kit": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000.0,
+      "rarity": "COMMON",
+      "name": "Andesite Workshop Kit",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Andesite Workshop Kit\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "create:andesite_alloy",
+              "count": 24
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "minecraft:iron_ingot",
+              "count": 12
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"24 × Andesite Alloy\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"12 × Iron Ingot\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      }
+    },
+    "engineer_survey_kit": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000.0,
+      "rarity": "COMMON",
+      "name": "Engineer Survey Kit",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Engineer Survey Kit\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "create:goggles",
+              "count": 1
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "minecraft:iron_ingot",
+              "count": 16
+            }
+          },
+          {
+            "slot": 2,
+            "item": {
+              "id": "create:golden_sheet",
+              "count": 8
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"1 × Engineer's Goggles\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"16 × Iron Ingot\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"8 × Golden Sheet\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      }
+    },
+    "farmstead_watch_kit": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000.0,
+      "rarity": "COMMON",
+      "name": "Farmstead Watch Kit",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Farmstead Watch Kit\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "fowlplay:scarecrow",
+              "count": 1
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "minecraft:iron_ingot",
+              "count": 16
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"1 × Scarecrow\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"16 × Iron Ingot\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      }
+    }
+  }
+}

@@ -27,7 +27,10 @@
     { "structure": "minecraft:ancient_cities", "factor": 1 },
     { "structure": "mowziesmobs:wrought_chambers", "factor": 1 },
     { "structure": "minecraft:ancient_cities", "factor": 1 },
-    { "structure": "betterstrongholds:stronghold", "factor": 1 }
+    { "structure": "betterstrongholds:stronghold", "factor": 1 },
 
+
+    // Make villages more common because we have Improved Village Placement mod, which makes them less common overall
+    { "structure": "minecraft:villages", "factor": 0.5 },
   ]
 }

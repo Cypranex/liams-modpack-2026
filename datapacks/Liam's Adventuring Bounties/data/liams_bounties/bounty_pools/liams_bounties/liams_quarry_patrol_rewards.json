@@ -1,0 +1,366 @@
+{
+  "requires": [
+    "create",
+    "shieldexp"
+  ],
+  "content": {
+    "minecraft_iron_ingot": {
+      "type": "minecraft:item",
+      "content": "minecraft:iron_ingot",
+      "amount": {
+        "min": 24,
+        "max": 24
+      },
+      "unitWorth": 41.666666666666664,
+      "rarity": "COMMON"
+    },
+    "create_zinc_ingot": {
+      "type": "minecraft:item",
+      "content": "create:zinc_ingot",
+      "amount": {
+        "min": 24,
+        "max": 24
+      },
+      "unitWorth": 41.666666666666664,
+      "rarity": "COMMON"
+    },
+    "create_brass_ingot": {
+      "type": "minecraft:item",
+      "content": "create:brass_ingot",
+      "amount": {
+        "min": 12,
+        "max": 12
+      },
+      "unitWorth": 83.33333333333333,
+      "rarity": "COMMON"
+    },
+    "minecraft_gold_ingot": {
+      "type": "minecraft:item",
+      "content": "minecraft:gold_ingot",
+      "amount": {
+        "min": 12,
+        "max": 12
+      },
+      "unitWorth": 83.33333333333333,
+      "rarity": "COMMON"
+    },
+    "hunters_supply_cache": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000.0,
+      "rarity": "COMMON",
+      "name": "Hunter’s Supply Cache",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Hunter\\u2019s Supply Cache\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "minecraft:iron_ingot",
+              "count": 20
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "minecraft:gold_ingot",
+              "count": 4
+            }
+          },
+          {
+            "slot": 2,
+            "item": {
+              "id": "minecraft:arrow",
+              "count": 48
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"20 × Iron Ingot\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"4 × Gold Ingot\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"48 × Arrow\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      }
+    },
+    "rangers_crossbow_kit": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000.0,
+      "rarity": "COMMON",
+      "name": "Ranger’s Crossbow Kit",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Ranger\\u2019s Crossbow Kit\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "minecraft:crossbow",
+              "count": 1
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "minecraft:iron_ingot",
+              "count": 20
+            }
+          },
+          {
+            "slot": 2,
+            "item": {
+              "id": "minecraft:arrow",
+              "count": 64
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"1 × Crossbow\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"20 × Iron Ingot\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"64 × Arrow\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      }
+    },
+    "iron_shield_patrol_kit_-_unbreaking_i": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000.0,
+      "rarity": "COMMON",
+      "name": "Iron Shield Patrol Kit - Unbreaking I",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Iron Shield Patrol Kit - Unbreaking I\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "shieldexp:iron_shield",
+              "count": 1,
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:unbreaking": 1
+                  }
+                }
+              }
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "minecraft:iron_ingot",
+              "count": 12
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"1 × Iron Shield (Unbreaking I)\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"12 × Iron Ingot\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      },
+      "weightMult": 0.5
+    },
+    "iron_shield_patrol_kit_-_unbreaking_ii": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000.0,
+      "rarity": "COMMON",
+      "name": "Iron Shield Patrol Kit - Unbreaking II",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Iron Shield Patrol Kit - Unbreaking II\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "shieldexp:iron_shield",
+              "count": 1,
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:unbreaking": 2
+                  }
+                }
+              }
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "minecraft:iron_ingot",
+              "count": 12
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"1 × Iron Shield (Unbreaking II)\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"12 × Iron Ingot\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      },
+      "weightMult": 0.5
+    },
+    "steady_ranger_crossbow_kit_-_unbreaking_i": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000.0,
+      "rarity": "COMMON",
+      "name": "Steady Ranger Crossbow Kit - Unbreaking I",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Steady Ranger Crossbow Kit - Unbreaking I\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "minecraft:crossbow",
+              "count": 1,
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:unbreaking": 1
+                  }
+                }
+              }
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "minecraft:iron_ingot",
+              "count": 20
+            }
+          },
+          {
+            "slot": 2,
+            "item": {
+              "id": "minecraft:arrow",
+              "count": 64
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"1 × Crossbow (Unbreaking I)\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"20 × Iron Ingot\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"64 × Arrow\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      },
+      "weightMult": 0.3333333333333333
+    },
+    "steady_ranger_crossbow_kit_-_quick_charge_i": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000.0,
+      "rarity": "COMMON",
+      "name": "Steady Ranger Crossbow Kit - Quick Charge I",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Steady Ranger Crossbow Kit - Quick Charge I\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "minecraft:crossbow",
+              "count": 1,
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:quick_charge": 1
+                  }
+                }
+              }
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "minecraft:iron_ingot",
+              "count": 20
+            }
+          },
+          {
+            "slot": 2,
+            "item": {
+              "id": "minecraft:arrow",
+              "count": 64
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"1 × Crossbow (Quick Charge I)\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"20 × Iron Ingot\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"64 × Arrow\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      },
+      "weightMult": 0.3333333333333333
+    },
+    "steady_ranger_crossbow_kit_-_piercing_i": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000.0,
+      "rarity": "COMMON",
+      "name": "Steady Ranger Crossbow Kit - Piercing I",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Steady Ranger Crossbow Kit - Piercing I\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "minecraft:crossbow",
+              "count": 1,
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:piercing": 1
+                  }
+                }
+              }
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "minecraft:iron_ingot",
+              "count": 20
+            }
+          },
+          {
+            "slot": 2,
+            "item": {
+              "id": "minecraft:arrow",
+              "count": 64
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"1 × Crossbow (Piercing I)\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"20 × Iron Ingot\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"64 × Arrow\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      },
+      "weightMult": 0.3333333333333333
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "requires": [
+    "aquamirae",
+    "betterarcheology",
+    "bountiful",
+    "bountiful_contract_fairness",
+    "caverns_and_chasms",
+    "chalk",
+    "spelunkers_charm"
+  ],
+  "objectives": [
+    "liams_icebound_salvagers_objectives"
+  ],
+  "rewards": [
+    "liams_icebound_rewards"
+  ],
+  "canSpawn": true,
+  "canReveal": true,
+  "canWanderBuy": true,
+  "linkedProfessions": []
+}

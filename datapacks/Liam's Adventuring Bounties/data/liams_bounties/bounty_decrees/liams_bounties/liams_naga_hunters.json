@@ -1,0 +1,17 @@
+{
+  "requires": [
+    "bountiful",
+    "bountiful_contract_fairness",
+    "mowziesmobs"
+  ],
+  "objectives": [
+    "liams_naga_hunters_objectives"
+  ],
+  "rewards": [
+    "liams_naga_hunt_rewards"
+  ],
+  "canSpawn": false,
+  "canReveal": true,
+  "canWanderBuy": true,
+  "linkedProfessions": []
+}

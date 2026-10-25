@@ -1,0 +1,86 @@
+{
+  "requires": [
+    "bountiful",
+    "bountiful_contract_fairness",
+    "create"
+  ],
+  "content": {
+    "create_belt_connector": {
+      "type": "minecraft:item",
+      "content": "create:belt_connector",
+      "amount": {
+        "min": 12,
+        "max": 32
+      },
+      "unitWorth": 50.0,
+      "timeMult": 160,
+      "rarity": "COMMON"
+    },
+    "create_water_wheel": {
+      "type": "minecraft:item",
+      "content": "create:water_wheel",
+      "amount": {
+        "min": 6,
+        "max": 16
+      },
+      "unitWorth": 100.0,
+      "timeMult": 160,
+      "rarity": "COMMON"
+    },
+    "create_large_water_wheel": {
+      "type": "minecraft:item",
+      "content": "create:large_water_wheel",
+      "amount": {
+        "min": 3,
+        "max": 8
+      },
+      "unitWorth": 200.0,
+      "timeMult": 160,
+      "rarity": "COMMON"
+    },
+    "create_white_sail": {
+      "type": "minecraft:item",
+      "content": "create:white_sail",
+      "amount": {
+        "min": 8,
+        "max": 20
+      },
+      "unitWorth": 80.0,
+      "timeMult": 160,
+      "rarity": "COMMON"
+    },
+    "create_wooden_bracket": {
+      "type": "minecraft:item",
+      "content": "create:wooden_bracket",
+      "amount": {
+        "min": 32,
+        "max": 96
+      },
+      "unitWorth": 20.0,
+      "timeMult": 160,
+      "rarity": "COMMON"
+    },
+    "create_pulp": {
+      "type": "minecraft:item",
+      "content": "create:pulp",
+      "amount": {
+        "min": 24,
+        "max": 80
+      },
+      "unitWorth": 25.0,
+      "timeMult": 160,
+      "rarity": "COMMON"
+    },
+    "create_cardboard": {
+      "type": "minecraft:item",
+      "content": "create:cardboard",
+      "amount": {
+        "min": 16,
+        "max": 48
+      },
+      "unitWorth": 40.0,
+      "timeMult": 160,
+      "rarity": "COMMON"
+    }
+  }
+}
