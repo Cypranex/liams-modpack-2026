@@ -8,7 +8,7 @@
 
 	[blocks.bunting]
 		#Makes buntings use normal block models with no animation for faster performance. When off this is only active when viewed from a distance
-		fast_buntings = false
+		fast_buntings = true
 
 	[blocks.clock_block]
 		#Display 24h time format. False for 12h format
@@ -16,19 +16,19 @@
 
 	[blocks.pedestal]
 		#Enable displayed item spin
-		spin = true
+		spin = false
 		#Spin speed
 		# Default: 2.0
 		# Range: 0.0 ~ 100.0
 		speed = 2.0
 		#Enable special display types for items like swords, tridents or end crystals
-		fancy_renderers = true
+		fancy_renderers = false
 
 	[blocks.bubble_block]
 		#Wobbling intensity. set to 0 to disable
 		# Default: 0.2
 		# Range: 0.0 ~ 1.0
-		wobble = 0.2
+		wobble = 0.0
 		#How fast it grows when created. 1 to be instant
 		# Default: 0.4
 		# Range: 0.0 ~ 1.0
@@ -106,7 +106,7 @@
 
 	[blocks.turn_table]
 		#Display visual particles when a block is rotated
-		turn_particles = true
+		turn_particles = false
 
 	[blocks.speaker_block]
 		#Mute speaker block incoming narrator messages and displays them in chat instead
@@ -116,7 +116,7 @@
 		#Amplitude of rope wobbling effect
 		# Default: 1.2
 		# Range: 0.0 ~ 20.0
-		wobbling_amplitude = 1.2
+		wobbling_amplitude = 0.0
 		#Period of rope wobbling effect
 		# Default: 12.0
 		# Range: 0.01 ~ 200.0
@@ -170,13 +170,13 @@
 	# Range: 1 ~ 255
 	tooltip_image_size = 80
 	#Wearing mob heads will apply post processing
-	mob_head_shaders = true
+	mob_head_shaders = false
 	#Sends your current chat when you die while typing
 	send_chat_on_death = true
 	#Makes enderman and spider heads use vanilla texture. Enable for texture pack support
 	enderman_and_spider_head_texture_pack_support = true
 	#Show a slime overlay when you hit an entity with a slimeball
-	slime_effect_overlay = true
+	slime_effect_overlay = false
 
 	[tweaks.colored_maps]
 		#Needs the server config with same name on. If on here it will ignore the server one and keep vanilla colors
@@ -215,7 +215,7 @@
 
 	[items.cannonball]
 		#Render cannonballs as 3D models
-		3d_model = true
+		3d_model = false
 
 	[items.quiver]
 		#Z offset for quiver render when wearing armor. Useful for when you have custom armor bigger than vanilla to void clipping. Leave at -1 for automatic offset
@@ -224,10 +224,10 @@
 		armor_render_offset = -1.0
 		#How quivers should render onto players
 		#Allowed Values: HIDDEN, BACK, HIP, THIGH
-		render_mode = "THIGH"
+		render_mode = "HIDDEN"
 		#How skeleton with quivers should render it
 		#Allowed Values: HIDDEN, BACK, HIP, THIGH
-		skeleton_render_mode = "THIGH"
+		skeleton_render_mode = "HIDDEN"
 		#Adds an overlay to quivers in gui displaying currently selected arrow
 		overlay = true
 		#Allows using your mouse to select an arrow in the quiver GUI
@@ -243,8 +243,8 @@
 
 	[items.wrench]
 		#Display visual particles when a block is rotated
-		turn_particles = true
+		turn_particles = false
 
 	[items.flute]
 		#Display visual particles when a playing a flute
-		note_particles = true
+		note_particles = false

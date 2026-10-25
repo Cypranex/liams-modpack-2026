@@ -10,7 +10,7 @@ blizzard_fog_start = 0.0
 # Default: 128.0
 # Range: 0.0 ~ 256.0
 blizzard_fog_end = 128.0
-blizzard_custom_particles = true
+blizzard_custom_particles = false
 # Default: 10.0
 # Range: 0.0 ~ 100.0
 blizzard_wind_offset = 10.0

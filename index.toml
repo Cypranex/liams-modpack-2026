@@ -1,12 +1,20 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/aether-client.toml"
+hash = "bf313583e752003668b6ba921424f27fc9163254d9dd9d7b57f62e2920f899d0"
+
+[[files]]
 file = "config/aether-common.toml"
 hash = "1791b241545674f2d41bace9c0dea3dcecfbfdc096e77ea1209535a8fa8f4797"
 
 [[files]]
 file = "config/aether-startup.toml"
 hash = "e3915bf50d806c5caa3dcebc243818c2c4aeb149599b33e6286ea2828370dd69"
+
+[[files]]
+file = "config/amendments-client.toml"
+hash = "b613383363e5bf46e61befb99be501212c60c4a4e3b2419eb3714c510b0d8f4a"
 
 [[files]]
 file = "config/apotheosis/apothic_enchanting.cfg"
@@ -50,15 +58,23 @@ hash = "b8038eaf11ea5642cc80cfcd0a2aeb37d6e1a22f5507622170e9bfb1c65ac017"
 
 [[files]]
 file = "config/create-client.toml"
-hash = "a24ca52e9c93885f97f5cea636b5f34fc7be72d800b20aee21ad4e9bc10b97dc"
+hash = "7ef8dc861bc49bbe6385a2d65826c3abb4e88b953e3947f21dc2f05b8d1eb29d"
 
 [[files]]
 file = "config/create_submarine-client.toml"
-hash = "8876263a73287c1a3b103858d1d1f0d682dc3e224902044697908cbf1f52f56c"
+hash = "82cef6ee04ca8071c80113167bd2331dbf74bbfb06506b4dde6c32546b98905c"
 
 [[files]]
 file = "config/cumulus_menus-client.toml"
 hash = "63515bffd023b9bfff8f54db7d180f12ec53062255d9e290ed0c3a1ae51450ed"
+
+[[files]]
+file = "config/defaultoptions/options.txt"
+hash = "a716b010cded5c2fd43a48e8fb2a313d2d5c7aa5509d9eddeb9ecff0cb1427fa"
+
+[[files]]
+file = "config/eclipticseasons-client.toml"
+hash = "284612c78e847f71c3ad8c93b3f27b71791b95a03fb90d03fbc0f54080d8905f"
 
 [[files]]
 file = "config/eclipticseasons-common.toml"
@@ -89,6 +105,10 @@ file = "config/flimsytorches-common.toml"
 hash = "04cc5345c68e0e5622ab7fdfce75d1e607322e389e4e17b57b277173b27569a7"
 
 [[files]]
+file = "config/flywheel-client.toml"
+hash = "a13b02d1b3c93d69fd71671c8c4fd10bade9b320a7695ebb9a3180ea7663e6d7"
+
+[[files]]
 file = "config/hordes-client.toml"
 hash = "0b8d5ea96417a7674cbd8d64cefd724e5263ca7673e199bd96b9b3ac95272b19"
 
@@ -109,6 +129,10 @@ file = "config/incontrol/spawner.json"
 hash = "3f0366ad9435d2236ad56aaeafa04372c9eb94fcf658d6fb324d0e40ebc11779"
 
 [[files]]
+file = "config/iris.properties"
+hash = "eb4c72f6737a9c80e57445045729a969bb0bed4f4261c14ac07eebfd473a25f7"
+
+[[files]]
 file = "config/irons_restrictions-common.toml"
 hash = "135c5a81719235ce405070ed29b59b3844f2f26a07561a7e9b24c6db265d8f00"
 
@@ -117,12 +141,12 @@ file = "config/irons_ring_durability-common.toml"
 hash = "53e0862056da0a54afb157bbae0b9b5fc25718dd14b63be9b426878b9cb1f21a"
 
 [[files]]
-file = "config/jade/plugins.json"
-hash = "1e8434164f00f7524b4fb931c2552c317164e2617bda75904c02cc874552962d"
+file = "config/irons_spellbooks-client.toml"
+hash = "2815c968a560b87a8261ca624ba01f8982167afa6921c52f96da1bc28a499847"
 
 [[files]]
-file = "config/lambdynlights.toml"
-hash = "b832ba4307ce2454b508f4888c4e4f33b71c663083992f30f7aecd682bcb1787"
+file = "config/jade/plugins.json"
+hash = "1e8434164f00f7524b4fb931c2552c317164e2617bda75904c02cc874552962d"
 
 [[files]]
 file = "config/liams_ragdoll_revival-common.toml"
@@ -157,12 +181,8 @@ file = "config/nether remastered.toml"
 hash = "43b508ce487811c27ff6175e0aab22a8dd4b9565a44bfc6cdccffa209dce2881"
 
 [[files]]
-file = "config/notenoughanimations.json"
-hash = "b4857fc5663509f73d2423dc9903e75c4d1eef1ce838c3210fe15a7332ebb0a6"
-
-[[files]]
 file = "config/obscuria/aquamirae-client.toml"
-hash = "052a7c7dcd2003c1eaf95b5750199584897fdd5e7c1f3d544e44e0bfe26778be"
+hash = "856fb93719215ddb9a2625732fb2042fc99ee8da9bc5230e8090907d7a7805b7"
 
 [[files]]
 file = "config/obscuria/aquamirae-common.toml"
@@ -182,101 +202,15 @@ hash = "95b9125baae3805e22c852b1105e965980c3c9d2bdb7bdbe2ca8c77444c403d6"
 
 [[files]]
 file = "config/particle_core_config.toml"
-hash = "a12a91bce2492e08a9131cd8cf980f74c551f3bc2d8e7cf9d470f93b5864cb3c"
+hash = "031bbfa54e34701fb2076289595c07d7be39170c2227e731e48c351889acc764"
 
 [[files]]
 file = "config/paxi-neoforge-1_21.toml"
 hash = "93e6db1672e3a55fd77265c85a394a691a3206c7a49637fa42dc5b9853f51f86"
 
 [[files]]
-file = "config/paxi/resourcepack_load_order.json"
-hash = "f7b0b9a3e4c35f9360fa0ffba2d7d8dc64b30612556aed95b5d8a1ac8bfdea37"
-
-[[files]]
-file = "config/paxi/resourcepacks/Torches x Punchy.zip"
-hash = "f9abf25ee5aa87698a59c92de4a093598c5b2b47d82913fd1f15b3228e86fd56"
-
-[[files]]
-file = "config/paxi/resourcepacks/aether-regenerated.pw.toml"
-hash = "ba4187846b392f31c59c032e83e46644af7e5cfd1529c4c10a28beac3448fde2"
-metafile = true
-
-[[files]]
-file = "config/paxi/resourcepacks/aures-medieval-style-lootr.pw.toml"
-hash = "2f38aed008a57219d6b218d9c574341e2a3af472b77543f748e637750b1bb079"
-metafile = true
-
-[[files]]
-file = "config/paxi/resourcepacks/beautiful-enchanted-books.pw.toml"
-hash = "f95fcabcaee7588dcebbced4017083a1633afefc04c8c1612a0d7ac335d28d54"
-metafile = true
-
-[[files]]
-file = "config/paxi/resourcepacks/better-leaves.pw.toml"
-hash = "c26f8da8b6f013fb7e917e29fc6ae783eb379c539da12d9d61196bc762fd26e1"
-metafile = true
-
-[[files]]
-file = "config/paxi/resourcepacks/drigo-3d-lanterns-x-punchy.pw.toml"
-hash = "b76db6ae5b94ad509c10165373bd1e98220b4fd5bb838eddcad700a1bae5fea4"
-metafile = true
-
-[[files]]
-file = "config/paxi/resourcepacks/fa-player-extension.pw.toml"
-hash = "b10943dd0c7472c8782d27e1239a851dfa41ee21608dff9207b84c0a81b56e20"
-metafile = true
-
-[[files]]
-file = "config/paxi/resourcepacks/fancy-crops.pw.toml"
-hash = "0cb5fc8c29fb99530cc20e013347558e198a686420aaf996fa03b9e23fa291dd"
-metafile = true
-
-[[files]]
-file = "config/paxi/resourcepacks/fresh-animations.pw.toml"
-hash = "542220c06477ee4ca5797b53f941de4f4128f71080298d92ad2a0fa9a8489fbb"
-metafile = true
-
-[[files]]
-file = "config/paxi/resourcepacks/hyper-punchy.pw.toml"
-hash = "256ad012f8f0dfac102b46dae47d2cf14185b6a866578692f8f6e96b95364019"
-metafile = true
-
-[[files]]
-file = "config/paxi/resourcepacks/just-3d-potions-punchy-1.21-backport.pw.toml"
-hash = "021ae438967967d660eea8f341c81d3b59dd88d49769a1e68c4136bd42f4701d"
-metafile = true
-
-[[files]]
-file = "config/paxi/resourcepacks/neta.pw.toml"
-hash = "40817ac42c4b4c25a9b579c0dda4a456e5e66614353711ff140bc65d44ddfe3b"
-metafile = true
-
-[[files]]
-file = "config/paxi/resourcepacks/os-colorful-grasses.pw.toml"
-hash = "f917f523f840a66d9cab3a98ab9dce9c17dd9e5fa7be13cccc4c2da4a020cd29"
-metafile = true
-
-[[files]]
-file = "config/paxi/resourcepacks/punchy-compatibility.pw.toml"
-hash = "33d1a651f5347efaae534c1314a184d5531e939f23330bf58da8cbe0236e572e"
-metafile = true
-
-[[files]]
-file = "config/paxi/resourcepacks/universal-bushy-leaves.pw.toml"
-hash = "35e316a0b3d9076db048ff8ffd36acd016d33f4dca14035abb3e851bdbeb91bf"
-metafile = true
-
-[[files]]
 file = "config/pmweather-server.toml"
 hash = "ecbf4c205c059603d5032d54c75ffeef63ee7e5a01460eb9db742de2c45254ac"
-
-[[files]]
-file = "config/punchy/punchy_config.json"
-hash = "fed178c2752554084a861f69db42b1c236632230d9cc2451eda7c700bee45a79"
-
-[[files]]
-file = "config/punchy_config.json"
-hash = "fed178c2752554084a861f69db42b1c236632230d9cc2451eda7c700bee45a79"
 
 [[files]]
 file = "config/quark-common.toml"
@@ -299,16 +233,16 @@ file = "config/sable_beyond/other.json"
 hash = "95b9125baae3805e22c852b1105e965980c3c9d2bdb7bdbe2ca8c77444c403d6"
 
 [[files]]
-file = "config/seeu-client.json"
-hash = "47ce0829199dd60876f1371a93c6e3534d927d55ce2b95d11418fddfb9db8305"
-
-[[files]]
 file = "config/servercore/config.yml"
 hash = "77b6ea2b491a838d4f4c691d18e4f50de27d3ba393bb0739b425c606927ba1a5"
 
 [[files]]
 file = "config/shieldexp-common.json"
 hash = "7f9e50948cd8186c92ce42c67abac840454720fd047db66de24ccd0498c55871"
+
+[[files]]
+file = "config/simpleblood-client.toml"
+hash = "338050f81c0e2f9797d3ab5258ff888bf9a05fcad727c8be208e70bc02c37a13"
 
 [[files]]
 file = "config/simplyswords/general.json5"
@@ -323,8 +257,12 @@ file = "config/simplytooltips/config.toml"
 hash = "8d841088fcf91c96c3c4bff112f604961129c55687906fa0e8fd3968cc45002a"
 
 [[files]]
-file = "config/sound_physics_remastered/soundphysics.properties"
-hash = "92c20ef5a34d83e4df6c35bce72e69abb5721e4010a2e99d2274ec46ffdd5df5"
+file = "config/sodium-extra-options.json"
+hash = "d8fa25060b6d738ec29ba2383678b0f234e89d7e3d1e0d3bf4ff7ba1f4a05182"
+
+[[files]]
+file = "config/sodium-options.json"
+hash = "6490f307a642feb58bda335e291e90371e1862a5f864956236720d5338e31e10"
 
 [[files]]
 file = "config/sparsestructures.json5"
@@ -336,7 +274,7 @@ hash = "7225ac690b707a1fd0436e9cb13ea52a144d6ae8f1b245eb8d704cd00498f10d"
 
 [[files]]
 file = "config/supplementaries-client.toml"
-hash = "fcbff2c28c3ae0282ce1805e43e495bc76a9cb7d6bcd930bbc5dc31839cfd2e6"
+hash = "4aacf3a569e3e6b960214b88335e621042aa122b1aad72f8b786577cdb1993c5"
 
 [[files]]
 file = "config/supplementaries-common.toml"
@@ -363,8 +301,8 @@ file = "config/voicechat/voicechat-server.properties"
 hash = "fc6f28e3ac52bb24cacb406b68660b235b1e861b7a44cbdaded206f47f52d273"
 
 [[files]]
-file = "config/wakes-client.toml"
-hash = "51f2c4e7d90673329adddfff7e4b65e97bbd925cf93fb9578e83d55a66e769d3"
+file = "config/weaponmaster_ydm-common.toml"
+hash = "55114c3fa6c38342e5b8ced699725669b3039bd1574756a920aafe93536e3752"
 
 [[files]]
 file = "datapacks/Aquatic Worldgen Cleanup/data/hybrid_aquatic/tags/worldgen/biome/has_whale_fall.json"
@@ -2395,11 +2333,6 @@ file = "kubejs/server_scripts/underground_damage_scaling.js"
 hash = "1a9fab53853efd3faaa81edfacda5b918744acdeb3c8a9f209802d732a7c1284"
 
 [[files]]
-file = "mods/3dskinlayers.pw.toml"
-hash = "2dc498bd8a43a8e02fc9d08fe5846ac17f6eabbecbf38ae39aa7b1f23fe100b0"
-metafile = true
-
-[[files]]
 file = "mods/accessories-compat-layer.pw.toml"
 hash = "b77da93300cfb9a239aa33ad731f9672ae3c74d3218aa149df89449962cb8594"
 metafile = true
@@ -2422,11 +2355,6 @@ metafile = true
 [[files]]
 file = "mods/aeronautics-camera-sync.pw.toml"
 hash = "ccd0a3a090f99cec2d34923a8d69f103fb845ae3a40595079c24839c523a1801"
-metafile = true
-
-[[files]]
-file = "mods/aether-emissivity.pw.toml"
-hash = "71b37e848b677dccc17c05a6a68a0a52f45d055a9f1e168d277946569bbb8a36"
 metafile = true
 
 [[files]]
@@ -2673,11 +2601,6 @@ hash = "b0c2ee7a02cba23cd306b324f158518264868cd3b1542346bf325e25f76d41a2"
 metafile = true
 
 [[files]]
-file = "mods/create-emf-compat-skyhook.pw.toml"
-hash = "e9077163c023577cb6a75c826ab59322ea254f79c14377acf65fdace67145253"
-metafile = true
-
-[[files]]
 file = "mods/create.pw.toml"
 hash = "dcaf5f2e28db0b9a127d0167456832341045ddc9aec058c3d9fcf53f618d2404"
 metafile = true
@@ -2715,11 +2638,6 @@ metafile = true
 [[files]]
 file = "mods/default-options.pw.toml"
 hash = "a6967d761dde867ccc1af53dc9f4e530eb9917a9cb21d0fc15708e8cd2c0f2ba"
-metafile = true
-
-[[files]]
-file = "mods/distanthorizons.pw.toml"
-hash = "0c20fea3407ed0db85b4b171f1820a24987f2659946fadd30bae044205041b09"
 metafile = true
 
 [[files]]
@@ -2786,36 +2704,6 @@ hash = "0bbff54ae0d129189ad18617db87983212b0008eb9f28e97e1965b1a2d8d770b"
 metafile = true
 
 [[files]]
-file = "mods/effectual.pw.toml"
-hash = "700b8d54eda75304ed1461c921d2288b2e801fd9c9e1bada315bea1fcc062bd2"
-metafile = true
-
-[[files]]
-file = "mods/emf-compat-better-combat.pw.toml"
-hash = "7f2118f60904c179c941d1fc7e36a134fe92d3bc99664fddd9e858d217737fc8"
-metafile = true
-
-[[files]]
-file = "mods/emf-compat-core.pw.toml"
-hash = "5555883fc0a729e59400db0e21ad9879f55d1416b284435253e6be88ee913e63"
-metafile = true
-
-[[files]]
-file = "mods/emf-compat-irons-spells-n-spellbooks.pw.toml"
-hash = "9492fd9176367e82fe4e0411d83d5782a19d584e42dd3288088788f0ccd19d4e"
-metafile = true
-
-[[files]]
-file = "mods/emf-compat-quark.pw.toml"
-hash = "b2fe4693dedcd07658e4c1969af27f442f1aecb08412a4e4fd8a410ced476558"
-metafile = true
-
-[[files]]
-file = "mods/emf-compat-supplementaries.pw.toml"
-hash = "a57ac3d792d6b8da8f404cd416a365e3465d98b5c78280815d31f2845b1560e6"
-metafile = true
-
-[[files]]
 file = "mods/enchantment-descriptions.pw.toml"
 hash = "88b9e727611f06350c407aeb4ccb41207b5058fef127abe0ff24c13505618aaf"
 metafile = true
@@ -2846,18 +2734,8 @@ hash = "70f586b80beb657a8676b1147b1b96c4abd0aa421c819aa138038e082c41bc4d"
 metafile = true
 
 [[files]]
-file = "mods/entity-model-features.pw.toml"
-hash = "c875585a3269432ba23b379665cb287bd88517c7dbc1a22d0b5df9294f0a2ba4"
-metafile = true
-
-[[files]]
 file = "mods/entityculling.pw.toml"
 hash = "426238488c9ffd843f661f8bc74aa8e585fa6b4d342c43c4ba4cb8451298b725"
-metafile = true
-
-[[files]]
-file = "mods/entitytexturefeatures.pw.toml"
-hash = "37ae0fc372cc387710fb7cb525f79a405e88f9e88786f83c1e0834e127997d35"
 metafile = true
 
 [[files]]
@@ -3124,11 +3002,6 @@ hash = "f262b49b1038ef9f67704e0629da6aafa84cf4f760273589f5d73530ca5d74b5"
 metafile = true
 
 [[files]]
-file = "mods/lambdynamiclights.pw.toml"
-hash = "ebf0dae777cc19c354a662dc8144009dff7269b2d05624b4591fcb7de56fc14e"
-metafile = true
-
-[[files]]
 file = "mods/liams-corpse-controls-1.0.0.jar"
 hash = "05da0498ed9a0ccea95981c65669432efa098f9f4924a061002effc0342ca586"
 
@@ -3147,11 +3020,6 @@ hash = "e4a5b75cd01c67134f1788c8cb08365430bedf263d99c937caf9d9d7b35a56b4"
 [[files]]
 file = "mods/liams-torch-compat-1.0.1.jar"
 hash = "b9aeb39d98d211fecc52955db217a6dad8aba5b85e26f8ce2b2612e177eff4dc"
-
-[[files]]
-file = "mods/libjf.pw.toml"
-hash = "154c4ee948271ee8521758eaa135b3b42ce587a555f0acb2016e8315094afd8d"
-metafile = true
 
 [[files]]
 file = "mods/lionfish-api.pw.toml"
@@ -3254,16 +3122,6 @@ hash = "6bf1d0355898b8ac17d0b8546f3799a6eeef80dadd2570a5c3b6524ebc1335bb"
 metafile = true
 
 [[files]]
-file = "mods/not-enough-animations-emf-compat.pw.toml"
-hash = "c8aed774579c58e6cef4ea8fd4831385e35afab512bb9837032dcdfd26b65ce1"
-metafile = true
-
-[[files]]
-file = "mods/not-enough-animations.pw.toml"
-hash = "e0f1cef5482844e62c6fc3c7771fc9ef8385c47092248f76aa1fa271220b24e8"
-metafile = true
-
-[[files]]
 file = "mods/oceans-delight.pw.toml"
 hash = "7bf7c8369bd28212a1e294c60310ccb72f1eb773630970e6ab106ae666766cd3"
 metafile = true
@@ -3294,11 +3152,6 @@ hash = "62d7231bec1dde8ff674068adec4e8fe2e11a4667d04cfffbc9248cbb2bf685a"
 metafile = true
 
 [[files]]
-file = "mods/pf-neoforge.pw.toml"
-hash = "1ef7ce6d5fe6e584914680f5463508996f0dd1c2bdbc051b8b3b050c85e134ff"
-metafile = true
-
-[[files]]
 file = "mods/placebo.pw.toml"
 hash = "d94791108548d174758d587440c656f1a56884083fa3151bf90b515126482435"
 metafile = true
@@ -3316,11 +3169,6 @@ metafile = true
 [[files]]
 file = "mods/prickle.pw.toml"
 hash = "c99c5bac469e8d6ece5aae80f08635e3bbb8367f0c586b6288573c725faefe69"
-metafile = true
-
-[[files]]
-file = "mods/punchy-fpa.pw.toml"
-hash = "253e843caefaf2ddb7b5d18ea5198904ed1a2e913a9d29dc577c8e0a82f4948b"
 metafile = true
 
 [[files]]
@@ -3381,11 +3229,6 @@ hash = "c0b066684294c33972d562e0cb08ea17b2d31bcf86cd1d6c63b8e968f0eac7a2"
 metafile = true
 
 [[files]]
-file = "mods/respackopts.pw.toml"
-hash = "90b9919bbe87b80bb3274228d6543adb328a51753b0741f6ea4d98441f268983"
-metafile = true
-
-[[files]]
 file = "mods/respawning-animals.pw.toml"
 hash = "3e88d197a1ef48696cee4a7691155b50c27b8dd3bf14a1872780918e2362a4be"
 metafile = true
@@ -3433,11 +3276,6 @@ metafile = true
 [[files]]
 file = "mods/sable_player_ragdoll-1.21.1-0.7.5-rider-fix.jar"
 hash = "31faa6088a07a711211ea9c39ea4fb3013a216c2d4012ffda373ef41a7f1b9f7"
-
-[[files]]
-file = "mods/seeu.pw.toml"
-hash = "a3e30ab9b72e9a0c1309e81ae67e01dbedd317d9580bf4b4d2f0c6e6b3e09628"
-metafile = true
 
 [[files]]
 file = "mods/servercore.pw.toml"
@@ -3490,11 +3328,6 @@ hash = "71380603547e4339a5bcb8ffebc33ac05ca7b41d98b2201f2c8beb4dd2b0eb45"
 metafile = true
 
 [[files]]
-file = "mods/sound-physics-remastered.pw.toml"
-hash = "6727704e22c27be46fc08859f94dd0061cecf27ed2a7451c5bc1a0bdf50edbe5"
-metafile = true
-
-[[files]]
 file = "mods/spark.pw.toml"
 hash = "593fa7b30ab016aa45be07bd6bef3a9f160ed0f24689850d60bf84995d69b843"
 metafile = true
@@ -3522,11 +3355,6 @@ metafile = true
 [[files]]
 file = "mods/spider-overhaul.pw.toml"
 hash = "b3067f888940c076f229228193ac3b7b3925d57503929ca9e6af9032a6d65e51"
-metafile = true
-
-[[files]]
-file = "mods/ssrd.pw.toml"
-hash = "4a4c0c54b3b38ac660b9c06d8dc8e51ed3e2efc6dd94ad3e807a48146a420873"
 metafile = true
 
 [[files]]
@@ -3585,11 +3413,6 @@ hash = "1f504618f369b7e151045c08a46339f4afa912de4288f895df210e3a77076744"
 metafile = true
 
 [[files]]
-file = "mods/touch-and-motion.pw.toml"
-hash = "0e6d8a62f8e43f5c8375fcd0bf68f91569c67a85e96839fe0e3f7a8cacb97028"
-metafile = true
-
-[[files]]
 file = "mods/trulydark-neoforge-1.21.1-2.1.0.jar"
 hash = "1947b964f7c2c36b1ef4d544f775877bcce5f97f3c501f2d1cf8f1802bdbf689"
 
@@ -3618,18 +3441,8 @@ file = "mods/voicechat-interaction-neoforge-1.0.0.jar"
 hash = "a2d539c08e558c35c27f3a0e5806048de2f29da6d4ab78018b95589f69f35d42"
 
 [[files]]
-file = "mods/wakes-reforged.pw.toml"
-hash = "8e464c45945b7311b01d0be50a714e8a64d389dc27331f4a27d7981fd29131b9"
-metafile = true
-
-[[files]]
 file = "mods/weaponmaster.pw.toml"
 hash = "6910872a2662cdc05acd0c3fb435855fe171c69629b68b2e72f69695e2428d4b"
-metafile = true
-
-[[files]]
-file = "mods/windy.pw.toml"
-hash = "487e2b84df68ee58c6ed681a709454dc518af310c143565e496d796c9300769b"
 metafile = true
 
 [[files]]

@@ -2,8 +2,8 @@
 version = 1
 disableParticles = false
 byTypeReductions = {  }
-maxParticlesPerSheet = 16384
-particleRenderDistanceMultiplier = 1.0
+maxParticlesPerSheet = 1024
+particleRenderDistanceMultiplier = 0.5
 asynchronousTicking = false
 reduceAllChance = 0.0
 reduceDecreasedChance = 0.0

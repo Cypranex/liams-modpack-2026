@@ -4,7 +4,7 @@
 	disableStartupScreens = true
 	#Coloured moving lights on the Sonar and the Industrial Alarm (Veil).
 	#Always off when Iris is installed: Veil cannot draw them next to Iris, even with shaders turned off.
-	veilLights = true
+	veilLights = false
 	#For photosensitive or epileptic players: the Industrial Alarm no longer throws its coloured flashing Veil light,
 	#only normal Minecraft light. Other Veil lights are not affected.
 	photosensitiveMode = true
