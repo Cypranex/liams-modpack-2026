@@ -825,7 +825,7 @@ hash = "e4bf5a07d051510070733bca5b775abe25be76832f0ffaf0c0fbd02262b7f090"
 
 [[files]]
 file = "datapacks/Fangs and Claws Persistent Animals/data/respawninganimals/tags/entity_type/persistent_animals.json"
-hash = "de82bc923f468fdd0b0cbc6ac2e071c6b658d0e022f5bcfa464a0a8d29f453d0"
+hash = "7025ccd8d40ddd2745b59aaa0e96aafb97aa324dbc369eb7040ce6e04851e2db"
 
 [[files]]
 file = "datapacks/Fangs and Claws Persistent Animals/pack.mcmeta"
