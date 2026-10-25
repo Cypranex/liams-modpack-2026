@@ -21,6 +21,10 @@ file = "config/apothic_attributes.cfg"
 hash = "ad5b8d5ca9e8562b3dcc5cc07bad7d27dc4ecb45b4c78b24c53f8e36798d7357"
 
 [[files]]
+file = "config/better_mob_combat_reimagined-server.toml"
+hash = "72b629edd6eca8cd30c9409382bd0e1de6316a7adbc77994a18c7d191f4c300f"
+
+[[files]]
 file = "config/betteradvancements-client.toml"
 hash = "5b965898d5b13c5557b603c68ed4ac79a4f850f3a7205eb3dbfc6116f2caf19a"
 
@@ -31,6 +35,14 @@ hash = "4cb57f82ffc75cf89eca62c93cd41df9b0d5241f2f67d118296e6650484878f1"
 [[files]]
 file = "config/bettermineshafts-neoforge-1_21.toml"
 hash = "deb28cda8a953f7c170c24cbcd42fbce7041f4bf38f3983b7bb369987184396b"
+
+[[files]]
+file = "config/bountiful/bountiful.json"
+hash = "bcbb63f8d18b1734d6d0f7bb32f4e1e35b7d2115de129ebb28e8888de9f72072"
+
+[[files]]
+file = "config/bountiful_contract_fairness/dimension_policy.json"
+hash = "f4b7a284c8fb18b2edc96d687eec43b5f75c7a194fe961c7af737e41bc9b97ac"
 
 [[files]]
 file = "config/caverns_and_chasms-client.toml"
@@ -99,6 +111,10 @@ hash = "3f0366ad9435d2236ad56aaeafa04372c9eb94fcf658d6fb324d0e40ebc11779"
 [[files]]
 file = "config/irons_restrictions-common.toml"
 hash = "135c5a81719235ce405070ed29b59b3844f2f26a07561a7e9b24c6db265d8f00"
+
+[[files]]
+file = "config/irons_ring_durability-common.toml"
+hash = "53e0862056da0a54afb157bbae0b9b5fc25718dd14b63be9b426878b9cb1f21a"
 
 [[files]]
 file = "config/jade/plugins.json"
@@ -317,7 +333,7 @@ hash = "92c20ef5a34d83e4df6c35bce72e69abb5721e4010a2e99d2274ec46ffdd5df5"
 
 [[files]]
 file = "config/sparsestructures.json5"
-hash = "dd966dfa854dc9036f2f341704ea858c8c85979b27c38d2816e11389d7363e65"
+hash = "b7bda4e98f68a8a7e8e12cb3890946181a3f2e5dde64c41d78853ab352fcdd18"
 
 [[files]]
 file = "config/spelunkers_charm-common.toml"
@@ -446,6 +462,22 @@ hash = "780b4eb050c25a2793d831f21d5eb5f41132e88bac018ecc687b71420acd0d5f"
 [[files]]
 file = "datapacks/Blood Moon Hordes/pack.mcmeta"
 hash = "90afbf3b0eed4b0ee5636c324438c7372e5c493dd2e2e25fd726621ca0211e7c"
+
+[[files]]
+file = "datapacks/CTOV Village Terrain Placement/README.md"
+hash = "216299c5a13996573fb098bc69559d8d0ceb9eec78fccf1fa455015d9a40a11a"
+
+[[files]]
+file = "datapacks/CTOV Village Terrain Placement/data/liams_village_placement/lithostitched/worldgen_modifier/ctov_medium_village.json"
+hash = "03de5c4d8094024d9f914205f0c59732e1a9ac7e6804c6186fa53caaa57b81e7"
+
+[[files]]
+file = "datapacks/CTOV Village Terrain Placement/data/liams_village_placement/lithostitched/worldgen_modifier/ctov_small_village.json"
+hash = "8e99cebb788bcfcea6289da57ef0e74f5fef93cb0b6499ed0840050fd731ff6a"
+
+[[files]]
+file = "datapacks/CTOV Village Terrain Placement/pack.mcmeta"
+hash = "d19581d9e52d705e8c3ad58a6f8e1265e1f1eed63843a72055fae181307e6470"
 
 [[files]]
 file = "datapacks/Deep Boulders/data/liams_modpack/neoforge/biome_modifier/add_deep_boulders.json"
@@ -822,6 +854,594 @@ hash = "7e63843de8eb949fe8a899c68cc0f2a4881738a0b81e73a76827aa81236b447e"
 [[files]]
 file = "datapacks/Hybrid Aquatic NeoForge Depth Disable/pack.mcmeta"
 hash = "e46f413ccb0a6739b6ef1ae10fab7b2f58b98d37052fb7dff0294eca67b0db75"
+
+[[files]]
+file = "datapacks/Liam's Adventuring Bounties/AGENTS.md"
+hash = "18b78f8f0e98004c6f5bece56deab65b216bf6b8f5fe7dfb80fa8af88bdf1512"
+
+[[files]]
+file = "datapacks/Liam's Adventuring Bounties/data/liams_bounties/bounty_decrees/liams_bounties/liams_boss_ancient_remnant.json"
+hash = "cff2d939f0263b08ced8a802ad754bb1e7ed4c175036567fad68a71daabb0964"
+
+[[files]]
+file = "datapacks/Liam's Adventuring Bounties/data/liams_bounties/bounty_decrees/liams_bounties/liams_boss_dead_king.json"
+hash = "402b2887b28835c61b0fbbeb54de64afbfbd895bf1c29d7938b1381c1ae3edab"
+
+[[files]]
+file = "datapacks/Liam's Adventuring Bounties/data/liams_bounties/bounty_decrees/liams_bounties/liams_boss_ender_guardian.json"
+hash = "4828db653f1109991cee7860b685f09ee56171d7455ac3781ef287037c738f16"
+
+[[files]]
+file = "datapacks/Liam's Adventuring Bounties/data/liams_bounties/bounty_decrees/liams_bounties/liams_boss_frostmaw.json"
+hash = "a02ba246a0e51000e752b8ddc791250431ea77241590faceeec4a40415cb8830"
+
+[[files]]
+file = "datapacks/Liam's Adventuring Bounties/data/liams_bounties/bounty_decrees/liams_bounties/liams_boss_harbinger.json"
+hash = "015aa1d6159172ce40ad4fdd385932e0df4e4a9c8bfa221f0178cdca36050630"
+
+[[files]]
+file = "datapacks/Liam's Adventuring Bounties/data/liams_bounties/bounty_decrees/liams_bounties/liams_boss_ignis.json"
+hash = "b303e2135d0bdc86fe1aafec424b77232cbb984f8353944b18bb18d74095c777"
+
+[[files]]
+file = "datapacks/Liam's Adventuring Bounties/data/liams_bounties/bounty_decrees/liams_bounties/liams_boss_leviathan.json"
+hash = "b4d370fbba7a9948dbf4fb48772cbbd22a52ed5acbae67031f95b9682880dd6e"
+
+[[files]]
+file = "datapacks/Liam's Adventuring Bounties/data/liams_bounties/bounty_decrees/liams_bounties/liams_boss_maledictus.json"
+hash = "e916c656f39d09778b04732b7225eefdbcca5a30932f6e3426c03514269ea289"
+
+[[files]]
+file = "datapacks/Liam's Adventuring Bounties/data/liams_bounties/bounty_decrees/liams_bounties/liams_boss_netherite_monstrosity.json"
+hash = "85a163243e6f5b334c3a49dce6c3434dfc593e21ceeb68ab87f6301623dc0242"
+
+[[files]]
+file = "datapacks/Liam's Adventuring Bounties/data/liams_bounties/bounty_decrees/liams_bounties/liams_boss_scylla.json"
+hash = "1c13af4296dbd99255aaf0ace635fce2a1a1b584a9da6f7e07c9b5b304987561"
+
+[[files]]
+file = "datapacks/Liam's Adventuring Bounties/data/liams_bounties/bounty_decrees/liams_bounties/liams_boss_wroughtnaut.json"
+hash = "a14288f60c1dbe6ed178387a52812f34089222a25cc43ff640145bc50f4a8372"
+
+[[files]]
+file = "datapacks/Liam's Adventuring Bounties/data/liams_bounties/bounty_decrees/liams_bounties/liams_buried_kingdoms.json"
+hash = "81a24ab8d437233a6ed706af1a3a92406cb7ce2ce4150e327515f61a6ccb2d49"
+
+[[files]]
+file = "datapacks/Liam's Adventuring Bounties/data/liams_bounties/bounty_decrees/liams_bounties/liams_caster_adepts.json"
+hash = "80ca2b6a4142cb66078a616384e09fa0f2ed2244eddafdc1358342b4a5b405d7"
+
+[[files]]
+file = "datapacks/Liam's Adventuring Bounties/data/liams_bounties/bounty_decrees/liams_bounties/liams_cavern_watch.json"
+hash = "21f6a90c51ea304d744a93e502bbbedff06ef0aa0d1cd7900153fded3b6d74dd"
+
+[[files]]
+file = "datapacks/Liam's Adventuring Bounties/data/liams_bounties/bounty_decrees/liams_bounties/liams_cellar_stores.json"
+hash = "bfa9a4fab9c2f712450800e6777b5e2320099562079dbea1361cdfa1cb45559a"
+
+[[files]]
+file = "datapacks/Liam's Adventuring Bounties/data/liams_bounties/bounty_decrees/liams_bounties/liams_coastal_anglers.json"
+hash = "6ad96a260818be80975b898aae68899b4572109415186a76fc65224a5568088a"
+
+[[files]]
+file = "datapacks/Liam's Adventuring Bounties/data/liams_bounties/bounty_decrees/liams_bounties/liams_coastal_kitchens.json"
+hash = "a6ba8208bd0b3a286b7bbf610f2734224396c5354df0c2da765298e58a7fb302"
+
+[[files]]
+file = "datapacks/Liam's Adventuring Bounties/data/liams_bounties/bounty_decrees/liams_bounties/liams_drowned_chapels.json"
+hash = "fe694de7d4532239bb11b2424c21be3b81e50f7f755e7d83630aeaf87ef9a0ea"
+
+[[files]]
+file = "datapacks/Liam's Adventuring Bounties/data/liams_bounties/bounty_decrees/liams_bounties/liams_end_botanists.json"
+hash = "097a6b47fe97ce4acbb7e4773ef9d6e89c202e8d3baa39f6443b6c5116ef1648"
+
+[[files]]
+file = "datapacks/Liam's Adventuring Bounties/data/liams_bounties/bounty_decrees/liams_bounties/liams_end_reclamation.json"
+hash = "ffb458491f059eb54e073d5fbbbe31db401a26761c06d44c4d2771f6af918d94"
+
+[[files]]
+file = "datapacks/Liam's Adventuring Bounties/data/liams_bounties/bounty_decrees/liams_bounties/liams_end_supper.json"
+hash = "f70d3edbd554776ea3de54834a476eb756d95a0f7be13036716bc0a6990e3386"
+
+[[files]]
+file = "datapacks/Liam's Adventuring Bounties/data/liams_bounties/bounty_decrees/liams_bounties/liams_expedition_chest.json"
+hash = "2c7f9c8a81ad5fd81f7de26d2551e864b2a2c5e02293ff7f1fd1586f87e42ae3"
+
+[[files]]
+file = "datapacks/Liam's Adventuring Bounties/data/liams_bounties/bounty_decrees/liams_bounties/liams_field_and_loom.json"
+hash = "74b8eed71fb2012997a741215c6fbe335f3e0212fdb7198bd8cee0008607c60b"
+
+[[files]]
+file = "datapacks/Liam's Adventuring Bounties/data/liams_bounties/bounty_decrees/liams_bounties/liams_ghost_hunters.json"
+hash = "7c398572529c86cbe3a3d543978dd3f3261ef2df74c79c8e6a31d6f3c867696b"
+
+[[files]]
+file = "datapacks/Liam's Adventuring Bounties/data/liams_bounties/bounty_decrees/liams_bounties/liams_hauntings.json"
+hash = "13be52e9826ae91b21c72ecfad9fa5bc737d170ad8668b165eb496caa29e39c2"
+
+[[files]]
+file = "datapacks/Liam's Adventuring Bounties/data/liams_bounties/bounty_decrees/liams_bounties/liams_icebound_salvagers.json"
+hash = "1576cca7648f8012fe2a36acf848bd7876975b24fe91cefb01de0e3585a9a763"
+
+[[files]]
+file = "datapacks/Liam's Adventuring Bounties/data/liams_bounties/bounty_decrees/liams_bounties/liams_koboleton_hunters.json"
+hash = "26a01da72b7efd69b9b7ad6676d61783db916dc3690cd9141430b2a2bd42254f"
+
+[[files]]
+file = "datapacks/Liam's Adventuring Bounties/data/liams_bounties/bounty_decrees/liams_bounties/liams_marsh_gatherers.json"
+hash = "69d1b560581c267367f4cac5455be6b8fdeedac10a62e6eb23903b69229d7e22"
+
+[[files]]
+file = "datapacks/Liam's Adventuring Bounties/data/liams_bounties/bounty_decrees/liams_bounties/liams_millwrights.json"
+hash = "aa719b77c0b24836054eb3b916fe6039c63b2813cf7e02a50b01b9579a392744"
+
+[[files]]
+file = "datapacks/Liam's Adventuring Bounties/data/liams_bounties/bounty_decrees/liams_bounties/liams_naga_hunters.json"
+hash = "491f26397f456bb9507f6693f4d5d4bfe5658e11f63408c697ebc2221e1a9fd5"
+
+[[files]]
+file = "datapacks/Liam's Adventuring Bounties/data/liams_bounties/bounty_decrees/liams_bounties/liams_nether_herbalists.json"
+hash = "004368e3d016bc19baa0568b06581ff2ecefbd75e193ce90dd87eeca190cad8a"
+
+[[files]]
+file = "datapacks/Liam's Adventuring Bounties/data/liams_bounties/bounty_decrees/liams_bounties/liams_nether_provisions.json"
+hash = "9124dcc89bb646e3d58cf28f8fb2f236a890d84ef5cc0c724d05dfda78af8a47"
+
+[[files]]
+file = "datapacks/Liam's Adventuring Bounties/data/liams_bounties/bounty_decrees/liams_bounties/liams_ogre_country.json"
+hash = "ae209f80cf3cd674929cfba37126688e0d42dd71b8bf60de7ec0b087f84ff651"
+
+[[files]]
+file = "datapacks/Liam's Adventuring Bounties/data/liams_bounties/bounty_decrees/liams_bounties/liams_orchard_gleaners.json"
+hash = "95ed56366394186effe9d62a7ffe43e6ba0287c78b13ddf992d48620901a6dd6"
+
+[[files]]
+file = "datapacks/Liam's Adventuring Bounties/data/liams_bounties/bounty_decrees/liams_bounties/liams_powder_watch.json"
+hash = "431b059ccea66cb52cad6003bbfd6859b2369da20bcf5fb11869564d0445a073"
+
+[[files]]
+file = "datapacks/Liam's Adventuring Bounties/data/liams_bounties/bounty_decrees/liams_bounties/liams_raidbreakers.json"
+hash = "da414ef627c7db025aeb5f35efd0d1f2dc3f5521400085ff3ed81e831d92d738"
+
+[[files]]
+file = "datapacks/Liam's Adventuring Bounties/data/liams_bounties/bounty_decrees/liams_bounties/liams_restoration.json"
+hash = "bf28766a97e478703b2c751ef1d62f5fbd0b2dffcde3aa11549fc016cf502ad5"
+
+[[files]]
+file = "datapacks/Liam's Adventuring Bounties/data/liams_bounties/bounty_decrees/liams_bounties/liams_river_market.json"
+hash = "722639245dbc6d8da071e37a9ab6bf6c209ecb9dc3400e63abbecacae227345a"
+
+[[files]]
+file = "datapacks/Liam's Adventuring Bounties/data/liams_bounties/bounty_decrees/liams_bounties/liams_roadwardens.json"
+hash = "46f605c1240b5ba5a415487d2286899f691621c3bc62992e2f89f168b6c0b52d"
+
+[[files]]
+file = "datapacks/Liam's Adventuring Bounties/data/liams_bounties/bounty_decrees/liams_bounties/liams_rogue_arcanists.json"
+hash = "70a3990aa38e6d372e668a45d79895e07b8f9a78973f7013750c19f3500d76b9"
+
+[[files]]
+file = "datapacks/Liam's Adventuring Bounties/data/liams_bounties/bounty_decrees/liams_bounties/liams_settlement_patrol.json"
+hash = "bba0a8fdd222df00926c833ab314ac021607acc294755735dc3227907bdc695a"
+
+[[files]]
+file = "datapacks/Liam's Adventuring Bounties/data/liams_bounties/bounty_decrees/liams_bounties/liams_skyroot_kitchen.json"
+hash = "5cfe1112d3e4af6fb6d67b3c5b6785d178bb55a2081db4c3eeeb75fe7f1b1949"
+
+[[files]]
+file = "datapacks/Liam's Adventuring Bounties/data/liams_bounties/bounty_decrees/liams_bounties/liams_skyward_watch.json"
+hash = "95f4a49174f866fb66a8a31303802258218e166aa1b3acabdd603183875f7c20"
+
+[[files]]
+file = "datapacks/Liam's Adventuring Bounties/data/liams_bounties/bounty_decrees/liams_bounties/liams_stone_survey.json"
+hash = "02720e926801de2462d5fdf5654c01c872f5844cc1449fba8ae0e8d4bae1cb60"
+
+[[files]]
+file = "datapacks/Liam's Adventuring Bounties/data/liams_bounties/bounty_decrees/liams_bounties/liams_stonemasons.json"
+hash = "4765c10898331359fd13cd75606930963cbebc074ddf30839bdab1eba2d18a31"
+
+[[files]]
+file = "datapacks/Liam's Adventuring Bounties/data/liams_bounties/bounty_decrees/liams_bounties/liams_storm_garden.json"
+hash = "6068efe6594132e7a235b16432a4b7ca13d49b88d38546c86f4fffb5da451fab"
+
+[[files]]
+file = "datapacks/Liam's Adventuring Bounties/data/liams_bounties/bounty_decrees/liams_bounties/liams_tavern_orders.json"
+hash = "45ca026842caa2bcead02de93fb3ed0b555ea7bd5df7c89ce2d910952ae097f9"
+
+[[files]]
+file = "datapacks/Liam's Adventuring Bounties/data/liams_bounties/bounty_decrees/liams_bounties/liams_village_crafts.json"
+hash = "4d49f216c156448cd30407960e9420755fdce235bf63778972bb884db44299ff"
+
+[[files]]
+file = "datapacks/Liam's Adventuring Bounties/data/liams_bounties/bounty_decrees/liams_bounties/liams_village_pantry.json"
+hash = "0886736a81e7a254cefe15c85f8ee78d66e3f4e1f4f2542edaa27f6e535511a7"
+
+[[files]]
+file = "datapacks/Liam's Adventuring Bounties/data/liams_bounties/bounty_decrees/liams_bounties/liams_webwardens.json"
+hash = "13152acd8ed84818aaca6f4ba6c98ad541386ca622c7f9be00af6f809b9db5dc"
+
+[[files]]
+file = "datapacks/Liam's Adventuring Bounties/data/liams_bounties/bounty_decrees/liams_bounties/liams_wildwood_threats.json"
+hash = "a11025789dd41ba0c08923437d554912975dcf2d6132a21f08c4dbc2187babf9"
+
+[[files]]
+file = "datapacks/Liam's Adventuring Bounties/data/liams_bounties/bounty_decrees/liams_bounties/liams_witchlight_scriveners.json"
+hash = "673870ef0f65effa35666acbda72a21ddb93ecc3fff62dce9a3014e329a98f43"
+
+[[files]]
+file = "datapacks/Liam's Adventuring Bounties/data/liams_bounties/bounty_decrees/liams_bounties/liams_woodcarvers.json"
+hash = "dac73f20d3bc06671886464dc02bce49fc483e1c2d92af3a7abafc80252a5edb"
+
+[[files]]
+file = "datapacks/Liam's Adventuring Bounties/data/liams_bounties/bounty_pools/liams_bounties/liams_aether_botany_rewards.json"
+hash = "c6caaef549c4538338ae886ed823628798544e3214b9874800ca962b2851467b"
+
+[[files]]
+file = "datapacks/Liam's Adventuring Bounties/data/liams_bounties/bounty_pools/liams_bounties/liams_aether_hunts_rewards.json"
+hash = "ca9511b4ab9bf4692a29cafcf3b47cc0d62aadce1d8888b9abbc336c3f20d9a3"
+
+[[files]]
+file = "datapacks/Liam's Adventuring Bounties/data/liams_bounties/bounty_pools/liams_bounties/liams_aether_provisions_rewards.json"
+hash = "bf128432cbcb077060f8c2259af8af78202bc8d0974a1f742df5e3e1502995f9"
+
+[[files]]
+file = "datapacks/Liam's Adventuring Bounties/data/liams_bounties/bounty_pools/liams_bounties/liams_arcane_mid_rewards.json"
+hash = "0b4a5a44ccc6c9debe3911080730f2c25132e35a00c0fe77ea59954e8113b3e9"
+
+[[files]]
+file = "datapacks/Liam's Adventuring Bounties/data/liams_bounties/bounty_pools/liams_bounties/liams_boss_ancient_remnant_objectives.json"
+hash = "f3d221486ad3e27f5ed7e16a9b8bd54521ae67beb2503c17d52513ddcab240e0"
+
+[[files]]
+file = "datapacks/Liam's Adventuring Bounties/data/liams_bounties/bounty_pools/liams_bounties/liams_boss_ancient_remnant_rewards.json"
+hash = "5699c7449a1482721c787995a7d56229cfe4a04953978fb4518bd0ec293494e4"
+
+[[files]]
+file = "datapacks/Liam's Adventuring Bounties/data/liams_bounties/bounty_pools/liams_bounties/liams_boss_dead_king_objectives.json"
+hash = "3af9956ae88eb05c28ca6ed1ddaa7dd639caf905dea123d324f474be37bd0a41"
+
+[[files]]
+file = "datapacks/Liam's Adventuring Bounties/data/liams_bounties/bounty_pools/liams_bounties/liams_boss_dead_king_rewards.json"
+hash = "461dc958f2f78fff201fb88a1d99f551ec0bfcdc5d3ed330163d55a231d453e0"
+
+[[files]]
+file = "datapacks/Liam's Adventuring Bounties/data/liams_bounties/bounty_pools/liams_bounties/liams_boss_ender_guardian_objectives.json"
+hash = "1962012f86a6444f7ddc32690aeebf8fb744fadfeb282b1ff54ff8c99c7df0f3"
+
+[[files]]
+file = "datapacks/Liam's Adventuring Bounties/data/liams_bounties/bounty_pools/liams_bounties/liams_boss_ender_guardian_rewards.json"
+hash = "1d5a9baa5c11b9a4f910430a9f0f3637e510633cf7584b8922201e60fbcbbeb0"
+
+[[files]]
+file = "datapacks/Liam's Adventuring Bounties/data/liams_bounties/bounty_pools/liams_bounties/liams_boss_frostmaw_objectives.json"
+hash = "145c965564a73055039ac08a34dbabc29f7c53adb40d7eef5d34d7e624f470b3"
+
+[[files]]
+file = "datapacks/Liam's Adventuring Bounties/data/liams_bounties/bounty_pools/liams_bounties/liams_boss_frostmaw_rewards.json"
+hash = "a6dd313c235e64678fce4ef6b00e910c81e18470a8d5464cb4c538406aae6eb4"
+
+[[files]]
+file = "datapacks/Liam's Adventuring Bounties/data/liams_bounties/bounty_pools/liams_bounties/liams_boss_harbinger_objectives.json"
+hash = "d315a6ecc64f664508969cb37c6e3f5dda5d6692a9afd3c0b3b8dd2bf238039e"
+
+[[files]]
+file = "datapacks/Liam's Adventuring Bounties/data/liams_bounties/bounty_pools/liams_bounties/liams_boss_harbinger_rewards.json"
+hash = "483e5a2ab54e62179ce22d8ae68d72404dae7652184296d8d0f2fa206f93e36c"
+
+[[files]]
+file = "datapacks/Liam's Adventuring Bounties/data/liams_bounties/bounty_pools/liams_bounties/liams_boss_ignis_objectives.json"
+hash = "568b559c4cd038d23bfe0b46f43acf7e35de59608479d82a7078f352c0767877"
+
+[[files]]
+file = "datapacks/Liam's Adventuring Bounties/data/liams_bounties/bounty_pools/liams_bounties/liams_boss_ignis_rewards.json"
+hash = "dc2e517623dfd3984a402cf0ca6c00e2a25cfa7b5ac40de07110bf7c0bd4b01a"
+
+[[files]]
+file = "datapacks/Liam's Adventuring Bounties/data/liams_bounties/bounty_pools/liams_bounties/liams_boss_leviathan_objectives.json"
+hash = "54004567479b0415c038cc293a2264ce1d796806aa8f92e0239dc7771769e82c"
+
+[[files]]
+file = "datapacks/Liam's Adventuring Bounties/data/liams_bounties/bounty_pools/liams_bounties/liams_boss_leviathan_rewards.json"
+hash = "3906c3c04397aa3877440f6b45685a5f31ed99e19f6541fc17dcc1344782f544"
+
+[[files]]
+file = "datapacks/Liam's Adventuring Bounties/data/liams_bounties/bounty_pools/liams_bounties/liams_boss_maledictus_objectives.json"
+hash = "15df34fb295781fddab1ed21b0d28433b76e69b3ecfd47191be91c5e73f60fb8"
+
+[[files]]
+file = "datapacks/Liam's Adventuring Bounties/data/liams_bounties/bounty_pools/liams_bounties/liams_boss_maledictus_rewards.json"
+hash = "f6de849e19a83845631fc712836a1e0fed29d736299bb1603eec376ab470f0a2"
+
+[[files]]
+file = "datapacks/Liam's Adventuring Bounties/data/liams_bounties/bounty_pools/liams_bounties/liams_boss_netherite_monstrosity_objectives.json"
+hash = "b5d25c2ae19c71c5ac94058400d04295b3eae6de2d03de9c5ec0f2df4100c97f"
+
+[[files]]
+file = "datapacks/Liam's Adventuring Bounties/data/liams_bounties/bounty_pools/liams_bounties/liams_boss_netherite_monstrosity_rewards.json"
+hash = "dc2e517623dfd3984a402cf0ca6c00e2a25cfa7b5ac40de07110bf7c0bd4b01a"
+
+[[files]]
+file = "datapacks/Liam's Adventuring Bounties/data/liams_bounties/bounty_pools/liams_bounties/liams_boss_scylla_objectives.json"
+hash = "d757df150e7cd9a5d4b73f1d3ed859b167d15008614db109eb9ca34f3b6a9dcf"
+
+[[files]]
+file = "datapacks/Liam's Adventuring Bounties/data/liams_bounties/bounty_pools/liams_bounties/liams_boss_scylla_rewards.json"
+hash = "dc01d99c77c9010293ec74a9c94af5b4267c766b93494d024e28b2390812f0c6"
+
+[[files]]
+file = "datapacks/Liam's Adventuring Bounties/data/liams_bounties/bounty_pools/liams_bounties/liams_boss_wroughtnaut_objectives.json"
+hash = "b3cec1a70eba6641d94935fa93c8e5b210e842ecd4b0c9f5116c60105753dba8"
+
+[[files]]
+file = "datapacks/Liam's Adventuring Bounties/data/liams_bounties/bounty_pools/liams_bounties/liams_boss_wroughtnaut_rewards.json"
+hash = "13f9b5d4a20d16468062f9d88026fe26ff31dc63cba1ee0caf94de2a6bae125d"
+
+[[files]]
+file = "datapacks/Liam's Adventuring Bounties/data/liams_bounties/bounty_pools/liams_bounties/liams_buried_kingdoms_objectives.json"
+hash = "a1b57442eae469914c22a13a684d79ac22f68b8be5da7e06a20df1cc5701f15c"
+
+[[files]]
+file = "datapacks/Liam's Adventuring Bounties/data/liams_bounties/bounty_pools/liams_bounties/liams_caster_adepts_objectives.json"
+hash = "6cf107c5d0c61c0edb73e443c28a18a7c7f0137150b0acd58de0c8afc3650a88"
+
+[[files]]
+file = "datapacks/Liam's Adventuring Bounties/data/liams_bounties/bounty_pools/liams_bounties/liams_caster_rewards.json"
+hash = "71a1cc74cf13e93287ad62bafe2dd4f28fd643d9b9357ebe8bacfc040750e7d5"
+
+[[files]]
+file = "datapacks/Liam's Adventuring Bounties/data/liams_bounties/bounty_pools/liams_bounties/liams_caster_rings_rewards.json"
+hash = "cf84c9cc31f7f1f6f3927313536782a211e43d33538117938aaa275f1c571654"
+
+[[files]]
+file = "datapacks/Liam's Adventuring Bounties/data/liams_bounties/bounty_pools/liams_bounties/liams_cavern_watch_objectives.json"
+hash = "d29b93ab853a513757db87920014a1333e55ee67983e73765cac66f1c0f63a99"
+
+[[files]]
+file = "datapacks/Liam's Adventuring Bounties/data/liams_bounties/bounty_pools/liams_bounties/liams_cellar_stores_objectives.json"
+hash = "388219be5ca5a8b237ff6082d172e10b32015f1fe246d16f2839a8705d05e613"
+
+[[files]]
+file = "datapacks/Liam's Adventuring Bounties/data/liams_bounties/bounty_pools/liams_bounties/liams_coastal_anglers_objectives.json"
+hash = "1aeba26f825249cf752a029a48f7d4900cd424dc57c2c05f6a4850450d25760b"
+
+[[files]]
+file = "datapacks/Liam's Adventuring Bounties/data/liams_bounties/bounty_pools/liams_bounties/liams_coastal_kitchen_rewards.json"
+hash = "f9b448ab8b1c8d9dbb12fca6506ffd4f5625a0f7903bb9e500ea01e36a698848"
+
+[[files]]
+file = "datapacks/Liam's Adventuring Bounties/data/liams_bounties/bounty_pools/liams_bounties/liams_coastal_kitchens_objectives.json"
+hash = "ed90e4a5e4aba9df7e064d51c5e51f5719254db1c08419deebec89aaa52fd555"
+
+[[files]]
+file = "datapacks/Liam's Adventuring Bounties/data/liams_bounties/bounty_pools/liams_bounties/liams_delver_rewards.json"
+hash = "8cf83e6f61a30068b38af56f99b44c8fab3bc978f38f99937d45681149083eef"
+
+[[files]]
+file = "datapacks/Liam's Adventuring Bounties/data/liams_bounties/bounty_pools/liams_bounties/liams_drowned_chapels_objectives.json"
+hash = "15121e71d7ef169dc00747bb4b3d5bcccb161087c1147169284c31b8589d4e1d"
+
+[[files]]
+file = "datapacks/Liam's Adventuring Bounties/data/liams_bounties/bounty_pools/liams_bounties/liams_end_botanists_objectives.json"
+hash = "4e722c0aceacb4c5c127cb454f294997e91435a35c629d64222e66cc1b6d7574"
+
+[[files]]
+file = "datapacks/Liam's Adventuring Bounties/data/liams_bounties/bounty_pools/liams_bounties/liams_end_botany_rewards.json"
+hash = "26a5e9c1b2accfc938cae0a7fff381ea7c6f54a46bab948ce4fbb0d4d4f995df"
+
+[[files]]
+file = "datapacks/Liam's Adventuring Bounties/data/liams_bounties/bounty_pools/liams_bounties/liams_end_patrol_rewards.json"
+hash = "bc6d8704362ff482f11cc6f4509ca294c9f7ec8b8b2fc3519e518e81f60b026b"
+
+[[files]]
+file = "datapacks/Liam's Adventuring Bounties/data/liams_bounties/bounty_pools/liams_bounties/liams_end_provisions_rewards.json"
+hash = "a5d0c0cf877088f0302bfe9c9a928b18c25c7fbf72d50d75319977e8a13de8d2"
+
+[[files]]
+file = "datapacks/Liam's Adventuring Bounties/data/liams_bounties/bounty_pools/liams_bounties/liams_end_reclamation_objectives.json"
+hash = "c980f94aa09d3d21e14fa368a30c9cf0a6ae70dba4c6819416f1deb3900e6624"
+
+[[files]]
+file = "datapacks/Liam's Adventuring Bounties/data/liams_bounties/bounty_pools/liams_bounties/liams_end_supper_objectives.json"
+hash = "fa1a6c3705df75f929ae440284c7792d61f487c9823595b48d1f1c85ebacfe7a"
+
+[[files]]
+file = "datapacks/Liam's Adventuring Bounties/data/liams_bounties/bounty_pools/liams_bounties/liams_expedition_chest_objectives.json"
+hash = "78009d4637b03e96104a7a5e71b3024fb92de8841409fc869db089a333384cdb"
+
+[[files]]
+file = "datapacks/Liam's Adventuring Bounties/data/liams_bounties/bounty_pools/liams_bounties/liams_expedition_rewards.json"
+hash = "d47a32984900e687725387c9328b3d29c173c2a44c94e300c2e45bc62173c139"
+
+[[files]]
+file = "datapacks/Liam's Adventuring Bounties/data/liams_bounties/bounty_pools/liams_bounties/liams_field_and_loom_objectives.json"
+hash = "b53998c7c2a2be212fb847e92dbe7d51a007d35a3e13f5f59bc5303bb7585cfa"
+
+[[files]]
+file = "datapacks/Liam's Adventuring Bounties/data/liams_bounties/bounty_pools/liams_bounties/liams_fletcher_rewards.json"
+hash = "fd7dd63b7199eb6b3cf746079f48d3cae06db5fe2881752167a053c8fe78817d"
+
+[[files]]
+file = "datapacks/Liam's Adventuring Bounties/data/liams_bounties/bounty_pools/liams_bounties/liams_ghost_hunt_rewards.json"
+hash = "ec08e7015e7c86d8d572f10341786e6d989896dc8be9d21407ef19d1ffa9253e"
+
+[[files]]
+file = "datapacks/Liam's Adventuring Bounties/data/liams_bounties/bounty_pools/liams_bounties/liams_ghost_hunters_objectives.json"
+hash = "62d31aba6c096135da991b895a10e055288bfaa95313e1f4b45ab8fa65ce76bc"
+
+[[files]]
+file = "datapacks/Liam's Adventuring Bounties/data/liams_bounties/bounty_pools/liams_bounties/liams_hauntings_objectives.json"
+hash = "6c194f037ddd014908bf97eca3cbda8c0ded1f5fd6a05b58b779a960e40a80cf"
+
+[[files]]
+file = "datapacks/Liam's Adventuring Bounties/data/liams_bounties/bounty_pools/liams_bounties/liams_icebound_rewards.json"
+hash = "c0e612f3d6116dec526a9b3c21ca8fe210e6873d0a25032c927d5bce9ef4dd77"
+
+[[files]]
+file = "datapacks/Liam's Adventuring Bounties/data/liams_bounties/bounty_pools/liams_bounties/liams_icebound_salvagers_objectives.json"
+hash = "30779a9efbbb5010e151f7b008bebeb0d5ef592e078fc3a7643431da0e07e7b1"
+
+[[files]]
+file = "datapacks/Liam's Adventuring Bounties/data/liams_bounties/bounty_pools/liams_bounties/liams_koboleton_hunt_rewards.json"
+hash = "165e11efd7477ab4151714aca026ca6a8503595ef4d91ce5b7c25e643808f316"
+
+[[files]]
+file = "datapacks/Liam's Adventuring Bounties/data/liams_bounties/bounty_pools/liams_bounties/liams_koboleton_hunters_objectives.json"
+hash = "007eb1bc2c8f9b25203c80376f615ac36decca89a0094acc1a6b0356bc883bb4"
+
+[[files]]
+file = "datapacks/Liam's Adventuring Bounties/data/liams_bounties/bounty_pools/liams_bounties/liams_mariner_rewards.json"
+hash = "e3cb8770874160613a68af3048051ad9d3aed7130f16403e448172ca70148131"
+
+[[files]]
+file = "datapacks/Liam's Adventuring Bounties/data/liams_bounties/bounty_pools/liams_bounties/liams_marsh_gatherers_objectives.json"
+hash = "2f3667ef78ec9d7aadf77651917000f09695e2c888cc6f600853b3be631c3115"
+
+[[files]]
+file = "datapacks/Liam's Adventuring Bounties/data/liams_bounties/bounty_pools/liams_bounties/liams_millwrights_objectives.json"
+hash = "f0a405e2e1d49d524adbdb076f65c8ed175c01811431f5436c5e1355c40fd6d6"
+
+[[files]]
+file = "datapacks/Liam's Adventuring Bounties/data/liams_bounties/bounty_pools/liams_bounties/liams_naga_hunt_rewards.json"
+hash = "99a5ce45415a5b17b463f24220b91638e1a2c6d4f701b8973f8b034f2d19cd35"
+
+[[files]]
+file = "datapacks/Liam's Adventuring Bounties/data/liams_bounties/bounty_pools/liams_bounties/liams_naga_hunters_objectives.json"
+hash = "f78c485b87c7f05a473a1757f8f3bcea362357ad70f1a1d5fd236dc5b3167032"
+
+[[files]]
+file = "datapacks/Liam's Adventuring Bounties/data/liams_bounties/bounty_pools/liams_bounties/liams_nether_alchemy_rewards.json"
+hash = "27d14ef019544640ade196cd218650673155f314d9dd8bf69a4bd2a8be9a64bf"
+
+[[files]]
+file = "datapacks/Liam's Adventuring Bounties/data/liams_bounties/bounty_pools/liams_bounties/liams_nether_herbalists_objectives.json"
+hash = "3cd77c360a4daf3d4b8239eaee7cda7c672128daa4880551993e966e52e95f30"
+
+[[files]]
+file = "datapacks/Liam's Adventuring Bounties/data/liams_bounties/bounty_pools/liams_bounties/liams_nether_provisions_objectives.json"
+hash = "49976d147fc721fa29725379092e367c752f38cce1c9dc301f13300e17878413"
+
+[[files]]
+file = "datapacks/Liam's Adventuring Bounties/data/liams_bounties/bounty_pools/liams_bounties/liams_nether_supplies_rewards.json"
+hash = "fa95acc3b970c84bd06dd05ad58b43f91a8edc4d34f7c5815259e7afc9bc4945"
+
+[[files]]
+file = "datapacks/Liam's Adventuring Bounties/data/liams_bounties/bounty_pools/liams_bounties/liams_ogre_country_objectives.json"
+hash = "111016a065ac6c5e98f2f6c58074a85b726f8afd6bb444b24a3b43df6cd8fb4c"
+
+[[files]]
+file = "datapacks/Liam's Adventuring Bounties/data/liams_bounties/bounty_pools/liams_bounties/liams_orchard_gleaners_objectives.json"
+hash = "d2ad4783b3e6d6eb5ea134279b7c38fdc2b6134848d5650fef4925afcca20eb6"
+
+[[files]]
+file = "datapacks/Liam's Adventuring Bounties/data/liams_bounties/bounty_pools/liams_bounties/liams_orchard_rewards.json"
+hash = "39de50bbfc2aaaf433331c01c95e80946a189037a8414bf38121a9e283e60a10"
+
+[[files]]
+file = "datapacks/Liam's Adventuring Bounties/data/liams_bounties/bounty_pools/liams_bounties/liams_powder_watch_objectives.json"
+hash = "78ca31676b9fa32e54753f509360dbd08a8bff4e5a597ab9e249b58f1550c4e0"
+
+[[files]]
+file = "datapacks/Liam's Adventuring Bounties/data/liams_bounties/bounty_pools/liams_bounties/liams_quarry_patrol_rewards.json"
+hash = "6ca7dc0232ef90eacfd5299acb416f6fa374bd369e051f7f503c2894d0fa9214"
+
+[[files]]
+file = "datapacks/Liam's Adventuring Bounties/data/liams_bounties/bounty_pools/liams_bounties/liams_raidbreakers_objectives.json"
+hash = "40d64c17c11697ce6a0dd508b0244894102f87a36e0e8b53d36812ff9eb0b8ed"
+
+[[files]]
+file = "datapacks/Liam's Adventuring Bounties/data/liams_bounties/bounty_pools/liams_bounties/liams_restoration_objectives.json"
+hash = "a5df181577f6ad9ad84f710a5d3ad4195cdd72db3cd8027da7c87af2e7eade57"
+
+[[files]]
+file = "datapacks/Liam's Adventuring Bounties/data/liams_bounties/bounty_pools/liams_bounties/liams_river_market_objectives.json"
+hash = "9b3f1dd40768e3aab0f296eb8643b0a9650f176692cd0bd8c569acd4c7e35b80"
+
+[[files]]
+file = "datapacks/Liam's Adventuring Bounties/data/liams_bounties/bounty_pools/liams_bounties/liams_roadwardens_objectives.json"
+hash = "1610ac193e78f277ff07e3a523a5e4201df4a332b54359c0848c889469a8ff46"
+
+[[files]]
+file = "datapacks/Liam's Adventuring Bounties/data/liams_bounties/bounty_pools/liams_bounties/liams_rogue_arcanists_objectives.json"
+hash = "5d84f7ec1e64b2a12a1a045d1bb23edda2ae6c03443df38b2dca32c85a246e3a"
+
+[[files]]
+file = "datapacks/Liam's Adventuring Bounties/data/liams_bounties/bounty_pools/liams_bounties/liams_scholar_rewards.json"
+hash = "04eb572a71b43cedd90afa0795a6b5d3ceb4ff61dbd580febb10df63f664bf78"
+
+[[files]]
+file = "datapacks/Liam's Adventuring Bounties/data/liams_bounties/bounty_pools/liams_bounties/liams_settlement_patrol_objectives.json"
+hash = "3f7521312c63b49306d5048e6712b012983ff812b53fa5a7082a67a880d0bb01"
+
+[[files]]
+file = "datapacks/Liam's Adventuring Bounties/data/liams_bounties/bounty_pools/liams_bounties/liams_settlement_patrol_rewards.json"
+hash = "016d58bb85a84cb07a3fe4bd0cf93696044ba20d3f83c675be75f3b5f67e5c61"
+
+[[files]]
+file = "datapacks/Liam's Adventuring Bounties/data/liams_bounties/bounty_pools/liams_bounties/liams_skyroot_kitchen_objectives.json"
+hash = "5d85c51d7b5cfde71288b9dfe5707fd0cd0ffbe6027df5352b14c10e7fc5e7f4"
+
+[[files]]
+file = "datapacks/Liam's Adventuring Bounties/data/liams_bounties/bounty_pools/liams_bounties/liams_skyward_watch_objectives.json"
+hash = "7dd9c08156d594ce85fd44da5687d71b909a8a9dd43988d6fd37e827d0668973"
+
+[[files]]
+file = "datapacks/Liam's Adventuring Bounties/data/liams_bounties/bounty_pools/liams_bounties/liams_stone_survey_objectives.json"
+hash = "b08135cbd8797b0fd6489ec3246d6acbd4a0c6b11384853a67d953156c938e9a"
+
+[[files]]
+file = "datapacks/Liam's Adventuring Bounties/data/liams_bounties/bounty_pools/liams_bounties/liams_stonemasons_objectives.json"
+hash = "314f0eee7f05baa449fd1f050378d4ab6760dbc3f47d6a54b5fedb4b7e4424fe"
+
+[[files]]
+file = "datapacks/Liam's Adventuring Bounties/data/liams_bounties/bounty_pools/liams_bounties/liams_storm_garden_objectives.json"
+hash = "fa5dbff130676a593d822a8ecb7f6c68721755ddfb3162a782164d8ef222f539"
+
+[[files]]
+file = "datapacks/Liam's Adventuring Bounties/data/liams_bounties/bounty_pools/liams_bounties/liams_tavern_orders_objectives.json"
+hash = "4074db3fa019cd4c369cf2fbea6a6f9bc8cb79107780d6b8a8170d53d4287b09"
+
+[[files]]
+file = "datapacks/Liam's Adventuring Bounties/data/liams_bounties/bounty_pools/liams_bounties/liams_tavern_rewards.json"
+hash = "524e8532112b43098515f1dc0c0c4f682d5c26ac5a1aa3546ecbfe151b6ce702"
+
+[[files]]
+file = "datapacks/Liam's Adventuring Bounties/data/liams_bounties/bounty_pools/liams_bounties/liams_trail_rewards.json"
+hash = "98d74e10f1f250bccfc4aed45c52f305992cea1a92071d870ece2746edd0a532"
+
+[[files]]
+file = "datapacks/Liam's Adventuring Bounties/data/liams_bounties/bounty_pools/liams_bounties/liams_village_crafts_objectives.json"
+hash = "f18434bfc1d1178f27403105813c8e48f8cd6d8b2855a9e4bb6b53d3fdb700d6"
+
+[[files]]
+file = "datapacks/Liam's Adventuring Bounties/data/liams_bounties/bounty_pools/liams_bounties/liams_village_pantry_objectives.json"
+hash = "4b3f15cf1f0ed3cd37ec29d50d4e56814f3aeebfd5cc60281fd0758029cdf4e1"
+
+[[files]]
+file = "datapacks/Liam's Adventuring Bounties/data/liams_bounties/bounty_pools/liams_bounties/liams_webwardens_objectives.json"
+hash = "975e3398ba75a5059ae0d108e453c1d976f5f13eea6e59b18e5cd0a8c51ed558"
+
+[[files]]
+file = "datapacks/Liam's Adventuring Bounties/data/liams_bounties/bounty_pools/liams_bounties/liams_wildwood_threats_objectives.json"
+hash = "96a8962e87aac505fa6fe8c8cfac8b7e4936bfeb8dd46af48376a938d0840bb7"
+
+[[files]]
+file = "datapacks/Liam's Adventuring Bounties/data/liams_bounties/bounty_pools/liams_bounties/liams_witchlight_scriveners_objectives.json"
+hash = "baf674cf24fda906ef5c048029dccbe26da51a617d9d0330c93e2d8e47687a98"
+
+[[files]]
+file = "datapacks/Liam's Adventuring Bounties/data/liams_bounties/bounty_pools/liams_bounties/liams_woodcarvers_objectives.json"
+hash = "729d4fe47748efb1be7736b39e9a6d071c4233a8234bdab94aca6375791a17a4"
+
+[[files]]
+file = "datapacks/Liam's Adventuring Bounties/data/liams_bounties/bounty_pools/liams_bounties/liams_workshop_mid_rewards.json"
+hash = "d8c19349c1a5f646cd491f991c1464dc7d431ee1fc73bcdd299556af595ed1af"
+
+[[files]]
+file = "datapacks/Liam's Adventuring Bounties/data/liams_bounties/bounty_pools/liams_bounties/liams_workshop_rewards.json"
+hash = "0ef87648a5f8c4cac05784e7e84a3a7409a9185d342a70480ddab7a761fd51f0"
+
+[[files]]
+file = "datapacks/Liam's Adventuring Bounties/pack.mcmeta"
+hash = "f3230d926a3c01f58db22ac6d9758741699a95d3e876b0c151008f01092eeff0"
 
 [[files]]
 file = "datapacks/Liam's FreeTerraForged Preset/data/freeterraforged/freeterraforged/worldgen/noise/climate/biome_edge_shape.json"
@@ -1616,6 +2236,102 @@ file = "datapacks/Mowzie Biome Compatibility/pack.mcmeta"
 hash = "70ed0c5eff6cfd96f09a16d848ed9dc845549b4cc9a15773dda7f8f5d13d9976"
 
 [[files]]
+file = "datapacks/Permanent Light Progression/README.md"
+hash = "67d2798ba5806797712fcb470c52b104f08c1f37031908886e63288162c8090a"
+
+[[files]]
+file = "datapacks/Permanent Light Progression/data/caverns_and_chasms/recipe/brazier.json"
+hash = "9ec72a56639af9565ad7321c04cb30dc981138e07c9a92e3e7971d11c781a00d"
+
+[[files]]
+file = "datapacks/Permanent Light Progression/data/caverns_and_chasms/recipe/cupric_brazier.json"
+hash = "735081ac324eb2bc9dc9ec5541379a564ab701d3ddc2949a3b6da21d9bdecd0e"
+
+[[files]]
+file = "datapacks/Permanent Light Progression/data/caverns_and_chasms/recipe/cupric_torch.json"
+hash = "8cd3bbdcd69a38a412be3133e2670991fff150d322222a3f1b694e426a5f5646"
+
+[[files]]
+file = "datapacks/Permanent Light Progression/data/caverns_and_chasms/recipe/dimmer.json"
+hash = "c70e2680f2645eef8fc125a217e298e991c900a2f30fc6fa308da237a9e7e763"
+
+[[files]]
+file = "datapacks/Permanent Light Progression/data/caverns_and_chasms/recipe/exposed_floodlight.json"
+hash = "31f93fa9cffa275aaa06a1ea843c984559f95a788db66d732f4a6892879b4ee3"
+
+[[files]]
+file = "datapacks/Permanent Light Progression/data/caverns_and_chasms/recipe/floodlight.json"
+hash = "814f2b0c3fa04db89118798efd25e00e93771e4232f18ae7b0cb2d24a2384855"
+
+[[files]]
+file = "datapacks/Permanent Light Progression/data/caverns_and_chasms/recipe/lava_lamp.json"
+hash = "cf2ecbb65a22e3b6a9ae780f1dd35dbd3bd61cf33e67b1ed02278985cd0b248a"
+
+[[files]]
+file = "datapacks/Permanent Light Progression/data/caverns_and_chasms/recipe/oxidized_floodlight.json"
+hash = "da3c58310e53545054a73601dbe4bb0d526c70125c6c61c5c9d9e22d4c762b4c"
+
+[[files]]
+file = "datapacks/Permanent Light Progression/data/caverns_and_chasms/recipe/soul_brazier.json"
+hash = "4aad1aacd702880c76b3caddacef2eda35a5a28a589838e54ec04d42f3f7890e"
+
+[[files]]
+file = "datapacks/Permanent Light Progression/data/caverns_and_chasms/recipe/waxed_exposed_floodlight.json"
+hash = "4854c05a7746038e67493fa02612747b301aa942b0f80ee6d075a465bfcb5bf4"
+
+[[files]]
+file = "datapacks/Permanent Light Progression/data/caverns_and_chasms/recipe/waxed_floodlight.json"
+hash = "952622ff8503dcfe3cc5861f7e2b68dc4ac4c7bc04852724248eeb54784fb9b8"
+
+[[files]]
+file = "datapacks/Permanent Light Progression/data/caverns_and_chasms/recipe/waxed_oxidized_floodlight.json"
+hash = "d540aea2771657a08c912de3f4b8249474384f972b538e7d0edd05dc5398ee31"
+
+[[files]]
+file = "datapacks/Permanent Light Progression/data/caverns_and_chasms/recipe/waxed_weathered_floodlight.json"
+hash = "9b12599ae16b6f1d36f7f25ff98560d5643b03875e12d60511af827bc4bad4b9"
+
+[[files]]
+file = "datapacks/Permanent Light Progression/data/caverns_and_chasms/recipe/weathered_floodlight.json"
+hash = "1479196236c4ff8e094e2b3d749e03737bcfa5a868fbd4caeafbce34e169ede0"
+
+[[files]]
+file = "datapacks/Permanent Light Progression/data/golemoverhaul/recipe/candle_golem_block.json"
+hash = "314ebb3a5a96c41325f73660d1b030ecb957b6b079e60c0c1ac2d0ad30cd2e22"
+
+[[files]]
+file = "datapacks/Permanent Light Progression/data/hybrid_aquatic/recipe/glowstick.json"
+hash = "dd3e112fd4a64ea0e25c5edef30bd10ff6ee44bfe3e9ac17c4b283ac975691db"
+
+[[files]]
+file = "datapacks/Permanent Light Progression/data/minecraft/recipe/candle.json"
+hash = "82ac5b61e0febe282b6cabb0cc524d96b9b882a837957fec7ee92457396559d7"
+
+[[files]]
+file = "datapacks/Permanent Light Progression/data/minecraft/recipe/sea_lantern.json"
+hash = "3bf02fb4576a855b82fd73f32c8efd7fdd10810271aa93a1ea067f7cd064664d"
+
+[[files]]
+file = "datapacks/Permanent Light Progression/data/minecraft/recipe/soul_campfire.json"
+hash = "26d0c09b6d6dcb22fe3a57495222594278c1f4556ecad697e478d7967c9dd9a2"
+
+[[files]]
+file = "datapacks/Permanent Light Progression/data/tide/recipe/jelly_torch_from_jellyfish.json"
+hash = "028bfcce4f19bf2452e92db2f51db5a056601cbb453ef9ce1b4c780c2fe89415"
+
+[[files]]
+file = "datapacks/Permanent Light Progression/data/tide/recipe/jelly_torch_from_sun_emblem.json"
+hash = "8b7c32e9f8fb7c0554209df5db2afcf66b3ed3b012ed020f6a06f1f2ceeb7554"
+
+[[files]]
+file = "datapacks/Permanent Light Progression/data/upgrade_aquatic/recipe/tooth_lantern.json"
+hash = "604712c6e80eeaaad619ab585a12c15dfe17600dd8cfbc366721ecb6966ffcc9"
+
+[[files]]
+file = "datapacks/Permanent Light Progression/pack.mcmeta"
+hash = "52ea041e0f5e1a1ebb97e2954294080757421a178bf6a88d27db98b187d9534e"
+
+[[files]]
 file = "datapacks/Recipe Restrictions/data/endersdelight/recipe/chorus_pie_slice.json"
 hash = "0dcdb65c4ff7b236cffb4bc23b02235a7b31b481d70a19d7ba4418f7f09ffafb"
 
@@ -1630,6 +2346,10 @@ hash = "d5ca2831a686fa65befc9a7cc2a15b9fa5295987f6126155f38574abbde421ed"
 [[files]]
 file = "datapacks/Recipe Restrictions/pack.mcmeta"
 hash = "88e4d580dc2272f401d7562cd5a8545314d4f6067a41b8c04f67898290406148"
+
+[[files]]
+file = "kubejs/assets/bountiful/lang/en_us.json"
+hash = "78630829ab1989328d59f835f46549fc29898a46df77bb4268e98389f92d56fc"
 
 [[files]]
 file = "kubejs/data/liams_modpack/tags/entity_type/depth_scaling_excluded.json"
@@ -1654,6 +2374,10 @@ hash = "fd66dab44fe0e4e84ca05f3833f09b95097a6f2b50a4290741f3426133cfdef5"
 [[files]]
 file = "kubejs/server_scripts/fantasy_cannons.js"
 hash = "77bcbb7b469e369e221288a6afb06c9c17ebc291599606dff2e6cba40616bfff"
+
+[[files]]
+file = "kubejs/server_scripts/irons_curios_loot_only.js"
+hash = "03420c61bd4536965f3e76bf058c680a0d098572d8d7b7fe8af7ef68c81505d4"
 
 [[files]]
 file = "kubejs/server_scripts/remove_chipped_torches.js"
@@ -1703,11 +2427,6 @@ metafile = true
 [[files]]
 file = "mods/aeronautics-camera-sync.pw.toml"
 hash = "ccd0a3a090f99cec2d34923a8d69f103fb845ae3a40595079c24839c523a1801"
-metafile = true
-
-[[files]]
-file = "mods/aeronautics-wind-sound.pw.toml"
-hash = "980a23bd1d06f53cf9c912293cf0a9233c06c729d586c4e38fab26b6f4c125b7"
 metafile = true
 
 [[files]]
@@ -1860,6 +2579,15 @@ hash = "68d6016fa3707c434b3aca5db041c7518c70feb53d0183faa2502cc6efd4c827"
 metafile = true
 
 [[files]]
+file = "mods/bountiful-contract-fairness-1.6.0.jar"
+hash = "b4800dc7702d020556fb9e1864055e0d2ddc54543f48080b150df7a8cb063828"
+
+[[files]]
+file = "mods/bountiful.pw.toml"
+hash = "ba3b9990bc44bedb8eacbe11b2beffb7457cc6ddd854e78fcaf8d73d8f2578db"
+metafile = true
+
+[[files]]
 file = "mods/brewin-and-chewin.pw.toml"
 hash = "22d9510588b081cf9905f6549d24bc11012aa8d9c7d38a8619ab9db5ccb7b9a8"
 metafile = true
@@ -1917,11 +2645,6 @@ metafile = true
 [[files]]
 file = "mods/comforts.pw.toml"
 hash = "36f2f6e74b7dbeccb504572d47006582207544fa234a095093b97adfc7ecd5ac"
-metafile = true
-
-[[files]]
-file = "mods/cool-rain-reforged.pw.toml"
-hash = "7c5d1fb47ffd309dc332ad2011e2e392b54d74dc49607872af01222a1df24186"
 metafile = true
 
 [[files]]
@@ -2238,8 +2961,8 @@ hash = "c80d22d2ee14e99fc47c454ea1cd57cea6cac1b4034bbe0a66ac7f4eb7a4001e"
 metafile = true
 
 [[files]]
-file = "mods/flimsy-wall-lanterns-1.0.3.jar"
-hash = "66caa0c856f026b57bd038b91ec05e925244449817017bf4cc9251db46688135"
+file = "mods/flimsy-wall-lanterns-1.0.4.jar"
+hash = "eef0ebfd1b5edb26309902b3d4a84be6eacd0014bcc5ebe4215085bddc6769d8"
 
 [[files]]
 file = "mods/formations-nether.pw.toml"
@@ -2347,6 +3070,11 @@ hash = "4601b9be31b6e131dca8a148c974d015444bcac7c82fcb66fbd8751a67933a5d"
 metafile = true
 
 [[files]]
+file = "mods/improved-village-placement.pw.toml"
+hash = "d4643e7fd8fd1227500f19e6011b33b10ef09a543adccd790345f91f3d3fcff8"
+metafile = true
+
+[[files]]
 file = "mods/in-control.pw.toml"
 hash = "8311cf201aa8d3c5d0c0291194f3c76d825591122b7ccf4f2fea08f6b39af526"
 metafile = true
@@ -2382,6 +3110,10 @@ hash = "3f8f749b654d18560d45dfb160e839566f72d9150e86f7f881c5e205f5660c55"
 metafile = true
 
 [[files]]
+file = "mods/irons-ring-durability-1.0.4.jar"
+hash = "838da066d0dce4bfd2451dfd6cec2a0b76c0d61a1dd7a40359398220ff26a699"
+
+[[files]]
 file = "mods/irons-simple-blood.pw.toml"
 hash = "b8f805e133e2cd7fbfa8ca69a2ec578567545652535f1afc06ddcc33bef6dba0"
 metafile = true
@@ -2399,6 +3131,11 @@ metafile = true
 [[files]]
 file = "mods/isskjs.pw.toml"
 hash = "57db227711481c9b6fbc89a5ea04f2810c9f27035baa7f33437a80a94ae9609f"
+metafile = true
+
+[[files]]
+file = "mods/kambrik.pw.toml"
+hash = "8a5e76693f22343bb2306011ad8018337971256a6f3b25cb03680b1d7d7470c1"
 metafile = true
 
 [[files]]
@@ -2607,11 +3344,6 @@ hash = "62d7231bec1dde8ff674068adec4e8fe2e11a4667d04cfffbc9248cbb2bf685a"
 metafile = true
 
 [[files]]
-file = "mods/perception.pw.toml"
-hash = "378f188dd4dd616783418b9169e6016d5eff359a13c6debeb64c82093637e8e9"
-metafile = true
-
-[[files]]
 file = "mods/pf-neoforge.pw.toml"
 hash = "1ef7ce6d5fe6e584914680f5463508996f0dd1c2bdbc051b8b3b050c85e134ff"
 metafile = true
@@ -2736,11 +3468,6 @@ metafile = true
 [[files]]
 file = "mods/sable-cleanup.pw.toml"
 hash = "a853620e7a9fff71bb22f2e467b5861bafdea792d4e679709800c587c98ae95c"
-metafile = true
-
-[[files]]
-file = "mods/sable-cool-rain.pw.toml"
-hash = "d83497f150d4938933f135fe1b79fd34bae71b2c4e9698c41b8177537d1cef3f"
 metafile = true
 
 [[files]]
