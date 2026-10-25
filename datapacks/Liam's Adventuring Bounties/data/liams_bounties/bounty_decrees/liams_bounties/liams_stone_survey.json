@@ -1,0 +1,22 @@
+{
+  "requires": [
+    "bountiful",
+    "bountiful_contract_fairness",
+    "caverns_and_chasms",
+    "create",
+    "fowlplay",
+    "quark"
+  ],
+  "objectives": [
+    "liams_stone_survey_objectives"
+  ],
+  "rewards": [
+    "liams_workshop_rewards"
+  ],
+  "canSpawn": true,
+  "canReveal": true,
+  "canWanderBuy": true,
+  "linkedProfessions": [
+    "mason"
+  ]
+}

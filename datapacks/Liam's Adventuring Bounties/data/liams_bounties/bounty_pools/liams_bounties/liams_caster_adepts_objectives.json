@@ -1,0 +1,20 @@
+{
+  "requires": [
+    "bountiful",
+    "bountiful_contract_fairness",
+    "irons_spellbooks"
+  ],
+  "content": {
+    "irons_spellbooks_necromancer": {
+      "type": "minecraft:entity",
+      "content": "irons_spellbooks:necromancer",
+      "amount": {
+        "min": 10,
+        "max": 20
+      },
+      "unitWorth": 100.0,
+      "timeMult": 240,
+      "rarity": "COMMON"
+    }
+  }
+}

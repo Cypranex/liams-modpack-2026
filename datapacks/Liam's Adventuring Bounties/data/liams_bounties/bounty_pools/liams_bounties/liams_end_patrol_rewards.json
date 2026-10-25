@@ -1,0 +1,621 @@
+{
+  "requires": [
+    "betterend",
+    "dtbetterend",
+    "dynamictreesplus",
+    "knavesneeds"
+  ],
+  "content": {
+    "end_forester_supplies": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000.0,
+      "rarity": "COMMON",
+      "name": "End Forester Supplies",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"End Forester Supplies\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "betterend:mossy_glowshroom_log",
+              "count": 32
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "dtbetterend:mossy_glowshroom_seed",
+              "count": 2
+            }
+          },
+          {
+            "slot": 2,
+            "item": {
+              "id": "betterend:thallasium_ingot",
+              "count": 8
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"32 × Mossy Glowshroom Log\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"2 × Mossy Glowshroom Cap\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"8 × Thallasium Ingot\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      }
+    },
+    "betterend_thallasium_ingot": {
+      "type": "minecraft:item",
+      "content": "betterend:thallasium_ingot",
+      "amount": {
+        "min": 8,
+        "max": 8
+      },
+      "unitWorth": 125.0,
+      "rarity": "COMMON"
+    },
+    "end_amber_artisan_supplies": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000.0,
+      "rarity": "COMMON",
+      "name": "End Amber Artisan Supplies",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"End Amber Artisan Supplies\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "betterend:amber_gem",
+              "count": 4
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "betterend:azure_jadestone_bricks",
+              "count": 24
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"4 × Amber Gem\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"24 × Azure Jadestone Bricks\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      }
+    },
+    "thallasium_longsword_kit": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000.0,
+      "rarity": "COMMON",
+      "name": "Thallasium Longsword Kit",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Thallasium Longsword Kit\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "knavesneeds:betterend/thallasium/longsword",
+              "count": 1
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "betterend:thallasium_ingot",
+              "count": 8
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"1 × Thallasium Longsword\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"8 × Thallasium Ingot\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      },
+      "weightMult": 0.06666666666666667
+    },
+    "thallasium_twinblade_kit": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000.0,
+      "rarity": "COMMON",
+      "name": "Thallasium Twinblade Kit",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Thallasium Twinblade Kit\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "knavesneeds:betterend/thallasium/twinblade",
+              "count": 1
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "betterend:thallasium_ingot",
+              "count": 8
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"1 × Thallasium Twinblade\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"8 × Thallasium Ingot\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      },
+      "weightMult": 0.06666666666666667
+    },
+    "thallasium_rapier_kit": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000.0,
+      "rarity": "COMMON",
+      "name": "Thallasium Rapier Kit",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Thallasium Rapier Kit\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "knavesneeds:betterend/thallasium/rapier",
+              "count": 1
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "betterend:thallasium_ingot",
+              "count": 8
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"1 × Thallasium Rapier\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"8 × Thallasium Ingot\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      },
+      "weightMult": 0.06666666666666667
+    },
+    "thallasium_katana_kit": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000.0,
+      "rarity": "COMMON",
+      "name": "Thallasium Katana Kit",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Thallasium Katana Kit\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "knavesneeds:betterend/thallasium/katana",
+              "count": 1
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "betterend:thallasium_ingot",
+              "count": 8
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"1 × Thallasium Katana\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"8 × Thallasium Ingot\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      },
+      "weightMult": 0.06666666666666667
+    },
+    "thallasium_sai_kit": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000.0,
+      "rarity": "COMMON",
+      "name": "Thallasium Sai Kit",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Thallasium Sai Kit\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "knavesneeds:betterend/thallasium/sai",
+              "count": 1
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "betterend:thallasium_ingot",
+              "count": 8
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"1 × Thallasium Sai\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"8 × Thallasium Ingot\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      },
+      "weightMult": 0.06666666666666667
+    },
+    "thallasium_spear_kit": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000.0,
+      "rarity": "COMMON",
+      "name": "Thallasium Spear Kit",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Thallasium Spear Kit\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "knavesneeds:betterend/thallasium/spear",
+              "count": 1
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "betterend:thallasium_ingot",
+              "count": 8
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"1 × Thallasium Spear\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"8 × Thallasium Ingot\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      },
+      "weightMult": 0.06666666666666667
+    },
+    "thallasium_glaive_kit": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000.0,
+      "rarity": "COMMON",
+      "name": "Thallasium Glaive Kit",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Thallasium Glaive Kit\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "knavesneeds:betterend/thallasium/glaive",
+              "count": 1
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "betterend:thallasium_ingot",
+              "count": 8
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"1 × Thallasium Glaive\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"8 × Thallasium Ingot\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      },
+      "weightMult": 0.06666666666666667
+    },
+    "thallasium_warglaive_kit": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000.0,
+      "rarity": "COMMON",
+      "name": "Thallasium Warglaive Kit",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Thallasium Warglaive Kit\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "knavesneeds:betterend/thallasium/warglaive",
+              "count": 1
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "betterend:thallasium_ingot",
+              "count": 8
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"1 × Thallasium Warglaive\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"8 × Thallasium Ingot\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      },
+      "weightMult": 0.06666666666666667
+    },
+    "thallasium_cutlass_kit": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000.0,
+      "rarity": "COMMON",
+      "name": "Thallasium Cutlass Kit",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Thallasium Cutlass Kit\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "knavesneeds:betterend/thallasium/cutlass",
+              "count": 1
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "betterend:thallasium_ingot",
+              "count": 8
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"1 × Thallasium Cutlass\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"8 × Thallasium Ingot\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      },
+      "weightMult": 0.06666666666666667
+    },
+    "thallasium_claymore_kit": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000.0,
+      "rarity": "COMMON",
+      "name": "Thallasium Claymore Kit",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Thallasium Claymore Kit\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "knavesneeds:betterend/thallasium/claymore",
+              "count": 1
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "betterend:thallasium_ingot",
+              "count": 8
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"1 × Thallasium Claymore\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"8 × Thallasium Ingot\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      },
+      "weightMult": 0.06666666666666667
+    },
+    "thallasium_greathammer_kit": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000.0,
+      "rarity": "COMMON",
+      "name": "Thallasium Greathammer Kit",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Thallasium Greathammer Kit\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "knavesneeds:betterend/thallasium/greathammer",
+              "count": 1
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "betterend:thallasium_ingot",
+              "count": 8
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"1 × Thallasium Greathammer\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"8 × Thallasium Ingot\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      },
+      "weightMult": 0.06666666666666667
+    },
+    "thallasium_greataxe_kit": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000.0,
+      "rarity": "COMMON",
+      "name": "Thallasium Greataxe Kit",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Thallasium Greataxe Kit\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "knavesneeds:betterend/thallasium/greataxe",
+              "count": 1
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "betterend:thallasium_ingot",
+              "count": 8
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"1 × Thallasium Greataxe\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"8 × Thallasium Ingot\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      },
+      "weightMult": 0.06666666666666667
+    },
+    "thallasium_chakram_kit": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000.0,
+      "rarity": "COMMON",
+      "name": "Thallasium Chakram Kit",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Thallasium Chakram Kit\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "knavesneeds:betterend/thallasium/chakram",
+              "count": 1
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "betterend:thallasium_ingot",
+              "count": 8
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"1 × Thallasium Chakram\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"8 × Thallasium Ingot\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      },
+      "weightMult": 0.06666666666666667
+    },
+    "thallasium_scythe_kit": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000.0,
+      "rarity": "COMMON",
+      "name": "Thallasium Scythe Kit",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Thallasium Scythe Kit\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "knavesneeds:betterend/thallasium/scythe",
+              "count": 1
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "betterend:thallasium_ingot",
+              "count": 8
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"1 × Thallasium Scythe\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"8 × Thallasium Ingot\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      },
+      "weightMult": 0.06666666666666667
+    },
+    "thallasium_halberd_kit": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000.0,
+      "rarity": "COMMON",
+      "name": "Thallasium Halberd Kit",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Thallasium Halberd Kit\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "knavesneeds:betterend/thallasium/halberd",
+              "count": 1
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "betterend:thallasium_ingot",
+              "count": 8
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"1 × Thallasium Halberd\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"8 × Thallasium Ingot\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      },
+      "weightMult": 0.06666666666666667
+    }
+  }
+}

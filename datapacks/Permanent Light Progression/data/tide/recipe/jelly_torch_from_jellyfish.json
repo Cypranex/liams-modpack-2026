@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "tide:luminescent_jellyfish"
+    },
+    {
+      "item": "minecraft:torch"
+    }
+  ],
+  "result": {
+    "count": 8,
+    "id": "tide:jelly_torch"
+  }
+}

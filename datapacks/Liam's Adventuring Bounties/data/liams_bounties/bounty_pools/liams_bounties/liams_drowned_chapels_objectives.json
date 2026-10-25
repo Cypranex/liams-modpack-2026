@@ -1,0 +1,64 @@
+{
+  "requires": [
+    "bountiful",
+    "bountiful_contract_fairness",
+    "cataclysm"
+  ],
+  "content": {
+    "cataclysm_deepling": {
+      "type": "minecraft:entity",
+      "content": "cataclysm:deepling",
+      "amount": {
+        "min": 2,
+        "max": 6
+      },
+      "unitWorth": 350.0,
+      "timeMult": 200,
+      "rarity": "COMMON"
+    },
+    "cataclysm_deepling_angler": {
+      "type": "minecraft:entity",
+      "content": "cataclysm:deepling_angler",
+      "amount": {
+        "min": 2,
+        "max": 6
+      },
+      "unitWorth": 350.0,
+      "timeMult": 200,
+      "rarity": "COMMON"
+    },
+    "cataclysm_deepling_priest": {
+      "type": "minecraft:entity",
+      "content": "cataclysm:deepling_priest",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 600.0,
+      "timeMult": 240,
+      "rarity": "COMMON"
+    },
+    "cataclysm_deepling_warlock": {
+      "type": "minecraft:entity",
+      "content": "cataclysm:deepling_warlock",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 600.0,
+      "timeMult": 240,
+      "rarity": "COMMON"
+    },
+    "cataclysm_deepling_brute": {
+      "type": "minecraft:entity",
+      "content": "cataclysm:deepling_brute",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 600.0,
+      "timeMult": 240,
+      "rarity": "COMMON"
+    }
+  }
+}

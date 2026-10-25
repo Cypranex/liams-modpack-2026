@@ -1,0 +1,6 @@
+{
+  "pack": {
+    "pack_format": 48,
+    "description": "Require permanent torches or lanterns for selected crafted lights"
+  }
+}

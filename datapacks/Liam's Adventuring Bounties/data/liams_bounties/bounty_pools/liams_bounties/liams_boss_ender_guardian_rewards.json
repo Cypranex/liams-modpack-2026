@@ -1,0 +1,429 @@
+{
+  "requires": [
+    "irons_spellbooks"
+  ],
+  "content": {
+    "minecraft_netherite_ingot": {
+      "type": "minecraft:item",
+      "content": "minecraft:netherite_ingot",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000.0,
+      "rarity": "EPIC"
+    },
+    "irons_spellbooks_ender_upgrade_orb": {
+      "type": "minecraft:item",
+      "content": "irons_spellbooks:ender_upgrade_orb",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000.0,
+      "rarity": "EPIC"
+    },
+    "minecraft_diamond": {
+      "type": "minecraft:item",
+      "content": "minecraft:diamond",
+      "amount": {
+        "min": 5,
+        "max": 5
+      },
+      "unitWorth": 200.0,
+      "rarity": "EPIC"
+    },
+    "conqueror_duelist_kit": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000.0,
+      "rarity": "EPIC",
+      "name": "Conqueror Duelist Kit",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Conqueror Duelist Kit\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "minecraft:diamond_sword",
+              "count": 1,
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:sharpness": 3
+                  }
+                }
+              }
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "minecraft:diamond_chestplate",
+              "count": 1,
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:protection": 3
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"1 × Diamond Sword (Sharpness III)\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"1 × Diamond Chestplate (Protection III)\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      },
+      "weightMult": 0.125
+    },
+    "conqueror_undead_hunter_kit": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000.0,
+      "rarity": "EPIC",
+      "name": "Conqueror Undead Hunter Kit",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Conqueror Undead Hunter Kit\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "minecraft:diamond_sword",
+              "count": 1,
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:smite": 3
+                  }
+                }
+              }
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "minecraft:diamond_helmet",
+              "count": 1,
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:protection": 3
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"1 × Diamond Sword (Smite III)\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"1 × Diamond Helmet (Protection III)\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      },
+      "weightMult": 0.125
+    },
+    "conqueror_axeman_kit": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000.0,
+      "rarity": "EPIC",
+      "name": "Conqueror Axeman Kit",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Conqueror Axeman Kit\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "minecraft:diamond_axe",
+              "count": 1,
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:sharpness": 3
+                  }
+                }
+              }
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "minecraft:diamond_leggings",
+              "count": 1,
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:projectile_protection": 3
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"1 × Diamond Axe (Sharpness III)\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"1 × Diamond Leggings (Projectile Protection III)\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      },
+      "weightMult": 0.125
+    },
+    "conqueror_stalwart_kit": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000.0,
+      "rarity": "EPIC",
+      "name": "Conqueror Stalwart Kit",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Conqueror Stalwart Kit\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "minecraft:diamond_axe",
+              "count": 1,
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:unbreaking": 3
+                  }
+                }
+              }
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "minecraft:diamond_boots",
+              "count": 1,
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:blast_protection": 3
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"1 × Diamond Axe (Unbreaking III)\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"1 × Diamond Boots (Blast Protection III)\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      },
+      "weightMult": 0.125
+    },
+    "conqueror_pathfinder_kit": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000.0,
+      "rarity": "EPIC",
+      "name": "Conqueror Pathfinder Kit",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Conqueror Pathfinder Kit\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "minecraft:diamond_sword",
+              "count": 1,
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:unbreaking": 3
+                  }
+                }
+              }
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "minecraft:diamond_boots",
+              "count": 1,
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:protection": 3
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"1 × Diamond Sword (Unbreaking III)\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"1 × Diamond Boots (Protection III)\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      },
+      "weightMult": 0.125
+    },
+    "conqueror_sentinel_kit": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000.0,
+      "rarity": "EPIC",
+      "name": "Conqueror Sentinel Kit",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Conqueror Sentinel Kit\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "minecraft:diamond_helmet",
+              "count": 1,
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:protection": 3
+                  }
+                }
+              }
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "minecraft:diamond_boots",
+              "count": 1,
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:protection": 3
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"1 × Diamond Helmet (Protection III)\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"1 × Diamond Boots (Protection III)\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      },
+      "weightMult": 0.125
+    },
+    "conqueror_demolition_guard_kit": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000.0,
+      "rarity": "EPIC",
+      "name": "Conqueror Demolition Guard Kit",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Conqueror Demolition Guard Kit\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "minecraft:diamond_chestplate",
+              "count": 1,
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:blast_protection": 3
+                  }
+                }
+              }
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "minecraft:diamond_leggings",
+              "count": 1,
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:unbreaking": 3
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"1 × Diamond Chestplate (Blast Protection III)\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"1 × Diamond Leggings (Unbreaking III)\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      },
+      "weightMult": 0.125
+    },
+    "conqueror_marksman_guard_kit": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000.0,
+      "rarity": "EPIC",
+      "name": "Conqueror Marksman Guard Kit",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Conqueror Marksman Guard Kit\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "minecraft:diamond_chestplate",
+              "count": 1,
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:projectile_protection": 3
+                  }
+                }
+              }
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "minecraft:diamond_helmet",
+              "count": 1,
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:unbreaking": 3
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"1 × Diamond Chestplate (Projectile Protection III)\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"1 × Diamond Helmet (Unbreaking III)\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      },
+      "weightMult": 0.125
+    }
+  }
+}

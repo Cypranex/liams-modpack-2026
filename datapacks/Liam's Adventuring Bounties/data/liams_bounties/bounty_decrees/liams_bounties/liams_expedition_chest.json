@@ -1,0 +1,26 @@
+{
+  "requires": [
+    "bountiful",
+    "bountiful_contract_fairness",
+    "caverns_and_chasms",
+    "comforts",
+    "fangs_n_claws",
+    "farmersdelight",
+    "map_atlases",
+    "reliable_backpacks",
+    "supplementaries"
+  ],
+  "objectives": [
+    "liams_expedition_chest_objectives"
+  ],
+  "rewards": [
+    "liams_expedition_rewards"
+  ],
+  "canSpawn": true,
+  "canReveal": true,
+  "canWanderBuy": true,
+  "linkedProfessions": [
+    "cartographer",
+    "librarian"
+  ]
+}

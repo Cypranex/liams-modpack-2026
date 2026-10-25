@@ -1,0 +1,20 @@
+{
+  "requires": [
+    "betterend",
+    "bountiful",
+    "bountiful_contract_fairness",
+    "dtbetterend",
+    "dynamictreesplus",
+    "knavesneeds"
+  ],
+  "objectives": [
+    "liams_end_reclamation_objectives"
+  ],
+  "rewards": [
+    "liams_end_patrol_rewards"
+  ],
+  "canSpawn": false,
+  "canReveal": true,
+  "canWanderBuy": true,
+  "linkedProfessions": []
+}

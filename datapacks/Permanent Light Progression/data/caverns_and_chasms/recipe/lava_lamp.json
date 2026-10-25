@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "tag": "c:buckets/lava"
+    },
+    "G": {
+      "tag": "c:ingots/gold"
+    },
+    "T": {
+      "item": "minecraft:torch"
+    }
+  },
+  "pattern": [
+    "GGG",
+    "TB ",
+    "GGG"
+  ],
+  "result": {
+    "count": 1,
+    "id": "caverns_and_chasms:lava_lamp"
+  }
+}

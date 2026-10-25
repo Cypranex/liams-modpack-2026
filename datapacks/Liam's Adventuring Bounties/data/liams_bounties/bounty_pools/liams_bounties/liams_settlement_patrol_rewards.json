@@ -1,0 +1,273 @@
+{
+  "requires": [
+    "chipped",
+    "dtru",
+    "handcrafted",
+    "regions_unexplored",
+    "ribbits",
+    "supplementaries",
+    "upgrade_aquatic"
+  ],
+  "content": {
+    "oak_homestead_furnishings": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000.0,
+      "rarity": "COMMON",
+      "name": "Oak Homestead Furnishings",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Oak Homestead Furnishings\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "handcrafted:oak_cupboard",
+              "count": 2
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "handcrafted:oak_nightstand",
+              "count": 2
+            }
+          },
+          {
+            "slot": 2,
+            "item": {
+              "id": "minecraft:iron_ingot",
+              "count": 12
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"2 × Oak Cupboard\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"2 × Oak Nightstand\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"12 × Iron Ingot\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      }
+    },
+    "mason_restoration_supplies": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000.0,
+      "rarity": "COMMON",
+      "name": "Mason Restoration Supplies",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Mason Restoration Supplies\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "chipped:bordered_cobblestone",
+              "count": 32
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "chipped:carved_cobblestone",
+              "count": 32
+            }
+          },
+          {
+            "slot": 2,
+            "item": {
+              "id": "minecraft:iron_ingot",
+              "count": 12
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"32 × Bordered Cobblestone\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"32 × Carved Cobblestone\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"12 × Iron Ingot\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      }
+    },
+    "cypress_forester_supplies": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000.0,
+      "rarity": "COMMON",
+      "name": "Cypress Forester Supplies",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Cypress Forester Supplies\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "regions_unexplored:cypress_log",
+              "count": 32
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "dtru:cypress_seed",
+              "count": 2
+            }
+          },
+          {
+            "slot": 2,
+            "item": {
+              "id": "minecraft:iron_ingot",
+              "count": 12
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"32 × Cypress Log\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"2 × Cypress Cone\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"12 × Iron Ingot\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      }
+    },
+    "village_signwright_supplies": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000.0,
+      "rarity": "COMMON",
+      "name": "Village Signwright Supplies",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Village Signwright Supplies\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "supplementaries:way_sign_oak",
+              "count": 8
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "supplementaries:flag_white",
+              "count": 2
+            }
+          },
+          {
+            "slot": 2,
+            "item": {
+              "id": "supplementaries:flute",
+              "count": 1
+            }
+          },
+          {
+            "slot": 3,
+            "item": {
+              "id": "minecraft:lantern",
+              "count": 2
+            }
+          },
+          {
+            "slot": 4,
+            "item": {
+              "id": "minecraft:iron_ingot",
+              "count": 12
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"8 × Way Sign Oak\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"2 × White Flag\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"1 × Flute\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"2 × Lantern\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"12 × Iron Ingot\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      }
+    },
+    "marsh_musician_gift": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000.0,
+      "rarity": "COMMON",
+      "name": "Marsh Musician Gift",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Marsh Musician Gift\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "ribbits:maraca",
+              "count": 1
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "minecraft:iron_ingot",
+              "count": 16
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"1 × Maraca\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"16 × Iron Ingot\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      }
+    },
+    "coralstone_restoration_supplies": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000.0,
+      "rarity": "COMMON",
+      "name": "Coralstone Restoration Supplies",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Coralstone Restoration Supplies\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "upgrade_aquatic:brain_coralstone",
+              "count": 24
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "upgrade_aquatic:bubble_coralstone",
+              "count": 24
+            }
+          },
+          {
+            "slot": 2,
+            "item": {
+              "id": "minecraft:iron_ingot",
+              "count": 12
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"24 × Brain Coralstone\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"24 × Bubble Coralstone\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"12 × Iron Ingot\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      }
+    }
+  }
+}

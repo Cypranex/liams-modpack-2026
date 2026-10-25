@@ -1,0 +1,21 @@
+{
+  "requires": [
+    "betterarcheology",
+    "bountiful",
+    "bountiful_contract_fairness",
+    "cataclysm",
+    "caverns_and_chasms",
+    "chalk",
+    "spelunkers_charm"
+  ],
+  "objectives": [
+    "liams_drowned_chapels_objectives"
+  ],
+  "rewards": [
+    "liams_delver_rewards"
+  ],
+  "canSpawn": true,
+  "canReveal": true,
+  "canWanderBuy": true,
+  "linkedProfessions": []
+}

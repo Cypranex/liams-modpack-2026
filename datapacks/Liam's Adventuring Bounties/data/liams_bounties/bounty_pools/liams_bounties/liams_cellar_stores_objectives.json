@@ -1,0 +1,86 @@
+{
+  "requires": [
+    "bountiful",
+    "bountiful_contract_fairness",
+    "brewinandchewin"
+  ],
+  "content": {
+    "brewinandchewin_jerky": {
+      "type": "minecraft:item",
+      "content": "brewinandchewin:jerky",
+      "amount": {
+        "min": 4,
+        "max": 16
+      },
+      "unitWorth": 125.0,
+      "timeMult": 120,
+      "rarity": "COMMON"
+    },
+    "brewinandchewin_kimchi": {
+      "type": "minecraft:item",
+      "content": "brewinandchewin:kimchi",
+      "amount": {
+        "min": 2,
+        "max": 8
+      },
+      "unitWorth": 250.0,
+      "timeMult": 120,
+      "rarity": "COMMON"
+    },
+    "brewinandchewin_kippers": {
+      "type": "minecraft:item",
+      "content": "brewinandchewin:kippers",
+      "amount": {
+        "min": 4,
+        "max": 16
+      },
+      "unitWorth": 125.0,
+      "timeMult": 120,
+      "rarity": "COMMON"
+    },
+    "brewinandchewin_flaxen_cheese_wedge": {
+      "type": "minecraft:item",
+      "content": "brewinandchewin:flaxen_cheese_wedge",
+      "amount": {
+        "min": 4,
+        "max": 16
+      },
+      "unitWorth": 125.0,
+      "timeMult": 120,
+      "rarity": "COMMON"
+    },
+    "brewinandchewin_sweet_berry_jam": {
+      "type": "minecraft:item",
+      "content": "brewinandchewin:sweet_berry_jam",
+      "amount": {
+        "min": 2,
+        "max": 8
+      },
+      "unitWorth": 250.0,
+      "timeMult": 120,
+      "rarity": "COMMON"
+    },
+    "brewinandchewin_apple_jelly": {
+      "type": "minecraft:item",
+      "content": "brewinandchewin:apple_jelly",
+      "amount": {
+        "min": 2,
+        "max": 8
+      },
+      "unitWorth": 250.0,
+      "timeMult": 120,
+      "rarity": "COMMON"
+    },
+    "brewinandchewin_pickled_pickles": {
+      "type": "minecraft:item",
+      "content": "brewinandchewin:pickled_pickles",
+      "amount": {
+        "min": 2,
+        "max": 8
+      },
+      "unitWorth": 250.0,
+      "timeMult": 120,
+      "rarity": "COMMON"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "requires": [
+    "aether",
+    "aethersdelight",
+    "bountiful",
+    "bountiful_contract_fairness",
+    "caverns_and_chasms",
+    "comforts",
+    "deep_aether",
+    "farmersdelight",
+    "reliable_backpacks"
+  ],
+  "objectives": [
+    "liams_skyroot_kitchen_objectives"
+  ],
+  "rewards": [
+    "liams_aether_provisions_rewards"
+  ],
+  "canSpawn": false,
+  "canReveal": true,
+  "canWanderBuy": true,
+  "linkedProfessions": []
+}

@@ -1,0 +1,109 @@
+{
+  "requires": [
+    "bountiful",
+    "bountiful_contract_fairness",
+    "caverns_and_chasms",
+    "quark"
+  ],
+  "content": {
+    "quark_limestone": {
+      "type": "minecraft:item",
+      "content": "quark:limestone",
+      "amount": {
+        "min": 32,
+        "max": 128
+      },
+      "unitWorth": 16.0,
+      "timeMult": 120,
+      "rarity": "COMMON"
+    },
+    "quark_jasper": {
+      "type": "minecraft:item",
+      "content": "quark:jasper",
+      "amount": {
+        "min": 32,
+        "max": 128
+      },
+      "unitWorth": 16.0,
+      "timeMult": 120,
+      "rarity": "COMMON"
+    },
+    "quark_shale": {
+      "type": "minecraft:item",
+      "content": "quark:shale",
+      "amount": {
+        "min": 32,
+        "max": 128
+      },
+      "unitWorth": 16.0,
+      "timeMult": 120,
+      "rarity": "COMMON"
+    },
+    "quark_polished_limestone": {
+      "type": "minecraft:item",
+      "content": "quark:polished_limestone",
+      "amount": {
+        "min": 32,
+        "max": 128
+      },
+      "unitWorth": 16.0,
+      "timeMult": 120,
+      "rarity": "COMMON"
+    },
+    "quark_polished_jasper": {
+      "type": "minecraft:item",
+      "content": "quark:polished_jasper",
+      "amount": {
+        "min": 32,
+        "max": 128
+      },
+      "unitWorth": 16.0,
+      "timeMult": 120,
+      "rarity": "COMMON"
+    },
+    "quark_polished_shale": {
+      "type": "minecraft:item",
+      "content": "quark:polished_shale",
+      "amount": {
+        "min": 32,
+        "max": 128
+      },
+      "unitWorth": 16.0,
+      "timeMult": 120,
+      "rarity": "COMMON"
+    },
+    "caverns_and_chasms_dripstone_bricks": {
+      "type": "minecraft:item",
+      "content": "caverns_and_chasms:dripstone_bricks",
+      "amount": {
+        "min": 32,
+        "max": 128
+      },
+      "unitWorth": 16.0,
+      "timeMult": 120,
+      "rarity": "COMMON"
+    },
+    "caverns_and_chasms_cobblestone_bricks": {
+      "type": "minecraft:item",
+      "content": "caverns_and_chasms:cobblestone_bricks",
+      "amount": {
+        "min": 32,
+        "max": 128
+      },
+      "unitWorth": 16.0,
+      "timeMult": 120,
+      "rarity": "COMMON"
+    },
+    "caverns_and_chasms_cobbled_deepslate_bricks": {
+      "type": "minecraft:item",
+      "content": "caverns_and_chasms:cobbled_deepslate_bricks",
+      "amount": {
+        "min": 32,
+        "max": 128
+      },
+      "unitWorth": 16.0,
+      "timeMult": 120,
+      "rarity": "COMMON"
+    }
+  }
+}

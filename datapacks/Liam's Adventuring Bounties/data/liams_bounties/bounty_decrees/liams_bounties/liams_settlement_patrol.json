@@ -1,0 +1,23 @@
+{
+  "requires": [
+    "bountiful",
+    "bountiful_contract_fairness",
+    "chipped",
+    "dtru",
+    "handcrafted",
+    "regions_unexplored",
+    "ribbits",
+    "supplementaries",
+    "upgrade_aquatic"
+  ],
+  "objectives": [
+    "liams_settlement_patrol_objectives"
+  ],
+  "rewards": [
+    "liams_settlement_patrol_rewards"
+  ],
+  "canSpawn": false,
+  "canReveal": true,
+  "canWanderBuy": true,
+  "linkedProfessions": []
+}

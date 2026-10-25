@@ -1,0 +1,21 @@
+{
+  "requires": [
+    "betterarcheology",
+    "bountiful",
+    "bountiful_contract_fairness",
+    "caverns_and_chasms",
+    "chalk",
+    "fangs_n_claws",
+    "spelunkers_charm"
+  ],
+  "objectives": [
+    "liams_ogre_country_objectives"
+  ],
+  "rewards": [
+    "liams_delver_rewards"
+  ],
+  "canSpawn": true,
+  "canReveal": true,
+  "canWanderBuy": true,
+  "linkedProfessions": []
+}

@@ -1,0 +1,53 @@
+{
+  "requires": [
+    "bountiful",
+    "bountiful_contract_fairness",
+    "creeperoverhaul"
+  ],
+  "content": {
+    "creeperoverhaul_cave_creeper": {
+      "type": "minecraft:entity",
+      "content": "creeperoverhaul:cave_creeper",
+      "amount": {
+        "min": 4,
+        "max": 10
+      },
+      "unitWorth": 200.0,
+      "timeMult": 160,
+      "rarity": "COMMON"
+    },
+    "creeperoverhaul_dripstone_creeper": {
+      "type": "minecraft:entity",
+      "content": "creeperoverhaul:dripstone_creeper",
+      "amount": {
+        "min": 4,
+        "max": 10
+      },
+      "unitWorth": 200.0,
+      "timeMult": 160,
+      "rarity": "COMMON"
+    },
+    "creeperoverhaul_dark_oak_creeper": {
+      "type": "minecraft:entity",
+      "content": "creeperoverhaul:dark_oak_creeper",
+      "amount": {
+        "min": 4,
+        "max": 10
+      },
+      "unitWorth": 200.0,
+      "timeMult": 160,
+      "rarity": "COMMON"
+    },
+    "minecraft_creeper": {
+      "type": "minecraft:entity",
+      "content": "minecraft:creeper",
+      "amount": {
+        "min": 4,
+        "max": 10
+      },
+      "unitWorth": 200.0,
+      "timeMult": 160,
+      "rarity": "COMMON"
+    }
+  }
+}

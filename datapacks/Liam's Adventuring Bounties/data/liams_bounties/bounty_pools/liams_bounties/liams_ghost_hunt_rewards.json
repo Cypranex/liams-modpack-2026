@@ -1,0 +1,41 @@
+{
+  "requires": [
+    "fangs_n_claws"
+  ],
+  "content": {
+    "ghost_salvage_bonus": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000.0,
+      "rarity": "COMMON",
+      "name": "Ghost Salvage Bonus",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Ghost Salvage Bonus\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "fangs_n_claws:spectral_essence",
+              "count": 4
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "minecraft:iron_ingot",
+              "count": 16
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"4 × Spectral Essence\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"16 × Iron Ingot\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      }
+    }
+  }
+}

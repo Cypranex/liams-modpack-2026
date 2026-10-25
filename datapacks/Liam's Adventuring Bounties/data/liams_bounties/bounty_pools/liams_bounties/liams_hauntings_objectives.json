@@ -1,0 +1,53 @@
+{
+  "requires": [
+    "bountiful",
+    "bountiful_contract_fairness",
+    "fangs_n_claws"
+  ],
+  "content": {
+    "fangs_n_claws_ghost": {
+      "type": "minecraft:entity",
+      "content": "fangs_n_claws:ghost",
+      "amount": {
+        "min": 4,
+        "max": 12
+      },
+      "unitWorth": 160.0,
+      "timeMult": 160,
+      "rarity": "COMMON"
+    },
+    "fangs_n_claws_fire_ghost": {
+      "type": "minecraft:entity",
+      "content": "fangs_n_claws:fire_ghost",
+      "amount": {
+        "min": 2,
+        "max": 6
+      },
+      "unitWorth": 350.0,
+      "timeMult": 200,
+      "rarity": "COMMON"
+    },
+    "fangs_n_claws_silver_skeleton": {
+      "type": "minecraft:entity",
+      "content": "fangs_n_claws:silver_skeleton",
+      "amount": {
+        "min": 4,
+        "max": 12
+      },
+      "unitWorth": 160.0,
+      "timeMult": 160,
+      "rarity": "COMMON"
+    },
+    "fangs_n_claws_werewolf": {
+      "type": "minecraft:entity",
+      "content": "fangs_n_claws:werewolf",
+      "amount": {
+        "min": 3,
+        "max": 9
+      },
+      "unitWorth": 200.0,
+      "timeMult": 160,
+      "rarity": "COMMON"
+    }
+  }
+}

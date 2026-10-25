@@ -1,0 +1,467 @@
+{
+  "requires": [
+    "caverns_and_chasms",
+    "hybrid_aquatic",
+    "tide"
+  ],
+  "content": {
+    "minecraft_iron_ingot": {
+      "type": "minecraft:item",
+      "content": "minecraft:iron_ingot",
+      "amount": {
+        "min": 16,
+        "max": 16
+      },
+      "unitWorth": 50.0,
+      "rarity": "COMMON"
+    },
+    "minecraft_gold_ingot": {
+      "type": "minecraft:item",
+      "content": "minecraft:gold_ingot",
+      "amount": {
+        "min": 8,
+        "max": 8
+      },
+      "unitWorth": 100.0,
+      "rarity": "COMMON"
+    },
+    "caverns_and_chasms_silver_ingot": {
+      "type": "minecraft:item",
+      "content": "caverns_and_chasms:silver_ingot",
+      "amount": {
+        "min": 8,
+        "max": 8
+      },
+      "unitWorth": 87.5,
+      "rarity": "COMMON"
+    },
+    "minecraft_prismarine_shard": {
+      "type": "minecraft:item",
+      "content": "minecraft:prismarine_shard",
+      "amount": {
+        "min": 24,
+        "max": 24
+      },
+      "unitWorth": 33.333333333333336,
+      "rarity": "COMMON"
+    },
+    "coastal_supply_cache": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000.0,
+      "rarity": "COMMON",
+      "name": "Coastal Supply Cache",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Coastal Supply Cache\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "minecraft:iron_ingot",
+              "count": 12
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "minecraft:gold_ingot",
+              "count": 4
+            }
+          },
+          {
+            "slot": 2,
+            "item": {
+              "id": "minecraft:lapis_lazuli",
+              "count": 16
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"12 × Iron Ingot\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"4 × Gold Ingot\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"16 × Lapis Lazuli\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      }
+    },
+    "iron_angler_kit_-_lure_i": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000.0,
+      "rarity": "COMMON",
+      "name": "Iron Angler Kit - Lure I",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Iron Angler Kit - Lure I\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "tide:iron_fishing_rod",
+              "count": 1,
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:lure": 1
+                  }
+                }
+              }
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "tide:iron_line",
+              "count": 1
+            }
+          },
+          {
+            "slot": 2,
+            "item": {
+              "id": "tide:bait",
+              "count": 32
+            }
+          },
+          {
+            "slot": 3,
+            "item": {
+              "id": "minecraft:iron_ingot",
+              "count": 12
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"1 × Iron Fishing Rod (Lure I)\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"1 × Iron Line\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"32 × Bait\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"12 × Iron Ingot\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      },
+      "weightMult": 0.5
+    },
+    "iron_angler_kit_-_unbreaking_i": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000.0,
+      "rarity": "COMMON",
+      "name": "Iron Angler Kit - Unbreaking I",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Iron Angler Kit - Unbreaking I\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "tide:iron_fishing_rod",
+              "count": 1,
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:unbreaking": 1
+                  }
+                }
+              }
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "tide:iron_line",
+              "count": 1
+            }
+          },
+          {
+            "slot": 2,
+            "item": {
+              "id": "tide:bait",
+              "count": 32
+            }
+          },
+          {
+            "slot": 3,
+            "item": {
+              "id": "minecraft:iron_ingot",
+              "count": 12
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"1 × Iron Fishing Rod (Unbreaking I)\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"1 × Iron Line\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"32 × Bait\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"12 × Iron Ingot\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      },
+      "weightMult": 0.5
+    },
+    "angler_survey_kit": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000.0,
+      "rarity": "COMMON",
+      "name": "Angler Survey Kit",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Angler Survey Kit\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "tide:depth_meter",
+              "count": 1
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "tide:climate_gauge",
+              "count": 1
+            }
+          },
+          {
+            "slot": 2,
+            "item": {
+              "id": "tide:bait",
+              "count": 24
+            }
+          },
+          {
+            "slot": 3,
+            "item": {
+              "id": "minecraft:iron_ingot",
+              "count": 12
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"1 × Depth Meter\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"1 × Climate Gauge\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"24 × Bait\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"12 × Iron Ingot\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      }
+    },
+    "barbed_angler_kit": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000.0,
+      "rarity": "COMMON",
+      "name": "Barbed Angler Kit",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Barbed Angler Kit\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "hybrid_aquatic:barbed_hook",
+              "count": 1
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "tide:bait",
+              "count": 32
+            }
+          },
+          {
+            "slot": 2,
+            "item": {
+              "id": "minecraft:iron_ingot",
+              "count": 12
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"1 × Barbed Hook\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"32 × Bait\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"12 × Iron Ingot\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      }
+    },
+    "coastal_raft_kit": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000.0,
+      "rarity": "COMMON",
+      "name": "Coastal Raft Kit",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Coastal Raft Kit\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "hybrid_aquatic:oak_raft",
+              "count": 1
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "tide:bait",
+              "count": 24
+            }
+          },
+          {
+            "slot": 2,
+            "item": {
+              "id": "minecraft:iron_ingot",
+              "count": 12
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"1 × Oak Raft\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"24 × Bait\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"12 × Iron Ingot\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      }
+    },
+    "blue_bobber_kit": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000.0,
+      "rarity": "COMMON",
+      "name": "Blue Bobber Kit",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Blue Bobber Kit\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "tide:blue_bobber",
+              "count": 1
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "tide:bait",
+              "count": 48
+            }
+          },
+          {
+            "slot": 2,
+            "item": {
+              "id": "minecraft:iron_ingot",
+              "count": 12
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"1 × Blue Bobber\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"48 × Bait\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"12 × Iron Ingot\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      }
+    },
+    "green_bobber_kit": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000.0,
+      "rarity": "COMMON",
+      "name": "Green Bobber Kit",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Green Bobber Kit\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "tide:green_bobber",
+              "count": 1
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "tide:bait",
+              "count": 48
+            }
+          },
+          {
+            "slot": 2,
+            "item": {
+              "id": "minecraft:iron_ingot",
+              "count": 12
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"1 × Green Bobber\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"48 × Bait\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"12 × Iron Ingot\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      }
+    },
+    "red_bobber_kit": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000.0,
+      "rarity": "COMMON",
+      "name": "Red Bobber Kit",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Red Bobber Kit\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "tide:red_bobber",
+              "count": 1
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "tide:bait",
+              "count": 48
+            }
+          },
+          {
+            "slot": 2,
+            "item": {
+              "id": "minecraft:iron_ingot",
+              "count": 12
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"1 × Red Bobber\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"48 × Bait\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"12 × Iron Ingot\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      }
+    }
+  }
+}

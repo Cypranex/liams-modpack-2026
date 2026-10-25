@@ -1,0 +1,97 @@
+{
+  "requires": [
+    "bountiful",
+    "bountiful_contract_fairness",
+    "fruitsdelight"
+  ],
+  "content": {
+    "fruitsdelight_pear": {
+      "type": "minecraft:item",
+      "content": "fruitsdelight:pear",
+      "amount": {
+        "min": 24,
+        "max": 64
+      },
+      "unitWorth": 25.0,
+      "timeMult": 120,
+      "rarity": "COMMON"
+    },
+    "fruitsdelight_lemon": {
+      "type": "minecraft:item",
+      "content": "fruitsdelight:lemon",
+      "amount": {
+        "min": 24,
+        "max": 64
+      },
+      "unitWorth": 25.0,
+      "timeMult": 120,
+      "rarity": "COMMON"
+    },
+    "fruitsdelight_fig": {
+      "type": "minecraft:item",
+      "content": "fruitsdelight:fig",
+      "amount": {
+        "min": 24,
+        "max": 64
+      },
+      "unitWorth": 25.0,
+      "timeMult": 120,
+      "rarity": "COMMON"
+    },
+    "fruitsdelight_kiwi": {
+      "type": "minecraft:item",
+      "content": "fruitsdelight:kiwi",
+      "amount": {
+        "min": 24,
+        "max": 64
+      },
+      "unitWorth": 25.0,
+      "timeMult": 120,
+      "rarity": "COMMON"
+    },
+    "fruitsdelight_lychee": {
+      "type": "minecraft:item",
+      "content": "fruitsdelight:lychee",
+      "amount": {
+        "min": 24,
+        "max": 64
+      },
+      "unitWorth": 25.0,
+      "timeMult": 120,
+      "rarity": "COMMON"
+    },
+    "fruitsdelight_bayberry": {
+      "type": "minecraft:item",
+      "content": "fruitsdelight:bayberry",
+      "amount": {
+        "min": 24,
+        "max": 64
+      },
+      "unitWorth": 25.0,
+      "timeMult": 120,
+      "rarity": "COMMON"
+    },
+    "fruitsdelight_blueberry": {
+      "type": "minecraft:item",
+      "content": "fruitsdelight:blueberry",
+      "amount": {
+        "min": 24,
+        "max": 64
+      },
+      "unitWorth": 25.0,
+      "timeMult": 120,
+      "rarity": "COMMON"
+    },
+    "fruitsdelight_cranberry": {
+      "type": "minecraft:item",
+      "content": "fruitsdelight:cranberry",
+      "amount": {
+        "min": 24,
+        "max": 64
+      },
+      "unitWorth": 25.0,
+      "timeMult": 120,
+      "rarity": "COMMON"
+    }
+  }
+}

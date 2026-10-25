@@ -1,0 +1,168 @@
+{
+  "requires": [
+    "betterend",
+    "irons_spellbooks"
+  ],
+  "content": {
+    "irons_spellbooks_common_ink": {
+      "type": "minecraft:item",
+      "content": "irons_spellbooks:common_ink",
+      "amount": {
+        "min": 4,
+        "max": 4
+      },
+      "unitWorth": 250.0,
+      "rarity": "COMMON"
+    },
+    "irons_spellbooks_uncommon_ink": {
+      "type": "minecraft:item",
+      "content": "irons_spellbooks:uncommon_ink",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000.0,
+      "rarity": "COMMON"
+    },
+    "irons_spellbooks_arcane_ingot": {
+      "type": "minecraft:item",
+      "content": "irons_spellbooks:arcane_ingot",
+      "amount": {
+        "min": 2,
+        "max": 2
+      },
+      "unitWorth": 500.0,
+      "rarity": "COMMON"
+    },
+    "irons_spellbooks_magic_cloth": {
+      "type": "minecraft:item",
+      "content": "irons_spellbooks:magic_cloth",
+      "amount": {
+        "min": 2,
+        "max": 2
+      },
+      "unitWorth": 500.0,
+      "rarity": "COMMON"
+    },
+    "apprentice_copper_grimoire_kit": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000.0,
+      "rarity": "COMMON",
+      "name": "Apprentice Copper Grimoire Kit",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Apprentice Copper Grimoire Kit\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "irons_spellbooks:copper_spell_book",
+              "count": 1
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "irons_spellbooks:common_ink",
+              "count": 4
+            }
+          },
+          {
+            "slot": 2,
+            "item": {
+              "id": "irons_spellbooks:magic_cloth",
+              "count": 2
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"1 × Flimsy Journal\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"4 × Common Ink\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"2 × Arcane Cloth\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      }
+    },
+    "apprentice_iron_grimoire_kit": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000.0,
+      "rarity": "COMMON",
+      "name": "Apprentice Iron Grimoire Kit",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Apprentice Iron Grimoire Kit\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "irons_spellbooks:iron_spell_book",
+              "count": 1
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "irons_spellbooks:uncommon_ink",
+              "count": 2
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"1 × Ironbound Tome\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"2 × Uncommon Ink\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      }
+    },
+    "betterend_thallasium_ingot": {
+      "type": "minecraft:item",
+      "content": "betterend:thallasium_ingot",
+      "amount": {
+        "min": 8,
+        "max": 8
+      },
+      "unitWorth": 125.0,
+      "rarity": "COMMON"
+    },
+    "end_amber_artisan_supplies": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000.0,
+      "rarity": "COMMON",
+      "name": "End Amber Artisan Supplies",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"End Amber Artisan Supplies\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "betterend:amber_gem",
+              "count": 4
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "betterend:azure_jadestone_bricks",
+              "count": 24
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"4 × Amber Gem\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"24 × Azure Jadestone Bricks\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "requires": [
+    "bountiful",
+    "bountiful_contract_fairness",
+    "rusticdelight"
+  ],
+  "content": {
+    "rusticdelight_cotton_boll": {
+      "type": "minecraft:item",
+      "content": "rusticdelight:cotton_boll",
+      "amount": {
+        "min": 24,
+        "max": 64
+      },
+      "unitWorth": 25.0,
+      "timeMult": 120,
+      "rarity": "COMMON"
+    },
+    "rusticdelight_coffee_beans": {
+      "type": "minecraft:item",
+      "content": "rusticdelight:coffee_beans",
+      "amount": {
+        "min": 24,
+        "max": 64
+      },
+      "unitWorth": 25.0,
+      "timeMult": 120,
+      "rarity": "COMMON"
+    },
+    "rusticdelight_bell_pepper_red": {
+      "type": "minecraft:item",
+      "content": "rusticdelight:bell_pepper_red",
+      "amount": {
+        "min": 24,
+        "max": 64
+      },
+      "unitWorth": 25.0,
+      "timeMult": 120,
+      "rarity": "COMMON"
+    },
+    "rusticdelight_bell_pepper_yellow": {
+      "type": "minecraft:item",
+      "content": "rusticdelight:bell_pepper_yellow",
+      "amount": {
+        "min": 24,
+        "max": 64
+      },
+      "unitWorth": 25.0,
+      "timeMult": 120,
+      "rarity": "COMMON"
+    },
+    "rusticdelight_bell_pepper_green": {
+      "type": "minecraft:item",
+      "content": "rusticdelight:bell_pepper_green",
+      "amount": {
+        "min": 24,
+        "max": 64
+      },
+      "unitWorth": 25.0,
+      "timeMult": 120,
+      "rarity": "COMMON"
+    },
+    "rusticdelight_bell_pepper_white": {
+      "type": "minecraft:item",
+      "content": "rusticdelight:bell_pepper_white",
+      "amount": {
+        "min": 24,
+        "max": 64
+      },
+      "unitWorth": 25.0,
+      "timeMult": 120,
+      "rarity": "COMMON"
+    },
+    "rusticdelight_pancake": {
+      "type": "minecraft:item",
+      "content": "rusticdelight:pancake",
+      "amount": {
+        "min": 4,
+        "max": 16
+      },
+      "unitWorth": 125.0,
+      "timeMult": 120,
+      "rarity": "COMMON"
+    },
+    "rusticdelight_potato_salad": {
+      "type": "minecraft:item",
+      "content": "rusticdelight:potato_salad",
+      "amount": {
+        "min": 2,
+        "max": 8
+      },
+      "unitWorth": 250.0,
+      "timeMult": 120,
+      "rarity": "COMMON"
+    }
+  }
+}
