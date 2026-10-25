@@ -1,0 +1,109 @@
+{
+  "requires": [
+    "bountiful",
+    "bountiful_contract_fairness",
+    "farmersdelight",
+    "supplementaries"
+  ],
+  "content": {
+    "supplementaries_rope": {
+      "type": "minecraft:item",
+      "content": "supplementaries:rope",
+      "amount": {
+        "min": 12,
+        "max": 40
+      },
+      "unitWorth": 50.0,
+      "timeMult": 120,
+      "rarity": "COMMON"
+    },
+    "supplementaries_flax": {
+      "type": "minecraft:item",
+      "content": "supplementaries:flax",
+      "amount": {
+        "min": 12,
+        "max": 40
+      },
+      "unitWorth": 50.0,
+      "timeMult": 120,
+      "rarity": "COMMON"
+    },
+    "supplementaries_daub": {
+      "type": "minecraft:item",
+      "content": "supplementaries:daub",
+      "amount": {
+        "min": 8,
+        "max": 24
+      },
+      "unitWorth": 64.0,
+      "timeMult": 160,
+      "rarity": "COMMON"
+    },
+    "supplementaries_daub_frame": {
+      "type": "minecraft:item",
+      "content": "supplementaries:daub_frame",
+      "amount": {
+        "min": 8,
+        "max": 24
+      },
+      "unitWorth": 64.0,
+      "timeMult": 160,
+      "rarity": "COMMON"
+    },
+    "supplementaries_daub_brace": {
+      "type": "minecraft:item",
+      "content": "supplementaries:daub_brace",
+      "amount": {
+        "min": 8,
+        "max": 24
+      },
+      "unitWorth": 64.0,
+      "timeMult": 160,
+      "rarity": "COMMON"
+    },
+    "supplementaries_ash_bricks": {
+      "type": "minecraft:item",
+      "content": "supplementaries:ash_bricks",
+      "amount": {
+        "min": 4,
+        "max": 16
+      },
+      "unitWorth": 125.0,
+      "timeMult": 160,
+      "rarity": "COMMON"
+    },
+    "supplementaries_fine_wood": {
+      "type": "minecraft:item",
+      "content": "supplementaries:fine_wood",
+      "amount": {
+        "min": 4,
+        "max": 16
+      },
+      "unitWorth": 125.0,
+      "timeMult": 160,
+      "rarity": "COMMON"
+    },
+    "farmersdelight_canvas": {
+      "type": "minecraft:item",
+      "content": "farmersdelight:canvas",
+      "amount": {
+        "min": 4,
+        "max": 16
+      },
+      "unitWorth": 125.0,
+      "timeMult": 160,
+      "rarity": "COMMON"
+    },
+    "farmersdelight_rope": {
+      "type": "minecraft:item",
+      "content": "farmersdelight:rope",
+      "amount": {
+        "min": 12,
+        "max": 40
+      },
+      "unitWorth": 50.0,
+      "timeMult": 120,
+      "rarity": "COMMON"
+    }
+  }
+}

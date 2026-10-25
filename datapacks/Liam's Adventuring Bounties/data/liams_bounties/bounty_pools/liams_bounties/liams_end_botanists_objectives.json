@@ -1,0 +1,86 @@
+{
+  "requires": [
+    "betterend",
+    "bountiful",
+    "bountiful_contract_fairness"
+  ],
+  "content": {
+    "betterend_blossom_berry": {
+      "type": "minecraft:item",
+      "content": "betterend:blossom_berry",
+      "amount": {
+        "min": 16,
+        "max": 48
+      },
+      "unitWorth": 40.0,
+      "timeMult": 200,
+      "rarity": "COMMON"
+    },
+    "betterend_amber_root_raw": {
+      "type": "minecraft:item",
+      "content": "betterend:amber_root_raw",
+      "amount": {
+        "min": 16,
+        "max": 48
+      },
+      "unitWorth": 40.0,
+      "timeMult": 200,
+      "rarity": "COMMON"
+    },
+    "betterend_hydralux_petal": {
+      "type": "minecraft:item",
+      "content": "betterend:hydralux_petal",
+      "amount": {
+        "min": 16,
+        "max": 48
+      },
+      "unitWorth": 40.0,
+      "timeMult": 200,
+      "rarity": "COMMON"
+    },
+    "betterend_end_lily_leaf": {
+      "type": "minecraft:item",
+      "content": "betterend:end_lily_leaf",
+      "amount": {
+        "min": 16,
+        "max": 48
+      },
+      "unitWorth": 40.0,
+      "timeMult": 200,
+      "rarity": "COMMON"
+    },
+    "betterend_glowing_bulb": {
+      "type": "minecraft:item",
+      "content": "betterend:glowing_bulb",
+      "amount": {
+        "min": 16,
+        "max": 48
+      },
+      "unitWorth": 40.0,
+      "timeMult": 200,
+      "rarity": "COMMON"
+    },
+    "betterend_amaranita_fur": {
+      "type": "minecraft:item",
+      "content": "betterend:amaranita_fur",
+      "amount": {
+        "min": 16,
+        "max": 48
+      },
+      "unitWorth": 40.0,
+      "timeMult": 200,
+      "rarity": "COMMON"
+    },
+    "betterend_aurant_polypore": {
+      "type": "minecraft:item",
+      "content": "betterend:aurant_polypore",
+      "amount": {
+        "min": 16,
+        "max": 48
+      },
+      "unitWorth": 40.0,
+      "timeMult": 200,
+      "rarity": "COMMON"
+    }
+  }
+}

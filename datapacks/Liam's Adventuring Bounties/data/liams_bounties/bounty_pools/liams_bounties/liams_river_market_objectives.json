@@ -1,0 +1,210 @@
+{
+  "requires": [
+    "bountiful",
+    "bountiful_contract_fairness",
+    "hybrid_aquatic",
+    "mr_tide_extracompatibility",
+    "tide",
+    "upgrade_aquatic"
+  ],
+  "content": {
+    "minecraft_salmon": {
+      "type": "minecraft:item",
+      "content": "minecraft:salmon",
+      "amount": {
+        "min": 6,
+        "max": 16
+      },
+      "unitWorth": 100.0,
+      "timeMult": 180,
+      "rarity": "COMMON"
+    },
+    "tide_carp": {
+      "type": "minecraft:item",
+      "content": "tide:carp",
+      "amount": {
+        "min": 3,
+        "max": 8
+      },
+      "unitWorth": 200.0,
+      "timeMult": 240,
+      "rarity": "COMMON"
+    },
+    "tide_brook_trout": {
+      "type": "minecraft:item",
+      "content": "tide:brook_trout",
+      "amount": {
+        "min": 6,
+        "max": 16
+      },
+      "unitWorth": 100.0,
+      "timeMult": 180,
+      "rarity": "COMMON"
+    },
+    "tide_rainbow_trout": {
+      "type": "minecraft:item",
+      "content": "tide:rainbow_trout",
+      "amount": {
+        "min": 6,
+        "max": 16
+      },
+      "unitWorth": 100.0,
+      "timeMult": 180,
+      "rarity": "COMMON"
+    },
+    "tide_bluegill": {
+      "type": "minecraft:item",
+      "content": "tide:bluegill",
+      "amount": {
+        "min": 3,
+        "max": 8
+      },
+      "unitWorth": 200.0,
+      "timeMult": 240,
+      "rarity": "COMMON"
+    },
+    "tide_yellow_perch": {
+      "type": "minecraft:item",
+      "content": "tide:yellow_perch",
+      "amount": {
+        "min": 6,
+        "max": 16
+      },
+      "unitWorth": 100.0,
+      "timeMult": 180,
+      "rarity": "COMMON"
+    },
+    "tide_largemouth_bass": {
+      "type": "minecraft:item",
+      "content": "tide:largemouth_bass",
+      "amount": {
+        "min": 6,
+        "max": 16
+      },
+      "unitWorth": 100.0,
+      "timeMult": 180,
+      "rarity": "COMMON"
+    },
+    "tide_smallmouth_bass": {
+      "type": "minecraft:item",
+      "content": "tide:smallmouth_bass",
+      "amount": {
+        "min": 3,
+        "max": 8
+      },
+      "unitWorth": 200.0,
+      "timeMult": 240,
+      "rarity": "COMMON"
+    },
+    "tide_catfish": {
+      "type": "minecraft:item",
+      "content": "tide:catfish",
+      "amount": {
+        "min": 3,
+        "max": 8
+      },
+      "unitWorth": 200.0,
+      "timeMult": 240,
+      "rarity": "COMMON"
+    },
+    "tide_black_crappie": {
+      "type": "minecraft:item",
+      "content": "tide:black_crappie",
+      "amount": {
+        "min": 6,
+        "max": 16
+      },
+      "unitWorth": 100.0,
+      "timeMult": 180,
+      "rarity": "COMMON"
+    },
+    "tide_white_crappie": {
+      "type": "minecraft:item",
+      "content": "tide:white_crappie",
+      "amount": {
+        "min": 6,
+        "max": 16
+      },
+      "unitWorth": 100.0,
+      "timeMult": 180,
+      "rarity": "COMMON"
+    },
+    "tide_pike": {
+      "type": "minecraft:item",
+      "content": "tide:pike",
+      "amount": {
+        "min": 3,
+        "max": 8
+      },
+      "unitWorth": 200.0,
+      "timeMult": 240,
+      "rarity": "COMMON"
+    },
+    "tide_walleye": {
+      "type": "minecraft:item",
+      "content": "tide:walleye",
+      "amount": {
+        "min": 3,
+        "max": 8
+      },
+      "unitWorth": 200.0,
+      "timeMult": 240,
+      "rarity": "COMMON"
+    },
+    "hybrid_aquatic_carp": {
+      "type": "minecraft:item",
+      "content": "hybrid_aquatic:carp",
+      "amount": {
+        "min": 3,
+        "max": 8
+      },
+      "unitWorth": 200.0,
+      "timeMult": 240,
+      "rarity": "COMMON"
+    },
+    "hybrid_aquatic_sunfish": {
+      "type": "minecraft:item",
+      "content": "hybrid_aquatic:sunfish",
+      "amount": {
+        "min": 6,
+        "max": 16
+      },
+      "unitWorth": 100.0,
+      "timeMult": 180,
+      "rarity": "COMMON"
+    },
+    "hybrid_aquatic_goldfish": {
+      "type": "minecraft:item",
+      "content": "hybrid_aquatic:goldfish",
+      "amount": {
+        "min": 3,
+        "max": 8
+      },
+      "unitWorth": 200.0,
+      "timeMult": 240,
+      "rarity": "COMMON"
+    },
+    "upgrade_aquatic_perch": {
+      "type": "minecraft:item",
+      "content": "upgrade_aquatic:perch",
+      "amount": {
+        "min": 3,
+        "max": 8
+      },
+      "unitWorth": 200.0,
+      "timeMult": 240,
+      "rarity": "COMMON"
+    },
+    "upgrade_aquatic_pike": {
+      "type": "minecraft:item",
+      "content": "upgrade_aquatic:pike",
+      "amount": {
+        "min": 3,
+        "max": 8
+      },
+      "unitWorth": 200.0,
+      "timeMult": 240,
+      "rarity": "COMMON"
+    }
+  }
+}

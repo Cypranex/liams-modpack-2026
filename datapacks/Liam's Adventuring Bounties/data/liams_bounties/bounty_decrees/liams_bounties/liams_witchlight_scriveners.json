@@ -1,0 +1,18 @@
+{
+  "requires": [
+    "bountiful",
+    "bountiful_contract_fairness",
+    "cataclysm_spellbooks",
+    "irons_spellbooks"
+  ],
+  "objectives": [
+    "liams_witchlight_scriveners_objectives"
+  ],
+  "rewards": [
+    "liams_caster_rewards"
+  ],
+  "canSpawn": true,
+  "canReveal": true,
+  "canWanderBuy": true,
+  "linkedProfessions": []
+}

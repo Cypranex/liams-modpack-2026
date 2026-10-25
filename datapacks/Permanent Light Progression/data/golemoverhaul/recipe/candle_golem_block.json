@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "minecraft:honeycomb"
+    },
+    "/": {
+      "item": "minecraft:string"
+    },
+    "T": {
+      "item": "minecraft:torch"
+    }
+  },
+  "pattern": [
+    "T/ ",
+    "###",
+    "###"
+  ],
+  "result": {
+    "count": 1,
+    "id": "golemoverhaul:candle_golem_block"
+  }
+}

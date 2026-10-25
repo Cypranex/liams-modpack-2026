@@ -1,0 +1,120 @@
+{
+  "requires": [
+    "bountiful",
+    "bountiful_contract_fairness",
+    "regions_unexplored",
+    "ribbits"
+  ],
+  "content": {
+    "regions_unexplored_cattail": {
+      "type": "minecraft:item",
+      "content": "regions_unexplored:cattail",
+      "amount": {
+        "min": 16,
+        "max": 48
+      },
+      "unitWorth": 40.0,
+      "timeMult": 200,
+      "rarity": "COMMON"
+    },
+    "regions_unexplored_clover": {
+      "type": "minecraft:item",
+      "content": "regions_unexplored:clover",
+      "amount": {
+        "min": 16,
+        "max": 48
+      },
+      "unitWorth": 40.0,
+      "timeMult": 200,
+      "rarity": "COMMON"
+    },
+    "regions_unexplored_barley": {
+      "type": "minecraft:item",
+      "content": "regions_unexplored:barley",
+      "amount": {
+        "min": 16,
+        "max": 48
+      },
+      "unitWorth": 40.0,
+      "timeMult": 200,
+      "rarity": "COMMON"
+    },
+    "regions_unexplored_spanish_moss": {
+      "type": "minecraft:item",
+      "content": "regions_unexplored:spanish_moss",
+      "amount": {
+        "min": 16,
+        "max": 48
+      },
+      "unitWorth": 40.0,
+      "timeMult": 200,
+      "rarity": "COMMON"
+    },
+    "regions_unexplored_salmonberry": {
+      "type": "minecraft:item",
+      "content": "regions_unexplored:salmonberry",
+      "amount": {
+        "min": 16,
+        "max": 48
+      },
+      "unitWorth": 40.0,
+      "timeMult": 200,
+      "rarity": "COMMON"
+    },
+    "ribbits_swamp_daisy": {
+      "type": "minecraft:item",
+      "content": "ribbits:swamp_daisy",
+      "amount": {
+        "min": 16,
+        "max": 48
+      },
+      "unitWorth": 40.0,
+      "timeMult": 200,
+      "rarity": "COMMON"
+    },
+    "ribbits_toadstool": {
+      "type": "minecraft:item",
+      "content": "ribbits:toadstool",
+      "amount": {
+        "min": 16,
+        "max": 48
+      },
+      "unitWorth": 40.0,
+      "timeMult": 200,
+      "rarity": "COMMON"
+    },
+    "ribbits_brown_toadstool": {
+      "type": "minecraft:item",
+      "content": "ribbits:brown_toadstool",
+      "amount": {
+        "min": 16,
+        "max": 48
+      },
+      "unitWorth": 40.0,
+      "timeMult": 200,
+      "rarity": "COMMON"
+    },
+    "ribbits_red_toadstool": {
+      "type": "minecraft:item",
+      "content": "ribbits:red_toadstool",
+      "amount": {
+        "min": 16,
+        "max": 48
+      },
+      "unitWorth": 40.0,
+      "timeMult": 200,
+      "rarity": "COMMON"
+    },
+    "ribbits_umbrella_leaf": {
+      "type": "minecraft:item",
+      "content": "ribbits:umbrella_leaf",
+      "amount": {
+        "min": 16,
+        "max": 48
+      },
+      "unitWorth": 40.0,
+      "timeMult": 200,
+      "rarity": "COMMON"
+    }
+  }
+}

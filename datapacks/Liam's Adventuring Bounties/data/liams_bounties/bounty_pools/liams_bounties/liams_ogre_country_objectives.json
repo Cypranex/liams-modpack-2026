@@ -1,0 +1,42 @@
+{
+  "requires": [
+    "bountiful",
+    "bountiful_contract_fairness",
+    "fangs_n_claws"
+  ],
+  "content": {
+    "fangs_n_claws_ogre": {
+      "type": "minecraft:entity",
+      "content": "fangs_n_claws:ogre",
+      "amount": {
+        "min": 2,
+        "max": 6
+      },
+      "unitWorth": 350.0,
+      "timeMult": 200,
+      "rarity": "COMMON"
+    },
+    "fangs_n_claws_cave_ogre": {
+      "type": "minecraft:entity",
+      "content": "fangs_n_claws:cave_ogre",
+      "amount": {
+        "min": 2,
+        "max": 6
+      },
+      "unitWorth": 350.0,
+      "timeMult": 200,
+      "rarity": "COMMON"
+    },
+    "fangs_n_claws_hell_ogre": {
+      "type": "minecraft:entity",
+      "content": "fangs_n_claws:hell_ogre",
+      "amount": {
+        "min": 2,
+        "max": 6
+      },
+      "unitWorth": 350.0,
+      "timeMult": 200,
+      "rarity": "COMMON"
+    }
+  }
+}

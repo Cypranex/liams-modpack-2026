@@ -1,0 +1,17 @@
+{
+  "requires": [
+    "bountiful",
+    "bountiful_contract_fairness",
+    "fangs_n_claws"
+  ],
+  "objectives": [
+    "liams_ghost_hunters_objectives"
+  ],
+  "rewards": [
+    "liams_ghost_hunt_rewards"
+  ],
+  "canSpawn": false,
+  "canReveal": true,
+  "canWanderBuy": true,
+  "linkedProfessions": []
+}

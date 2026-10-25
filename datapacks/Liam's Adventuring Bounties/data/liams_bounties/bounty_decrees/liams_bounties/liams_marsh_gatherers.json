@@ -1,0 +1,19 @@
+{
+  "requires": [
+    "bountiful",
+    "bountiful_contract_fairness",
+    "irons_spellbooks",
+    "regions_unexplored",
+    "ribbits"
+  ],
+  "objectives": [
+    "liams_marsh_gatherers_objectives"
+  ],
+  "rewards": [
+    "liams_scholar_rewards"
+  ],
+  "canSpawn": true,
+  "canReveal": true,
+  "canWanderBuy": true,
+  "linkedProfessions": []
+}

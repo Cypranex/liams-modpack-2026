@@ -1,0 +1,98 @@
+{
+  "requires": [
+    "bountiful",
+    "bountiful_contract_fairness",
+    "lendersdelight",
+    "oceansdelight"
+  ],
+  "content": {
+    "oceansdelight_cut_tentacles": {
+      "type": "minecraft:item",
+      "content": "oceansdelight:cut_tentacles",
+      "amount": {
+        "min": 4,
+        "max": 16
+      },
+      "unitWorth": 125.0,
+      "timeMult": 120,
+      "rarity": "COMMON"
+    },
+    "oceansdelight_squid_rings": {
+      "type": "minecraft:item",
+      "content": "oceansdelight:squid_rings",
+      "amount": {
+        "min": 2,
+        "max": 8
+      },
+      "unitWorth": 250.0,
+      "timeMult": 120,
+      "rarity": "COMMON"
+    },
+    "oceansdelight_honey_fried_kelp": {
+      "type": "minecraft:item",
+      "content": "oceansdelight:honey_fried_kelp",
+      "amount": {
+        "min": 2,
+        "max": 8
+      },
+      "unitWorth": 250.0,
+      "timeMult": 120,
+      "rarity": "COMMON"
+    },
+    "oceansdelight_braised_sea_pickle": {
+      "type": "minecraft:item",
+      "content": "oceansdelight:braised_sea_pickle",
+      "amount": {
+        "min": 2,
+        "max": 8
+      },
+      "unitWorth": 250.0,
+      "timeMult": 120,
+      "rarity": "COMMON"
+    },
+    "oceansdelight_seagrass_salad": {
+      "type": "minecraft:item",
+      "content": "oceansdelight:seagrass_salad",
+      "amount": {
+        "min": 2,
+        "max": 8
+      },
+      "unitWorth": 250.0,
+      "timeMult": 120,
+      "rarity": "COMMON"
+    },
+    "oceansdelight_baked_tentacle_on_a_stick": {
+      "type": "minecraft:item",
+      "content": "oceansdelight:baked_tentacle_on_a_stick",
+      "amount": {
+        "min": 2,
+        "max": 8
+      },
+      "unitWorth": 250.0,
+      "timeMult": 120,
+      "rarity": "COMMON"
+    },
+    "lendersdelight_cooked_lionfish": {
+      "type": "minecraft:item",
+      "content": "lendersdelight:cooked_lionfish",
+      "amount": {
+        "min": 2,
+        "max": 8
+      },
+      "unitWorth": 250.0,
+      "timeMult": 120,
+      "rarity": "COMMON"
+    },
+    "lendersdelight_grilled_lionfish": {
+      "type": "minecraft:item",
+      "content": "lendersdelight:grilled_lionfish",
+      "amount": {
+        "min": 2,
+        "max": 6
+      },
+      "unitWorth": 500.0,
+      "timeMult": 180,
+      "rarity": "COMMON"
+    }
+  }
+}

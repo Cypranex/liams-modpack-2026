@@ -1,0 +1,20 @@
+{
+  "requires": [
+    "bountiful",
+    "bountiful_contract_fairness",
+    "fangs_n_claws"
+  ],
+  "content": {
+    "fangs_n_claws_ghost": {
+      "type": "minecraft:entity",
+      "content": "fangs_n_claws:ghost",
+      "amount": {
+        "min": 4,
+        "max": 12
+      },
+      "unitWorth": 160.0,
+      "timeMult": 160,
+      "rarity": "COMMON"
+    }
+  }
+}

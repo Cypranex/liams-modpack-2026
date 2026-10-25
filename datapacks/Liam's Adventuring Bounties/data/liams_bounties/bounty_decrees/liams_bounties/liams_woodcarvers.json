@@ -1,0 +1,21 @@
+{
+  "requires": [
+    "bountiful",
+    "bountiful_contract_fairness",
+    "create",
+    "fowlplay",
+    "handcrafted"
+  ],
+  "objectives": [
+    "liams_woodcarvers_objectives"
+  ],
+  "rewards": [
+    "liams_workshop_rewards"
+  ],
+  "canSpawn": true,
+  "canReveal": true,
+  "canWanderBuy": true,
+  "linkedProfessions": [
+    "fletcher"
+  ]
+}

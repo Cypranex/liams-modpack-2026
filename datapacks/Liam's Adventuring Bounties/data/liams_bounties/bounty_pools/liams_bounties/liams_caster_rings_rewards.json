@@ -1,0 +1,212 @@
+{
+  "requires": [
+    "cataclysm_spellbooks",
+    "irons_spellbooks"
+  ],
+  "content": {
+    "mana_adept_kit": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1400.0,
+      "rarity": "COMMON",
+      "name": "Mana Adept Kit",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Mana Adept Kit\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "irons_spellbooks:mana_ring",
+              "count": 1
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "irons_spellbooks:common_ink",
+              "count": 4
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"1 × Ring of Mana\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"4 × Common Ink\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      }
+    },
+    "recovery_adept_kit": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1400.0,
+      "rarity": "COMMON",
+      "name": "Recovery Adept Kit",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Recovery Adept Kit\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "irons_spellbooks:cooldown_ring",
+              "count": 1
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "irons_spellbooks:common_ink",
+              "count": 4
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"1 × Ring of Recovery\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"4 × Common Ink\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      }
+    },
+    "nature_runestone_kit": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1400.0,
+      "rarity": "COMMON",
+      "name": "Nature Runestone Kit",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Nature Runestone Kit\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "irons_spellbooks:nature_rune",
+              "count": 1
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "irons_spellbooks:uncommon_ink",
+              "count": 2
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"1 × Nature Rune\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"2 × Uncommon Ink\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      }
+    },
+    "ender_runestone_kit": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1400.0,
+      "rarity": "COMMON",
+      "name": "Ender Runestone Kit",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Ender Runestone Kit\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "irons_spellbooks:ender_rune",
+              "count": 1
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "irons_spellbooks:uncommon_ink",
+              "count": 2
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"1 × Ender Rune\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"2 × Uncommon Ink\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      }
+    },
+    "fire_runestone_kit": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1400.0,
+      "rarity": "COMMON",
+      "name": "Fire Runestone Kit",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Fire Runestone Kit\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "irons_spellbooks:fire_rune",
+              "count": 1
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "irons_spellbooks:uncommon_ink",
+              "count": 2
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"1 × Fire Rune\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"2 × Uncommon Ink\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      }
+    },
+    "technomancy_runestone_kit": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1400.0,
+      "rarity": "COMMON",
+      "name": "Technomancy Runestone Kit",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Technomancy Runestone Kit\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "cataclysm_spellbooks:technomancy_rune",
+              "count": 1
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "irons_spellbooks:uncommon_ink",
+              "count": 2
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"1 × Technomancy Rune\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"2 × Uncommon Ink\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      }
+    }
+  }
+}

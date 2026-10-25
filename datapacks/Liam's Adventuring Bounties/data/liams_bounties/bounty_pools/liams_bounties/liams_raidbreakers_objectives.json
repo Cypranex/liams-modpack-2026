@@ -1,0 +1,76 @@
+{
+  "requires": [
+    "bountiful",
+    "bountiful_contract_fairness",
+    "friendsandfoes",
+    "raided"
+  ],
+  "content": {
+    "raided_electromancer": {
+      "type": "minecraft:entity",
+      "content": "raided:electromancer",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 600.0,
+      "timeMult": 240,
+      "rarity": "COMMON"
+    },
+    "raided_incinerator": {
+      "type": "minecraft:entity",
+      "content": "raided:incinerator",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 600.0,
+      "timeMult": 240,
+      "rarity": "COMMON"
+    },
+    "raided_inquisitor": {
+      "type": "minecraft:entity",
+      "content": "raided:inquisitor",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 600.0,
+      "timeMult": 240,
+      "rarity": "COMMON"
+    },
+    "raided_necromancer": {
+      "type": "minecraft:entity",
+      "content": "raided:necromancer",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 600.0,
+      "timeMult": 240,
+      "rarity": "COMMON"
+    },
+    "friendsandfoes_iceologer": {
+      "type": "minecraft:entity",
+      "content": "friendsandfoes:iceologer",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 600.0,
+      "timeMult": 240,
+      "rarity": "COMMON"
+    },
+    "friendsandfoes_illusioner": {
+      "type": "minecraft:entity",
+      "content": "friendsandfoes:illusioner",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 600.0,
+      "timeMult": 240,
+      "rarity": "COMMON"
+    }
+  }
+}

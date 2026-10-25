@@ -1,0 +1,3701 @@
+{
+  "requires": [
+    "betternether",
+    "caverns_and_chasms",
+    "create",
+    "fangs_n_claws",
+    "farmersdelight",
+    "knavesneeds",
+    "shieldexp",
+    "simplyswords"
+  ],
+  "content": {
+    "minecraft_iron_ingot": {
+      "type": "minecraft:item",
+      "content": "minecraft:iron_ingot",
+      "amount": {
+        "min": 24,
+        "max": 24
+      },
+      "unitWorth": 33.333333333333336,
+      "rarity": "COMMON"
+    },
+    "minecraft_gold_ingot": {
+      "type": "minecraft:item",
+      "content": "minecraft:gold_ingot",
+      "amount": {
+        "min": 12,
+        "max": 12
+      },
+      "unitWorth": 66.66666666666667,
+      "rarity": "COMMON"
+    },
+    "caverns_and_chasms_silver_ingot": {
+      "type": "minecraft:item",
+      "content": "caverns_and_chasms:silver_ingot",
+      "amount": {
+        "min": 12,
+        "max": 12
+      },
+      "unitWorth": 66.66666666666667,
+      "rarity": "COMMON"
+    },
+    "create_brass_ingot": {
+      "type": "minecraft:item",
+      "content": "create:brass_ingot",
+      "amount": {
+        "min": 12,
+        "max": 12
+      },
+      "unitWorth": 66.66666666666667,
+      "rarity": "COMMON"
+    },
+    "hunters_supply_cache": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000.0,
+      "rarity": "COMMON",
+      "name": "Hunter’s Supply Cache",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Hunter\\u2019s Supply Cache\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "minecraft:iron_ingot",
+              "count": 20
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "minecraft:gold_ingot",
+              "count": 4
+            }
+          },
+          {
+            "slot": 2,
+            "item": {
+              "id": "minecraft:arrow",
+              "count": 48
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"20 × Iron Ingot\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"4 × Gold Ingot\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"48 × Arrow\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      }
+    },
+    "rangers_crossbow_kit": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 800.0,
+      "rarity": "COMMON",
+      "name": "Ranger’s Crossbow Kit",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Ranger\\u2019s Crossbow Kit\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "minecraft:crossbow",
+              "count": 1
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "minecraft:iron_ingot",
+              "count": 20
+            }
+          },
+          {
+            "slot": 2,
+            "item": {
+              "id": "minecraft:arrow",
+              "count": 64
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"1 × Crossbow\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"20 × Iron Ingot\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"64 × Arrow\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      }
+    },
+    "iron_longsword_kit_-_sharpness_i": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 800.0,
+      "rarity": "COMMON",
+      "name": "Iron Longsword Kit - Sharpness I",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Iron Longsword Kit - Sharpness I\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "simplyswords:iron_longsword",
+              "count": 1,
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:sharpness": 1
+                  }
+                }
+              }
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "minecraft:iron_ingot",
+              "count": 20
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"1 × Iron Longsword (Sharpness I)\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"20 × Iron Ingot\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      },
+      "weightMult": 0.06666666666666667
+    },
+    "iron_longsword_kit_-_smite_i": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 800.0,
+      "rarity": "COMMON",
+      "name": "Iron Longsword Kit - Smite I",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Iron Longsword Kit - Smite I\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "simplyswords:iron_longsword",
+              "count": 1,
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:smite": 1
+                  }
+                }
+              }
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "minecraft:iron_ingot",
+              "count": 20
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"1 × Iron Longsword (Smite I)\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"20 × Iron Ingot\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      },
+      "weightMult": 0.06666666666666667
+    },
+    "iron_longsword_kit_-_bane_of_arthropods_i": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 800.0,
+      "rarity": "COMMON",
+      "name": "Iron Longsword Kit - Bane Of Arthropods I",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Iron Longsword Kit - Bane Of Arthropods I\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "simplyswords:iron_longsword",
+              "count": 1,
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:bane_of_arthropods": 1
+                  }
+                }
+              }
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "minecraft:iron_ingot",
+              "count": 20
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"1 × Iron Longsword (Bane Of Arthropods I)\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"20 × Iron Ingot\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      },
+      "weightMult": 0.06666666666666667
+    },
+    "iron_longsword_kit_-_unbreaking_i": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 800.0,
+      "rarity": "COMMON",
+      "name": "Iron Longsword Kit - Unbreaking I",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Iron Longsword Kit - Unbreaking I\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "simplyswords:iron_longsword",
+              "count": 1,
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:unbreaking": 1
+                  }
+                }
+              }
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "minecraft:iron_ingot",
+              "count": 20
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"1 × Iron Longsword (Unbreaking I)\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"20 × Iron Ingot\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      },
+      "weightMult": 0.06666666666666667
+    },
+    "iron_twinblade_kit_-_sharpness_i": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 800.0,
+      "rarity": "COMMON",
+      "name": "Iron Twinblade Kit - Sharpness I",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Iron Twinblade Kit - Sharpness I\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "simplyswords:iron_twinblade",
+              "count": 1,
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:sharpness": 1
+                  }
+                }
+              }
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "minecraft:iron_ingot",
+              "count": 20
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"1 × Iron Twinblade (Sharpness I)\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"20 × Iron Ingot\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      },
+      "weightMult": 0.06666666666666667
+    },
+    "iron_twinblade_kit_-_smite_i": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 800.0,
+      "rarity": "COMMON",
+      "name": "Iron Twinblade Kit - Smite I",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Iron Twinblade Kit - Smite I\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "simplyswords:iron_twinblade",
+              "count": 1,
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:smite": 1
+                  }
+                }
+              }
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "minecraft:iron_ingot",
+              "count": 20
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"1 × Iron Twinblade (Smite I)\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"20 × Iron Ingot\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      },
+      "weightMult": 0.06666666666666667
+    },
+    "iron_twinblade_kit_-_bane_of_arthropods_i": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 800.0,
+      "rarity": "COMMON",
+      "name": "Iron Twinblade Kit - Bane Of Arthropods I",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Iron Twinblade Kit - Bane Of Arthropods I\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "simplyswords:iron_twinblade",
+              "count": 1,
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:bane_of_arthropods": 1
+                  }
+                }
+              }
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "minecraft:iron_ingot",
+              "count": 20
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"1 × Iron Twinblade (Bane Of Arthropods I)\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"20 × Iron Ingot\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      },
+      "weightMult": 0.06666666666666667
+    },
+    "iron_twinblade_kit_-_unbreaking_i": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 800.0,
+      "rarity": "COMMON",
+      "name": "Iron Twinblade Kit - Unbreaking I",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Iron Twinblade Kit - Unbreaking I\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "simplyswords:iron_twinblade",
+              "count": 1,
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:unbreaking": 1
+                  }
+                }
+              }
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "minecraft:iron_ingot",
+              "count": 20
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"1 × Iron Twinblade (Unbreaking I)\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"20 × Iron Ingot\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      },
+      "weightMult": 0.06666666666666667
+    },
+    "iron_rapier_kit_-_sharpness_i": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 800.0,
+      "rarity": "COMMON",
+      "name": "Iron Rapier Kit - Sharpness I",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Iron Rapier Kit - Sharpness I\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "simplyswords:iron_rapier",
+              "count": 1,
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:sharpness": 1
+                  }
+                }
+              }
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "minecraft:iron_ingot",
+              "count": 20
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"1 × Iron Rapier (Sharpness I)\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"20 × Iron Ingot\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      },
+      "weightMult": 0.06666666666666667
+    },
+    "iron_rapier_kit_-_smite_i": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 800.0,
+      "rarity": "COMMON",
+      "name": "Iron Rapier Kit - Smite I",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Iron Rapier Kit - Smite I\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "simplyswords:iron_rapier",
+              "count": 1,
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:smite": 1
+                  }
+                }
+              }
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "minecraft:iron_ingot",
+              "count": 20
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"1 × Iron Rapier (Smite I)\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"20 × Iron Ingot\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      },
+      "weightMult": 0.06666666666666667
+    },
+    "iron_rapier_kit_-_bane_of_arthropods_i": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 800.0,
+      "rarity": "COMMON",
+      "name": "Iron Rapier Kit - Bane Of Arthropods I",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Iron Rapier Kit - Bane Of Arthropods I\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "simplyswords:iron_rapier",
+              "count": 1,
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:bane_of_arthropods": 1
+                  }
+                }
+              }
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "minecraft:iron_ingot",
+              "count": 20
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"1 × Iron Rapier (Bane Of Arthropods I)\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"20 × Iron Ingot\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      },
+      "weightMult": 0.06666666666666667
+    },
+    "iron_rapier_kit_-_unbreaking_i": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 800.0,
+      "rarity": "COMMON",
+      "name": "Iron Rapier Kit - Unbreaking I",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Iron Rapier Kit - Unbreaking I\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "simplyswords:iron_rapier",
+              "count": 1,
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:unbreaking": 1
+                  }
+                }
+              }
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "minecraft:iron_ingot",
+              "count": 20
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"1 × Iron Rapier (Unbreaking I)\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"20 × Iron Ingot\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      },
+      "weightMult": 0.06666666666666667
+    },
+    "iron_katana_kit_-_sharpness_i": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 800.0,
+      "rarity": "COMMON",
+      "name": "Iron Katana Kit - Sharpness I",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Iron Katana Kit - Sharpness I\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "simplyswords:iron_katana",
+              "count": 1,
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:sharpness": 1
+                  }
+                }
+              }
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "minecraft:iron_ingot",
+              "count": 20
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"1 × Iron Katana (Sharpness I)\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"20 × Iron Ingot\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      },
+      "weightMult": 0.06666666666666667
+    },
+    "iron_katana_kit_-_smite_i": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 800.0,
+      "rarity": "COMMON",
+      "name": "Iron Katana Kit - Smite I",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Iron Katana Kit - Smite I\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "simplyswords:iron_katana",
+              "count": 1,
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:smite": 1
+                  }
+                }
+              }
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "minecraft:iron_ingot",
+              "count": 20
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"1 × Iron Katana (Smite I)\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"20 × Iron Ingot\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      },
+      "weightMult": 0.06666666666666667
+    },
+    "iron_katana_kit_-_bane_of_arthropods_i": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 800.0,
+      "rarity": "COMMON",
+      "name": "Iron Katana Kit - Bane Of Arthropods I",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Iron Katana Kit - Bane Of Arthropods I\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "simplyswords:iron_katana",
+              "count": 1,
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:bane_of_arthropods": 1
+                  }
+                }
+              }
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "minecraft:iron_ingot",
+              "count": 20
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"1 × Iron Katana (Bane Of Arthropods I)\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"20 × Iron Ingot\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      },
+      "weightMult": 0.06666666666666667
+    },
+    "iron_katana_kit_-_unbreaking_i": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 800.0,
+      "rarity": "COMMON",
+      "name": "Iron Katana Kit - Unbreaking I",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Iron Katana Kit - Unbreaking I\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "simplyswords:iron_katana",
+              "count": 1,
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:unbreaking": 1
+                  }
+                }
+              }
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "minecraft:iron_ingot",
+              "count": 20
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"1 × Iron Katana (Unbreaking I)\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"20 × Iron Ingot\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      },
+      "weightMult": 0.06666666666666667
+    },
+    "iron_sai_kit_-_sharpness_i": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 800.0,
+      "rarity": "COMMON",
+      "name": "Iron Sai Kit - Sharpness I",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Iron Sai Kit - Sharpness I\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "simplyswords:iron_sai",
+              "count": 1,
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:sharpness": 1
+                  }
+                }
+              }
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "minecraft:iron_ingot",
+              "count": 20
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"1 × Iron Sai (Sharpness I)\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"20 × Iron Ingot\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      },
+      "weightMult": 0.06666666666666667
+    },
+    "iron_sai_kit_-_smite_i": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 800.0,
+      "rarity": "COMMON",
+      "name": "Iron Sai Kit - Smite I",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Iron Sai Kit - Smite I\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "simplyswords:iron_sai",
+              "count": 1,
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:smite": 1
+                  }
+                }
+              }
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "minecraft:iron_ingot",
+              "count": 20
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"1 × Iron Sai (Smite I)\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"20 × Iron Ingot\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      },
+      "weightMult": 0.06666666666666667
+    },
+    "iron_sai_kit_-_bane_of_arthropods_i": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 800.0,
+      "rarity": "COMMON",
+      "name": "Iron Sai Kit - Bane Of Arthropods I",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Iron Sai Kit - Bane Of Arthropods I\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "simplyswords:iron_sai",
+              "count": 1,
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:bane_of_arthropods": 1
+                  }
+                }
+              }
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "minecraft:iron_ingot",
+              "count": 20
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"1 × Iron Sai (Bane Of Arthropods I)\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"20 × Iron Ingot\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      },
+      "weightMult": 0.06666666666666667
+    },
+    "iron_sai_kit_-_unbreaking_i": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 800.0,
+      "rarity": "COMMON",
+      "name": "Iron Sai Kit - Unbreaking I",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Iron Sai Kit - Unbreaking I\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "simplyswords:iron_sai",
+              "count": 1,
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:unbreaking": 1
+                  }
+                }
+              }
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "minecraft:iron_ingot",
+              "count": 20
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"1 × Iron Sai (Unbreaking I)\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"20 × Iron Ingot\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      },
+      "weightMult": 0.06666666666666667
+    },
+    "iron_spear_kit_-_sharpness_i": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 800.0,
+      "rarity": "COMMON",
+      "name": "Iron Spear Kit - Sharpness I",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Iron Spear Kit - Sharpness I\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "simplyswords:iron_spear",
+              "count": 1,
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:sharpness": 1
+                  }
+                }
+              }
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "minecraft:iron_ingot",
+              "count": 20
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"1 × Iron Spear (Sharpness I)\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"20 × Iron Ingot\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      },
+      "weightMult": 0.06666666666666667
+    },
+    "iron_spear_kit_-_smite_i": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 800.0,
+      "rarity": "COMMON",
+      "name": "Iron Spear Kit - Smite I",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Iron Spear Kit - Smite I\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "simplyswords:iron_spear",
+              "count": 1,
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:smite": 1
+                  }
+                }
+              }
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "minecraft:iron_ingot",
+              "count": 20
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"1 × Iron Spear (Smite I)\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"20 × Iron Ingot\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      },
+      "weightMult": 0.06666666666666667
+    },
+    "iron_spear_kit_-_bane_of_arthropods_i": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 800.0,
+      "rarity": "COMMON",
+      "name": "Iron Spear Kit - Bane Of Arthropods I",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Iron Spear Kit - Bane Of Arthropods I\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "simplyswords:iron_spear",
+              "count": 1,
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:bane_of_arthropods": 1
+                  }
+                }
+              }
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "minecraft:iron_ingot",
+              "count": 20
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"1 × Iron Spear (Bane Of Arthropods I)\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"20 × Iron Ingot\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      },
+      "weightMult": 0.06666666666666667
+    },
+    "iron_spear_kit_-_unbreaking_i": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 800.0,
+      "rarity": "COMMON",
+      "name": "Iron Spear Kit - Unbreaking I",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Iron Spear Kit - Unbreaking I\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "simplyswords:iron_spear",
+              "count": 1,
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:unbreaking": 1
+                  }
+                }
+              }
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "minecraft:iron_ingot",
+              "count": 20
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"1 × Iron Spear (Unbreaking I)\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"20 × Iron Ingot\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      },
+      "weightMult": 0.06666666666666667
+    },
+    "iron_glaive_kit_-_sharpness_i": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 800.0,
+      "rarity": "COMMON",
+      "name": "Iron Glaive Kit - Sharpness I",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Iron Glaive Kit - Sharpness I\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "simplyswords:iron_glaive",
+              "count": 1,
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:sharpness": 1
+                  }
+                }
+              }
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "minecraft:iron_ingot",
+              "count": 20
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"1 × Iron Glaive (Sharpness I)\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"20 × Iron Ingot\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      },
+      "weightMult": 0.06666666666666667
+    },
+    "iron_glaive_kit_-_smite_i": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 800.0,
+      "rarity": "COMMON",
+      "name": "Iron Glaive Kit - Smite I",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Iron Glaive Kit - Smite I\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "simplyswords:iron_glaive",
+              "count": 1,
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:smite": 1
+                  }
+                }
+              }
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "minecraft:iron_ingot",
+              "count": 20
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"1 × Iron Glaive (Smite I)\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"20 × Iron Ingot\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      },
+      "weightMult": 0.06666666666666667
+    },
+    "iron_glaive_kit_-_bane_of_arthropods_i": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 800.0,
+      "rarity": "COMMON",
+      "name": "Iron Glaive Kit - Bane Of Arthropods I",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Iron Glaive Kit - Bane Of Arthropods I\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "simplyswords:iron_glaive",
+              "count": 1,
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:bane_of_arthropods": 1
+                  }
+                }
+              }
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "minecraft:iron_ingot",
+              "count": 20
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"1 × Iron Glaive (Bane Of Arthropods I)\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"20 × Iron Ingot\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      },
+      "weightMult": 0.06666666666666667
+    },
+    "iron_glaive_kit_-_unbreaking_i": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 800.0,
+      "rarity": "COMMON",
+      "name": "Iron Glaive Kit - Unbreaking I",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Iron Glaive Kit - Unbreaking I\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "simplyswords:iron_glaive",
+              "count": 1,
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:unbreaking": 1
+                  }
+                }
+              }
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "minecraft:iron_ingot",
+              "count": 20
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"1 × Iron Glaive (Unbreaking I)\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"20 × Iron Ingot\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      },
+      "weightMult": 0.06666666666666667
+    },
+    "iron_warglaive_kit_-_sharpness_i": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 800.0,
+      "rarity": "COMMON",
+      "name": "Iron Warglaive Kit - Sharpness I",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Iron Warglaive Kit - Sharpness I\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "simplyswords:iron_warglaive",
+              "count": 1,
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:sharpness": 1
+                  }
+                }
+              }
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "minecraft:iron_ingot",
+              "count": 20
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"1 × Iron Warglaive (Sharpness I)\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"20 × Iron Ingot\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      },
+      "weightMult": 0.06666666666666667
+    },
+    "iron_warglaive_kit_-_smite_i": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 800.0,
+      "rarity": "COMMON",
+      "name": "Iron Warglaive Kit - Smite I",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Iron Warglaive Kit - Smite I\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "simplyswords:iron_warglaive",
+              "count": 1,
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:smite": 1
+                  }
+                }
+              }
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "minecraft:iron_ingot",
+              "count": 20
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"1 × Iron Warglaive (Smite I)\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"20 × Iron Ingot\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      },
+      "weightMult": 0.06666666666666667
+    },
+    "iron_warglaive_kit_-_bane_of_arthropods_i": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 800.0,
+      "rarity": "COMMON",
+      "name": "Iron Warglaive Kit - Bane Of Arthropods I",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Iron Warglaive Kit - Bane Of Arthropods I\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "simplyswords:iron_warglaive",
+              "count": 1,
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:bane_of_arthropods": 1
+                  }
+                }
+              }
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "minecraft:iron_ingot",
+              "count": 20
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"1 × Iron Warglaive (Bane Of Arthropods I)\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"20 × Iron Ingot\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      },
+      "weightMult": 0.06666666666666667
+    },
+    "iron_warglaive_kit_-_unbreaking_i": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 800.0,
+      "rarity": "COMMON",
+      "name": "Iron Warglaive Kit - Unbreaking I",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Iron Warglaive Kit - Unbreaking I\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "simplyswords:iron_warglaive",
+              "count": 1,
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:unbreaking": 1
+                  }
+                }
+              }
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "minecraft:iron_ingot",
+              "count": 20
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"1 × Iron Warglaive (Unbreaking I)\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"20 × Iron Ingot\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      },
+      "weightMult": 0.06666666666666667
+    },
+    "iron_cutlass_kit_-_sharpness_i": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 800.0,
+      "rarity": "COMMON",
+      "name": "Iron Cutlass Kit - Sharpness I",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Iron Cutlass Kit - Sharpness I\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "simplyswords:iron_cutlass",
+              "count": 1,
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:sharpness": 1
+                  }
+                }
+              }
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "minecraft:iron_ingot",
+              "count": 20
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"1 × Iron Cutlass (Sharpness I)\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"20 × Iron Ingot\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      },
+      "weightMult": 0.06666666666666667
+    },
+    "iron_cutlass_kit_-_smite_i": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 800.0,
+      "rarity": "COMMON",
+      "name": "Iron Cutlass Kit - Smite I",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Iron Cutlass Kit - Smite I\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "simplyswords:iron_cutlass",
+              "count": 1,
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:smite": 1
+                  }
+                }
+              }
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "minecraft:iron_ingot",
+              "count": 20
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"1 × Iron Cutlass (Smite I)\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"20 × Iron Ingot\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      },
+      "weightMult": 0.06666666666666667
+    },
+    "iron_cutlass_kit_-_bane_of_arthropods_i": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 800.0,
+      "rarity": "COMMON",
+      "name": "Iron Cutlass Kit - Bane Of Arthropods I",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Iron Cutlass Kit - Bane Of Arthropods I\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "simplyswords:iron_cutlass",
+              "count": 1,
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:bane_of_arthropods": 1
+                  }
+                }
+              }
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "minecraft:iron_ingot",
+              "count": 20
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"1 × Iron Cutlass (Bane Of Arthropods I)\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"20 × Iron Ingot\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      },
+      "weightMult": 0.06666666666666667
+    },
+    "iron_cutlass_kit_-_unbreaking_i": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 800.0,
+      "rarity": "COMMON",
+      "name": "Iron Cutlass Kit - Unbreaking I",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Iron Cutlass Kit - Unbreaking I\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "simplyswords:iron_cutlass",
+              "count": 1,
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:unbreaking": 1
+                  }
+                }
+              }
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "minecraft:iron_ingot",
+              "count": 20
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"1 × Iron Cutlass (Unbreaking I)\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"20 × Iron Ingot\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      },
+      "weightMult": 0.06666666666666667
+    },
+    "iron_claymore_kit_-_sharpness_i": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 800.0,
+      "rarity": "COMMON",
+      "name": "Iron Claymore Kit - Sharpness I",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Iron Claymore Kit - Sharpness I\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "simplyswords:iron_claymore",
+              "count": 1,
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:sharpness": 1
+                  }
+                }
+              }
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "minecraft:iron_ingot",
+              "count": 20
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"1 × Iron Claymore (Sharpness I)\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"20 × Iron Ingot\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      },
+      "weightMult": 0.06666666666666667
+    },
+    "iron_claymore_kit_-_smite_i": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 800.0,
+      "rarity": "COMMON",
+      "name": "Iron Claymore Kit - Smite I",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Iron Claymore Kit - Smite I\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "simplyswords:iron_claymore",
+              "count": 1,
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:smite": 1
+                  }
+                }
+              }
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "minecraft:iron_ingot",
+              "count": 20
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"1 × Iron Claymore (Smite I)\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"20 × Iron Ingot\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      },
+      "weightMult": 0.06666666666666667
+    },
+    "iron_claymore_kit_-_bane_of_arthropods_i": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 800.0,
+      "rarity": "COMMON",
+      "name": "Iron Claymore Kit - Bane Of Arthropods I",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Iron Claymore Kit - Bane Of Arthropods I\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "simplyswords:iron_claymore",
+              "count": 1,
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:bane_of_arthropods": 1
+                  }
+                }
+              }
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "minecraft:iron_ingot",
+              "count": 20
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"1 × Iron Claymore (Bane Of Arthropods I)\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"20 × Iron Ingot\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      },
+      "weightMult": 0.06666666666666667
+    },
+    "iron_claymore_kit_-_unbreaking_i": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 800.0,
+      "rarity": "COMMON",
+      "name": "Iron Claymore Kit - Unbreaking I",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Iron Claymore Kit - Unbreaking I\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "simplyswords:iron_claymore",
+              "count": 1,
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:unbreaking": 1
+                  }
+                }
+              }
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "minecraft:iron_ingot",
+              "count": 20
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"1 × Iron Claymore (Unbreaking I)\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"20 × Iron Ingot\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      },
+      "weightMult": 0.06666666666666667
+    },
+    "iron_greathammer_kit_-_sharpness_i": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 800.0,
+      "rarity": "COMMON",
+      "name": "Iron Greathammer Kit - Sharpness I",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Iron Greathammer Kit - Sharpness I\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "simplyswords:iron_greathammer",
+              "count": 1,
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:sharpness": 1
+                  }
+                }
+              }
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "minecraft:iron_ingot",
+              "count": 20
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"1 × Iron Greathammer (Sharpness I)\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"20 × Iron Ingot\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      },
+      "weightMult": 0.06666666666666667
+    },
+    "iron_greathammer_kit_-_smite_i": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 800.0,
+      "rarity": "COMMON",
+      "name": "Iron Greathammer Kit - Smite I",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Iron Greathammer Kit - Smite I\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "simplyswords:iron_greathammer",
+              "count": 1,
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:smite": 1
+                  }
+                }
+              }
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "minecraft:iron_ingot",
+              "count": 20
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"1 × Iron Greathammer (Smite I)\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"20 × Iron Ingot\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      },
+      "weightMult": 0.06666666666666667
+    },
+    "iron_greathammer_kit_-_bane_of_arthropods_i": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 800.0,
+      "rarity": "COMMON",
+      "name": "Iron Greathammer Kit - Bane Of Arthropods I",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Iron Greathammer Kit - Bane Of Arthropods I\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "simplyswords:iron_greathammer",
+              "count": 1,
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:bane_of_arthropods": 1
+                  }
+                }
+              }
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "minecraft:iron_ingot",
+              "count": 20
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"1 × Iron Greathammer (Bane Of Arthropods I)\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"20 × Iron Ingot\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      },
+      "weightMult": 0.06666666666666667
+    },
+    "iron_greathammer_kit_-_unbreaking_i": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 800.0,
+      "rarity": "COMMON",
+      "name": "Iron Greathammer Kit - Unbreaking I",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Iron Greathammer Kit - Unbreaking I\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "simplyswords:iron_greathammer",
+              "count": 1,
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:unbreaking": 1
+                  }
+                }
+              }
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "minecraft:iron_ingot",
+              "count": 20
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"1 × Iron Greathammer (Unbreaking I)\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"20 × Iron Ingot\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      },
+      "weightMult": 0.06666666666666667
+    },
+    "iron_greataxe_kit_-_sharpness_i": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 800.0,
+      "rarity": "COMMON",
+      "name": "Iron Greataxe Kit - Sharpness I",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Iron Greataxe Kit - Sharpness I\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "simplyswords:iron_greataxe",
+              "count": 1,
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:sharpness": 1
+                  }
+                }
+              }
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "minecraft:iron_ingot",
+              "count": 20
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"1 × Iron Greataxe (Sharpness I)\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"20 × Iron Ingot\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      },
+      "weightMult": 0.06666666666666667
+    },
+    "iron_greataxe_kit_-_smite_i": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 800.0,
+      "rarity": "COMMON",
+      "name": "Iron Greataxe Kit - Smite I",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Iron Greataxe Kit - Smite I\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "simplyswords:iron_greataxe",
+              "count": 1,
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:smite": 1
+                  }
+                }
+              }
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "minecraft:iron_ingot",
+              "count": 20
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"1 × Iron Greataxe (Smite I)\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"20 × Iron Ingot\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      },
+      "weightMult": 0.06666666666666667
+    },
+    "iron_greataxe_kit_-_bane_of_arthropods_i": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 800.0,
+      "rarity": "COMMON",
+      "name": "Iron Greataxe Kit - Bane Of Arthropods I",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Iron Greataxe Kit - Bane Of Arthropods I\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "simplyswords:iron_greataxe",
+              "count": 1,
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:bane_of_arthropods": 1
+                  }
+                }
+              }
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "minecraft:iron_ingot",
+              "count": 20
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"1 × Iron Greataxe (Bane Of Arthropods I)\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"20 × Iron Ingot\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      },
+      "weightMult": 0.06666666666666667
+    },
+    "iron_greataxe_kit_-_unbreaking_i": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 800.0,
+      "rarity": "COMMON",
+      "name": "Iron Greataxe Kit - Unbreaking I",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Iron Greataxe Kit - Unbreaking I\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "simplyswords:iron_greataxe",
+              "count": 1,
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:unbreaking": 1
+                  }
+                }
+              }
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "minecraft:iron_ingot",
+              "count": 20
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"1 × Iron Greataxe (Unbreaking I)\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"20 × Iron Ingot\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      },
+      "weightMult": 0.06666666666666667
+    },
+    "iron_chakram_kit_-_sharpness_i": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 800.0,
+      "rarity": "COMMON",
+      "name": "Iron Chakram Kit - Sharpness I",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Iron Chakram Kit - Sharpness I\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "simplyswords:iron_chakram",
+              "count": 1,
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:sharpness": 1
+                  }
+                }
+              }
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "minecraft:iron_ingot",
+              "count": 20
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"1 × Iron Chakram (Sharpness I)\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"20 × Iron Ingot\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      },
+      "weightMult": 0.06666666666666667
+    },
+    "iron_chakram_kit_-_smite_i": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 800.0,
+      "rarity": "COMMON",
+      "name": "Iron Chakram Kit - Smite I",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Iron Chakram Kit - Smite I\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "simplyswords:iron_chakram",
+              "count": 1,
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:smite": 1
+                  }
+                }
+              }
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "minecraft:iron_ingot",
+              "count": 20
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"1 × Iron Chakram (Smite I)\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"20 × Iron Ingot\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      },
+      "weightMult": 0.06666666666666667
+    },
+    "iron_chakram_kit_-_bane_of_arthropods_i": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 800.0,
+      "rarity": "COMMON",
+      "name": "Iron Chakram Kit - Bane Of Arthropods I",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Iron Chakram Kit - Bane Of Arthropods I\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "simplyswords:iron_chakram",
+              "count": 1,
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:bane_of_arthropods": 1
+                  }
+                }
+              }
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "minecraft:iron_ingot",
+              "count": 20
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"1 × Iron Chakram (Bane Of Arthropods I)\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"20 × Iron Ingot\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      },
+      "weightMult": 0.06666666666666667
+    },
+    "iron_chakram_kit_-_unbreaking_i": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 800.0,
+      "rarity": "COMMON",
+      "name": "Iron Chakram Kit - Unbreaking I",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Iron Chakram Kit - Unbreaking I\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "simplyswords:iron_chakram",
+              "count": 1,
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:unbreaking": 1
+                  }
+                }
+              }
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "minecraft:iron_ingot",
+              "count": 20
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"1 × Iron Chakram (Unbreaking I)\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"20 × Iron Ingot\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      },
+      "weightMult": 0.06666666666666667
+    },
+    "iron_scythe_kit_-_sharpness_i": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 800.0,
+      "rarity": "COMMON",
+      "name": "Iron Scythe Kit - Sharpness I",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Iron Scythe Kit - Sharpness I\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "simplyswords:iron_scythe",
+              "count": 1,
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:sharpness": 1
+                  }
+                }
+              }
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "minecraft:iron_ingot",
+              "count": 20
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"1 × Iron Scythe (Sharpness I)\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"20 × Iron Ingot\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      },
+      "weightMult": 0.06666666666666667
+    },
+    "iron_scythe_kit_-_smite_i": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 800.0,
+      "rarity": "COMMON",
+      "name": "Iron Scythe Kit - Smite I",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Iron Scythe Kit - Smite I\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "simplyswords:iron_scythe",
+              "count": 1,
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:smite": 1
+                  }
+                }
+              }
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "minecraft:iron_ingot",
+              "count": 20
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"1 × Iron Scythe (Smite I)\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"20 × Iron Ingot\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      },
+      "weightMult": 0.06666666666666667
+    },
+    "iron_scythe_kit_-_bane_of_arthropods_i": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 800.0,
+      "rarity": "COMMON",
+      "name": "Iron Scythe Kit - Bane Of Arthropods I",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Iron Scythe Kit - Bane Of Arthropods I\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "simplyswords:iron_scythe",
+              "count": 1,
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:bane_of_arthropods": 1
+                  }
+                }
+              }
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "minecraft:iron_ingot",
+              "count": 20
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"1 × Iron Scythe (Bane Of Arthropods I)\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"20 × Iron Ingot\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      },
+      "weightMult": 0.06666666666666667
+    },
+    "iron_scythe_kit_-_unbreaking_i": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 800.0,
+      "rarity": "COMMON",
+      "name": "Iron Scythe Kit - Unbreaking I",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Iron Scythe Kit - Unbreaking I\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "simplyswords:iron_scythe",
+              "count": 1,
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:unbreaking": 1
+                  }
+                }
+              }
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "minecraft:iron_ingot",
+              "count": 20
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"1 × Iron Scythe (Unbreaking I)\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"20 × Iron Ingot\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      },
+      "weightMult": 0.06666666666666667
+    },
+    "iron_halberd_kit_-_sharpness_i": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 800.0,
+      "rarity": "COMMON",
+      "name": "Iron Halberd Kit - Sharpness I",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Iron Halberd Kit - Sharpness I\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "simplyswords:iron_halberd",
+              "count": 1,
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:sharpness": 1
+                  }
+                }
+              }
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "minecraft:iron_ingot",
+              "count": 20
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"1 × Iron Halberd (Sharpness I)\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"20 × Iron Ingot\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      },
+      "weightMult": 0.06666666666666667
+    },
+    "iron_halberd_kit_-_smite_i": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 800.0,
+      "rarity": "COMMON",
+      "name": "Iron Halberd Kit - Smite I",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Iron Halberd Kit - Smite I\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "simplyswords:iron_halberd",
+              "count": 1,
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:smite": 1
+                  }
+                }
+              }
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "minecraft:iron_ingot",
+              "count": 20
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"1 × Iron Halberd (Smite I)\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"20 × Iron Ingot\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      },
+      "weightMult": 0.06666666666666667
+    },
+    "iron_halberd_kit_-_bane_of_arthropods_i": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 800.0,
+      "rarity": "COMMON",
+      "name": "Iron Halberd Kit - Bane Of Arthropods I",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Iron Halberd Kit - Bane Of Arthropods I\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "simplyswords:iron_halberd",
+              "count": 1,
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:bane_of_arthropods": 1
+                  }
+                }
+              }
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "minecraft:iron_ingot",
+              "count": 20
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"1 × Iron Halberd (Bane Of Arthropods I)\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"20 × Iron Ingot\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      },
+      "weightMult": 0.06666666666666667
+    },
+    "iron_halberd_kit_-_unbreaking_i": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 800.0,
+      "rarity": "COMMON",
+      "name": "Iron Halberd Kit - Unbreaking I",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Iron Halberd Kit - Unbreaking I\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "simplyswords:iron_halberd",
+              "count": 1,
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:unbreaking": 1
+                  }
+                }
+              }
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "minecraft:iron_ingot",
+              "count": 20
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"1 × Iron Halberd (Unbreaking I)\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"20 × Iron Ingot\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      },
+      "weightMult": 0.06666666666666667
+    },
+    "iron_shield_patrol_kit_-_unbreaking_i": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 800.0,
+      "rarity": "COMMON",
+      "name": "Iron Shield Patrol Kit - Unbreaking I",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Iron Shield Patrol Kit - Unbreaking I\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "shieldexp:iron_shield",
+              "count": 1,
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:unbreaking": 1
+                  }
+                }
+              }
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "minecraft:iron_ingot",
+              "count": 12
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"1 × Iron Shield (Unbreaking I)\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"12 × Iron Ingot\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      },
+      "weightMult": 0.5
+    },
+    "iron_shield_patrol_kit_-_unbreaking_ii": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 800.0,
+      "rarity": "COMMON",
+      "name": "Iron Shield Patrol Kit - Unbreaking II",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Iron Shield Patrol Kit - Unbreaking II\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "shieldexp:iron_shield",
+              "count": 1,
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:unbreaking": 2
+                  }
+                }
+              }
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "minecraft:iron_ingot",
+              "count": 12
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"1 × Iron Shield (Unbreaking II)\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"12 × Iron Ingot\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      },
+      "weightMult": 0.5
+    },
+    "steady_ranger_crossbow_kit_-_unbreaking_i": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 800.0,
+      "rarity": "COMMON",
+      "name": "Steady Ranger Crossbow Kit - Unbreaking I",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Steady Ranger Crossbow Kit - Unbreaking I\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "minecraft:crossbow",
+              "count": 1,
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:unbreaking": 1
+                  }
+                }
+              }
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "minecraft:iron_ingot",
+              "count": 20
+            }
+          },
+          {
+            "slot": 2,
+            "item": {
+              "id": "minecraft:arrow",
+              "count": 64
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"1 × Crossbow (Unbreaking I)\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"20 × Iron Ingot\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"64 × Arrow\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      },
+      "weightMult": 0.3333333333333333
+    },
+    "steady_ranger_crossbow_kit_-_quick_charge_i": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 800.0,
+      "rarity": "COMMON",
+      "name": "Steady Ranger Crossbow Kit - Quick Charge I",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Steady Ranger Crossbow Kit - Quick Charge I\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "minecraft:crossbow",
+              "count": 1,
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:quick_charge": 1
+                  }
+                }
+              }
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "minecraft:iron_ingot",
+              "count": 20
+            }
+          },
+          {
+            "slot": 2,
+            "item": {
+              "id": "minecraft:arrow",
+              "count": 64
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"1 × Crossbow (Quick Charge I)\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"20 × Iron Ingot\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"64 × Arrow\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      },
+      "weightMult": 0.3333333333333333
+    },
+    "steady_ranger_crossbow_kit_-_piercing_i": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 800.0,
+      "rarity": "COMMON",
+      "name": "Steady Ranger Crossbow Kit - Piercing I",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Steady Ranger Crossbow Kit - Piercing I\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "minecraft:crossbow",
+              "count": 1,
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:piercing": 1
+                  }
+                }
+              }
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "minecraft:iron_ingot",
+              "count": 20
+            }
+          },
+          {
+            "slot": 2,
+            "item": {
+              "id": "minecraft:arrow",
+              "count": 64
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"1 × Crossbow (Piercing I)\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"20 × Iron Ingot\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"64 × Arrow\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      },
+      "weightMult": 0.3333333333333333
+    },
+    "furrier_supply_kit": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000.0,
+      "rarity": "COMMON",
+      "name": "Furrier Supply Kit",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Furrier Supply Kit\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "fangs_n_claws:fur",
+              "count": 8
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "minecraft:iron_ingot",
+              "count": 12
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"8 × Fur\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"12 × Iron Ingot\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      }
+    },
+    "fur_boots_trail_kit_-_protection_i": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 800.0,
+      "rarity": "COMMON",
+      "name": "Fur Boots Trail Kit - Protection I",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Fur Boots Trail Kit - Protection I\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "fangs_n_claws:fur_boots",
+              "count": 1,
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:protection": 1
+                  }
+                }
+              }
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "minecraft:iron_ingot",
+              "count": 12
+            }
+          },
+          {
+            "slot": 2,
+            "item": {
+              "id": "farmersdelight:beef_stew",
+              "count": 4
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"1 × Fur Boots (Protection I)\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"12 × Iron Ingot\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"4 × Beef Stew\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      },
+      "weightMult": 0.2
+    },
+    "fur_boots_trail_kit_-_projectile_protection_i": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 800.0,
+      "rarity": "COMMON",
+      "name": "Fur Boots Trail Kit - Projectile Protection I",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Fur Boots Trail Kit - Projectile Protection I\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "fangs_n_claws:fur_boots",
+              "count": 1,
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:projectile_protection": 1
+                  }
+                }
+              }
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "minecraft:iron_ingot",
+              "count": 12
+            }
+          },
+          {
+            "slot": 2,
+            "item": {
+              "id": "farmersdelight:beef_stew",
+              "count": 4
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"1 × Fur Boots (Projectile Protection I)\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"12 × Iron Ingot\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"4 × Beef Stew\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      },
+      "weightMult": 0.2
+    },
+    "fur_boots_trail_kit_-_blast_protection_i": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 800.0,
+      "rarity": "COMMON",
+      "name": "Fur Boots Trail Kit - Blast Protection I",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Fur Boots Trail Kit - Blast Protection I\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "fangs_n_claws:fur_boots",
+              "count": 1,
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:blast_protection": 1
+                  }
+                }
+              }
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "minecraft:iron_ingot",
+              "count": 12
+            }
+          },
+          {
+            "slot": 2,
+            "item": {
+              "id": "farmersdelight:beef_stew",
+              "count": 4
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"1 × Fur Boots (Blast Protection I)\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"12 × Iron Ingot\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"4 × Beef Stew\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      },
+      "weightMult": 0.2
+    },
+    "fur_boots_trail_kit_-_feather_falling_i": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 800.0,
+      "rarity": "COMMON",
+      "name": "Fur Boots Trail Kit - Feather Falling I",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Fur Boots Trail Kit - Feather Falling I\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "fangs_n_claws:fur_boots",
+              "count": 1,
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:feather_falling": 1
+                  }
+                }
+              }
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "minecraft:iron_ingot",
+              "count": 12
+            }
+          },
+          {
+            "slot": 2,
+            "item": {
+              "id": "farmersdelight:beef_stew",
+              "count": 4
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"1 × Fur Boots (Feather Falling I)\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"12 × Iron Ingot\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"4 × Beef Stew\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      },
+      "weightMult": 0.2
+    },
+    "fur_boots_trail_kit_-_unbreaking_i": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 800.0,
+      "rarity": "COMMON",
+      "name": "Fur Boots Trail Kit - Unbreaking I",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Fur Boots Trail Kit - Unbreaking I\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "fangs_n_claws:fur_boots",
+              "count": 1,
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:unbreaking": 1
+                  }
+                }
+              }
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "minecraft:iron_ingot",
+              "count": 12
+            }
+          },
+          {
+            "slot": 2,
+            "item": {
+              "id": "farmersdelight:beef_stew",
+              "count": 4
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"1 × Fur Boots (Unbreaking I)\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"12 × Iron Ingot\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"4 × Beef Stew\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      },
+      "weightMult": 0.2
+    },
+    "cincinnasite_longsword_kit": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000.0,
+      "rarity": "COMMON",
+      "name": "Cincinnasite Longsword Kit",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Cincinnasite Longsword Kit\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "knavesneeds:betternether/cincinnasite/longsword",
+              "count": 1
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "minecraft:iron_ingot",
+              "count": 16
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"1 × Cincinnasite Longsword\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"16 × Iron Ingot\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      },
+      "weightMult": 0.06666666666666667
+    },
+    "cincinnasite_twinblade_kit": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000.0,
+      "rarity": "COMMON",
+      "name": "Cincinnasite Twinblade Kit",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Cincinnasite Twinblade Kit\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "knavesneeds:betternether/cincinnasite/twinblade",
+              "count": 1
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "minecraft:iron_ingot",
+              "count": 16
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"1 × Cincinnasite Twinblade\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"16 × Iron Ingot\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      },
+      "weightMult": 0.06666666666666667
+    },
+    "cincinnasite_rapier_kit": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000.0,
+      "rarity": "COMMON",
+      "name": "Cincinnasite Rapier Kit",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Cincinnasite Rapier Kit\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "knavesneeds:betternether/cincinnasite/rapier",
+              "count": 1
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "minecraft:iron_ingot",
+              "count": 16
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"1 × Cincinnasite Rapier\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"16 × Iron Ingot\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      },
+      "weightMult": 0.06666666666666667
+    },
+    "cincinnasite_katana_kit": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000.0,
+      "rarity": "COMMON",
+      "name": "Cincinnasite Katana Kit",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Cincinnasite Katana Kit\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "knavesneeds:betternether/cincinnasite/katana",
+              "count": 1
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "minecraft:iron_ingot",
+              "count": 16
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"1 × Cincinnasite Katana\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"16 × Iron Ingot\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      },
+      "weightMult": 0.06666666666666667
+    },
+    "cincinnasite_sai_kit": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000.0,
+      "rarity": "COMMON",
+      "name": "Cincinnasite Sai Kit",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Cincinnasite Sai Kit\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "knavesneeds:betternether/cincinnasite/sai",
+              "count": 1
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "minecraft:iron_ingot",
+              "count": 16
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"1 × Cincinnasite Sai\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"16 × Iron Ingot\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      },
+      "weightMult": 0.06666666666666667
+    },
+    "cincinnasite_spear_kit": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000.0,
+      "rarity": "COMMON",
+      "name": "Cincinnasite Spear Kit",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Cincinnasite Spear Kit\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "knavesneeds:betternether/cincinnasite/spear",
+              "count": 1
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "minecraft:iron_ingot",
+              "count": 16
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"1 × Cincinnasite Spear\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"16 × Iron Ingot\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      },
+      "weightMult": 0.06666666666666667
+    },
+    "cincinnasite_glaive_kit": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000.0,
+      "rarity": "COMMON",
+      "name": "Cincinnasite Glaive Kit",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Cincinnasite Glaive Kit\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "knavesneeds:betternether/cincinnasite/glaive",
+              "count": 1
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "minecraft:iron_ingot",
+              "count": 16
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"1 × Cincinnasite Glaive\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"16 × Iron Ingot\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      },
+      "weightMult": 0.06666666666666667
+    },
+    "cincinnasite_warglaive_kit": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000.0,
+      "rarity": "COMMON",
+      "name": "Cincinnasite Warglaive Kit",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Cincinnasite Warglaive Kit\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "knavesneeds:betternether/cincinnasite/warglaive",
+              "count": 1
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "minecraft:iron_ingot",
+              "count": 16
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"1 × Cincinnasite Warglaive\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"16 × Iron Ingot\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      },
+      "weightMult": 0.06666666666666667
+    },
+    "cincinnasite_cutlass_kit": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000.0,
+      "rarity": "COMMON",
+      "name": "Cincinnasite Cutlass Kit",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Cincinnasite Cutlass Kit\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "knavesneeds:betternether/cincinnasite/cutlass",
+              "count": 1
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "minecraft:iron_ingot",
+              "count": 16
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"1 × Cincinnasite Cutlass\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"16 × Iron Ingot\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      },
+      "weightMult": 0.06666666666666667
+    },
+    "cincinnasite_claymore_kit": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000.0,
+      "rarity": "COMMON",
+      "name": "Cincinnasite Claymore Kit",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Cincinnasite Claymore Kit\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "knavesneeds:betternether/cincinnasite/claymore",
+              "count": 1
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "minecraft:iron_ingot",
+              "count": 16
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"1 × Cincinnasite Claymore\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"16 × Iron Ingot\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      },
+      "weightMult": 0.06666666666666667
+    },
+    "cincinnasite_greathammer_kit": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000.0,
+      "rarity": "COMMON",
+      "name": "Cincinnasite Greathammer Kit",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Cincinnasite Greathammer Kit\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "knavesneeds:betternether/cincinnasite/greathammer",
+              "count": 1
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "minecraft:iron_ingot",
+              "count": 16
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"1 × Cincinnasite Greathammer\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"16 × Iron Ingot\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      },
+      "weightMult": 0.06666666666666667
+    },
+    "cincinnasite_greataxe_kit": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000.0,
+      "rarity": "COMMON",
+      "name": "Cincinnasite Greataxe Kit",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Cincinnasite Greataxe Kit\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "knavesneeds:betternether/cincinnasite/greataxe",
+              "count": 1
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "minecraft:iron_ingot",
+              "count": 16
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"1 × Cincinnasite Greataxe\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"16 × Iron Ingot\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      },
+      "weightMult": 0.06666666666666667
+    },
+    "cincinnasite_chakram_kit": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000.0,
+      "rarity": "COMMON",
+      "name": "Cincinnasite Chakram Kit",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Cincinnasite Chakram Kit\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "knavesneeds:betternether/cincinnasite/chakram",
+              "count": 1
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "minecraft:iron_ingot",
+              "count": 16
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"1 × Cincinnasite Chakram\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"16 × Iron Ingot\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      },
+      "weightMult": 0.06666666666666667
+    },
+    "cincinnasite_scythe_kit": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000.0,
+      "rarity": "COMMON",
+      "name": "Cincinnasite Scythe Kit",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Cincinnasite Scythe Kit\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "knavesneeds:betternether/cincinnasite/scythe",
+              "count": 1
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "minecraft:iron_ingot",
+              "count": 16
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"1 × Cincinnasite Scythe\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"16 × Iron Ingot\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      },
+      "weightMult": 0.06666666666666667
+    },
+    "cincinnasite_halberd_kit": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000.0,
+      "rarity": "COMMON",
+      "name": "Cincinnasite Halberd Kit",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Cincinnasite Halberd Kit\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "knavesneeds:betternether/cincinnasite/halberd",
+              "count": 1
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "minecraft:iron_ingot",
+              "count": 16
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"1 × Cincinnasite Halberd\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"16 × Iron Ingot\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      },
+      "weightMult": 0.06666666666666667
+    }
+  }
+}

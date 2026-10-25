@@ -1,0 +1,24 @@
+{
+  "requires": [
+    "bountiful",
+    "bountiful_contract_fairness",
+    "caverns_and_chasms",
+    "comforts",
+    "farmersdelight",
+    "fruitsdelight",
+    "reliable_backpacks",
+    "rusticdelight"
+  ],
+  "objectives": [
+    "liams_orchard_gleaners_objectives"
+  ],
+  "rewards": [
+    "liams_orchard_rewards"
+  ],
+  "canSpawn": true,
+  "canReveal": true,
+  "canWanderBuy": true,
+  "linkedProfessions": [
+    "farmer"
+  ]
+}

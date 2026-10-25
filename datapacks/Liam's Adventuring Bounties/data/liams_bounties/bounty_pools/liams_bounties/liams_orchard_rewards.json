@@ -1,0 +1,262 @@
+{
+  "requires": [
+    "caverns_and_chasms",
+    "comforts",
+    "farmersdelight",
+    "fruitsdelight",
+    "reliable_backpacks",
+    "rusticdelight"
+  ],
+  "content": {
+    "minecraft_iron_ingot": {
+      "type": "minecraft:item",
+      "content": "minecraft:iron_ingot",
+      "amount": {
+        "min": 16,
+        "max": 16
+      },
+      "unitWorth": 50.0,
+      "rarity": "COMMON"
+    },
+    "minecraft_gold_ingot": {
+      "type": "minecraft:item",
+      "content": "minecraft:gold_ingot",
+      "amount": {
+        "min": 8,
+        "max": 8
+      },
+      "unitWorth": 100.0,
+      "rarity": "COMMON"
+    },
+    "caverns_and_chasms_silver_ingot": {
+      "type": "minecraft:item",
+      "content": "caverns_and_chasms:silver_ingot",
+      "amount": {
+        "min": 8,
+        "max": 8
+      },
+      "unitWorth": 87.5,
+      "rarity": "COMMON"
+    },
+    "minecraft_leather": {
+      "type": "minecraft:item",
+      "content": "minecraft:leather",
+      "amount": {
+        "min": 16,
+        "max": 16
+      },
+      "unitWorth": 43.75,
+      "rarity": "COMMON"
+    },
+    "guild_provisions_cache": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000.0,
+      "rarity": "COMMON",
+      "name": "Guild Provisions Cache",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Guild Provisions Cache\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "minecraft:iron_ingot",
+              "count": 12
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "minecraft:gold_ingot",
+              "count": 4
+            }
+          },
+          {
+            "slot": 2,
+            "item": {
+              "id": "minecraft:leather",
+              "count": 8
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"12 × Iron Ingot\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"4 × Gold Ingot\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"8 × Leather\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      }
+    },
+    "trail_backpack_kit": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000.0,
+      "rarity": "COMMON",
+      "name": "Trail Backpack Kit",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Trail Backpack Kit\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "reliable_backpacks:backpack",
+              "count": 1
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "minecraft:iron_ingot",
+              "count": 12
+            }
+          },
+          {
+            "slot": 2,
+            "item": {
+              "id": "farmersdelight:beef_stew",
+              "count": 4
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"1 × Backpack\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"12 × Iron Ingot\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"4 × Beef Stew\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      }
+    },
+    "wayfarer_camp_kit": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000.0,
+      "rarity": "COMMON",
+      "name": "Wayfarer Camp Kit",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Wayfarer Camp Kit\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "comforts:sleeping_bag_white",
+              "count": 1
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "minecraft:iron_ingot",
+              "count": 16
+            }
+          },
+          {
+            "slot": 2,
+            "item": {
+              "id": "farmersdelight:beef_stew",
+              "count": 4
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"1 × White Sleeping Bag\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"16 × Iron Ingot\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"4 × Beef Stew\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      }
+    },
+    "orchard_preserve_hamper": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000.0,
+      "rarity": "COMMON",
+      "name": "Orchard Preserve Hamper",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Orchard Preserve Hamper\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "fruitsdelight:blueberry_jam",
+              "count": 4
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "fruitsdelight:bayberry_jam",
+              "count": 4
+            }
+          },
+          {
+            "slot": 2,
+            "item": {
+              "id": "minecraft:iron_ingot",
+              "count": 12
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"4 × Blueberry Jam\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"4 × Bayberry Jam\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"12 × Iron Ingot\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      }
+    },
+    "coffeehouse_travel_hamper": {
+      "type": "minecraft:item",
+      "content": "minecraft:barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000.0,
+      "rarity": "COMMON",
+      "name": "Coffeehouse Travel Hamper",
+      "components": {
+        "minecraft:custom_name": "{\"text\": \"Coffeehouse Travel Hamper\", \"italic\": false}",
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "rusticdelight:coffee",
+              "count": 4
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "rusticdelight:syrup_cookie",
+              "count": 4
+            }
+          },
+          {
+            "slot": 2,
+            "item": {
+              "id": "minecraft:iron_ingot",
+              "count": 12
+            }
+          }
+        ],
+        "minecraft:lore": [
+          "{\"text\": \"4 × Coffee\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"4 × Syrup Cookie\", \"color\": \"gray\", \"italic\": false}",
+          "{\"text\": \"12 × Iron Ingot\", \"color\": \"gray\", \"italic\": false}"
+        ]
+      }
+    }
+  }
+}

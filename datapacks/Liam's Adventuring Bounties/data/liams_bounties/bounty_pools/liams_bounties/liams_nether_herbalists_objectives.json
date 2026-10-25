@@ -1,0 +1,86 @@
+{
+  "requires": [
+    "betternether",
+    "bountiful",
+    "bountiful_contract_fairness"
+  ],
+  "content": {
+    "betternether_agave_leaf": {
+      "type": "minecraft:item",
+      "content": "betternether:agave_leaf",
+      "amount": {
+        "min": 16,
+        "max": 48
+      },
+      "unitWorth": 40.0,
+      "timeMult": 200,
+      "rarity": "COMMON"
+    },
+    "betternether_black_apple": {
+      "type": "minecraft:item",
+      "content": "betternether:black_apple",
+      "amount": {
+        "min": 16,
+        "max": 48
+      },
+      "unitWorth": 40.0,
+      "timeMult": 200,
+      "rarity": "COMMON"
+    },
+    "betternether_bone_mushroom": {
+      "type": "minecraft:item",
+      "content": "betternether:bone_mushroom",
+      "amount": {
+        "min": 16,
+        "max": 48
+      },
+      "unitWorth": 40.0,
+      "timeMult": 200,
+      "rarity": "COMMON"
+    },
+    "betternether_hook_mushroom": {
+      "type": "minecraft:item",
+      "content": "betternether:hook_mushroom",
+      "amount": {
+        "min": 16,
+        "max": 48
+      },
+      "unitWorth": 40.0,
+      "timeMult": 200,
+      "rarity": "COMMON"
+    },
+    "betternether_nether_reed_stem": {
+      "type": "minecraft:item",
+      "content": "betternether:nether_reed_stem",
+      "amount": {
+        "min": 16,
+        "max": 48
+      },
+      "unitWorth": 40.0,
+      "timeMult": 200,
+      "rarity": "COMMON"
+    },
+    "betternether_bone_grass": {
+      "type": "minecraft:item",
+      "content": "betternether:bone_grass",
+      "amount": {
+        "min": 16,
+        "max": 48
+      },
+      "unitWorth": 40.0,
+      "timeMult": 200,
+      "rarity": "COMMON"
+    },
+    "betternether_jungle_grass": {
+      "type": "minecraft:item",
+      "content": "betternether:jungle_grass",
+      "amount": {
+        "min": 16,
+        "max": 48
+      },
+      "unitWorth": 40.0,
+      "timeMult": 200,
+      "rarity": "COMMON"
+    }
+  }
+}

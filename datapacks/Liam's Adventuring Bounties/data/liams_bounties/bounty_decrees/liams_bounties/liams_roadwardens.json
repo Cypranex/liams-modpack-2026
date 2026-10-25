@@ -1,0 +1,25 @@
+{
+  "requires": [
+    "betternether",
+    "bountiful",
+    "bountiful_contract_fairness",
+    "caverns_and_chasms",
+    "create",
+    "fangs_n_claws",
+    "farmersdelight",
+    "knavesneeds",
+    "shieldexp",
+    "simplyswords",
+    "variantsandventures"
+  ],
+  "objectives": [
+    "liams_roadwardens_objectives"
+  ],
+  "rewards": [
+    "liams_fletcher_rewards"
+  ],
+  "canSpawn": true,
+  "canReveal": true,
+  "canWanderBuy": true,
+  "linkedProfessions": []
+}

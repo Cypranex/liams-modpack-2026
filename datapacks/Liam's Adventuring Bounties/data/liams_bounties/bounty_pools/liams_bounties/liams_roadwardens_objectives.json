@@ -1,0 +1,131 @@
+{
+  "requires": [
+    "bountiful",
+    "bountiful_contract_fairness",
+    "fangs_n_claws",
+    "variantsandventures"
+  ],
+  "content": {
+    "fangs_n_claws_goblin": {
+      "type": "minecraft:entity",
+      "content": "fangs_n_claws:goblin",
+      "amount": {
+        "min": 4,
+        "max": 12
+      },
+      "unitWorth": 160.0,
+      "timeMult": 160,
+      "rarity": "COMMON"
+    },
+    "fangs_n_claws_dart_goblin": {
+      "type": "minecraft:entity",
+      "content": "fangs_n_claws:dart_goblin",
+      "amount": {
+        "min": 2,
+        "max": 6
+      },
+      "unitWorth": 350.0,
+      "timeMult": 200,
+      "rarity": "COMMON"
+    },
+    "fangs_n_claws_evil_bat": {
+      "type": "minecraft:entity",
+      "content": "fangs_n_claws:evil_bat",
+      "amount": {
+        "min": 4,
+        "max": 12
+      },
+      "unitWorth": 160.0,
+      "timeMult": 160,
+      "rarity": "COMMON"
+    },
+    "variantsandventures_gelid": {
+      "type": "minecraft:entity",
+      "content": "variantsandventures:gelid",
+      "amount": {
+        "min": 4,
+        "max": 12
+      },
+      "unitWorth": 160.0,
+      "timeMult": 160,
+      "rarity": "COMMON"
+    },
+    "variantsandventures_thicket": {
+      "type": "minecraft:entity",
+      "content": "variantsandventures:thicket",
+      "amount": {
+        "min": 4,
+        "max": 12
+      },
+      "unitWorth": 160.0,
+      "timeMult": 160,
+      "rarity": "COMMON"
+    },
+    "variantsandventures_verdant": {
+      "type": "minecraft:entity",
+      "content": "variantsandventures:verdant",
+      "amount": {
+        "min": 4,
+        "max": 12
+      },
+      "unitWorth": 160.0,
+      "timeMult": 160,
+      "rarity": "COMMON"
+    },
+    "variantsandventures_murk": {
+      "type": "minecraft:entity",
+      "content": "variantsandventures:murk",
+      "amount": {
+        "min": 4,
+        "max": 12
+      },
+      "unitWorth": 160.0,
+      "timeMult": 160,
+      "rarity": "COMMON"
+    },
+    "minecraft_zombie": {
+      "type": "minecraft:entity",
+      "content": "minecraft:zombie",
+      "amount": {
+        "min": 5,
+        "max": 16
+      },
+      "unitWorth": 125.0,
+      "timeMult": 120,
+      "rarity": "COMMON"
+    },
+    "minecraft_husk": {
+      "type": "minecraft:entity",
+      "content": "minecraft:husk",
+      "amount": {
+        "min": 4,
+        "max": 12
+      },
+      "unitWorth": 160.0,
+      "timeMult": 160,
+      "rarity": "COMMON"
+    },
+    "minecraft_skeleton": {
+      "type": "minecraft:entity",
+      "content": "minecraft:skeleton",
+      "amount": {
+        "min": 5,
+        "max": 16
+      },
+      "unitWorth": 125.0,
+      "timeMult": 120,
+      "rarity": "COMMON"
+    },
+    "minecraft_pillager": {
+      "type": "minecraft:entity",
+      "content": "minecraft:pillager",
+      "amount": {
+        "min": 4,
+        "max": 12
+      },
+      "unitWorth": 160.0,
+      "timeMult": 160,
+      "rarity": "COMMON"
+    }
+  }
+}

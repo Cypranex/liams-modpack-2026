@@ -1,0 +1,18 @@
+{
+  "requires": [
+    "betterend",
+    "bountiful",
+    "bountiful_contract_fairness",
+    "irons_spellbooks"
+  ],
+  "objectives": [
+    "liams_end_botanists_objectives"
+  ],
+  "rewards": [
+    "liams_end_botany_rewards"
+  ],
+  "canSpawn": false,
+  "canReveal": true,
+  "canWanderBuy": true,
+  "linkedProfessions": []
+}

@@ -1,0 +1,97 @@
+{
+  "requires": [
+    "bountiful",
+    "bountiful_contract_fairness",
+    "chipped"
+  ],
+  "content": {
+    "chipped_andesite_bricks": {
+      "type": "minecraft:item",
+      "content": "chipped:andesite_bricks",
+      "amount": {
+        "min": 32,
+        "max": 128
+      },
+      "unitWorth": 16.0,
+      "timeMult": 120,
+      "rarity": "COMMON"
+    },
+    "chipped_andesite_pillar": {
+      "type": "minecraft:item",
+      "content": "chipped:andesite_pillar",
+      "amount": {
+        "min": 32,
+        "max": 128
+      },
+      "unitWorth": 16.0,
+      "timeMult": 120,
+      "rarity": "COMMON"
+    },
+    "chipped_cracked_disordered_stone_bricks": {
+      "type": "minecraft:item",
+      "content": "chipped:cracked_disordered_stone_bricks",
+      "amount": {
+        "min": 32,
+        "max": 128
+      },
+      "unitWorth": 16.0,
+      "timeMult": 120,
+      "rarity": "COMMON"
+    },
+    "chipped_cobblestone_bricks": {
+      "type": "minecraft:item",
+      "content": "chipped:cobblestone_bricks",
+      "amount": {
+        "min": 32,
+        "max": 128
+      },
+      "unitWorth": 16.0,
+      "timeMult": 120,
+      "rarity": "COMMON"
+    },
+    "chipped_diorite_bricks": {
+      "type": "minecraft:item",
+      "content": "chipped:diorite_bricks",
+      "amount": {
+        "min": 32,
+        "max": 128
+      },
+      "unitWorth": 16.0,
+      "timeMult": 120,
+      "rarity": "COMMON"
+    },
+    "chipped_granite_bricks": {
+      "type": "minecraft:item",
+      "content": "chipped:granite_bricks",
+      "amount": {
+        "min": 32,
+        "max": 128
+      },
+      "unitWorth": 16.0,
+      "timeMult": 120,
+      "rarity": "COMMON"
+    },
+    "chipped_tuff_bricks": {
+      "type": "minecraft:item",
+      "content": "chipped:tuff_bricks",
+      "amount": {
+        "min": 32,
+        "max": 128
+      },
+      "unitWorth": 16.0,
+      "timeMult": 120,
+      "rarity": "COMMON"
+    },
+    "chipped_calcite_bricks": {
+      "type": "minecraft:item",
+      "content": "chipped:calcite_bricks",
+      "amount": {
+        "min": 32,
+        "max": 128
+      },
+      "unitWorth": 16.0,
+      "timeMult": 120,
+      "rarity": "COMMON"
+    }
+  }
+}

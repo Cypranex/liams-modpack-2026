@@ -1,0 +1,17 @@
+{
+  "requires": [
+    "bountiful",
+    "bountiful_contract_fairness",
+    "cataclysm"
+  ],
+  "objectives": [
+    "liams_koboleton_hunters_objectives"
+  ],
+  "rewards": [
+    "liams_koboleton_hunt_rewards"
+  ],
+  "canSpawn": false,
+  "canReveal": true,
+  "canWanderBuy": true,
+  "linkedProfessions": []
+}

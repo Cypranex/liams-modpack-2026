@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "tag": "caverns_and_chasms:cupric_fire_base_blocks"
+    },
+    "S": {
+      "tag": "c:ingots/silver"
+    },
+    "T": {
+      "item": "minecraft:torch"
+    }
+  },
+  "pattern": [
+    "S#S",
+    "TS "
+  ],
+  "result": {
+    "count": 1,
+    "id": "caverns_and_chasms:cupric_brazier"
+  }
+}

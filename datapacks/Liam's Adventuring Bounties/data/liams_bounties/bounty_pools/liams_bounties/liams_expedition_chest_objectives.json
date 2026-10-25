@@ -1,0 +1,86 @@
+{
+  "requires": [
+    "bountiful",
+    "bountiful_contract_fairness",
+    "supplementaries"
+  ],
+  "content": {
+    "minecraft_paper": {
+      "type": "minecraft:item",
+      "content": "minecraft:paper",
+      "amount": {
+        "min": 24,
+        "max": 64
+      },
+      "unitWorth": 25.0,
+      "timeMult": 120,
+      "rarity": "COMMON"
+    },
+    "minecraft_glass_bottle": {
+      "type": "minecraft:item",
+      "content": "minecraft:glass_bottle",
+      "amount": {
+        "min": 24,
+        "max": 64
+      },
+      "unitWorth": 25.0,
+      "timeMult": 120,
+      "rarity": "COMMON"
+    },
+    "minecraft_feather": {
+      "type": "minecraft:item",
+      "content": "minecraft:feather",
+      "amount": {
+        "min": 4,
+        "max": 16
+      },
+      "unitWorth": 125.0,
+      "timeMult": 160,
+      "rarity": "COMMON"
+    },
+    "minecraft_bowl": {
+      "type": "minecraft:item",
+      "content": "minecraft:bowl",
+      "amount": {
+        "min": 12,
+        "max": 40
+      },
+      "unitWorth": 50.0,
+      "timeMult": 120,
+      "rarity": "COMMON"
+    },
+    "minecraft_flower_pot": {
+      "type": "minecraft:item",
+      "content": "minecraft:flower_pot",
+      "amount": {
+        "min": 4,
+        "max": 16
+      },
+      "unitWorth": 125.0,
+      "timeMult": 160,
+      "rarity": "COMMON"
+    },
+    "supplementaries_rope": {
+      "type": "minecraft:item",
+      "content": "supplementaries:rope",
+      "amount": {
+        "min": 12,
+        "max": 40
+      },
+      "unitWorth": 50.0,
+      "timeMult": 120,
+      "rarity": "COMMON"
+    },
+    "minecraft_rabbit_hide": {
+      "type": "minecraft:item",
+      "content": "minecraft:rabbit_hide",
+      "amount": {
+        "min": 2,
+        "max": 8
+      },
+      "unitWorth": 250.0,
+      "timeMult": 200,
+      "rarity": "COMMON"
+    }
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "requires": [
+    "bountiful",
+    "bountiful_contract_fairness",
+    "handcrafted"
+  ],
+  "content": {
+    "handcrafted_oak_chair": {
+      "type": "minecraft:item",
+      "content": "handcrafted:oak_chair",
+      "amount": {
+        "min": 8,
+        "max": 16
+      },
+      "unitWorth": 80.0,
+      "timeMult": 160,
+      "rarity": "COMMON"
+    },
+    "handcrafted_oak_shelf": {
+      "type": "minecraft:item",
+      "content": "handcrafted:oak_shelf",
+      "amount": {
+        "min": 4,
+        "max": 12
+      },
+      "unitWorth": 160.0,
+      "timeMult": 160,
+      "rarity": "COMMON"
+    },
+    "handcrafted_spruce_shelf": {
+      "type": "minecraft:item",
+      "content": "handcrafted:spruce_shelf",
+      "amount": {
+        "min": 4,
+        "max": 12
+      },
+      "unitWorth": 160.0,
+      "timeMult": 160,
+      "rarity": "COMMON"
+    },
+    "handcrafted_birch_shelf": {
+      "type": "minecraft:item",
+      "content": "handcrafted:birch_shelf",
+      "amount": {
+        "min": 4,
+        "max": 12
+      },
+      "unitWorth": 160.0,
+      "timeMult": 160,
+      "rarity": "COMMON"
+    },
+    "handcrafted_oak_table": {
+      "type": "minecraft:item",
+      "content": "handcrafted:oak_table",
+      "amount": {
+        "min": 8,
+        "max": 16
+      },
+      "unitWorth": 80.0,
+      "timeMult": 160,
+      "rarity": "COMMON"
+    },
+    "handcrafted_oak_bench": {
+      "type": "minecraft:item",
+      "content": "handcrafted:oak_bench",
+      "amount": {
+        "min": 8,
+        "max": 16
+      },
+      "unitWorth": 80.0,
+      "timeMult": 160,
+      "rarity": "COMMON"
+    },
+    "handcrafted_white_cushion": {
+      "type": "minecraft:item",
+      "content": "handcrafted:white_cushion",
+      "amount": {
+        "min": 8,
+        "max": 16
+      },
+      "unitWorth": 80.0,
+      "timeMult": 160,
+      "rarity": "COMMON"
+    },
+    "handcrafted_brown_cushion": {
+      "type": "minecraft:item",
+      "content": "handcrafted:brown_cushion",
+      "amount": {
+        "min": 8,
+        "max": 16
+      },
+      "unitWorth": 80.0,
+      "timeMult": 160,
+      "rarity": "COMMON"
+    }
+  }
+}

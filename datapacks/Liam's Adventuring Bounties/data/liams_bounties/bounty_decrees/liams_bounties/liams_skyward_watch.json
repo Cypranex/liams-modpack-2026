@@ -1,0 +1,22 @@
+{
+  "requires": [
+    "aether",
+    "betterarcheology",
+    "bountiful",
+    "bountiful_contract_fairness",
+    "caverns_and_chasms",
+    "chalk",
+    "deep_aether",
+    "spelunkers_charm"
+  ],
+  "objectives": [
+    "liams_skyward_watch_objectives"
+  ],
+  "rewards": [
+    "liams_aether_hunts_rewards"
+  ],
+  "canSpawn": false,
+  "canReveal": true,
+  "canWanderBuy": true,
+  "linkedProfessions": []
+}

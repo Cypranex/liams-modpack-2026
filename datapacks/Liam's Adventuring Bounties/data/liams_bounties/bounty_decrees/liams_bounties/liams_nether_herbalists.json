@@ -1,0 +1,18 @@
+{
+  "requires": [
+    "betternether",
+    "bountiful",
+    "bountiful_contract_fairness",
+    "irons_spellbooks"
+  ],
+  "objectives": [
+    "liams_nether_herbalists_objectives"
+  ],
+  "rewards": [
+    "liams_nether_alchemy_rewards"
+  ],
+  "canSpawn": false,
+  "canReveal": true,
+  "canWanderBuy": true,
+  "linkedProfessions": []
+}

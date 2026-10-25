@@ -1,0 +1,18 @@
+{
+  "requires": [
+    "bountiful",
+    "bountiful_contract_fairness",
+    "cataclysm",
+    "irons_spellbooks"
+  ],
+  "objectives": [
+    "liams_boss_ancient_remnant_objectives"
+  ],
+  "rewards": [
+    "liams_boss_ancient_remnant_rewards"
+  ],
+  "canSpawn": false,
+  "canReveal": false,
+  "canWanderBuy": false,
+  "linkedProfessions": []
+}

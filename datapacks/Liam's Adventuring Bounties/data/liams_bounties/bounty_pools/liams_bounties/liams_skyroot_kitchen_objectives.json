@@ -1,0 +1,98 @@
+{
+  "requires": [
+    "aether",
+    "aethersdelight",
+    "bountiful",
+    "bountiful_contract_fairness"
+  ],
+  "content": {
+    "aethersdelight_ginger": {
+      "type": "minecraft:item",
+      "content": "aethersdelight:ginger",
+      "amount": {
+        "min": 16,
+        "max": 48
+      },
+      "unitWorth": 40.0,
+      "timeMult": 200,
+      "rarity": "COMMON"
+    },
+    "aethersdelight_leek": {
+      "type": "minecraft:item",
+      "content": "aethersdelight:leek",
+      "amount": {
+        "min": 16,
+        "max": 48
+      },
+      "unitWorth": 40.0,
+      "timeMult": 200,
+      "rarity": "COMMON"
+    },
+    "aethersdelight_parsnip": {
+      "type": "minecraft:item",
+      "content": "aethersdelight:parsnip",
+      "amount": {
+        "min": 16,
+        "max": 48
+      },
+      "unitWorth": 40.0,
+      "timeMult": 200,
+      "rarity": "COMMON"
+    },
+    "aethersdelight_peppermint_leaf": {
+      "type": "minecraft:item",
+      "content": "aethersdelight:peppermint_leaf",
+      "amount": {
+        "min": 16,
+        "max": 48
+      },
+      "unitWorth": 40.0,
+      "timeMult": 200,
+      "rarity": "COMMON"
+    },
+    "aethersdelight_gingerbread": {
+      "type": "minecraft:item",
+      "content": "aethersdelight:gingerbread",
+      "amount": {
+        "min": 4,
+        "max": 16
+      },
+      "unitWorth": 125.0,
+      "timeMult": 120,
+      "rarity": "COMMON"
+    },
+    "aethersdelight_blue_berry_muffin": {
+      "type": "minecraft:item",
+      "content": "aethersdelight:blue_berry_muffin",
+      "amount": {
+        "min": 4,
+        "max": 16
+      },
+      "unitWorth": 125.0,
+      "timeMult": 120,
+      "rarity": "COMMON"
+    },
+    "aethersdelight_cooked_parsnip": {
+      "type": "minecraft:item",
+      "content": "aethersdelight:cooked_parsnip",
+      "amount": {
+        "min": 4,
+        "max": 16
+      },
+      "unitWorth": 125.0,
+      "timeMult": 120,
+      "rarity": "COMMON"
+    },
+    "aether_blue_berry": {
+      "type": "minecraft:item",
+      "content": "aether:blue_berry",
+      "amount": {
+        "min": 24,
+        "max": 64
+      },
+      "unitWorth": 25.0,
+      "timeMult": 120,
+      "rarity": "COMMON"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "requires": [
+    "bountiful",
+    "bountiful_contract_fairness",
+    "irons_spellbooks"
+  ],
+  "objectives": [
+    "liams_boss_dead_king_objectives"
+  ],
+  "rewards": [
+    "liams_boss_dead_king_rewards"
+  ],
+  "canSpawn": false,
+  "canReveal": false,
+  "canWanderBuy": false,
+  "linkedProfessions": []
+}
