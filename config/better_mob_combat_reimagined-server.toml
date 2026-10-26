@@ -1,2 +1,3 @@
-# Wild wolves handle bite timing themselves; delayed fallback attacks prevent damage.
-entityBlacklist = ["fangs_n_claws:wild_wolf"]
+# These mods own their attack animations and damage timing. BMC fallback
+# interception can cancel their timed hit, then retry an attack still on cooldown.
+entityBlacklist = ["fangs_n_claws:*", "golemoverhaul:*"]

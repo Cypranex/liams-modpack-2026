@@ -1,0 +1,1073 @@
+{
+  "groups": {
+    "kitchens": [
+      "betterarcheology:archeology/chest_jungle_temple_food",
+      "betterdeserttemples:chests/food_storage",
+      "betterstrongholds:chests/mess",
+      "chefsdelight:chests/cooker",
+      "ctov:chests/village/village_bakery",
+      "formationsoverworld:hobbit_hole/food",
+      "formationsoverworld:small_house/fireplace",
+      "irons_spellbooks:chests/impaled_icebreaker/food_barrel",
+      "minecraft:chests/illager_mansion/kitchen",
+      "minecraft:chests/village/village_butcher",
+      "minecraft:chests/village/village_fisher",
+      "nova_structures:chests/food_supply",
+      "nova_structures:chests/illager_hideout_meat",
+      "nova_structures:chests/illager_hideout_vegitarian",
+      "nova_structures:chests/pillager_outpost_kitchen",
+      "nova_structures:chests/toxic_lair/kitchen",
+      "nova_structures:chests/witch_villa/kitchen"
+    ],
+    "surface_supplies": [
+      "betterjungletemples:chests/campsite",
+      "explorify:chest/supply_cache",
+      "formationsoverworld:campsite",
+      "formationsoverworld:log_shelter",
+      "formationsoverworld:small_house/degraded",
+      "formationsoverworld:small_house/intact",
+      "formationsoverworld:wagon",
+      "yungsextras:desert/ruins"
+    ],
+    "dungeon_supplies": [
+      "betterarcheology:archeology/chest_catacombs_generic",
+      "betterdungeons:skeleton_dungeon/chests/common",
+      "betterdungeons:skeleton_dungeon/chests/middle",
+      "betterdungeons:spider_dungeon/chests/egg_room",
+      "betterdungeons:zombie_dungeon/chests/common",
+      "betterdungeons:zombie_dungeon/chests/tombstone",
+      "betterstrongholds:chests/common",
+      "betterstrongholds:chests/crypt",
+      "betterstrongholds:chests/prison_lg",
+      "minecraft:chests/abandoned_mineshaft",
+      "nova_structures:chests/creeping_crypt/crypt_hallway",
+      "minecraft:chests/simple_dungeon",
+      "nova_structures:chests/creeping_crypt/crypt_grave"
+    ],
+    "workshops": [
+      "betterdeserttemples:chests/storage",
+      "ctov:chests/village/village_smith",
+      "formationsoverworld:stone_tower/smithing",
+      "formationsoverworld:witch_tower/smithing",
+      "minecraft:chests/illager_mansion/smithing_room",
+      "minecraft:chests/village/village_armorer",
+      "minecraft:chests/village/village_mason",
+      "minecraft:chests/village/village_toolsmith",
+      "minecraft:chests/village/village_weaponsmith",
+      "nova_structures:chests/badland_miner_outpost_forge",
+      "nova_structures:chests/lone_citadel/c_forge",
+      "nova_structures:chests/lone_citadel/c_forge_chest"
+    ],
+    "library_supplies": [
+      "betterarcheology:archeology/chest_catacombs_library",
+      "betterarcheology:archeology/chest_light_temple_book",
+      "betterdeserttemples:chests/library",
+      "betterstrongholds:chests/grand_library",
+      "betterstrongholds:chests/library_md",
+      "minecraft:chests/illager_mansion/library_chest",
+      "minecraft:chests/illager_mansion/map_chest",
+      "minecraft:chests/stronghold_library",
+      "nova_structures:chests/illager_hideout_library",
+      "nova_structures:chests/lone_citadel/c_library",
+      "nova_structures:chests/witch_villa/library"
+    ],
+    "hidden_treasure": [
+      "betterdeserttemples:chests/pharaoh_hidden",
+      "betterdungeons:zombie_dungeon/chests/special",
+      "betterjungletemples:chests/treasure",
+      "betterstrongholds:chests/treasure"
+    ],
+    "nether_supplies": [
+      "betterfortresses:chests/hall",
+      "betterfortresses:chests/keep",
+      "betterfortresses:chests/quarters",
+      "betterfortresses:chests/storage",
+      "minecraft:chests/bastion_bridge",
+      "minecraft:chests/bastion_hoglin_stable",
+      "minecraft:chests/bastion_other",
+      "minecraft:chests/nether_bridge"
+    ],
+    "late_treasure": [
+      "betterfortresses:chests/worship",
+      "minecraft:chests/ancient_city",
+      "minecraft:chests/bastion_treasure",
+      "minecraft:chests/end_city_treasure"
+    ],
+    "aether_provisions": [
+      "aether:chests/dungeon/bronze/bronze_dungeon",
+      "aether:chests/dungeon/silver/silver_dungeon",
+      "deep_aether:chests/dungeon/altar_camp",
+      "deep_aether:chests/dungeon/brass/brass_dungeon"
+    ],
+    "armoury": [
+      "betterdeserttemples:chests/wardrobe",
+      "betterstrongholds:chests/armoury"
+    ],
+    "village_households": [
+      "ctov:chests/village/village_badlands_house",
+      "ctov:chests/village/village_beach_house",
+      "ctov:chests/village/village_dark_forest_house",
+      "ctov:chests/village/village_jungle_house",
+      "ctov:chests/village/village_mountain_house",
+      "ctov:chests/village/village_mushroom_house",
+      "ctov:chests/village/village_swamp_house",
+      "minecraft:chests/village/village_desert_house",
+      "minecraft:chests/village/village_jungle_house",
+      "minecraft:chests/village/village_plains_house",
+      "minecraft:chests/village/village_savanna_house",
+      "minecraft:chests/village/village_shepherd",
+      "minecraft:chests/village/village_snowy_house",
+      "minecraft:chests/village/village_swamp_house",
+      "minecraft:chests/village/village_taiga_house",
+      "minecraft:chests/village/village_tannery",
+      "ribbits:chests/merchant",
+      "ribbits:chests/nitwit"
+    ],
+    "garden_stores": [
+      "ctov:chests/village/village_farm",
+      "ctov:chests/village/village_forager",
+      "irons_spellbooks:chests/wheat",
+      "nova_structures:chests/witch_villa/gardening",
+      "nova_structures:chests/witch_villa/pumpkin_room",
+      "ribbits:chests/gardener"
+    ],
+    "rural_libraries": [
+      "ctov:chests/village/village_library",
+      "minecraft:chests/village/village_cartographer",
+      "minecraft:chests/village/village_temple",
+      "ribbits:chests/sorcerer"
+    ],
+    "expedition_caches": [
+      "formationsoverworld:bamboo_hut",
+      "formationsoverworld:cobble_hole",
+      "formationsoverworld:desert_houses",
+      "formationsoverworld:fountain/lesser_chest",
+      "formationsoverworld:fountain/rich_chest",
+      "formationsoverworld:hobbit_hole/common",
+      "formationsoverworld:igloo",
+      "formationsoverworld:log_spikes",
+      "formationsoverworld:small_statue",
+      "formationsoverworld:stone_tower/bedroom",
+      "formationsoverworld:tiny_house",
+      "formationsoverworld:tower_remnant",
+      "formationsoverworld:well"
+    ],
+    "dungeon_discoveries": [
+      "betterarcheology:archeology/chest_buried_ruins_sand",
+      "betterarcheology:archeology/chest_catacombs_combat",
+      "betterarcheology:archeology/chest_catacombs_golden",
+      "betterarcheology:archeology/chest_jungle_temple_equip",
+      "betterarcheology:archeology/chest_jungle_temple_generic",
+      "betterarcheology:archeology/chest_jungle_temple_treasure",
+      "betterarcheology:archeology/chest_light_temple_generic",
+      "betterarcheology:archeology/chest_light_temple_pillager",
+      "betterarcheology:archeology/chest_light_temple_treasure",
+      "betterarcheology:archeology/chest_mott",
+      "betterdeserttemples:chests/statue",
+      "betterdeserttemples:chests/tomb",
+      "betterdeserttemples:chests/tomb_pharaoh",
+      "betterdungeons:small_dungeon/chests/loot_piles",
+      "betterstrongholds:chests/cmd_yung",
+      "betterstrongholds:chests/trap",
+      "explorify:chest/dark_forest_settlement",
+      "formationsoverworld:graveyard/grave",
+      "formationsoverworld:graveyard/tomb",
+      "formationsoverworld:graveyard/trapped_grave",
+      "formationsoverworld:large_temple/pillar_chest",
+      "formationsoverworld:large_temple/rich_chest",
+      "formationsoverworld:stone_tower/basement",
+      "minecraft:chests/desert_pyramid",
+      "minecraft:chests/illager_mansion/ancient_city_raid_chest",
+      "minecraft:chests/illager_mansion/generic",
+      "minecraft:chests/illager_mansion/secret_room",
+      "minecraft:chests/illager_mansion/wool",
+      "minecraft:chests/jungle_temple",
+      "minecraft:chests/ruined_portal",
+      "minecraft:chests/stronghold_corridor",
+      "minecraft:chests/stronghold_crossing",
+      "minecraft:chests/trial_chambers/corridor",
+      "minecraft:chests/trial_chambers/entrance",
+      "minecraft:chests/trial_chambers/intersection_barrel",
+      "minecraft:chests/trial_chambers/supply",
+      "minecraft:chests/woodland_mansion",
+      "nova_structures:chests/badland_miner_outpost",
+      "nova_structures:chests/badland_miner_outpost_towers",
+      "nova_structures:chests/bunker_altar",
+      "nova_structures:chests/desert_ruins/desert_ruin_house",
+      "nova_structures:chests/desert_ruins/desert_ruin_main_temple",
+      "nova_structures:chests/dungeon_1",
+      "nova_structures:chests/dungeon_2",
+      "nova_structures:chests/dungeon_3",
+      "nova_structures:chests/dungeon_4",
+      "nova_structures:chests/dungeon_5",
+      "nova_structures:chests/dungeon_6",
+      "nova_structures:chests/dungeon_7",
+      "nova_structures:chests/firewatch_tower",
+      "nova_structures:chests/illager_camp",
+      "nova_structures:chests/illager_hideout_heart_loot",
+      "nova_structures:chests/illager_hideout_random",
+      "nova_structures:chests/illager_hideout_utility",
+      "nova_structures:chests/lone_citadel/c_supply",
+      "nova_structures:chests/pillager_outpost_treasure",
+      "nova_structures:chests/ruin_loot_master",
+      "nova_structures:chests/shrine/combat_pot",
+      "nova_structures:chests/shrine/combat_treasure_1",
+      "nova_structures:chests/shrine/combat_treasure_2",
+      "nova_structures:chests/shrine/combat_treasure_3",
+      "nova_structures:chests/shrine/combat_treasure_4",
+      "nova_structures:chests/shrine/combat_treasure_5",
+      "nova_structures:chests/shrine/shrine_lesser_ominous",
+      "nova_structures:chests/shrine/shrine_lesser_treasure",
+      "nova_structures:chests/village/village_birch_house",
+      "yungsextras:desert/chillzone"
+    ],
+    "guard_stores": [
+      "minecraft:chests/illager_mansion/pillager_chest",
+      "minecraft:chests/illager_mansion/ravager_chest",
+      "minecraft:chests/illager_mansion/vindicator_chest",
+      "minecraft:chests/pillager_outpost",
+      "minecraft:chests/village/village_fletcher",
+      "nova_structures:chests/illager_hideout_weaponry"
+    ],
+    "coastal_caches": [
+      "aquamirae:chests/ship_2",
+      "betteroceanmonuments:chests/upper_side_chamber",
+      "formationsoverworld:raft",
+      "minecraft:chests/buried_treasure",
+      "minecraft:chests/shipwreck_map",
+      "minecraft:chests/shipwreck_treasure",
+      "minecraft:chests/underwater_ruin_big",
+      "minecraft:chests/underwater_ruin_small",
+      "nova_structures:chests/conduit_ruin/conduit_ruin_big",
+      "nova_structures:chests/conduit_ruin/conduit_ruin_main",
+      "nova_structures:chests/conduit_ruin/conduit_ruin_small",
+      "nova_structures:chests/illager_hideout_fishing",
+      "nova_structures:chests/water_supply",
+      "ribbits:chests/fisherman_main",
+      "supplementaries:loot/galleon/chest"
+    ],
+    "cold_caches": [
+      "friendsandfoes:barrels/iceologer_cabin",
+      "friendsandfoes:chests/iceologer_cabin",
+      "minecraft:chests/ancient_city_ice_box",
+      "minecraft:chests/igloo_chest",
+      "nova_structures:chests/lone_citadel/c_cold_barrel",
+      "nova_structures:chests/stray_fort_archer",
+      "nova_structures:chests/stray_fort_tresure"
+    ],
+    "sparse_stores": [
+      "aquamirae:chests/maze_camp_chest",
+      "aquamirae:chests/ship_1",
+      "friendsandfoes:barrels/citadel",
+      "irons_spellbooks:chests/filler_storage_loot",
+      "irons_spellbooks:chests/pyromancer_tower/old_cask",
+      "irons_spellbooks:chests/pyromancer_tower/pyromancer_basic_storage",
+      "minecraft:chests/shipwreck_supply",
+      "nova_structures:chests/desert_ruins/desert_ruin_grave",
+      "nova_structures:chests/desert_ruins/desert_ruin_lesser_treasure",
+      "nova_structures:chests/illager_hideout_raw_ores",
+      "nova_structures:chests/illager_hideout_trash",
+      "nova_structures:chests/jungle_ruins/jungle_ruins_main_temple",
+      "nova_structures:chests/lone_citadel/c_banner",
+      "nova_structures:chests/lone_citadel/c_grave",
+      "nova_structures:chests/mining_supply",
+      "nova_structures:chests/nether_port/nether_port_chest",
+      "nova_structures:chests/nether_port/nether_port_supplies",
+      "nova_structures:chests/stray_fort_loot_generic",
+      "nova_structures:chests/toxic_lair/generic",
+      "nova_structures:chests/undead_crypts_grave",
+      "nova_structures:chests/witch_villa/dirty_clothes",
+      "ribbits:chests/fisherman_storage",
+      "structory:harvest/manor2/loot",
+      "structory:harvest/old_manor/common"
+    ],
+    "magic_resupply": [
+      "betterarcheology:archeology/chest_catacombs_potion",
+      "betterdeserttemples:chests/lab",
+      "betterwitchhuts:chests/hut_0",
+      "formationsoverworld:witch_tower/botany",
+      "formationsoverworld:witch_tower/contraption_reward",
+      "formationsoverworld:witch_tower/spawner",
+      "friendsandfoes:barrels/illusioner_shack_attic",
+      "friendsandfoes:barrels/illusioner_shack_basement",
+      "friendsandfoes:chests/illusioner_shack",
+      "irons_spellbooks:chests/battleground/burial_loot",
+      "irons_spellbooks:chests/battleground/piglin_camp",
+      "irons_spellbooks:chests/catacombs/coffin_loot",
+      "irons_spellbooks:chests/catacombs/hidden_trough_treasure",
+      "irons_spellbooks:chests/catacombs/wall_loot",
+      "irons_spellbooks:chests/citadel/rampart_chest",
+      "irons_spellbooks:chests/citadel/rampart_supplies",
+      "irons_spellbooks:chests/component_storage",
+      "irons_spellbooks:chests/evoker_fort",
+      "irons_spellbooks:chests/evoker_fort/guard_tower",
+      "irons_spellbooks:chests/generic_magic_treasure",
+      "irons_spellbooks:chests/ice_spider_den/basement",
+      "irons_spellbooks:chests/ice_spider_den/cask",
+      "irons_spellbooks:chests/ice_spider_den/dungeon",
+      "irons_spellbooks:chests/ice_spider_den/tower",
+      "irons_spellbooks:chests/impaled_icebreaker/captain_quarters",
+      "irons_spellbooks:chests/mangrove_hut",
+      "irons_spellbooks:chests/mangrove_hut/hidden_potion_storage",
+      "irons_spellbooks:chests/mountain_tower/ice_barrel",
+      "irons_spellbooks:chests/mountain_tower/mountain_tower",
+      "irons_spellbooks:chests/priest_house",
+      "irons_spellbooks:chests/pyromancer_tower/burnt_chest",
+      "irons_spellbooks:chests/pyromancer_tower/fire_ale_cask",
+      "irons_spellbooks:chests/pyromancer_tower/fire_ale_trove",
+      "irons_spellbooks:chests/pyromancer_tower/pyromancer_supplies",
+      "minecraft:chests/illager_mansion/evoker_chest",
+      "minecraft:chests/illager_mansion/witch_chest",
+      "nova_structures:chests/illager_hideout_brewing",
+      "nova_structures:chests/mangrove_witchhud",
+      "nova_structures:chests/toxic_lair/brewing",
+      "nova_structures:chests/witch_villa/bedroom",
+      "nova_structures:chests/witch_villa/general_storage",
+      "nova_structures:chests/witch_villa/lab",
+      "nova_structures:chests/witch_villa/music_room",
+      "nova_structures:chests/witch_villa/slime_room"
+    ],
+    "nether_expeditions": [
+      "betterdungeons:small_nether_dungeon/chests/common",
+      "betterfortresses:chests/beacon",
+      "betterfortresses:chests/extra",
+      "betterfortresses:chests/obsidian",
+      "betterfortresses:chests/puzzle",
+      "betternether:chests/city",
+      "betternether:chests/city_common",
+      "betternether:chests/city_surprise",
+      "betternether:chests/library",
+      "betternether:chests/wither_tower",
+      "formationsnether:basalt_hut",
+      "formationsnether:blackstone_castle",
+      "formationsnether:blackstone_remnant",
+      "formationsnether:campsite",
+      "formationsnether:large_house/barrel",
+      "formationsnether:large_house/chest",
+      "formationsnether:large_tree",
+      "formationsnether:parkour_challenge",
+      "formationsnether:rib_cage",
+      "formationsnether:small_fire_arena",
+      "formationsnether:small_lava_arena",
+      "formationsnether:small_lava_shrine",
+      "formationsnether:sphere_cage/piglin",
+      "formationsnether:sphere_cage/wither",
+      "minecraft:chests/nether_fortress/fort_inside_generic",
+      "nova_structures:chests/hamlet/hamlet",
+      "nova_structures:chests/hamlet/hamlet_tresure",
+      "nova_structures:chests/nether_skeleton_tower/skeleton_tower_camp",
+      "nova_structures:chests/nether_skeleton_tower/skeleton_tower_chest",
+      "nova_structures:chests/nether_skeleton_tower/skeleton_tower_supply",
+      "nova_structures:chests/piglin_camp/chest",
+      "nova_structures:chests/piglin_outstation/outstation_generic",
+      "nova_structures:chests/piglin_outstation/outstation_tower",
+      "nova_structures:chests/piglin_outstation/outstation_treasure"
+    ],
+    "end_expeditions": [
+      "betterend:chests/biome",
+      "betterend:chests/end_village_loot",
+      "nova_structures:chests/end_castle/castle_bar",
+      "nova_structures:chests/end_castle/castle_brewing",
+      "nova_structures:chests/end_castle/greater_loot",
+      "nova_structures:chests/end_castle/lesser_loot",
+      "nova_structures:chests/end_castle/rocket_barrel",
+      "nova_structures:chests/end_castle/supply",
+      "nova_structures:chests/end_lighthouse/supply_lighthouse"
+    ]
+  },
+  "native_curio_tuning": [
+    {
+      "table": "irons_spellbooks:chests/additional_generic_loot",
+      "pool": 5,
+      "multiplier": 0.4
+    },
+    {
+      "table": "irons_spellbooks:chests/additional_good_loot",
+      "pool": 4,
+      "multiplier": 0.3333333333333333
+    },
+    {
+      "table": "irons_spellbooks:chests/additional_treasure_loot",
+      "pool": 3,
+      "multiplier": 0.15
+    },
+    {
+      "table": "irons_spellbooks:chests/additional_library_loot",
+      "pool": 3,
+      "multiplier": 0.16
+    },
+    {
+      "table": "irons_spellbooks:chests/additional_nether_loot",
+      "pool": 1,
+      "multiplier": 0.4
+    },
+    {
+      "table": "irons_spellbooks:chests/additional_ancient_city_loot",
+      "pool": 1,
+      "multiplier": 0.26666666666666666
+    },
+    {
+      "table": "irons_spellbooks:chests/additional_end_city_loot",
+      "pool": 4,
+      "multiplier": 0.12
+    }
+  ],
+  "roll_trims": {
+    "betterdungeons:skeleton_dungeon/chests/common": {
+      "0": [
+        1,
+        2
+      ],
+      "1": 1,
+      "2": 1
+    },
+    "betterdungeons:spider_dungeon/chests/egg_room": {
+      "1": [
+        1,
+        3
+      ],
+      "2": [
+        1,
+        2
+      ],
+      "3": 1
+    },
+    "betterdungeons:zombie_dungeon/chests/common": {
+      "2": [
+        1,
+        2
+      ],
+      "3": 1
+    },
+    "betterdungeons:zombie_dungeon/chests/tombstone": {
+      "0": [
+        2,
+        3
+      ]
+    },
+    "betterdeserttemples:chests/food_storage": {
+      "0": [
+        2,
+        4
+      ]
+    },
+    "betterdeserttemples:chests/wardrobe": {
+      "0": [
+        1,
+        2
+      ]
+    },
+    "betterstrongholds:chests/armoury": {
+      "0": 1
+    },
+    "betterstrongholds:chests/prison_lg": {
+      "0": [
+        1,
+        3
+      ]
+    },
+    "betterstrongholds:chests/crypt": {
+      "0": [
+        2,
+        3
+      ]
+    },
+    "betterstrongholds:chests/mess": {
+      "0": [
+        2,
+        4
+      ]
+    }
+  },
+  "remove_common_enchanted_apple": [
+    "betterdungeons:skeleton_dungeon/chests/common",
+    "betterdungeons:spider_dungeon/chests/egg_room",
+    "betterdungeons:zombie_dungeon/chests/common",
+    "betterdeserttemples:chests/food_storage"
+  ],
+  "unique_percent": {
+    "minecraft:chests/ancient_city": 0.15,
+    "minecraft:chests/end_city_treasure": 0.35,
+    "minecraft:chests/bastion_treasure": 0.15,
+    "betterstrongholds:chests/treasure": 0.1,
+    "betterdeserttemples:chests/pharaoh_hidden": 0.1,
+    "betterfortresses:chests/worship": 0.15
+  },
+  "disabled_resources": 72,
+  "native_supply_roll_trims": {
+    "irons_spellbooks:chests/additional_library_loot": {
+      "1": [
+        1,
+        2
+      ],
+      "4": 1
+    },
+    "irons_spellbooks:chests/additional_end_city_loot": {
+      "5": 1
+    },
+    "irons_spellbooks:chests/additional_treasure_loot": {
+      "4": 1
+    },
+    "farmersdelight:chests/fd_abandoned_mineshaft": {
+      "1": [
+        0,
+        1
+      ],
+      "2": 1
+    },
+    "farmersdelight:chests/fd_simple_dungeon": {
+      "0": [
+        0,
+        1
+      ],
+      "1": 1
+    }
+  },
+  "native_table_sha256": {
+    "betterdeserttemples:chests/food_storage": "35351f93c074cfeed615dae2a348c234fc0e74f3667f69b723a42627749ce4e8",
+    "betterdeserttemples:chests/library": "3e58cf93f005437d43ee00973866c555b6a52e28ed0cfce0a28cd5d2d357104c",
+    "betterdeserttemples:chests/wardrobe": "ac97741fd9c5459dfe022b92e34d0b7c11e52a5c734d31f6492a5bbea3f2d2a2",
+    "betterdungeons:skeleton_dungeon/chests/common": "0044fa716ef13eef2369f2a051b7bb1fa1848802814ea7335df4087dd4afa8d2",
+    "betterdungeons:spider_dungeon/chests/egg_room": "bbcb07eb2f117795f08da2a8707f6428876a042ec668ab604404d154d91d3f82",
+    "betterdungeons:zombie_dungeon/chests/common": "07987560c852001373d79a75bc89d0b35f3e9a45987c8702d6b6ab12cd2860df",
+    "betterdungeons:zombie_dungeon/chests/tombstone": "163be09d0c7ec3ba42dc2bd6e4037dc5703d52fc87e65f6e76017d0b3ba1d70d",
+    "betterstrongholds:chests/armoury": "f1b9bdb6a01928294035605079eda8883b3363eec3f52f0a3edd3772d31c37ea",
+    "betterstrongholds:chests/crypt": "064c05063f95736df818eacfa489a83f4e0a557cb89db9dd967131fb7e3f96e9",
+    "betterstrongholds:chests/grand_library": "facdaf1f99a8c3a951b30ccbec49b99d328f1481c8ba442108d25bf9c653a49e",
+    "betterstrongholds:chests/library_md": "bb4a92c64fe94fe58429e254d1f99241accfabbc39835362c0201151519460dd",
+    "betterstrongholds:chests/mess": "e8f58e500e51bb975b9bea2ae0518807c249581dae1c47b65c47513c5b8dfb61",
+    "betterstrongholds:chests/prison_lg": "836ac325b5778763c0751cabf915ea248dd2d5f233e81698dd2a7734d0c92d1a",
+    "farmersdelight:chests/fd_abandoned_mineshaft": "3bf81168d6a79676f225ef99105db9cbba621d9b7d974d5b5273c6aa2e7a1bd0",
+    "farmersdelight:chests/fd_simple_dungeon": "5df7f9cbc3981c6aafe4f578474fa838288c4c8642599ee683be0e00db872e40",
+    "irons_spellbooks:chests/additional_ancient_city_loot": "9828b3a9ce7033acce7730dc32256448a2548f7bf8f322d642e422d307c36344",
+    "irons_spellbooks:chests/additional_end_city_loot": "5b43242ec2ecd0bcc9e39e91f71da116dc858b438c1a3a4196a0b5f9450c719e",
+    "irons_spellbooks:chests/additional_generic_loot": "8bccc3d3877e2625d3053eabca4744c61d8d038ce18f14cc394426e54618caf4",
+    "irons_spellbooks:chests/additional_good_loot": "b4b59d8d775feba1bba5323d31a8573d0c4e3e88c5ad56bc66cc302a534f4ff0",
+    "irons_spellbooks:chests/additional_library_loot": "12a9b998d5178d8a7f048ee36ff6fc011c7c5aaab4acbc4b285a8c9be9b1fe67",
+    "irons_spellbooks:chests/additional_nether_loot": "5e12c73428e15fae5386dae522f0bc28c0ada817574375a50ca9c1d9bbe8b7bb",
+    "irons_spellbooks:chests/additional_treasure_loot": "f33a8d8d65ebde873bfe923c80ec1efc3aa359d1d033d076e3c1d75d805ef6a4",
+    "chalk:chests/abandoned_mineshaft_chalks": "d30c842642309ccf255622792b105a243c092c03f5a04f47e893fb0a9c2cfbcb",
+    "chalk:chests/simple_dungeon_chalks": "d90c6f2fa797b8d36ff3f3d02caf98c93b2535806d1a048813dea3e999387661",
+    "chalk:chests/village_chalks": "a8fdd486feb83434956b6a4a42832f942366c0db4875339a95611fe3edae8c39",
+    "chalk:chests/desert_pyramid_chalks": "868b638c8f510606083f84bc2c90d3b2745f1d1df0cfe46b683c662bfde06497"
+  },
+  "coverage_revision": 2,
+  "structure_reference_inventory": "coverage-inventory.json",
+  "root_only_parent_child_policy": "Directly placed roots may delegate to other directly placed roots: additions are NeoForge global modifiers, not nested table pools; validate once per outer roll in native tests.",
+  "native_chalk_tuning": {
+    "chalk:chests/abandoned_mineshaft_chalks": {
+      "rolls": 1,
+      "gate": 0.08,
+      "removed_item": "chalk:chalk_box",
+      "chalk_chance": 0.024444444444444446
+    },
+    "chalk:chests/simple_dungeon_chalks": {
+      "rolls": 1,
+      "gate": 0.08,
+      "removed_item": "chalk:chalk_box",
+      "chalk_chance": 0.01846153846153846
+    },
+    "chalk:chests/village_chalks": {
+      "rolls": 1,
+      "gate": 0.08,
+      "chalk_chance": 0.029367088607594936
+    },
+    "chalk:chests/desert_pyramid_chalks": {
+      "rolls": 0,
+      "reason": "Curated dungeon_discoveries chalk replaces this overlapping bonus."
+    }
+  },
+  "enchanted_weapon_shapes": [
+    "longsword",
+    "spear",
+    "cutlass",
+    "katana",
+    "rapier",
+    "glaive",
+    "halberd",
+    "claymore"
+  ],
+  "enchanted_weapon_pools": [
+    {
+      "profile": "armoury",
+      "pool": 0,
+      "tables": [
+        "betterdeserttemples:chests/wardrobe",
+        "betterstrongholds:chests/armoury"
+      ],
+      "chance": 0.06,
+      "material": "iron",
+      "sharpness": [
+        1,
+        2
+      ],
+      "unbreaking": [
+        1,
+        1
+      ],
+      "remaining_durability": [
+        0.55,
+        0.85
+      ],
+      "overworld_max_y": null
+    },
+    {
+      "profile": "guard_stores",
+      "pool": 2,
+      "tables": [
+        "minecraft:chests/illager_mansion/pillager_chest",
+        "minecraft:chests/illager_mansion/ravager_chest",
+        "minecraft:chests/illager_mansion/vindicator_chest",
+        "minecraft:chests/pillager_outpost",
+        "nova_structures:chests/illager_hideout_weaponry"
+      ],
+      "chance": 0.03,
+      "material": "iron",
+      "sharpness": [
+        1,
+        2
+      ],
+      "unbreaking": [
+        1,
+        1
+      ],
+      "remaining_durability": [
+        0.55,
+        0.85
+      ],
+      "overworld_max_y": null
+    },
+    {
+      "profile": "dungeon_discoveries",
+      "pool": 3,
+      "tables": [
+        "betterarcheology:archeology/chest_catacombs_combat",
+        "betterarcheology:archeology/chest_jungle_temple_equip",
+        "betterarcheology:archeology/chest_light_temple_pillager",
+        "minecraft:chests/desert_pyramid",
+        "minecraft:chests/jungle_temple",
+        "minecraft:chests/stronghold_corridor",
+        "minecraft:chests/stronghold_crossing",
+        "minecraft:chests/woodland_mansion",
+        "nova_structures:chests/illager_hideout_heart_loot",
+        "nova_structures:chests/pillager_outpost_treasure"
+      ],
+      "chance": 0.02,
+      "material": "iron",
+      "sharpness": [
+        1,
+        2
+      ],
+      "unbreaking": [
+        1,
+        1
+      ],
+      "remaining_durability": [
+        0.55,
+        0.85
+      ],
+      "overworld_max_y": null
+    },
+    {
+      "profile": "dungeon_supplies",
+      "pool": 3,
+      "tables": [
+        "betterarcheology:archeology/chest_catacombs_generic",
+        "betterdungeons:skeleton_dungeon/chests/common",
+        "betterdungeons:skeleton_dungeon/chests/middle",
+        "betterdungeons:spider_dungeon/chests/egg_room",
+        "betterdungeons:zombie_dungeon/chests/common",
+        "betterdungeons:zombie_dungeon/chests/tombstone",
+        "betterstrongholds:chests/common",
+        "betterstrongholds:chests/crypt",
+        "betterstrongholds:chests/prison_lg",
+        "minecraft:chests/abandoned_mineshaft",
+        "nova_structures:chests/creeping_crypt/crypt_hallway",
+        "minecraft:chests/simple_dungeon",
+        "nova_structures:chests/creeping_crypt/crypt_grave"
+      ],
+      "chance": 0.015,
+      "material": "iron",
+      "sharpness": [
+        2,
+        2
+      ],
+      "unbreaking": [
+        1,
+        1
+      ],
+      "remaining_durability": [
+        0.6,
+        0.9
+      ],
+      "overworld_max_y": -64
+    },
+    {
+      "profile": "nether_supplies",
+      "pool": 1,
+      "tables": [
+        "betterfortresses:chests/hall",
+        "betterfortresses:chests/keep",
+        "betterfortresses:chests/quarters",
+        "betterfortresses:chests/storage",
+        "minecraft:chests/bastion_bridge",
+        "minecraft:chests/bastion_hoglin_stable",
+        "minecraft:chests/bastion_other",
+        "minecraft:chests/nether_bridge"
+      ],
+      "chance": 0.02,
+      "material": "iron",
+      "sharpness": [
+        2,
+        2
+      ],
+      "unbreaking": [
+        1,
+        1
+      ],
+      "remaining_durability": [
+        0.6,
+        0.9
+      ],
+      "overworld_max_y": null
+    },
+    {
+      "profile": "hidden_treasure",
+      "pool": 2,
+      "tables": [
+        "betterdeserttemples:chests/pharaoh_hidden",
+        "betterdungeons:zombie_dungeon/chests/special",
+        "betterjungletemples:chests/treasure",
+        "betterstrongholds:chests/treasure"
+      ],
+      "chance": 0.03,
+      "material": "diamond",
+      "sharpness": [
+        2,
+        2
+      ],
+      "unbreaking": [
+        1,
+        1
+      ],
+      "remaining_durability": [
+        0.65,
+        0.9
+      ],
+      "overworld_max_y": null
+    },
+    {
+      "profile": "late_treasure",
+      "pool": 2,
+      "tables": [
+        "betterfortresses:chests/worship",
+        "minecraft:chests/ancient_city",
+        "minecraft:chests/bastion_treasure",
+        "minecraft:chests/end_city_treasure"
+      ],
+      "chance": 0.04,
+      "material": "diamond",
+      "sharpness": [
+        2,
+        3
+      ],
+      "unbreaking": [
+        1,
+        2
+      ],
+      "remaining_durability": [
+        0.75,
+        0.95
+      ],
+      "overworld_max_y": null
+    }
+  ],
+  "ideas_pools": [
+    {
+      "concept": "surveyor",
+      "profile": "expedition_caches",
+      "pool": 2,
+      "chance": 0.0075,
+      "tables": [
+        "formationsoverworld:bamboo_hut",
+        "formationsoverworld:cobble_hole",
+        "formationsoverworld:desert_houses",
+        "formationsoverworld:fountain/lesser_chest",
+        "formationsoverworld:fountain/rich_chest",
+        "formationsoverworld:hobbit_hole/common",
+        "formationsoverworld:igloo",
+        "formationsoverworld:log_spikes",
+        "formationsoverworld:small_statue",
+        "formationsoverworld:stone_tower/bedroom",
+        "formationsoverworld:tiny_house",
+        "formationsoverworld:tower_remnant",
+        "formationsoverworld:well"
+      ],
+      "overworld_only": false,
+      "overworld_max_y": null
+    },
+    {
+      "concept": "surveyor",
+      "profile": "dungeon_supplies",
+      "pool": 4,
+      "chance": 0.005,
+      "tables": [
+        "betterarcheology:archeology/chest_catacombs_generic",
+        "betterdungeons:skeleton_dungeon/chests/common",
+        "betterdungeons:skeleton_dungeon/chests/middle",
+        "betterdungeons:spider_dungeon/chests/egg_room",
+        "betterdungeons:zombie_dungeon/chests/common",
+        "betterdungeons:zombie_dungeon/chests/tombstone",
+        "betterstrongholds:chests/common",
+        "betterstrongholds:chests/crypt",
+        "betterstrongholds:chests/prison_lg",
+        "minecraft:chests/abandoned_mineshaft",
+        "nova_structures:chests/creeping_crypt/crypt_hallway",
+        "minecraft:chests/simple_dungeon",
+        "nova_structures:chests/creeping_crypt/crypt_grave"
+      ],
+      "overworld_only": true,
+      "overworld_max_y": -64
+    },
+    {
+      "concept": "gardener",
+      "profile": "garden_stores",
+      "pool": 2,
+      "chance": 0.0075,
+      "tables": [
+        "ctov:chests/village/village_farm",
+        "ctov:chests/village/village_forager",
+        "irons_spellbooks:chests/wheat",
+        "nova_structures:chests/witch_villa/gardening",
+        "nova_structures:chests/witch_villa/pumpkin_room",
+        "ribbits:chests/gardener"
+      ],
+      "overworld_only": false,
+      "overworld_max_y": null
+    },
+    {
+      "concept": "smith",
+      "profile": "workshops",
+      "pool": 2,
+      "chance": 0.0075,
+      "tables": [
+        "betterdeserttemples:chests/storage",
+        "ctov:chests/village/village_smith",
+        "formationsoverworld:stone_tower/smithing",
+        "formationsoverworld:witch_tower/smithing",
+        "minecraft:chests/illager_mansion/smithing_room",
+        "minecraft:chests/village/village_armorer",
+        "minecraft:chests/village/village_mason",
+        "minecraft:chests/village/village_toolsmith",
+        "minecraft:chests/village/village_weaponsmith",
+        "nova_structures:chests/badland_miner_outpost_forge",
+        "nova_structures:chests/lone_citadel/c_forge",
+        "nova_structures:chests/lone_citadel/c_forge_chest"
+      ],
+      "overworld_only": false,
+      "overworld_max_y": null
+    },
+    {
+      "concept": "archer",
+      "profile": "guard_stores",
+      "pool": 3,
+      "chance": 0.005,
+      "tables": [
+        "minecraft:chests/illager_mansion/pillager_chest",
+        "minecraft:chests/illager_mansion/ravager_chest",
+        "minecraft:chests/illager_mansion/vindicator_chest",
+        "minecraft:chests/pillager_outpost",
+        "nova_structures:chests/illager_hideout_weaponry"
+      ],
+      "overworld_only": false,
+      "overworld_max_y": null
+    },
+    {
+      "concept": "tasting",
+      "profile": "kitchens",
+      "pool": 2,
+      "chance": 0.03,
+      "tables": [
+        "betterarcheology:archeology/chest_jungle_temple_food",
+        "betterdeserttemples:chests/food_storage",
+        "betterstrongholds:chests/mess",
+        "chefsdelight:chests/cooker",
+        "ctov:chests/village/village_bakery",
+        "formationsoverworld:hobbit_hole/food",
+        "formationsoverworld:small_house/fireplace",
+        "irons_spellbooks:chests/impaled_icebreaker/food_barrel",
+        "minecraft:chests/illager_mansion/kitchen",
+        "minecraft:chests/village/village_butcher",
+        "minecraft:chests/village/village_fisher",
+        "nova_structures:chests/food_supply",
+        "nova_structures:chests/illager_hideout_meat",
+        "nova_structures:chests/illager_hideout_vegitarian",
+        "nova_structures:chests/pillager_outpost_kitchen",
+        "nova_structures:chests/toxic_lair/kitchen",
+        "nova_structures:chests/witch_villa/kitchen"
+      ],
+      "overworld_only": false,
+      "overworld_max_y": null
+    },
+    {
+      "concept": "preserves",
+      "profile": "garden_stores",
+      "pool": 3,
+      "chance": 0.04,
+      "tables": [
+        "ctov:chests/village/village_farm",
+        "ctov:chests/village/village_forager",
+        "irons_spellbooks:chests/wheat",
+        "nova_structures:chests/witch_villa/gardening",
+        "nova_structures:chests/witch_villa/pumpkin_room",
+        "ribbits:chests/gardener"
+      ],
+      "overworld_only": false,
+      "overworld_max_y": null
+    },
+    {
+      "concept": "nether_pearls",
+      "profile": "nether_expeditions",
+      "pool": 2,
+      "chance": 0.01,
+      "tables": [
+        "betterdungeons:small_nether_dungeon/chests/common",
+        "betterfortresses:chests/beacon",
+        "betterfortresses:chests/extra",
+        "betterfortresses:chests/obsidian",
+        "betterfortresses:chests/puzzle",
+        "betternether:chests/city",
+        "betternether:chests/city_common",
+        "betternether:chests/city_surprise",
+        "betternether:chests/library",
+        "betternether:chests/wither_tower",
+        "formationsnether:basalt_hut",
+        "formationsnether:blackstone_castle",
+        "formationsnether:blackstone_remnant",
+        "formationsnether:campsite",
+        "formationsnether:large_house/barrel",
+        "formationsnether:large_house/chest",
+        "formationsnether:large_tree",
+        "formationsnether:parkour_challenge",
+        "formationsnether:rib_cage",
+        "formationsnether:small_fire_arena",
+        "formationsnether:small_lava_arena",
+        "formationsnether:small_lava_shrine",
+        "formationsnether:sphere_cage/piglin",
+        "formationsnether:sphere_cage/wither",
+        "minecraft:chests/nether_fortress/fort_inside_generic",
+        "nova_structures:chests/hamlet/hamlet",
+        "nova_structures:chests/hamlet/hamlet_tresure",
+        "nova_structures:chests/nether_skeleton_tower/skeleton_tower_camp",
+        "nova_structures:chests/nether_skeleton_tower/skeleton_tower_chest",
+        "nova_structures:chests/nether_skeleton_tower/skeleton_tower_supply",
+        "nova_structures:chests/piglin_camp/chest",
+        "nova_structures:chests/piglin_outstation/outstation_generic",
+        "nova_structures:chests/piglin_outstation/outstation_tower",
+        "nova_structures:chests/piglin_outstation/outstation_treasure"
+      ],
+      "overworld_only": false,
+      "overworld_max_y": null,
+      "minimum_stage": 1
+    },
+    {
+      "concept": "end_pearls",
+      "profile": "end_expeditions",
+      "pool": 2,
+      "chance": 0.0075,
+      "tables": [
+        "betterend:chests/biome",
+        "betterend:chests/end_village_loot",
+        "nova_structures:chests/end_castle/castle_bar",
+        "nova_structures:chests/end_castle/castle_brewing",
+        "nova_structures:chests/end_castle/greater_loot",
+        "nova_structures:chests/end_castle/lesser_loot",
+        "nova_structures:chests/end_castle/rocket_barrel",
+        "nova_structures:chests/end_castle/supply",
+        "nova_structures:chests/end_lighthouse/supply_lighthouse"
+      ],
+      "overworld_only": false,
+      "overworld_max_y": null,
+      "minimum_stage": 3
+    },
+    {
+      "concept": "elixir",
+      "profile": "magic_resupply",
+      "pool": 2,
+      "chance": 0.01,
+      "tables": [
+        "betterarcheology:archeology/chest_catacombs_potion",
+        "betterdeserttemples:chests/lab",
+        "nova_structures:chests/witch_villa/lab"
+      ],
+      "overworld_only": false,
+      "overworld_max_y": null
+    },
+    {
+      "concept": "scroll",
+      "profile": "rural_libraries",
+      "pool": 2,
+      "chance": 0.01,
+      "tables": [
+        "ctov:chests/village/village_library",
+        "minecraft:chests/village/village_cartographer",
+        "minecraft:chests/village/village_temple",
+        "ribbits:chests/sorcerer"
+      ],
+      "overworld_only": false,
+      "overworld_max_y": null
+    },
+    {
+      "concept": "keepsake",
+      "profile": "rural_libraries",
+      "pool": 3,
+      "chance": 0.005,
+      "tables": [
+        "ctov:chests/village/village_library",
+        "minecraft:chests/village/village_cartographer",
+        "minecraft:chests/village/village_temple",
+        "ribbits:chests/sorcerer"
+      ],
+      "overworld_only": false,
+      "overworld_max_y": null
+    },
+    {
+      "concept": "backpack",
+      "profile": "hidden_treasure",
+      "pool": 3,
+      "chance": 0.0025,
+      "tables": [
+        "betterdeserttemples:chests/pharaoh_hidden",
+        "betterdungeons:zombie_dungeon/chests/special",
+        "betterjungletemples:chests/treasure",
+        "betterstrongholds:chests/treasure"
+      ],
+      "overworld_only": false,
+      "overworld_max_y": null
+    },
+    {
+      "concept": "map",
+      "profile": "rural_libraries",
+      "pool": 4,
+      "chance": 0.002,
+      "tables": [
+        "ctov:chests/village/village_library",
+        "minecraft:chests/village/village_cartographer",
+        "minecraft:chests/village/village_temple",
+        "ribbits:chests/sorcerer"
+      ],
+      "overworld_only": true,
+      "overworld_max_y": null
+    }
+  ],
+  "pity": {
+    "enabled": true,
+    "unique_soft_start": 25,
+    "unique_soft_increment_percent": 0.2,
+    "unique_hard_attempt": 75,
+    "tablet_hard_attempt": 60,
+    "generic_tablet_weight": 0.0,
+    "target_class_sha256": "c70cf56d7e56fdff3cfb24fdd96a32ee2c6a4814619b48efad1cfa9bf40799b0",
+    "behavior": "Native unique pity on existing exact eligible tables; first eligible region per dimension/player. Generic tablets remain disabled; saved state resumes unchanged."
+  }
+}

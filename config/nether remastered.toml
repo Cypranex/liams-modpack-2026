@@ -8,7 +8,50 @@
 
 ["Nether Essence Drops"]
 	#Mobs that drop nether essence.
-	"Nether Essence" = ["minecraft:zombie", "minecraft:skeleton", "minecraft:husk", "minecraft:zombie_villager", "minecraft:zombified_piglin", "minecraft:zoglin", "minecraft:stray", "minecraft:skeleton_horse", "minecraft:drowned"]
+	"Nether Essence" = [
+		# Existing vanilla sources.
+		"minecraft:zombie",
+		"minecraft:skeleton",
+		"minecraft:husk",
+		"minecraft:zombie_villager",
+		"minecraft:zombified_piglin",
+		"minecraft:zoglin",
+		"minecraft:stray",
+		"minecraft:skeleton_horse",
+		"minecraft:drowned",
+		# aquamirae
+		"aquamirae:captain_cornelia",
+		"aquamirae:tortured_soul",
+		# betternether
+		"betternether:jungle_skeleton",
+		# endermanoverhaul
+		"endermanoverhaul:spirit",
+		# fangs_n_claws
+		"fangs_n_claws:fire_ghost",
+		"fangs_n_claws:ghost",
+		"fangs_n_claws:silver_skeleton",
+		"fangs_n_claws:skeleton_horse",
+		"fangs_n_claws:zombie_horse",
+		# irons_spellbooks
+		"irons_spellbooks:catacombs_zombie",
+		"irons_spellbooks:dead_king",
+		"irons_spellbooks:necromancer",
+		"irons_spellbooks:summoned_skeleton",
+		"irons_spellbooks:summoned_zombie",
+		# quark
+		"quark:forgotten",
+		"quark:wraith",
+		# regions_unexplored
+		"regions_unexplored:ashen",
+		# simplyswords
+		"simplyswords:caelestis_hollow",
+		"simplyswords:skeleton_minion",
+		# variantsandventures
+		"variantsandventures:gelid",
+		"variantsandventures:murk",
+		"variantsandventures:thicket",
+		"variantsandventures:verdant",
+	]
 
 ["Shards Drops"]
 	#Enable/Disable consuming of the seal when used.

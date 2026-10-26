@@ -1,0 +1,5 @@
+{
+  "loot_table": "minecraft:chests/stronghold_corridor",
+  "max_result_itemcount": 100,
+  "integrated_loot_tables": {}
+}

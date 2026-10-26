@@ -1,0 +1,43 @@
+{
+  "type": "neoforge:add_table",
+  "conditions": [
+    {
+      "condition": "minecraft:any_of",
+      "terms": [
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "betterjungletemples:chests/campsite"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "explorify:chest/supply_cache"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "formationsoverworld:campsite"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "formationsoverworld:log_shelter"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "formationsoverworld:small_house/degraded"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "formationsoverworld:small_house/intact"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "formationsoverworld:wagon"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "yungsextras:desert/ruins"
+        }
+      ]
+    }
+  ],
+  "table": "liams_loot:rewards/surface_supplies"
+}

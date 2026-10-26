@@ -1,0 +1,168 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.2
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "farmersdelight:cabbage_rolls",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "farmersdelight:fruit_salad",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "rusticdelight:baked_potato_slices",
+          "weight": 3
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.03
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "quark:seed_pouch",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "supplementaries:flute",
+          "weight": 2
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.0075
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:chest",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Gardener's Parcel",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:container": [
+                  {
+                    "slot": 0,
+                    "item": {
+                      "id": "quark:seed_pouch",
+                      "count": 1
+                    }
+                  },
+                  {
+                    "slot": 1,
+                    "item": {
+                      "id": "farmersdelight:cabbage_seeds",
+                      "count": 3
+                    }
+                  },
+                  {
+                    "slot": 2,
+                    "item": {
+                      "id": "farmersdelight:tomato_seeds",
+                      "count": 3
+                    }
+                  },
+                  {
+                    "slot": 3,
+                    "item": {
+                      "id": "farmersdelight:apple_pie_slice",
+                      "count": 1
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{liams_loot_idea:\"gardener\"}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.04
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "fruitsdelight:apple_jam",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fruitsdelight:baked_pear",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fruitsdelight:jam_bread",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

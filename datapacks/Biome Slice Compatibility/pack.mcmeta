@@ -1,6 +1,6 @@
 {
   "pack": {
     "pack_format": 48,
-    "description": "Blueprint biome slice compatibility override"
+    "description": "Overworld biome tags and Blueprint biome slice compatibility"
   }
 }
