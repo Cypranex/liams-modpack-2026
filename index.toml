@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "AGENTS.md"
+hash = "ce5879d74a86e08a22df2ef49025b4878f296d57467c338b7d59fb6802ac4fb3"
+
+[[files]]
 file = "config/aether-client.toml"
 hash = "bf313583e752003668b6ba921424f27fc9163254d9dd9d7b57f62e2920f899d0"
 
@@ -30,7 +34,7 @@ hash = "ad5b8d5ca9e8562b3dcc5cc07bad7d27dc4ecb45b4c78b24c53f8e36798d7357"
 
 [[files]]
 file = "config/better_mob_combat_reimagined-server.toml"
-hash = "72b629edd6eca8cd30c9409382bd0e1de6316a7adbc77994a18c7d191f4c300f"
+hash = "d2950f32141d5f30f6af89ca42bf84f45b942d20028fe14ff8a3282795c06b35"
 
 [[files]]
 file = "config/betteradvancements-client.toml"
@@ -101,6 +105,10 @@ file = "config/explosiont-common.toml"
 hash = "3002bec3a6c7f34bbbaf958d7d2f1d805b68f95af26437a95d9b77270d35ca9c"
 
 [[files]]
+file = "config/fantasy_armor-common.toml"
+hash = "99c1358d4fbd80425ec5d0227cc73885e6e7496a318fd52d5982c24281684404"
+
+[[files]]
 file = "config/flimsytorches-common.toml"
 hash = "04cc5345c68e0e5622ab7fdfce75d1e607322e389e4e17b57b277173b27569a7"
 
@@ -126,7 +134,7 @@ hash = "22fbe495b4181f20c89aea413cd21446717df6ded67e2a6426dfa49c914fd79e"
 
 [[files]]
 file = "config/incontrol/spawner.json"
-hash = "3f0366ad9435d2236ad56aaeafa04372c9eb94fcf658d6fb324d0e40ebc11779"
+hash = "802c891daa5dee3976dd4dc90cc65d3658ecb9b49aa4288550c6707027de8642"
 
 [[files]]
 file = "config/iris.properties"
@@ -162,7 +170,7 @@ hash = "a74574357ff7f93c62d6a5aaaf3e86ccc8a2c4712097b9b138632ccfb2f973b4"
 
 [[files]]
 file = "config/loot.toml"
-hash = "df4f5aec9a48bf94fcece0dd35f182473b2c5e9c7a355b2df00b917b2efd1a1e"
+hash = "efc59c26c997e99bd7bd35f053650063157d17f74d5ac7f2fff52857bf1c3235"
 
 [[files]]
 file = "config/map_atlases-client.toml"
@@ -178,7 +186,7 @@ hash = "5bdb1341455819c292bfd9fef0c3e05ad1ab881c2b33c4519f1f7108f6550200"
 
 [[files]]
 file = "config/nether remastered.toml"
-hash = "43b508ce487811c27ff6175e0aab22a8dd4b9565a44bfc6cdccffa209dce2881"
+hash = "c290c6e92552cc7d6f6cea79bddd131bd87c4d5011b1053d5d4422f096a1e5e0"
 
 [[files]]
 file = "config/obscuria/aquamirae-client.toml"
@@ -250,7 +258,7 @@ hash = "3976bd306546ed3f2b13c829ad01edc3a8dc1b6263375ccba158b162a31f5c0b"
 
 [[files]]
 file = "config/simplyswords/loot.toml"
-hash = "df4f5aec9a48bf94fcece0dd35f182473b2c5e9c7a355b2df00b917b2efd1a1e"
+hash = "efc59c26c997e99bd7bd35f053650063157d17f74d5ac7f2fff52857bf1c3235"
 
 [[files]]
 file = "config/simplytooltips/config.toml"
@@ -325,8 +333,12 @@ file = "datapacks/Biome Slice Compatibility/data/blueprint/data_maps/dimension/m
 hash = "638af9ec90e2d3afdeca35ec1da9e601deee2b08b5d30af9aa9f84c86778064b"
 
 [[files]]
+file = "datapacks/Biome Slice Compatibility/data/minecraft/tags/worldgen/biome/is_overworld.json"
+hash = "161386f3945a5f7c744cb4f5163b088a350ba0bda419470037150f743a358205"
+
+[[files]]
 file = "datapacks/Biome Slice Compatibility/pack.mcmeta"
-hash = "04c303c5eb7fba041311db7430e1856c3c0df8682903632d851d6c3ec51fc8c8"
+hash = "571741406ea1cb5e6f2c2e5e756362308c97ee6f2988aa1350c8560e6a8d79c3"
 
 [[files]]
 file = "datapacks/Blood Moon Hordes/README.md"
@@ -755,6 +767,538 @@ hash = "0a1308c780aa4542444d34018117a92e8b059e5653ed9f6ac70690a7e5981907"
 [[files]]
 file = "datapacks/Deep Underground Structures/pack.mcmeta"
 hash = "e4bf5a07d051510070733bca5b775abe25be76832f0ffaf0c0fbd02262b7f090"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/AGENTS.md"
+hash = "c23a98c3e62c7b8f6adb3cbd903a45cd409d7a96d9066b14f360e1ad546c963c"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/COVERAGE-PLAN.md"
+hash = "225e30698f3f33dd10bb519f76c87fbf26182020c73c3392d722d9560a84e71c"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/FIRST-PASS-REFERENCE.md"
+hash = "aac468f88a3e61c117d20208b7512fd43b2106ad722848608be58b0e41747943"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/IDEAS-IMPLEMENTATION-PLAN.md"
+hash = "359f8fbc5fa0c667be29f9eec1e5854ae1a6855d92494674e59dff151c4aefc7"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/LOOT-IDEAS.md"
+hash = "3a968cd16ada5159e5b63e4d0155e4ead220440029ef38f92845a1b4c4615dff"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/NETHER-REMASTERED-PLAN.md"
+hash = "a4ecd3efad66e83a2eb9af69097e76a5f23987836b584ce71ca79ff061847dba"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/NO-PITY-PLAN.md"
+hash = "987cd6e308c13f5aa6d01b704e0d4d01b5b72be9878febdc36ab40da7fc226d7"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/README.md"
+hash = "74d2c9964d8d71a6730f0e589a940cdaaf55d569f1b4600654f06564fae43ca7"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/RESTORE-PITY-PLAN.md"
+hash = "6d75e0277b8961115afada0404fd7959ef8ae8bda5bc7925d3073b2bb53f9c71"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/SWORDS-PLAN.md"
+hash = "9641489a35a6cf836dbb56ba8ea423d8897a6e4f670c5dffc0665303e48c7caa"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/coverage-inventory.json"
+hash = "dd02ca38e38c857f2de8be2a6751ddfe8db091ebc9084b0770019ea96c314621"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/irons_spellbooks/loot_modifiers/chest_loot/vanilla_generic_loot_modifier.json"
+hash = "7102d39d53c3cb7dedbf4415d2c73e600f69226ba51e6343e69a868ba30c4560"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/liams_loot/loot_modifiers/aether_provisions.json"
+hash = "d9f039af41daaee530bc35e39485b633e87fa658980e4f9536a83fe02d894766"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/liams_loot/loot_modifiers/armoury.json"
+hash = "8a3ad65872871d048f54685abc7f2619dace393ef878a203a7d241d5b7cc2a49"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/liams_loot/loot_modifiers/coastal_caches.json"
+hash = "b745b3748aa7347b9a27b6f76384e856959e868d6c15c78efc75617e92b9921e"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/liams_loot/loot_modifiers/cold_caches.json"
+hash = "5ddddf3efc3df37275a94c1c60bad7f236495e949eca569cddab61b942f1d31d"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/liams_loot/loot_modifiers/dungeon_discoveries.json"
+hash = "6d20b7ca6b0c29a31be8ee6ab868a3fc250b88c4c6e910e735979fbb8afdc9a3"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/liams_loot/loot_modifiers/dungeon_supplies.json"
+hash = "655a73141623c67b310f8df0c79de416088ee048f0247f9543c006c54fb0cf39"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/liams_loot/loot_modifiers/end_expeditions.json"
+hash = "d69505a082569fb8edd086b33de38b450e13456e0e21966335e5d13c97e13eab"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/liams_loot/loot_modifiers/expedition_caches.json"
+hash = "68f98c765e34aa5a6566c8bb656a8ee45d3c235498a17c41dbcf01f01b1920da"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/liams_loot/loot_modifiers/garden_stores.json"
+hash = "0ea078339376ee78015818c7dc409c7861726bfcead2994c6dcd040deff78d65"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/liams_loot/loot_modifiers/guard_stores.json"
+hash = "b40c64f18127fc73d64b4e169b26c4a66896b79594b032d5b013d7f3fc0b5297"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/liams_loot/loot_modifiers/hidden_treasure.json"
+hash = "b5d898d253ee904cdd3772e9724f4071f32b97a0c4087eaee8028ebccd3598e1"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/liams_loot/loot_modifiers/kitchens.json"
+hash = "8c8fa47dc05b0e4d832ddbc6c8a66dc257cb625755b525e91394ffea88554ee4"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/liams_loot/loot_modifiers/late_treasure.json"
+hash = "3e04fe86238710b23585eded75090a19f865354eb45fa9650901d61cab9c8008"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/liams_loot/loot_modifiers/library_supplies.json"
+hash = "36d605742af10ede4065674d5096e4bad72f29952c8da749313a9b51a5d864b5"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/liams_loot/loot_modifiers/magic_resupply.json"
+hash = "0e1079ae2faacb798958a612459dc0582f771411439eac0dab76a72a72f68850"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/liams_loot/loot_modifiers/nether_expeditions.json"
+hash = "36cce816481c0641a5d01410b56acea0db44a2aee824d879b7222627c40a391d"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/liams_loot/loot_modifiers/nether_supplies.json"
+hash = "6346c4f7e180fc83932976e927f9bdf49c81fa6db5dee404828e77b21611c2e5"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/liams_loot/loot_modifiers/rural_libraries.json"
+hash = "0251bf38410092c43b13baf893664696f1fd953570d38bdb1cecbf195151bce6"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/liams_loot/loot_modifiers/sparse_stores.json"
+hash = "c457170da11c681cd83255a69f4ab365be5fdfdf10eb2b14db55111cbe495c40"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/liams_loot/loot_modifiers/surface_supplies.json"
+hash = "2809b32facf11211ca4210a24ff4c8437ad301feaccb62753371f8916d9331da"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/liams_loot/loot_modifiers/village_households.json"
+hash = "1130d99340a0d76acada657819f8b002e5d58158c4a1c5f9a3226dc6cd7ecef2"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/liams_loot/loot_modifiers/workshops.json"
+hash = "6bbfa5a0cbe790e44ffe0fa09d760b2ef3d60d3b5a0c9f746bd71bb72b5661b4"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/liams_loot/loot_table/rewards/aether_provisions.json"
+hash = "6190e7ab7cc4f693061439bf52a591f119b9bc5fe57db4d87dfca223387d11af"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/liams_loot/loot_table/rewards/armoury.json"
+hash = "ee77e628d5176f716dc375cea409b1bade9f4cd46724880a9670688ffa0cddd0"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/liams_loot/loot_table/rewards/coastal_caches.json"
+hash = "52111314ef65721ceef2ae588c4026e2dd511c008704b967d1e50b79d1a210de"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/liams_loot/loot_table/rewards/cold_caches.json"
+hash = "51fd4c22dc0a62089e676747cf04b2e48bae1f53694f4af078c7b4ac3c7ff796"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/liams_loot/loot_table/rewards/dungeon_discoveries.json"
+hash = "b455bf0454739de98c09e7bf975f3a0f6435105f41c2db5bfda106aa88b47c08"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/liams_loot/loot_table/rewards/dungeon_supplies.json"
+hash = "fdfea6bc45c476087f3819ca3b18b71c9f34c8c69b8b299a0109c64787bc9cbc"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/liams_loot/loot_table/rewards/end_expeditions.json"
+hash = "83fc5ba132e3d9c7a9d10c62034aca59f080da3fc7cf58b1331841480ccc8b8c"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/liams_loot/loot_table/rewards/expedition_caches.json"
+hash = "6c89a646b21b89327759a8791a9aa8d74b236ebe6b784a58ae35c8f26e85ed7e"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/liams_loot/loot_table/rewards/garden_stores.json"
+hash = "3b1e7c2aaca817d91f5985bd3f82e61cc56d78fb8b52a04648347ac24f0da562"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/liams_loot/loot_table/rewards/guard_stores.json"
+hash = "0e120199895b5060fddf63eeb664488c83a23710716d7e75cadda0f318289ab4"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/liams_loot/loot_table/rewards/hidden_treasure.json"
+hash = "bc8bc2a5366941c6cdbd1f1e709fd99ffe1c17fafa202c39dccbd68debb0d876"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/liams_loot/loot_table/rewards/kitchens.json"
+hash = "38b04939331bd0c4b87849076196aeb148c6d3b2f5b7c610d75d89b4e6627660"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/liams_loot/loot_table/rewards/late_treasure.json"
+hash = "bc8f114cdbc78603a4962139eb8d8e8355b420d41615886f8ac5e1523bc63afd"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/liams_loot/loot_table/rewards/library_supplies.json"
+hash = "4e5734fea0c2780dc5e41e6adef56c17099c3fc25eb906f2058a30d8071b93d0"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/liams_loot/loot_table/rewards/magic_resupply.json"
+hash = "198188f045c134d10286f3ba080663126342918306dfdf61d01e9e0128b95bc7"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/liams_loot/loot_table/rewards/nether_expeditions.json"
+hash = "955be8a393af6797eccaacef67f3c560f4673633ba4469dd3a8f21c6f728c635"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/liams_loot/loot_table/rewards/nether_supplies.json"
+hash = "b5a8dc8b08e9a34d5451e707b051b7e8b7b85c83dc79edf1abc444cd64e5d9f4"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/liams_loot/loot_table/rewards/rural_libraries.json"
+hash = "d24615696150b12477620467c886e3854018922f0d58c9a0f57c61bfe4db1f99"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/liams_loot/loot_table/rewards/sparse_stores.json"
+hash = "4e3325263958b1b0ed2f86c7e961ca1dabfaf4e1e7672065bb94fd8fae0ce840"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/liams_loot/loot_table/rewards/surface_supplies.json"
+hash = "86fe5e21ce9783aa3c8798b22012ecc804a253f629d3989dc8915c673cb34b56"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/liams_loot/loot_table/rewards/village_households.json"
+hash = "146204491db06575f9e735c4cdf0b418eb2653edf62b752454a9e0c80faa6a4d"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/liams_loot/loot_table/rewards/workshops.json"
+hash = "c47ce78ecff5ffd4b33ca96761a1d78367eb543355ce49ab6c3ad127f2191a60"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/lootintegrations/loot/dungeonloot_no_overflow.json"
+hash = "0dc46661cdb0889d2bad5c043144c1d1b6fea486e9133eea520604767f4c3f19"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/lootintegrations/loot/loot_betterarch_easy.json"
+hash = "a8a17c4cdb9958f445a1fec9cb127bf05b3bb7c29058820ab19faa14663d65c9"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/lootintegrations/loot/loot_betterarch_medium.json"
+hash = "cdb31c7244550c6acaa2c74bd785fa5967c472482fed1d64279f1ff1ad46cc5a"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/lootintegrations/loot/loot_betterarch_nether.json"
+hash = "f05122289aed4d43752b4a3716f50da5b916bb94b39c7d2d5bd509c0355d63f1"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/lootintegrations/loot/loot_betterarch_village.json"
+hash = "6136a37f616bcc984d0b15d1e4819706b7e3dcec09b5dc569de811697c79784e"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/lootintegrations/loot/loot_betterarch_water.json"
+hash = "bf2fa72e4ad53ab2d92c5a219eec87ec11445e0ef1193119573f38eb300d4496"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/lootintegrations/loot/loot_cataclysm_easy.json"
+hash = "a8a17c4cdb9958f445a1fec9cb127bf05b3bb7c29058820ab19faa14663d65c9"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/lootintegrations/loot/loot_cataclysm_hard.json"
+hash = "58b0f88e0a92a3713c174b70b21fe9ac2ff05be717577338dcedb397d00c9ceb"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/lootintegrations/loot/loot_cataclysm_medium.json"
+hash = "7c29711c777f32a8563a3fb65cd42c8846f3cea6b362d0879fe0e1c4b880d8cf"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/lootintegrations/loot/loot_cataclysm_nether.json"
+hash = "3a04b847a8344e98d619808f70a7c3021a9ff425f0f37d3b039182530f2fc73d"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/lootintegrations/loot/loot_cataclysm_water.json"
+hash = "0831688198eb12e8c5a6a04dad04fcfcfb3bce9da45efba409209fd11d162672"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/lootintegrations/loot/loot_ctov_easy.json"
+hash = "a8a17c4cdb9958f445a1fec9cb127bf05b3bb7c29058820ab19faa14663d65c9"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/lootintegrations/loot/loot_ctov_village.json"
+hash = "1d529df843d9b78e7530c8a68cdeb4d39577d0b12f9548a5a8dfc0f894cc467f"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/lootintegrations/loot/loot_dnt_easy.json"
+hash = "a8a17c4cdb9958f445a1fec9cb127bf05b3bb7c29058820ab19faa14663d65c9"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/lootintegrations/loot/loot_dnt_hard.json"
+hash = "85103ea408c81e6b7f86ce3bf3896dab21fd3fdb8c3aa7661195e078885a1ea4"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/lootintegrations/loot/loot_dnt_medium.json"
+hash = "cdb31c7244550c6acaa2c74bd785fa5967c472482fed1d64279f1ff1ad46cc5a"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/lootintegrations/loot/loot_dnt_nether.json"
+hash = "3a04b847a8344e98d619808f70a7c3021a9ff425f0f37d3b039182530f2fc73d"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/lootintegrations/loot/loot_dnt_village.json"
+hash = "7bf439cf281f11c7b4ada54b2c4fdda14aa6b731d300506d148d8b078c0903f0"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/lootintegrations/loot/loot_dnt_water.json"
+hash = "0831688198eb12e8c5a6a04dad04fcfcfb3bce9da45efba409209fd11d162672"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/lootintegrations/loot/loot_moog_easy.json"
+hash = "a8a17c4cdb9958f445a1fec9cb127bf05b3bb7c29058820ab19faa14663d65c9"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/lootintegrations/loot/loot_moog_hard.json"
+hash = "eb88e2b58ed30087167b4a33a9dd80160802c297b35dc5c82b01c3669cf75c9f"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/lootintegrations/loot/loot_moog_medium.json"
+hash = "7c29711c777f32a8563a3fb65cd42c8846f3cea6b362d0879fe0e1c4b880d8cf"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/lootintegrations/loot/loot_moog_nether.json"
+hash = "e608b4f415b1f4672cb17e6df7b378e304e19ff088b37fa16521b0e4375b5613"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/lootintegrations/loot/loot_moog_village.json"
+hash = "7bf439cf281f11c7b4ada54b2c4fdda14aa6b731d300506d148d8b078c0903f0"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/lootintegrations/loot/loot_moog_water.json"
+hash = "3cd18c61bd2fd5861241672d26b8b91c21a797818b9ad19397abaa1b0b63fd6f"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/lootintegrations/loot/lootintegrations_easy_dungeon.json"
+hash = "2a6f04991b6825b97f5d661ff3bdfa0f3ad22e670b06887ca480f15014cf4c55"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/lootintegrations/loot/lootintegrations_easy_mineshaft.json"
+hash = "f5e330f68a5edbf9c097fb9436c9f2e9cad2efb969774a94aaa1d78dbdfd9f18"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/lootintegrations/loot/lootintegrations_easy_pillager.json"
+hash = "d04bfacd16231ec6811c08ae3c64381ca9563ea303c622cb32cb03ea1b2e09fe"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/lootintegrations/loot/lootintegrations_easy_pyramid.json"
+hash = "ee7c0665474d6484f0593710711b8ee39fdffed8b78aec3c85c0ec887f255773"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/lootintegrations/loot/lootintegrations_hard_ancientcity.json"
+hash = "1142d2f7eda11d36d5562b802cc84dd2dcb2dd1263f145f3388e53c384164e65"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/lootintegrations/loot/lootintegrations_hard_endcity.json"
+hash = "8f6034a46ba6be059fb3a155aa6496e082d819ab07fe579124dfde65ec52c9ec"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/lootintegrations/loot/lootintegrations_hard_mansion.json"
+hash = "6ea54e57675d03f7730b0a150b8ff824c0acd396208762f2b28e924c6833a86e"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/lootintegrations/loot/lootintegrations_hard_stronghold.json"
+hash = "53e70af49f83e048b9565483da4345a17aa7f858bd94bdd37ec15060d4980ce2"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/lootintegrations/loot/lootintegrations_medium_jungletemple.json"
+hash = "8c55c325402253fd11685bb1c7d90bb59616a44b38732ea21834a5ba8ad320bb"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/lootintegrations/loot/lootintegrations_medium_mansion.json"
+hash = "6ea54e57675d03f7730b0a150b8ff824c0acd396208762f2b28e924c6833a86e"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/lootintegrations/loot/lootintegrations_medium_pyramid.json"
+hash = "ee7c0665474d6484f0593710711b8ee39fdffed8b78aec3c85c0ec887f255773"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/lootintegrations/loot/lootintegrations_medium_strongholdcorridor.json"
+hash = "9f8f871c1a78dc412f169760fac5357ab69bd0e8893ba64ee826d2a9d70457c2"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/lootintegrations/loot/lootintegrations_medium_strongholdcrossing.json"
+hash = "53e70af49f83e048b9565483da4345a17aa7f858bd94bdd37ec15060d4980ce2"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/lootintegrations/loot/lootintegrations_medium_strongholdlibrary.json"
+hash = "f20f4607895928ddb8c0f617e7a3f7618a895b4370a2a72461a131d76c7012d5"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/lootintegrations/loot/lootintegrations_nether_bastion_bridge.json"
+hash = "75c469859b48509730b9aac6426814f3cba228e99adeee4fb6805840f9075641"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/lootintegrations/loot/lootintegrations_nether_bastion_hoglin_stable.json"
+hash = "730616278ab1fca92f1d948147988ed87c2dcb8dd39aa1f7d522136a1afeaad4"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/lootintegrations/loot/lootintegrations_nether_bastion_other.json"
+hash = "c7a8089a6e0c09aea612054bdf02d7186c7c1ea52a86f9e4099fc883f74b11b9"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/lootintegrations/loot/lootintegrations_nether_bastion_treasure.json"
+hash = "62b733d220802e70341d20a2f82901be11236bec32ac4806bd4210d66df6dbf8"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/lootintegrations/loot/lootintegrations_nether_bridge.json"
+hash = "96a75e01f1a987f5be3565627734373d5fef2e26b3794b5214e8a90de77d57a6"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/lootintegrations/loot/lootintegrations_nether_portal.json"
+hash = "e080fb22495facbc9fd7fdc60e8f9112f148dbaac973f5b498195cc43cbd3657"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/lootintegrations/loot/lootintegrations_village_armorer.json"
+hash = "0053cd2de59a1ca265e012360b345b80d99651c60c26692a83a94174c8500894"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/lootintegrations/loot/lootintegrations_village_butcher.json"
+hash = "0708f3a84ae75cc294f28b525fa003817036f46c9840ac80a0eb61ef8d31d4c2"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/lootintegrations/loot/lootintegrations_village_cartographer.json"
+hash = "3d4ca29cbfada8bef67aa1d03353bf8eced87432d40cc58b4297b557da051819"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/lootintegrations/loot/lootintegrations_village_desert_house.json"
+hash = "e5f53bee42091d8f385190e2a1e8bff0a738a92353b830e30ddb2059f16b790b"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/lootintegrations/loot/lootintegrations_village_fisher.json"
+hash = "9be10a9c8a15cebedff952c1b9692bfdf5d6e5e2858bbc59ca0f1e0dd586facb"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/lootintegrations/loot/lootintegrations_village_fletcher.json"
+hash = "be1b64114717ccc29e77a5e862fb94d0ac81a90bb82f8995cae29e7d2a7b9b59"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/lootintegrations/loot/lootintegrations_village_mason.json"
+hash = "6eee34ad12cc43666bf3b6fbca4a512e1515e3be86f5172f4ce0e744a6da0e46"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/lootintegrations/loot/lootintegrations_village_plains_house.json"
+hash = "ef6893957835e50d5eb3ed6f894f13e22639151d0515bbddf2f534c566aa5f42"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/lootintegrations/loot/lootintegrations_village_savanna_house.json"
+hash = "449a3c7e4a4c5fbf4a989e52146eee64779ed381413b56b6fb096e1fdd447b1e"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/lootintegrations/loot/lootintegrations_village_sheperd.json"
+hash = "90ca6eee8bdf9c23d412e0e16653c8be3db0ff46ee9ff8fb2c1764704de14e09"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/lootintegrations/loot/lootintegrations_village_snowy_house.json"
+hash = "1d57b8767f9988dfad6dc097213ff625ef4887f6e68e8e26136401f7e600182c"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/lootintegrations/loot/lootintegrations_village_taiga_house.json"
+hash = "c11edac91bd2bd9b971861a43b7c2b551a2675cc11027941790938a5456b0eaa"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/lootintegrations/loot/lootintegrations_village_tannery.json"
+hash = "b9be0fcd4e2dab4ba435919accf163b30672e34456adc3aacb38ea17b8a59243"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/lootintegrations/loot/lootintegrations_village_temple.json"
+hash = "b74e8b6612de383d4fecd8356c3f5fbaec212e22efdf770fde1bcbef8132ce26"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/lootintegrations/loot/lootintegrations_village_toolsmith.json"
+hash = "3b3eedd7cf64b54e043bb8e8563afbbd66af124bb483b357ba9eee2db0f1efdc"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/lootintegrations/loot/lootintegrations_village_weaponsmith.json"
+hash = "4bb4bfd3eee91b700d38320c44098b236544fdc5c21153ff1642155e9c675efb"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/lootintegrations/loot/lootintegrations_water_buried_treasure.json"
+hash = "f50fe1cca7177f67f223bffb47a3557515cd14cd8e78caf0fa1d88d1860364c8"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/lootintegrations/loot/lootintegrations_water_ruin_big.json"
+hash = "2f623fc24ade567733eac47906e2f5301b369f4144251a419fb0619e07c037a0"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/lootintegrations/loot/lootintegrations_water_ruin_small.json"
+hash = "32991a4705f6228bf5b541420c60bf66f2e509cc1f1992e28f3712053f0f515a"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/lootintegrations/loot/lootintegrations_water_shipwreck_map.json"
+hash = "ef679a3769afa8bb29058fccda257f507c8578de59634449ec7c8a741a46090b"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/lootintegrations/loot/lootintegrations_water_shipwreck_supply.json"
+hash = "61c069736fdd39f2bb81df8e3605c704ccf290294fa9315b4f7b9c8f094857af"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/lootintegrations/loot/lootintegrations_water_shipwreck_treasure.json"
+hash = "ddbdd48d2ee037397cd309b13169963039073a26ebcb6ee2470b62bb751305d7"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/lootintegrations/loot/yung_dungeonloot_easy.json"
+hash = "52edef7330180b057ac9492977b2d3bd0eadf682abf76cedbc24be70aaebd032"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/lootintegrations/loot/yung_dungeonloot_medium.json"
+hash = "cdb31c7244550c6acaa2c74bd785fa5967c472482fed1d64279f1ff1ad46cc5a"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/lootintegrations/loot/yung_dungeonloot_nether.json"
+hash = "1202fae59e4a42f00a701d4a4961a1967d212de23a54167e7628774c776a7c8a"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/lootintegrations/loot/yung_dungeonloot_water.json"
+hash = "0bb0054e7e455c4eb6f9b87d903150c0061da8ff18fa7b3f9059efe807e3777c"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/lootintegrations/loot/yung_villageloot_house.json"
+hash = "7ef962f9307d8bfde68001f67e13ed2987a780be94266137b0c10a862a06c89e"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/neoforge/loot_modifiers/global_loot_modifiers.json"
+hash = "d53e275a17b6286f1f469c8cf155220883db22f3e69acbdd71b5602689c2269c"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/dimension-policy.json"
+hash = "ace0763e6488fa6eb1fd9248b48c3425ef756b0e73991cc50365962ff77d8602"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/disabled-integrations.json"
+hash = "99cd9dd013dd76e061ceac0459ee28cf1b2c7a83f55d1b6f5add1cd2e3def477"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/pack.mcmeta"
+hash = "8a92e9a8828555b721ab4f9bbd01abe5592afb60734813ce249d4853b20a0694"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/tuning-reference.json"
+hash = "0d9512c1a7699797d18f5f18ed93dd4240cfa1516f12de49944af6d67c3d91c9"
 
 [[files]]
 file = "datapacks/Fangs and Claws Persistent Animals/data/respawninganimals/tags/entity_type/persistent_animals.json"
@@ -2305,6 +2849,14 @@ file = "kubejs/server_scripts/cupric_campfire_recipe.js"
 hash = "fd66dab44fe0e4e84ca05f3833f09b95097a6f2b50a4290741f3426133cfdef5"
 
 [[files]]
+file = "kubejs/server_scripts/exploration_loot_balance.js"
+hash = "47d6bcdbc01426ca10d0c2dc9c59619d9d9a12f9d0e1271cf6129e74a220989e"
+
+[[files]]
+file = "kubejs/server_scripts/fantasy_armor_boss_recipes.js"
+hash = "c895ff53d29db81392a2378353a3983e900eb0bd3e14404a18dec682ea101655"
+
+[[files]]
 file = "kubejs/server_scripts/fantasy_cannons.js"
 hash = "77bcbb7b469e369e221288a6afb06c9c17ebc291599606dff2e6cba40616bfff"
 
@@ -2556,6 +3108,11 @@ hash = "7543f3dbc193d98b67b760b4e7a7a5f5a8bbd58c66d4ebcb13d6729eb6017cff"
 metafile = true
 
 [[files]]
+file = "mods/cocktails-delight.pw.toml"
+hash = "51967f740fbb78313c9d4e1611b816d1ae8ba5639817883f44a33540acc5578f"
+metafile = true
+
+[[files]]
 file = "mods/comforts.pw.toml"
 hash = "36f2f6e74b7dbeccb504572d47006582207544fa234a095093b97adfc7ecd5ac"
 metafile = true
@@ -2759,6 +3316,11 @@ hash = "d5dade346e8d11b6f549f31990b72d2d3a08d70f18b80c33aac2b7e5a0f8765d"
 metafile = true
 
 [[files]]
+file = "mods/fantasy_armor.pw.toml"
+hash = "afa210c4991668ea4b0158f7c95a895dac077925129c2fd569937cd15766f827"
+metafile = true
+
+[[files]]
 file = "mods/farmers-cutting-betterend.pw.toml"
 hash = "dd43dd0a129211c0eede62c1b65d58bd171f0352aaf1b87a9129bf488c1d7c93"
 metafile = true
@@ -2843,6 +3405,11 @@ hash = "7ec39ac8a70ec3643143a9bc47f73d095dc221752a01dba960ca924cd4c5cdce"
 metafile = true
 
 [[files]]
+file = "mods/friends-and-foes-flowery-mooblooms-forge.pw.toml"
+hash = "e67e6cf7fb5bf9ed93f5cc146e56744b4708685584b273868c790e117875c39b"
+metafile = true
+
+[[files]]
 file = "mods/friends-and-foes-forge.pw.toml"
 hash = "96c28351a679d5d770f5adfdc9999329938a9d1b8f7c0e4fb410505f42eebc6e"
 metafile = true
@@ -2905,6 +3472,11 @@ metafile = true
 [[files]]
 file = "mods/hybrid-aquatic.pw.toml"
 hash = "af60f4cd6512a46528cc606f854354c6a261a79bdf2ced261b89b42905bbd7c0"
+metafile = true
+
+[[files]]
+file = "mods/illagers-wear-armor.pw.toml"
+hash = "a8b5c7152c9feb7e1a5324daf9c847c27e6dd8f5c8bba671d2861f8c863242f7"
 metafile = true
 
 [[files]]
@@ -3000,6 +3572,10 @@ metafile = true
 file = "mods/l_enders-cataclysm.pw.toml"
 hash = "f262b49b1038ef9f67704e0629da6aafa84cf4f760273589f5d73530ca5d74b5"
 metafile = true
+
+[[files]]
+file = "mods/liams-aether-worldgen-fix-1.0.1.jar"
+hash = "eff2b2acf978857515ae3e79b7bb47d5a080dce97fb16750dbfcdc50710a3007"
 
 [[files]]
 file = "mods/liams-corpse-controls-1.0.0.jar"
