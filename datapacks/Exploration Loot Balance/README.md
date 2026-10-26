@@ -6,11 +6,11 @@ Agent maintenance policy: [AGENTS.md](AGENTS.md). Read it for loot rules and the
 
 ## Current scope
 
-This second pass expands **56 → 330 exact recipient tables**, with **22 reward profiles** and **85 authored reward item IDs**. It adds useful discoveries and enforces **Overworld → Nether → Aether → End** for newly generated chest/vault loot. Earlier-stage items are allowed in later dimensions. All 12 installed CTOV village tables now receive a reviewed profile.
+This second pass expands **56 → 339 exact recipient tables**, with **22 reward profiles** and **85 authored reward item IDs**. It adds useful discoveries and enforces **Overworld → Nether → Aether → End** for newly generated chest/vault loot. Earlier-stage items are allowed in later dimensions. All 12 installed CTOV village tables now receive a reviewed profile.
 
 The installed structure NBT audit parsed successfully and found 531 referenced loot IDs; 448 resolve against installed JSON resources. Optional-mod/legacy references are recorded, not used as guessed targets. The review ledger also lists known procedural containers, for 540 reviewed table IDs overall. Counts are template evidence, not a census of generated structures or an assertion that every optional template is active.
 
-Plans and history: [implemented loot ideas](IDEAS-IMPLEMENTATION-PLAN.md), [native pity restoration](RESTORE-PITY-PLAN.md), [historical pity disable decision](NO-PITY-PLAN.md), [enchanted weapon plan](SWORDS-PLAN.md), [coverage expansion plan](COVERAGE-PLAN.md), [historical first-pass reference](FIRST-PASS-REFERENCE.md), [implemented finds and further loot ideas](LOOT-IDEAS.md). The original 72 Loot Integrations sampling rules remain disabled through exact resource overrides. Native loot, keys and boss identities remain, subject to the new dimension filter for chest/vault rewards.
+Plans and history: [implemented loot ideas](IDEAS-IMPLEMENTATION-PLAN.md), [native pity restoration](RESTORE-PITY-PLAN.md), [historical pity disable decision](NO-PITY-PLAN.md), [enchanted weapon plan](SWORDS-PLAN.md), [coverage expansion plan](COVERAGE-PLAN.md), [historical first-pass reference](FIRST-PASS-REFERENCE.md), [implemented finds and further loot ideas](LOOT-IDEAS.md). The 75 Loot Integrations sampling rules remain disabled through exact resource overrides. Native loot, keys and boss identities remain, subject to the new dimension filter for chest/vault rewards.
 
 ## Rewards and coverage
 
@@ -183,3 +183,47 @@ four-root LootJS hook resolves that result through Minecraft's native map APIs
 using the original village tag, radius 8 and skip-existing false. Other maps and
 quills keep their existing behavior. Null lookups produce no reward; wrong
 dimensions are rejected. This avoids changing global map/quill settings.
+
+
+## Dungeon Crawl compatibility (2026-10-26)
+
+Dungeon Crawl 2.3.17 now has nine reviewed procedural roots: eight frequent roots
+(stage_1..5, food, supply, secret_room) use sparse_stores, and treasure uses
+dungeon_discoveries. This brings coverage to 339 roots. All three new Dungeon Crawl
+sampling resources are explicitly disabled, for 75 disabled integration resources.
+Forge/library and the obsolete plural-folder helpers are not newly restored.
+
+The companion liams-dungeon-crawl-compat 1.0.0 chooses 5–8 floors, preserves native
+nine-block stairs and surface access, and anchors the bottom floor 24–48 blocks
+above the active world minimum (Y -296..-272 in this pack). First-floor bases span
+-260..-209. It replaces the absolute Y16 start guard, uses active entrance bounds,
+and fixes the surface-biome coordinate units. The last native layer definition is
+reused for floors beyond five; mob/loot stage remains capped at stage 5. The pack's
+existing deep hostile scaling applies in addition to native dungeon equipment.
+Sparse Structures rarity and solid=false cave behavior remain configured as before.
+
+no_nether_blocks=true selects the mossy final-floor primary theme. The companion's
+scoped Dungeon Crawl placement hooks additionally replace literal glowstone,
+Nether masonry/netherrack, quartz markers, jack-o-lanterns/redstone lamps and the
+brewing-stand bypass with ordinary Overworld building blocks. These are new
+placements only; no existing blocks, storage or entity drops are scanned.
+
+All five native stage-table pools roll 2–4 times. Food and supply provisions roll
+3–5, secret-room loot 2–4 and treasure 3–4. Supply's equipment pool rolls once
+behind a 20% gate; supply still has its native consumable and lighting pools.
+Permanent chest torches become flimsy torches. Native stage equipment-generator
+entries pass a 15% gate, enchanted-book entries 20%, and treasure gear entries 20%.
+These are entry-availability gates before weighted selection, not final per-chest
+chances: successful entries compete with the rest of that roll's available entries.
+Treasure gold stacks are 2–6, and its enchanted golden apple is removed. Selected
+books and gear retain their native components/enchantment generation. No new
+Simply Swords weapon/unique eligibility, pity route or Iron's accessory route was
+added. Native vanilla-table alternates already receive their existing pack rules.
+
+Per 100 frequent-root chest rolls per player, authored sparse additions average
+six small provisions and 0.5 utility selections, plus native loot. Each treasure
+roll adds 0.22 provisions, 0.035 utility and an additional 0.01 deep selection when
+eligible. Generated layouts and native outcome samples, their limitations and the
+actual container counts are recorded in the development validation report.
+Independent Lootr players each receive their own budget. Restart after sync;
+new structures require new chunks and already generated loot stays unchanged.
