@@ -1,0 +1,47 @@
+{
+  "type": "neoforge:add_table",
+  "conditions": [
+    {
+      "condition": "minecraft:any_of",
+      "terms": [
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "betterend:chests/biome"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "betterend:chests/end_village_loot"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "nova_structures:chests/end_castle/castle_bar"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "nova_structures:chests/end_castle/castle_brewing"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "nova_structures:chests/end_castle/greater_loot"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "nova_structures:chests/end_castle/lesser_loot"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "nova_structures:chests/end_castle/rocket_barrel"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "nova_structures:chests/end_castle/supply"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "nova_structures:chests/end_lighthouse/supply_lighthouse"
+        }
+      ]
+    }
+  ],
+  "table": "liams_loot:rewards/end_expeditions"
+}

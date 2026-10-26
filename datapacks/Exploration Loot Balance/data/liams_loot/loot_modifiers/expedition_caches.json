@@ -1,0 +1,63 @@
+{
+  "type": "neoforge:add_table",
+  "conditions": [
+    {
+      "condition": "minecraft:any_of",
+      "terms": [
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "formationsoverworld:bamboo_hut"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "formationsoverworld:cobble_hole"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "formationsoverworld:desert_houses"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "formationsoverworld:fountain/lesser_chest"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "formationsoverworld:fountain/rich_chest"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "formationsoverworld:hobbit_hole/common"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "formationsoverworld:igloo"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "formationsoverworld:log_spikes"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "formationsoverworld:small_statue"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "formationsoverworld:stone_tower/bedroom"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "formationsoverworld:tiny_house"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "formationsoverworld:tower_remnant"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "formationsoverworld:well"
+        }
+      ]
+    }
+  ],
+  "table": "liams_loot:rewards/expedition_caches"
+}

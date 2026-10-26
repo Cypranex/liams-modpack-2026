@@ -1,0 +1,13 @@
+name = "Illagers Wear Armor"
+filename = "illagersweararmor-1.21.1-2.4.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/xXNP32XJ/versions/CZuRtcSr/illagersweararmor-1.21.1-2.4.0.jar"
+hash-format = "sha512"
+hash = "c7fbbeb8ea5b7a28c21cb5ecabb671ec456efe0d575d1d62c28f6e5beb03066f765df400891fcd2569b2b677a93ee8e37ffb8ba89284e81560740730c39ddb15"
+
+[update]
+[update.modrinth]
+mod-id = "xXNP32XJ"
+version = "CZuRtcSr"

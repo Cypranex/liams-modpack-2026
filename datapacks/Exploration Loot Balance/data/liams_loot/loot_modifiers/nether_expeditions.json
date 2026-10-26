@@ -1,0 +1,147 @@
+{
+  "type": "neoforge:add_table",
+  "conditions": [
+    {
+      "condition": "minecraft:any_of",
+      "terms": [
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "betterdungeons:small_nether_dungeon/chests/common"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "betterfortresses:chests/beacon"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "betterfortresses:chests/extra"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "betterfortresses:chests/obsidian"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "betterfortresses:chests/puzzle"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "betternether:chests/city"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "betternether:chests/city_common"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "betternether:chests/city_surprise"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "betternether:chests/library"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "betternether:chests/wither_tower"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "formationsnether:basalt_hut"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "formationsnether:blackstone_castle"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "formationsnether:blackstone_remnant"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "formationsnether:campsite"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "formationsnether:large_house/barrel"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "formationsnether:large_house/chest"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "formationsnether:large_tree"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "formationsnether:parkour_challenge"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "formationsnether:rib_cage"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "formationsnether:small_fire_arena"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "formationsnether:small_lava_arena"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "formationsnether:small_lava_shrine"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "formationsnether:sphere_cage/piglin"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "formationsnether:sphere_cage/wither"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "minecraft:chests/nether_fortress/fort_inside_generic"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "nova_structures:chests/hamlet/hamlet"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "nova_structures:chests/hamlet/hamlet_tresure"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "nova_structures:chests/nether_skeleton_tower/skeleton_tower_camp"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "nova_structures:chests/nether_skeleton_tower/skeleton_tower_chest"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "nova_structures:chests/nether_skeleton_tower/skeleton_tower_supply"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "nova_structures:chests/piglin_camp/chest"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "nova_structures:chests/piglin_outstation/outstation_generic"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "nova_structures:chests/piglin_outstation/outstation_tower"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "nova_structures:chests/piglin_outstation/outstation_treasure"
+        }
+      ]
+    }
+  ],
+  "table": "liams_loot:rewards/nether_expeditions"
+}

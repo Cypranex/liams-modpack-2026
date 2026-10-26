@@ -1,0 +1,458 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.3
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "farmersdelight:beef_stew",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "farmersdelight:canvas",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "create:andesite_alloy",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "caverns_and_chasms:blunt_arrow",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 4,
+                "max": 8
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.25
+        },
+        {
+          "condition": "minecraft:location_check",
+          "predicate": {
+            "dimension": "minecraft:overworld",
+            "position": {
+              "y": {
+                "max": -128
+              }
+            }
+          }
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "farmersdelight:chicken_soup",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "irons_spellbooks:common_ink",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.08
+        },
+        {
+          "condition": "minecraft:location_check",
+          "predicate": {
+            "dimension": "minecraft:overworld",
+            "position": {
+              "y": {
+                "max": -256
+              }
+            }
+          }
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "irons_spellbooks:uncommon_ink",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.015
+        },
+        {
+          "condition": "minecraft:location_check",
+          "predicate": {
+            "dimension": "minecraft:overworld",
+            "position": {
+              "y": {
+                "max": -64
+              }
+            }
+          }
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "simplyswords:iron_longsword",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:sharpness": 2,
+                "minecraft:unbreaking": 1
+              },
+              "add": false
+            },
+            {
+              "function": "minecraft:set_damage",
+              "damage": {
+                "type": "minecraft:uniform",
+                "min": 0.6,
+                "max": 0.9
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simplyswords:iron_spear",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:sharpness": 2,
+                "minecraft:unbreaking": 1
+              },
+              "add": false
+            },
+            {
+              "function": "minecraft:set_damage",
+              "damage": {
+                "type": "minecraft:uniform",
+                "min": 0.6,
+                "max": 0.9
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simplyswords:iron_cutlass",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:sharpness": 2,
+                "minecraft:unbreaking": 1
+              },
+              "add": false
+            },
+            {
+              "function": "minecraft:set_damage",
+              "damage": {
+                "type": "minecraft:uniform",
+                "min": 0.6,
+                "max": 0.9
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simplyswords:iron_katana",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:sharpness": 2,
+                "minecraft:unbreaking": 1
+              },
+              "add": false
+            },
+            {
+              "function": "minecraft:set_damage",
+              "damage": {
+                "type": "minecraft:uniform",
+                "min": 0.6,
+                "max": 0.9
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simplyswords:iron_rapier",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:sharpness": 2,
+                "minecraft:unbreaking": 1
+              },
+              "add": false
+            },
+            {
+              "function": "minecraft:set_damage",
+              "damage": {
+                "type": "minecraft:uniform",
+                "min": 0.6,
+                "max": 0.9
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simplyswords:iron_glaive",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:sharpness": 2,
+                "minecraft:unbreaking": 1
+              },
+              "add": false
+            },
+            {
+              "function": "minecraft:set_damage",
+              "damage": {
+                "type": "minecraft:uniform",
+                "min": 0.6,
+                "max": 0.9
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simplyswords:iron_halberd",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:sharpness": 2,
+                "minecraft:unbreaking": 1
+              },
+              "add": false
+            },
+            {
+              "function": "minecraft:set_damage",
+              "damage": {
+                "type": "minecraft:uniform",
+                "min": 0.6,
+                "max": 0.9
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simplyswords:iron_claymore",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:sharpness": 2,
+                "minecraft:unbreaking": 1
+              },
+              "add": false
+            },
+            {
+              "function": "minecraft:set_damage",
+              "damage": {
+                "type": "minecraft:uniform",
+                "min": 0.6,
+                "max": 0.9
+              },
+              "add": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.005
+        },
+        {
+          "condition": "minecraft:location_check",
+          "predicate": {
+            "dimension": "minecraft:overworld",
+            "position": {
+              "y": {
+                "max": -64
+              }
+            }
+          }
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:chest",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Surveyor's Kit",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:container": [
+                  {
+                    "slot": 0,
+                    "item": {
+                      "id": "supplementaries:altimeter",
+                      "count": 1
+                    }
+                  },
+                  {
+                    "slot": 1,
+                    "item": {
+                      "id": "chalk:chalk",
+                      "count": 1
+                    }
+                  },
+                  {
+                    "slot": 2,
+                    "item": {
+                      "id": "farmersdelight:chicken_sandwich",
+                      "count": 1
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{liams_loot_idea:\"surveyor\"}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

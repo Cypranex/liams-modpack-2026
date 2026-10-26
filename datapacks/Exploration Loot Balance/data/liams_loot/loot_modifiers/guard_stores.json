@@ -1,0 +1,35 @@
+{
+  "type": "neoforge:add_table",
+  "conditions": [
+    {
+      "condition": "minecraft:any_of",
+      "terms": [
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "minecraft:chests/illager_mansion/pillager_chest"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "minecraft:chests/illager_mansion/ravager_chest"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "minecraft:chests/illager_mansion/vindicator_chest"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "minecraft:chests/pillager_outpost"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "minecraft:chests/village/village_fletcher"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "nova_structures:chests/illager_hideout_weaponry"
+        }
+      ]
+    }
+  ],
+  "table": "liams_loot:rewards/guard_stores"
+}

@@ -1,0 +1,1135 @@
+[
+  {
+    "resource": "data/lootintegrations/loot/dungeonloot_no_overflow.json",
+    "jar": "lootintegrations-1.21.1-4.7.jar",
+    "donor": "lootintegrations:chests/empty",
+    "recipients": {
+      "minecraft:chests/simple_dungeon": 0,
+      "minecraft:chests/abandoned_mineshaft": 0,
+      "minecraft:chests/nether_bridge": 0,
+      "minecraft:chests/woodland_mansion": 0,
+      "minecraft:chests/stronghold_crossing": 0,
+      "minecraft:chests/pillager_outpost": 0,
+      "minecraft:chests/desert_pyramid": 0,
+      "minecraft:chests/ancient_city": 0,
+      "minecraft:chests/end_city_treasure": 0,
+      "minecraft:chests/stronghold_library": 0,
+      "minecraft:chests/stronghold_corridor": 0,
+      "minecraft:chests/jungle_temple": 0,
+      "minecraft:chests/ruined_portal": 0,
+      "minecraft:chests/bastion_treasure": 0,
+      "minecraft:chests/bastion_other": 0,
+      "minecraft:chests/bastion_hoglin_stable": 0,
+      "minecraft:chests/bastion_bridge": 0,
+      "minecraft:chests/underwater_ruin_small": 0,
+      "minecraft:chests/underwater_ruin_big": 0,
+      "minecraft:chests/shipwreck_treasure": 0,
+      "minecraft:chests/shipwreck_supply": 0,
+      "minecraft:chests/shipwreck_map": 0,
+      "minecraft:chests/buried_treasure": 0,
+      "minecraft:chests/village/village_weaponsmith": 0
+    }
+  },
+  {
+    "resource": "data/lootintegrations/loot/lootintegrations_easy_dungeon.json",
+    "jar": "lootintegrations-1.21.1-4.7.jar",
+    "donor": "minecraft:chests/simple_dungeon",
+    "recipients": {
+      "lootintegrations:chests/easy": 9
+    }
+  },
+  {
+    "resource": "data/lootintegrations/loot/lootintegrations_easy_mineshaft.json",
+    "jar": "lootintegrations-1.21.1-4.7.jar",
+    "donor": "minecraft:chests/abandoned_mineshaft",
+    "recipients": {
+      "lootintegrations:chests/easy": 7
+    }
+  },
+  {
+    "resource": "data/lootintegrations/loot/lootintegrations_easy_pillager.json",
+    "jar": "lootintegrations-1.21.1-4.7.jar",
+    "donor": "minecraft:chests/pillager_outpost",
+    "recipients": {
+      "lootintegrations:chests/easy": 5
+    }
+  },
+  {
+    "resource": "data/lootintegrations/loot/lootintegrations_easy_pyramid.json",
+    "jar": "lootintegrations-1.21.1-4.7.jar",
+    "donor": "minecraft:chests/desert_pyramid",
+    "recipients": {
+      "lootintegrations:chests/easy": 10
+    }
+  },
+  {
+    "resource": "data/lootintegrations/loot/lootintegrations_hard_ancientcity.json",
+    "jar": "lootintegrations-1.21.1-4.7.jar",
+    "donor": "minecraft:chests/ancient_city",
+    "recipients": {
+      "lootintegrations:chests/hard": 4
+    }
+  },
+  {
+    "resource": "data/lootintegrations/loot/lootintegrations_hard_endcity.json",
+    "jar": "lootintegrations-1.21.1-4.7.jar",
+    "donor": "minecraft:chests/end_city_treasure",
+    "recipients": {
+      "lootintegrations:chests/hard": 15
+    }
+  },
+  {
+    "resource": "data/lootintegrations/loot/lootintegrations_hard_mansion.json",
+    "jar": "lootintegrations-1.21.1-4.7.jar",
+    "donor": "minecraft:chests/woodland_mansion",
+    "recipients": {
+      "lootintegrations:chests/hard": 4
+    }
+  },
+  {
+    "resource": "data/lootintegrations/loot/lootintegrations_hard_stronghold.json",
+    "jar": "lootintegrations-1.21.1-4.7.jar",
+    "donor": "minecraft:chests/stronghold_crossing",
+    "recipients": {
+      "lootintegrations:chests/hard": 4
+    }
+  },
+  {
+    "resource": "data/lootintegrations/loot/lootintegrations_medium_jungletemple.json",
+    "jar": "lootintegrations-1.21.1-4.7.jar",
+    "donor": "minecraft:chests/jungle_temple",
+    "recipients": {
+      "lootintegrations:chests/jungle_temple": 10
+    }
+  },
+  {
+    "resource": "data/lootintegrations/loot/lootintegrations_medium_mansion.json",
+    "jar": "lootintegrations-1.21.1-4.7.jar",
+    "donor": "minecraft:chests/woodland_mansion",
+    "recipients": {
+      "lootintegrations:chests/medium": 5
+    }
+  },
+  {
+    "resource": "data/lootintegrations/loot/lootintegrations_medium_pyramid.json",
+    "jar": "lootintegrations-1.21.1-4.7.jar",
+    "donor": "minecraft:chests/desert_pyramid",
+    "recipients": {
+      "lootintegrations:chests/medium": 4
+    }
+  },
+  {
+    "resource": "data/lootintegrations/loot/lootintegrations_medium_strongholdcorridor.json",
+    "jar": "lootintegrations-1.21.1-4.7.jar",
+    "donor": "minecraft:chests/stronghold_corridor",
+    "recipients": {
+      "lootintegrations:chests/medium": 10
+    }
+  },
+  {
+    "resource": "data/lootintegrations/loot/lootintegrations_medium_strongholdcrossing.json",
+    "jar": "lootintegrations-1.21.1-4.7.jar",
+    "donor": "minecraft:chests/stronghold_crossing",
+    "recipients": {
+      "lootintegrations:chests/medium": 5
+    }
+  },
+  {
+    "resource": "data/lootintegrations/loot/lootintegrations_medium_strongholdlibrary.json",
+    "jar": "lootintegrations-1.21.1-4.7.jar",
+    "donor": "minecraft:chests/stronghold_library",
+    "recipients": {
+      "lootintegrations:chests/medium": 2
+    }
+  },
+  {
+    "resource": "data/lootintegrations/loot/lootintegrations_nether_bastion_bridge.json",
+    "jar": "lootintegrations-1.21.1-4.7.jar",
+    "donor": "minecraft:chests/bastion_bridge",
+    "recipients": {
+      "lootintegrations:chests/nether": 2
+    }
+  },
+  {
+    "resource": "data/lootintegrations/loot/lootintegrations_nether_bastion_hoglin_stable.json",
+    "jar": "lootintegrations-1.21.1-4.7.jar",
+    "donor": "minecraft:chests/bastion_hoglin_stable",
+    "recipients": {
+      "lootintegrations:chests/nether": 3
+    }
+  },
+  {
+    "resource": "data/lootintegrations/loot/lootintegrations_nether_bastion_other.json",
+    "jar": "lootintegrations-1.21.1-4.7.jar",
+    "donor": "minecraft:chests/bastion_other",
+    "recipients": {
+      "lootintegrations:chests/nether": 2
+    }
+  },
+  {
+    "resource": "data/lootintegrations/loot/lootintegrations_nether_bastion_treasure.json",
+    "jar": "lootintegrations-1.21.1-4.7.jar",
+    "donor": "minecraft:chests/bastion_treasure",
+    "recipients": {
+      "lootintegrations:chests/nether": 3
+    }
+  },
+  {
+    "resource": "data/lootintegrations/loot/lootintegrations_nether_bridge.json",
+    "jar": "lootintegrations-1.21.1-4.7.jar",
+    "donor": "minecraft:chests/nether_bridge",
+    "recipients": {
+      "lootintegrations:chests/nether": 10
+    }
+  },
+  {
+    "resource": "data/lootintegrations/loot/lootintegrations_nether_portal.json",
+    "jar": "lootintegrations-1.21.1-4.7.jar",
+    "donor": "minecraft:chests/ruined_portal",
+    "recipients": {
+      "lootintegrations:chests/nether": 7
+    }
+  },
+  {
+    "resource": "data/lootintegrations/loot/lootintegrations_village_armorer.json",
+    "jar": "lootintegrations-1.21.1-4.7.jar",
+    "donor": "minecraft:chests/village/village_armorer",
+    "recipients": {
+      "lootintegrations:chests/village": 3
+    }
+  },
+  {
+    "resource": "data/lootintegrations/loot/lootintegrations_village_butcher.json",
+    "jar": "lootintegrations-1.21.1-4.7.jar",
+    "donor": "minecraft:chests/village/village_butcher",
+    "recipients": {
+      "lootintegrations:chests/village": 3
+    }
+  },
+  {
+    "resource": "data/lootintegrations/loot/lootintegrations_village_cartographer.json",
+    "jar": "lootintegrations-1.21.1-4.7.jar",
+    "donor": "minecraft:chests/village/village_cartographer",
+    "recipients": {
+      "lootintegrations:chests/village": 2
+    }
+  },
+  {
+    "resource": "data/lootintegrations/loot/lootintegrations_village_desert_house.json",
+    "jar": "lootintegrations-1.21.1-4.7.jar",
+    "donor": "minecraft:chests/village/village_desert_house",
+    "recipients": {
+      "lootintegrations:chests/village": 3
+    }
+  },
+  {
+    "resource": "data/lootintegrations/loot/lootintegrations_village_fisher.json",
+    "jar": "lootintegrations-1.21.1-4.7.jar",
+    "donor": "minecraft:chests/village/village_fisher",
+    "recipients": {
+      "lootintegrations:chests/village": 2
+    }
+  },
+  {
+    "resource": "data/lootintegrations/loot/lootintegrations_village_fletcher.json",
+    "jar": "lootintegrations-1.21.1-4.7.jar",
+    "donor": "minecraft:chests/village/village_fletcher",
+    "recipients": {
+      "lootintegrations:chests/village": 2
+    }
+  },
+  {
+    "resource": "data/lootintegrations/loot/lootintegrations_village_mason.json",
+    "jar": "lootintegrations-1.21.1-4.7.jar",
+    "donor": "minecraft:chests/village/village_mason",
+    "recipients": {
+      "lootintegrations:chests/village": 2
+    }
+  },
+  {
+    "resource": "data/lootintegrations/loot/lootintegrations_village_plains_house.json",
+    "jar": "lootintegrations-1.21.1-4.7.jar",
+    "donor": "minecraft:chests/village/village_plains_house",
+    "recipients": {
+      "lootintegrations:chests/village": 3
+    }
+  },
+  {
+    "resource": "data/lootintegrations/loot/lootintegrations_village_savanna_house.json",
+    "jar": "lootintegrations-1.21.1-4.7.jar",
+    "donor": "minecraft:chests/village/village_savanna_house",
+    "recipients": {
+      "lootintegrations:chests/village": 3
+    }
+  },
+  {
+    "resource": "data/lootintegrations/loot/lootintegrations_village_sheperd.json",
+    "jar": "lootintegrations-1.21.1-4.7.jar",
+    "donor": "minecraft:chests/village/village_shepherd",
+    "recipients": {
+      "lootintegrations:chests/village": 2
+    }
+  },
+  {
+    "resource": "data/lootintegrations/loot/lootintegrations_village_snowy_house.json",
+    "jar": "lootintegrations-1.21.1-4.7.jar",
+    "donor": "minecraft:chests/village/village_snowy_house",
+    "recipients": {
+      "lootintegrations:chests/village": 3
+    }
+  },
+  {
+    "resource": "data/lootintegrations/loot/lootintegrations_village_taiga_house.json",
+    "jar": "lootintegrations-1.21.1-4.7.jar",
+    "donor": "minecraft:chests/village/village_taiga_house",
+    "recipients": {
+      "lootintegrations:chests/village": 3
+    }
+  },
+  {
+    "resource": "data/lootintegrations/loot/lootintegrations_village_tannery.json",
+    "jar": "lootintegrations-1.21.1-4.7.jar",
+    "donor": "minecraft:chests/village/village_tannery",
+    "recipients": {
+      "lootintegrations:chests/village": 3
+    }
+  },
+  {
+    "resource": "data/lootintegrations/loot/lootintegrations_village_temple.json",
+    "jar": "lootintegrations-1.21.1-4.7.jar",
+    "donor": "minecraft:chests/village/village_temple",
+    "recipients": {
+      "lootintegrations:chests/village": 3
+    }
+  },
+  {
+    "resource": "data/lootintegrations/loot/lootintegrations_village_toolsmith.json",
+    "jar": "lootintegrations-1.21.1-4.7.jar",
+    "donor": "minecraft:chests/village/village_toolsmith",
+    "recipients": {
+      "lootintegrations:chests/village": 3
+    }
+  },
+  {
+    "resource": "data/lootintegrations/loot/lootintegrations_village_weaponsmith.json",
+    "jar": "lootintegrations-1.21.1-4.7.jar",
+    "donor": "minecraft:chests/village/village_weaponsmith",
+    "recipients": {
+      "lootintegrations:chests/village": 10
+    }
+  },
+  {
+    "resource": "data/lootintegrations/loot/lootintegrations_water_buried_treasure.json",
+    "jar": "lootintegrations-1.21.1-4.7.jar",
+    "donor": "minecraft:chests/buried_treasure",
+    "recipients": {
+      "lootintegrations:chests/water": 3
+    }
+  },
+  {
+    "resource": "data/lootintegrations/loot/lootintegrations_water_ruin_big.json",
+    "jar": "lootintegrations-1.21.1-4.7.jar",
+    "donor": "minecraft:chests/underwater_ruin_big",
+    "recipients": {
+      "lootintegrations:chests/water": 7
+    }
+  },
+  {
+    "resource": "data/lootintegrations/loot/lootintegrations_water_ruin_small.json",
+    "jar": "lootintegrations-1.21.1-4.7.jar",
+    "donor": "minecraft:chests/underwater_ruin_small",
+    "recipients": {
+      "lootintegrations:chests/water": 2
+    }
+  },
+  {
+    "resource": "data/lootintegrations/loot/lootintegrations_water_shipwreck_map.json",
+    "jar": "lootintegrations-1.21.1-4.7.jar",
+    "donor": "minecraft:chests/shipwreck_map",
+    "recipients": {
+      "lootintegrations:chests/water": 2
+    }
+  },
+  {
+    "resource": "data/lootintegrations/loot/lootintegrations_water_shipwreck_supply.json",
+    "jar": "lootintegrations-1.21.1-4.7.jar",
+    "donor": "minecraft:chests/shipwreck_supply",
+    "recipients": {
+      "lootintegrations:chests/water": 2
+    }
+  },
+  {
+    "resource": "data/lootintegrations/loot/lootintegrations_water_shipwreck_treasure.json",
+    "jar": "lootintegrations-1.21.1-4.7.jar",
+    "donor": "minecraft:chests/shipwreck_treasure",
+    "recipients": {
+      "lootintegrations:chests/water": 5
+    }
+  },
+  {
+    "resource": "data/lootintegrations/loot/loot_betterarch_easy.json",
+    "jar": "lootintegrations_betterarcheology-1.4.jar",
+    "donor": "lootintegrations:chests/easy",
+    "recipients": {
+      "betterarcheology:archeology/chest_buried_ruins_sand": 2,
+      "betterarcheology:archeology/chest_catacombs_combat": 2,
+      "betterarcheology:archeology/chest_catacombs_generic": 2,
+      "betterarcheology:archeology/chest_catacombs_golden": 2,
+      "betterarcheology:archeology/chest_catacombs_library": 2,
+      "betterarcheology:archeology/chest_light_temple_book": 1,
+      "betterarcheology:archeology/chest_light_temple_generic": 1,
+      "betterarcheology:archeology/chest_light_temple_pillager": 1,
+      "betterarcheology:archeology/chest_light_temple_treasure": 1,
+      "betterarcheology:archeology/chest_loot_prototype": 1,
+      "betterarcheology:archeology/chest_mesa_ruins": 1,
+      "betterarcheology:archeology/chest_mott": 1,
+      "betterarcheology:archeology/chest_radiance_totem": 1,
+      "betterarcheology:archeology/chest_sculk_sword": 1,
+      "betterarcheology:archeology/chest_tumulus": 1,
+      "betterarcheology:archeology/loot_catacombs_equipment": 2,
+      "betterarcheology:archeology/loot_catacombs_generic": 1
+    }
+  },
+  {
+    "resource": "data/lootintegrations/loot/loot_betterarch_medium.json",
+    "jar": "lootintegrations_betterarcheology-1.4.jar",
+    "donor": "lootintegrations:chests/medium",
+    "recipients": {
+      "betterarcheology:archeology/chest_jungle_temple_equip": 1,
+      "betterarcheology:archeology/chest_jungle_temple_generic": 1,
+      "betterarcheology:archeology/chest_jungle_temple_treasure": 2,
+      "betterarcheology:archeology/sword_loot": 2
+    }
+  },
+  {
+    "resource": "data/lootintegrations/loot/loot_betterarch_nether.json",
+    "jar": "lootintegrations_betterarcheology-1.4.jar",
+    "donor": "lootintegrations:chests/nether",
+    "recipients": {
+      "betterarcheology:archeology/chest_catacombs_potion": 1
+    }
+  },
+  {
+    "resource": "data/lootintegrations/loot/loot_betterarch_village.json",
+    "jar": "lootintegrations_betterarcheology-1.4.jar",
+    "donor": "lootintegrations:chests/village",
+    "recipients": {
+      "betterarcheology:archeology/chest_jungle_temple_food": 1
+    }
+  },
+  {
+    "resource": "data/lootintegrations/loot/loot_betterarch_water.json",
+    "jar": "lootintegrations_betterarcheology-1.4.jar",
+    "donor": "lootintegrations:chests/water",
+    "recipients": {
+      "betterarcheology:seas_bounty_extension": 1,
+      "betterarcheology:archeology/chest_underwater": 1
+    }
+  },
+  {
+    "resource": "data/lootintegrations/loot/loot_cataclysm_easy.json",
+    "jar": "lootintegrations_cataclysm-1.2.jar",
+    "donor": "lootintegrations:chests/easy",
+    "recipients": {
+      "cataclysm:entities/the_prowler": 3,
+      "cataclysm:entities/coralssus": 3,
+      "cataclysm:entities/ignited_revenant": 3,
+      "cataclysm:entities/ender_golem": 3,
+      "cataclysm:chests/abandoned": 1,
+      "cataclysm:chests/abandoned_treasure": 3,
+      "cataclysm:chests/amethyst_nest_chest": 1,
+      "cataclysm:chests/desert_treasure": 1
+    }
+  },
+  {
+    "resource": "data/lootintegrations/loot/loot_cataclysm_hard.json",
+    "jar": "lootintegrations_cataclysm-1.2.jar",
+    "donor": "lootintegrations:chests/hard",
+    "recipients": {
+      "cataclysm:entities/the_harbinger": 4,
+      "cataclysm:entities/ender_guardian": 4,
+      "cataclysm:entities/ender_golem": 1
+    }
+  },
+  {
+    "resource": "data/lootintegrations/loot/loot_cataclysm_medium.json",
+    "jar": "lootintegrations_cataclysm-1.2.jar",
+    "donor": "lootintegrations:chests/medium",
+    "recipients": {
+      "cataclysm:entities/ancient_remnant": 4,
+      "cataclysm:chests/frosted_prison_treasure": 3,
+      "cataclysm:chests/acropolis_treasure": 3
+    }
+  },
+  {
+    "resource": "data/lootintegrations/loot/loot_cataclysm_nether.json",
+    "jar": "lootintegrations_cataclysm-1.2.jar",
+    "donor": "lootintegrations:chests/nether",
+    "recipients": {
+      "cataclysm:entities/netherite_monstrosity": 3,
+      "cataclysm:entities/ignis": 4
+    }
+  },
+  {
+    "resource": "data/lootintegrations/loot/loot_cataclysm_water.json",
+    "jar": "lootintegrations_cataclysm-1.2.jar",
+    "donor": "lootintegrations:chests/water",
+    "recipients": {
+      "cataclysm:entities/the_leviathan": 3
+    }
+  },
+  {
+    "resource": "data/lootintegrations/loot/loot_ctov_easy.json",
+    "jar": "lootintegrations_ctov-1.6.jar",
+    "donor": "lootintegrations:chests/easy",
+    "recipients": {
+      "imst:airship": 2,
+      "imst:balloon": 2,
+      "imst:bandit_camp": 2
+    }
+  },
+  {
+    "resource": "data/lootintegrations/loot/loot_ctov_village.json",
+    "jar": "lootintegrations_ctov-1.6.jar",
+    "donor": "lootintegrations:chests/village",
+    "recipients": {
+      "ctov:chests/village/village_badlands_house": 2,
+      "ctov:chests/village/village_bakery": 1,
+      "ctov:chests/village/village_beach_house": 2,
+      "ctov:chests/village/village_dark_forest_house": 2,
+      "ctov:chests/village/village_farm": 1,
+      "ctov:chests/village/village_forager": 1,
+      "ctov:chests/village/village_jungle_house": 2,
+      "ctov:chests/village/village_library": 2,
+      "ctov:chests/village/village_mountain_house": 2,
+      "ctov:chests/village/village_mushroom_house": 2,
+      "ctov:chests/village/village_smith": 2,
+      "ctov:chests/village/village_swamp_house": 2,
+      "monobank:monobank/village/badlands": 2,
+      "monobank:monobank/village/beach": 2,
+      "monobank:monobank/village/dark_forest": 2,
+      "monobank:monobank/village/jungle": 2,
+      "monobank:monobank/village/mountain": 2,
+      "monobank:monobank/village/mushroom": 2,
+      "monobank:monobank/village/swamp": 2,
+      "wares:chests/village/badlands_warehouse": 2,
+      "wares:chests/village/beach_warehouse": 2,
+      "wares:chests/village/dark_forest_warehouse": 2,
+      "wares:chests/village/jungle_warehouse": 2,
+      "wares:chests/village/mountain_warehouse": 2,
+      "wares:chests/village/mushroom_warehouse": 2,
+      "wares:chests/village/swamp_warehouse": 2,
+      "imst:beehouse": 1,
+      "imst:berry_house": 1,
+      "imst:cactus_farm": 1,
+      "imst:caravan": 1,
+      "imst:cocoa_farm": 1,
+      "imst:mountain_camp": 1,
+      "imst:sunflower_farm": 1,
+      "imst:train_station": 1,
+      "imst:witch_hut": 1,
+      "imst:farm/crimson": 1,
+      "imst:farm/warped": 1
+    }
+  },
+  {
+    "resource": "data/lootintegrations/loot/loot_dnt_easy.json",
+    "jar": "lootintegrations_dnt-2.7.jar",
+    "donor": "lootintegrations:chests/easy",
+    "recipients": {
+      "nova_structures:pots/pot_ancient_city": 1,
+      "nova_structures:chests/end_castle/rocket_barrel": 1,
+      "nova_structures:chests/catacomb/catacomb_generic": 1,
+      "nova_structures:chests/catacomb/catacomb_grave": 1,
+      "nova_structures:chests/pale_residence/residence_forge": 1,
+      "nova_structures:chests/pale_residence/residence_generic": 1,
+      "nova_structures:chests/pale_residence/residence_evoker": 1,
+      "nova_structures:chests/end_lighthouse/vault_lighthouse": 1,
+      "nova_structures:chests/desert_ruins/desert_ruin_grave": 2,
+      "nova_structures:chests/desert_ruins/desert_ruin_house": 1,
+      "nova_structures:chests/desert_ruins/desert_ruin_lesser_treasure": 1,
+      "nova_structures:chests/desert_ruins/desert_ruin_main_temple": 1,
+      "nova_structures:chests/undead_crypts_grave": 1,
+      "nova_structures:pots/pot_desert_ruin": 1,
+      "nova_structures:chests/dungeon_1": 1,
+      "nova_structures:chests/dungeon_2": 1,
+      "nova_structures:chests/dungeon_3": 1,
+      "nova_structures:chests/dungeon_4": 1,
+      "nova_structures:chests/dungeon_5": 1,
+      "nova_structures:chests/dungeon_6": 1,
+      "nova_structures:chests/dungeon_7": 1,
+      "nova_structures:chests/ruin_loot_master": 1,
+      "nova_structures:pots/pot_jungle_ruin": 1,
+      "nova_structures:chests/illager_camp": 2,
+      "nova_structures:chests/illager_hideout_heart_loot": 1,
+      "nova_structures:chests/illager_hideout_lesser_tresure": 1,
+      "nova_structures:chests/illager_hideout_tresure": 2,
+      "nova_structures:chests/illager_hideout_weaponry": 1,
+      "nova_structures:chests/pillager_outpost_treasure": 2,
+      "nova_structures:chests/mangrove_witchhud": 1,
+      "nova_structures:pots/pot_stronghold": 1,
+      "nova_structures:chests/creeping_crypt/crypt_grave": 1,
+      "nova_structures:chests/creeping_crypt/crypt_hallway": 1,
+      "nova_structures:chests/lone_citadel/c_banner": 1,
+      "nova_structures:chests/lone_citadel/c_forge_chest": 2,
+      "nova_structures:chests/lone_citadel/c_grave": 1,
+      "nova_structures:chests/shrine/combat_pot": 1,
+      "nova_structures:chests/shrine/combat_treasure_1": 2,
+      "nova_structures:chests/shrine/combat_treasure_2": 2,
+      "nova_structures:chests/shrine/combat_treasure_3": 2,
+      "nova_structures:chests/shrine/shrine_lesser_ominous": 2,
+      "nova_structures:chests/shrine/shrine_lesser_treasure": 2,
+      "nova_structures:chests/toxic_lair/generic": 1,
+      "nova_structures:chests/toxic_lair/toxic_boss_vault": 2,
+      "nova_structures:chests/toxic_lair/toxic_vault": 2,
+      "nova_structures:chests/stray_fort_archer": 1,
+      "nova_structures:chests/stray_fort_loot_generic": 1,
+      "nova_structures:chests/stray_fort_tresure": 2,
+      "nova_structures:chests/stray_fort/stray_fort_generic": 2,
+      "nova_structures:pots/lone_citadel/c_pot": 1,
+      "nova_structures:pots/pot_badland_miner_outpost": 1,
+      "nova_structures:pots/pot_basic": 1,
+      "nova_structures:pots/pot_bunker": 1,
+      "nova_structures:chests/cave_chambers/cave_chamber_camp": 2,
+      "nova_structures:chests/cave_chambers/cave_chamber_tree": 1,
+      "minecraft:chests/illager_mansion/ancient_city_raid_chest": 1,
+      "minecraft:chests/illager_mansion/evoker_chest": 1,
+      "minecraft:chests/illager_mansion/pillager_chest": 1,
+      "minecraft:chests/illager_mansion/secret_room": 1,
+      "minecraft:chests/illager_mansion/smithing_room": 1,
+      "nova_structures:chests/illager_barracks/smith": 1,
+      "nova_structures:chests/illager_barracks/tower_top": 1,
+      "nova_structures:chests/mineshaft_overhaul/barrel": 1,
+      "minecraft:chests/stronghold/generic": 1,
+      "minecraft:chests/stronghold/jail": 2,
+      "minecraft:chests/stronghold/library": 2,
+      "minecraft:chests/stronghold/sewer": 1,
+      "nova_structures:chests/desert_temple/desert_temple_lesser": 1,
+      "nova_structures:chests/mansion_overhaul/supply_diamonds": 1,
+      "nova_structures:chests/surface_dungeon/main_loot": 1,
+      "nova_structures:chests/small_undead_crypt/main_loot": 1,
+      "nova_structures:chests/small_creeping_crypt/main_loot": 1,
+      "nova_structures:chests/small_creeping_crypt/well_treasure": 1
+    }
+  },
+  {
+    "resource": "data/lootintegrations/loot/loot_dnt_hard.json",
+    "jar": "lootintegrations_dnt-2.7.jar",
+    "donor": "lootintegrations:chests/hard",
+    "recipients": {
+      "nova_structures:chests/end_castle/greater_loot": 2,
+      "nova_structures:chests/end_castle/treasure_lighthouse": 1,
+      "nova_structures:chests/end_castle/vault_brigattine": 2,
+      "nova_structures:chests/end_castle/vault_galleon": 2,
+      "nova_structures:chests/end_castle/vault_slope": 2
+    }
+  },
+  {
+    "resource": "data/lootintegrations/loot/loot_dnt_medium.json",
+    "jar": "lootintegrations_dnt-2.7.jar",
+    "donor": "lootintegrations:chests/medium",
+    "recipients": {
+      "nova_structures:chests/ancient_city": 2,
+      "nova_structures:chests/ancient_city_overhaul": 2,
+      "nova_structures:chests/end_castle/lesser_loot": 2,
+      "nova_structures:pots/end_castle/pot_end_castle": 1,
+      "nova_structures:chests/jungle_ruins/jungle_ruins_house": 1,
+      "nova_structures:chests/jungle_ruins/jungle_ruins_main_temple": 1,
+      "nova_structures:chests/jungle_ruins/jungle_ruins_main_temple_wild": 1,
+      "nova_structures:chests/illager_hideout_library": 1,
+      "nova_structures:chests/creeping_crypt/vault_creeping": 2,
+      "nova_structures:chests/lone_citadel/c_library": 1,
+      "nova_structures:chests/lone_citadel/c_vault": 2,
+      "nova_structures:chests/lone_citadel/c_vault_boss": 2,
+      "nova_structures:chests/shrine/combat_treasure_4": 2,
+      "nova_structures:chests/shrine/combat_treasure_5": 3,
+      "nova_structures:chests/shrine/vault_shrine_ominous": 2,
+      "nova_structures:chests/toxic_lair/toxic_ominous_vault": 2,
+      "nova_structures:chests/witch_villa/library": 1,
+      "nova_structures:chests/bunker_altar": 1,
+      "nova_structures:chests/stray_fort/stray_fort_library": 1,
+      "nova_structures:chests/cave_chambers/cave_chamber_grave": 1,
+      "nova_structures:chests/cave_chambers/cave_chamber_dungeon_vault": 2,
+      "minecraft:chests/illager_mansion/vindicator_chest": 1,
+      "minecraft:chests/ancient_city_center": 2,
+      "nova_structures:chests/jungle_temple_treasure": 1,
+      "nova_structures:chests/mansion_overhaul/mansion_overhaul_generic": 2,
+      "nova_structures:chests/stronghold/altar": 1,
+      "nova_structures:chests/surface_dungeon/vault_loot": 1
+    }
+  },
+  {
+    "resource": "data/lootintegrations/loot/loot_dnt_nether.json",
+    "jar": "lootintegrations_dnt-2.7.jar",
+    "donor": "lootintegrations:chests/nether",
+    "recipients": {
+      "nova_structures:chests/nether_keep/fortress_overhaul_loot": 2,
+      "nova_structures:chests/nether_keep/vault_keep": 2,
+      "nova_structures:chests/nether_keep/vault_keep_generic": 1,
+      "nova_structures:equipment/nether_keep/equipment_keep": 1,
+      "nova_structures:pots/pot_nether_skeleton": 1,
+      "nova_structures:chests/end_castle/castle_brewing": 1,
+      "nova_structures:chests/hamlet/hamlet_tresure": 2,
+      "nova_structures:chests/nether_port/nether_port_chest": 1,
+      "nova_structures:chests/nether_skeleton_tower/skeleton_tower_camp": 1,
+      "nova_structures:chests/nether_skeleton_tower/skeleton_tower_chest": 2,
+      "nova_structures:chests/piglin_camp/chest": 1,
+      "nova_structures:chests/piglin_donjon/donjon_generic": 1,
+      "nova_structures:chests/piglin_donjon/vault_piglin_donjon": 3,
+      "nova_structures:chests/piglin_outstation/outstation_generic": 1,
+      "nova_structures:chests/piglin_outstation/outstation_tower": 2,
+      "nova_structures:chests/piglin_outstation/outstation_treasure": 3,
+      "nova_structures:chests/piglin_outstation/vault_piglin_outstation": 2,
+      "minecraft:chests/nether_fortress/fort_inside": 2,
+      "minecraft:chests/nether_fortress/fort_inside_generic": 1,
+      "nova_structures:chests/nether_port/nether_port_vault": 1,
+      "nova_structures:chests/nether_port/nether_port_vault_chart": 1,
+      "nova_structures:chests/nether_tower/nether_tower_lesser": 1,
+      "nova_structures:chests/nether_tower/nether_tower_chart_chest": 1,
+      "nova_structures:chests/nether_tower/nether_warped_tower_chart_lesser": 1,
+      "nova_structures:chests/nether_tower/nether_soul_tower_chart_lesser": 1,
+      "nova_structures:chests/nether_tower/nether_fort_tower_chart_lesser": 1,
+      "nova_structures:chests/nether_tower/nether_crimson_tower_chart_lesser": 1,
+      "nova_structures:chests/sealing_halls/vault": 1,
+      "nova_structures:chests/sealing_halls/vault_boss": 2,
+      "nova_structures:chests/sealing_halls/vault_ominous": 3,
+      "minecraft:chests/stronghold/nether_portal": 1,
+      "nova_structures:chests/nether_fortress_overhaul/fortress_overhaul": 1
+    }
+  },
+  {
+    "resource": "data/lootintegrations/loot/loot_dnt_village.json",
+    "jar": "lootintegrations_dnt-2.7.jar",
+    "donor": "lootintegrations:chests/village",
+    "recipients": {
+      "nova_structures:chests/ancient_city_ice_box": 2,
+      "nova_structures:chests/end_castle/castle_bar": 1,
+      "nova_structures:chests/end_castle/supply": 2,
+      "nova_structures:chests/end_lighthouse/supply_lighthouse": 2,
+      "nova_structures:chests/food_supply": 2,
+      "nova_structures:chests/illager_hideout_meat": 2,
+      "nova_structures:chests/illager_hideout_random": 1,
+      "nova_structures:chests/illager_hideout_utility": 1,
+      "nova_structures:chests/illager_hideout_vegitarian": 1,
+      "nova_structures:chests/mining_supply": 1,
+      "nova_structures:chests/pillager_outpost_kitchen": 1,
+      "nova_structures:pots/pot_illager_manor": 1,
+      "nova_structures:chests/badland_miner_outpost": 2,
+      "nova_structures:chests/badland_miner_outpost_forge": 2,
+      "nova_structures:chests/badland_miner_outpost_towers": 2,
+      "nova_structures:chests/hamlet/hamlet": 1,
+      "nova_structures:chests/lone_citadel/c_cold_barrel": 1,
+      "nova_structures:chests/lone_citadel/c_forge": 2,
+      "nova_structures:chests/lone_citadel/c_supply": 2,
+      "nova_structures:chests/nether_port/nether_port_supplies": 1,
+      "nova_structures:chests/nether_skeleton_tower/skeleton_tower_supply": 2,
+      "nova_structures:chests/toxic_lair/kitchen": 2,
+      "nova_structures:chests/village/village_birch_house": 2,
+      "nova_structures:chests/village/village_dappled_house": 2,
+      "nova_structures:chests/witch_villa/bedroom": 2,
+      "nova_structures:chests/witch_villa/dirty_clothes": 2,
+      "nova_structures:chests/witch_villa/gardening": 2,
+      "nova_structures:chests/witch_villa/general_storage": 2,
+      "nova_structures:chests/witch_villa/kitchen": 2,
+      "nova_structures:chests/witch_villa/lab": 2,
+      "nova_structures:chests/witch_villa/slime_room": 2,
+      "nova_structures:chests/firewatch_tower": 2,
+      "nova_structures:chests/pale_residence/town_chest": 2,
+      "nova_structures:chests/stray_fort/stray_fort_village": 1,
+      "minecraft:chests/illager_mansion/generic": 1,
+      "minecraft:chests/illager_mansion/kitchen": 1,
+      "minecraft:chests/illager_mansion/ravager_chest": 1,
+      "minecraft:chests/village/village_jungle_house": 1,
+      "minecraft:chests/village/village_swamp_house": 1,
+      "nova_structures:chests/skeleton_camp/base": 1,
+      "nova_structures:chests/skeleton_camp/camp_bogged": 1,
+      "nova_structures:chests/skeleton_camp/camp_parched": 1,
+      "nova_structures:chests/skeleton_camp/camp_stray": 1,
+      "nova_structures:chests/mansion_overhaul/supply": 1,
+      "nova_structures:chests/stronghold/supplies": 1
+    }
+  },
+  {
+    "resource": "data/lootintegrations/loot/loot_dnt_water.json",
+    "jar": "lootintegrations_dnt-2.7.jar",
+    "donor": "lootintegrations:chests/water",
+    "recipients": {
+      "nova_structures:chests/trident_trial_monument/ttm_boss_vault_heart": 1,
+      "nova_structures:chests/trident_trial_monument/ttm_boss_vault_trident": 1,
+      "nova_structures:chests/trident_trial_monument/ttm_common_vault": 1,
+      "nova_structures:equipment/trident_trial_monument/equipment_trident_trial_monument": 1,
+      "nova_structures:chests/illager_hideout_fishing": 1,
+      "nova_structures:chests/water_supply": 1,
+      "nova_structures:chests/conduit_ruin/conduit_ruin_big": 2,
+      "nova_structures:chests/conduit_ruin/conduit_ruin_main": 2,
+      "nova_structures:chests/conduit_ruin/conduit_ruin_small": 1,
+      "nova_structures:chests/ocean_monument/greater_treasure": 3,
+      "nova_structures:chests/ocean_monument/lesser_treasure": 1,
+      "nova_structures:chests/ocean_monument/trident_treasure": 1
+    }
+  },
+  {
+    "resource": "data/lootintegrations/loot/loot_moog_easy.json",
+    "jar": "lootintegrations_moog-2.2.jar",
+    "donor": "lootintegrations:chests/easy",
+    "recipients": {
+      "mvs:cathedral_rare": 1,
+      "mvs:houses_rare": 1,
+      "mvs:pillager": 2,
+      "mvs:swamps": 1,
+      "mss:cathedral_rare": 1,
+      "mss:houses_rare": 1,
+      "mss:pillager": 2,
+      "mss:swamps": 1,
+      "mes:cathedral_rare": 1,
+      "mes:houses_rare": 1,
+      "mes:swamps": 1,
+      "mtr:desert_temple_lower_chamber": 1,
+      "mtr:desert_temple_wall_chest": 1,
+      "mtr:jungle_temple_corridor": 1,
+      "mtr:jungle_temple_crypt_barrel_full": 1,
+      "mtr:jungle_temple_crypt_chest": 2,
+      "mtr:jungle_temple_main_common": 1,
+      "mtr:badlands_temple_rare": 2,
+      "mtr:stronghold_barracks_chest": 1,
+      "mtr:stronghold_corridor_common": 1,
+      "mtr:stronghold_library_trapped_chest": 1,
+      "mtr:stronghold_mossy_special": 1,
+      "mbs:abandoned_camp_light_gray": 1,
+      "mbs:base_loot_towers": 1,
+      "mbs:cobweb_stilt_house": 1,
+      "mbs:common_loot": 1,
+      "mbs:dead_tree": 1,
+      "mbs:general_rare": 3,
+      "mbs:general_uncommon": 1,
+      "mbs:lodestone_circle": 1,
+      "mbs:miners_camp_rare": 1,
+      "mbs:mini_watch_tower": 1,
+      "mbs:pirate_stash": 1,
+      "mbs:spammable_looties": 1,
+      "mtr:nether_temple_common": 1,
+      "mss:arena_dungeon_chest": 2,
+      "mss:arena_amethyst_cove": 1,
+      "mmr:desert_mineshaft/gold_cart": 1,
+      "mmr:desert_mineshaft/miner_chest_3": 1,
+      "mmr:desert_mineshaft/treasure": 3,
+      "mmr:desert_mineshaft/treasure_3": 1,
+      "mmr:desert_mineshaft/vault": 1,
+      "mmr:desert_mineshaft/treasure_2": 2,
+      "mmr:jungle_mineshaft/gold_cart": 1,
+      "mmr:jungle_mineshaft/miner_chest_3": 1,
+      "mmr:jungle_mineshaft/treasure": 3,
+      "mmr:jungle_mineshaft/treasure_3": 1,
+      "mmr:jungle_mineshaft/vault": 1,
+      "mmr:jungle_mineshaft/treasure_2": 2,
+      "mmr:mesa_mineshaft/miner_chest_3": 1,
+      "mmr:mesa_mineshaft/treasure": 3,
+      "mmr:mesa_mineshaft/treasure_3": 1,
+      "mmr:mesa_mineshaft/treasure_2": 1,
+      "mmr:mineshaft/common": 1,
+      "mmr:snowy_mineshaft/miner_chest_3": 1,
+      "mmr:snowy_mineshaft/treasure": 3,
+      "mmr:snowy_mineshaft/treasure_3": 1,
+      "mmr:snowy_mineshaft/treasure_2": 2,
+      "mns:chests/small_arena/gold_treasure": 1,
+      "mns:chests/small_arena/mid": 1,
+      "mns:chests/mega_fortress/intact_gold_treasure": 1,
+      "mos:skeleton/dragon_gut": 1,
+      "mos:ships/sunken_cabin": 1,
+      "mos:ruins/castle_treasure": 1,
+      "mos:portal_archway/wreck_hold": 1,
+      "mos:portal_archway/portal_treasure": 1,
+      "mos:houses/ruined_rare": 1
+    }
+  },
+  {
+    "resource": "data/lootintegrations/loot/loot_moog_hard.json",
+    "jar": "lootintegrations_moog-2.2.jar",
+    "donor": "lootintegrations:chests/hard",
+    "recipients": {
+      "mes:mega_ship_barrel": 1,
+      "mes:mega_ship_crate": 1,
+      "mes:mega_ship_treasure": 3,
+      "mes:end_rare": 2,
+      "mes:end_uncommon": 1
+    }
+  },
+  {
+    "resource": "data/lootintegrations/loot/loot_moog_medium.json",
+    "jar": "lootintegrations_moog-2.2.jar",
+    "donor": "lootintegrations:chests/medium",
+    "recipients": {
+      "mvs:rare": 2,
+      "mvs:mineshaft/rare": 2,
+      "mvs:red_tower/treasure": 1,
+      "mss:arena": 2,
+      "mss:arena_mossy_hallway_chest": 2,
+      "mss:rare": 2,
+      "mtr:desert_temple_crypt_chest": 2,
+      "mtr:desert_temple_pillar_chest": 2,
+      "mtr:jungle_temple_lava_chamber": 2,
+      "mtr:jungle_temple_main_double": 1,
+      "mtr:jungle_temple_puzzle_treasure": 1,
+      "mtr:stronghold_corridor_rare": 2,
+      "mtr:stronghold_corridor_uncommon": 1,
+      "mmr:desert_mineshaft/vault_ominous": 2,
+      "mmr:jungle_mineshaft/vault_ominous": 1,
+      "mmr:mineshaft/rare": 2,
+      "mos:ships/travel_ship_quarters": 1,
+      "mos:ships/travel_ship_captain": 2,
+      "mos:ships/sunken_captain": 1
+    }
+  },
+  {
+    "resource": "data/lootintegrations/loot/loot_moog_nether.json",
+    "jar": "lootintegrations_moog-2.2.jar",
+    "donor": "lootintegrations:chests/nether",
+    "recipients": {
+      "mns:houses": 1,
+      "mns:chests/houses": 1,
+      "mns:treasure": 2,
+      "mns:chests/treasure": 2,
+      "mns:uncommon": 1,
+      "mns:chests/uncommon": 1,
+      "mns:vaults/dragon_arena/main": 2,
+      "mns:vaults/dragon_arena/main_ominous": 3,
+      "mns:vaults/large_arena/main": 2,
+      "mns:vaults/large_arena/main_ominous": 3,
+      "mns:chests/dragon_arena/epic": 3,
+      "mns:chests/dragon_arena/mid": 2,
+      "mns:chests/large_arena/treasure": 3,
+      "mns:chests/large_arena/common": 1,
+      "mns:chests/mega_fortress/intact_uncommon": 1,
+      "mns:chests/mega_fortress/intact_treasure": 2,
+      "mns:chests/mega_fortress/intact_base": 1,
+      "mns:chests/mega_fortress/ravaged_treasure": 3,
+      "mns:chests/mega_fortress/ruined": 1,
+      "mns:chests/mega_fortress/ravaged": 1,
+      "mns:chests/mega_fortress/intact": 1,
+      "mns:chests/mega_fortress/intact_library": 1,
+      "mns:chests/small_arena/rare": 1,
+      "mbs:base_nether_tower": 1,
+      "mbs:common_loot_nether_halls": 1,
+      "mbs:higher_quality_loot": 3,
+      "mbs:ruined_nether_fortress": 2,
+      "mtr:nether_temple_rare": 2,
+      "mtr:nether_temple_uncommon": 2,
+      "mmr:nether_mineshaft/gold_cart": 1,
+      "mmr:nether_mineshaft/miner_chest_3": 1,
+      "mmr:nether_mineshaft/treasure": 3,
+      "mmr:nether_mineshaft/treasure_3": 1,
+      "mmr:nether_mineshaft/treasure_2": 1
+    }
+  },
+  {
+    "resource": "data/lootintegrations/loot/loot_moog_village.json",
+    "jar": "lootintegrations_moog-2.2.jar",
+    "donor": "lootintegrations:chests/village",
+    "recipients": {
+      "mvs:abandoned": 1,
+      "mvs:cart": 1,
+      "mvs:cartographer_tower": 1,
+      "mvs:cathedral_base": 1,
+      "mvs:cathedral_common": 1,
+      "mvs:crystal": 1,
+      "mvs:floating_islands": 1,
+      "mvs:general": 1,
+      "mvs:houses_books": 1,
+      "mvs:houses_common": 1,
+      "mvs:houses_desert": 1,
+      "mvs:houses_flower": 1,
+      "mvs:houses_uncommon": 1,
+      "mvs:jungle_tower": 1,
+      "mvs:large_carts": 1,
+      "mvs:large_carts_2": 1,
+      "mvs:mushroom_pond": 1,
+      "mvs:red_tower/uncommon": 1,
+      "mvs:red_tower/common": 1,
+      "mvs:stable": 1,
+      "mss:abandoned": 1,
+      "mss:cart": 1,
+      "mss:cartographer_tower": 1,
+      "mss:cathedral_base": 1,
+      "mss:cathedral_common": 1,
+      "mss:crystal": 1,
+      "mss:floating_islands": 1,
+      "mss:general": 1,
+      "mss:houses_books": 1,
+      "mss:houses_common": 1,
+      "mss:houses_desert": 1,
+      "mss:houses_flower": 1,
+      "mss:houses_uncommon": 1,
+      "mss:jungle_tower": 1,
+      "mss:large_carts": 1,
+      "mss:large_carts_2": 1,
+      "mss:mushroom_pond": 1,
+      "mes:abandoned": 1,
+      "mes:cart": 1,
+      "mes:cartographer_tower": 1,
+      "mes:cathedral_base": 1,
+      "mes:cathedral_common": 1,
+      "mes:crystal": 1,
+      "mes:floating_islands": 1,
+      "mes:general": 1,
+      "mes:houses_books": 1,
+      "mes:houses_common": 1,
+      "mes:houses_desert": 1,
+      "mes:houses_flower": 1,
+      "mes:houses_uncommon": 1,
+      "mes:jungle_tower": 1,
+      "mes:large_carts": 1,
+      "mes:large_carts_2": 1,
+      "mes:mushroom_pond": 1,
+      "mes:end_common": 1,
+      "mmv:village_jungle_house": 2,
+      "mmv:village_swamp_house": 2,
+      "mmv:village_dark_oak_librarian": 1,
+      "mmv:village_dark_oak_cartographer": 1,
+      "mmv:village_dark_oak_church": 1,
+      "mmv:village_dark_oak_blacksmith": 1,
+      "mmv:village_dark_oak_house": 1,
+      "mmv:village_dark_oak_farm": 1,
+      "mmv:village_dark_oak_archer": 1,
+      "mbs:abandoned_house": 2,
+      "mbs:general_common": 2,
+      "mbs:jungle_pine_cart": 1,
+      "mbs:miners_camp_common": 1,
+      "mtr:badlands_temple_common": 1,
+      "mvs:mineshaft/uncommon": 1,
+      "mmr:desert_mineshaft/supply_barrel": 1,
+      "mmr:desert_mineshaft/supply_barrel_3": 1,
+      "mmr:desert_mineshaft/miner_chest": 1,
+      "mmr:desert_mineshaft/miner_chest_2": 1,
+      "mmr:desert_mineshaft/supply_barrel_2": 1,
+      "mmr:jungle_mineshaft/supply_barrel": 1,
+      "mmr:jungle_mineshaft/supply_barrel_3": 1,
+      "mmr:jungle_mineshaft/miner_chest": 1,
+      "mmr:jungle_mineshaft/supply_barrel_2": 1,
+      "mmr:jungle_mineshaft/furnace_chest": 1,
+      "mmr:jungle_mineshaft/miner_chest_2": 1,
+      "mmr:mesa_mineshaft/supply_barrel": 1,
+      "mmr:mesa_mineshaft/supply_barrel_3": 1,
+      "mmr:mesa_mineshaft/miner_chest": 1,
+      "mmr:mesa_mineshaft/supply_barrel_2": 1,
+      "mmr:mesa_mineshaft/miner_chest_2": 1,
+      "mmr:mineshaft/common": 1,
+      "mmr:mineshaft/uncommon": 1,
+      "mmr:nether_mineshaft/supply_barrel": 1,
+      "mmr:nether_mineshaft/supply_barrel_3": 1,
+      "mmr:nether_mineshaft/miner_chest": 1,
+      "mmr:nether_mineshaft/supply_barrel_2": 1,
+      "mmr:nether_mineshaft/miner_chest_2": 1,
+      "mmr:snowy_mineshaft/supply_barrel": 1,
+      "mmr:snowy_mineshaft/start_piece": 1,
+      "mmr:snowy_mineshaft/supply_barrel_3": 1,
+      "mmr:snowy_mineshaft/miner_chest": 1,
+      "mmr:snowy_mineshaft/supply_barrel_2": 1,
+      "mmr:snowy_mineshaft/miner_chest_2": 1,
+      "mos:ships/travel_ship_hold": 1,
+      "mos:ships/travel_ship_cargo": 1,
+      "mos:ships/sunken_hold": 1,
+      "mos:ships/small_ship_stores": 1,
+      "mos:ships/shipwreck_spruce": 1,
+      "mos:ships/shipwreck_oak": 1,
+      "mos:ships/shipwreck_dark_oak": 1,
+      "mos:ships/docked_cargo": 1,
+      "mos:ruins/castle_common": 1,
+      "mos:rafts/wanderer_valuables": 1,
+      "mos:portal_archway/tree_camp": 1,
+      "mos:houses/ruined_common": 1,
+      "mos:church/church_sacristy": 1
+    }
+  },
+  {
+    "resource": "data/lootintegrations/loot/loot_moog_water.json",
+    "jar": "lootintegrations_moog-2.2.jar",
+    "donor": "lootintegrations:chests/water",
+    "recipients": {
+      "mtr:ocean_temple_treasure": 2,
+      "mvs:ocean_tower/treasure": 1,
+      "mos:vaults/atlantis_tribune/main_ominous": 1,
+      "mos:vaults/atlantis_tribune/main": 1,
+      "mos:treasure/buried_treasure_1": 1,
+      "mos:temple/temple_inner": 1,
+      "mos:skeleton/dragon_hoard": 1,
+      "mos:houses/atlantis_ultra_rare": 2,
+      "mos:houses/atlantis_rare": 1
+    }
+  },
+  {
+    "resource": "data/lootintegrations/loot/yung_dungeonloot_easy.json",
+    "jar": "lootintegrations_yungs-1.6.jar",
+    "donor": "lootintegrations:chests/easy",
+    "recipients": {
+      "betterdeserttemples:chests/lab": 3,
+      "betterdeserttemples:chests/storage": 2,
+      "betterdeserttemples:chests/tomb": 2,
+      "betterdeserttemples:chests/wardrobe": 1,
+      "betterdungeons:skeleton_dungeon/chests/common": 1,
+      "betterdungeons:skeleton_dungeon/chests/middle": 2,
+      "betterdungeons:spider_dungeon/chests/egg_room": 3,
+      "betterdungeons:zombie_dungeon/chests/common": 1,
+      "betterdungeons:zombie_dungeon/chests/tombstone": 1,
+      "betterjungletemples:chests/campsite": 1,
+      "betterfortresses:chests/beacon": 3,
+      "betterfortresses:chests/keep": 1,
+      "betterstrongholds:chests/common": 1,
+      "betterstrongholds:chests/armoury": 3,
+      "betterstrongholds:chests/crypt": 2,
+      "betterstrongholds:chests/prison_lg": 2,
+      "betterstrongholds:chests/trap": 1,
+      "betterwitchhuts:chests/hut_0": 2,
+      "yungsextras:desert/ruins": 1
+    }
+  },
+  {
+    "resource": "data/lootintegrations/loot/yung_dungeonloot_medium.json",
+    "jar": "lootintegrations_yungs-1.6.jar",
+    "donor": "lootintegrations:chests/medium",
+    "recipients": {
+      "betterdeserttemples:chests/library": 2,
+      "betterdeserttemples:chests/pharaoh_hidden": 2,
+      "betterdeserttemples:chests/tomb_pharaoh": 2,
+      "betterdungeons:zombie_dungeon/chests/special": 2,
+      "betterstrongholds:chests/treasure": 2,
+      "betterstrongholds:chests/grand_library": 2,
+      "betterjungletemples:chests/treasure": 2
+    }
+  },
+  {
+    "resource": "data/lootintegrations/loot/yung_dungeonloot_nether.json",
+    "jar": "lootintegrations_yungs-1.6.jar",
+    "donor": "lootintegrations:chests/nether",
+    "recipients": {
+      "betterdungeons:small_nether_dungeon/chests/common": 2,
+      "betterfortresses:chests/extra": 2,
+      "betterfortresses:chests/obsidian": 3,
+      "betterfortresses:chests/puzzle": 3,
+      "betterfortresses:chests/hall": 3,
+      "betterfortresses:chests/quarters": 1,
+      "betterfortresses:chests/storage": 1,
+      "betterfortresses:chests/worship": 1
+    }
+  },
+  {
+    "resource": "data/lootintegrations/loot/yung_dungeonloot_water.json",
+    "jar": "lootintegrations_yungs-1.6.jar",
+    "donor": "lootintegrations:chests/water",
+    "recipients": {
+      "betteroceanmonuments:chests/upper_side_chamber": 3
+    }
+  },
+  {
+    "resource": "data/lootintegrations/loot/yung_villageloot_house.json",
+    "jar": "lootintegrations_yungs-1.6.jar",
+    "donor": "lootintegrations:chests/village",
+    "recipients": {
+      "betterdeserttemples:chests/food_storage": 1,
+      "betterstrongholds:chests/mess": 1,
+      "betterwitchhuts:chests/hut_0": 3,
+      "yungsextras:desert/ruins": 1,
+      "betterdungeons:small_dungeon/chests/loot_piles": 1,
+      "yungsextras:desert/chillzone": 1
+    }
+  }
+]

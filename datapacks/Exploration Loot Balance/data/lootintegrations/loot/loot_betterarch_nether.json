@@ -1,0 +1,5 @@
+{
+  "loot_table": "lootintegrations:chests/nether",
+  "max_result_itemcount": 8,
+  "integrated_loot_tables": {}
+}
