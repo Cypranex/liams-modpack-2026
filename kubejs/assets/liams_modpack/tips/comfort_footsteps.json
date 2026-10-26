@@ -1,0 +1,12 @@
+{
+  "type": "tipsmod:simple",
+  "cycle_time": 10000,
+  "text": {
+    "translate": "tip.liams_modpack.comfort_footsteps.text",
+    "with": [
+      {
+        "keybind": "key.presencefootsteps.settings"
+      }
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "tipsmod:simple",
+  "cycle_time": 10000,
+  "text": {
+    "translate": "tip.liams_modpack.comfort_player_tilt.text",
+    "with": [
+      {
+        "keybind": "key.aero_player_tilt.toggle"
+      }
+    ]
+  }
+}

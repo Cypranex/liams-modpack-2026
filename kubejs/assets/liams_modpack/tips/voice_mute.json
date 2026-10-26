@@ -1,0 +1,12 @@
+{
+  "type": "tipsmod:simple",
+  "cycle_time": 10000,
+  "text": {
+    "translate": "tip.liams_modpack.voice_mute.text",
+    "with": [
+      {
+        "keybind": "key.mute_microphone"
+      }
+    ]
+  }
+}

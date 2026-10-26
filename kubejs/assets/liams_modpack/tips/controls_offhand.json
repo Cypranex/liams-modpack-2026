@@ -1,0 +1,12 @@
+{
+  "type": "tipsmod:simple",
+  "cycle_time": 10000,
+  "text": {
+    "translate": "tip.liams_modpack.controls_offhand.text",
+    "with": [
+      {
+        "keybind": "key.swapOffhand"
+      }
+    ]
+  }
+}

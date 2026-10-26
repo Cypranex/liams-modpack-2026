@@ -1,0 +1,15 @@
+{
+  "type": "tipsmod:simple",
+  "cycle_time": 10000,
+  "text": {
+    "translate": "tip.liams_modpack.revive_hold.text",
+    "with": [
+      {
+        "keybind": "key.sneak"
+      },
+      {
+        "keybind": "key.use"
+      }
+    ]
+  }
+}
