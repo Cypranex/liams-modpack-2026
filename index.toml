@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "AGENTS.md"
-hash = "017b7583b529f99b41627eb387fb94165027b37f0ed652bee95cebd47f3a5207"
+hash = "87dd3f198377b2dc6be9f680281eb4d4eb3b0ededb192e664126f74fca499cfc"
 
 [[files]]
 file = "config/aether-common.toml"
@@ -63,6 +63,10 @@ hash = "8876263a73287c1a3b103858d1d1f0d682dc3e224902044697908cbf1f52f56c"
 [[files]]
 file = "config/cumulus_menus-client.toml"
 hash = "63515bffd023b9bfff8f54db7d180f12ec53062255d9e290ed0c3a1ae51450ed"
+
+[[files]]
+file = "config/dungeon_crawl.toml"
+hash = "368b2e9b5adaf1f5459e5acfca588b525e5e60fd403c0aea2086546eb4570ef8"
 
 [[files]]
 file = "config/eclipticseasons-common.toml"
@@ -869,7 +873,7 @@ hash = "987cd6e308c13f5aa6d01b704e0d4d01b5b72be9878febdc36ab40da7fc226d7"
 
 [[files]]
 file = "datapacks/Exploration Loot Balance/README.md"
-hash = "74d2c9964d8d71a6730f0e589a940cdaaf55d569f1b4600654f06564fae43ca7"
+hash = "de725824613114edf209ac770d74646b722a2a1160d80a7033143812fd99e4f3"
 
 [[files]]
 file = "datapacks/Exploration Loot Balance/RESTORE-PITY-PLAN.md"
@@ -881,7 +885,7 @@ hash = "9641489a35a6cf836dbb56ba8ea423d8897a6e4f670c5dffc0665303e48c7caa"
 
 [[files]]
 file = "datapacks/Exploration Loot Balance/coverage-inventory.json"
-hash = "dd02ca38e38c857f2de8be2a6751ddfe8db091ebc9084b0770019ea96c314621"
+hash = "b6a811322288fce2bc8eb0c0b744e15d1e0dff4c7de6f8f7264aa01a1f5199f9"
 
 [[files]]
 file = "datapacks/Exploration Loot Balance/data/irons_spellbooks/loot_modifiers/chest_loot/vanilla_generic_loot_modifier.json"
@@ -905,7 +909,7 @@ hash = "5ddddf3efc3df37275a94c1c60bad7f236495e949eca569cddab61b942f1d31d"
 
 [[files]]
 file = "datapacks/Exploration Loot Balance/data/liams_loot/loot_modifiers/dungeon_discoveries.json"
-hash = "6d20b7ca6b0c29a31be8ee6ab868a3fc250b88c4c6e910e735979fbb8afdc9a3"
+hash = "f2145aa8a635eea09bae16117998efdc56a5e592ae3c949c0e06fca308afb69b"
 
 [[files]]
 file = "datapacks/Exploration Loot Balance/data/liams_loot/loot_modifiers/dungeon_supplies.json"
@@ -961,7 +965,7 @@ hash = "0251bf38410092c43b13baf893664696f1fd953570d38bdb1cecbf195151bce6"
 
 [[files]]
 file = "datapacks/Exploration Loot Balance/data/liams_loot/loot_modifiers/sparse_stores.json"
-hash = "c457170da11c681cd83255a69f4ab365be5fdfdf10eb2b14db55111cbe495c40"
+hash = "e6132916ce7da21fad32621d576a0ecd31073d44ea5aa5aa688afd032dd81b70"
 
 [[files]]
 file = "datapacks/Exploration Loot Balance/data/liams_loot/loot_modifiers/surface_supplies.json"
@@ -1062,6 +1066,18 @@ hash = "146204491db06575f9e735c4cdf0b418eb2653edf62b752454a9e0c80faa6a4d"
 [[files]]
 file = "datapacks/Exploration Loot Balance/data/liams_loot/loot_table/rewards/workshops.json"
 hash = "c47ce78ecff5ffd4b33ca96761a1d78367eb543355ce49ab6c3ad127f2191a60"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/lootintegrations/loot/dungeoncrawl_dungeonloot_easy.json"
+hash = "bbc64f3dc36bbf3c2ac069f23765f709a52319b419e3c33c5512c3d5ce801961"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/lootintegrations/loot/dungeoncrawl_dungeonloot_medium.json"
+hash = "eb6f404ddad8f22e9d1a232f1480c3939d33d6bc34001026afeb223c3ab01a4b"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/lootintegrations/loot/dungeoncrawl_villageloot_house.json"
+hash = "1d529df843d9b78e7530c8a68cdeb4d39577d0b12f9548a5a8dfc0f894cc467f"
 
 [[files]]
 file = "datapacks/Exploration Loot Balance/data/lootintegrations/loot/dungeonloot_no_overflow.json"
@@ -1361,7 +1377,7 @@ hash = "ace0763e6488fa6eb1fd9248b48c3425ef756b0e73991cc50365962ff77d8602"
 
 [[files]]
 file = "datapacks/Exploration Loot Balance/disabled-integrations.json"
-hash = "99cd9dd013dd76e061ceac0459ee28cf1b2c7a83f55d1b6f5add1cd2e3def477"
+hash = "df7fd0a27cdd2ade21156b0548fcd1cce564b80f277fa7a53ed7b2b20046996b"
 
 [[files]]
 file = "datapacks/Exploration Loot Balance/pack.mcmeta"
@@ -1369,7 +1385,7 @@ hash = "8a92e9a8828555b721ab4f9bbd01abe5592afb60734813ce249d4853b20a0694"
 
 [[files]]
 file = "datapacks/Exploration Loot Balance/tuning-reference.json"
-hash = "0d9512c1a7699797d18f5f18ed93dd4240cfa1516f12de49944af6d67c3d91c9"
+hash = "5cf6bd1f4be2e431bb7e07641b58f7c38e42f90ac4f6cf4ee7ba08672fd9a443"
 
 [[files]]
 file = "datapacks/Fangs and Claws Persistent Animals/data/respawninganimals/tags/entity_type/persistent_animals.json"
@@ -2896,6 +2912,46 @@ file = "datapacks/Recipe Restrictions/pack.mcmeta"
 hash = "88e4d580dc2272f401d7562cd5a8545314d4f6067a41b8c04f67898290406148"
 
 [[files]]
+file = "datapacks/Regions Unexplored Worldgen Stall Workaround/README.md"
+hash = "7b8fbc4a647b2db086a7868bd75bc2479d9e736e118457290c8716c0cc574bbe"
+
+[[files]]
+file = "datapacks/Regions Unexplored Worldgen Stall Workaround/data/regions_unexplored/worldgen/placed_feature/patch/ash_vents_inferno.json"
+hash = "7ae7855ff8629a23ee0a7eabb6ea83838db1e4f9902629de0885a09cb3439189"
+
+[[files]]
+file = "datapacks/Regions Unexplored Worldgen Stall Workaround/data/regions_unexplored/worldgen/placed_feature/patch/cave_bioshrooms.json"
+hash = "7336b8677d480a02ae60d9a6f94f8f470e21f213c9fa1ad3c749d4960a2456c6"
+
+[[files]]
+file = "datapacks/Regions Unexplored Worldgen Stall Workaround/data/regions_unexplored/worldgen/placed_feature/patch/dropleaf.json"
+hash = "e255cd0c8ddcc28194697faf73565c7a516112b87628abc2b757aff88234d07e"
+
+[[files]]
+file = "datapacks/Regions Unexplored Worldgen Stall Workaround/data/regions_unexplored/worldgen/placed_feature/patch/prismarite_cluster.json"
+hash = "71a24712db144f4eade60ff39a20f24d862e1e76c7471458070e8c8ba97e66e8"
+
+[[files]]
+file = "datapacks/Regions Unexplored Worldgen Stall Workaround/data/regions_unexplored/worldgen/placed_feature/patch/redstone_bud.json"
+hash = "bc34155683cdf5ccea24087b3b2ab1f9a45e13351d2b27b20345408002718b7d"
+
+[[files]]
+file = "datapacks/Regions Unexplored Worldgen Stall Workaround/data/regions_unexplored/worldgen/placed_feature/patch/redstone_bulb.json"
+hash = "dbfec59bbd286579365993525fedab2717e4ea0878955ef33151cb20c0dcbea0"
+
+[[files]]
+file = "datapacks/Regions Unexplored Worldgen Stall Workaround/data/regions_unexplored/worldgen/placed_feature/special/lava_fall.json"
+hash = "837a9b6ce92a2e88c8776d66516eebfaac20d231867083b373483bfca8afe15d"
+
+[[files]]
+file = "datapacks/Regions Unexplored Worldgen Stall Workaround/data/regions_unexplored/worldgen/placed_feature/special/overworld_lava_delta.json"
+hash = "b1d2b256200fc3d57d9c199093e0a3a6eb09d66fc7d3a2e5e844d67f595dcd91"
+
+[[files]]
+file = "datapacks/Regions Unexplored Worldgen Stall Workaround/pack.mcmeta"
+hash = "bba76eb2d756186bcfbe8a7b905fda6bae4ee55aadcf99a756e597a619354711"
+
+[[files]]
 file = "kubejs/assets/bountiful/lang/en_us.json"
 hash = "78630829ab1989328d59f835f46549fc29898a46df77bb4268e98389f92d56fc"
 
@@ -3429,7 +3485,7 @@ hash = "fd66dab44fe0e4e84ca05f3833f09b95097a6f2b50a4290741f3426133cfdef5"
 
 [[files]]
 file = "kubejs/server_scripts/exploration_loot_balance.js"
-hash = "47d6bcdbc01426ca10d0c2dc9c59619d9d9a12f9d0e1271cf6129e74a220989e"
+hash = "1300a3822c752053dde68bef2b646c88eb9b227046c7c989f33be88fc9898712"
 
 [[files]]
 file = "kubejs/server_scripts/fantasy_armor_boss_recipes.js"
@@ -3818,6 +3874,11 @@ hash = "c84acef6e82b28905866cb2769d81f40f50ff932c76894b5269ae2137f88850d"
 [[files]]
 file = "mods/dtru-1.1.2-patched.jar"
 hash = "8997b46d118c541ec8fe3bec87aa0e080bf8e36722c9ed2bfb5600e1ab24a16f"
+
+[[files]]
+file = "mods/dungeoncrawl.pw.toml"
+hash = "ea9aa01bef9a96106305fb131a39311e0acd7682ed863e8814cf1cfd5403ac88"
+metafile = true
 
 [[files]]
 file = "mods/dungeons-and-taverns.pw.toml"
@@ -4274,6 +4335,10 @@ file = "mods/liams-corpse-expiry-fix-1.1.0.jar"
 hash = "0abf90fc3cfb13acf7f1550d67a2c99b69698b300c30b02ae1c94ba6f89d3649"
 
 [[files]]
+file = "mods/liams-dungeon-crawl-compat-1.0.0.jar"
+hash = "dc6eb7afde7f07301d5ce0a071a3371171c3f5b62197aea80cfef485f5573a43"
+
+[[files]]
 file = "mods/liams-native-ore-placement-1.0.1.jar"
 hash = "fabf2e6db29510739d8dc6885ac6e4f5036930e023edc929eaf3d839753df140"
 
@@ -4323,6 +4388,11 @@ metafile = true
 [[files]]
 file = "mods/loot-integrations-choicetheorems-overhauled.pw.toml"
 hash = "8a73aa3c594e5dbdfde6d7aa9cda49ab81af358df6f218c8667c9916398e98b4"
+metafile = true
+
+[[files]]
+file = "mods/loot-integrations-dungeon-crawl.pw.toml"
+hash = "d6218f2ba3a5f0c3df7568950defca4acc0ab04ab6accaf31ac987fdee850865"
 metafile = true
 
 [[files]]
