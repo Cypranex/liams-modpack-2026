@@ -1,0 +1,7 @@
+{
+  "type": "tipsmod:simple",
+  "cycle_time": 10000,
+  "text": {
+    "translate": "tip.liams_modpack.building_vertical_slabs.text"
+  }
+}

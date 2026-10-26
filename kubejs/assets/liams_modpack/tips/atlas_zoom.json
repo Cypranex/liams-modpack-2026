@@ -1,0 +1,15 @@
+{
+  "type": "tipsmod:simple",
+  "cycle_time": 10000,
+  "text": {
+    "translate": "tip.liams_modpack.atlas_zoom.text",
+    "with": [
+      {
+        "keybind": "key.map_atlases.zoom_in_minimap"
+      },
+      {
+        "keybind": "key.map_atlases.zoom_out_minimap"
+      }
+    ]
+  }
+}
