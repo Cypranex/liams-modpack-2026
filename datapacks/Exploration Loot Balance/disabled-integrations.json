@@ -1131,5 +1131,37 @@
       "betterdungeons:small_dungeon/chests/loot_piles": 1,
       "yungsextras:desert/chillzone": 1
     }
+  },
+  {
+    "resource": "data/lootintegrations/loot/dungeoncrawl_dungeonloot_easy.json",
+    "jar": "lootintegrations_dungeoncrawl-1.3.jar",
+    "donor": "lootintegrations:chests/easy",
+    "recipients": {
+      "dungeoncrawl:chests/forge": 2,
+      "dungeoncrawl:chests/secret_room": 2,
+      "dungeoncrawl:chests/stage_1": 1,
+      "dungeoncrawl:chests/stage_2": 3
+    }
+  },
+  {
+    "resource": "data/lootintegrations/loot/dungeoncrawl_dungeonloot_medium.json",
+    "jar": "lootintegrations_dungeoncrawl-1.3.jar",
+    "donor": "lootintegrations:chests/medium",
+    "recipients": {
+      "dungeoncrawl:chests/library": 1,
+      "dungeoncrawl:chests/stage_3": 1,
+      "dungeoncrawl:chests/stage_4": 2,
+      "dungeoncrawl:chests/stage_5": 3,
+      "dungeoncrawl:chests/treasure": 3
+    }
+  },
+  {
+    "resource": "data/lootintegrations/loot/dungeoncrawl_villageloot_house.json",
+    "jar": "lootintegrations_dungeoncrawl-1.3.jar",
+    "donor": "lootintegrations:chests/village",
+    "recipients": {
+      "dungeoncrawl:chests/food": 2,
+      "dungeoncrawl:chests/supply": 2
+    }
   }
 ]

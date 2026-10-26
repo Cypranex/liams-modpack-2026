@@ -54,7 +54,48 @@ LootJS.lootTables(event => {
   required('chalk:chests/village_chalks').getPool(0).rolls(1).when(c => c.randomChance(0.08))
   // The curated desert-pyramid discovery pool already supplies regular chalk: one source.
   required('chalk:chests/desert_pyramid_chalks').getPool(0).rolls(0)
-  console.info('Exploration loot: applied audited native pool tuning')
+  // Dungeon Crawl 2.3.17: dense 5–8-floor structures, not one valuable bonus per room.
+  const dcRegistry = Java.loadClass('net.minecraft.core.registries.BuiltInRegistries')
+  const dcLocation = Java.loadClass('net.minecraft.resources.ResourceLocation')
+  const dcRandomItemFunction = dcRegistry.LOOT_FUNCTION_TYPE.get(dcLocation.parse('dungeoncrawl:random_item'))
+  const dcFlimsy = dcRegistry.ITEM.get(dcLocation.parse('flimsytorches:flimsy_torch'))
+  function dcEntries(table, gearGate, goldCount) {
+    table.replaceItem('minecraft:torch', dcFlimsy)
+    table.modifyItemEntry(entry => {
+      const id = String(dcRegistry.ITEM.getKey(entry.getItem()))
+      if (id === 'minecraft:book' && entry.getFunctions().contains(dcRegistry.LOOT_FUNCTION_TYPE.get(dcLocation.parse('minecraft:enchant_with_levels')))) {
+        entry.when(c => c.randomChance(0.2))
+      }
+      // The native AIR entry is an actual equipment generator, not an empty reward.
+      const generatedGear = entry.getFunctions().contains(dcRandomItemFunction)
+      if (generatedGear || /^minecraft:golden_(helmet|chestplate|leggings|boots)$/.test(id)) {
+        entry.when(c => c.randomChance(gearGate))
+      }
+      if (goldCount && id === 'minecraft:gold_ingot') entry.setCount([2, 6])
+      return entry
+    })
+  }
+  for (let stage = 1; stage <= 5; stage++) {
+    var dcStageTable = required('dungeoncrawl:chests/stage_' + stage)
+    dcStageTable.getPool(0).rolls([2, 4])
+    dcEntries(dcStageTable, 0.15, false)
+  }
+  required('dungeoncrawl:chests/food').getPool(0).rolls([3, 5])
+  const dcSupply = required('dungeoncrawl:chests/supply')
+  dcSupply.getPool(0).rolls(1).when(c => c.randomChance(0.2))
+  dcSupply.getPool(3).rolls([3, 5])
+  // Supply gear has a single outer gate; do not apply a second equipment gate.
+  dcSupply.replaceItem('minecraft:torch', dcFlimsy)
+  dcSupply.getPool(3).modifyItemEntry(entry => {
+    if (String(dcRegistry.ITEM.getKey(entry.getItem())) === 'minecraft:book') entry.when(c => c.randomChance(0.2))
+    return entry
+  })
+  required('dungeoncrawl:chests/secret_room').getPool(0).rolls([2, 4])
+  const dcTreasure = required('dungeoncrawl:chests/treasure')
+  dcTreasure.removeItem('minecraft:enchanted_golden_apple')
+  dcTreasure.getPool(0).rolls([3, 4])
+  dcEntries(dcTreasure, 0.2, true)
+  console.info('Exploration loot: applied audited native pool tuning, including Dungeon Crawl')
 })
 
 // Post-NeoForge guard for the generation dimension, including native mod injections.

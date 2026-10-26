@@ -99,6 +99,38 @@
         {
           "condition": "neoforge:loot_table_id",
           "loot_table_id": "structory:harvest/old_manor/common"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "dungeoncrawl:chests/stage_1"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "dungeoncrawl:chests/stage_2"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "dungeoncrawl:chests/stage_3"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "dungeoncrawl:chests/stage_4"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "dungeoncrawl:chests/stage_5"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "dungeoncrawl:chests/food"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "dungeoncrawl:chests/supply"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "dungeoncrawl:chests/secret_room"
         }
       ]
     }

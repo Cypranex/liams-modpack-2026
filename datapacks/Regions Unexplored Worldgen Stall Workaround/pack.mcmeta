@@ -1,0 +1,6 @@
+{
+  "pack": {
+    "pack_format": 48,
+    "description": "Avoid Regions Unexplored feature-generation stalls caused by Lithostitched structure checks"
+  }
+}
