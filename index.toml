@@ -266,7 +266,7 @@ metafile = true
 
 [[files]]
 file = "config/paxi/resourcepacks/punchy-compatibility.pw.toml"
-hash = "33d1a651f5347efaae534c1314a184d5531e939f23330bf58da8cbe0236e572e"
+hash = "08bdfb9674abc7b5d4d949ac8426b49fe6e18d6463b7d2b6f503518bb448f9b0"
 metafile = true
 
 [[files]]
@@ -3536,12 +3536,12 @@ metafile = true
 
 [[files]]
 file = "mods/aces-spell-utils.pw.toml"
-hash = "c5a86e9008c5cc4a583450bc29e496f424ec14071823f060129758a548e68265"
+hash = "e576823631e7a0fe6b8891ce4a5f0aa8a6f365ec56f0227bd5cca457f38d4a21"
 metafile = true
 
 [[files]]
 file = "mods/aero-player-tilt.pw.toml"
-hash = "b65fdd02f754c63393e2a9352e845d63c229abb0cd162fb0823956b23cd2a33c"
+hash = "581984b70fbb10653298f750d39a7246a275d938510c93740bf75c0ae818e6d7"
 metafile = true
 
 [[files]]
@@ -3566,7 +3566,7 @@ metafile = true
 
 [[files]]
 file = "mods/amendments.pw.toml"
-hash = "27bf52b4265eda868c46a325f3a86cec1db5ff24ffb808aed671972d51883792"
+hash = "8ae41d3a92b5eb712cbb0d8acfd9fa86a49fee510d3d029a592044bc5b959214"
 metafile = true
 
 [[files]]
@@ -3606,7 +3606,7 @@ metafile = true
 
 [[files]]
 file = "mods/azurelib.pw.toml"
-hash = "ffeb4b9cfa89def130c4dbae2727f276bfbddc15ffdb3d251d8dd8f2bdde6fb4"
+hash = "b0a8124b6ebe29d4e142000f5c770d5a798acc7cfc2a31e65addf8898db26302"
 metafile = true
 
 [[files]]
@@ -3675,12 +3675,12 @@ metafile = true
 
 [[files]]
 file = "mods/betterend-neoforge.pw.toml"
-hash = "ac0bcb27f3ac227eb4ec843f912c23d478648dae650d6048e3814c005d4a4031"
+hash = "b7c3cbbbe4271c89152488dee9bf8d7a1e5438747ec41adc4f6cc237df757609"
 metafile = true
 
 [[files]]
 file = "mods/betternether-neoforge.pw.toml"
-hash = "7503a41d41923545aff680a9bf0becf8d6bd007b4118c1d1b52eefe3d76a6107"
+hash = "35ad9db98f1a331c617ceaf9425b12a3e071533ee56d180cdf6616c48ee9b018"
 metafile = true
 
 [[files]]
@@ -3714,7 +3714,7 @@ metafile = true
 
 [[files]]
 file = "mods/cataclysm-spellbooks.pw.toml"
-hash = "48a43f54f8e00b8c578aff25efcb824019016be3b432374df87a6e0960728aa5"
+hash = "f9a374ce592b015a17933e43418539b215fa7c6caa706dfe6ca5495675821648"
 metafile = true
 
 [[files]]
@@ -3809,7 +3809,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-deep-seas.pw.toml"
-hash = "b0c2ee7a02cba23cd306b324f158518264868cd3b1542346bf325e25f76d41a2"
+hash = "8df62ca27c56728bdb6bd69b2c82d13535f042ceef5a97bbfd039da0f4169245"
 metafile = true
 
 [[files]]
@@ -3932,7 +3932,7 @@ metafile = true
 
 [[files]]
 file = "mods/ecliptic-seasons.pw.toml"
-hash = "0bbff54ae0d129189ad18617db87983212b0008eb9f28e97e1965b1a2d8d770b"
+hash = "b49ab0d46097d30505f37d68ae16550dea60a4919654d44c88dd88a7c437a491"
 metafile = true
 
 [[files]]
@@ -4042,7 +4042,7 @@ metafile = true
 
 [[files]]
 file = "mods/fantasy_armor.pw.toml"
-hash = "afa210c4991668ea4b0158f7c95a895dac077925129c2fd569937cd15766f827"
+hash = "e67ed3a1cd8d3b4d683ace2baa4388113a97ef35861cfc37be77d5736f4cb804"
 metafile = true
 
 [[files]]
@@ -4096,8 +4096,8 @@ hash = "c80d22d2ee14e99fc47c454ea1cd57cea6cac1b4034bbe0a66ac7f4eb7a4001e"
 metafile = true
 
 [[files]]
-file = "mods/flimsy-wall-lanterns-1.0.4.jar"
-hash = "eef0ebfd1b5edb26309902b3d4a84be6eacd0014bcc5ebe4215085bddc6769d8"
+file = "mods/flimsy-wall-lanterns-1.0.5.jar"
+hash = "e3492901ed5b2322b46f9c3cb55d5f39a4eef9514b99fec24237ac41adcb21fb"
 
 [[files]]
 file = "mods/formations-nether.pw.toml"
@@ -4136,7 +4136,7 @@ metafile = true
 
 [[files]]
 file = "mods/friends-and-foes-forge.pw.toml"
-hash = "96c28351a679d5d770f5adfdc9999329938a9d1b8f7c0e4fb410505f42eebc6e"
+hash = "dd747d8f87a5cbff501a4c59f5ac06faec2cc03c416cbff5dc3b920157552dc0"
 metafile = true
 
 [[files]]
@@ -4151,7 +4151,7 @@ metafile = true
 
 [[files]]
 file = "mods/fzzy-config.pw.toml"
-hash = "932c65fb598293dba5dc60a76fc64c2579db427018b10dd4757dd421d9abcaf0"
+hash = "f2849c357f9c82d017ff71c6d5e91ac8e51d6b0f2de9e7ae8d95bfb81759cd63"
 metafile = true
 
 [[files]]
@@ -4221,7 +4221,7 @@ metafile = true
 
 [[files]]
 file = "mods/in-control.pw.toml"
-hash = "8311cf201aa8d3c5d0c0291194f3c76d825591122b7ccf4f2fea08f6b39af526"
+hash = "1d29132b5ab008c93c8ede5a5b5fb84a5eace32c8f356ed16a66a23cb00d7f28"
 metafile = true
 
 [[files]]
@@ -4251,7 +4251,7 @@ metafile = true
 
 [[files]]
 file = "mods/irons-lib.pw.toml"
-hash = "3f8f749b654d18560d45dfb160e839566f72d9150e86f7f881c5e205f5660c55"
+hash = "8d36b922cc93e73f0e61e65e8e6931b3c98de42c5c2448c489db01b0f4918526"
 metafile = true
 
 [[files]]
@@ -4347,8 +4347,8 @@ file = "mods/liams-ragdoll-revival-1.0.1.jar"
 hash = "e4a5b75cd01c67134f1788c8cb08365430bedf263d99c937caf9d9d7b35a56b4"
 
 [[files]]
-file = "mods/liams-torch-compat-1.0.1.jar"
-hash = "b9aeb39d98d211fecc52955db217a6dad8aba5b85e26f8ce2b2612e177eff4dc"
+file = "mods/liams-torch-compat-1.0.2.jar"
+hash = "ee37d0bc13c7047b80daed738e6e31e5136a1cf14eb4600307c519250fdc7205"
 
 [[files]]
 file = "mods/libjf.pw.toml"
@@ -4427,7 +4427,7 @@ metafile = true
 
 [[files]]
 file = "mods/modernfix.pw.toml"
-hash = "d10fbef1555f5277563b9cbf7683811ac0f38c1af41646e6ce5c3aaa2149425d"
+hash = "ef65836e005bd42a0f40df30a94eba1ad7ee5ed3194b11eafbeadc64edb44252"
 metafile = true
 
 [[files]]
@@ -4542,7 +4542,7 @@ metafile = true
 
 [[files]]
 file = "mods/puzzles-lib.pw.toml"
-hash = "2e0b31d4a3d4298045b368558ce7fe191a13bccb02a4524ca748598a9dcf4ca5"
+hash = "d465abcc806c0d4fdeefb6a5e774cca4fff0ffd27d7c75954ab4688f4c9eaf05"
 metafile = true
 
 [[files]]
@@ -4552,7 +4552,7 @@ metafile = true
 
 [[files]]
 file = "mods/quark.pw.toml"
-hash = "6390e31a740d60ba3a66edaf86f5e2788b7d03ff18fd43580f12f665e25f73f9"
+hash = "d22d14965fb93e68529f7b0861c11179b866e5c83a1cd5d394a8bf813653446b"
 metafile = true
 
 [[files]]
@@ -4673,7 +4673,7 @@ metafile = true
 
 [[files]]
 file = "mods/simple-voice-chat.pw.toml"
-hash = "44db699e3dee8a6d4a787281bd5f3f1a87f88fcf5babf8fa11cb5d9582d43ebe"
+hash = "852ba399cf42709a5a22cf946e6a20c0d5e77d2990d98478e3e826a69154ff24"
 metafile = true
 
 [[files]]
@@ -4693,7 +4693,7 @@ metafile = true
 
 [[files]]
 file = "mods/sodium-extra.pw.toml"
-hash = "6ab228a1fa98348b7444c0715e4db592414d2102e441671ac5e79066596a912c"
+hash = "7ece7b8e65ac74bc1c705a3e25948ce5772c26ddf148514f29d90920ca1c3866"
 metafile = true
 
 [[files]]
@@ -4738,7 +4738,7 @@ metafile = true
 
 [[files]]
 file = "mods/spider-overhaul.pw.toml"
-hash = "b3067f888940c076f229228193ac3b7b3925d57503929ca9e6af9032a6d65e51"
+hash = "0a3eb13dcb17341686dd5e19869d05dffb5d72faa3b411d0f6e4e2f3dc5b558f"
 metafile = true
 
 [[files]]
@@ -4871,7 +4871,7 @@ metafile = true
 
 [[files]]
 file = "mods/worldweaver-neoforge.pw.toml"
-hash = "d0bafb124a7c57aa04dfcf237bf1359fa466f0fea90c4030e4a3d97f3bfce7c6"
+hash = "c56ce9e2c1734c9b5f5cfd53ec1d758fd6df4053635c10814408bb9b0432d5ae"
 metafile = true
 
 [[files]]
