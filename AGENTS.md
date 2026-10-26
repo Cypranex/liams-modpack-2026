@@ -106,3 +106,85 @@ when a client is available. Review dependency pins when updating these mods.
 Review tips and synchronize only the reviewed jar, cape data and instructions.
 Never rewrite player saves to migrate previously equipped capes; users can move
 them to the cape slot themselves.
+
+## Regions Unexplored worldgen stall workaround (required)
+
+Track `datapacks/Regions Unexplored Worldgen Stall Workaround` when updating
+Regions Unexplored, Lithostitched, FreeTerraForged, Minecraft/NeoForge, or the
+Overworld height preset. It implements the workaround reported in
+https://github.com/Apollounknowndev/lithostitched/issues/115#issuecomment-5713120032
+for feature-generation workers blocking in `InStructurePredicate` through live
+server chunk lookups. Reviewed versions: Regions Unexplored 0.6.3,
+Lithostitched 1.8.1, FreeTerraForged 1.0.0, Minecraft 1.21.1 / NeoForge 21.1.264.
+
+The eight complete placed-feature JSON overrides remove only the
+`minecraft:block_predicate_filter` containing NOT `lithostitched:in_structure`:
+`patch/ash_vents_inferno`, `patch/cave_bioshrooms`, `patch/dropleaf`,
+`patch/prismarite_cluster`, `patch/redstone_bud`, `patch/redstone_bulb`,
+`special/lava_fall`, and `special/overworld_lava_delta`, all under
+`regions_unexplored`. On updates, compare each override with the actual new
+native definition and rebase the single intended removal. Preserve unrelated
+upstream placement changes; do not let old complete JSONs silently mask them.
+Check for competing resource overrides and effective datapack load order.
+
+This deliberately removes structure exclusion: decorations, including lava
+features, can generate inside structures at any depth, including deeper
+structures. Do not claim structure protection is retained. Track upstream issue
+115; retire the workaround only after inspecting a corrected implementation and
+validating generation with native exclusion restored. Changing pregen tools or
+increasing RAM/threads does not repair the observed blocking lookup.
+
+The reviewed Overworld frame is Y=-320..639 (`min_y=-320`, `height=960`). Keep
+the native uniform height pattern `above_bottom: 0` through `absolute: 256`
+unless an installed-code review supports changing it: FreeTerraForged's
+`DynamicHeightRangePlacement` recognizes this exact signature and expands
+eligible non-ore top-level features into the extended height bands. Replacing
+256 with 639 disables that recognition in the reviewed runtime. Removing the
+downstream structure predicate preserves height expansion and existing surface
+rescue eligibility; do not apply the disabled ore-transform policy to these
+non-ore decorations. Recheck these assumptions whenever FTF or world height
+changes, and validate biome/scan rules rather than assuming every sample places.
+
+Development evidence and input fingerprints live outside the pack at
+`/home/liam/Projects/minecraft-mods/modpack-development/docs/overworld-worldgen-stall-2026-10-26/`:
+`REPORT.md`, `WORKAROUND-VALIDATION.md`, `DEPTH-COMPATIBILITY.md`, and
+`workaround-inputs.json`. Run the development script
+`python3 scripts/check_ru_worldgen_workaround.py` against reviewed native inputs;
+update its evidence deliberately after an upstream review. Review tips for
+changed claims, synchronize only reviewed paths, and refresh packwiz metadata.
+Use the unpacked base-folder Paxi datapack; avoid duplicate ZIP/world copies.
+A full server restart is required to clear existing blocked work and load the
+changed worldgen registries; pregen cancel/restart or `/reload` is insufficient.
+Verify enabled packs and resumed generation past the affected area. Static
+checks do not establish recovery in the remote world. Do not edit existing
+saves or regenerate chunks as routine deployment.
+
+## Dungeon Crawl compatibility (required)
+
+Dungeon Crawl 2.3.17 uses the companion
+`mods/liams-dungeon-crawl-compat-1.0.0.jar`, built from
+`/home/liam/Projects/minecraft-mods/dungeon-crawl-compat`. Its required Mixins are
+pinned to that exact Dungeon Crawl version. Review installed call sites before
+updating either mod; never bypass failed injections to make an update load.
+The companion chooses 5–8 native-spaced floors with the bottom 24–48 blocks above
+the active minimum, permits negative starts, corrects entrance bounds and surface
+biome coordinate units, and replaces restricted blocks only in Dungeon Crawl's
+own placements/grave features. Keep `config/dungeon_crawl.toml`'s
+`no_nether_blocks=true`; this alone does not sanitize literal model resources.
+
+On changes, review the depth plan, surface staircase, room/model bounds, biome
+eligibility, repeated final-layer difficulty, cave interaction and per-player
+container budget against the actual world frame. Keep the eight-floor cap.
+Do not infer that the RU structure-predicate workaround protects dungeon rooms
+from decorations: lava/features can still intrude. Native loot trims and nine
+procedural recipient roots live in Exploration Loot Balance; all three addon
+sampling resources remain explicitly disabled. Keep unique pity/eligibility,
+loot-only accessories and Remastered progression exceptions intact.
+
+Build/transform-check with that project's `build.py`/`check.py`; its
+`prepare_worldgen.py` creates a fresh disposable installed-terrain fixture.
+The development `DungeonCrawlChecks.java` runs alongside ExplorationLootSmoke.
+Require the native layout, placement, chest, terrain and existing loot/Lootr PASS
+markers. Evidence is under development `docs/dungeon-crawl-audit-2026-10-26/`.
+Sync only reviewed source files/jar, review tips, refresh packwiz, and restart.
+New structures need new chunks; never migrate existing dungeons or inventories.

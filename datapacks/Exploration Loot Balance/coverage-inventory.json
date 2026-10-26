@@ -1,9 +1,9 @@
 {
-  "basis": "Installed structure NBT LootTable/loot_table references plus listed procedural vanilla/Aether roots; not a world-generation census",
+  "basis": "Installed structure NBT LootTable/loot_table references plus listed procedural vanilla/Aether roots; not a world-generation census; Dungeon Crawl 2.3.17 custom model and procedural placement audit",
   "parse_failures": 0,
   "before_targets": 56,
-  "after_targets": 330,
-  "added_targets": 274,
+  "after_targets": 339,
+  "added_targets": 283,
   "profiles": {
     "kitchens": 17,
     "surface_supplies": 8,
@@ -19,11 +19,11 @@
     "garden_stores": 6,
     "rural_libraries": 4,
     "expedition_caches": 13,
-    "dungeon_discoveries": 67,
+    "dungeon_discoveries": 68,
     "guard_stores": 6,
     "coastal_caches": 15,
     "cold_caches": 7,
-    "sparse_stores": 24,
+    "sparse_stores": 32,
     "magic_resupply": 44,
     "nether_expeditions": 34,
     "end_expeditions": 9
@@ -5428,6 +5428,96 @@
       "template_count": 1,
       "max_containers_per_template": 2,
       "example_template": "data/yungsextras/structure/desert/misc/ruins_0.nbt"
+    },
+    {
+      "table": "dungeoncrawl:chests/stage_1",
+      "installed_json": true,
+      "profile": "sparse_stores",
+      "status": "covered",
+      "reason": "Dungeon Crawl custom models/procedural stage and feature chests; native resource/gear/lighting trims; dense budget",
+      "template_count": 0,
+      "max_containers_per_template": 0,
+      "example_template": null
+    },
+    {
+      "table": "dungeoncrawl:chests/stage_2",
+      "installed_json": true,
+      "profile": "sparse_stores",
+      "status": "covered",
+      "reason": "Dungeon Crawl custom models/procedural stage and feature chests; native resource/gear/lighting trims; dense budget",
+      "template_count": 0,
+      "max_containers_per_template": 0,
+      "example_template": null
+    },
+    {
+      "table": "dungeoncrawl:chests/stage_3",
+      "installed_json": true,
+      "profile": "sparse_stores",
+      "status": "covered",
+      "reason": "Dungeon Crawl custom models/procedural stage and feature chests; native resource/gear/lighting trims; dense budget",
+      "template_count": 0,
+      "max_containers_per_template": 0,
+      "example_template": null
+    },
+    {
+      "table": "dungeoncrawl:chests/stage_4",
+      "installed_json": true,
+      "profile": "sparse_stores",
+      "status": "covered",
+      "reason": "Dungeon Crawl custom models/procedural stage and feature chests; native resource/gear/lighting trims; dense budget",
+      "template_count": 0,
+      "max_containers_per_template": 0,
+      "example_template": null
+    },
+    {
+      "table": "dungeoncrawl:chests/stage_5",
+      "installed_json": true,
+      "profile": "sparse_stores",
+      "status": "covered",
+      "reason": "Dungeon Crawl custom models/procedural stage and feature chests; native resource/gear/lighting trims; dense budget",
+      "template_count": 0,
+      "max_containers_per_template": 0,
+      "example_template": null
+    },
+    {
+      "table": "dungeoncrawl:chests/food",
+      "installed_json": true,
+      "profile": "sparse_stores",
+      "status": "covered",
+      "reason": "Dungeon Crawl custom models/procedural stage and feature chests; native resource/gear/lighting trims; dense budget",
+      "template_count": 0,
+      "max_containers_per_template": 0,
+      "example_template": null
+    },
+    {
+      "table": "dungeoncrawl:chests/supply",
+      "installed_json": true,
+      "profile": "sparse_stores",
+      "status": "covered",
+      "reason": "Dungeon Crawl custom models/procedural stage and feature chests; native resource/gear/lighting trims; dense budget",
+      "template_count": 0,
+      "max_containers_per_template": 0,
+      "example_template": null
+    },
+    {
+      "table": "dungeoncrawl:chests/secret_room",
+      "installed_json": true,
+      "profile": "sparse_stores",
+      "status": "covered",
+      "reason": "Dungeon Crawl custom models/procedural stage and feature chests; native resource/gear/lighting trims; dense budget",
+      "template_count": 0,
+      "max_containers_per_template": 0,
+      "example_template": null
+    },
+    {
+      "table": "dungeoncrawl:chests/treasure",
+      "installed_json": true,
+      "profile": "dungeon_discoveries",
+      "status": "covered",
+      "reason": "Dungeon Crawl custom models/procedural stage and feature chests; native resource/gear/lighting trims; dense budget",
+      "template_count": 0,
+      "max_containers_per_template": 0,
+      "example_template": null
     }
   ],
   "procedural_roots": [
@@ -5439,6 +5529,39 @@
     "deep_aether:chests/dungeon/brass/brass_dungeon",
     "minecraft:chests/igloo_chest",
     "minecraft:chests/underwater_ruin_small",
-    "nova_structures:chests/pillager_outpost_kitchen"
-  ]
+    "nova_structures:chests/pillager_outpost_kitchen",
+    "dungeoncrawl:chests/stage_1",
+    "dungeoncrawl:chests/stage_2",
+    "dungeoncrawl:chests/stage_3",
+    "dungeoncrawl:chests/stage_4",
+    "dungeoncrawl:chests/stage_5",
+    "dungeoncrawl:chests/food",
+    "dungeoncrawl:chests/supply",
+    "dungeoncrawl:chests/secret_room",
+    "dungeoncrawl:chests/treasure"
+  ],
+  "dungeon_crawl_density_evidence": {
+    "fixtures": 64,
+    "potential_containers": {
+      "min": 82,
+      "mean": 122.21875,
+      "max": 177
+    },
+    "basis": "Actual native layouts: model CHEST blocks plus selected chest-feature positions; terrain/cave support and 10% vanilla-table alternates affect physical results",
+    "terrain_fixture": {
+      "fully_generated_chunks": 110,
+      "pieces": 446,
+      "area_chests": 142,
+      "area_spawners": 114,
+      "scope": "Manual native placement in actual FTF/RU/Better Caves terrain; area counts can include native preexisting generation"
+    },
+    "inactive_legacy_resources": {
+      "dungeoncrawl:chests/forge": "Plural loot_tables folder and legacy treasure_type metadata; not restored",
+      "dungeoncrawl:chests/library": "Plural loot_tables folder and legacy treasure_type metadata; not restored",
+      "dungeoncrawl:misc/dispenser_1": "Legacy trap helper, no authored route",
+      "dungeoncrawl:misc/dispenser_2": "Legacy trap helper, no authored route",
+      "dungeoncrawl:misc/dispenser_3": "Legacy trap helper, no authored route",
+      "dungeoncrawl:monster_overrides/wither_skeleton": "Legacy entity-drop override; not broadened into chest policy or restored"
+    }
+  }
 }

@@ -219,7 +219,8 @@
       "nova_structures:chests/shrine/shrine_lesser_ominous",
       "nova_structures:chests/shrine/shrine_lesser_treasure",
       "nova_structures:chests/village/village_birch_house",
-      "yungsextras:desert/chillzone"
+      "yungsextras:desert/chillzone",
+      "dungeoncrawl:chests/treasure"
     ],
     "guard_stores": [
       "minecraft:chests/illager_mansion/pillager_chest",
@@ -279,7 +280,15 @@
       "nova_structures:chests/witch_villa/dirty_clothes",
       "ribbits:chests/fisherman_storage",
       "structory:harvest/manor2/loot",
-      "structory:harvest/old_manor/common"
+      "structory:harvest/old_manor/common",
+      "dungeoncrawl:chests/stage_1",
+      "dungeoncrawl:chests/stage_2",
+      "dungeoncrawl:chests/stage_3",
+      "dungeoncrawl:chests/stage_4",
+      "dungeoncrawl:chests/stage_5",
+      "dungeoncrawl:chests/food",
+      "dungeoncrawl:chests/supply",
+      "dungeoncrawl:chests/secret_room"
     ],
     "magic_resupply": [
       "betterarcheology:archeology/chest_catacombs_potion",
@@ -549,7 +558,16 @@
     "chalk:chests/abandoned_mineshaft_chalks": "d30c842642309ccf255622792b105a243c092c03f5a04f47e893fb0a9c2cfbcb",
     "chalk:chests/simple_dungeon_chalks": "d90c6f2fa797b8d36ff3f3d02caf98c93b2535806d1a048813dea3e999387661",
     "chalk:chests/village_chalks": "a8fdd486feb83434956b6a4a42832f942366c0db4875339a95611fe3edae8c39",
-    "chalk:chests/desert_pyramid_chalks": "868b638c8f510606083f84bc2c90d3b2745f1d1df0cfe46b683c662bfde06497"
+    "chalk:chests/desert_pyramid_chalks": "868b638c8f510606083f84bc2c90d3b2745f1d1df0cfe46b683c662bfde06497",
+    "dungeoncrawl:chests/stage_1": "b4c4c656f66372df3641ac6a8e123c68632583332d32c4cf96bc76ef48d0038d",
+    "dungeoncrawl:chests/stage_2": "0f8befd1fb650f6ec6cb797bc0bfe677086c351d9990894c72ed694a8d7e9500",
+    "dungeoncrawl:chests/stage_3": "69ff3ffaaec2567f0e76a8a4074a66f5de2868423b61d7fe64009c538aed15ca",
+    "dungeoncrawl:chests/stage_4": "09b21512e08b034bcc2427f6d70351ade1eb6b8e5a32f3c9d187548d5dee990d",
+    "dungeoncrawl:chests/stage_5": "865482c6c0725cd1ea7e280ea12287c9b5eedb43e298d8f66a9bc8729ab8536a",
+    "dungeoncrawl:chests/food": "555989adeb387cd5a28953b83a949a5c86f35d8badfd315d3de1b87cf94f07b0",
+    "dungeoncrawl:chests/supply": "3fe31c92f6edadfe3afdb517993b7590a77db85fd5c0a8b29919a73ab3439527",
+    "dungeoncrawl:chests/secret_room": "e027a953d401acbf0504c33a452d1aef511231cbc46f808ca5e48f19eab89a3d",
+    "dungeoncrawl:chests/treasure": "f740638afb3344e4d43c7437d95fe68f96d30c15f41007d2fe62cabdf61836f9"
   },
   "coverage_revision": 2,
   "structure_reference_inventory": "coverage-inventory.json",
@@ -1069,5 +1087,50 @@
     "generic_tablet_weight": 0.0,
     "target_class_sha256": "c70cf56d7e56fdff3cfb24fdd96a32ee2c6a4814619b48efad1cfa9bf40799b0",
     "behavior": "Native unique pity on existing exact eligible tables; first eligible region per dimension/player. Generic tablets remain disabled; saved state resumes unchanged."
+  },
+  "dungeon_crawl_tuning": {
+    "version": "2.3.17",
+    "stage_rolls": [
+      2,
+      4
+    ],
+    "food_rolls": [
+      3,
+      5
+    ],
+    "supply_gear_rolls": 1,
+    "supply_gear_gate": 0.2,
+    "supply_provision_rolls": [
+      3,
+      5
+    ],
+    "secret_rolls": [
+      2,
+      4
+    ],
+    "treasure_rolls": [
+      3,
+      4
+    ],
+    "treasure_gold_count": [
+      2,
+      6
+    ],
+    "stage_gear_entry_gate": 0.15,
+    "enchanted_book_entry_gate": 0.2,
+    "treasure_gear_entry_gate": 0.2,
+    "removed_treasure_item": "minecraft:enchanted_golden_apple",
+    "torch_replacement": "flimsytorches:flimsy_torch",
+    "frequent_roots": [
+      "dungeoncrawl:chests/stage_1",
+      "dungeoncrawl:chests/stage_2",
+      "dungeoncrawl:chests/stage_3",
+      "dungeoncrawl:chests/stage_4",
+      "dungeoncrawl:chests/stage_5",
+      "dungeoncrawl:chests/food",
+      "dungeoncrawl:chests/supply",
+      "dungeoncrawl:chests/secret_room"
+    ],
+    "treasure_root": "dungeoncrawl:chests/treasure"
   }
 }
