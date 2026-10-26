@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "AGENTS.md"
-hash = "ce5879d74a86e08a22df2ef49025b4878f296d57467c338b7d59fb6802ac4fb3"
+hash = "017b7583b529f99b41627eb387fb94165027b37f0ed652bee95cebd47f3a5207"
 
 [[files]]
 file = "config/aether-common.toml"
@@ -158,7 +158,7 @@ hash = "5bdb1341455819c292bfd9fef0c3e05ad1ab881c2b33c4519f1f7108f6550200"
 
 [[files]]
 file = "config/nether remastered.toml"
-hash = "473e95a301dbe59230d2f6c175f697aa8aeedcca4b4b0854e8b67d5f254d6cf1"
+hash = "c290c6e92552cc7d6f6cea79bddd131bd87c4d5011b1053d5d4422f096a1e5e0"
 
 [[files]]
 file = "config/notenoughanimations.json"
@@ -349,6 +349,10 @@ hash = "e04be0c93a8fe962f26114f182a7106244c2de43fffa9623cffef25d90e43f59"
 [[files]]
 file = "config/tide/tide_server.json"
 hash = "21637d8c2986c8e786ef18c1cf974f1406127cdf0860122174b2d12dccdee1bf"
+
+[[files]]
+file = "config/tipsmod.json"
+hash = "5865a3c38edc0349a3d00181b7049c00c4e7cb4cf707a842daca3b68767d6b7c"
 
 [[files]]
 file = "config/trulydark.properties"
@@ -2887,6 +2891,514 @@ file = "kubejs/assets/bountiful/lang/en_us.json"
 hash = "78630829ab1989328d59f835f46549fc29898a46df77bb4268e98389f92d56fc"
 
 [[files]]
+file = "kubejs/assets/liams_modpack/lang/en_us.json"
+hash = "fe7e65376e20a4f97e946a72b93bfebffe5347c28b8281cc4f9960906d553072"
+
+[[files]]
+file = "kubejs/assets/liams_modpack/tips/access_auto_jump.json"
+hash = "24838a847b2dee4e69fc0d24bbeb0320d783029f221180ecd02416fe0b8323bb"
+
+[[files]]
+file = "kubejs/assets/liams_modpack/tips/access_chat_size.json"
+hash = "8f79ea7d04520016744f29340c902b29985321453e41e515a5eec4b9f5f88ade"
+
+[[files]]
+file = "kubejs/assets/liams_modpack/tips/access_damage_tilt.json"
+hash = "d5605f5ec9caf47b08629da431efefc1539477b86ccfcc7d9d57696059ea2469"
+
+[[files]]
+file = "kubejs/assets/liams_modpack/tips/access_fov_effects.json"
+hash = "6242e3e0382345fce31c868e7d6e28f79b9ba446455cb04f5bfa7b118b060b9d"
+
+[[files]]
+file = "kubejs/assets/liams_modpack/tips/access_gui_scale.json"
+hash = "e948eec2efff150799302e5acebd8ccdcaca1905fe3f87590a7c90e5fdbaf39d"
+
+[[files]]
+file = "kubejs/assets/liams_modpack/tips/access_high_contrast.json"
+hash = "3e764b851f307befd626daf18383ccd4cac7e36eb505b608be935026fdb0e8bb"
+
+[[files]]
+file = "kubejs/assets/liams_modpack/tips/access_screen_effects.json"
+hash = "124a48c064e8b6bd17726560ed95218b7d9d396108cd0b4f9d26fbab87a5b41d"
+
+[[files]]
+file = "kubejs/assets/liams_modpack/tips/access_sound_mix.json"
+hash = "5c74c20a35e9a19db891b8f6eb6cee016f6d84720fd886618973815ad46abfd3"
+
+[[files]]
+file = "kubejs/assets/liams_modpack/tips/access_subtitles.json"
+hash = "85b0cb812f9c7daeff2566390f8a5016889a9e673d42249ee0358ca489f833c6"
+
+[[files]]
+file = "kubejs/assets/liams_modpack/tips/access_toggle_movement.json"
+hash = "9ae9e772582c5465ac545814058235e9df6c0569ef4ac7b328393690be575c7e"
+
+[[files]]
+file = "kubejs/assets/liams_modpack/tips/access_view_bobbing.json"
+hash = "9fdfa0988254883231cc9460e7d305352d2a2c14f97d74bab50b60b1c98a22df"
+
+[[files]]
+file = "kubejs/assets/liams_modpack/tips/atlas_active_slot.json"
+hash = "8ac93b54f7b399153dddb31204a197cfb77ac29021a77e8b8b1539ff78d76fd2"
+
+[[files]]
+file = "kubejs/assets/liams_modpack/tips/atlas_empty_maps.json"
+hash = "97a12bb2fbd354571eb5c427ad379318edf36f2656292fa45be6008d24c6babd"
+
+[[files]]
+file = "kubejs/assets/liams_modpack/tips/atlas_filter.json"
+hash = "b137f37d383b8cf8c2dc18d55f96e31984c11b31b7a578182cf9f6bbfcb0bffa"
+
+[[files]]
+file = "kubejs/assets/liams_modpack/tips/atlas_in_hand.json"
+hash = "ba4d9487586b75332775ec5a3e318f89833ba1ce625b4172a451bb32d05134c3"
+
+[[files]]
+file = "kubejs/assets/liams_modpack/tips/atlas_no_paper.json"
+hash = "824f2559bf3c48ad7e6beaae18c7a15d1204ec0e94f674e3294804d5ed7d0260"
+
+[[files]]
+file = "kubejs/assets/liams_modpack/tips/atlas_not_radar.json"
+hash = "bcb7d6bdeb24dd3a47093aa4f8a90c9f0839f177357f8a61b550ba20dadf5077"
+
+[[files]]
+file = "kubejs/assets/liams_modpack/tips/atlas_open.json"
+hash = "00ba6771b34fc24d4d1e7df70ab98ae5a828122c9939994805eab554cc138976"
+
+[[files]]
+file = "kubejs/assets/liams_modpack/tips/atlas_pin.json"
+hash = "dbc5d4c12500da540d85ad9b99392e91f750333047ddcf95db110939ea5433d4"
+
+[[files]]
+file = "kubejs/assets/liams_modpack/tips/atlas_position.json"
+hash = "70ea9af0bc9db1079112ae45f644c7663741c9c15681ccdf5cad88ed41bb08b8"
+
+[[files]]
+file = "kubejs/assets/liams_modpack/tips/atlas_rotate.json"
+hash = "9bbce85060b0d4e62cad0f25aed296c708223a5cc66e6555d3841de18aaf36c9"
+
+[[files]]
+file = "kubejs/assets/liams_modpack/tips/atlas_scale.json"
+hash = "f20cadf0c4c5b8531263ec5a9fd7f46fa8f0585b4262377e298ee5934e365b1e"
+
+[[files]]
+file = "kubejs/assets/liams_modpack/tips/atlas_zoom.json"
+hash = "2169f9af897bb7307890e8be8a8f9f060708922e19e7e4ab82e39e96559f9c98"
+
+[[files]]
+file = "kubejs/assets/liams_modpack/tips/backpack_container_limit.json"
+hash = "5b95cee05147826b31afb764f24301ece2ca710ef4fceebfb532778a190ce9ba"
+
+[[files]]
+file = "kubejs/assets/liams_modpack/tips/backpack_death.json"
+hash = "a965dc28729501d80f14fc0e61947694a85d3ebfb62353a6e75473c5d5425411"
+
+[[files]]
+file = "kubejs/assets/liams_modpack/tips/backpack_equip.json"
+hash = "b24aa555b22cf6cafc3b8b4e9bc5f77dc200b40f1f3468ae0b3cb03038c02ffe"
+
+[[files]]
+file = "kubejs/assets/liams_modpack/tips/backpack_shared_access.json"
+hash = "063a3e889fb2bd079bde08e486ae642b05807741ab3cdb5a0768e45d51e40e44"
+
+[[files]]
+file = "kubejs/assets/liams_modpack/tips/building_chest_woods.json"
+hash = "960dbcff6188ab7e0f2c8d289687f5e64dd00ca9520b40ed6658ea32da7d2fa0"
+
+[[files]]
+file = "kubejs/assets/liams_modpack/tips/building_ladder_woods.json"
+hash = "c9036ef814f46ece1897038652891dcc9bc915a194ae6e2de40f08cf8da14fff"
+
+[[files]]
+file = "kubejs/assets/liams_modpack/tips/building_leaf_carpet.json"
+hash = "56a13d19ef1ef81eddd01104ce6de94036c6ed92d08b047932a5a4d79a7308c4"
+
+[[files]]
+file = "kubejs/assets/liams_modpack/tips/building_rotation_lock.json"
+hash = "912f1c45c295c7b48f03f4ced153d1263bc12ca47d04ce239621cb9bcc81f5b1"
+
+[[files]]
+file = "kubejs/assets/liams_modpack/tips/building_trowel.json"
+hash = "101570528185e61bf9083bc0c5baf43a2a101e22ad9b8141b02b5e84ce8c8151"
+
+[[files]]
+file = "kubejs/assets/liams_modpack/tips/building_vertical_connections.json"
+hash = "914d9411a2db687c03fb655c3260b2ef8123713de80dec5d24d9e25e938f5f6a"
+
+[[files]]
+file = "kubejs/assets/liams_modpack/tips/building_vertical_slabs.json"
+hash = "223a374e0b6a59bdf2de8b3ed58c51f44c7ccac2527740d29ed005e14029c32f"
+
+[[files]]
+file = "kubejs/assets/liams_modpack/tips/building_wood_posts.json"
+hash = "725c9c131fc37cc289890d8a66822b14798e203e108df0b5d331e5dc46ec8328"
+
+[[files]]
+file = "kubejs/assets/liams_modpack/tips/chat_local.json"
+hash = "e7aa1b74b2b5690df17cce73e80294c047859aafc87224e46b031ec0bcc12ce3"
+
+[[files]]
+file = "kubejs/assets/liams_modpack/tips/chat_private_disabled.json"
+hash = "3e3cad66046c7c8f5656ff17ef88389ba09477dfb93af350267532c349a070d0"
+
+[[files]]
+file = "kubejs/assets/liams_modpack/tips/chat_shout.json"
+hash = "d11b2653c55d22b0a7da0e279ad7237f8541b56869d77364276f3b7f4c1a1491"
+
+[[files]]
+file = "kubejs/assets/liams_modpack/tips/comfort_background_fps.json"
+hash = "fc9998da0914f67337ace0907535305f3feb5e688b07cdfeb1bd2489bd14a6f5"
+
+[[files]]
+file = "kubejs/assets/liams_modpack/tips/comfort_camera_sync.json"
+hash = "d20fabe8b61d3fbe52f6b7baf3f663bd134867a3a543674061a46ec9a0ab1b78"
+
+[[files]]
+file = "kubejs/assets/liams_modpack/tips/comfort_footsteps.json"
+hash = "05b66a1e9d79c419060bd825c437f12dcf4b4b05469791779f193ef575cad22d"
+
+[[files]]
+file = "kubejs/assets/liams_modpack/tips/comfort_player_tilt.json"
+hash = "e93a03854be9b55735c972d70db62c8f4c5005b70c71691531aa087421b647f2"
+
+[[files]]
+file = "kubejs/assets/liams_modpack/tips/controls_conflicts.json"
+hash = "ca101021905114b0d637f03e05d531a590a3091c2c29faaedee0f048f868ddf8"
+
+[[files]]
+file = "kubejs/assets/liams_modpack/tips/controls_mouse.json"
+hash = "44d2a85122f85bb52d8ec2a617d4d57adc0c128632a04a192be832a58611aa5c"
+
+[[files]]
+file = "kubejs/assets/liams_modpack/tips/controls_offhand.json"
+hash = "ae1ff11f0001da29525205745e5bb3b2814a68bcfdcd0c0c1e497011fa420ea1"
+
+[[files]]
+file = "kubejs/assets/liams_modpack/tips/controls_perspective.json"
+hash = "e8b2b47c8a56201220ed8d612d79e61aef4ce8c4c8c3c63d2b7f7871e5791510"
+
+[[files]]
+file = "kubejs/assets/liams_modpack/tips/controls_screenshot.json"
+hash = "905605dfccf7543e06d0c022b6e8500778cbec84e1f060f69467292c766850d2"
+
+[[files]]
+file = "kubejs/assets/liams_modpack/tips/controls_unbound.json"
+hash = "83124bedea5d4d6af0fb305a0c552ff488b7ab3a2880e090a8f1c53a235fc5ad"
+
+[[files]]
+file = "kubejs/assets/liams_modpack/tips/cooking_book.json"
+hash = "668610387ddd2f7c89df722bdc27388ef1c2e069a8c8274703d3a6a437fa5313"
+
+[[files]]
+file = "kubejs/assets/liams_modpack/tips/cooking_comfort.json"
+hash = "4e77136c80fcc2197654762f848d52c3a4f74f656444d71581fb6b40c834d6ae"
+
+[[files]]
+file = "kubejs/assets/liams_modpack/tips/cooking_cutting_board.json"
+hash = "597ee1d5205015dbda916226e8615fef3552d8618f8b543ae89addba7df14b16"
+
+[[files]]
+file = "kubejs/assets/liams_modpack/tips/cooking_food_tooltips.json"
+hash = "c913f00e6fe87012ebe95e61b72ecb6a734193e1813d80f7f8ec28b5ff876ee3"
+
+[[files]]
+file = "kubejs/assets/liams_modpack/tips/cooking_nourishment.json"
+hash = "a7b621d6f23314c2c8cc23d3837fe226734f4b5fdd353b8e9faad87f2cbfdc18"
+
+[[files]]
+file = "kubejs/assets/liams_modpack/tips/cooking_servings.json"
+hash = "c87064fd43e6c232ad3ba20e9aa3b6a90604989603fbe2f10dacbe4bbe8ed800"
+
+[[files]]
+file = "kubejs/assets/liams_modpack/tips/cooking_skillet_hand.json"
+hash = "441205f6e17f86fb4a962ec5ddd56f93b8cd1444cd62522ecf7099257f11545b"
+
+[[files]]
+file = "kubejs/assets/liams_modpack/tips/cooking_skillet_place.json"
+hash = "428e28cd0b72add3e13d1f20983e853084533f499631d1eff59a0767a2765f89"
+
+[[files]]
+file = "kubejs/assets/liams_modpack/tips/cooking_soup_stacks.json"
+hash = "c9e1358543b6e8b9803e52af5d00d7fd6e7216689aa9873ab445c867d693a680"
+
+[[files]]
+file = "kubejs/assets/liams_modpack/tips/cooking_straw.json"
+hash = "f0d8ca9c8ce4e8ef0f2f2cc0f25270c2ff1f3ded36008fe8877bb3877564d0e7"
+
+[[files]]
+file = "kubejs/assets/liams_modpack/tips/crafting_balance.json"
+hash = "a036d4c0e93641f31b3f8a34b4906275be32c1bd13b904bd5d30ee1ed3c83dc6"
+
+[[files]]
+file = "kubejs/assets/liams_modpack/tips/crafting_bulk_result.json"
+hash = "b2cd8b50fa6a2a8c975daa0c1ab484a3d1b4f788aa3cdd59cb21314dce25fb10"
+
+[[files]]
+file = "kubejs/assets/liams_modpack/tips/crafting_clear.json"
+hash = "29f6e71ec5c3045c167cc71cf45828348a59229e592faacc44ceff06853723df"
+
+[[files]]
+file = "kubejs/assets/liams_modpack/tips/crafting_compress.json"
+hash = "a0652d4be0162de6bfedb537e9f1df2046f16eeadef376df80c314f0632a309a"
+
+[[files]]
+file = "kubejs/assets/liams_modpack/tips/crafting_force_clear.json"
+hash = "74941a05b10ba179afa9cf80866f6916c9b892289b8147c2acbdf1e3425bc9c9"
+
+[[files]]
+file = "kubejs/assets/liams_modpack/tips/crafting_grid_required.json"
+hash = "ee8069aa2148e53c7dd09684805a23c96f2515a3c66eef6850c39e844f700c9b"
+
+[[files]]
+file = "kubejs/assets/liams_modpack/tips/crafting_rotate.json"
+hash = "8a0b12034266652a4b5a9f546ee24b62163c5269a98801cfd293b9992f6787a7"
+
+[[files]]
+file = "kubejs/assets/liams_modpack/tips/crafting_spread.json"
+hash = "2b71b9d35cfeabd29d751b7e6da3a1f0d892abedfaa1d76017b3b48fd9d411eb"
+
+[[files]]
+file = "kubejs/assets/liams_modpack/tips/create_clutch.json"
+hash = "fb7db505ba38c0e51acf009f63165f9103d08fcc4d4e8a407423ff0a00d6f802"
+
+[[files]]
+file = "kubejs/assets/liams_modpack/tips/create_cogs_direction.json"
+hash = "90ddb6b4ab55ec9fdda318279033cc0b153717470e60b6fba7fb1f0ed9a7f2e3"
+
+[[files]]
+file = "kubejs/assets/liams_modpack/tips/create_filters.json"
+hash = "0a3f73dc9d9100b8077128d2d33e2e69296b5c53a1e6a572b3bddda1a1045951"
+
+[[files]]
+file = "kubejs/assets/liams_modpack/tips/create_gearshift.json"
+hash = "e6d35b5b3d56ea777647da2f46e4ad5157202f14c00950c7190a8c0c87faf6df"
+
+[[files]]
+file = "kubejs/assets/liams_modpack/tips/create_goggles.json"
+hash = "51da9af6a447f684dc2296937ce0aba623c42f85d658f8303e4831182ba9825e"
+
+[[files]]
+file = "kubejs/assets/liams_modpack/tips/create_overstress.json"
+hash = "67b9e377eb6842d70dfdb13d61b62fd98a3e3e0eddfea2ca8b5064f30d9abcfd"
+
+[[files]]
+file = "kubejs/assets/liams_modpack/tips/create_ponder.json"
+hash = "25eb47214d1a891ad356fcc77d31ad8eda639717858a999bdaba5c3519d1a054"
+
+[[files]]
+file = "kubejs/assets/liams_modpack/tips/create_shaft_casing.json"
+hash = "b9cb340fda72c02b806a1e38aca9b33aa950f9a5615a5a8ae3358f1784a56fdc"
+
+[[files]]
+file = "kubejs/assets/liams_modpack/tips/create_tooltip_controls.json"
+hash = "e68fe76088c86e84c4ac5e913bf0d9c348cdff38d64a3e3736142840715afc76"
+
+[[files]]
+file = "kubejs/assets/liams_modpack/tips/create_tooltip_summary.json"
+hash = "e45d89e5854c996db0cf209c292ef6dbf603bac226c5a7f02147b349c335f24b"
+
+[[files]]
+file = "kubejs/assets/liams_modpack/tips/create_wrench_remove.json"
+hash = "6786d48e827c6804e87f1ea2edf2a235b40c6f58e95a6859f7701df1deaed78e"
+
+[[files]]
+file = "kubejs/assets/liams_modpack/tips/create_wrench_rotate.json"
+hash = "b0d7218d5a57d278286dc5777cf8a15de5f0a41df43baaa4bc881888e7f26e8d"
+
+[[files]]
+file = "kubejs/assets/liams_modpack/tips/decor_blackboard.json"
+hash = "ed4d23f6298b2e3c8b99d0f782a863a12d7950b65b3149353d7d5e61d0e12ac5"
+
+[[files]]
+file = "kubejs/assets/liams_modpack/tips/decor_chipped_tables.json"
+hash = "8a690bc54a0e1463d14d3c38a5d0ed9a89957fd18eebc63e0c7dbfd7f8b58639"
+
+[[files]]
+file = "kubejs/assets/liams_modpack/tips/decor_handcrafted.json"
+hash = "ea0e5a3909adc70fcac82478c4635e54557d8171bbd00715681b143e45e84a82"
+
+[[files]]
+file = "kubejs/assets/liams_modpack/tips/decor_item_shelf.json"
+hash = "cf2b4aa5b5076c819cb7673c7d8e3f2a2a0cb3fe6e8da7ab371ab0dac8981fb6"
+
+[[files]]
+file = "kubejs/assets/liams_modpack/tips/decor_jar_liquid.json"
+hash = "ff618cdf7b4aabf289030841b94ec6795f7192cbce8cc78933ba2ae43f6da8e8"
+
+[[files]]
+file = "kubejs/assets/liams_modpack/tips/decor_notice_board.json"
+hash = "9ba22f21f5185f69f80b34b76cf974da2f6570658f43f822b2db122d96242e64"
+
+[[files]]
+file = "kubejs/assets/liams_modpack/tips/decor_notice_board_limit.json"
+hash = "e074384062c068b40828afb62ab89ce3631d8f19766b3a7d71ba3036c09cbd55"
+
+[[files]]
+file = "kubejs/assets/liams_modpack/tips/decor_planter.json"
+hash = "79b0a75373aa8f1c175b786aecb411f951190a5a121960afad76e753e91080f6"
+
+[[files]]
+file = "kubejs/assets/liams_modpack/tips/decor_rope_sides.json"
+hash = "ce6bb7dd7e3903873fe0b0d76f0bb6496b90fa97c71a7d7a523f30007bc3e12a"
+
+[[files]]
+file = "kubejs/assets/liams_modpack/tips/decor_shelf_no_climb.json"
+hash = "cb7cefee8c29ab2b06b0ce08d139c468d0ccf8b8f586da16bba00acb119e0d71"
+
+[[files]]
+file = "kubejs/assets/liams_modpack/tips/decor_timber_strip.json"
+hash = "2583dc8bd8e62d828d4f4e443a0baca6afeab1281bd160902c6b38f9075aaf0d"
+
+[[files]]
+file = "kubejs/assets/liams_modpack/tips/farming_compost.json"
+hash = "fe90f86a00e08cf8eb5ffbbc38a2188b690f5e90bef4a23c0616580c0ce5e6d1"
+
+[[files]]
+file = "kubejs/assets/liams_modpack/tips/farming_rice.json"
+hash = "34fa7e67e7a82579900304839273872d14c76b1abc56a9cddd96e01c5ad27bde"
+
+[[files]]
+file = "kubejs/assets/liams_modpack/tips/farming_rope_reel.json"
+hash = "b0757845683eaf8047789a496f4c370f90b2a13cb1dbb610c9298c6fa3b6a8b1"
+
+[[files]]
+file = "kubejs/assets/liams_modpack/tips/farming_tomato_rope.json"
+hash = "888f00ce54fa907876a630081883b4c0a1f717f4f945fb8ff0adab8da3486adf"
+
+[[files]]
+file = "kubejs/assets/liams_modpack/tips/inventory_filtered_transfer.json"
+hash = "87852ccaa3d55c08457d7107a48d570dde67623fec54867ac2c5efad383ce808"
+
+[[files]]
+file = "kubejs/assets/liams_modpack/tips/inventory_hotbar_swap.json"
+hash = "9a658d16868610d4c64a47faf8c8fa7983a70392455c370e26f3b87fcce4ab5b"
+
+[[files]]
+file = "kubejs/assets/liams_modpack/tips/inventory_restock.json"
+hash = "d5bbc07094a087bd20cdbf5ddb078da65aafc0bfecbdbed1c32bbec3ea1275ca"
+
+[[files]]
+file = "kubejs/assets/liams_modpack/tips/inventory_restock_tools.json"
+hash = "c278126dfe154b49b1ff051f96f6cf5d5e0644dcb8a32273a08b535fc70157d7"
+
+[[files]]
+file = "kubejs/assets/liams_modpack/tips/inventory_search.json"
+hash = "eaffcbc766cad5fd84e1341dc169e3339bbc5b70a161d090a64cae8e33d03b4a"
+
+[[files]]
+file = "kubejs/assets/liams_modpack/tips/inventory_search_clear.json"
+hash = "b8bc1f27e351e33aa45e3a8e14523eb0e7f0d7b8d28a76ddaeb6f9b1c2725154"
+
+[[files]]
+file = "kubejs/assets/liams_modpack/tips/inventory_sort.json"
+hash = "8477cddf83c52c4de266d4a2ddb02ee89f74b199d9480f20df7646e4d1620d26"
+
+[[files]]
+file = "kubejs/assets/liams_modpack/tips/inventory_sort_binding.json"
+hash = "033e199e319f21af9c4ccf0138bebf0e4265f1432869643cc3360471c1b6257a"
+
+[[files]]
+file = "kubejs/assets/liams_modpack/tips/inventory_transfer.json"
+hash = "4c91f22c1e96d2b7e61e75f4a70387f5c50a03f22a4e21aa7890cdcf87f0d62b"
+
+[[files]]
+file = "kubejs/assets/liams_modpack/tips/light_campfire_fuel.json"
+hash = "9f578c0da81aee0c835d57012e160857205ca2c7d854cf11c834d901e6690124"
+
+[[files]]
+file = "kubejs/assets/liams_modpack/tips/light_lantern_duration.json"
+hash = "136616dcc5997f3a1ac79889701acfd2707d3a6f7fe62c78b51104c75a0181b3"
+
+[[files]]
+file = "kubejs/assets/liams_modpack/tips/light_temporary.json"
+hash = "6fef82efd7777fd78f12bb648ce2767c25257d947c2859966e5c33b3a3f708cd"
+
+[[files]]
+file = "kubejs/assets/liams_modpack/tips/recipe_book_button.json"
+hash = "7de327f3c0319f0d9b6336a4fbf8301d1e24306744a0dc6209d4d1f57de36153"
+
+[[files]]
+file = "kubejs/assets/liams_modpack/tips/recipe_book_filter.json"
+hash = "c445c10bcdf0ded3d55792ae47ebc73e03cea581c37673041c047194a56e4de1"
+
+[[files]]
+file = "kubejs/assets/liams_modpack/tips/recipe_book_search.json"
+hash = "fa2c4a42815b31ba5d6a7667964b3bdfefa45c474dbe806dc885ea91760d58cb"
+
+[[files]]
+file = "kubejs/assets/liams_modpack/tips/recipe_book_unlocks.json"
+hash = "ed68fa23b2f07f8a7c7391fb8cde9b6e8a208f929cd87bc149305114f57c7f13"
+
+[[files]]
+file = "kubejs/assets/liams_modpack/tips/recipe_pack_changes.json"
+hash = "de07d4b7f51ff43f08ccfcb9a4447e3b604d8b6984525fbe45a0c4e0c67e836a"
+
+[[files]]
+file = "kubejs/assets/liams_modpack/tips/recovery_corpse_time.json"
+hash = "6b869629aff1556d24a319a5f8dfaa5e1e9ab100eaf69704e961b778f46f8441"
+
+[[files]]
+file = "kubejs/assets/liams_modpack/tips/revive_breaks.json"
+hash = "bc0a0250bc9497d2bbc4434b6bf9deece832d3ea6dc2fd97436aab0b2b2d4122"
+
+[[files]]
+file = "kubejs/assets/liams_modpack/tips/revive_hold.json"
+hash = "3e5eac178923791f14a77cdcd674eb7b50f5aba5a306fc8151b671f6222c6df1"
+
+[[files]]
+file = "kubejs/assets/liams_modpack/tips/sack_encumbrance.json"
+hash = "8f2df0f6d9e8a7e57b2d7b0382dbff08f18fccc0e4d4acc32e73f3f90e971fb0"
+
+[[files]]
+file = "kubejs/assets/liams_modpack/tips/seasons_bonemeal.json"
+hash = "a87bd9d6ec01e70b4da8c690adc1f904a8378bf182201d0e36384bde84d87aae"
+
+[[files]]
+file = "kubejs/assets/liams_modpack/tips/seasons_breeding.json"
+hash = "05420c4189e02b92a29320523ec258427aef3dab0f3ce125e69caa19704e50db"
+
+[[files]]
+file = "kubejs/assets/liams_modpack/tips/seasons_calendar.json"
+hash = "8725c800a4f70d94d984c693ae9839598d95f2c11ce0f2335362141561654da7"
+
+[[files]]
+file = "kubejs/assets/liams_modpack/tips/seasons_crop_growth.json"
+hash = "cafcf873efd9d88be73a14b0553109bc07c4eaaa6f51342c40139f61f5318178"
+
+[[files]]
+file = "kubejs/assets/liams_modpack/tips/voice_mute.json"
+hash = "c398c12b3d7b03ffcaf5eb97b6c37835e25700b03d971b9333c1a8e740afbdc9"
+
+[[files]]
+file = "kubejs/assets/liams_modpack/tips/voice_settings.json"
+hash = "528a0232c8ab7db7575f287320530b43f8c86dd22fc22a669c24bd6d831ac964"
+
+[[files]]
+file = "kubejs/data/accessories/tags/item/back.json"
+hash = "faed3e3bafb19ab754aeea69c4e4a1637cfbb126b6e7f1a0c9aaf7bade1ec174"
+
+[[files]]
+file = "kubejs/data/accessories/tags/item/cape.json"
+hash = "ecb230ba160ba6308ea1b4a78ce479ba405e391943308634cd5f9ee12595e99b"
+
+[[files]]
+file = "kubejs/data/bannercapes/curios/entities/capes.json"
+hash = "bfd9b6826f330ee651da84f21409b0cb4db52b27c795981a373fd3667117a111"
+
+[[files]]
+file = "kubejs/data/curios/tags/item/back.json"
+hash = "faed3e3bafb19ab754aeea69c4e4a1637cfbb126b6e7f1a0c9aaf7bade1ec174"
+
+[[files]]
+file = "kubejs/data/curios/tags/item/body.json"
+hash = "ecb230ba160ba6308ea1b4a78ce479ba405e391943308634cd5f9ee12595e99b"
+
+[[files]]
+file = "kubejs/data/liams_cape_compat/tags/item/capes.json"
+hash = "6dc5fc855a145c9799b05c87528ff20cef9b6416ebcb300848973dad4cf76743"
+
+[[files]]
 file = "kubejs/data/liams_modpack/tags/entity_type/depth_scaling_excluded.json"
 hash = "3d4fa2570182050b271954e192125e0b16609f5079ff64c3576e3de7f7c23080"
 
@@ -3701,6 +4213,10 @@ file = "mods/liams-aether-worldgen-fix-1.0.1.jar"
 hash = "eff2b2acf978857515ae3e79b7bb47d5a080dce97fb16750dbfcdc50710a3007"
 
 [[files]]
+file = "mods/liams-cape-compat-1.0.1.jar"
+hash = "2a3edc19383a95fa49fc1135a7600feac168d27caab6ba6691f07b688024f152"
+
+[[files]]
 file = "mods/liams-corpse-controls-1.0.0.jar"
 hash = "05da0498ed9a0ccea95981c65669432efa098f9f4924a061002effc0342ca586"
 
@@ -4152,6 +4668,11 @@ hash = "7b4d98d9a07495eb4c8e7181a6fbff38ffed9cec7995104937cd17b764dcd9e0"
 metafile = true
 
 [[files]]
+file = "mods/tips.pw.toml"
+hash = "75ae1758ad2f9e85fc4c54767e41b872142d39b86c07b015e212f8097d56995d"
+metafile = true
+
+[[files]]
 file = "mods/tlib.pw.toml"
 hash = "1f504618f369b7e151045c08a46339f4afa912de4288f895df210e3a77076744"
 metafile = true
@@ -4192,6 +4713,11 @@ hash = "a2d539c08e558c35c27f3a0e5806048de2f29da6d4ab78018b95589f69f35d42"
 [[files]]
 file = "mods/wakes-reforged.pw.toml"
 hash = "8e464c45945b7311b01d0be50a714e8a64d389dc27331f4a27d7981fd29131b9"
+metafile = true
+
+[[files]]
+file = "mods/wavey-capes.pw.toml"
+hash = "215ae0d445df462bd276febe9a4cf7cdd0342ff055d7570fa93d6c87c30c0a3e"
 metafile = true
 
 [[files]]

@@ -1,0 +1,12 @@
+{
+  "type": "tipsmod:simple",
+  "cycle_time": 10000,
+  "text": {
+    "translate": "tip.liams_modpack.atlas_open.text",
+    "with": [
+      {
+        "keybind": "key.map_atlases.open_minimap"
+      }
+    ]
+  }
+}
