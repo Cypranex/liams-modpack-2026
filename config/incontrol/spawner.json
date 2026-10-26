@@ -29,8 +29,7 @@
       "maxdist": 72,
       "minheight": -64,
       "maxheight": -1,
-      "maxthis": 10,
-      "maxhostile": 80,
+      "maxlocal": 10,
       "and": {
         "seesky": false
       },
@@ -88,8 +87,7 @@
       "maxdist": 72,
       "minheight": -128,
       "maxheight": -65,
-      "maxthis": 14,
-      "maxhostile": 80,
+      "maxlocal": 14,
       "and": {
         "seesky": false
       },
@@ -147,8 +145,7 @@
       "maxdist": 72,
       "minheight": -256,
       "maxheight": -129,
-      "maxthis": 18,
-      "maxhostile": 80,
+      "maxlocal": 18,
       "and": {
         "seesky": false
       },
@@ -206,8 +203,7 @@
       "maxdist": 72,
       "minheight": -320,
       "maxheight": -257,
-      "maxthis": 22,
-      "maxhostile": 80,
+      "maxlocal": 22,
       "and": {
         "seesky": false
       },
@@ -249,8 +245,7 @@
       "maxdist": 72,
       "minheight": -128,
       "maxheight": -65,
-      "maxthis": 2,
-      "maxhostile": 80,
+      "maxlocal": 2,
       "and": {
         "cave": true,
         "biometags": "creeperoverhaul:where_creepers_spawn"
@@ -276,8 +271,7 @@
       "maxdist": 72,
       "minheight": -256,
       "maxheight": -129,
-      "maxthis": 2,
-      "maxhostile": 80,
+      "maxlocal": 2,
       "and": {
         "cave": true,
         "biometags": "creeperoverhaul:where_creepers_spawn"
@@ -303,8 +297,7 @@
       "maxdist": 72,
       "minheight": -320,
       "maxheight": -257,
-      "maxthis": 2,
-      "maxhostile": 80,
+      "maxlocal": 2,
       "and": {
         "cave": true,
         "biometags": "creeperoverhaul:where_creepers_spawn"
@@ -330,8 +323,7 @@
       "maxdist": 72,
       "minheight": -320,
       "maxheight": -129,
-      "maxthis": 1,
-      "maxhostile": 80,
+      "maxlocal": 1,
       "validspawn": true,
       "and": {
         "cave": true,
@@ -353,8 +345,7 @@
       "maxdist": 72,
       "minheight": -128,
       "maxheight": -65,
-      "maxthis": 1,
-      "maxhostile": 80,
+      "maxlocal": 1,
       "validspawn": true,
       "and": {
         "cave": true,
@@ -380,8 +371,7 @@
       "maxdist": 72,
       "minheight": -256,
       "maxheight": -129,
-      "maxthis": 1,
-      "maxhostile": 80,
+      "maxlocal": 1,
       "validspawn": true,
       "and": {
         "cave": true,
@@ -407,8 +397,7 @@
       "maxdist": 72,
       "minheight": -320,
       "maxheight": -257,
-      "maxthis": 1,
-      "maxhostile": 80,
+      "maxlocal": 1,
       "validspawn": true,
       "and": {
         "cave": true,

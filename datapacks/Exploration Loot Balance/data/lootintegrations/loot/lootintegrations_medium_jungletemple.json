@@ -1,0 +1,5 @@
+{
+  "loot_table": "minecraft:chests/jungle_temple",
+  "max_result_itemcount": 100,
+  "integrated_loot_tables": {}
+}

@@ -1,0 +1,27 @@
+{
+  "replace": false,
+  "entries": [
+    "liams_loot:kitchens",
+    "liams_loot:surface_supplies",
+    "liams_loot:dungeon_supplies",
+    "liams_loot:workshops",
+    "liams_loot:library_supplies",
+    "liams_loot:hidden_treasure",
+    "liams_loot:nether_supplies",
+    "liams_loot:late_treasure",
+    "liams_loot:aether_provisions",
+    "liams_loot:armoury",
+    "liams_loot:village_households",
+    "liams_loot:garden_stores",
+    "liams_loot:rural_libraries",
+    "liams_loot:expedition_caches",
+    "liams_loot:dungeon_discoveries",
+    "liams_loot:guard_stores",
+    "liams_loot:coastal_caches",
+    "liams_loot:cold_caches",
+    "liams_loot:sparse_stores",
+    "liams_loot:magic_resupply",
+    "liams_loot:nether_expeditions",
+    "liams_loot:end_expeditions"
+  ]
+}
