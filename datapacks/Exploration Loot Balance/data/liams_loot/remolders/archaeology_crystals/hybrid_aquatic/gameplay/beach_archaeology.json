@@ -1,0 +1,13 @@
+{
+  "molding": "json",
+  "remolder": {
+    "type": "add",
+    "target": "pools[0].entries[]",
+    "value": {
+      "type": "minecraft:item",
+      "name": "nether_remastered:seal_crystal",
+      "weight": 1
+    }
+  },
+  "selector": "hybrid_aquatic:loot_table/gameplay/beach_archaeology"
+}

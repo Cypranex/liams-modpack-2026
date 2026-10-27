@@ -1,0 +1,13 @@
+{
+  "molding": "json",
+  "remolder": {
+    "type": "add",
+    "target": "pools[0].entries[]",
+    "value": {
+      "type": "minecraft:item",
+      "name": "nether_remastered:seal_crystal",
+      "weight": 1
+    }
+  },
+  "selector": "nova_structures:loot_table/archaelogy/desert_ruin_inside_temple"
+}

@@ -1,0 +1,3266 @@
+{
+  "item": "nether_remastered:seal_crystal",
+  "weight": 1,
+  "quantity": 1,
+  "rules": [
+    {
+      "table": "betterarcheology:archeology/desert_sand",
+      "provider": "betterarcheology-neoforge-1.21.1-1.3.9.jar",
+      "native_sha256": "7c3beaf4e7bb241da90adbe490a0f473a824e7b51d953816cb9e7508f27268f4",
+      "existing_crystal": false,
+      "shared_chest": false,
+      "native_table": {
+        "type": "minecraft:archaeology",
+        "pools": [
+          {
+            "rolls": 1,
+            "bonus_rolls": 0,
+            "entries": [
+              {
+                "type": "minecraft:loot_table",
+                "value": "minecraft:archaeology/desert_well",
+                "weight": 5
+              },
+              {
+                "type": "minecraft:item",
+                "name": "betterarcheology:artifact_shards"
+              }
+            ]
+          }
+        ]
+      },
+      "patch": "data/liams_loot/remolders/archaeology_crystals/betterarcheology/archeology/desert_sand.json"
+    },
+    {
+      "table": "betterarcheology:archeology/plains_gravel",
+      "provider": "betterarcheology-neoforge-1.21.1-1.3.9.jar",
+      "native_sha256": "c4e5bd5ec9986136d8b3f71cda47a2981962ceb971416ff7a1cea03225222d5d",
+      "existing_crystal": false,
+      "shared_chest": false,
+      "native_table": {
+        "type": "minecraft:archaeology",
+        "pools": [
+          {
+            "rolls": 1,
+            "bonus_rolls": 0,
+            "entries": [
+              {
+                "type": "minecraft:loot_table",
+                "value": "minecraft:archaeology/desert_pyramid",
+                "weight": 6
+              },
+              {
+                "type": "minecraft:item",
+                "name": "betterarcheology:artifact_shards"
+              }
+            ]
+          }
+        ]
+      },
+      "patch": "data/liams_loot/remolders/archaeology_crystals/betterarcheology/archeology/plains_gravel.json"
+    },
+    {
+      "table": "betterjungletemples:archaeology/emerald",
+      "provider": "YungsBetterJungleTemples-1.21.1-NeoForge-3.1.2.jar",
+      "native_sha256": "b5eaa48d015b1b7be59457a4163febf7693d517b46a3e9e7e1ba5ca92557e641",
+      "existing_crystal": false,
+      "shared_chest": false,
+      "native_table": {
+        "type": "minecraft:archaeology",
+        "pools": [
+          {
+            "bonus_rolls": 0.0,
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald"
+              }
+            ],
+            "rolls": {
+              "type": "minecraft:uniform",
+              "max": 1.0,
+              "min": 1.0
+            }
+          }
+        ]
+      },
+      "patch": "data/liams_loot/remolders/archaeology_crystals/betterjungletemples/archaeology/emerald.json"
+    },
+    {
+      "table": "caverns_and_chasms:archaeology/forge_common",
+      "provider": "caverns_and_chasms-1.21.1-3.0.1.jar",
+      "native_sha256": "e49af473cd81ee7e342a95f7bbb49823fa3e08f4d3d0a5edcf0073cab1981186",
+      "existing_crystal": false,
+      "shared_chest": false,
+      "native_table": {
+        "type": "minecraft:archaeology",
+        "pools": [
+          {
+            "bonus_rolls": 0.0,
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:raw_copper",
+                "weight": 3
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:raw_gold",
+                "weight": 3
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:raw_iron",
+                "weight": 3
+              },
+              {
+                "type": "minecraft:item",
+                "name": "caverns_and_chasms:raw_tin",
+                "weight": 3
+              },
+              {
+                "type": "minecraft:item",
+                "name": "caverns_and_chasms:raw_silver",
+                "weight": 3
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:scaffolding",
+                "weight": 5
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:bamboo",
+                "weight": 4
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:bucket",
+                "weight": 3
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:tnt_minecart"
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:furnace_minecart"
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:minecart"
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "weight": 3
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:diamond",
+                "weight": 2
+              },
+              {
+                "type": "minecraft:item",
+                "name": "caverns_and_chasms:zirconia"
+              }
+            ],
+            "rolls": 1.0
+          }
+        ],
+        "random_sequence": "caverns_and_chasms:archaeology/forge_common"
+      },
+      "patch": "data/liams_loot/remolders/archaeology_crystals/caverns_and_chasms/archaeology/forge_common.json"
+    },
+    {
+      "table": "caverns_and_chasms:archaeology/forge_rare",
+      "provider": "caverns_and_chasms-1.21.1-3.0.1.jar",
+      "native_sha256": "42a08940f691786446c390b64a8e05838aae14a171bce93c62258bf34f6ed6aa",
+      "existing_crystal": false,
+      "shared_chest": false,
+      "native_table": {
+        "type": "minecraft:archaeology",
+        "pools": [
+          {
+            "bonus_rolls": 0.0,
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "name": "caverns_and_chasms:music_disc_analogue"
+              },
+              {
+                "type": "minecraft:item",
+                "name": "caverns_and_chasms:boom_pottery_sherd",
+                "weight": 3
+              },
+              {
+                "type": "minecraft:item",
+                "name": "caverns_and_chasms:cast_pottery_sherd",
+                "weight": 3
+              },
+              {
+                "type": "minecraft:item",
+                "name": "caverns_and_chasms:ride_pottery_sherd",
+                "weight": 3
+              },
+              {
+                "type": "minecraft:item",
+                "name": "caverns_and_chasms:stalker_pottery_sherd",
+                "weight": 3
+              },
+              {
+                "type": "minecraft:item",
+                "name": "caverns_and_chasms:forger_armor_trim_smithing_template",
+                "weight": 2
+              },
+              {
+                "type": "minecraft:item",
+                "name": "caverns_and_chasms:immolate_armor_trim_smithing_template",
+                "weight": 2
+              },
+              {
+                "type": "minecraft:item",
+                "name": "caverns_and_chasms:rim_armor_trim_smithing_template",
+                "weight": 2
+              },
+              {
+                "type": "minecraft:item",
+                "name": "caverns_and_chasms:plate_armor_trim_smithing_template",
+                "weight": 2
+              },
+              {
+                "type": "minecraft:item",
+                "name": "caverns_and_chasms:core_armor_trim_smithing_template",
+                "weight": 2
+              }
+            ],
+            "rolls": 1.0
+          }
+        ],
+        "random_sequence": "caverns_and_chasms:archaeology/forge_rare"
+      },
+      "patch": "data/liams_loot/remolders/archaeology_crystals/caverns_and_chasms/archaeology/forge_rare.json"
+    },
+    {
+      "table": "hybrid_aquatic:gameplay/beach_archaeology",
+      "provider": "hybrid_aquatic-neoforge-1.21.1-1.7.4.jar",
+      "native_sha256": "cd58da303631a53ce87300c71b1afbd736efb263e27457ee370ef943fedda962",
+      "existing_crystal": false,
+      "shared_chest": false,
+      "native_table": {
+        "pools": [
+          {
+            "bonus_rolls": 0.0,
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:stick",
+                "weight": 10
+              },
+              {
+                "type": "minecraft:item",
+                "name": "hybrid_aquatic:shark_tooth",
+                "weight": 8
+              },
+              {
+                "type": "minecraft:item",
+                "name": "hybrid_aquatic:sea_urchin_spine",
+                "weight": 8
+              },
+              {
+                "type": "minecraft:item",
+                "name": "hybrid_aquatic:bull_kelp",
+                "weight": 8
+              },
+              {
+                "type": "minecraft:item",
+                "name": "hybrid_aquatic:delesseria",
+                "weight": 8
+              },
+              {
+                "type": "minecraft:item",
+                "name": "hybrid_aquatic:sargassum",
+                "weight": 8
+              },
+              {
+                "type": "minecraft:item",
+                "name": "hybrid_aquatic:cuttlebone",
+                "weight": 8
+              },
+              {
+                "type": "minecraft:item",
+                "name": "hybrid_aquatic:coral_chunk",
+                "weight": 6
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:prismarine_shard",
+                "weight": 6
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:prismarine_crystals",
+                "weight": 6
+              },
+              {
+                "type": "minecraft:item",
+                "name": "hybrid_aquatic:coconut_crab_claw",
+                "weight": 5
+              },
+              {
+                "type": "minecraft:item",
+                "name": "hybrid_aquatic:ghost_crab_claw",
+                "weight": 5
+              },
+              {
+                "type": "minecraft:item",
+                "name": "hybrid_aquatic:dungeness_crab_claw",
+                "weight": 5
+              },
+              {
+                "type": "minecraft:item",
+                "name": "hybrid_aquatic:flower_crab_claw",
+                "weight": 5
+              },
+              {
+                "type": "minecraft:item",
+                "name": "hybrid_aquatic:lightfoot_crab_claw",
+                "weight": 5
+              },
+              {
+                "type": "minecraft:item",
+                "name": "hybrid_aquatic:hybrid_crate",
+                "weight": 3
+              },
+              {
+                "type": "minecraft:item",
+                "name": "hybrid_aquatic:oak_crate",
+                "weight": 3
+              },
+              {
+                "type": "minecraft:item",
+                "name": "hybrid_aquatic:dark_oak_crate",
+                "weight": 3
+              },
+              {
+                "type": "minecraft:item",
+                "name": "hybrid_aquatic:spruce_crate",
+                "weight": 3
+              },
+              {
+                "type": "minecraft:item",
+                "name": "hybrid_aquatic:birch_crate",
+                "weight": 3
+              },
+              {
+                "type": "minecraft:item",
+                "name": "hybrid_aquatic:acacia_crate",
+                "weight": 3
+              },
+              {
+                "type": "minecraft:item",
+                "name": "hybrid_aquatic:jungle_crate",
+                "weight": 3
+              },
+              {
+                "type": "minecraft:item",
+                "name": "hybrid_aquatic:mangrove_crate",
+                "weight": 3
+              },
+              {
+                "type": "minecraft:item",
+                "name": "hybrid_aquatic:cherry_crate",
+                "weight": 3
+              },
+              {
+                "type": "minecraft:item",
+                "name": "hybrid_aquatic:bamboo_crate",
+                "weight": 3
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:nautilus_shell",
+                "weight": 4
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:turtle_scute",
+                "weight": 4
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:turtle_egg",
+                "weight": 2
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:heart_of_the_sea"
+              },
+              {
+                "type": "minecraft:item",
+                "name": "hybrid_aquatic:diving_armor_upgrade_template"
+              }
+            ],
+            "rolls": 1.0
+          }
+        ],
+        "random_sequence": "hybrid_aquatic:gameplay/beach_archaeology"
+      },
+      "patch": "data/liams_loot/remolders/archaeology_crystals/hybrid_aquatic/gameplay/beach_archaeology.json"
+    },
+    {
+      "table": "minecraft:archaelogy/jungle_ruins",
+      "provider": "dungeons-and-taverns-v4.4.4.jar",
+      "native_sha256": "7736bfd0cd15787325bdeec653a190ba22d9ca6373ce6f784ec322a91b7c13ac",
+      "existing_crystal": false,
+      "shared_chest": false,
+      "native_table": {
+        "type": "minecraft:archaeology",
+        "pools": [
+          {
+            "bonus_rolls": 0.0,
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:wild_armor_trim_smithing_template"
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:sniffer_egg"
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:skeleton_skull",
+                "weight": 5
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:diamond",
+                "weight": 10
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:friend_pottery_sherd",
+                "weight": 10
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:snort_pottery_sherd",
+                "weight": 10
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:arms_up_pottery_sherd",
+                "weight": 10
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:shelter_pottery_sherd",
+                "weight": 10
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:danger_pottery_sherd",
+                "weight": 10
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:heart_pottery_sherd",
+                "weight": 10
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:brewer_pottery_sherd",
+                "weight": 10
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:prize_pottery_sherd",
+                "weight": 10
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "weight": 10
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:iron_ingot",
+                "weight": 10
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:gold_ingot",
+                "weight": 10
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:lapis_lazuli",
+                "weight": 10
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:saddle",
+                "weight": 10
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:stone_axe",
+                "functions": [
+                  {
+                    "function": "set_damage",
+                    "damage": {
+                      "min": 0.6,
+                      "max": 0.1
+                    }
+                  }
+                ],
+                "weight": 5
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:stone_pickaxe",
+                "functions": [
+                  {
+                    "function": "set_damage",
+                    "damage": {
+                      "min": 0.6,
+                      "max": 0.1
+                    }
+                  }
+                ],
+                "weight": 5
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:stone_shovel",
+                "functions": [
+                  {
+                    "function": "set_damage",
+                    "damage": {
+                      "min": 0.6,
+                      "max": 0.1
+                    }
+                  }
+                ],
+                "weight": 5
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:brick",
+                "weight": 10
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:honeycomb",
+                "weight": 10
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:book",
+                "weight": 10
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:name_tag",
+                "weight": 10
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:lead",
+                "weight": 10
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:honey_bottle",
+                "weight": 20
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:bone",
+                "weight": 10
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:stick",
+                "weight": 20
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:glass_bottle",
+                "weight": 10
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:glow_berries",
+                "weight": 20
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:cocoa_beans",
+                "weight": 20
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:potato",
+                "weight": 20
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:beetroot",
+                "weight": 20
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:carrot",
+                "weight": 20
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:wheat",
+                "weight": 20
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:candle",
+                "weight": 20
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:yellow_candle",
+                "weight": 20
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:light_gray_stained_glass_pane",
+                "weight": 20
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:jungle_hanging_sign",
+                "weight": 20
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:jungle_planks",
+                "weight": 20
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:glass_pane",
+                "weight": 20
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:light_blue_stained_glass_pane",
+                "weight": 20
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:brown_stained_glass_pane",
+                "weight": 20
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:brown_dye",
+                "weight": 20
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:white_wool",
+                "weight": 20
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:black_wool",
+                "weight": 20
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:melon_slice",
+                "weight": 20
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:melon_seeds",
+                "weight": 20
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:oak_hanging_sign",
+                "weight": 20
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:oak_planks",
+                "weight": 20
+              }
+            ],
+            "rolls": 1.0
+          }
+        ],
+        "functions": [
+          {
+            "function": "minecraft:reference",
+            "name": "nova_structures:loot_modifier"
+          }
+        ]
+      },
+      "patch": "data/liams_loot/remolders/archaeology_crystals/minecraft/archaelogy/jungle_ruins.json"
+    },
+    {
+      "table": "minecraft:archaelogy/ruins",
+      "provider": "dungeons-and-taverns-v4.4.4.jar",
+      "native_sha256": "5a2578aa320d7ef5b8890f0851cffd9b0013c0e83b7e2ba5e6cc76ebfec8a2c5",
+      "existing_crystal": false,
+      "shared_chest": false,
+      "native_table": {
+        "type": "minecraft:archaeology",
+        "pools": [
+          {
+            "bonus_rolls": 0.0,
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:wild_armor_trim_smithing_template"
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:bell"
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:skeleton_skull",
+                "weight": 2
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:diamond",
+                "weight": 2
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:friend_pottery_sherd",
+                "weight": 6
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:archer_pottery_sherd",
+                "weight": 6
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:blade_pottery_sherd",
+                "weight": 6
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:sheaf_pottery_sherd",
+                "weight": 6
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:howl_pottery_sherd",
+                "weight": 6
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:heart_pottery_sherd",
+                "weight": 6
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:miner_pottery_sherd",
+                "weight": 6
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:prize_pottery_sherd",
+                "weight": 6
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "weight": 8
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:iron_ingot",
+                "weight": 5
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:gold_ingot",
+                "weight": 5
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:copper_ingot",
+                "weight": 8
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:stone_sword",
+                "functions": [
+                  {
+                    "function": "set_damage",
+                    "damage": {
+                      "min": 0.6,
+                      "max": 0.1
+                    }
+                  }
+                ],
+                "weight": 5
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:stone_pickaxe",
+                "functions": [
+                  {
+                    "function": "set_damage",
+                    "damage": {
+                      "min": 0.6,
+                      "max": 0.1
+                    }
+                  }
+                ],
+                "weight": 5
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:bow",
+                "functions": [
+                  {
+                    "function": "set_damage",
+                    "damage": {
+                      "min": 0.6,
+                      "max": 0.1
+                    }
+                  }
+                ],
+                "weight": 5
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:brick",
+                "weight": 15
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:book",
+                "weight": 12
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:name_tag",
+                "weight": 12
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:lead",
+                "weight": 12
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:bone",
+                "weight": 5
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:glass_bottle",
+                "weight": 15
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:bowl",
+                "weight": 10
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:oak_hanging_sign",
+                "weight": 15
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:oak_planks",
+                "weight": 15
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:spruce_hanging_sign",
+                "weight": 15
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:spruce_planks",
+                "weight": 15
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:birch_hanging_sign",
+                "weight": 15
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:birch_planks",
+                "weight": 15
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:wheat",
+                "weight": 15
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:wheat_seeds",
+                "weight": 15
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:potato",
+                "weight": 15
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:beetroot",
+                "weight": 15
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:carrot",
+                "weight": 15
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:beetroot_seeds",
+                "weight": 15
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:yellow_stained_glass",
+                "weight": 15
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:white_stained_glass",
+                "weight": 15
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:light_blue_stained_glass",
+                "weight": 15
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:white_wool",
+                "weight": 15
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:red_wool",
+                "weight": 15
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:yellow_wool",
+                "weight": 15
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:blue_wool",
+                "weight": 15
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:yellow_dye",
+                "weight": 15
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:green_dye",
+                "weight": 15
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:blue_dye",
+                "weight": 15
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:red_dye",
+                "weight": 15
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:light_blue_dye",
+                "weight": 15
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:white_dye",
+                "weight": 15
+              }
+            ],
+            "rolls": 1.0
+          }
+        ],
+        "functions": [
+          {
+            "function": "minecraft:reference",
+            "name": "nova_structures:loot_modifier"
+          }
+        ]
+      },
+      "patch": "data/liams_loot/remolders/archaeology_crystals/minecraft/archaelogy/ruins.json"
+    },
+    {
+      "table": "minecraft:archaeology/desert_pyramid",
+      "provider": "nether_remastered-2.6-neoforge-1.21.1.jar",
+      "native_sha256": "10cbfa9b3d958b06a97d9021eb95ef2f4df9d33c5b2e2ded66a846bf058229db",
+      "existing_crystal": true,
+      "shared_chest": false,
+      "native_table": {
+        "type": "minecraft:archaeology",
+        "pools": [
+          {
+            "bonus_rolls": 0,
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "name": "nether_remastered:seal_crystal"
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:archer_pottery_sherd"
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:miner_pottery_sherd"
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:prize_pottery_sherd"
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:skull_pottery_sherd"
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:diamond"
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:tnt"
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:gunpowder"
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald"
+              }
+            ],
+            "rolls": 1
+          }
+        ],
+        "random_sequence": "minecraft:archaeology/desert_pyramid"
+      }
+    },
+    {
+      "table": "minecraft:archaeology/desert_well",
+      "provider": "nether_remastered-2.6-neoforge-1.21.1.jar",
+      "native_sha256": "afc087bc54bfa623682836f6175b39ccd0bf4b19e5a78c16f870a6e59001d3bd",
+      "existing_crystal": false,
+      "shared_chest": false,
+      "native_table": {
+        "type": "minecraft:archaeology",
+        "pools": [
+          {
+            "bonus_rolls": 0,
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "name": "nether_remastered:seal_of_the_underworld_item"
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:arms_up_pottery_sherd",
+                "weight": 2
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:brewer_pottery_sherd",
+                "weight": 2
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:brick"
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald"
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:stick"
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "effects": [
+                      {
+                        "type": "minecraft:night_vision",
+                        "duration": {
+                          "type": "minecraft:uniform",
+                          "max": 10,
+                          "min": 7
+                        }
+                      },
+                      {
+                        "type": "minecraft:jump_boost",
+                        "duration": {
+                          "type": "minecraft:uniform",
+                          "max": 10,
+                          "min": 7
+                        }
+                      },
+                      {
+                        "type": "minecraft:weakness",
+                        "duration": {
+                          "type": "minecraft:uniform",
+                          "max": 8,
+                          "min": 6
+                        }
+                      },
+                      {
+                        "type": "minecraft:blindness",
+                        "duration": {
+                          "type": "minecraft:uniform",
+                          "max": 7,
+                          "min": 5
+                        }
+                      },
+                      {
+                        "type": "minecraft:poison",
+                        "duration": {
+                          "type": "minecraft:uniform",
+                          "max": 20,
+                          "min": 10
+                        }
+                      },
+                      {
+                        "type": "minecraft:saturation",
+                        "duration": {
+                          "type": "minecraft:uniform",
+                          "max": 10,
+                          "min": 7
+                        }
+                      }
+                    ],
+                    "function": "minecraft:set_stew_effect"
+                  }
+                ],
+                "name": "minecraft:suspicious_stew"
+              }
+            ],
+            "rolls": 1
+          }
+        ],
+        "random_sequence": "minecraft:archaeology/desert_well"
+      },
+      "patch": "data/liams_loot/remolders/archaeology_crystals/minecraft/archaeology/desert_well.json"
+    },
+    {
+      "table": "minecraft:archaeology/ocean_ruin_cold",
+      "provider": "minecraft-1.21.1-client.jar",
+      "native_sha256": "6720779cac882afcf859557fcbbb122967b68870081d66dcde8842a2f7eb74b9",
+      "existing_crystal": false,
+      "shared_chest": false,
+      "native_table": {
+        "type": "minecraft:archaeology",
+        "pools": [
+          {
+            "bonus_rolls": 0.0,
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:blade_pottery_sherd"
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:explorer_pottery_sherd"
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:mourner_pottery_sherd"
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:plenty_pottery_sherd"
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:iron_axe"
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "weight": 2
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:wheat",
+                "weight": 2
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:wooden_hoe",
+                "weight": 2
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:coal",
+                "weight": 2
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:gold_nugget",
+                "weight": 2
+              }
+            ],
+            "rolls": 1.0
+          }
+        ],
+        "random_sequence": "minecraft:archaeology/ocean_ruin_cold"
+      },
+      "patch": "data/liams_loot/remolders/archaeology_crystals/minecraft/archaeology/ocean_ruin_cold.json"
+    },
+    {
+      "table": "minecraft:archaeology/ocean_ruin_warm",
+      "provider": "minecraft-1.21.1-client.jar",
+      "native_sha256": "022f881edf82ed3cd6ccec7d6f3e7e6d42fd4fc038cdb473687a5305f3ef247b",
+      "existing_crystal": false,
+      "shared_chest": false,
+      "native_table": {
+        "type": "minecraft:archaeology",
+        "pools": [
+          {
+            "bonus_rolls": 0.0,
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:angler_pottery_sherd"
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:shelter_pottery_sherd"
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:snort_pottery_sherd"
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:sniffer_egg"
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:iron_axe"
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "weight": 2
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:wheat",
+                "weight": 2
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:wooden_hoe",
+                "weight": 2
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:coal",
+                "weight": 2
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:gold_nugget",
+                "weight": 2
+              }
+            ],
+            "rolls": 1.0
+          }
+        ],
+        "random_sequence": "minecraft:archaeology/ocean_ruin_warm"
+      },
+      "patch": "data/liams_loot/remolders/archaeology_crystals/minecraft/archaeology/ocean_ruin_warm.json"
+    },
+    {
+      "table": "minecraft:archaeology/trail_ruins_common",
+      "provider": "minecraft-1.21.1-client.jar",
+      "native_sha256": "1698c2400dddd4af404b7a434adc307eac5a7cc3f1425e6ff9623c56303fd499",
+      "existing_crystal": false,
+      "shared_chest": false,
+      "native_table": {
+        "type": "minecraft:archaeology",
+        "pools": [
+          {
+            "bonus_rolls": 0.0,
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "weight": 2
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:wheat",
+                "weight": 2
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:wooden_hoe",
+                "weight": 2
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:clay",
+                "weight": 2
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:brick",
+                "weight": 2
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:yellow_dye",
+                "weight": 2
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:blue_dye",
+                "weight": 2
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:light_blue_dye",
+                "weight": 2
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:white_dye",
+                "weight": 2
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:orange_dye",
+                "weight": 2
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:red_candle",
+                "weight": 2
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:green_candle",
+                "weight": 2
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:purple_candle",
+                "weight": 2
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:brown_candle",
+                "weight": 2
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:magenta_stained_glass_pane"
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:pink_stained_glass_pane"
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:blue_stained_glass_pane"
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:light_blue_stained_glass_pane"
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:red_stained_glass_pane"
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:yellow_stained_glass_pane"
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:purple_stained_glass_pane"
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:spruce_hanging_sign"
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:oak_hanging_sign"
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:gold_nugget"
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:coal"
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:wheat_seeds"
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:beetroot_seeds"
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:dead_bush"
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:flower_pot"
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:string"
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:lead"
+              }
+            ],
+            "rolls": 1.0
+          }
+        ],
+        "random_sequence": "minecraft:archaeology/trail_ruins_common"
+      },
+      "patch": "data/liams_loot/remolders/archaeology_crystals/minecraft/archaeology/trail_ruins_common.json"
+    },
+    {
+      "table": "minecraft:archaeology/trail_ruins_rare",
+      "provider": "minecraft-1.21.1-client.jar",
+      "native_sha256": "14eaf9d594fb8be849bb361429fba07c7510f13f01820339a814a93de0ca474e",
+      "existing_crystal": false,
+      "shared_chest": false,
+      "native_table": {
+        "type": "minecraft:archaeology",
+        "pools": [
+          {
+            "bonus_rolls": 0.0,
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:burn_pottery_sherd"
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:danger_pottery_sherd"
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:friend_pottery_sherd"
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:heart_pottery_sherd"
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:heartbreak_pottery_sherd"
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:howl_pottery_sherd"
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:sheaf_pottery_sherd"
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:wayfinder_armor_trim_smithing_template"
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:raiser_armor_trim_smithing_template"
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:shaper_armor_trim_smithing_template"
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:host_armor_trim_smithing_template"
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:music_disc_relic"
+              }
+            ],
+            "rolls": 1.0
+          }
+        ],
+        "random_sequence": "minecraft:archaeology/trail_ruins_rare"
+      },
+      "patch": "data/liams_loot/remolders/archaeology_crystals/minecraft/archaeology/trail_ruins_rare.json"
+    },
+    {
+      "table": "minecraft:chests/ancient_city",
+      "provider": "minecraft-1.21.1-client.jar",
+      "native_sha256": "10d3574fdfc0ecf7fd47d4fe49c75a5b498c2a6a7690a1bbab599315ed0c4b41",
+      "existing_crystal": false,
+      "shared_chest": true,
+      "native_table": {
+        "type": "minecraft:chest",
+        "pools": [
+          {
+            "bonus_rolls": 0.0,
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 2.0,
+                      "min": 1.0
+                    },
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "name": "minecraft:enchanted_golden_apple"
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:music_disc_otherside"
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": 1.0,
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "name": "minecraft:compass",
+                "weight": 2
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 2.0,
+                      "min": 1.0
+                    },
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "name": "minecraft:sculk_catalyst",
+                "weight": 2
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:name_tag",
+                "weight": 2
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": 1.0,
+                    "function": "minecraft:set_count"
+                  },
+                  {
+                    "add": false,
+                    "damage": {
+                      "type": "minecraft:uniform",
+                      "max": 1.0,
+                      "min": 0.8
+                    },
+                    "function": "minecraft:set_damage"
+                  },
+                  {
+                    "function": "minecraft:enchant_with_levels",
+                    "levels": {
+                      "type": "minecraft:uniform",
+                      "max": 50.0,
+                      "min": 30.0
+                    },
+                    "options": "#minecraft:on_random_loot"
+                  }
+                ],
+                "name": "minecraft:diamond_hoe",
+                "weight": 2
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": 1.0,
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "name": "minecraft:lead",
+                "weight": 2
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": 1.0,
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "name": "minecraft:diamond_horse_armor",
+                "weight": 2
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": 1.0,
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "name": "minecraft:saddle",
+                "weight": 2
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:music_disc_13",
+                "weight": 2
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:music_disc_cat",
+                "weight": 2
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "function": "minecraft:enchant_with_levels",
+                    "levels": {
+                      "type": "minecraft:uniform",
+                      "max": 50.0,
+                      "min": 30.0
+                    },
+                    "options": "#minecraft:on_random_loot"
+                  }
+                ],
+                "name": "minecraft:diamond_leggings",
+                "weight": 2
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "function": "minecraft:enchant_randomly",
+                    "options": "minecraft:swift_sneak"
+                  }
+                ],
+                "name": "minecraft:book",
+                "weight": 3
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 10.0,
+                      "min": 4.0
+                    },
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "name": "minecraft:sculk",
+                "weight": 3
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 3.0,
+                      "min": 1.0
+                    },
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "name": "minecraft:sculk_sensor",
+                "weight": 3
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 4.0,
+                      "min": 1.0
+                    },
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "name": "minecraft:candle",
+                "weight": 3
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 15.0,
+                      "min": 1.0
+                    },
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "name": "minecraft:amethyst_shard",
+                "weight": 3
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 3.0,
+                      "min": 1.0
+                    },
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "name": "minecraft:experience_bottle",
+                "weight": 3
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 15.0,
+                      "min": 1.0
+                    },
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "name": "minecraft:glow_berries",
+                "weight": 3
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "function": "minecraft:enchant_with_levels",
+                    "levels": {
+                      "type": "minecraft:uniform",
+                      "max": 39.0,
+                      "min": 20.0
+                    },
+                    "options": "#minecraft:on_random_loot"
+                  }
+                ],
+                "name": "minecraft:iron_leggings",
+                "weight": 3
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 3.0,
+                      "min": 1.0
+                    },
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "name": "minecraft:echo_shard",
+                "weight": 4
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 3.0,
+                      "min": 1.0
+                    },
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "name": "minecraft:disc_fragment_5",
+                "weight": 4
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 3.0,
+                      "min": 1.0
+                    },
+                    "function": "minecraft:set_count"
+                  },
+                  {
+                    "function": "minecraft:set_potion",
+                    "id": "minecraft:strong_regeneration"
+                  }
+                ],
+                "name": "minecraft:potion",
+                "weight": 5
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "function": "minecraft:enchant_randomly",
+                    "options": "#minecraft:on_random_loot"
+                  }
+                ],
+                "name": "minecraft:book",
+                "weight": 5
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 10.0,
+                      "min": 3.0
+                    },
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "name": "minecraft:book",
+                "weight": 5
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 15.0,
+                      "min": 1.0
+                    },
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "name": "minecraft:bone",
+                "weight": 5
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 15.0,
+                      "min": 1.0
+                    },
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "name": "minecraft:soul_torch",
+                "weight": 5
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 15.0,
+                      "min": 6.0
+                    },
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "name": "minecraft:coal",
+                "weight": 7
+              }
+            ],
+            "rolls": {
+              "type": "minecraft:uniform",
+              "max": 10.0,
+              "min": 5.0
+            }
+          },
+          {
+            "bonus_rolls": 0.0,
+            "entries": [
+              {
+                "type": "minecraft:empty",
+                "weight": 75
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:ward_armor_trim_smithing_template",
+                "weight": 4
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:silence_armor_trim_smithing_template"
+              }
+            ],
+            "rolls": 1.0
+          }
+        ],
+        "random_sequence": "minecraft:chests/ancient_city"
+      },
+      "patch": "data/liams_loot/remolders/archaeology_crystals/minecraft/chests/ancient_city.json"
+    },
+    {
+      "table": "minecraft:chests/woodland_mansion",
+      "provider": "minecraft-1.21.1-client.jar",
+      "native_sha256": "a5a70581ee04d5329336f8c0995063695308211a9a2482754a722d9522166e37",
+      "existing_crystal": false,
+      "shared_chest": true,
+      "native_table": {
+        "type": "minecraft:chest",
+        "pools": [
+          {
+            "bonus_rolls": 0.0,
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:lead",
+                "weight": 20
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:golden_apple",
+                "weight": 15
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:enchanted_golden_apple",
+                "weight": 2
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:music_disc_13",
+                "weight": 15
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:music_disc_cat",
+                "weight": 15
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:name_tag",
+                "weight": 20
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:chainmail_chestplate",
+                "weight": 10
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:diamond_hoe",
+                "weight": 15
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:diamond_chestplate",
+                "weight": 5
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "function": "minecraft:enchant_randomly",
+                    "options": "#minecraft:on_random_loot"
+                  }
+                ],
+                "name": "minecraft:book",
+                "weight": 10
+              }
+            ],
+            "rolls": {
+              "type": "minecraft:uniform",
+              "max": 3.0,
+              "min": 1.0
+            }
+          },
+          {
+            "bonus_rolls": 0.0,
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 4.0,
+                      "min": 1.0
+                    },
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "name": "minecraft:iron_ingot",
+                "weight": 10
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 4.0,
+                      "min": 1.0
+                    },
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "name": "minecraft:gold_ingot",
+                "weight": 5
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:bread",
+                "weight": 20
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 4.0,
+                      "min": 1.0
+                    },
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "name": "minecraft:wheat",
+                "weight": 20
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:bucket",
+                "weight": 10
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 4.0,
+                      "min": 1.0
+                    },
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "name": "minecraft:redstone",
+                "weight": 15
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 4.0,
+                      "min": 1.0
+                    },
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "name": "minecraft:coal",
+                "weight": 15
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 4.0,
+                      "min": 2.0
+                    },
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "name": "minecraft:melon_seeds",
+                "weight": 10
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 4.0,
+                      "min": 2.0
+                    },
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "name": "minecraft:pumpkin_seeds",
+                "weight": 10
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 4.0,
+                      "min": 2.0
+                    },
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "name": "minecraft:beetroot_seeds",
+                "weight": 10
+              }
+            ],
+            "rolls": {
+              "type": "minecraft:uniform",
+              "max": 4.0,
+              "min": 1.0
+            }
+          },
+          {
+            "bonus_rolls": 0.0,
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 8.0,
+                      "min": 1.0
+                    },
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "name": "minecraft:bone",
+                "weight": 10
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 8.0,
+                      "min": 1.0
+                    },
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "name": "minecraft:gunpowder",
+                "weight": 10
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 8.0,
+                      "min": 1.0
+                    },
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "name": "minecraft:rotten_flesh",
+                "weight": 10
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 8.0,
+                      "min": 1.0
+                    },
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "name": "minecraft:string",
+                "weight": 10
+              }
+            ],
+            "rolls": 3.0
+          },
+          {
+            "bonus_rolls": 0.0,
+            "entries": [
+              {
+                "type": "minecraft:empty"
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:vex_armor_trim_smithing_template"
+              }
+            ],
+            "rolls": 1.0
+          }
+        ],
+        "random_sequence": "minecraft:chests/woodland_mansion"
+      },
+      "patch": "data/liams_loot/remolders/archaeology_crystals/minecraft/chests/woodland_mansion.json"
+    },
+    {
+      "table": "nova_structures:archaelogy/archeology_toxic",
+      "provider": "dungeons-and-taverns-v4.4.4.jar",
+      "native_sha256": "04a929eae84be15eb7e878fcb05c4c0ddb7a8661ac61b65183bed7114ab61a62",
+      "existing_crystal": false,
+      "shared_chest": false,
+      "native_table": {
+        "type": "minecraft:archaeology",
+        "pools": [
+          {
+            "bonus_rolls": 0.0,
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:explorer_pottery_sherd",
+                "weight": 1
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:friend_pottery_sherd",
+                "weight": 1
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:heartbreak_pottery_sherd",
+                "weight": 1
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:brewer_pottery_sherd",
+                "weight": 1
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:angler_pottery_sherd",
+                "weight": 1
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:archer_pottery_sherd",
+                "weight": 1
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:skull_pottery_sherd",
+                "weight": 1
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:fishing_rod",
+                "functions": [
+                  {
+                    "function": "set_damage",
+                    "damage": {
+                      "min": 0.3,
+                      "max": 0.1
+                    }
+                  }
+                ],
+                "weight": 1
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:wooden_hoe",
+                "functions": [
+                  {
+                    "function": "set_damage",
+                    "damage": {
+                      "min": 0.3,
+                      "max": 0.1
+                    }
+                  }
+                ],
+                "weight": 1
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:wooden_shovel",
+                "functions": [
+                  {
+                    "function": "set_damage",
+                    "damage": {
+                      "min": 0.3,
+                      "max": 0.1
+                    }
+                  }
+                ],
+                "weight": 1
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:spruce_boat",
+                "weight": 1
+              },
+              {
+                "type": "minecraft:loot_table",
+                "value": "nova_structures:keys/toxic_key",
+                "weight": 2
+              },
+              {
+                "type": "minecraft:loot_table",
+                "value": "nova_structures:keys/ominous_toxic_key",
+                "weight": 2
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:paper",
+                "weight": 3
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:feather",
+                "weight": 3
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:stick",
+                "weight": 3
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:glass_bottle",
+                "weight": 3
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:fermented_spider_eye",
+                "weight": 3
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:purple_dye",
+                "weight": 3
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:green_dye",
+                "weight": 3
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:lime_dye",
+                "weight": 3
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:brown_dye",
+                "weight": 3
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:red_dye",
+                "weight": 3
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:black_dye",
+                "weight": 3
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:candle",
+                "weight": 3
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:brown_candle",
+                "weight": 3
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:green_candle",
+                "weight": 3
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:lime_candle",
+                "weight": 3
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:purple_candle",
+                "weight": 3
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:magenta_candle",
+                "weight": 3
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:white_candle",
+                "weight": 3
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:name_tag",
+                "weight": 3
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:spruce_planks",
+                "weight": 3
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:exposed_copper",
+                "weight": 3
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:exposed_copper_grate",
+                "weight": 3
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:exposed_cut_copper",
+                "weight": 3
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:exposed_copper_trapdoor",
+                "weight": 3
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:name_tag",
+                "weight": 3
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:brick",
+                "weight": 2
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:charcoal",
+                "weight": 3
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:wheat",
+                "weight": 3
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:poisonous_potato",
+                "weight": 3
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:dried_kelp",
+                "weight": 3
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:bone",
+                "weight": 2
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:skeleton_skull",
+                "weight": 1
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:lead",
+                "weight": 2
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:oak_log",
+                "weight": 2
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:exposed_chiseled_copper",
+                "weight": 3
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:moss_block",
+                "weight": 3
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:mossy_cobblestone",
+                "weight": 3
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:cauldron",
+                "weight": 3
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:string",
+                "weight": 3
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:honeycomb",
+                "weight": 3
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:mud",
+                "weight": 3
+              }
+            ],
+            "rolls": 1.0
+          }
+        ],
+        "functions": [
+          {
+            "function": "minecraft:reference",
+            "name": "nova_structures:loot_modifier"
+          }
+        ]
+      },
+      "patch": "data/liams_loot/remolders/archaeology_crystals/nova_structures/archaelogy/archeology_toxic.json"
+    },
+    {
+      "table": "nova_structures:archaelogy/conduit_ruin",
+      "provider": "dungeons-and-taverns-v4.4.4.jar",
+      "native_sha256": "26a861764098609f07a8f074625de5544e43005e4126eefdb61a7a2bf3581564",
+      "existing_crystal": false,
+      "shared_chest": false,
+      "native_table": {
+        "type": "minecraft:archaeology",
+        "pools": [
+          {
+            "bonus_rolls": 0.0,
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:tide_armor_trim_smithing_template"
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:trident",
+                "functions": [
+                  {
+                    "function": "set_damage",
+                    "damage": {
+                      "min": 0.3,
+                      "max": 0.1
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:explorer_pottery_sherd",
+                "weight": 8
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:plenty_pottery_sherd",
+                "weight": 8
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:angler_pottery_sherd",
+                "weight": 8
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "weight": 10
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:copper_ingot",
+                "weight": 10
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:raw_copper",
+                "weight": 10
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:fishing_rod",
+                "functions": [
+                  {
+                    "function": "set_damage",
+                    "damage": {
+                      "min": 0.3,
+                      "max": 0.1
+                    }
+                  }
+                ],
+                "weight": 2
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:stone_hoe",
+                "functions": [
+                  {
+                    "function": "set_damage",
+                    "damage": {
+                      "min": 0.3,
+                      "max": 0.1
+                    }
+                  }
+                ],
+                "weight": 2
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:stone_shovel",
+                "functions": [
+                  {
+                    "function": "set_damage",
+                    "damage": {
+                      "min": 0.3,
+                      "max": 0.1
+                    }
+                  }
+                ],
+                "weight": 2
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:stone_axe",
+                "functions": [
+                  {
+                    "function": "set_damage",
+                    "damage": {
+                      "min": 0.3,
+                      "max": 0.1
+                    }
+                  }
+                ],
+                "weight": 2
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:bone",
+                "weight": 15
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:gold_nugget",
+                "weight": 15
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:iron_nugget",
+                "weight": 10
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:rotten_flesh",
+                "weight": 10
+              }
+            ],
+            "rolls": 1.0
+          }
+        ],
+        "functions": [
+          {
+            "function": "minecraft:reference",
+            "name": "nova_structures:loot_modifier"
+          }
+        ]
+      },
+      "patch": "data/liams_loot/remolders/archaeology_crystals/nova_structures/archaelogy/conduit_ruin.json"
+    },
+    {
+      "table": "nova_structures:archaelogy/crypt",
+      "provider": "dungeons-and-taverns-v4.4.4.jar",
+      "native_sha256": "9969fd1d7eb4199cfd643f3dd334b6dde950eabb3aaaaddaedacbae44c7f7386",
+      "existing_crystal": false,
+      "shared_chest": false,
+      "native_table": {
+        "type": "minecraft:archaeology",
+        "pools": [
+          {
+            "bonus_rolls": 0.0,
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:string",
+                "weight": 4
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:spruce_sign",
+                "weight": 2
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:spruce_hanging_sign",
+                "weight": 2
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:wheat",
+                "weight": 4
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:carrot",
+                "weight": 3
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:red_dye",
+                "weight": 4
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:yellow_wool",
+                "weight": 2
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:yellow_dye",
+                "weight": 2
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:white_wool",
+                "weight": 2
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:white_dye",
+                "weight": 2
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:bowl",
+                "weight": 2
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:short_grass"
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:moss_block",
+                "weight": 2
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:lapis_lazuli",
+                "weight": 2
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:salmon",
+                "weight": 2
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:beetroot",
+                "weight": 2
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:bone",
+                "weight": 2
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:red_wool",
+                "weight": 4
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:redstone",
+                "weight": 2
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:bone_meal",
+                "weight": 2
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:gunpowder",
+                "weight": 5
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:redstone_torch",
+                "weight": 10
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:candle",
+                "weight": 10
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:danger_pottery_sherd",
+                "weight": 3
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:burn_pottery_sherd",
+                "weight": 3
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:skull_pottery_sherd",
+                "weight": 3
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:blade_pottery_sherd",
+                "weight": 3
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:archer_pottery_sherd",
+                "weight": 3
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:brick",
+                "weight": 3
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:tnt",
+                "weight": 5
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "weight": 2
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:diamond"
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:skeleton_skull",
+                "weight": 2
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:creeper_head"
+              },
+              {
+                "type": "minecraft:loot_table",
+                "value": "nova_structures:keys/creeper_key",
+                "weight": 5
+              }
+            ],
+            "rolls": 1.0
+          }
+        ],
+        "functions": [
+          {
+            "function": "minecraft:reference",
+            "name": "nova_structures:loot_modifier"
+          }
+        ]
+      },
+      "patch": "data/liams_loot/remolders/archaeology_crystals/nova_structures/archaelogy/crypt.json"
+    },
+    {
+      "table": "nova_structures:archaelogy/desert_ruin_inside_temple",
+      "provider": "dungeons-and-taverns-v4.4.4.jar",
+      "native_sha256": "f2d6d041d3b6cb3208b8bf0fc6418f095261aaf0556476033f487bc6ed1555f0",
+      "existing_crystal": false,
+      "shared_chest": false,
+      "native_table": {
+        "type": "minecraft:archaeology",
+        "pools": [
+          {
+            "bonus_rolls": 0.0,
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:archer_pottery_sherd",
+                "weight": 5
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:skull_pottery_sherd",
+                "weight": 5
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:danger_pottery_sherd",
+                "weight": 5
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:prize_pottery_sherd",
+                "weight": 5
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:friend_pottery_sherd",
+                "weight": 5
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:explorer_pottery_sherd",
+                "weight": 5
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:plenty_pottery_sherd",
+                "weight": 5
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:heart_pottery_sherd",
+                "weight": 5
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:heartbreak_pottery_sherd",
+                "weight": 5
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:diamond",
+                "weight": 5
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "function": "minecraft:enchant_randomly",
+                    "options": "#nova_structures:outreach"
+                  }
+                ],
+                "name": "minecraft:book",
+                "weight": 2
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:tnt",
+                "weight": 5
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:gunpowder",
+                "weight": 30
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "weight": 15
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:gold_nugget",
+                "weight": 20
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:iron_nugget",
+                "weight": 20
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:lapis_lazuli",
+                "weight": 10
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:honeycomb",
+                "weight": 10
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "options": "minecraft:efficiency",
+                    "function": "minecraft:enchant_randomly"
+                  }
+                ],
+                "name": "minecraft:book",
+                "weight": 7
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:music_disc_relic",
+                "weight": 5
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:creeper_head",
+                "weight": 2
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:dune_armor_trim_smithing_template"
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:redstone",
+                "weight": 20
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:copper_ingot",
+                "weight": 20
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:bone",
+                "weight": 20
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:experience_bottle",
+                "weight": 10
+              }
+            ],
+            "rolls": 1.0
+          }
+        ],
+        "functions": [
+          {
+            "function": "minecraft:reference",
+            "name": "nova_structures:loot_modifier"
+          }
+        ]
+      },
+      "patch": "data/liams_loot/remolders/archaeology_crystals/nova_structures/archaelogy/desert_ruin_inside_temple.json"
+    },
+    {
+      "table": "nova_structures:archaelogy/desert_ruin_ruins",
+      "provider": "dungeons-and-taverns-v4.4.4.jar",
+      "native_sha256": "821cdbeffd6fbdb227c58790cf644a97579b617de8d75b1d21837cb1ca95a102",
+      "existing_crystal": false,
+      "shared_chest": false,
+      "native_table": {
+        "type": "minecraft:archaeology",
+        "pools": [
+          {
+            "bonus_rolls": 0.0,
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:archer_pottery_sherd",
+                "weight": 10
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:skull_pottery_sherd",
+                "weight": 10
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:danger_pottery_sherd",
+                "weight": 10
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:burn_pottery_sherd",
+                "weight": 10
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:shelter_pottery_sherd",
+                "weight": 10
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:heartbreak_pottery_sherd",
+                "weight": 10
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:golden_hoe",
+                "weight": 10
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:golden_shovel",
+                "weight": 10
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "function": "minecraft:enchant_randomly",
+                    "options": "#nova_structures:outreach"
+                  }
+                ],
+                "name": "minecraft:book",
+                "weight": 5
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:stick",
+                "weight": 40
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "weight": 10
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:gold_nugget",
+                "weight": 35
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:iron_nugget",
+                "weight": 30
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:bone",
+                "weight": 40
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:skeleton_skull",
+                "weight": 5
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:honeycomb",
+                "weight": 10
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:brick",
+                "weight": 20
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:green_dye",
+                "weight": 20
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:lime_dye",
+                "weight": 20
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:dune_armor_trim_smithing_template"
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:orange_dye",
+                "weight": 20
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:blue_dye",
+                "weight": 20
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:cyan_dye",
+                "weight": 20
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:light_blue_dye",
+                "weight": 20
+              }
+            ],
+            "rolls": 1.0
+          }
+        ],
+        "functions": [
+          {
+            "function": "minecraft:reference",
+            "name": "nova_structures:loot_modifier"
+          }
+        ]
+      },
+      "patch": "data/liams_loot/remolders/archaeology_crystals/nova_structures/archaelogy/desert_ruin_ruins.json"
+    }
+  ],
+  "inventory": "Development docs/archaeology-crystals-2026-10-26/inventory.json",
+  "scope": "Every identified table-backed vanilla/Lootr suspicious sand and gravel source; no red sand, dirt, fixed-item or unassigned blocks."
+}

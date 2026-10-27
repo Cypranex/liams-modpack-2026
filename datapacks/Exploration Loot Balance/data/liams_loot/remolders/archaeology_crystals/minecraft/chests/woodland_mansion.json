@@ -1,0 +1,28 @@
+{
+  "molding": "json",
+  "remolder": {
+    "type": "add",
+    "target": "pools[0].entries[]",
+    "value": {
+      "type": "minecraft:item",
+      "name": "nether_remastered:seal_crystal",
+      "weight": 1,
+      "conditions": [
+        {
+          "condition": "minecraft:location_check",
+          "predicate": {
+            "block": {
+              "blocks": [
+                "minecraft:suspicious_sand",
+                "minecraft:suspicious_gravel",
+                "lootr:suspicious_sand",
+                "lootr:suspicious_gravel"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  "selector": "minecraft:loot_table/chests/woodland_mansion"
+}
