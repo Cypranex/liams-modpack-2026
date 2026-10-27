@@ -59,7 +59,7 @@ Mixed mods use **347 enumerated item rules** derived from installed recipes/loot
 
 Consequently, native Overworld witch/archaeology/pyromancer/mangrove loot can no longer supply those Nether materials. An Aether reward table accidentally invoked in the Nether cannot grant Aether items. Earlier materials still work in later loot. The filter removes the future-stage result; it does not reroll repeatedly until a valuable alternative appears.
 
-All Nether Remastered items are Overworld-stage progression items and are excluded from dimensional restrictions: its Seal pieces and other keys must remain obtainable before entering the Nether. Native loot sources and drop rates are unchanged; see [the correction plan](NETHER-REMASTERED-PLAN.md).
+All Nether Remastered items are Overworld-stage progression items and are excluded from dimensional restrictions: its Seal pieces and other keys must remain obtainable before entering the Nether. Shard sources remain unchanged. Archaeology crystal eligibility is expanded as described below; see also [the earlier dimension-filter correction](NETHER-REMASTERED-PLAN.md).
 
 End Remastered (`endrem`) is also exempt from dimensional restrictions: all 16 eyes and its other items resolve to Overworld stage 0, including eyes whose names refer to the Nether or Wither. This preserves their native acquisition sources; it does not relocate Nether/boss rewards into Overworld chest pools. The static checker verifies every installed End Remastered item and all 16 eyes remain stage 0.
 
@@ -227,3 +227,26 @@ eligible. Generated layouts and native outcome samples, their limitations and th
 actual container counts are recorded in the development validation report.
 Independent Lootr players each receive their own budget. Restart after sync;
 new structures require new chunks and already generated loot stays unchanged.
+
+## Nether Crystal archaeology expansion — 2026-10-26
+
+Every identified table-backed suspicious sand/gravel source now includes one
+weight-1 `nether_remastered:seal_crystal` entry in its first existing reward pool.
+Blueprint Remolder appends the entry without replacing tables or other entries.
+The desert-pyramid entry supplied by Nether Remastered already exists and is
+not duplicated. All other mods' entries (including Toolbelt and aquatic rewards),
+native weights, rolls and functions remain. Chances vary with native table
+weights, conditions and nested delegation; this is a competing reward, not an
+extra guaranteed roll. Better Archeology's delegated vanilla tables can also
+yield the crystal through their existing delegation.
+
+Coverage includes vanilla archaeology, Hybrid Aquatic beaches, Better Archeology
+desert sand/plains gravel, YUNG jungle-temple emerald gravel, C&C Forge gravel,
+Dungeons & Taverns archaeology and Explorify's reused trail-ruins tables. Grim
+Kingdoms' ancient-city/mansion table references receive entries conditioned on
+vanilla/Lootr sand/gravel at the loot origin, preserving ordinary chest rewards.
+Blocks with no assigned table, fixed-item crafted blocks, suspicious dirt and red
+sand are outside this table-only patch. No structures or saves are rewritten.
+Exact resources and original tables: `archaeology-crystals.json`; implementation
+plan: [ARCHAEOLOGY-CRYSTALS-PLAN.md](ARCHAEOLOGY-CRYSTALS-PLAN.md).
+Restart client/server after deployment; previously generated rewards are unchanged.

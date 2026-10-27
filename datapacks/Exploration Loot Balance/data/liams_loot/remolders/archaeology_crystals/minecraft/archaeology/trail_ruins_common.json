@@ -1,0 +1,13 @@
+{
+  "molding": "json",
+  "remolder": {
+    "type": "add",
+    "target": "pools[0].entries[]",
+    "value": {
+      "type": "minecraft:item",
+      "name": "nether_remastered:seal_crystal",
+      "weight": 1
+    }
+  },
+  "selector": "minecraft:loot_table/archaeology/trail_ruins_common"
+}
