@@ -178,7 +178,7 @@ hash = "efc59c26c997e99bd7bd35f053650063157d17f74d5ac7f2fff52857bf1c3235"
 
 [[files]]
 file = "config/map_atlases-client.toml"
-hash = "152a5482ea911a6737a9359e8c2807d9e1ccc9eca3b81aae52d010a987194adb"
+hash = "387f06b34cd9029999d070113ef689a83d0367ed6ebcf127370d08b6cda7581c"
 
 [[files]]
 file = "config/modernfix-mixins.properties"
@@ -781,6 +781,10 @@ file = "datapacks/Exploration Loot Balance/AGENTS.md"
 hash = "c23a98c3e62c7b8f6adb3cbd903a45cd409d7a96d9066b14f360e1ad546c963c"
 
 [[files]]
+file = "datapacks/Exploration Loot Balance/ARCHAEOLOGY-CRYSTALS-PLAN.md"
+hash = "31d4eb6c5796a3e4da4bfc9c72cb6d84d107eb76dd4b2f39152864bccb7a92d3"
+
+[[files]]
 file = "datapacks/Exploration Loot Balance/COVERAGE-PLAN.md"
 hash = "225e30698f3f33dd10bb519f76c87fbf26182020c73c3392d722d9560a84e71c"
 
@@ -806,7 +810,7 @@ hash = "987cd6e308c13f5aa6d01b704e0d4d01b5b72be9878febdc36ab40da7fc226d7"
 
 [[files]]
 file = "datapacks/Exploration Loot Balance/README.md"
-hash = "de725824613114edf209ac770d74646b722a2a1160d80a7033143812fd99e4f3"
+hash = "16eb471205bd7bcac5aa69cd9a46f5c3715eb54f3fa59da2a6380f23538263fc"
 
 [[files]]
 file = "datapacks/Exploration Loot Balance/RESTORE-PITY-PLAN.md"
@@ -815,6 +819,10 @@ hash = "6d75e0277b8961115afada0404fd7959ef8ae8bda5bc7925d3073b2bb53f9c71"
 [[files]]
 file = "datapacks/Exploration Loot Balance/SWORDS-PLAN.md"
 hash = "9641489a35a6cf836dbb56ba8ea423d8897a6e4f670c5dffc0665303e48c7caa"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/archaeology-crystals.json"
+hash = "c49544fe5452cecb90c7387ea4afe1809f462501554232534243615322ff78da"
 
 [[files]]
 file = "datapacks/Exploration Loot Balance/coverage-inventory.json"
@@ -999,6 +1007,86 @@ hash = "146204491db06575f9e735c4cdf0b418eb2653edf62b752454a9e0c80faa6a4d"
 [[files]]
 file = "datapacks/Exploration Loot Balance/data/liams_loot/loot_table/rewards/workshops.json"
 hash = "c47ce78ecff5ffd4b33ca96761a1d78367eb543355ce49ab6c3ad127f2191a60"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/liams_loot/remolders/archaeology_crystals/betterarcheology/archeology/desert_sand.json"
+hash = "47801ed1bd1d4e6d0f5a9891e4754d9ba51aac770237077135fcefe4b413841b"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/liams_loot/remolders/archaeology_crystals/betterarcheology/archeology/plains_gravel.json"
+hash = "f9e6dab78d760af17d1fdc80a1b9486a71f3951f779c000cb81f133638632add"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/liams_loot/remolders/archaeology_crystals/betterjungletemples/archaeology/emerald.json"
+hash = "e94c81ca3f674211d791a58c2ffbceeb6362d1fc216b63a271372c2d9fa8c588"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/liams_loot/remolders/archaeology_crystals/caverns_and_chasms/archaeology/forge_common.json"
+hash = "f8fe3499bce055549c675d676630929a7e23357c06ac9f0a5ce2c70a3a7bff22"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/liams_loot/remolders/archaeology_crystals/caverns_and_chasms/archaeology/forge_rare.json"
+hash = "534aa6984a1918b0db88360099a896388f48d2e86009845067151156ce5b83f6"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/liams_loot/remolders/archaeology_crystals/hybrid_aquatic/gameplay/beach_archaeology.json"
+hash = "d852682b49f7e5eab4916350a0d0b2da4f09ebcb0adf13072f4dc37d271544a7"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/liams_loot/remolders/archaeology_crystals/minecraft/archaelogy/jungle_ruins.json"
+hash = "3348986ba7093be5332fe92807bdf8eb06e53e5ed644dc5a9a97b579031b3e52"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/liams_loot/remolders/archaeology_crystals/minecraft/archaelogy/ruins.json"
+hash = "4200711ef9cf8c44d15eaf6b240f54ec6df15cd38ec8ae8959f78fb2168569e7"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/liams_loot/remolders/archaeology_crystals/minecraft/archaeology/desert_well.json"
+hash = "e47346bcd6fec71671fa3d3c64797a72beea4e47f7607198b7201a631fdb05de"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/liams_loot/remolders/archaeology_crystals/minecraft/archaeology/ocean_ruin_cold.json"
+hash = "d6f3703d091231f6ebb2d28760ecb0e64ba6bb898d30a2b6d44a26e2944bfefc"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/liams_loot/remolders/archaeology_crystals/minecraft/archaeology/ocean_ruin_warm.json"
+hash = "e49e6a27c7eb51809b8f02984054537773302fc0e011f8fcd226c87549eea94c"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/liams_loot/remolders/archaeology_crystals/minecraft/archaeology/trail_ruins_common.json"
+hash = "19720f3742f0a381411e1e6a102fb8d7aedadc205e2d5ca7e2b629e08287ed44"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/liams_loot/remolders/archaeology_crystals/minecraft/archaeology/trail_ruins_rare.json"
+hash = "60c142e447d4fed5dac6f6793d043a1b992b5c3f91d237ba02578c54614c73ef"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/liams_loot/remolders/archaeology_crystals/minecraft/chests/ancient_city.json"
+hash = "6b2fcbfcdc90272f38966e801ffec3a98a7904a94449360ba0c010fd1e713a00"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/liams_loot/remolders/archaeology_crystals/minecraft/chests/woodland_mansion.json"
+hash = "eab3ae7012229808890911f3e4e0358caf043b8e1ba64f3b7eb5310c0874f02a"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/liams_loot/remolders/archaeology_crystals/nova_structures/archaelogy/archeology_toxic.json"
+hash = "a03ee88298c1913b14fdbe2374e9d9ddf423f0d717e45d54f9ae4699949dc249"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/liams_loot/remolders/archaeology_crystals/nova_structures/archaelogy/conduit_ruin.json"
+hash = "259501a8f55c2cbd5b5084b868cd6a2cb8a96297f23c81e245ad74e081d16e4d"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/liams_loot/remolders/archaeology_crystals/nova_structures/archaelogy/crypt.json"
+hash = "0cee162327aad5fea1a71dbb998798ea32f38e27ae96240d519efe76cb4e0599"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/liams_loot/remolders/archaeology_crystals/nova_structures/archaelogy/desert_ruin_inside_temple.json"
+hash = "ec03688a83e37de7302f1332f1c97bb0caa4a3b166eab9d271f34fcca5364b08"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/liams_loot/remolders/archaeology_crystals/nova_structures/archaelogy/desert_ruin_ruins.json"
+hash = "a4710e1444b1964338e448b6dcc72b895da8330f53bb6cab3fca4960bf9ccae8"
 
 [[files]]
 file = "datapacks/Exploration Loot Balance/data/lootintegrations/loot/dungeoncrawl_dungeonloot_easy.json"
@@ -2887,6 +2975,46 @@ hash = "bba76eb2d756186bcfbe8a7b905fda6bae4ee55aadcf99a756e597a619354711"
 [[files]]
 file = "kubejs/assets/bountiful/lang/en_us.json"
 hash = "78630829ab1989328d59f835f46549fc29898a46df77bb4268e98389f92d56fc"
+
+[[files]]
+file = "kubejs/assets/dtru/models/block/mushroom/blue_bioshroom_cap_center_age0.json"
+hash = "8d9a66b40bcb50298480be1844d445b49e1f1318e7ea1011b254c02922f03f2d"
+
+[[files]]
+file = "kubejs/assets/dtru/models/block/mushroom/blue_bioshroom_cap_inside.json"
+hash = "73afda6548957064664d6f94d5803d8c7b0646df53d58713e0ce85cd3e623ebd"
+
+[[files]]
+file = "kubejs/assets/dtru/models/block/mushroom/green_bioshroom_cap_center_age0.json"
+hash = "5a6e9b3f98aad3177e7372a246ee901b9dbe55cbf14defff435091c0040557cf"
+
+[[files]]
+file = "kubejs/assets/dtru/models/block/mushroom/green_bioshroom_cap_inside.json"
+hash = "16e494b564ebc2f712a14b07bef6112b3cfe918e47d552aa60b591ce5924827e"
+
+[[files]]
+file = "kubejs/assets/dtru/models/block/mushroom/pink_bioshroom_cap_center_age0.json"
+hash = "ced8b2b83be88b86fadd89e8a4412aaeffb8452472d6a9c6d4b23f481946ac55"
+
+[[files]]
+file = "kubejs/assets/dtru/models/block/mushroom/pink_bioshroom_cap_inside.json"
+hash = "fb14fa144d9264e5ff77700911c044d13d933071fa50d45b9c655da30a5279e0"
+
+[[files]]
+file = "kubejs/assets/dtru/models/block/mushroom/small_blue_bioshroom_cap_center_age0.json"
+hash = "8d9a66b40bcb50298480be1844d445b49e1f1318e7ea1011b254c02922f03f2d"
+
+[[files]]
+file = "kubejs/assets/dtru/models/block/mushroom/small_blue_bioshroom_cap_inside.json"
+hash = "73afda6548957064664d6f94d5803d8c7b0646df53d58713e0ce85cd3e623ebd"
+
+[[files]]
+file = "kubejs/assets/dtru/models/block/mushroom/small_pink_bioshroom_cap_center_age0.json"
+hash = "ced8b2b83be88b86fadd89e8a4412aaeffb8452472d6a9c6d4b23f481946ac55"
+
+[[files]]
+file = "kubejs/assets/dtru/models/block/mushroom/small_pink_bioshroom_cap_inside.json"
+hash = "fb14fa144d9264e5ff77700911c044d13d933071fa50d45b9c655da30a5279e0"
 
 [[files]]
 file = "kubejs/assets/liams_modpack/lang/en_us.json"
