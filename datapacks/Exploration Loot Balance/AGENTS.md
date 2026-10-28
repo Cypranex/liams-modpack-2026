@@ -77,7 +77,8 @@ API from another version.
   updates. Keep both namespaces out of `namespace_stages` and do not add
   positive `item_stages` overrides for them; they resolve to Overworld stage 0.
   Their keys/eyes are needed before reaching the relevant dimensions. Preserve
-  native acquisition locations, quantities and rates: this exemption does not
+  native acquisition locations, quantities and rates (except the explicitly
+  approved 2% archaeology crystal policy below): this exemption does not
   authorize new generic key pools or bypass filtering other items in the same
   chest. Better Nether (`betternether`) and Better End (`betterend`) are separate
   mods and retain their stage rules. Validate this exception whenever either
@@ -140,6 +141,54 @@ API from another version.
   the new original JSON and re-establish indices/semantics; never merely update
   hashes, catch missing-table errors or silently skip broken required edits to
   make validation green.
+
+## Nether Crystal archaeology balance (required)
+
+The user-approved policy is **2% per selected brushed reward**, using only loot
+JSON, for every identified table-backed vanilla/Lootr suspicious sand and gravel
+source. It supersedes the 2026-10-26 weight-1 expansion. Do not restore weight-1
+entries: they produced up to 50% crystals and ~21% through nested delegation.
+Do not add extra reward pools, brushing hooks, player/progression gates or
+crystals in ordinary chests. Keep Nether Remastered exempt from dimension filters.
+
+`archaeology-crystals.json` is the exact source
+inventory and input-fingerprint reference; `ARCHAEOLOGY-CRYSTALS-PLAN.md` and the
+loot README explain the JSON gates. Blueprint Remolder priority 10000 captures
+native entries after reviewed native additions, then uses a 2% crystal branch
+and unchanged weighted normal fallback. Better Archeology's delegated tables
+already provide 2%; only its artifact-shards branches get a local gate. The
+native desert-pyramid crystal is removed from the fallback, not added twice.
+Shared chest tables use vanilla table-level item functions gated on vanilla/Lootr
+suspicious blocks at origin. This covers C&C/Quark entries appended after JSON
+remolding; ordinary chests are excluded. Converted crystals are reset to count 1
+and clean default components using a registry-validated cleanup patch. Rebuild
+and validate that patch when item/component providers change.
+
+Every content/structure/integration mod addition, removal, replacement or update
+(and changes to Minecraft, Blueprint, Lootr, Nether Remastered or other loot
+scripts/packs) must re-audit sand/gravel structure NBT, processor rules, procedural
+assignments, nested table references and native Remolder order/contributions.
+Add newly used tables; remove orphaned patches/provider requirements when mods
+are removed; preserve remaining shared users and other mods' rewards. Review
+changed originals before rebuilding; never approve changed fingerprints blindly.
+The checker locks the reviewed installed-jar inventory as well as original table
+and native Remolder fingerprints, so added/removed/updated jars require review.
+Blocks with no assigned table, fixed-item crafts, dirt/red sand and fossils are
+outside this table-only policy; document new exceptions instead of claiming all
+blocks work. Do not modify saves or structure NBT to hide these limitations.
+
+From development, run `scripts/audit_archaeology_crystals.py`, review its inventory,
+update the source reference deliberately, then `scripts/build_archaeology_crystals.py`
+and `scripts/check_archaeology_crystals.py`. The main loot checker includes this
+check. Extend `ArchaeologyCrystalChecks.java` / runtime providers for new sources;
+require native 2% first-stack rates, clean crystal components, full original
+fallback preservation, nested
+2% composition, other-mod entries and normal chest exclusion. BrushableBlockEntity
+uses the first stack, so an any-crystal test on a multi-roll chest is insufficient.
+Run the existing loot regressions and `scripts/check_archaeology_crystal_rates.py`.
+Update loot docs/tips review, deploy reviewed files and run deployed checks.
+Current evidence: development `docs/archaeology-crystals-2026-10-27/`; retain the
+2026-10-26 evidence as historical. Restart before new loot rolls.
 
 ## When mods are added or updated
 

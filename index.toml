@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "AGENTS.md"
-hash = "87dd3f198377b2dc6be9f680281eb4d4eb3b0ededb192e664126f74fca499cfc"
+hash = "a8a598d11b60859c3a63a6adefe0eb91f71018a9ddf3282ca48319ba8eaa8a67"
 
 [[files]]
 file = "config/aether-common.toml"
@@ -836,11 +836,11 @@ hash = "e4bf5a07d051510070733bca5b775abe25be76832f0ffaf0c0fbd02262b7f090"
 
 [[files]]
 file = "datapacks/Exploration Loot Balance/AGENTS.md"
-hash = "c23a98c3e62c7b8f6adb3cbd903a45cd409d7a96d9066b14f360e1ad546c963c"
+hash = "cc5c4d9e8a444da239d663f48329c7dc61b819f14ee3775eab909b5c9a01e573"
 
 [[files]]
 file = "datapacks/Exploration Loot Balance/ARCHAEOLOGY-CRYSTALS-PLAN.md"
-hash = "31d4eb6c5796a3e4da4bfc9c72cb6d84d107eb76dd4b2f39152864bccb7a92d3"
+hash = "5cfb563c6f04ff18e4ce16990fd8a11b628a49c1acd37e88793e7f098f628052"
 
 [[files]]
 file = "datapacks/Exploration Loot Balance/COVERAGE-PLAN.md"
@@ -860,7 +860,7 @@ hash = "3a968cd16ada5159e5b63e4d0155e4ead220440029ef38f92845a1b4c4615dff"
 
 [[files]]
 file = "datapacks/Exploration Loot Balance/NETHER-REMASTERED-PLAN.md"
-hash = "a4ecd3efad66e83a2eb9af69097e76a5f23987836b584ce71ca79ff061847dba"
+hash = "60d547c365b1157c39625dfd3583d70d59bfb9c6aaffc32f6a8f136c9009fc0e"
 
 [[files]]
 file = "datapacks/Exploration Loot Balance/NO-PITY-PLAN.md"
@@ -868,7 +868,7 @@ hash = "987cd6e308c13f5aa6d01b704e0d4d01b5b72be9878febdc36ab40da7fc226d7"
 
 [[files]]
 file = "datapacks/Exploration Loot Balance/README.md"
-hash = "16eb471205bd7bcac5aa69cd9a46f5c3715eb54f3fa59da2a6380f23538263fc"
+hash = "a79a4ee7033448f23bcf43248b6e5581d3a8775c3e59d39c07767639ae443d92"
 
 [[files]]
 file = "datapacks/Exploration Loot Balance/RESTORE-PITY-PLAN.md"
@@ -880,11 +880,11 @@ hash = "9641489a35a6cf836dbb56ba8ea423d8897a6e4f670c5dffc0665303e48c7caa"
 
 [[files]]
 file = "datapacks/Exploration Loot Balance/archaeology-crystals.json"
-hash = "c49544fe5452cecb90c7387ea4afe1809f462501554232534243615322ff78da"
+hash = "cbdb39234a0a8044511a50980cc95af5f70ad92ba51e2bff7d8a5bc3020eecd1"
 
 [[files]]
 file = "datapacks/Exploration Loot Balance/coverage-inventory.json"
-hash = "b6a811322288fce2bc8eb0c0b744e15d1e0dff4c7de6f8f7264aa01a1f5199f9"
+hash = "415a899b35dfb7853c72e8ff2e19ad40dab59d4f2ce3dbd877604f1910c78269"
 
 [[files]]
 file = "datapacks/Exploration Loot Balance/data/irons_spellbooks/loot_modifiers/chest_loot/vanilla_generic_loot_modifier.json"
@@ -1068,83 +1068,87 @@ hash = "c47ce78ecff5ffd4b33ca96761a1d78367eb543355ce49ab6c3ad127f2191a60"
 
 [[files]]
 file = "datapacks/Exploration Loot Balance/data/liams_loot/remolders/archaeology_crystals/betterarcheology/archeology/desert_sand.json"
-hash = "47801ed1bd1d4e6d0f5a9891e4754d9ba51aac770237077135fcefe4b413841b"
+hash = "cacada4fad3972ca6a8ffda731089eca7f2db9ed0f25620b3e2d3dbccaa77eef"
 
 [[files]]
 file = "datapacks/Exploration Loot Balance/data/liams_loot/remolders/archaeology_crystals/betterarcheology/archeology/plains_gravel.json"
-hash = "f9e6dab78d760af17d1fdc80a1b9486a71f3951f779c000cb81f133638632add"
+hash = "a3de1c284b9f3a14a2adeb9dbd8453dab6932f681a5a6ceb927765a1039a4654"
 
 [[files]]
 file = "datapacks/Exploration Loot Balance/data/liams_loot/remolders/archaeology_crystals/betterjungletemples/archaeology/emerald.json"
-hash = "e94c81ca3f674211d791a58c2ffbceeb6362d1fc216b63a271372c2d9fa8c588"
+hash = "2a02c5966ca7854928fe82373cc1d16a8a490ebde7de896216ad0a2c8b963dc2"
 
 [[files]]
 file = "datapacks/Exploration Loot Balance/data/liams_loot/remolders/archaeology_crystals/caverns_and_chasms/archaeology/forge_common.json"
-hash = "f8fe3499bce055549c675d676630929a7e23357c06ac9f0a5ce2c70a3a7bff22"
+hash = "2ecbd681b865cf29089fb12bd05cc22ff9b36985967fe90f9427e47dda58aa10"
 
 [[files]]
 file = "datapacks/Exploration Loot Balance/data/liams_loot/remolders/archaeology_crystals/caverns_and_chasms/archaeology/forge_rare.json"
-hash = "534aa6984a1918b0db88360099a896388f48d2e86009845067151156ce5b83f6"
+hash = "8619cd239c60bac79452a4a87ceb9a14f4e4768e08b557dbcb3d428185351ec1"
 
 [[files]]
 file = "datapacks/Exploration Loot Balance/data/liams_loot/remolders/archaeology_crystals/hybrid_aquatic/gameplay/beach_archaeology.json"
-hash = "d852682b49f7e5eab4916350a0d0b2da4f09ebcb0adf13072f4dc37d271544a7"
+hash = "335026d39a18227d0446c26daee1fd8031de65ae47623f1a2a2074a69f8ef85b"
 
 [[files]]
 file = "datapacks/Exploration Loot Balance/data/liams_loot/remolders/archaeology_crystals/minecraft/archaelogy/jungle_ruins.json"
-hash = "3348986ba7093be5332fe92807bdf8eb06e53e5ed644dc5a9a97b579031b3e52"
+hash = "24397bdb410b68b28dbf8e139ae8dfbf37014f1157c92a7b8a66ed693fabb7fd"
 
 [[files]]
 file = "datapacks/Exploration Loot Balance/data/liams_loot/remolders/archaeology_crystals/minecraft/archaelogy/ruins.json"
-hash = "4200711ef9cf8c44d15eaf6b240f54ec6df15cd38ec8ae8959f78fb2168569e7"
+hash = "bdc2a03f5171c1c26ef016bdf73adb4a5743ef2f6006f707696bd7e7a661b345"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/liams_loot/remolders/archaeology_crystals/minecraft/archaeology/desert_pyramid.json"
+hash = "33dba286468ff806601e448c5d9f19fee1d27514e2bc2945c8c5ec116d7ef714"
 
 [[files]]
 file = "datapacks/Exploration Loot Balance/data/liams_loot/remolders/archaeology_crystals/minecraft/archaeology/desert_well.json"
-hash = "e47346bcd6fec71671fa3d3c64797a72beea4e47f7607198b7201a631fdb05de"
+hash = "d558f9c521dcb67b5ab2975670c95c861a5742f4be98f330fed62e52c41b2a85"
 
 [[files]]
 file = "datapacks/Exploration Loot Balance/data/liams_loot/remolders/archaeology_crystals/minecraft/archaeology/ocean_ruin_cold.json"
-hash = "d6f3703d091231f6ebb2d28760ecb0e64ba6bb898d30a2b6d44a26e2944bfefc"
+hash = "2a3e044fd56476160a3c91a915ca565f939035854719fcd5c32d7cc8b90b382f"
 
 [[files]]
 file = "datapacks/Exploration Loot Balance/data/liams_loot/remolders/archaeology_crystals/minecraft/archaeology/ocean_ruin_warm.json"
-hash = "e49e6a27c7eb51809b8f02984054537773302fc0e011f8fcd226c87549eea94c"
+hash = "9ee9f3da65ea61ae3b1d6af84c49c04d79b22dd8cba9f0d416738c39b456ccd2"
 
 [[files]]
 file = "datapacks/Exploration Loot Balance/data/liams_loot/remolders/archaeology_crystals/minecraft/archaeology/trail_ruins_common.json"
-hash = "19720f3742f0a381411e1e6a102fb8d7aedadc205e2d5ca7e2b629e08287ed44"
+hash = "d9948b11890e91ca59a307b717b0d0b35ef8e855ecd52029ee8e5fe96e9018b3"
 
 [[files]]
 file = "datapacks/Exploration Loot Balance/data/liams_loot/remolders/archaeology_crystals/minecraft/archaeology/trail_ruins_rare.json"
-hash = "60c142e447d4fed5dac6f6793d043a1b992b5c3f91d237ba02578c54614c73ef"
+hash = "5d9741892300448db1c4e93036ae5d9a7a953f23b14a9f08aa540928ea78e6e8"
 
 [[files]]
 file = "datapacks/Exploration Loot Balance/data/liams_loot/remolders/archaeology_crystals/minecraft/chests/ancient_city.json"
-hash = "6b2fcbfcdc90272f38966e801ffec3a98a7904a94449360ba0c010fd1e713a00"
+hash = "dcdf13321eebb06b97da6f8f1e5dbef91d3ee520c4fe0d04c339587767d14438"
 
 [[files]]
 file = "datapacks/Exploration Loot Balance/data/liams_loot/remolders/archaeology_crystals/minecraft/chests/woodland_mansion.json"
-hash = "eab3ae7012229808890911f3e4e0358caf043b8e1ba64f3b7eb5310c0874f02a"
+hash = "60260eb79f439741ba5d3d3b47cd5d0e1797cd9a84fbb480d5878e4005363705"
 
 [[files]]
 file = "datapacks/Exploration Loot Balance/data/liams_loot/remolders/archaeology_crystals/nova_structures/archaelogy/archeology_toxic.json"
-hash = "a03ee88298c1913b14fdbe2374e9d9ddf423f0d717e45d54f9ae4699949dc249"
+hash = "ef4d64339f3eb3a2b85ef4c883157dcf74ca9b9002a255a6d7fce275ff4d1f2f"
 
 [[files]]
 file = "datapacks/Exploration Loot Balance/data/liams_loot/remolders/archaeology_crystals/nova_structures/archaelogy/conduit_ruin.json"
-hash = "259501a8f55c2cbd5b5084b868cd6a2cb8a96297f23c81e245ad74e081d16e4d"
+hash = "a5cfa595f48bf544de1ba4d6e044b374246f33037cb341e16886d06025fd2265"
 
 [[files]]
 file = "datapacks/Exploration Loot Balance/data/liams_loot/remolders/archaeology_crystals/nova_structures/archaelogy/crypt.json"
-hash = "0cee162327aad5fea1a71dbb998798ea32f38e27ae96240d519efe76cb4e0599"
+hash = "6f1957c3ca6f4d902ce6dff25bcef031a4a4b9a6590f34eef9fe234aaa40171c"
 
 [[files]]
 file = "datapacks/Exploration Loot Balance/data/liams_loot/remolders/archaeology_crystals/nova_structures/archaelogy/desert_ruin_inside_temple.json"
-hash = "ec03688a83e37de7302f1332f1c97bb0caa4a3b166eab9d271f34fcca5364b08"
+hash = "cf3bcd243fb1cbc64da2caf52ebc92d7fc6237a980b7a168253cf723e91620f9"
 
 [[files]]
 file = "datapacks/Exploration Loot Balance/data/liams_loot/remolders/archaeology_crystals/nova_structures/archaelogy/desert_ruin_ruins.json"
-hash = "a4710e1444b1964338e448b6dcc72b895da8330f53bb6cab3fca4960bf9ccae8"
+hash = "225300d1db9108784597a08c3933bd5928e9a0867493c7aa034e570e5d9a6f58"
 
 [[files]]
 file = "datapacks/Exploration Loot Balance/data/lootintegrations/loot/dungeoncrawl_dungeonloot_easy.json"
@@ -1464,7 +1468,7 @@ hash = "8a92e9a8828555b721ab4f9bbd01abe5592afb60734813ce249d4853b20a0694"
 
 [[files]]
 file = "datapacks/Exploration Loot Balance/tuning-reference.json"
-hash = "5cf6bd1f4be2e431bb7e07641b58f7c38e42f90ac4f6cf4ee7ba08672fd9a443"
+hash = "af3907234f176f994a9a7d70badf522a1d23a50a2cfa787467bfbd0c32ea626f"
 
 [[files]]
 file = "datapacks/Fangs and Claws Persistent Animals/data/respawninganimals/tags/entity_type/persistent_animals.json"
@@ -4426,6 +4430,10 @@ file = "mods/liams-ragdoll-revival-1.0.1.jar"
 hash = "e4a5b75cd01c67134f1788c8cb08365430bedf263d99c937caf9d9d7b35a56b4"
 
 [[files]]
+file = "mods/liams-spelunkers-charm-compat-1.0.0.jar"
+hash = "27d0807223539c736cd6ee0f8fea3d5ba3eb9d04c525c3d2141c988b895039e4"
+
+[[files]]
 file = "mods/liams-torch-compat-1.0.2.jar"
 hash = "ee37d0bc13c7047b80daed738e6e31e5136a1cf14eb4600307c519250fdc7205"
 
@@ -4532,6 +4540,11 @@ metafile = true
 [[files]]
 file = "mods/nether-remastered.pw.toml"
 hash = "2e6ee0ac7c755d4244be58e12a61936154eed972270659bde10471fe6d7f48f5"
+metafile = true
+
+[[files]]
+file = "mods/netherportalfix.pw.toml"
+hash = "748bdcbc7788a77881979189827f1baf3f6ef5fdaeb58b00e51e043c2c0abe39"
 metafile = true
 
 [[files]]

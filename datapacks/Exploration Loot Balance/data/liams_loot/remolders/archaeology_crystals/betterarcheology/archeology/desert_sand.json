@@ -1,13 +1,44 @@
 {
   "molding": "json",
-  "remolder": {
-    "type": "add",
-    "target": "pools[0].entries[]",
-    "value": {
-      "type": "minecraft:item",
-      "name": "nether_remastered:seal_crystal",
-      "weight": 1
+  "priority": 10000,
+  "remolder": [
+    {
+      "type": "add",
+      "target": "liams_crystal_original",
+      "expressed_value": "pools[0].entries[1]"
+    },
+    {
+      "type": "replace",
+      "target": "pools[0].entries[1]",
+      "value": {
+        "type": "minecraft:alternatives",
+        "children": [
+          {
+            "type": "minecraft:item",
+            "name": "nether_remastered:seal_crystal",
+            "weight": 1,
+            "conditions": [
+              {
+                "condition": "minecraft:random_chance",
+                "chance": 0.02
+              }
+            ]
+          },
+          {
+            "type": "minecraft:empty"
+          }
+        ]
+      }
+    },
+    {
+      "type": "replace",
+      "target": "pools[0].entries[1].children[1]",
+      "expressed_value": "liams_crystal_original"
+    },
+    {
+      "type": "remove",
+      "target": "liams_crystal_original"
     }
-  },
+  ],
   "selector": "betterarcheology:loot_table/archeology/desert_sand"
 }

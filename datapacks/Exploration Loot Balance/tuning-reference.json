@@ -1132,5 +1132,11 @@
       "dungeoncrawl:chests/secret_room"
     ],
     "treasure_root": "dungeoncrawl:chests/treasure"
+  },
+  "archaeology_crystals_reference": {
+    "file": "archaeology-crystals.json",
+    "chance": 0.02,
+    "revision": "2026-10-27",
+    "scope": "Selected brushed reward from reviewed table-backed sand/gravel; no ordinary chest crystals; nested composition remains 2%."
   }
 }

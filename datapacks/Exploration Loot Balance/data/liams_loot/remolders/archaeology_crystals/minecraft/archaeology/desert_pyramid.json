@@ -1,0 +1,51 @@
+{
+  "molding": "json",
+  "priority": 10000,
+  "remolder": [
+    {
+      "type": "remove",
+      "target": "pools[0].entries[0]"
+    },
+    {
+      "type": "add",
+      "target": "liams_crystal_original",
+      "expressed_value": "pools[0].entries"
+    },
+    {
+      "type": "replace",
+      "target": "pools[0].entries",
+      "value": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "nether_remastered:seal_crystal",
+              "weight": 1,
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.02
+                }
+              ]
+            },
+            {
+              "type": "minecraft:group",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "replace",
+      "target": "pools[0].entries[0].children[1].children",
+      "expressed_value": "liams_crystal_original"
+    },
+    {
+      "type": "remove",
+      "target": "liams_crystal_original"
+    }
+  ],
+  "selector": "minecraft:loot_table/archaeology/desert_pyramid"
+}

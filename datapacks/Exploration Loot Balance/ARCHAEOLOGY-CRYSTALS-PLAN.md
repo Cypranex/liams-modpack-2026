@@ -1,27 +1,34 @@
-# Archaeology crystal plan — 2026-10-26
+# Archaeology crystals: 2% revision — 2026-10-27
 
-User authorized a weight-1 Nether Crystal entry in every sand/gravel loot table.
-Patch existing tables additively with Blueprint Remolder (already installed), not
-extra pools, global modifiers, brushing hooks, replacement tables or mod jars.
-Preserve all native entries, weights, conditions, functions and other-mod additions.
-The existing desert_pyramid crystal entry remains untouched and is not duplicated.
-Each appended entry has weight 1, quality 0 and default quantity 1. Native table
-rolls/conditions remain; probabilities vary with native weights and delegation.
+User authorized replacing the uneven weight-1 rates with 2% per selected brushed
+reward and explicitly required maintenance instructions for mod changes.
+Use only Blueprint Remolder JSON edits; no production code, extra rewards,
+progression/player checks, saves or structure changes. Maintain the 21-table
+coverage and unassigned/fixed-item exclusions of the earlier revision.
 
-Two Grim Kingdoms sand/gravel references reuse ancient_city/woodland_mansion chest
-tables. Their entries use vanilla location_check on the four vanilla/Lootr
-sand/gravel block IDs so ordinary chests never select the new crystal entry.
-This is a JSON loot condition; no code/runtime brushing check is installed.
-Nether Crystal remains an explicitly exempt Overworld progression key.
+For ordinary tables, wrap the existing pool entries in an alternatives entry:
+2% crystal, otherwise a group containing the original weighted entries. Read
+those entries dynamically after native Remolders (priority 10000); retain other
+mods' additions without copying full tables. Remove the old native crystal from
+desert_pyramid before wrapping, so it cannot remain in the normal fallback.
 
-Templates without an assigned table cannot acquire a new item through table-only
-edits. Better Archeology underwater placeholders become fossiliferous dirt and
-are outside sand/gravel scope; desert obelisk placeholders get their table from
-processors. Empty Grim Kingdoms, Formations, Better Archeology jungle and D&T
-crypt placeholders remain as authored; no NBT, saves, block conversion, crafting,
-red sand, dirt or unrelated tables are changed.
+Better Archeology's two parent tables already delegate to now-2% vanilla tables.
+Leave those delegated entries intact and apply 2% only to their nondelegating
+artifact-shards branch, retaining its weight/quality. This makes the composed
+rate 2%, not 3.96%, and preserves noncrystal reward proportions.
 
-Validation: parse all patches, assert exact one-entry append / no duplication,
-native registry decode and loaded-entry preservation, seed sampling each targeted
-table and normal chest exclusion, existing loot regression and tips review.
-Sync reviewed datapack, refresh packwiz and verify deployed bytes. Restart needed.
+For the two shared chest tables, use vanilla table-level set_item at 2% gated
+on suspicious vanilla/Lootr sand/gravel at origin, then reset the converted
+crystal to quantity 1 and clean default components. C&C/Quark append entries
+after JSON remolding; a pool wrapper would miss those native additions. Table
+functions cover those entries while preserving the normal pools unchanged.
+The cleanup is generated/verified against native component registries and the
+fresh crystal's components. No ordinary chest output is converted. Sample the
+first returned stack, which native brushing actually selects.
+
+Update root and loot AGENTS.md, readable loot reference, machine reference,
+static/native checks and audit evidence. Lock original tables and relevant
+Remolder inputs to installed fingerprints, test full loaded noncrystal fallback,
+2% outcomes and nested delegation, and run existing loot regressions. Review tips
+without adding discovery spoilers; do not refresh unrelated drift baselines.
+Deploy source to Local Testing, refresh packwiz and validate deployed bytes.
