@@ -5563,5 +5563,6 @@
       "dungeoncrawl:misc/dispenser_3": "Legacy trap helper, no authored route",
       "dungeoncrawl:monster_overrides/wither_skeleton": "Legacy entity-drop override; not broadened into chest policy or restored"
     }
-  }
+  },
+  "archaeology_crystals_reference": "archaeology-crystals.json (2% selected brushed reward; separate from chest recipient counts; re-audit on mod changes)"
 }

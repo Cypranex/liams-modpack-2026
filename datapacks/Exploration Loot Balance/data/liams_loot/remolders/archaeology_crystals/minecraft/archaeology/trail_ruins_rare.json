@@ -1,13 +1,47 @@
 {
   "molding": "json",
-  "remolder": {
-    "type": "add",
-    "target": "pools[0].entries[]",
-    "value": {
-      "type": "minecraft:item",
-      "name": "nether_remastered:seal_crystal",
-      "weight": 1
+  "priority": 10000,
+  "remolder": [
+    {
+      "type": "add",
+      "target": "liams_crystal_original",
+      "expressed_value": "pools[0].entries"
+    },
+    {
+      "type": "replace",
+      "target": "pools[0].entries",
+      "value": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "nether_remastered:seal_crystal",
+              "weight": 1,
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.02
+                }
+              ]
+            },
+            {
+              "type": "minecraft:group",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "replace",
+      "target": "pools[0].entries[0].children[1].children",
+      "expressed_value": "liams_crystal_original"
+    },
+    {
+      "type": "remove",
+      "target": "liams_crystal_original"
     }
-  },
+  ],
   "selector": "minecraft:loot_table/archaeology/trail_ruins_rare"
 }

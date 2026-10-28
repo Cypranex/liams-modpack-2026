@@ -1,3 +1,9 @@
+> Historical dimension-filter correction. The current crystal-source/rate policy
+> is the explicitly approved 2% archaeology revision (2026-10-27), documented in
+> [ARCHAEOLOGY-CRYSTALS-PLAN.md](ARCHAEOLOGY-CRYSTALS-PLAN.md) and the README.
+> Its coverage/rate changes supersede this older plan's native-rate preservation
+> for archaeology crystals only; shard sources and namespace exemptions remain.
+
 # Nether Remastered Overworld progression correction
 
 Nether Remastered 2.6 supplies pre-Nether progression items, not Nether-exclusive

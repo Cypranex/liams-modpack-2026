@@ -228,25 +228,39 @@ actual container counts are recorded in the development validation report.
 Independent Lootr players each receive their own budget. Restart after sync;
 new structures require new chunks and already generated loot stays unchanged.
 
-## Nether Crystal archaeology expansion — 2026-10-26
+## Nether Crystal archaeology balance — 2026-10-27
 
-Every identified table-backed suspicious sand/gravel source now includes one
-weight-1 `nether_remastered:seal_crystal` entry in its first existing reward pool.
-Blueprint Remolder appends the entry without replacing tables or other entries.
-The desert-pyramid entry supplied by Nether Remastered already exists and is
-not duplicated. All other mods' entries (including Toolbelt and aquatic rewards),
-native weights, rolls and functions remain. Chances vary with native table
-weights, conditions and nested delegation; this is a competing reward, not an
-extra guaranteed roll. Better Archeology's delegated vanilla tables can also
-yield the crystal through their existing delegation.
+The current policy is **2% per selected brushed reward** across all 21 reviewed
+sand/gravel loot tables. It replaces the earlier weight-1 expansion, which ranged
+from ~0.14% to 50% and unintentionally reached ~21% through nested delegation.
+Average acquisition is 50 brushes, with ~64% success by 50 and ~87% by 100.
+There is no guarantee/pity or automatic switch-off after crafting a seal.
+
+Loot JSON uses a 2% crystal branch and the original weighted normal rewards as
+fallback. Native weights, item functions, rolls, pool conditions and table
+functions remain; other mods' Toolbelt/aquatic additions are captured dynamically
+after native Remolders. Better Archeology's two parent tables retain delegation
+and gate only the nondelegating artifact-shards branch, keeping the combined
+chance at 2%. The existing desert-pyramid crystal is removed from its normal
+fallback so it cannot inflate the new rate. No bonus pool or production code is
+added; normal reward proportions remain intact when no crystal is selected.
 
 Coverage includes vanilla archaeology, Hybrid Aquatic beaches, Better Archeology
 desert sand/plains gravel, YUNG jungle-temple emerald gravel, C&C Forge gravel,
 Dungeons & Taverns archaeology and Explorify's reused trail-ruins tables. Grim
-Kingdoms' ancient-city/mansion table references receive entries conditioned on
-vanilla/Lootr sand/gravel at the loot origin, preserving ordinary chest rewards.
-Blocks with no assigned table, fixed-item crafted blocks, suspicious dirt and red
-sand are outside this table-only patch. No structures or saves are rewritten.
-Exact resources and original tables: `archaeology-crystals.json`; implementation
-plan: [ARCHAEOLOGY-CRYSTALS-PLAN.md](ARCHAEOLOGY-CRYSTALS-PLAN.md).
-Restart client/server after deployment; previously generated rewards are unchanged.
+Kingdoms' ancient-city/mansion references use vanilla table-level conversion
+functions at 2%, gated on vanilla/Lootr suspicious blocks at origin. This covers
+late C&C/Quark additions while leaving ordinary chest rewards unchanged. Converted
+crystals are quantity 1 with clean default components, not inherited enchantments
+or other item data.
+Native brushing selects the first returned stack, not any crystal from a chest's
+multiple rolls. Existing generated rewards are not rerolled.
+
+Blocks with no assigned table, fixed-item crafted blocks, suspicious dirt/red sand
+and fossils remain outside this table-only scope. No structures/saves are edited.
+Exact table/provider/input fingerprints: `archaeology-crystals.json`; current
+plan: [ARCHAEOLOGY-CRYSTALS-PLAN.md](ARCHAEOLOGY-CRYSTALS-PLAN.md). Root and loot
+AGENTS.md require coverage/rate/input reviews on mod additions/removals/updates.
+Development evidence is `docs/archaeology-crystals-2026-10-27/`; prior weight-1
+results remain historical under `docs/archaeology-crystals-2026-10-26/`.
+Restart client/server after deploying; new unopened loot rolls use the new rate.
