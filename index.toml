@@ -3596,7 +3596,7 @@ hash = "0c615d27d6e7932dab70603593b0d4b2098f06e605c17c7e8549a677ec84ef94"
 
 [[files]]
 file = "kubejs/server_scripts/aeronautics_aether_recipes.js"
-hash = "f52e465a5f45bd74514f7cfd58c193433b2081c1b1610070fcdec457b71a35c7"
+hash = "3b13a70d79f12e8e11480b78068728b529a5e27da8dd532d554047b6303ed5b4"
 
 [[files]]
 file = "kubejs/server_scripts/astikorcarts_chest_recipes.js"
