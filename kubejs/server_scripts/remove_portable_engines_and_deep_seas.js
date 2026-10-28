@@ -1,4 +1,4 @@
-// Remove the requested items' recipes without touching Create High Seas.
+// Disable portable engines and the excluded modern/creative naval devices.
 // Deep Seas and High Seas share a jar, but use separate recipe/item namespaces.
 ServerEvents.recipes(event => {
   const colors = [
@@ -22,23 +22,13 @@ ServerEvents.recipes(event => {
     event.remove({ output: `create_high_seas:${item}` })
   })
 
-  // The mod's own recipes include custom recipe types whose outputs cannot
-  // always be matched by an item-output filter.
-  event.remove({ mod: 'create_submarine' })
-
-  // Also catch recipes for Deep Seas items supplied by other mods or packs.
-  // This is the item/block-item set shipped by Create Deep Seas 3.3.0.
-  const deepSeasItems = [
-    'arresting_hook', 'ballast_tank', 'ballast_vent', 'barometer',
-    'command_sub', 'copper_pressurizer', 'creative_oxygenator',
-    'decompression_chamber', 'electrolyzer',
-    'industrial_alarm', 'iron_pressurizer', 'oxygen_bucket',
-    'oxygene_diffuser', 'phycological_membrane', 'pulley',
-    'pump_controller', 'rockcutting_wheel', 'sonar', 'steel_cable',
-    'submarine_propeller', 'submarine_staff', 'underwater_mine',
-    'water_thruster'
+  // Retain the mechanical submarine recipes. These modern/creative devices
+  // remain unavailable through crafting, including third-party recipes.
+  const disabledDeepSeasItems = [
+    'command_sub', 'sonar', 'industrial_alarm', 'pressure_goggles',
+    'underwater_mine', 'creative_oxygenator'
   ]
-  deepSeasItems.forEach(item => {
+  disabledDeepSeasItems.forEach(item => {
     event.remove({ output: `create_submarine:${item}` })
   })
 })

@@ -4,8 +4,7 @@
     "bountiful",
     "bountiful_contract_fairness",
     "create",
-    "create_high_seas",
-    "create_submarine"
+    "create_high_seas"
   ],
   "objectives": [
     "liams_millwrights_objectives"

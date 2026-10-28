@@ -1,6 +1,5 @@
 {
   "item": "nether_remastered:seal_crystal",
-  "weight": 1,
   "quantity": 1,
   "rules": [
     {
@@ -29,7 +28,8 @@
           }
         ]
       },
-      "patch": "data/liams_loot/remolders/archaeology_crystals/betterarcheology/archeology/desert_sand.json"
+      "patch": "data/liams_loot/remolders/archaeology_crystals/betterarcheology/archeology/desert_sand.json",
+      "mode": "delegating_parent"
     },
     {
       "table": "betterarcheology:archeology/plains_gravel",
@@ -57,7 +57,8 @@
           }
         ]
       },
-      "patch": "data/liams_loot/remolders/archaeology_crystals/betterarcheology/archeology/plains_gravel.json"
+      "patch": "data/liams_loot/remolders/archaeology_crystals/betterarcheology/archeology/plains_gravel.json",
+      "mode": "delegating_parent"
     },
     {
       "table": "betterjungletemples:archaeology/emerald",
@@ -84,7 +85,8 @@
           }
         ]
       },
-      "patch": "data/liams_loot/remolders/archaeology_crystals/betterjungletemples/archaeology/emerald.json"
+      "patch": "data/liams_loot/remolders/archaeology_crystals/betterjungletemples/archaeology/emerald.json",
+      "mode": "pool_gate"
     },
     {
       "table": "caverns_and_chasms:archaeology/forge_common",
@@ -170,7 +172,8 @@
         ],
         "random_sequence": "caverns_and_chasms:archaeology/forge_common"
       },
-      "patch": "data/liams_loot/remolders/archaeology_crystals/caverns_and_chasms/archaeology/forge_common.json"
+      "patch": "data/liams_loot/remolders/archaeology_crystals/caverns_and_chasms/archaeology/forge_common.json",
+      "mode": "pool_gate"
     },
     {
       "table": "caverns_and_chasms:archaeology/forge_rare",
@@ -239,7 +242,8 @@
         ],
         "random_sequence": "caverns_and_chasms:archaeology/forge_rare"
       },
-      "patch": "data/liams_loot/remolders/archaeology_crystals/caverns_and_chasms/archaeology/forge_rare.json"
+      "patch": "data/liams_loot/remolders/archaeology_crystals/caverns_and_chasms/archaeology/forge_rare.json",
+      "mode": "pool_gate"
     },
     {
       "table": "hybrid_aquatic:gameplay/beach_archaeology",
@@ -406,7 +410,8 @@
         ],
         "random_sequence": "hybrid_aquatic:gameplay/beach_archaeology"
       },
-      "patch": "data/liams_loot/remolders/archaeology_crystals/hybrid_aquatic/gameplay/beach_archaeology.json"
+      "patch": "data/liams_loot/remolders/archaeology_crystals/hybrid_aquatic/gameplay/beach_archaeology.json",
+      "mode": "pool_gate"
     },
     {
       "table": "minecraft:archaelogy/jungle_ruins",
@@ -706,7 +711,8 @@
           }
         ]
       },
-      "patch": "data/liams_loot/remolders/archaeology_crystals/minecraft/archaelogy/jungle_ruins.json"
+      "patch": "data/liams_loot/remolders/archaeology_crystals/minecraft/archaelogy/jungle_ruins.json",
+      "mode": "pool_gate"
     },
     {
       "table": "minecraft:archaelogy/ruins",
@@ -1011,7 +1017,8 @@
           }
         ]
       },
-      "patch": "data/liams_loot/remolders/archaeology_crystals/minecraft/archaelogy/ruins.json"
+      "patch": "data/liams_loot/remolders/archaeology_crystals/minecraft/archaelogy/ruins.json",
+      "mode": "pool_gate"
     },
     {
       "table": "minecraft:archaeology/desert_pyramid",
@@ -1066,7 +1073,9 @@
           }
         ],
         "random_sequence": "minecraft:archaeology/desert_pyramid"
-      }
+      },
+      "patch": "data/liams_loot/remolders/archaeology_crystals/minecraft/archaeology/desert_pyramid.json",
+      "mode": "pool_gate"
     },
     {
       "table": "minecraft:archaeology/desert_well",
@@ -1171,7 +1180,8 @@
         ],
         "random_sequence": "minecraft:archaeology/desert_well"
       },
-      "patch": "data/liams_loot/remolders/archaeology_crystals/minecraft/archaeology/desert_well.json"
+      "patch": "data/liams_loot/remolders/archaeology_crystals/minecraft/archaeology/desert_well.json",
+      "mode": "pool_gate"
     },
     {
       "table": "minecraft:archaeology/ocean_ruin_cold",
@@ -1236,7 +1246,8 @@
         ],
         "random_sequence": "minecraft:archaeology/ocean_ruin_cold"
       },
-      "patch": "data/liams_loot/remolders/archaeology_crystals/minecraft/archaeology/ocean_ruin_cold.json"
+      "patch": "data/liams_loot/remolders/archaeology_crystals/minecraft/archaeology/ocean_ruin_cold.json",
+      "mode": "pool_gate"
     },
     {
       "table": "minecraft:archaeology/ocean_ruin_warm",
@@ -1301,7 +1312,8 @@
         ],
         "random_sequence": "minecraft:archaeology/ocean_ruin_warm"
       },
-      "patch": "data/liams_loot/remolders/archaeology_crystals/minecraft/archaeology/ocean_ruin_warm.json"
+      "patch": "data/liams_loot/remolders/archaeology_crystals/minecraft/archaeology/ocean_ruin_warm.json",
+      "mode": "pool_gate"
     },
     {
       "table": "minecraft:archaeology/trail_ruins_common",
@@ -1459,7 +1471,8 @@
         ],
         "random_sequence": "minecraft:archaeology/trail_ruins_common"
       },
-      "patch": "data/liams_loot/remolders/archaeology_crystals/minecraft/archaeology/trail_ruins_common.json"
+      "patch": "data/liams_loot/remolders/archaeology_crystals/minecraft/archaeology/trail_ruins_common.json",
+      "mode": "pool_gate"
     },
     {
       "table": "minecraft:archaeology/trail_ruins_rare",
@@ -1527,7 +1540,8 @@
         ],
         "random_sequence": "minecraft:archaeology/trail_ruins_rare"
       },
-      "patch": "data/liams_loot/remolders/archaeology_crystals/minecraft/archaeology/trail_ruins_rare.json"
+      "patch": "data/liams_loot/remolders/archaeology_crystals/minecraft/archaeology/trail_ruins_rare.json",
+      "mode": "pool_gate"
     },
     {
       "table": "minecraft:chests/ancient_city",
@@ -1964,7 +1978,8 @@
         ],
         "random_sequence": "minecraft:chests/ancient_city"
       },
-      "patch": "data/liams_loot/remolders/archaeology_crystals/minecraft/chests/ancient_city.json"
+      "patch": "data/liams_loot/remolders/archaeology_crystals/minecraft/chests/ancient_city.json",
+      "mode": "shared_output"
     },
     {
       "table": "minecraft:chests/woodland_mansion",
@@ -2275,7 +2290,8 @@
         ],
         "random_sequence": "minecraft:chests/woodland_mansion"
       },
-      "patch": "data/liams_loot/remolders/archaeology_crystals/minecraft/chests/woodland_mansion.json"
+      "patch": "data/liams_loot/remolders/archaeology_crystals/minecraft/chests/woodland_mansion.json",
+      "mode": "shared_output"
     },
     {
       "table": "nova_structures:archaelogy/archeology_toxic",
@@ -2597,7 +2613,8 @@
           }
         ]
       },
-      "patch": "data/liams_loot/remolders/archaeology_crystals/nova_structures/archaelogy/archeology_toxic.json"
+      "patch": "data/liams_loot/remolders/archaeology_crystals/nova_structures/archaelogy/archeology_toxic.json",
+      "mode": "pool_gate"
     },
     {
       "table": "nova_structures:archaelogy/conduit_ruin",
@@ -2745,7 +2762,8 @@
           }
         ]
       },
-      "patch": "data/liams_loot/remolders/archaeology_crystals/nova_structures/archaelogy/conduit_ruin.json"
+      "patch": "data/liams_loot/remolders/archaeology_crystals/nova_structures/archaelogy/conduit_ruin.json",
+      "mode": "pool_gate"
     },
     {
       "table": "nova_structures:archaelogy/crypt",
@@ -2942,7 +2960,8 @@
           }
         ]
       },
-      "patch": "data/liams_loot/remolders/archaeology_crystals/nova_structures/archaelogy/crypt.json"
+      "patch": "data/liams_loot/remolders/archaeology_crystals/nova_structures/archaelogy/crypt.json",
+      "mode": "pool_gate"
     },
     {
       "table": "nova_structures:archaelogy/desert_ruin_inside_temple",
@@ -3108,7 +3127,8 @@
           }
         ]
       },
-      "patch": "data/liams_loot/remolders/archaeology_crystals/nova_structures/archaelogy/desert_ruin_inside_temple.json"
+      "patch": "data/liams_loot/remolders/archaeology_crystals/nova_structures/archaelogy/desert_ruin_inside_temple.json",
+      "mode": "pool_gate"
     },
     {
       "table": "nova_structures:archaelogy/desert_ruin_ruins",
@@ -3258,9 +3278,803 @@
           }
         ]
       },
-      "patch": "data/liams_loot/remolders/archaeology_crystals/nova_structures/archaelogy/desert_ruin_ruins.json"
+      "patch": "data/liams_loot/remolders/archaeology_crystals/nova_structures/archaelogy/desert_ruin_ruins.json",
+      "mode": "pool_gate"
     }
   ],
   "inventory": "Development docs/archaeology-crystals-2026-10-26/inventory.json",
-  "scope": "Every identified table-backed vanilla/Lootr suspicious sand and gravel source; no red sand, dirt, fixed-item or unassigned blocks."
+  "scope": "Every identified table-backed vanilla/Lootr suspicious sand and gravel source; no red sand, dirt, fixed-item or unassigned blocks.",
+  "chance": 0.02,
+  "revision": "2026-10-27",
+  "policy": "2% per selected brushed reward; normal rewards retain original relative weights; no duplicate crystal through delegation.",
+  "native_remolder_inputs": [
+    {
+      "jar": "caverns_and_chasms-1.21.1-3.0.1.jar",
+      "resource": "data/caverns_and_chasms/remolders/loot_table/archaeology/trail_ruins_rare.json",
+      "sha256": "de2367138f83ac76708bfd62ce3a7ea378529bcfa3f253927401ef4ff41219d6",
+      "json": {
+        "molding": "json",
+        "remolder": {
+          "type": "add",
+          "target": "pools[0].entries[]",
+          "value": {
+            "type": "minecraft:item",
+            "name": "caverns_and_chasms:toolbelt"
+          }
+        },
+        "selector": "minecraft:loot_table/archaeology/trail_ruins_rare"
+      }
+    },
+    {
+      "jar": "caverns_and_chasms-1.21.1-3.0.1.jar",
+      "resource": "data/caverns_and_chasms/remolders/loot_table/chests/ancient_city.json",
+      "sha256": "e36024bd1462325ca7f9575c871aba13a27d6d76d333a81e21aca2d3792ecf0e",
+      "json": {
+        "molding": "json",
+        "remolder": [
+          {
+            "type": "add",
+            "target": "pools[0].entries[]",
+            "value": {
+              "type": "minecraft:item",
+              "name": "caverns_and_chasms:tuning_fork",
+              "weight": 2
+            }
+          },
+          {
+            "type": "add",
+            "target": "pools[0].entries[]",
+            "value": {
+              "type": "minecraft:item",
+              "functions": [
+                {
+                  "add": false,
+                  "count": {
+                    "type": "minecraft:uniform",
+                    "max": 15.0,
+                    "min": 1.0
+                  },
+                  "function": "minecraft:set_count"
+                }
+              ],
+              "name": "caverns_and_chasms:sparkler",
+              "weight": 5
+            }
+          },
+          {
+            "type": "add",
+            "target": "pools[0].entries[]",
+            "value": {
+              "type": "minecraft:item",
+              "functions": [
+                {
+                  "add": false,
+                  "count": {
+                    "type": "minecraft:uniform",
+                    "max": 3.0,
+                    "min": 1.0
+                  },
+                  "function": "minecraft:set_count"
+                }
+              ],
+              "name": "caverns_and_chasms:bejeweled_apple",
+              "weight": 3
+            }
+          },
+          {
+            "type": "add",
+            "target": "pools[0].entries[]",
+            "value": {
+              "type": "minecraft:item",
+              "functions": [
+                {
+                  "add": false,
+                  "count": {
+                    "type": "minecraft:uniform",
+                    "max": 2.0,
+                    "min": 1.0
+                  },
+                  "function": "minecraft:set_count"
+                }
+              ],
+              "name": "caverns_and_chasms:zirconia",
+              "weight": 3
+            }
+          },
+          {
+            "type": "add",
+            "target": "pools[0].entries[]",
+            "value": {
+              "type": "minecraft:item",
+              "functions": [
+                {
+                  "function": "minecraft:enchant_with_levels",
+                  "levels": {
+                    "type": "minecraft:uniform",
+                    "max": 39.0,
+                    "min": 20.0
+                  },
+                  "options": "#minecraft:on_random_loot"
+                }
+              ],
+              "name": "caverns_and_chasms:cowl",
+              "weight": 2
+            }
+          }
+        ],
+        "selector": "minecraft:loot_table/chests/ancient_city"
+      }
+    },
+    {
+      "jar": "caverns_and_chasms-1.21.1-3.0.1.jar",
+      "resource": "data/caverns_and_chasms/remolders/loot_table/chests/woodland_mansion.json",
+      "sha256": "38d959228cff5f293c24b25829a7c833ef14012b8469e6b2241841a6f666b10d",
+      "json": {
+        "molding": "json",
+        "remolder": [
+          {
+            "type": "add",
+            "target": "pools[]",
+            "value": {
+              "bonus_rolls": 0.0,
+              "entries": [
+                {
+                  "type": "minecraft:item",
+                  "name": "caverns_and_chasms:turquoise"
+                }
+              ],
+              "name": "caverns_and_chasms:turquoise",
+              "rolls": {
+                "type": "minecraft:uniform",
+                "max": 1.0,
+                "min": 0.0
+              }
+            }
+          },
+          {
+            "type": "add",
+            "target": "pools[0].entries[]",
+            "value": {
+              "type": "minecraft:item",
+              "name": "caverns_and_chasms:cowl",
+              "weight": 10
+            }
+          },
+          {
+            "type": "add",
+            "target": "pools[1].entries[]",
+            "value": {
+              "type": "minecraft:item",
+              "functions": [
+                {
+                  "add": false,
+                  "count": {
+                    "type": "minecraft:uniform",
+                    "max": 4.0,
+                    "min": 1.0
+                  },
+                  "function": "minecraft:set_count"
+                }
+              ],
+              "name": "caverns_and_chasms:silver_ingot",
+              "weight": 5
+            }
+          },
+          {
+            "type": "add",
+            "target": "pools[1].entries[]",
+            "value": {
+              "type": "minecraft:item",
+              "functions": [
+                {
+                  "add": false,
+                  "count": {
+                    "type": "minecraft:uniform",
+                    "max": 4.0,
+                    "min": 1.0
+                  },
+                  "function": "minecraft:set_count"
+                }
+              ],
+              "name": "caverns_and_chasms:tin_ingot",
+              "weight": 8
+            }
+          },
+          {
+            "type": "add",
+            "target": "pools[1].entries[]",
+            "value": {
+              "type": "minecraft:item",
+              "functions": [
+                {
+                  "add": false,
+                  "count": {
+                    "type": "minecraft:uniform",
+                    "max": 2.0,
+                    "min": 1.0
+                  },
+                  "function": "minecraft:set_count"
+                }
+              ],
+              "name": "caverns_and_chasms:zirconia",
+              "weight": 5
+            }
+          }
+        ],
+        "selector": "minecraft:loot_table/chests/woodland_mansion"
+      }
+    },
+    {
+      "jar": "upgrade_aquatic-1.21.1-7.0.2.jar",
+      "resource": "data/upgrade_aquatic/remolders/loot_table/archaeology/ocean_ruin_cold.json",
+      "sha256": "06fd5f456290fd08379c92cbbdfa1e94f6dc2fafa7edb5312ab4319d37dea010",
+      "json": {
+        "molding": "json",
+        "remolder": [
+          {
+            "type": "add",
+            "target": "pools[0].entries[]",
+            "value": {
+              "type": "minecraft:item",
+              "name": "upgrade_aquatic:disc_fragment_atlantis"
+            }
+          },
+          {
+            "type": "add",
+            "target": "pools[0].entries[]",
+            "value": {
+              "type": "minecraft:item",
+              "name": "upgrade_aquatic:predator_pottery_sherd"
+            }
+          }
+        ],
+        "selector": "minecraft:loot_table/archaeology/ocean_ruin_cold"
+      }
+    }
+  ],
+  "crystal_components_cleanup": {
+    "!minecraft:custom_data": {},
+    "minecraft:max_stack_size": 1,
+    "!minecraft:max_damage": {},
+    "!minecraft:damage": {},
+    "!minecraft:unbreakable": {},
+    "!minecraft:custom_name": {},
+    "!minecraft:item_name": {},
+    "minecraft:lore": [],
+    "minecraft:rarity": "epic",
+    "minecraft:enchantments": {
+      "levels": {}
+    },
+    "!minecraft:can_place_on": {},
+    "!minecraft:can_break": {},
+    "minecraft:attribute_modifiers": {
+      "modifiers": []
+    },
+    "!minecraft:custom_model_data": {},
+    "!minecraft:hide_additional_tooltip": {},
+    "!minecraft:hide_tooltip": {},
+    "minecraft:repair_cost": 0,
+    "!minecraft:enchantment_glint_override": {},
+    "!minecraft:intangible_projectile": {},
+    "!minecraft:food": {},
+    "!minecraft:fire_resistant": {},
+    "!minecraft:tool": {},
+    "!minecraft:stored_enchantments": {},
+    "!minecraft:dyed_color": {},
+    "!minecraft:map_color": {},
+    "!minecraft:map_id": {},
+    "!minecraft:map_decorations": {},
+    "!minecraft:charged_projectiles": {},
+    "!minecraft:bundle_contents": {},
+    "!minecraft:potion_contents": {},
+    "!minecraft:suspicious_stew_effects": {},
+    "!minecraft:writable_book_content": {},
+    "!minecraft:written_book_content": {},
+    "!minecraft:trim": {},
+    "!minecraft:debug_stick_state": {},
+    "!minecraft:entity_data": {},
+    "!minecraft:bucket_entity_data": {},
+    "!minecraft:block_entity_data": {},
+    "!minecraft:instrument": {},
+    "!minecraft:ominous_bottle_amplifier": {},
+    "!minecraft:jukebox_playable": {},
+    "!minecraft:recipes": {},
+    "!minecraft:lodestone_tracker": {},
+    "!minecraft:firework_explosion": {},
+    "!minecraft:fireworks": {},
+    "!minecraft:profile": {},
+    "!minecraft:note_block_sound": {},
+    "!minecraft:banner_patterns": {},
+    "!minecraft:base_color": {},
+    "!minecraft:pot_decorations": {},
+    "!minecraft:container": {},
+    "!minecraft:block_state": {},
+    "!minecraft:bees": {},
+    "!minecraft:lock": {},
+    "!minecraft:container_loot": {},
+    "!geckolib:stack_animatable_id": {},
+    "!aether:locked": {},
+    "!aether:dungeon_kind": {},
+    "!simulated:rope_first_connection": {},
+    "!simulated:lodestone_compass_tracker": {},
+    "!simulated:compass_placer": {},
+    "!simulated:last_player_death_location": {},
+    "!simulated:target": {},
+    "!simulated:bounciness": {},
+    "!supplementaries:antique_ink": {},
+    "!supplementaries:soft_fluid_content": {},
+    "!supplementaries:mob_holder_content": {},
+    "!supplementaries:address": {},
+    "!supplementaries:safe_owner": {},
+    "!supplementaries:flute_pets": {},
+    "!supplementaries:blackboard": {},
+    "!supplementaries:confetti_colors": {},
+    "!supplementaries:lunch_basket_content": {},
+    "!supplementaries:quiver_content": {},
+    "!supplementaries:charges": {},
+    "!supplementaries:max_charges": {},
+    "!supplementaries:cannonball_whitelist": {},
+    "!supplementaries:quill_structure": {},
+    "!supplementaries:quill_search_radius": {},
+    "!supplementaries:quill_skip_known": {},
+    "!supplementaries:quill_zoom": {},
+    "!supplementaries:quill_decoration": {},
+    "!supplementaries:quill_map_name": {},
+    "!supplementaries:quill_color": {},
+    "!farmersdelight:meal": {},
+    "!farmersdelight:container": {},
+    "!farmersdelight:cooking_time_length": {},
+    "!farmersdelight:skillet_ingredient": {},
+    "!farmersdelight:skillet_flip_timestamp": {},
+    "!farmersdelight:skillet_flipped": {},
+    "!curios:attribute_modifiers": {},
+    "!accessories:nested_accessories": {},
+    "!accessories:render_override": {},
+    "!accessories:render_transformations": {},
+    "!accessories:slot_validation": {},
+    "!accessories:attributes": {},
+    "!accessories:stack_size": {},
+    "!accessories:custom_renderer": {},
+    "!accessories:item_cosmetic_override": {},
+    "!deep_aether:dungeon_tracker": {},
+    "!deep_aether:moa_fodder": {},
+    "!deep_aether:floaty_scarf": {},
+    "!irons_lib:transmog": {},
+    "!irons_lib:statue_item_data": {},
+    "!irons_lib:kinetic_weapon": {},
+    "!irons_lib:use_effects": {},
+    "!irons_lib:attack_range": {},
+    "!irons_patreon_lib:transmog": {},
+    "!irons_patreon_lib:statue_item_data": {},
+    "!aeronautics:levitating": {},
+    "!aeronautics:converter": {},
+    "!chalk:chalk_box_contents": {},
+    "!offroad:tire": {},
+    "!caverns_and_chasms:emissive_trim": {},
+    "!caverns_and_chasms:faded_trim": {},
+    "!caverns_and_chasms:pulse_trim": {},
+    "!caverns_and_chasms:note": {},
+    "!caverns_and_chasms:life": {},
+    "!caverns_and_chasms:fluid_level": {},
+    "!caverns_and_chasms:tether_cooldown": {},
+    "!caverns_and_chasms:packing_container_contents": {},
+    "!caverns_and_chasms:harmony_instrument": {},
+    "!caverns_and_chasms:melody_instrument": {},
+    "!caverns_and_chasms:bass_instrument": {},
+    "!simplyswords:gem_power": {},
+    "!simplyswords:additional_gem_sockets": {},
+    "!simplyswords:stored_charge": {},
+    "!simplyswords:stored_bonus": {},
+    "!simplyswords:charged_location": {},
+    "!simplyswords:targeted_location": {},
+    "!simplyswords:relocation": {},
+    "!simplyswords:molten_particle": {},
+    "!simplyswords:molten_heat": {},
+    "!simplyswords:ion_cubes": {},
+    "!simplyswords:parry": {},
+    "!simplyswords:weapon_implicit": {},
+    "!simplyswords:awakening": {},
+    "!simplyswords:awakening_route": {},
+    "!simplyswords:relic_attunement": {},
+    "!moonlight:bottle_type": {},
+    "!moonlight:custom_map_decorations": {},
+    "!create:banktank_air": {},
+    "!create:belt_first_shaft": {},
+    "!create:inferred_from_recipe": {},
+    "!create:placement_pattern": {},
+    "!create:shaper_brush": {},
+    "!create:shaper_brush_params": {},
+    "!create:shaper_placement_options": {},
+    "!create:shaper_tool": {},
+    "!create:shaper_block_used": {},
+    "!create:shaper_swap": {},
+    "!create:shaper_block_data": {},
+    "!create:filter_items": {},
+    "!create:filter_items_respect_nbt": {},
+    "!create:filter_items_blacklist": {},
+    "!create:attribute_filter_whitelist_mode": {},
+    "!create:attribute_filter_matched_attributes": {},
+    "!create:clipboard_content": {},
+    "!create:track_connecting_from": {},
+    "!create:track_extend_curve": {},
+    "!create:track_targeting_item_selected_pos": {},
+    "!create:track_targeting_item_selected_direction": {},
+    "!create:track_targeting_item_bezier": {},
+    "!create:schematic_deployed": {},
+    "!create:schematic_owner": {},
+    "!create:schematic_file": {},
+    "!create:schematic_anchor": {},
+    "!create:schematic_rotation": {},
+    "!create:schematic_mirror": {},
+    "!create:schematic_bounds": {},
+    "!create:schematic_hash": {},
+    "!create:chromatic_compound_collecting_light": {},
+    "!create:sand_paper_polishing": {},
+    "!create:sand_paper_jei": {},
+    "!create:minecart_contraption_data": {},
+    "!create:linked_controller_items": {},
+    "!create:toolbox_inventory": {},
+    "!create:toolbox_uuid": {},
+    "!create:sequenced_assembly": {},
+    "!create:train_schedule": {},
+    "!create:symmetry_wand": {},
+    "!create:symmetry_wand_enable": {},
+    "!create:symmetry_wand_simulate": {},
+    "!create:potion_fluid_bottle_type": {},
+    "!create:schematicannon_options": {},
+    "!create:auto_request_data": {},
+    "!create:shopping_list": {},
+    "!create:shopping_list_address": {},
+    "!create:package_address": {},
+    "!create:package_contents": {},
+    "!create:package_order_data": {},
+    "!create:package_order_context": {},
+    "!create:click_to_link_data": {},
+    "!create:clipboard_type": {},
+    "!create:clipboard_pages": {},
+    "!create:clipboard_read_only": {},
+    "!create:clipboard_copied_values": {},
+    "!create:clipboard_previously_opened_page": {},
+    "!irons_spellbooks:affinity_data": {},
+    "!irons_spellbooks:furled_map_data": {},
+    "!irons_spellbooks:upgrade_data": {},
+    "!irons_spellbooks:spell_container": {},
+    "!irons_spellbooks:wayward_compass": {},
+    "!irons_spellbooks:crossbow_load_state": {},
+    "!irons_spellbooks:casting_implement": {},
+    "!irons_spellbooks:multihand_weapon": {},
+    "!irons_spellbooks:clothing_variant": {},
+    "!irons_spellbooks:upgrade_orb_type": {},
+    "!irons_spellbooks:potion_bottle_type": {},
+    "!quark:is_angry": {},
+    "!quark:bounds_pos": {},
+    "!quark:quark_music_disc": {},
+    "!quark:skull_owner": {},
+    "!quark:rune_color": {},
+    "!quark:placing_seed": {},
+    "!quark:last_stack": {},
+    "!quark:is_pathfinder": {},
+    "!quark:target_biome": {},
+    "!quark:target_biome_color": {},
+    "!quark:target_biome_underground": {},
+    "!quark:is_searching_for_biome": {},
+    "!quark:search_source_x": {},
+    "!quark:search_source_z": {},
+    "!quark:search_pox_x": {},
+    "!quark:search_pos_z": {},
+    "!quark:search_pos_leg": {},
+    "!quark:search_pos_leg_index": {},
+    "!quark:display": {},
+    "!quark:stored_item": {},
+    "!quark:item_count": {},
+    "!quark:ticks": {},
+    "!quark:compass_position_set": {},
+    "!quark:compass_in_nether": {},
+    "!quark:nether_x": {},
+    "!quark:nether_z": {},
+    "!quark:is_compass_calculated": {},
+    "!quark:is_clock_calculated": {},
+    "!quark:only_show_table_enchantments": {},
+    "!quark:enchanting_matrix": {},
+    "!quark:excited": {},
+    "!quark:slime_nbt": {},
+    "!quark:ignore": {},
+    "!quark:tome_enchantments": {},
+    "!fruitsdelight:fruits": {},
+    "!aquamirae:ability_set": {},
+    "!aquamirae:logbook_contents": {},
+    "!aquamirae:echo_tracker": {},
+    "!aquamirae:tooltip": {},
+    "!aquamirae:rune_of_the_storm_damage": {},
+    "!aquamirae:rune_of_the_storm_protection": {},
+    "!aquamirae:abyssal_charges": {},
+    "!aquamirae:keepsake": {},
+    "!aquamirae:no_shading": {},
+    "!aquamirae:no_gravity": {}
+  },
+  "reviewed_installed_jars": {
+    "ApothicAttributes-1.21.1-2.11.0.jar": "17c42bb6dd5c0d820fe090e1bb5959578cd5ab7b70caf98a2a59b319fcc7e1ba",
+    "ApothicEnchanting-1.21.1-1.6.4.jar": "aff9837f45c1c981d47a9e60b780c37a151ef881937faf5f72092895104c8bbb",
+    "Atlas-Lib-1.21.0-1.1.14.jar": "d802ec4e382f46378ec75d763e4c5727f29ddbe26bba247605cd7ffcd4ea88a5",
+    "BadOptimizations-2.4.1-1.21.1.jar": "22e2467892d3706f43d1cf2aa637785bb8601c20b0098a82ab956e6a8fc4d2ba",
+    "BetterAdvancements-NeoForge-1.21.1-0.4.3.21.jar": "60b548bef04a2f0e1da686ee9035c2e3d4ed0459a17d7a4836fc26af6de6b60e",
+    "BetterEnd-21.0.39.jar": "92ff67030ef18d63f97d67ad07ce1f2d3d7c98adc66bcc901ba4521edffd06bf",
+    "BetterNether-21.0.30.jar": "f9bd0a47d51a75e20019fb0e4c4fca7af283f42cec824346fd4912dd6acfc261",
+    "BrewinAndChewin-neoforge-4.5.0+1.21.1.jar": "9f6581823c2449dde4ac1e9b4f5a7cc226c42e058e656741ab392f714f443971",
+    "ClimateRivers-v21.1.3-1.21.1-NeoForge.jar": "54d6d6659e93bd5c1faeb83443da54befbf298c666cc997f410e3b7e5f5c33f4",
+    "Cocktails-Delight-1.21.1-NeoForge-1.1.10.jar": "c73ded7f2800740cb4e334bd6180c2c94b4189874d2a35d608aee1f4d9008581",
+    "Corgilib-NeoForge-1.21.1-5.0.0.10.jar": "ae720bcc5bdff1483b0bfc7502ff885b5f27e4aaef920ba23c0f6d012c390f82",
+    "CreeperOverhaul-neoforge-1.21.1-4.0.6.jar": "ed83bea2826667fca80a6a8067f89fe7b97eb8b3213bbcb7f0f4e6a6898c0bc9",
+    "Data_Anchor-neoforge-1.21.1-2.0.0.17.jar": "b42c84c05891ef9f75ce55d4fcea64442e5a0d5f65b5c8a34c3af98645575707",
+    "DistantHorizons-3.3.3-1.21.1-fabric-neoforge.jar": "864e70def5b0d54d619b940b66bb2784e91d3f3fc253064fdc1b3fc5786cbfab",
+    "DungeonCrawl-NeoForge-1.21-2.3.17.jar": "853cd59208f17c25188a419b48d1a9fed3acebf676bb1ddd026fa4e7fb56dad4",
+    "DynamicTrees-AddonLib-DTteam-neoforge-1.21.1-0.2.0-BETA03.jar": "1bbba8fdc1c0227fd34e2709131830e6956b28f52a60bbbfb115cf4e089ced36",
+    "DynamicTrees-FruitsDelight-neoforge-1.21.1-1.1.0.jar": "577e88482d227db13d309de2eb553b24a401894092019e9e9e8ec43559a19f39",
+    "DynamicTreesPlus-neoforge-1.21.1-1.3.2.jar": "90d0404b3d312bdac8b1133b2ea296e1204d4660937dd37227083ce8ebb91bbf",
+    "EclipticSeasons-1.21.1-neoforge-0.15.5.jar": "578ed44246d5973017f104a4a4e244035c077651ffe3c4f0c0897f9ab2be4c83",
+    "Enhanced-Celestials-2-Core-NeoForge-1.21.1-2.0.3.3.jar": "fd9c400888655e63bba7e296d8514486a9dec4853ff575cce918e73cb40fc413",
+    "Enhanced-Celestials-2-Default-Lunar-Events-NeoForge-1.21.1-2.0.1.3.jar": "8a5bf5e9954909fd3469443a853bf8edf308b020e9dffbb9e872601c9edfc3cb",
+    "Explorify v1.6.5.mod.jar": "2dc76398b48b2aae9b4024642da098b0880125572de160cb5ecf91d102890cad",
+    "FarmersDelight-1.21.1-1.3.4.jar": "139ad7696462c89c03eea463f805abffa552526c5dadaadae221dd9624cb197c",
+    "IMM v1.3.2-1.21.1.jar": "d66ffa5b71ac3f7a36a68571d0d26b20ab4bce416722abf550f85d74da222428",
+    "ImmediatelyFast-NeoForge-1.6.15+1.21.1.jar": "7d7b1d7b9f71d5303e42b2fa45f222a5ab06e0ef5982abb6da5dd9cc449b3702",
+    "L_Ender's Cataclysm 1.21.1-3.33.jar": "371956d0c2e3b56729ee93b955e936875d210e372fe734cdb74326d89ef79875",
+    "LocalizedChat-neoforge-1.21.1-5.4.0.jar": "0da8c90f224b1624e76d73c75e0673588f17071ebc89f027ec8f36f37dda2ea3",
+    "MyNethersDelight-1.21.1-1.10.4.1.jar": "4ad1462d5826e66569574cd0353dc8f7d10e54ac2a86fcb6350895861d0964e8",
+    "OctoLib-NEOFORGE-0.6.2+1.21.jar": "92ba07d9d9e55a65421f3c3f203c72fe5149cb024d5277267e81d812e11a7f38",
+    "Patchouli-1.21.1-93-NEOFORGE.jar": "959af52ed6640c316c3a8469203420be4aeea11ad6603890ba83bf48f5d9f993",
+    "Paxi-1.21.1-NeoForge-5.1.3.jar": "4b60f8eb3b8b8880eff7c3ac825cde84394848eac3915ed61ade607cdd331ce7",
+    "PeacefulMoon2-1.21.1-Neoforge-Fabric-1.0.4.jar": "6e32464ba0b2085bb13e9c95aaf5a1b804442d8b140993bb995e84fd233215a8",
+    "Placebo-1.21.1-9.9.4.jar": "d8952c019d6e54befe37155bc9876985ec57bf73dd33872115c7a65ac6bceba0",
+    "PresenceFootsteps-1.21.1-1.12.0-beta.1-1.21NeoForge.jar": "ded9ea8677f407cbf280b0ee33866ae70859a7c476ef0f60fd35a9be2ee9b91a",
+    "Quark-4.1-488.jar": "f693092c4bc54e8ef427ff98f93926fd85875e45d2697b9db7c45f551ae24feb",
+    "Raided-1.21.1-0.1.6.jar": "5fcc489e07faa9ef9efd6e2682e0312ed710b76c66f01208cc2a844f8ab7aeb8",
+    "RespawningAnimals-v21.1.2-1.21.1-NeoForge.jar": "c20691f699a7f425885b1a275525b0efaa3eff30ae34a5c142b1c8744a2caef2",
+    "Ribbits-1.21.1-NeoForge-4.1.6.jar": "794223f5a91b8b80a962754b5180ec3e2472db6941e9b6c1cdd49324df628389",
+    "SSRD-1.8.7-1.21.1.jar": "429b872b29dc63eff9b5b7735fd206a1e7ff5c10c2018961b33748db3de86a23",
+    "SimplyTooltips-neoforge-0.1.5.jar": "fdac367da1c5243ac5225f00f831b786817452ee9fa6a7f4acd99ec819b0f2b7",
+    "SmartBrainLib-neoforge-1.21.1-1.16.11.jar": "68036561cc5511766d54cc0deabc3fc3a5e68f9e3db2478f2574ec82b494374b",
+    "SpiderOverhaul-0.1.0-NeoForge-v1.21.jar": "e5421e98b6cf4b6ebfbd5c1082995e00f5884c21db981821a6247c44d96c1c9e",
+    "StreamsReflowing-1.21.1-neoforge-2.15.2.jar": "a6b720af2b211ad6b2bc8ec607415d99d066607908340fc25f540c79213ba15c",
+    "Structory_26.2_v1.3.7.jar": "e9079b2bb9bc2efb9b0f1244376488e41f8b50f25415094d8f03dc753cdfb131",
+    "TerraBlender-neoforge-1.21.1-4.1.0.8.jar": "0c49b5ef447a7f09100e9a210888a7347fbda0aa75322063991f6063b25fe3f9",
+    "Waves-1.21.x-1.6.jar": "47104220475ec211d26fa65a392254a4f4815e039d41e2625ac8811e2ca15e00",
+    "YungsApi-1.21.1-NeoForge-5.1.9.jar": "375e0b2f988ab4f5bde182166c0f0b102377adc8f823660c24ade08b0b3cde56",
+    "YungsBetterCaves-1.21.1-NeoForge-3.1.6.jar": "299cde08b3a87818b7d25ea00c63ff8e6deb2f21b179d6f63ad86b9ba004a5a3",
+    "YungsBetterDesertTemples-1.21.1-NeoForge-4.1.5.jar": "2c3191ad447092cc7873a06e92f16bd3e2ff9dc31e93268b8893d06dd89e1fd6",
+    "YungsBetterDungeons-1.21.1-NeoForge-5.1.4.jar": "61816c3b7c9d92c6b44f93dce87ceb0a22827f20285d5d9c4d10d519d734de04",
+    "YungsBetterEndIsland-1.21.1-NeoForge-3.1.2.jar": "8005f1ea798d09fc05dad07a21ed1f393a523a718197cdbd37b1ce6d9a17e4a4",
+    "YungsBetterJungleTemples-1.21.1-NeoForge-3.1.2.jar": "a0d57b78c7a1891796f342b1f09c214bc27bedf0a3a894f029dfdb2db9f813d0",
+    "YungsBetterMineshafts-1.21.1-NeoForge-5.1.1.jar": "5625930dfb3240820d6e4ecf55fff0c39f70ce782fad117a4d418251184c7be0",
+    "YungsBetterNetherFortresses-1.21.1-NeoForge-3.1.5.jar": "5450a64a7036237f449496837e08f3e5b3aa1d7974a10df43944172def75d8ff",
+    "YungsBetterOceanMonuments-1.21.1-NeoForge-4.1.2.jar": "cdcf8fe0e08c75261048d43c6ed4898972d23e096dd04a2524c136f06416ab02",
+    "YungsBetterStrongholds-1.21.1-NeoForge-5.1.3.jar": "a9cab2fc01538368862365691f7d215309801aed0b390351681b6b60a1db7b58",
+    "YungsBetterWitchHuts-1.21.1-NeoForge-4.1.1.jar": "888b1e6d1ada21982a75abfb4afb040c9bc2cc68777ec5fcd1199b978e3d4f8d",
+    "YungsCaveBiomes-1.21.1-NeoForge-3.1.1.jar": "7585587e5cb7859e26189c6ec0a5b829c5c228f095e4e843fa3add61f817dd20",
+    "YungsExtras-1.21.1-NeoForge-5.1.1.jar": "0cd26474e514f5dc3114aaf5ec7e049bcd285f0c5db191bb45223193f35df70d",
+    "Zeta-1.1-40.jar": "4f17d1a2b9fd6d18ddb7697aa451db7fb154053b8648f79de279ae0d7e68a2fa",
+    "[Neoforge]ctov-3.6.3.jar": "4815b19b83541f09cba556e222612bc5ddcc31f7c4ba2198f4b4d6376cca8b2e",
+    "accessories-neoforge-1.1.0-beta.54+1.21.1.jar": "cbecac21acbaf323349afa263b22cda67c3e836f928f6cf3f951ba460c196d15",
+    "accessories_compat_layer-neoforge-0.1.13+1.21.1.jar": "837a2c80a7b481d9ba44770cdec2d8d41f0e0900497e5338bcf4c6f048fb9f1e",
+    "aces_spell_utils-1.2.7.5-1.21.1.jar": "8fac6ed778cbb6a7f2ba8ef80e5ca7c8585dabffcdd73b9402457b75f317ff14",
+    "aero_cam_sync-1.4.0.jar": "335ecaf8cefa4792815a81ac7257e5d432ee1c30704187fc548f1d1db855f4e2",
+    "aero_player_tilt-0.2.5.jar": "90821a4ffaec7be7b40fe6cbc1f1cd351c252d8525d09d9b12a96876d5d78147",
+    "aether-1.21.1-1.5.10-neoforge.jar": "a999a9265eb550a46a0f8eedfee7c3c75371d7f6cf34b7c09ff800e48633e9f8",
+    "aether_emissivity-1.21.1-1.0.2-neoforge.jar": "f0e27cf63f14fba505e43783dc698b8c4b0089c0459ef2448f82925e0108e9e6",
+    "aethersdelight-0.1.4.2-1.21.1.jar": "11b07fce5c69682290106fc1c79fc447606791239a18965f71114f360e8a947e",
+    "allurement-1.21.1-5.0.2.jar": "54c08bb3c81b32278a7a95bfdfe7c4260b9c91e48c20bda5723eb23fc47936f0",
+    "amendments-1.21-2.2.2-neoforge.jar": "9c48c7c6ec4f743a4eb4c8e80473c7204e6632287b2c5bfeb370be27482618dc",
+    "aquamirae-neoforge-1.21.1-7.2.13.jar": "665927e1edf73101f2014682659a756d2972f6fbff0f54b3db4fdebba288c8e2",
+    "architectury-13.0.11-neoforge.jar": "9cc92f2c09533fc5482c60f993bd891c655a0e32b637037cdcb7c2b23adedeeb",
+    "astikorcartsredux-1.2.4.jar": "eb03ea0c246df3d465e7a7634e283c80489df91399075191f815f1b954a5e3fe",
+    "athena-neoforge-1.21.1-4.0.6.jar": "43699885bbce3343916d4c5c4940cf0e3f9f6f02fdeb46e8655e121b42282ec5",
+    "azurelib-neo-1.21.1-3.2.1.jar": "446d0dde41fc56cd32bd1f55e18b2547b5eb1674fa2c7f2a1b8cbc70794e6711",
+    "backpack-ragdoll-compat-1.0.0.jar": "ded1e6253a9dabc99a82c216d8ca2fd183f48107037fe9dae065b6afaab1f4b5",
+    "balm-neoforge-1.21.1-21.0.66.jar": "6be660e1f6d169553bf44f66d4f78bb9e96a1d66ce108d9608819e3ce6bfba34",
+    "banner-flags-3.1.jar": "1c0e9093fb6b397b4ed790671d00decdd2f3b2c6ef23962b8051228e9cc98b40",
+    "bannercapes-1.21.1-1.2.0.jar": "84680b64b1d08f7cac1e8a0d81d523bc323649ae119aad3df11842660ba91da8",
+    "bclib-21.0.28.jar": "e8d5b8ce29d51eb0845c19fd2172d99237841bd20bc4bc25b7cbf4965a5ad506",
+    "better-advanced-tooltips-2101.1.0-build.5.jar": "0f76d46f2f18eb67e67c7974170d7b27deb66473396461c8dc50d6949de1449b",
+    "better-combat-x-cataclysm-spellbooks-compatibility-1.1.jar": "c7423c36d11a51e756aac5d9d189012a91fce8ef5e8b8de50f6740ce2534f9ee",
+    "better_mob_combat_reimagined-1.1.16.jar": "74c15f6b61ddbf2f08a42e8d340f70ff9b802d4fd17e067dadb5baa774f3f187",
+    "betterarcheology-neoforge-1.21.1-1.3.9.jar": "b972bf4f95bfc48103a0f8e2112d565703cff2bd9cdb0f016caf159febb6986c",
+    "bettercombat-neoforge-2.4.0+1.21.1.jar": "0446e9faa98b764ba010ac31e337d14ac96bbb2fbfeff9b599e1efd510dfde5a",
+    "biolith-neoforge-3.0.14.jar": "ded9169efb903198046cf44cf91a290ec836ed83a28e29179087eb860e0e6ce9",
+    "blueprint-1.21.1-8.2.0.jar": "698b2e901e371202a583c1057fa50bb7b2415a359263b37dc8e62d3b73ea8a74",
+    "bookshelf-neoforge-1.21.1-21.1.81.jar": "19e88d40da2b6a114c2b808f7fb469d96e66a5379df0a8a43fcb7834498b3e76",
+    "bountiful-contract-fairness-1.6.0.jar": "b4800dc7702d020556fb9e1864055e0d2ddc54543f48080b150df7a8cb063828",
+    "bountiful-neoforge-8.0.0-beta.2.jar": "dca5e0af724e3076b3d950b7ec88cf63c509435cf41371a6e1c7c306cb6a7e51",
+    "cataclysm_compat_1.21.1-1.0.2.jar": "467e4a03ef4891080506d4e1d8aa303e918f6488e8dcad5cfcbf139ae11a12c2",
+    "cataclysm_spellbooks-1.1.15-1.21.jar": "46e66d47204a5e4d68e146b23920255d6958a22b10371f7365716b427c75d290",
+    "caverns_and_chasms-1.21.1-3.0.1.jar": "eb3a91011fcb3167b88ee84115f8292a04d105dfdc3e639f0ec6987b9a00b912",
+    "cbc_going_ballistic-0.3.1.jar": "0c06454df5b7a2e6d1b82e001e761fc997e4efc7c1028f2401b608149132df25",
+    "chalk-neoforge-1.21.1-2.0.2.jar": "8a2772c5df0947ae96a543cd492a0308c53814d0522a9dd213e52d73ca2e1a66",
+    "chefsdelight-1.0.6.jar": "e89ccae883669019178c4c157489dff68382e6f9001b8067f1cee06b5b8b4ba2",
+    "chipped-neoforge-1.21.1-4.0.2.jar": "18ac6fd6b30db4922ccc6ee8bea5b113f69587505b7529834f37ace506427291",
+    "climbable_ropes-2.2.0.jar": "c8d6f0c16edb6a6c988da63f8153ab5b7ae1655476ef437476f31e37592c38a7",
+    "cloth-config-15.0.140-neoforge.jar": "65e722e0d98431a07c45f8bdd8d529a217cc8c175fde1740248bd5c1b4f3c0d4",
+    "comforts-neoforge-9.0.5+1.21.1.jar": "6b0fd35a1349107e08a45539adbde9683bb203febc43a3305f6fc4ac73e59615",
+    "craftingtweaks-neoforge-1.21.1-21.1.11.jar": "0964fefc4a07120a53232b2d934fac4baf15fdaa99b69add30a18a642bc1cf98",
+    "cratedelight-26.07.01-1.21-neoforge.jar": "a530f387b2fc973dc730e07b516fd6d01cd9917979525ee507c62bea06d433b2",
+    "create-1.21.1-6.0.10.jar": "ef87fe5709f1ba1f5b8bb20a2925b5afb4669e178fd6d8bf10c167759eefe37a",
+    "create-aeronautics-bundled-1.21.1-1.3.2.jar": "a3f330d4757640f8715d991a43eedb826e4d0e51558d859c843ae6693bd35f1e",
+    "create_submarine-3.4.5.jar": "c5a6aaaf36707c2ae2f55ff0801bcc1111673a0f252dd4ee93f70cb7ff69aeb6",
+    "createbigcannons-5.11.7+mc.1.21.1.jar": "ea017ab94637032d039899d88404838d173fa0e6286657cae6a6c3af459e87ca",
+    "cupboard-1.21.1-4.2.jar": "5162922647fe07c7b9f446870915b57ddd0ae9dcf56b243611130fea30f2f77a",
+    "curios-neoforge-9.5.1+1.21.1.jar": "a45df2125c26219974aba7507ffc9afe7b83acc941a386af3faacb1cc0056fde",
+    "deep_aether-1.21.1-1.1.5.1.jar": "0f55ad970715bb933344e785b2c35a7354dfba25ffd426c0b68921d08bbe0ce5",
+    "defaultoptions-neoforge-1.21.1-21.1.8.jar": "d12790dc1f0857778d282c00ad5be56882ac6fce44769c1f012be09b5604874a",
+    "dtaether-1.21.1-1.0.0.jar": "c84acef6e82b28905866cb2769d81f40f50ff932c76894b5269ae2137f88850d",
+    "dtbetterend-1.21.1-2.2.0.jar": "728bed134d4c5dacf38b82a3593aa52480fc2919de673ea317e911f01e3e579c",
+    "dtbetternether-1.21.1-2.2.0.jar": "eca6e3073d09df9e591f4455105e131b1cb65743a9fc9a4d5b46cd4c6fb876a3",
+    "dtquark-2.6.1.jar": "f0fdb4762ff45fbc9edb24871595ebd13c1567084e07db8396daa78eaaf53fe2",
+    "dtru-1.1.2-patched.jar": "8997b46d118c541ec8fe3bec87aa0e080bf8e36722c9ed2bfb5600e1ab24a16f",
+    "dungeons-and-taverns-v4.4.4.jar": "1db28e89e0cb76aebe9e40955d1866e8ac1779575d15c2a1e250ac804a762d05",
+    "dynamic-fps-3.11.4+minecraft-1.21.0-neoforge.jar": "78cb67c9faeff5d1cb4da48d41e48ecc47baddaaec0f792e6edc8207aee0ab8e",
+    "dynamicassetgenerator-6.1.2-neoforge.jar": "31f6cca89635683816ef3aac4ecdb29e5d2374fe41f6741c86c254d91c74d61a",
+    "dynamictrees-neoforge-1.21.1-1.7.2.jar": "ef94737b99e68a0b489b56f901fcc71a3ac8e7a16e3a22ac8413c5f66df566f0",
+    "effectual-neoforge-1.4.2-1.21.1.jar": "dd4cc184817c300fb514f64067be05ecd98f71e44314cea454d7dcd6d4398d8f",
+    "emf_compat_better_combat_neoforge_1.21.1_2.1.1.jar": "b54ce18519cf05f6f4232729e23ca6ef3dda9963e2076b3b02ccbcba1089062d",
+    "emf_compat_core_neoforge_1.21.1_2.3.2.jar": "7fbf5a1f7fc65c8adc29092aa08e212c4a43c6ff82d92af99f90f0066914e951",
+    "emf_compat_create_neoforge_1.21.1_2.1.0.jar": "35cef04f4ec936197c7f50975e4613735025bb5f8647855007618d4127aef75e",
+    "emf_compat_iron_spells_neoforge_1.21.1_2.1.0.jar": "74ffb5d041e97b4bd8100771402e2184871670525996d617967d1b58f7b165a4",
+    "emf_compat_not_enough_animations_neoforge_1.21.1_1.2.1.jar": "67ed00528d0230b134bac4b972a7d1ec4081b34c2f8d62145d99d6ea69edf684",
+    "emf_compat_quark_1.21.1_1.1.0.jar": "452805492116b8f207292848e4df9c011251ba19a45092f11a650b81fc0b5ff2",
+    "emf_compat_supplementaries_neoforge_1.21.1_1.1.1.jar": "2343a03051944443cbb7420455cf8a144d5d9120993cc89585c66dd6c775127e",
+    "enchdesc-neoforge-1.21.1-21.1.11.jar": "868d3eab3305d96dd3ecf510d18a7aa7444e2aea168695cf4aff23a96bec975f",
+    "endermanoverhaul-neoforge-1.21.1-2.0.3.jar": "fe6c04dcfdbb8815058ebf1102d64cb4c86060a0a1b7350121e4a976d4a92248",
+    "endersdelight-1.3.1.jar": "dbc7622fa6e3a7168e222ccd70eb1c37dfb71bf935efb5bae4dd60b06978ad48",
+    "endrem-neoforge-1.21.1-6.3.0.jar": "666898b9cb494b9806bb05fdd03e948c0bb2e500ea8da3922c2dd8a824d9dafe",
+    "entity_model_features-3.3.12-1.21-neoforge.jar": "3ba0bf7b487660920d12cc0ff6cb5de1763f024a080fe0cd7d64e1c8e0f7f190",
+    "entity_texture_features-7.2.6-1.21-neoforge.jar": "b47173468febc21bb565af19a82bcd2f851e34ecb333660cdc48a8c37c27c1cd",
+    "entityculling-neoforge-1.11.3-mc1.21.1.jar": "fa73ac70a3766568203b730a1573b4b54d88fb48dff4a33d8c4a80be9b8d17d5",
+    "excavatedvariants-4.3.1-neoforge.jar": "3eb6a00ef1eff1738d9894195dd2a5b58ad81774fdd3ea3904fcda0ed956c2da",
+    "explosiont-1.21.1-2.9.0.jar": "e008d6761c6bdb2f613a0412b884cd6da029e616f2fea8ca3d74ed854cbfdb93",
+    "fangs_n_claws-1.2.5.jar": "92e403ef9763b3ab2e1cbc9cb10ddb83fb1a048041fcd0954232c5bca6c93760",
+    "fantasy-armor-1.3-1.21.1-neoforge.jar": "0487d332cb34bae9922db4a38183d17493756187b6d34daf19ade6423209a0d7",
+    "farmers-cutting-betterend-1.21.1-2.0-neoforge.jar": "843e8467425814bf5bab864c40839366ec5b4627f90f4ac8694f611f7d5d85db",
+    "farmers-cutting-betternether-1.21.1-1.0-neoforge.jar": "ffe92d24649efd961547a478ca6efcf6d6af8f225ec38b458fba1806011dffb5",
+    "farmers-cutting-quark-1.21.1-1.0.jar": "cc7bb63dd64289d59c426c8d84694f922c2ce302dc9f3e0ebb28a9ab24c9740e",
+    "farmers-cutting-regions-unexplored-1.21.1-1.1b-neoforge.jar": "d2f89b94e2c2af2bc3a2a0d27aca99d9bc80b7ed3624e049dfe6c219361a667e",
+    "farmers-cutting-the-aether-1.21.1-1.0-neoforge.jar": "40cf84a3b518be5e49f8085f9fb4cf9b58ea278480a00b91ed68c62a9f66c17d",
+    "ferritecore-7.0.3-neoforge.jar": "d87ea28262715ebff45b8a82d493e6b468e7a4521bc021df5d88302196d030a8",
+    "fishing-real-extra-compatibility-1.2.0.jar": "5f1d904b1229e83ad1dd3315274eed17c82e14d6b078dd25655065a3ef4e9bbe",
+    "fishingreal-neoforge-1.21.1-1.9.1.jar": "7e82506f23b48a011ddb5df81fb62c6343cf344c29622ddf0108c206aa06fd43",
+    "flimsy-wall-lanterns-1.0.5.jar": "e3492901ed5b2322b46f9c3cb55d5f39a4eef9514b99fec24237ac41adcb21fb",
+    "flimsytorches-1.21.1-1.1.4.0.jar": "a846e5049769283896da4e9cec49ffc081c0f45741c6f0a7065af0eda21883e3",
+    "flowerymooblooms-neoforge-3.0.3+mc1.21.1.jar": "ba4c67aa286020df75c81d4b82437106c5911f17b3ab1ce57b5b1d804f7c987b",
+    "formations-1.0.4-neoforge-mc1.21.jar": "2d9b50575fdf42e59d5dacda23ce5d01fc5cb19db02a1278329e3ad40893848e",
+    "formationsnether-1.0.5b-mc1.21+.jar": "b903e98fdeacb5b70b10baafe224c512a6efa843c53f0386d50cc48ce4ad19c9",
+    "formationsoverworld-1.0.5c-mc1.21+.jar": "8ac52001fd43b70bdb72209198152ae44137b476cf9124618f3c7106b95524ba",
+    "fowlplay-1.2.3+1.21.1-neoforge.jar": "41974c76071bd960e1d6d9268fe0327680da6f751239368d5fe77c1810001198",
+    "fragmentum-5.4.0+1.21.1-neoforge.jar": "fb7e1b28d54fda52c62df2a7c050e772030d7c75663d1679371deb0a860d3c1f",
+    "freeterraforged-1.0.0-neoforge-1.21.1.jar": "bef259b9a9947959c9c87f3628aaca992698e858e11e57766f5bb799c3b29b69",
+    "friendsandfoes-neoforge-5.0.4+mc1.21.1.jar": "9e7e8718bf61d498cc8e56c87a089008a3f9ae55100f0c360bb48faa0b9b5d6d",
+    "fruitsdelight-1.2.14.jar": "2f20bc7a9726940d1a91902f006e28b08fafcb021c512f0c7265cb2383bfa2e5",
+    "fzzy_config-0.7.7+fix1+1.21+neoforge.jar": "414782aba00502349da192c1affcd4cbaf653119ec26605453f1b0690b3f8cc5",
+    "geckolib-neoforge-1.21.1-4.9.3.jar": "20a1995e4074f387ff549e2c57ea79dd7d41ee83c6afb9dd6a6e840e592d1c47",
+    "golemoverhaul-neoforge-1.21.1-1.1.1.jar": "d46939101db2bb82a602ad20b9c8e7228da5fbcf24185169ed16e5da19b3cdc9",
+    "grim-kingdoms-lost-structures-ruins-2.0.3.jar": "d5f4af9dca99b6df9ad7db214df69d7ea63fb0e601eeabdcd73c304ddc9f7601",
+    "gtbcs_geomancy_plus-1.1.0-1.21.1.jar": "b645cf8852b3453f2d7ccc10cd4b4f897edcc6f857f912042dc9f4d96c8e8bf7",
+    "gtbcs_spell_lib-2.2.0-1.21.1.jar": "a2a020b85abe9e5ad2ce9e760db57e9c79aa57cf6dae56bbfd4eb0ed5d5928f9",
+    "guardvillagers-2.4.12-1.21.1.jar": "aab03d59216bd931a05434b2527e0d5b7641793bd0178a9958100579c4f11407",
+    "handcrafted-neoforge-1.21.1-4.0.3.jar": "6f2a776fb28ed07d370899814e5e711fbeebe31396097d78a3b550439b364948",
+    "hapi-neoforge-1.21.1-1.1.3.jar": "c134b74c8d9b9a449fda88d3ef4ad652a2ed394b5693a7e440a008bd1a33c937",
+    "hiddennames-1.21.0-1.0.6.jar": "af91573fb2d86d9f37f47e373bbeba4ce153d084db27b60fd82fa6ef2e5f9563",
+    "hybrid_aquatic-neoforge-1.21.1-1.7.4.jar": "5403d0e643c8aae3e7db08de41ebf28e0ef538f252a0f0ef5b6b4f74d9b1b80e",
+    "illagersweararmor-1.21.1-2.4.0.jar": "e9a75deae444923cefda3f901c3212a9b9657c8ef40a857cc900578d5080b872",
+    "improved-village-placement-1.1.1.jar": "2d0a4d6e8c70ae342597b5d51e528c2c505658d741ba99852e16e930f186d638",
+    "incontrol-1.21-10.3.1.jar": "ed80956fdc224d5a5284eabd92fcb20a3c0b559e23e011296ff29057f62613c7",
+    "integrated_api-neoforge-1.21.1-1.9.1.jar": "3621edbd54dec28b704e03b792cc392f6d37a2cecf832d7b11c485a1765d4a3d",
+    "integrated_patches v1.2.0-1.21.1.jar": "ef4a0e61dc034f7e48606f53216b8641eb903f5694cc804f8b6ec0c645199ac3",
+    "irons-ring-durability-1.0.4.jar": "838da066d0dce4bfd2451dfd6cec2a0b76c0d61a1dd7a40359398220ff26a699",
+    "irons_lib-1.21.1-2.3.0.jar": "578d9ebfad529c0587efab2690bb469811f3a0a3593064c74263fdf909449f39",
+    "irons_restrictions-1.21.1-5.2.0.jar": "fdbeb7ca63c4f5648046d5b9079d5c2ae40cb42bcfda47ddfdbe35d63bd1708e",
+    "irons_spellbooks-1.21.1-3.16.3.jar": "55a290db9b966e0c5d2f5c051d50775f3db6375cdb52730c4da528bcf5d5daa0",
+    "irons_spells_js-4.0.3.jar": "af95472638bf595eb702675db1adec54f8b6fa708d7ec3e99675015c29596fc7",
+    "kambrik-neoforge-8.0.0-beta.2.jar": "a9b14170f2eeb323261c14bf40137ae78920ce2d61d52c85cdccc45bd9f37c2c",
+    "knavesneeds-neoforge-1.21.1-3.0.0-beta.1.jar": "7005d9f3014f8a3258a5aa6eca9d58a1be512416c20d67cad04c56cc09151a7c",
+    "kotlinforforge-5.12.0-all.jar": "2785a4dd6de5c6c56065fd8eb789c82771bd2ee773c30794c23160a3b2c39139",
+    "krypton_fnp-neoforge-1.21.1-0.2.28.1-1.21.1.jar": "05ebe849611daafe533fc57ed9b5156edfa9157ced04d38a7860b1e2075984b9",
+    "kubejs-neoforge-2101.7.2-build.377.jar": "df9a8458b1f83fed06ba54684977911795a5153a462b81a610895f5b1f2f0cbf",
+    "lambdynamiclights-4.8.11+1.21.1.jar": "913b0358b1031828f1e060ea0ee361232dc2a1c82464f488a0a920739ce7c763",
+    "lendersdelight-1.21.1-1.0.10b.jar": "ddbc62c912d84205e09d9107ac3dd0c0e460fd554a965beebb2df26c55d6e43f",
+    "liams-aether-worldgen-fix-1.0.1.jar": "eff2b2acf978857515ae3e79b7bb47d5a080dce97fb16750dbfcdc50710a3007",
+    "liams-cape-compat-1.0.1.jar": "2a3edc19383a95fa49fc1135a7600feac168d27caab6ba6691f07b688024f152",
+    "liams-corpse-controls-1.0.0.jar": "05da0498ed9a0ccea95981c65669432efa098f9f4924a061002effc0342ca586",
+    "liams-corpse-expiry-fix-1.1.0.jar": "0abf90fc3cfb13acf7f1550d67a2c99b69698b300c30b02ae1c94ba6f89d3649",
+    "liams-dungeon-crawl-compat-1.0.0.jar": "dc6eb7afde7f07301d5ce0a071a3371171c3f5b62197aea80cfef485f5573a43",
+    "liams-native-ore-placement-1.0.1.jar": "fabf2e6db29510739d8dc6885ac6e4f5036930e023edc929eaf3d839753df140",
+    "liams-ragdoll-revival-1.0.1.jar": "e4a5b75cd01c67134f1788c8cb08365430bedf263d99c937caf9d9d7b35a56b4",
+    "liams-torch-compat-1.0.2.jar": "ee37d0bc13c7047b80daed738e6e31e5136a1cf14eb4600307c519250fdc7205",
+    "liams-underground-thunder-1.0.0.jar": "c067fa7c069d17946e3dc6e3537a8db1e634bd703d3cedfc4953734645690468",
+    "libjf-3.17.7+forge.jar": "1617ee79d44d04596d79522e339a6001f9f0478229594473d23900f1f8411da4",
+    "lionfishapi-3.1.jar": "aeebf0692650afbbc78259c0d4e3d5b7edf037707e8ae5d56045066d83a19cf6",
+    "lithium-neoforge-0.15.4+mc1.21.1.jar": "488f33216030c1cb0baa33e59de3d657d08d5795a6c2080c8c8bbbc133fc8757",
+    "lithostitched-1.8.1-neoforge-21.1.jar": "e0da669fa5facc61a09b9b7bae21b322993de1fcd1eb05787adffb7309598cca",
+    "lootintegrations-1.21.1-4.7.jar": "1de9e6352f643f2850dce3e6b7aa8274902798a2243ea9e494fe13aabaa90d2c",
+    "lootintegrations_betterarcheology-1.4.jar": "f11988da5c52c35b6fe8ee9e95315f248fa468f65ba47c5bbc040066d6b0e1f0",
+    "lootintegrations_cataclysm-1.2.jar": "1dae8ffd53e33f2e2b8aef6151308ca0cea434754f0938422a45fd2278ae6538",
+    "lootintegrations_ctov-1.6.jar": "9e134e91467343084d315e37bae086bfc147ded83cd6b5008b51b678ca789d92",
+    "lootintegrations_dnt-2.7.jar": "88300912d40eb2f822f924ab67958e93a30b1df8b1780ab2cfb3299706bcd1ab",
+    "lootintegrations_dungeoncrawl-1.3.jar": "f190300ef0617de02aa5806069d9ee87f5ae18109ed597e061c7fd500d09e0bc",
+    "lootintegrations_moog-2.2.jar": "1f5f25a8deaafbd82896dc0cd9f0de2d0ddddce06b7cb3f4f017635922b17ce2",
+    "lootintegrations_yungs-1.6.jar": "15e0b2b1a6e538e2e4f14c1fa9fd272e3ea45d74b0e95d50d3f707a7cef9b9be",
+    "lootjs-neoforge-1.21.1-3.7.0.jar": "d168fd80f45e5f23dced8a54fdee87347a4c7fc6ccd9c76d30ae4d067ba9c60a",
+    "lootr-neoforge-1.21.1-1.11.38.127.jar": "5c74de4709d1c13b25880fdd241a89d5d9f331346d20edc76f80ccd4d99dc66c",
+    "map_atlases-1.21-7.0.1-neoforge.jar": "df61ef92809ce4627a5e4bd395d930997e0d3b4a0b9fa91d0beed5c23d127d6f",
+    "modernfix-neoforge-5.27.27+mc1.21.1.jar": "7010aae2e837122fe8dabd5932358e2ba334fcbc62ca6530cb1cb00402d2c63b",
+    "moonlight-1.21.1-3.7.2-neoforge.jar": "4a9f15108607cc70273f8a0b6eb24e1e99af8eef44bc3ae8681767ca7ce21b0f",
+    "moreculling-neoforge-1.21.1-1.0.10.jar": "008068af65deec86382b4fdde61e7f495e54861cc28d5a5b000c32b435213ed3",
+    "mowziesmobs-1.21.1-1.8.2.jar": "b8e7e39fb6430326de7fbb193db56588ee8bd04d0054527924fe588f37131e4f",
+    "nether_remastered-2.6-neoforge-1.21.1.jar": "d2961326f6fcca459f18cc785a6af025e1d109df4aa99ac2b010bdce28a59a43",
+    "no-f3-4.jar": "3c31f6b7635c39de940d8caea458fd0cbb1a9a8c4158918c5910365b2c52d9ac",
+    "notenoughanimations-neoforge-1.12.6-mc1.21.1.jar": "e70609c5638d9f02edfb2c8ec448a7d567345323d7386937c174526aac56cb8f",
+    "oceansdelight-neoforge-1.0.4-1.21.1.jar": "30fec2263f77bcd4002995d9fc127a911c964317dbd0e3c54e348954d1722d38",
+    "owo-lib-neoforge-0.12.15.6-beta.1+1.21.jar": "5fc306ad3d42e1dc26812f2df856e7c232376405caab6af4f5aaffe89cd2b256",
+    "particle_core-0.3.3+1.21+neoforge.jar": "38c05981d1dc8428c7ab1130b9ec7f05bca1b70f909aba9c454c9611702a8dda",
+    "player-animation-lib-forge-2.0.4+1.21.1.jar": "dbe5de45f5cd60c0e5e47af14e6d564534a98456e973cf670cb881f6938eee92",
+    "polyarmory-neoforge-1.0.0-1.21.1.jar": "01420f0e479f0e9a908d29a6a2c15f9cbbe6db7cf42fa979d3a06e0dbe458a0a",
+    "prickle-neoforge-1.21.1-21.1.11.jar": "ccf46c442ed3c7fe41ad056f0940560829ec4dd88360985dfacd78f4614eb167",
+    "punchy-2.8g-neoforge-1.21.1.jar": "13cc051fc6fecb4b680541702ab485520a37f9f9c26e682d6ffd1eb8bda547d9",
+    "puzzleslib-v21.1.66-mc1.21.1+neoforge.jar": "cb02de7e1d4a133746ec7b43a64eddc2cb621122cdc49e134a15272f456c31f2",
+    "quantified api-omni-2.2.4.jar": "f3c71df7388f25e836ab99703fd641d5521e9f2092934e2033e0a005993363ae",
+    "ragdoll-lighting-compat-1.0.0.jar": "f7636554d35d70dec004aef6fb5fdaf06925a1daff1d52ca0248c8a8e8ead3ae",
+    "ragdoll-pathing-guard-1.0.0.jar": "14fdd320b04c57a571d98a595272d5a4a01f14877091b435bcfd022ddc4ffcf3",
+    "ragdoll-pearl-fix-1.0.0.jar": "d5082eaed247023b9f7cdadd0dab261277f79e3485a763b83b8867fc35cb5545",
+    "ragdoll_corpse-1.21.1-0.3.0.jar": "ffb17d35c82053c3c95bd3f488502350bb0877bf1837f16c5e6f86134daef2d3",
+    "ragdoll_reactions-1.21.1-0.7.0.jar": "d61a118c0b5ad2f3e761af6b3d71726bc2887bb3d0c7c90c2dc604bb4d3792b8",
+    "regions-unexplored-0.6.3-neoforge-21.1.jar": "e7f2edd7bab869c2e566b1b251ea54c6b95834205276bf3a302859d72d9d0c9b",
+    "reliable_backpacks-neoforge-1.21.1-1.9.1.jar": "77d3c3c1f6dbc0ca5c1dd884cc8cc5da0511952ae5db178357f0c91b135dcfda",
+    "resourcefulconfig-neoforge-1.21-3.0.11.jar": "25b4f3502d25c535004acd4a9420272fff01d2f1e2df352239fec93fdab005d4",
+    "resourcefullib-neoforge-1.21-3.0.12.jar": "5e36f2c69de008dc5795f730c84ab767688f15c810944b585485349a0c911261",
+    "respackopts-4.14.0+1.21.1.forge.4.jar": "e5c505097ddac82abf351808473f8fb4c8eb24f3a7cf1e6333644f708b4dbc65",
+    "rhino-2101.2.7-build.85.jar": "e0e9b0e78edd380440266c0f4ea8d489dac851ef075a4566a66a6dae2f7bbb66",
+    "ritchiesprojectilelib-2.1.2+mc.1.21.1-neoforge.jar": "cc509060833736fb650aa4c36b1ce33a7eeeb9ca6e9f8e80a7c951c9e7487b24",
+    "rusticdelight-neoforge-1.21-1.7.1.jar": "ad3d796132984a8d06184d7c9543d6f8b87df4dac33a5dd9b8f124e95afe6801",
+    "sable-neoforge-1.21.1-2.0.6.jar": "9c199157843bf953a47dff625fc5bb41c01a90538d35ad18e6996bbcb8a617c2",
+    "sable_player_ragdoll-1.21.1-0.7.5-rider-fix.jar": "31faa6088a07a711211ea9c39ea4fb3013a216c2d4012ffda373ef41a7f1b9f7",
+    "sablebeyond-neoforge-1.21.1-v0.5.0.jar": "756766b593adb8ef5524fb8239f6caaaaa065e74d396e9dda86401eae315d9de",
+    "sablecleanup-0.3.0.jar": "2d8c1a7ccae23a3ed90e2b5743e23f8745bcf7df0fda18c67263b2f3a05e8308",
+    "seeu-neoforge-1.21.1-0.9.5.jar": "622192c07b1929d92bd96d4d3497e39a6e10425941082171298095f514ea7180",
+    "servercore-neoforge-1.5.19+1.21.1.jar": "a5706aa0bb3a47c5f1adab44306685736688ec03414f60beb4fcbe05b99f5a82",
+    "shieldexp-neoforge-1.21.1-1.4.3.jar": "8795061229e835998dfaefe0859d86494abaa992a4c6e5b9bc2fa4a47864a465",
+    "simpleblood-1.21.1-1.0.5.jar": "da732f45168e3a24ffc7457a3a0cac85c902ee43b305f5436b9c08551c276aea",
+    "simplyswords-neoforge-1.70.2-1.21.1.jar": "5e75bd66ea489079d60c9c1ed98762550fbc0bee88cd7af399f17bbeb56608c3",
+    "skinlayers3d-neoforge-1.11.4-mc1.21.1.jar": "0b6594418245efbe4ae2cf7fde133878d56a4c41eff06e231ba7e1a233e0b615",
+    "sodium-extra-neoforge-0.9.5+mc1.21.1.jar": "37c33efdee16fc515392fd422b6ec8769cbc1079f6a2eb6cff2072411d511faf",
+    "sodium-neoforge-0.8.13+mc1.21.1.jar": "575d187b15328d7bddd8a9b1bee64333c22c14735f5780ec49eac0cd5503c08d",
+    "somakespells-1.0.8-1.21.1-fix.jar": "1a6ffbb060029ff7564947ab2081420d12718e8300be923b1fbbe1ceaff01f22",
+    "sound-physics-remastered-neoforge-1.21.1-1.5.2.jar": "108cac1fe49d0dc210183d69787db5a359cdc03c5b580eb8ab0208be7f072982",
+    "spark-1.10.124-neoforge.jar": "647e8a81afbe414dba1df4ba15fd06c5d32d4cb544e68828405e8e074c2e16db",
+    "sparsestructures-neoforge-1.21.1-3.0.jar": "5aca0b33c0c83154810bbdd8ddc0d3e6a3e4591577274e2d27c10de0b45f2a45",
+    "spawn-animations-compats-18.0.jar": "02d5b3d73f38a4106e03cc0f550107f08d5886f6ec1903a0bebdcaa3706f4988",
+    "spawnanimations-v1.11.6-mc1.17-26.3.9-mod.jar": "229c48cd7a17f1318a2d9e4ac8d0e2470fa198952c0efff145cd318022fc4e8a",
+    "spelunkers_charm-5.0.6.jar": "341d50663345afdc830e63e4b5f2964c24bdff53449ee1c7439d8bc01c71741d",
+    "stormiespiders-neoforge-1.21.1-3.3.2.jar": "8915742bb30a78dbb24d7e428c818f0fd15e9cff7e9e48a15bc255d5d921a749",
+    "structure_layout_optimizer-neoforge-1.0.12.jar": "ef8eb29c5c4f111c74a49d379843e4c2f51d11b28c8116a49be13636c83f4385",
+    "supplementaries-1.21.1-4.0.2-neoforge.jar": "2c2e0c98e0cc21874d8b2130bc773a2a5a6cadd854b9c8163d0e1f32e2ddffb0",
+    "tidal-towns-2.0.jar": "349ab80789a83bca9dd9fc1d9f9244962b808ff358a27eba465fe93a081d35a4",
+    "tide-extra-compatibility-2.3.0.jar": "c297322b41aac6c5fc5d3d65dba8aa624c32aa25de60c30538cae4e654c613e9",
+    "tide-neoforge-1.21.1-2.1.1.jar": "f7c4592c593901cf14de8fc24e9252fd1a959e6559964ce128bc8e2c8660c8ca",
+    "tipsmod-neoforge-1.21.1-21.1.3.jar": "242d7ed8d7b78e12be37c09d38ed0dc25e55d3af9d5f4395400b7c57cb30381b",
+    "tlib-neoforge-1.5.0-1.21.1.jar": "e8362f364c262ce1405c568c968fc3a0a69042d5223deecfbbb0595a0514f035",
+    "touch_n_motion_neoforge_1.21.1_1.0.4.jar": "3754909bf0d12445b18a60de315619734c1229bcc621f88f315ccf076701ab56",
+    "trulydark-neoforge-1.21.1-2.1.0.jar": "1947b964f7c2c36b1ef4d544f775877bcce5f97f3c501f2d1cf8f1802bdbf689",
+    "tumbleweeds-1.1.0+mc1.21-1.21.1.jar": "31f5cbbd0689b8586863942cabd0fb272e885d3dfaa252f50a2d13ca1f3d6e07",
+    "unlitcampfire-neoforge-1.21-3.1.2.5.jar": "ed6b031ae78f741374dfd16222e24cdc303ebd932e3a316cc8ea128409f84c12",
+    "upgrade_aquatic-1.21.1-7.0.2.jar": "436e05528d6f477375d84ef60ab7d91ca9f38682cb8ec0a9a8d1984526c4402f",
+    "variantsandventures-neoforge-1.0.28+mc1.21.1.jar": "de4621576e220c775a67472030cd86bd9280af69151b01f6b74f012d56e0898b",
+    "voicechat-interaction-neoforge-1.0.0.jar": "a2d539c08e558c35c27f3a0e5806048de2f29da6d4ab78018b95589f69f35d42",
+    "voicechat-neoforge-1.21.1-2.6.26.jar": "a0f7467d10fd245a549eb914bd5d2e502fbd17d60339c1a806be04cbe294b792",
+    "wakes-1.21.1-NeoForge-1.4.1.jar": "120b95470ed306fe8681ad0df732034ac80d3a5ee426d7f9dfb1af1ef2fc3dcd",
+    "waveycapes-neoforge-1.11.3-mc1.21.1.jar": "f24f8bf4282c67f0cb9278e92264d801f7ccd4eafd7a76be1b836f525ec190a1",
+    "weaponmaster_ydm-1.21.1-neoforge-4.2.7.jar": "af0de505aef99fa9feca6b969932b28b834f4663dcb95c12bf65dccbe304a605",
+    "windy-1.1.1+1.21-neoforge.jar": "5be5d5b6359dbec76f25a446210aab7bdb31a771e9c4bfb150d2001b3e005620",
+    "witherreincarnated-1.21.1-1.0.5.jar": "624ab24f75054b609407d4c70bfb0c5df85fb01ab80316e3da44346ae5c29d7b",
+    "worldweaver-21.0.30.jar": "be7b790a7c1ce8d96883bb63cccb84042f360dd442472ed9a48afc71e2699dbb",
+    "wunderlib-21.0.11.jar": "2f39302b8da949195ffc57d07d0668f867c8ba9f2874bb6eef0bdd1e9fed9ba4",
+    "yet_another_config_lib_v3-3.8.2+1.21.1-neoforge.jar": "b5c30321b46cfaa521645a04aff89d2804d8167a25bb23ad4b1ae8da73093a2f",
+    "zfastnoise-1.0.13+1.21.1+neoforge.jar": "36ee58475c46c56e76c199eebe48dc95aacaa1133512617dcc46053339c2fb5d"
+  }
 }

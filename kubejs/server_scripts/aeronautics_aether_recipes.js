@@ -2,6 +2,9 @@
 // Aeronautics parts that provide thrust or lift behind Aether materials.
 ServerEvents.recipes(event => {
   const gravitite = { item: 'aether:enchanted_gravitite' }
+  const skyroot = { item: 'aether:skyroot_planks' }
+  const zanite = { item: 'aether:zanite_gemstone' }
+  const ambrosium = { item: 'aether:ambrosium_shard' }
   const aercloud = { item: 'aether:cold_aercloud' }
 
   function replace(id, recipe) {
@@ -21,35 +24,35 @@ ServerEvents.recipes(event => {
 
   shaped('aeronautics:andesite_propeller', ['PE', 'C ', 'S '], {
     P: { item: 'create:propeller' },
-    E: gravitite,
+    E: skyroot,
     C: { tag: 'minecraft:wooden_slabs' },
     S: { item: 'create:shaft' }
   }, 'aeronautics:andesite_propeller')
 
   shaped('aeronautics:smart_propeller', ['PE', 'G ', 'B '], {
     P: { item: 'create:propeller' },
-    E: gravitite,
+    E: zanite,
     G: { item: 'simulated:gyroscopic_mechanism' },
     B: { item: 'create:brass_casing' }
   }, 'aeronautics:smart_propeller', 2)
 
   shaped('aeronautics:propeller_bearing', [' AE', ' S ', ' B '], {
     A: { tag: 'minecraft:wooden_slabs' },
-    E: gravitite,
+    E: skyroot,
     S: { tag: 'c:plates/iron' },
     B: { item: 'create:brass_casing' }
   }, 'aeronautics:propeller_bearing')
 
   shaped('aeronautics:gyroscopic_propeller_bearing', [' AE', ' G ', ' B '], {
     A: { tag: 'minecraft:wooden_slabs' },
-    E: gravitite,
+    E: zanite,
     G: { item: 'simulated:gyroscopic_mechanism' },
     B: { item: 'create:brass_casing' }
   }, 'aeronautics:gyroscopic_propeller_bearing')
 
   shaped('aeronautics:adjustable_burner', ['SES', 'SCS', 'ARA'], {
     S: { tag: 'c:plates/iron' },
-    E: gravitite,
+    E: ambrosium,
     C: { tag: 'aeronautics:burner_fire' },
     A: { item: 'create:andesite_alloy' },
     R: { tag: 'c:dusts/redstone' }
@@ -58,7 +61,7 @@ ServerEvents.recipes(event => {
   shaped('aeronautics:steam_vent', ['G', 'C', 'E'], {
     G: { tag: 'c:plates/gold' },
     C: { item: 'minecraft:copper_block' },
-    E: gravitite
+    E: ambrosium
   }, 'aeronautics:steam_vent')
 
   replace('aeronautics:mixing/levitite_blend', {
