@@ -46,7 +46,7 @@ hash = "bcbb63f8d18b1734d6d0f7bb32f4e1e35b7d2115de129ebb28e8888de9f72072"
 
 [[files]]
 file = "config/bountiful_contract_fairness/dimension_policy.json"
-hash = "f4b7a284c8fb18b2edc96d687eec43b5f75c7a194fe961c7af737e41bc9b97ac"
+hash = "a2de6ff658ed3ce011db0cc0270f0fa53ba6f33ddd0ae3201d68a42303effc60"
 
 [[files]]
 file = "config/caverns_and_chasms-client.toml"
@@ -1504,7 +1504,7 @@ hash = "e46f413ccb0a6739b6ef1ae10fab7b2f58b98d37052fb7dff0294eca67b0db75"
 
 [[files]]
 file = "datapacks/Liam's Adventuring Bounties/AGENTS.md"
-hash = "18b78f8f0e98004c6f5bece56deab65b216bf6b8f5fe7dfb80fa8af88bdf1512"
+hash = "b4ef6a03777c07fc1adafa117a7b6fae0f085bce399a6025de9f241a2d6b2db1"
 
 [[files]]
 file = "datapacks/Liam's Adventuring Bounties/data/liams_bounties/bounty_decrees/liams_bounties/liams_boss_ancient_remnant.json"
@@ -1620,7 +1620,7 @@ hash = "69d1b560581c267367f4cac5455be6b8fdeedac10a62e6eb23903b69229d7e22"
 
 [[files]]
 file = "datapacks/Liam's Adventuring Bounties/data/liams_bounties/bounty_decrees/liams_bounties/liams_millwrights.json"
-hash = "aa719b77c0b24836054eb3b916fe6039c63b2813cf7e02a50b01b9579a392744"
+hash = "b9ed11fa44da198158ef13daa3961d1b566786ab70f12e8ec1f29560dfdc78b1"
 
 [[files]]
 file = "datapacks/Liam's Adventuring Bounties/data/liams_bounties/bounty_decrees/liams_bounties/liams_naga_hunters.json"
@@ -2080,7 +2080,7 @@ hash = "729d4fe47748efb1be7736b39e9a6d071c4233a8234bdab94aca6375791a17a4"
 
 [[files]]
 file = "datapacks/Liam's Adventuring Bounties/data/liams_bounties/bounty_pools/liams_bounties/liams_workshop_mid_rewards.json"
-hash = "d8c19349c1a5f646cd491f991c1464dc7d431ee1fc73bcdd299556af595ed1af"
+hash = "d3fe02b8d11a01868cb0ed0869089054f26015c0fec13753563a14b503932008"
 
 [[files]]
 file = "datapacks/Liam's Adventuring Bounties/data/liams_bounties/bounty_pools/liams_bounties/liams_workshop_rewards.json"
@@ -3595,6 +3595,10 @@ file = "kubejs/data/liams_modpack/tags/entity_type/depth_scaling_hostiles.json"
 hash = "0c615d27d6e7932dab70603593b0d4b2098f06e605c17c7e8549a677ec84ef94"
 
 [[files]]
+file = "kubejs/data/liams_modpack/tags/item/end_membrane_plants.json"
+hash = "599c348ea0faf9add706f03deb23681fd966486366c8ec2833000e88dcfa5bc2"
+
+[[files]]
 file = "kubejs/server_scripts/aeronautics_aether_recipes.js"
 hash = "3b13a70d79f12e8e11480b78068728b529a5e27da8dd532d554047b6303ed5b4"
 
@@ -3605,6 +3609,10 @@ hash = "db793a9b01fb2cdacefbf3240a8035aafde544b884d9cbee241448fa028047d8"
 [[files]]
 file = "kubejs/server_scripts/cupric_campfire_recipe.js"
 hash = "fd66dab44fe0e4e84ca05f3833f09b95097a6f2b50a4290741f3426133cfdef5"
+
+[[files]]
+file = "kubejs/server_scripts/deep_seas_end_recipes.js"
+hash = "6b578a36c17ae636c429555645c01c1be2128ee7e6da32e0ac57b4ae8f89c88f"
 
 [[files]]
 file = "kubejs/server_scripts/exploration_loot_balance.js"
@@ -3628,7 +3636,7 @@ hash = "99571c19fc8cd469d46fcd02bbb634dc788e949cd2403470a4767ab96b5aca36"
 
 [[files]]
 file = "kubejs/server_scripts/remove_portable_engines_and_deep_seas.js"
-hash = "58a6a158807aa1986f873e368b4437dd253d44f95bd914509af301de8fb8bd16"
+hash = "80333426b8f08a67c0c0d0ffc3589a33a14dbf4b892d1eebee97214b76f65d72"
 
 [[files]]
 file = "kubejs/server_scripts/startup_commands.js"
