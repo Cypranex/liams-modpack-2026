@@ -137,6 +137,10 @@ file = "config/liams_ragdoll_revival-common.toml"
 hash = "7270b87a30c82eee781a87ba4e249e37b129377931e9b845440cac3f6dba12ec"
 
 [[files]]
+file = "config/liamstorchcompat-common.toml"
+hash = "476cc7e9b26955bc5e064d2e4daf7c2fcce8d1307824000b9d447da97939d9eb"
+
+[[files]]
 file = "config/lithium.properties"
 hash = "7555077253c07f0695f66834d6f22d3ff4a2e076f384f5fe42c3f8365c002020"
 
@@ -4442,8 +4446,8 @@ file = "mods/liams-spelunkers-charm-compat-1.0.0.jar"
 hash = "27d0807223539c736cd6ee0f8fea3d5ba3eb9d04c525c3d2141c988b895039e4"
 
 [[files]]
-file = "mods/liams-torch-compat-1.0.2.jar"
-hash = "ee37d0bc13c7047b80daed738e6e31e5136a1cf14eb4600307c519250fdc7205"
+file = "mods/liams-torch-compat-1.0.3.jar"
+hash = "796fd906dc08b1156a98106fa3848f21af435a764443f98f5ec048af4f1cbb6d"
 
 [[files]]
 file = "mods/libjf.pw.toml"
