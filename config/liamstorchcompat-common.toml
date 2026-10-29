@@ -1,0 +1,11 @@
+# Burnt-out Flimsy Torch decay. Restart the game/server after editing.
+[burnt_out_torch_decay]
+    # Applies to existing and new placed floor/wall torches. No item drops.
+    # Lanterns and inventory items are unaffected. False pauses existing progress.
+    enabled = true
+    # Average real hours in actively random-ticking areas after burnout.
+    # Randomized across 16 saved decay steps; not an exact timer.
+    # Calibrated at 20 TPS and randomTickSpeed=3; faster random ticks accelerate decay.
+    # Sleeping and /time do not advance decay. Unloaded areas pause it.
+    # Range: 1.0 to 87600.0. Default: 8 hours (24 Minecraft days).
+    averageLifetimeHours = 8.0
