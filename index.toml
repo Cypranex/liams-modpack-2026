@@ -4610,6 +4610,11 @@ hash = "1ef7ce6d5fe6e584914680f5463508996f0dd1c2bdbc051b8b3b050c85e134ff"
 metafile = true
 
 [[files]]
+file = "mods/piglin-proliferation.pw.toml"
+hash = "9c2ab13ce8c32fc895073416cd80275f70645d88470d6c59ff2c3f2636e27bf4"
+metafile = true
+
+[[files]]
 file = "mods/placebo.pw.toml"
 hash = "d94791108548d174758d587440c656f1a56884083fa3151bf90b515126482435"
 metafile = true
