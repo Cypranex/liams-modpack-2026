@@ -98,7 +98,7 @@ hash = "99c1358d4fbd80425ec5d0227cc73885e6e7496a318fd52d5982c24281684404"
 
 [[files]]
 file = "config/flimsytorches-common.toml"
-hash = "04cc5345c68e0e5622ab7fdfce75d1e607322e389e4e17b57b277173b27569a7"
+hash = "dedd7d7873a71b9a2c8679e9d15e6a076c49fc7389c9830793ba5646f014dc11"
 
 [[files]]
 file = "config/hordes-client.toml"
@@ -206,7 +206,7 @@ hash = "f7b0b9a3e4c35f9360fa0ffba2d7d8dc64b30612556aed95b5d8a1ac8bfdea37"
 
 [[files]]
 file = "config/paxi/resourcepacks/Torches x Punchy.zip"
-hash = "f9abf25ee5aa87698a59c92de4a093598c5b2b47d82913fd1f15b3228e86fd56"
+hash = "d0905986b555584a95267ebae49fac9a73dca78f297945480cde28c27c8dc7eb"
 
 [[files]]
 file = "config/paxi/resourcepacks/aether-regenerated.pw.toml"
@@ -250,7 +250,7 @@ metafile = true
 
 [[files]]
 file = "config/paxi/resourcepacks/hyper-punchy.pw.toml"
-hash = "256ad012f8f0dfac102b46dae47d2cf14185b6a866578692f8f6e96b95364019"
+hash = "455ddd7f0d92252a08a1f8103e00ebaa70871298bbcf07588ac291e6394db7fd"
 metafile = true
 
 [[files]]
@@ -270,7 +270,7 @@ metafile = true
 
 [[files]]
 file = "config/paxi/resourcepacks/punchy-compatibility.pw.toml"
-hash = "08bdfb9674abc7b5d4d949ac8426b49fe6e18d6463b7d2b6f503518bb448f9b0"
+hash = "9098dc66079a919e41200af2383230c5919c5ad9e9cc5a5452dfefbfedfc5b11"
 metafile = true
 
 [[files]]
@@ -3043,6 +3043,10 @@ file = "kubejs/assets/bountiful/lang/en_us.json"
 hash = "78630829ab1989328d59f835f46549fc29898a46df77bb4268e98389f92d56fc"
 
 [[files]]
+file = "kubejs/assets/dtru/blockstates/rooty_mycotoxic_moss.json"
+hash = "cc5d23edc1c64e71a90f57f9dfd7d9539ffa5a704f1887f9673d5d0d6d374d11"
+
+[[files]]
 file = "kubejs/assets/dtru/models/block/mushroom/blue_bioshroom_cap_center_age0.json"
 hash = "8d9a66b40bcb50298480be1844d445b49e1f1318e7ea1011b254c02922f03f2d"
 
@@ -3676,7 +3680,7 @@ metafile = true
 
 [[files]]
 file = "mods/aero-player-tilt.pw.toml"
-hash = "581984b70fbb10653298f750d39a7246a275d938510c93740bf75c0ae818e6d7"
+hash = "312c08eff851cfd9388563ad1a97394e4fb4f4b0ea37ade0f0159405a3b373cd"
 metafile = true
 
 [[files]]
@@ -3701,7 +3705,7 @@ metafile = true
 
 [[files]]
 file = "mods/amendments.pw.toml"
-hash = "8ae41d3a92b5eb712cbb0d8acfd9fa86a49fee510d3d029a592044bc5b959214"
+hash = "aef2b0ee3884d9da84c099557f8f7529f965513d269d450f1f9f8e8cc78b5a47"
 metafile = true
 
 [[files]]
@@ -3741,7 +3745,7 @@ metafile = true
 
 [[files]]
 file = "mods/azurelib.pw.toml"
-hash = "b0a8124b6ebe29d4e142000f5c770d5a798acc7cfc2a31e65addf8898db26302"
+hash = "0ff3d654e1621eab0a51da1a5337ed4cf7229e824cc16b5bd051571130ccfcef"
 metafile = true
 
 [[files]]
@@ -3800,7 +3804,7 @@ metafile = true
 
 [[files]]
 file = "mods/better-mob-combat-reimagined.pw.toml"
-hash = "4c20f91ab620cc2ff82cda94d40c0d8249d08e7e166b5e1273a7b829c078e46c"
+hash = "db0b7d18e57866c65e20fe560471911fc5797033cdf1ce4f9a90fec5645f6875"
 metafile = true
 
 [[files]]
@@ -3841,6 +3845,10 @@ metafile = true
 file = "mods/brewin-and-chewin.pw.toml"
 hash = "22d9510588b081cf9905f6549d24bc11012aa8d9c7d38a8619ab9db5ccb7b9a8"
 metafile = true
+
+[[files]]
+file = "mods/buckler-ragdoll-compat-1.0.0.jar"
+hash = "0118156526fbfe8dfcbca3d5dbcffaa61a3399a989aee89db28a1916bfd5fe22"
 
 [[files]]
 file = "mods/cataclysm-spellbooks.pw.toml"
@@ -3969,7 +3977,7 @@ metafile = true
 
 [[files]]
 file = "mods/data-anchor.pw.toml"
-hash = "64bdeecf2b2217fc22d5237a6bcc3b5f54a4352233040aaa0dbec4e8216f6536"
+hash = "d025359648bc99d4eec57a159fe07ba3638c519a7b568b414041fe15fb196066"
 metafile = true
 
 [[files]]
@@ -4202,12 +4210,12 @@ metafile = true
 
 [[files]]
 file = "mods/flimsy-torches.pw.toml"
-hash = "c80d22d2ee14e99fc47c454ea1cd57cea6cac1b4034bbe0a66ac7f4eb7a4001e"
+hash = "6abe817055500bb4aa1fc810d953fdd9a02908ced68791716388ace7e361c111"
 metafile = true
 
 [[files]]
-file = "mods/flimsy-wall-lanterns-1.0.5.jar"
-hash = "e3492901ed5b2322b46f9c3cb55d5f39a4eef9514b99fec24237ac41adcb21fb"
+file = "mods/flimsy-wall-lanterns-1.0.6.jar"
+hash = "eb79aef87eda583d45924c7c930b9431eba31050e7bb60f4bf1c76654f176939"
 
 [[files]]
 file = "mods/formations-nether.pw.toml"
@@ -4446,8 +4454,8 @@ file = "mods/liams-spelunkers-charm-compat-1.0.0.jar"
 hash = "27d0807223539c736cd6ee0f8fea3d5ba3eb9d04c525c3d2141c988b895039e4"
 
 [[files]]
-file = "mods/liams-torch-compat-1.0.3.jar"
-hash = "796fd906dc08b1156a98106fa3848f21af435a764443f98f5ec048af4f1cbb6d"
+file = "mods/liams-torch-compat-1.0.4.jar"
+hash = "03288f5eb633e562f71c6bc897a93827a4a233153fbf71f9179777322f62017c"
 
 [[files]]
 file = "mods/libjf.pw.toml"
@@ -4470,9 +4478,8 @@ hash = "c0611d8448bc043f372a008a435e14aa238ba8fca52fd1d79634424576ea9e12"
 metafile = true
 
 [[files]]
-file = "mods/localized-chat.pw.toml"
+file = "mods/localized-chat.pw.toml.disabled"
 hash = "a7e9a5ddc06f5afe7b45c40bbe56f8bebbd6bf3eae426bc40edabd2b69f2d60b"
-metafile = true
 
 [[files]]
 file = "mods/loot-integrations-better-archeology.pw.toml"
@@ -4636,7 +4643,7 @@ metafile = true
 
 [[files]]
 file = "mods/punchy-fpa.pw.toml"
-hash = "253e843caefaf2ddb7b5d18ea5198904ed1a2e913a9d29dc577c8e0a82f4948b"
+hash = "97ecea2600c0d55741a3645b14a2bfa310813ddd41811427c800511b6912a72c"
 metafile = true
 
 [[files]]
@@ -4772,7 +4779,7 @@ metafile = true
 
 [[files]]
 file = "mods/simple-voice-chat.pw.toml"
-hash = "852ba399cf42709a5a22cf946e6a20c0d5e77d2990d98478e3e826a69154ff24"
+hash = "6f9502735fcac7a35468358e2aa0fd9333b12df885db3325c472d298ce315a72"
 metafile = true
 
 [[files]]

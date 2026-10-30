@@ -38,6 +38,10 @@
 
 #General Settings
 [general]
+	# Retain burnt-out torches for Liam's eight-hour decay.
+	destroyBurntOutTorches = false
+	# Preserve lit campfire placement behavior.
+	campfiresStartLit = true
 	#  ''''''''''''''''''''''''''''''
 	#  Chance of a generated torch to remain a regular, non-flimsy torch. A value of 0.01 equals 1%.
 	#  Setting this to 0 or 1 bypasses random checks, slightly improving performance.
