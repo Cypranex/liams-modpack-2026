@@ -1,13 +1,13 @@
 name = "Flimsy Torches"
-filename = "flimsytorches-1.21.1-1.1.4.0.jar"
+filename = "flimsytorches-1.21.1-1.1.5.0.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/UrEQLvc6/versions/nwEzM5lu/flimsytorches-1.21.1-1.1.4.0.jar"
+url = "https://cdn.modrinth.com/data/UrEQLvc6/versions/dyH4VHlh/flimsytorches-1.21.1-1.1.5.0.jar"
 hash-format = "sha512"
-hash = "c31d979c4a1903fbfb6bee0a903eb5ed99e782fa7cd67263285adb52c86d87f986b2bb556100306f3b27f13c523decb349aa7f35a5e55c51bad88efd8f3f1536"
+hash = "7e069686f7e466b2611212ffd9942e24d1e8efa7f49970c9d4d6fcf47729d6268f137a14cd61901dab66a3dbc537553ca40e07f853f8ced757137442a574f01e"
 
 [update]
 [update.modrinth]
 mod-id = "UrEQLvc6"
-version = "nwEzM5lu"
+version = "dyH4VHlh"

@@ -1,13 +1,13 @@
 name = "Aeronautics Player Tilt"
-filename = "aero_player_tilt-0.2.5.jar"
+filename = "aero_player_tilt-0.3.0.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "39dfa2c6354b7bb1a3605a2555ac1622ac0228ea"
+hash = "cbd0c0b50dc935a8d22c861163fabc18a374c519"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 9314071
+file-id = 9357976
 project-id = 1681706
