@@ -1,0 +1,13 @@
+name = "Punchy! Moves"
+filename = "punchy-moves-1.0.2-hotfix2-neoforge-1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/mzgtK8pY/versions/mYnWypZR/punchy-moves-1.0.2-hotfix2-neoforge-1.21.1.jar"
+hash-format = "sha512"
+hash = "239b2e70c085356432e2e9a2c6b16b91bfc8b5cbdb7ac3db5565d56922755b41fab634747ef9dcaafbfe13cbbd83b87eb35295574111fcd979b04e233b94b856"
+
+[update]
+[update.modrinth]
+mod-id = "mzgtK8pY"
+version = "mYnWypZR"
