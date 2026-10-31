@@ -229,6 +229,11 @@ file = "config/paxi-neoforge-1_21.toml"
 hash = "93e6db1672e3a55fd77265c85a394a691a3206c7a49637fa42dc5b9853f51f86"
 
 [[files]]
+file = "config/paxi/resourcepacks/fluid-foolish.pw.toml"
+hash = "0742578d9a8f6d28ecba11fe587dea22309ee8cc5f5501a5d13ab5527e9e05f1"
+metafile = true
+
+[[files]]
 file = "config/pmweather-server.toml"
 hash = "ecbf4c205c059603d5032d54c75ffeef63ee7e5a01460eb9db742de2c45254ac"
 
@@ -4944,9 +4949,4 @@ metafile = true
 [[files]]
 file = "mods/zfastnoise.pw.toml"
 hash = "b24c213b8727e80ca559670e97971c735c4dc4be1d1a4bd637c41450e7654c1e"
-metafile = true
-
-[[files]]
-file = "resourcepacks/fluid-foolish.pw.toml"
-hash = "0742578d9a8f6d28ecba11fe587dea22309ee8cc5f5501a5d13ab5527e9e05f1"
 metafile = true
