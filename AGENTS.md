@@ -130,10 +130,23 @@ The authoritative item inventory is
 `kubejs/data/liams_cape_compat/tags/item/capes.json`. It currently includes
 Banner Capes' ordinary and elytra-cape families and Aether's cape family
 (including Deep Aether's extension). The pack's Accessories cape/Curios body
-tags include that inventory; both back tags remove it with NeoForge's additive
+tags replace upstream contents with that inventory (strict cape whitelist); both
+back tags remove it with NeoForge's additive
 `remove` field. Curios **body maps to Accessories cape** in the installed
 Accessories Compatibility Layer. Banner Capes' entity binding is overridden to
 body. Preserve this mapping and unrelated back-slot entries on updates.
+
+Ordinary body garments use the separate `torso` slot, displayed as **Body**.
+`liams_cape_compat:body_equipment` inventories the eight installed Lucky's
+Wardrobe body garments; Accessories/Curios torso tags include it. Native Wardrobe
+entity bindings replace body with torso, retaining back/head/necklace and both
+player/armor-stand targets. Explicit slot data provides one torso slot; the
+Accessories chest group includes it. Do not put ordinary body equipment back in
+`curios:body`: compatibility globally maps that name to cape. Audit new upstream
+body-tag entries and move genuine body garments into the reviewed torso inventory.
+Keep strict cape/body tag replacement; do not weaken it to additive membership.
+Do not classify a new item solely by its name. Existing saved equipment is never
+automatically moved; manually re-equip ordinary garments into Body after restart.
 
 The source for the client Banner Capes -> Wavey Capes bridge is
 `/home/liam/Projects/minecraft-mods/cape-compat`; its production jar is
@@ -236,3 +249,30 @@ Require the native layout, placement, chest, terrain and existing loot/Lootr PAS
 markers. Evidence is under development `docs/dungeon-crawl-audit-2026-10-26/`.
 Sync only reviewed source files/jar, review tips, refresh packwiz, and restart.
 New structures need new chunks; never migrate existing dungeons or inventories.
+
+## Hedge's Bestiary progression (required)
+
+The complete progression customization ships in
+`mods/liams-bestiary-progression-1.0.2.jar`, built from
+`/home/liam/Projects/minecraft-mods/bestiary-progression`. It includes recipes,
+item registration/model/name, taming/breeding rules and Patchouli overrides.
+Do not restore the retired Bestiary KubeJS scripts/assets or add duplicate
+datapack/resource-pack overrides. It has no KubeJS dependency, but intentionally
+retains the saved item ID `kubejs:abyssal_treat`; do not rename it or register it
+twice. Install on both client and server and restart after changes.
+
+The companion is pinned to Bestiary 1.1.3. Recheck native capture conditions,
+treat tiers, breeding/cooldowns and the persistent one-scale trade on updates.
+Build with `build.py`; run `verify.py` with and without `--with-kubejs` and
+require the native PASS marker. Keep all species tamable; preserve the approved
+material gates and per-parent breeding costs. Review tips and loot inventories
+for dependency changes; never rewrite saved pet ownership or inventories.
+
+Aquatic natural spawning accepts 10% of selected pack attempts for the eleven
+reviewed water species through a required NaturalSpawner Mixin. Preserve
+whole-group gating before group size/placement checks, native followers (including
+Nib Nibs), all habitat/depth restrictions and non-natural spawn sources. Gawks
+and land species retain native rates. Recheck the injection/call sites when
+Minecraft, NeoForge or Bestiary changes; never replace this with per-entity
+denial, which fragments schools. Native seeded selection and follower tests
+are part of both companion verification profiles.

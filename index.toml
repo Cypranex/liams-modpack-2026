@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "AGENTS.md"
-hash = "a8a598d11b60859c3a63a6adefe0eb91f71018a9ddf3282ca48319ba8eaa8a67"
+hash = "9fbec10bb957767128c22fae3e49f3621df0249c5418ea04a68f69315b59d796"
 
 [[files]]
 file = "config/aether-client.toml"
@@ -43,6 +43,10 @@ hash = "5b965898d5b13c5557b603c68ed4ac79a4f850f3a7205eb3dbfc6116f2caf19a"
 [[files]]
 file = "config/bettercaves/neoforge-1_21_1/liquidregions.json"
 hash = "4cb57f82ffc75cf89eca62c93cd41df9b0d5241f2f67d118296e6650484878f1"
+
+[[files]]
+file = "config/betterend/generator.json"
+hash = "2f4b2238453936c2f818967bdacb7c6b97a22275763c058eaafe1290f99de374"
 
 [[files]]
 file = "config/bettermineshafts-neoforge-1_21.toml"
@@ -2981,8 +2985,16 @@ file = "datapacks/Regions Unexplored Worldgen Stall Workaround/pack.mcmeta"
 hash = "bba76eb2d756186bcfbe8a7b905fda6bae4ee55aadcf99a756e597a619354711"
 
 [[files]]
+file = "kubejs/assets/accessories/lang/en_us.json"
+hash = "6e8f950c7509eb05d2d5956d143625cc4b0c232685fce0caba82679d49f4237e"
+
+[[files]]
 file = "kubejs/assets/bountiful/lang/en_us.json"
 hash = "78630829ab1989328d59f835f46549fc29898a46df77bb4268e98389f92d56fc"
+
+[[files]]
+file = "kubejs/assets/curios/lang/en_us.json"
+hash = "d546b28334fce9d7dca30190dadba1edec5c285524bbca262d16494bfe648209"
 
 [[files]]
 file = "kubejs/assets/dtru/blockstates/rooty_mycotoxic_moss.json"
@@ -3513,12 +3525,24 @@ file = "kubejs/assets/liams_modpack/tips/voice_settings.json"
 hash = "528a0232c8ab7db7575f287320530b43f8c86dd22fc22a669c24bd6d831ac964"
 
 [[files]]
+file = "kubejs/data/accessories/accessories/group/chest.json"
+hash = "9baf2255d3d48d12614966f6bf3fa11ce1de8082a6c27b1a12e7064896578b69"
+
+[[files]]
+file = "kubejs/data/accessories/accessories/slot/torso.json"
+hash = "e0805734007189c493e5303f65f2f23ff00e6d8a8be9c14b57ba5b6ffb52024f"
+
+[[files]]
 file = "kubejs/data/accessories/tags/item/back.json"
 hash = "faed3e3bafb19ab754aeea69c4e4a1637cfbb126b6e7f1a0c9aaf7bade1ec174"
 
 [[files]]
 file = "kubejs/data/accessories/tags/item/cape.json"
-hash = "ecb230ba160ba6308ea1b4a78ce479ba405e391943308634cd5f9ee12595e99b"
+hash = "1d5c5de2e3cdafc4fb852ebb8b83858188c60f38a8851de6e3f1b6d39dfdd5e2"
+
+[[files]]
+file = "kubejs/data/accessories/tags/item/torso.json"
+hash = "e0653002effdd327b9ab2de6cf2253af18c027054276a98fe5efa6881192a953"
 
 [[files]]
 file = "kubejs/data/bannercapes/curios/entities/capes.json"
@@ -3530,7 +3554,15 @@ hash = "faed3e3bafb19ab754aeea69c4e4a1637cfbb126b6e7f1a0c9aaf7bade1ec174"
 
 [[files]]
 file = "kubejs/data/curios/tags/item/body.json"
-hash = "ecb230ba160ba6308ea1b4a78ce479ba405e391943308634cd5f9ee12595e99b"
+hash = "1d5c5de2e3cdafc4fb852ebb8b83858188c60f38a8851de6e3f1b6d39dfdd5e2"
+
+[[files]]
+file = "kubejs/data/curios/tags/item/torso.json"
+hash = "e0653002effdd327b9ab2de6cf2253af18c027054276a98fe5efa6881192a953"
+
+[[files]]
+file = "kubejs/data/liams_cape_compat/tags/item/body_equipment.json"
+hash = "e2e01e41418f523a44967940500d421e033154f4e7f1b11763d7402667754de8"
 
 [[files]]
 file = "kubejs/data/liams_cape_compat/tags/item/capes.json"
@@ -3547,6 +3579,14 @@ hash = "0c615d27d6e7932dab70603593b0d4b2098f06e605c17c7e8549a677ec84ef94"
 [[files]]
 file = "kubejs/data/liams_modpack/tags/item/end_membrane_plants.json"
 hash = "599c348ea0faf9add706f03deb23681fd966486366c8ec2833000e88dcfa5bc2"
+
+[[files]]
+file = "kubejs/data/luckyswardrobe/curios/entities/entities.json"
+hash = "9d19275efed9460676fbc4ddfa076a1a75d6074c59185adf5f415c39811fbf9d"
+
+[[files]]
+file = "kubejs/data/luckyswardrobe/curios/slots/torso.json"
+hash = "17bd4b9b500e694e22ff75b7b16480c1a85bc66949cad8483715611491a3eff4"
 
 [[files]]
 file = "kubejs/server_scripts/aeronautics_aether_recipes.js"
@@ -4185,6 +4225,11 @@ hash = "0004feab868f7b873c12db05aae0d0dac6c87b497490b48bb66480e7c8d0f340"
 metafile = true
 
 [[files]]
+file = "mods/hedges-bestiary.pw.toml"
+hash = "519a50fe73b647c1291feea4d6f2ce455c41184e3f033bab68e0f33cd0c732ee"
+metafile = true
+
+[[files]]
 file = "mods/hidden-names.pw.toml"
 hash = "79b1a08c2a6852ece32b04fa6ea3a892fc5f7c3af6cf75556d0b9659e41d9550"
 metafile = true
@@ -4303,6 +4348,10 @@ file = "mods/liams-aether-worldgen-fix-1.0.1.jar"
 hash = "eff2b2acf978857515ae3e79b7bb47d5a080dce97fb16750dbfcdc50710a3007"
 
 [[files]]
+file = "mods/liams-bestiary-progression-1.0.2.jar"
+hash = "ac2ab95acd32de62c5cc08886bd63d8f356c7f9147c1f89b9e526677d912b745"
+
+[[files]]
 file = "mods/liams-cape-compat-1.0.1.jar"
 hash = "2a3edc19383a95fa49fc1135a7600feac168d27caab6ba6691f07b688024f152"
 
@@ -4399,6 +4448,11 @@ hash = "0d3683a8c533e1fb67bf0b1668089a322fc5f594f9610d441657378ab4f64383"
 metafile = true
 
 [[files]]
+file = "mods/luckyowls-wardrobe.pw.toml"
+hash = "29df77bca784d60746347ada9cfb891a61fbdbf77c58867e3277057cbe5c218b"
+metafile = true
+
+[[files]]
 file = "mods/map-atlases-forge.pw.toml"
 hash = "b54addad8fd6bdd9ee141d740de8c346b1744258cb8c8ab663a61054e48e308e"
 metafile = true
@@ -4474,6 +4528,11 @@ hash = "62d7231bec1dde8ff674068adec4e8fe2e11a4667d04cfffbc9248cbb2bf685a"
 metafile = true
 
 [[files]]
+file = "mods/perception.pw.toml"
+hash = "378f188dd4dd616783418b9169e6016d5eff359a13c6debeb64c82093637e8e9"
+metafile = true
+
+[[files]]
 file = "mods/piglin-proliferation.pw.toml"
 hash = "9c2ab13ce8c32fc895073416cd80275f70645d88470d6c59ff2c3f2636e27bf4"
 metafile = true
@@ -4496,6 +4555,11 @@ metafile = true
 [[files]]
 file = "mods/prickle.pw.toml"
 hash = "c99c5bac469e8d6ece5aae80f08635e3bbb8367f0c586b6288573c725faefe69"
+metafile = true
+
+[[files]]
+file = "mods/punchymoves.pw.toml"
+hash = "3b1faf77472d8f29e2622e2dd34df0dc07f25783c26c6f47dc06210dc9e7a340"
 metafile = true
 
 [[files]]
@@ -4691,7 +4755,7 @@ metafile = true
 
 [[files]]
 file = "mods/streams-reflowing.pw.toml"
-hash = "814062f207d8837246db5699198c5381e0b094866d112e7dd20b1f83c8dd6e17"
+hash = "e435e575d164b1310c0af181e820ae8728804f85e39b1ad15539137c83d0afff"
 metafile = true
 
 [[files]]
@@ -4765,7 +4829,7 @@ metafile = true
 
 [[files]]
 file = "mods/variants-and-ventures.pw.toml"
-hash = "968071ee9dcd29fd9c5444242859a3e30715f48f7ca7378a2ff3fa7358e04cf7"
+hash = "d00c1b5dc4ccb271b2e75289b8f49be74a0d19c2fad8cb8240c2699ae4f71831"
 metafile = true
 
 [[files]]
@@ -4880,4 +4944,9 @@ metafile = true
 [[files]]
 file = "mods/zfastnoise.pw.toml"
 hash = "b24c213b8727e80ca559670e97971c735c4dc4be1d1a4bd637c41450e7654c1e"
+metafile = true
+
+[[files]]
+file = "resourcepacks/fluid-foolish.pw.toml"
+hash = "0742578d9a8f6d28ecba11fe587dea22309ee8cc5f5501a5d13ab5527e9e05f1"
 metafile = true
