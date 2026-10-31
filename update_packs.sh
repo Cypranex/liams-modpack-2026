@@ -71,6 +71,30 @@ fi
 
 echo "Skipping push for local-admin."
 
+# Update local-admin-2 from main (Local Only)
+echo -e "\n========================================"
+echo "Updating local-admin-2 (Local Only)"
+echo "========================================"
+
+git checkout local-admin-2
+
+echo "Merging main into local-admin-2..."
+git merge main --no-edit
+
+echo "Refreshing packwiz..."
+packwiz refresh
+
+git add pack.toml index.toml
+
+if ! git diff --cached --quiet; then
+    echo "Committing updated hashes..."
+    git commit -m "chore: auto-refresh packwiz after merging main"
+else
+    echo "No TOML changes detected after refresh."
+fi
+
+echo "Skipping push for local-admin-2."
+
 # Return to where you started
 echo -e "\n========================================"
 echo "Done! Returning to $ORIGINAL_BRANCH."
