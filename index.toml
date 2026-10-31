@@ -248,6 +248,11 @@ hash = "0cb5fc8c29fb99530cc20e013347558e198a686420aaf996fa03b9e23fa291dd"
 metafile = true
 
 [[files]]
+file = "config/paxi/resourcepacks/fluid-foolish.pw.toml"
+hash = "0742578d9a8f6d28ecba11fe587dea22309ee8cc5f5501a5d13ab5527e9e05f1"
+metafile = true
+
+[[files]]
 file = "config/paxi/resourcepacks/fresh-animations.pw.toml"
 hash = "542220c06477ee4ca5797b53f941de4f4128f71080298d92ad2a0fa9a8489fbb"
 metafile = true
@@ -5191,11 +5196,6 @@ metafile = true
 [[files]]
 file = "mods/zfastnoise.pw.toml"
 hash = "b24c213b8727e80ca559670e97971c735c4dc4be1d1a4bd637c41450e7654c1e"
-metafile = true
-
-[[files]]
-file = "resourcepacks/fluid-foolish.pw.toml"
-hash = "0742578d9a8f6d28ecba11fe587dea22309ee8cc5f5501a5d13ab5527e9e05f1"
 metafile = true
 
 [[files]]
