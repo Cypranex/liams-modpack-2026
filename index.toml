@@ -101,6 +101,10 @@ file = "config/fantasy_armor-common.toml"
 hash = "99c1358d4fbd80425ec5d0227cc73885e6e7496a318fd52d5982c24281684404"
 
 [[files]]
+file = "config/fieldguide-server.json"
+hash = "1ae4270ce887025965188fa698431378a43b8c8b833c2de67c85a75b0a0951f5"
+
+[[files]]
 file = "config/flimsytorches-common.toml"
 hash = "dedd7d7873a71b9a2c8679e9d15e6a076c49fc7389c9830793ba5646f014dc11"
 
@@ -115,6 +119,10 @@ hash = "125157135aaebcaf43c9b60c7d1eac9fe52292e99f3248ea75276e48742061e5"
 [[files]]
 file = "config/hybrid_aquatic.json"
 hash = "f6c8d0fa635dfec81ca6f9c894a167962719f73839859922401fed49f29dcd38"
+
+[[files]]
+file = "config/immersiveoverlays.json"
+hash = "8a69c2b8f0733135c12c50166292cc4fd800686ae1797103bce9183bf82e7fd1"
 
 [[files]]
 file = "config/incontrol/spawn.json"
@@ -207,6 +215,10 @@ hash = "93e6db1672e3a55fd77265c85a394a691a3206c7a49637fa42dc5b9853f51f86"
 [[files]]
 file = "config/paxi/resourcepack_load_order.json"
 hash = "f7b0b9a3e4c35f9360fa0ffba2d7d8dc64b30612556aed95b5d8a1ac8bfdea37"
+
+[[files]]
+file = "config/paxi/resourcepacks/Field-Guide-Mobs-Plants-Resources.zip"
+hash = "1ab5157fe6b2732a08a04dc4c07a9973f95167cffcfadf6f6d1d3814717d51a9"
 
 [[files]]
 file = "config/paxi/resourcepacks/Torches x Punchy.zip"
@@ -1499,6 +1511,46 @@ hash = "7025ccd8d40ddd2745b59aaa0e96aafb97aa324dbc369eb7040ce6e04851e2db"
 [[files]]
 file = "datapacks/Fangs and Claws Persistent Animals/pack.mcmeta"
 hash = "4d0550e3f55da32c2eed49f87a76f1eaf6d6943c0fa09f4d3056cc29abd16693"
+
+[[files]]
+file = "datapacks/Field-Guide-Mobs-Plants-Data/data/fieldguide/tags/entity_type/blacklisted.json"
+hash = "f03f0ef8f46bf33dfcf70cbaf522ad70c2df184273e94368f2df226d8b88d6bd"
+
+[[files]]
+file = "datapacks/Field-Guide-Mobs-Plants-Data/data/fieldguide/tags/entity_type/blacklisted/fieldguide/animals.json"
+hash = "aeb4f3d4038c402b10d0a426bbd4a4e9bc87496fbaf2eb29e10a230677b44b02"
+
+[[files]]
+file = "datapacks/Field-Guide-Mobs-Plants-Data/data/fieldguide/tags/entity_type/blacklisted/fieldguide/bosses.json"
+hash = "aeb4f3d4038c402b10d0a426bbd4a4e9bc87496fbaf2eb29e10a230677b44b02"
+
+[[files]]
+file = "datapacks/Field-Guide-Mobs-Plants-Data/data/fieldguide/tags/entity_type/blacklisted/fieldguide/monsters.json"
+hash = "aeb4f3d4038c402b10d0a426bbd4a4e9bc87496fbaf2eb29e10a230677b44b02"
+
+[[files]]
+file = "datapacks/Field-Guide-Mobs-Plants-Data/data/fieldguide/tags/entity_type/kill_to_unlock.json"
+hash = "77777929b9198bc2b671807d4ad091ec4bad14b0a67b33d4dbf970a9e834c70b"
+
+[[files]]
+file = "datapacks/Field-Guide-Mobs-Plants-Data/data/hedges_bestiary/fieldguide/variants/blurpum.json"
+hash = "8f44e0f09ae061c29faa5ef550442453d9e78cb8b04fcfff316194693a1121f0"
+
+[[files]]
+file = "datapacks/Field-Guide-Mobs-Plants-Data/data/liams_fieldguide/fieldguide/categories/companions.json"
+hash = "c84a5d3ed5f436704766fd8e71c76bdb06151bd35158469dae9f1e3c76b91b1f"
+
+[[files]]
+file = "datapacks/Field-Guide-Mobs-Plants-Data/data/liams_fieldguide/fieldguide/categories/flora.json"
+hash = "aa51074cd20e5f06ae64f999b968a52e9a24c28f816b3fa6166dfac52a51534c"
+
+[[files]]
+file = "datapacks/Field-Guide-Mobs-Plants-Data/data/liams_fieldguide/fieldguide/composites/plant_families.json"
+hash = "e06bf61111371d11c3ae50ddb606805ad3ffadf30c8af990457ac978be8896e8"
+
+[[files]]
+file = "datapacks/Field-Guide-Mobs-Plants-Data/pack.mcmeta"
+hash = "3cfaf4fc39d0662f3f1c245511fc45b7432b567179511caa3cf7880c43b2cdc0"
 
 [[files]]
 file = "datapacks/Full Depth Caves/data/bettercaves/worldgen/configured_carver/better_cave.json"
@@ -3990,6 +4042,11 @@ hash = "914f2efb2afa0113d5936b0e721fb5c291abb9c2e66944f33fc33be8e33c8a89"
 metafile = true
 
 [[files]]
+file = "mods/create-aeronautics-weight.pw.toml"
+hash = "7a7adadf5be0c538dff705de62ea622d0e8e235365164958cad8af2ad040ca3d"
+metafile = true
+
+[[files]]
 file = "mods/create-aeronautics.pw.toml"
 hash = "3b8895369640b2a52d3e05f7186185ba6798e44d513f11c5427a0fe9c16769e9"
 metafile = true
@@ -4218,6 +4275,11 @@ hash = "a245469cf91e7f3c8aec3b0f5ad3d79b1846ac0696543f892b426faea5f91cab"
 metafile = true
 
 [[files]]
+file = "mods/every-compat.pw.toml"
+hash = "d173124cbe77b9b97005675ba13ac2868bade78186de21ec2876a6726d5d3f81"
+metafile = true
+
+[[files]]
 file = "mods/excavated_variants.pw.toml"
 hash = "c4bc7c10328b5a2aafcb916dff29cdb3f2be812c3e6d80d921ea1cfd2f761251"
 metafile = true
@@ -4275,6 +4337,11 @@ metafile = true
 [[files]]
 file = "mods/ferrite-core.pw.toml"
 hash = "73360e397134d238ee8fd21d33fd7f9275e9441f74f8f1b6ed92278877c0b9f1"
+metafile = true
+
+[[files]]
+file = "mods/field-guide.pw.toml"
+hash = "6be3a80953cf4544cf6f486f80239f374794078bcb63c570d98ac989d5c33bf6"
 metafile = true
 
 [[files]]
@@ -4417,6 +4484,11 @@ hash = "4601b9be31b6e131dca8a148c974d015444bcac7c82fcb66fbd8751a67933a5d"
 metafile = true
 
 [[files]]
+file = "mods/immersive-overlays.pw.toml"
+hash = "70ad4b137babadccbdbfe5c2d64e56c56aece891a4074aa745d4f9227b099663"
+metafile = true
+
+[[files]]
 file = "mods/improved-village-placement.pw.toml"
 hash = "d4643e7fd8fd1227500f19e6011b33b10ef09a543adccd790345f91f3d3fcff8"
 metafile = true
@@ -4478,6 +4550,11 @@ metafile = true
 [[files]]
 file = "mods/isskjs.pw.toml"
 hash = "57db227711481c9b6fbc89a5ea04f2810c9f27035baa7f33437a80a94ae9609f"
+metafile = true
+
+[[files]]
+file = "mods/item-descriptions.pw.toml"
+hash = "e5347f876614ddeaff10c2e7417f946ac5ef56c56acf7838d166d1cd5a8d9d1c"
 metafile = true
 
 [[files]]
@@ -4966,6 +5043,11 @@ hash = "5e91e5aea16a60450da6df9c5cdb056ae5f2d25967fcc8b16c7ccb3a7403b7c9"
 metafile = true
 
 [[files]]
+file = "mods/spawn-mod.pw.toml"
+hash = "51421cfbef7ed7f78ffb7925cfd3e713a8beb8bbd174975b9b745c1e0cc083b2"
+metafile = true
+
+[[files]]
 file = "mods/spelunkers-charm-ii.pw.toml"
 hash = "ae881540ee35e2fc22284891e44d3ae313ba22baafab8962087fdbf00d0da4f2"
 metafile = true
@@ -5008,6 +5090,11 @@ metafile = true
 [[files]]
 file = "mods/supplementaries.pw.toml"
 hash = "c7e7206384e1d5ab7caecc643dda50dae1886312e0aeca5aaef8852bb6b11b4e"
+metafile = true
+
+[[files]]
+file = "mods/teallib.pw.toml"
+hash = "99f89e803723e4684bff03fe6bf7c1dae431e198ed50ef06f624d0d6397568ab"
 metafile = true
 
 [[files]]
