@@ -1,0 +1,11 @@
+{
+  "version": 5,
+  "enabled": false,
+  "biome_enable": false,
+  "clock_enable": false,
+  "compass_enable": false,
+  "moon_enable": false,
+  "temperature_enable": false,
+  "speed_enable": false,
+  "wind_enable": false
+}
