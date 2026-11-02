@@ -1,0 +1,22 @@
+{
+  "entries": [
+    {
+      "id": "hedges_bestiary:blurpum",
+      "replace": false,
+      "variants": [
+        {
+          "id": "freshwater",
+          "nbt": "{Variant:0}"
+        },
+        {
+          "id": "coastal",
+          "nbt": "{Variant:1}"
+        },
+        {
+          "id": "cold",
+          "nbt": "{Variant:2}"
+        }
+      ]
+    }
+  ]
+}

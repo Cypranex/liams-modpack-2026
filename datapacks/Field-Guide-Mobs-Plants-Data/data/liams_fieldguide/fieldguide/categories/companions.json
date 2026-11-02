@@ -1,0 +1,19 @@
+{
+  "replace": false,
+  "sort_index": 21,
+  "icon": "minecraft:textures/item/compass_00.png",
+  "contents": [
+    {
+      "type": "entry",
+      "id": "entity:endermanoverhaul/pet_enderman"
+    },
+    {
+      "type": "entry",
+      "id": "entity:endermanoverhaul/axolotl_pet_enderman"
+    },
+    {
+      "type": "entry",
+      "id": "entity:endermanoverhaul/hammerhead_pet_enderman"
+    }
+  ]
+}

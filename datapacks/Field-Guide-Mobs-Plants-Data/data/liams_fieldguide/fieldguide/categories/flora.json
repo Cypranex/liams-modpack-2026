@@ -1,0 +1,239 @@
+{
+  "replace": false,
+  "sort_index": 21,
+  "icon": "minecraft:textures/item/compass_00.png",
+  "contents": [
+    {
+      "type": "entry",
+      "id": "block:betterend/murkweed"
+    },
+    {
+      "type": "entry",
+      "id": "block:betterend/needlegrass"
+    },
+    {
+      "type": "entry",
+      "id": "block:betterend/lumecorn"
+    },
+    {
+      "type": "entry",
+      "id": "block:betterend/shadow_berry"
+    },
+    {
+      "type": "entry",
+      "id": "block:betternether/egg_plant"
+    },
+    {
+      "type": "entry",
+      "id": "block:betternether/hook_mushroom"
+    },
+    {
+      "type": "entry",
+      "id": "block:betternether/magma_flower"
+    },
+    {
+      "type": "entry",
+      "id": "block:betternether/orange_mushroom"
+    },
+    {
+      "type": "entry",
+      "id": "block:betternether/golden_vine"
+    },
+    {
+      "type": "entry",
+      "id": "block:betternether/gloomwisp_vine"
+    },
+    {
+      "type": "entry",
+      "id": "block:betternether/whispering_gourd_vine"
+    },
+    {
+      "type": "entry",
+      "id": "block:betternether/lumabus_vine"
+    },
+    {
+      "type": "entry",
+      "id": "block:betternether/soul_lily"
+    },
+    {
+      "type": "entry",
+      "id": "block:betterend/hydralux"
+    },
+    {
+      "type": "entry",
+      "id": "block:betterend/end_lily"
+    },
+    {
+      "type": "entry",
+      "id": "block:betterend/end_lotus_flower"
+    },
+    {
+      "type": "entry",
+      "id": "block:betterend/blue_vine"
+    },
+    {
+      "type": "entry",
+      "id": "block:betterend/lanceleaf"
+    },
+    {
+      "type": "entry",
+      "id": "block:betterend/bulb_vine"
+    },
+    {
+      "type": "entry",
+      "id": "block:betterend/silk_moth_nest"
+    },
+    {
+      "type": "entry",
+      "id": "block:yungscavebiomes/prickly_vines"
+    },
+    {
+      "type": "entry",
+      "id": "block:regions_unexplored/dropleaf"
+    },
+    {
+      "type": "entry",
+      "id": "block:endersdelight/amberveil_mushroom"
+    },
+    {
+      "type": "entry",
+      "id": "block:betternether/black_vine"
+    },
+    {
+      "type": "entry",
+      "id": "block:betterend/aeridium"
+    },
+    {
+      "type": "entry",
+      "id": "block:betterend/bulb_moss"
+    },
+    {
+      "type": "entry",
+      "id": "block:betterend/charnia_cyan"
+    },
+    {
+      "type": "entry",
+      "id": "block:betterend/dense_vine"
+    },
+    {
+      "type": "entry",
+      "id": "block:betterend/umbrella_moss"
+    },
+    {
+      "type": "entry",
+      "id": "block:betterend/creeping_moss"
+    },
+    {
+      "type": "entry",
+      "id": "block:betterend/crystal_moss_cover"
+    },
+    {
+      "type": "entry",
+      "id": "block:betterend/bolux_mushroom"
+    },
+    {
+      "type": "entry",
+      "id": "block:betterend/flamaea"
+    },
+    {
+      "type": "entry",
+      "id": "block:betterend/flammalix"
+    },
+    {
+      "type": "entry",
+      "id": "block:betterend/amber_root_seed"
+    },
+    {
+      "type": "entry",
+      "id": "block:betterend/blossom_berry_seed"
+    },
+    {
+      "type": "entry",
+      "id": "block:betterend/chorus_mushroom_seed"
+    },
+    {
+      "type": "entry",
+      "id": "block:betternether/agave"
+    },
+    {
+      "type": "entry",
+      "id": "block:betternether/barrel_cactus"
+    },
+    {
+      "type": "entry",
+      "id": "block:betternether/black_apple"
+    },
+    {
+      "type": "entry",
+      "id": "block:betternether/ink_bush"
+    },
+    {
+      "type": "entry",
+      "id": "block:betternether/black_bush"
+    },
+    {
+      "type": "entry",
+      "id": "block:betternether/soul_vein"
+    },
+    {
+      "type": "entry",
+      "id": "block:betternether/feather_fern"
+    },
+    {
+      "type": "entry",
+      "id": "block:betternether/nether_grass"
+    },
+    {
+      "type": "entry",
+      "id": "block:betternether/wall_moss"
+    },
+    {
+      "type": "entry",
+      "id": "block:betternether/eye_vine"
+    },
+    {
+      "type": "entry",
+      "id": "block:betternether/neon_equisetum"
+    },
+    {
+      "type": "entry",
+      "id": "block:hybrid_aquatic/bull_kelp"
+    },
+    {
+      "type": "entry",
+      "id": "block:regions_unexplored/glistering_ivy"
+    },
+    {
+      "type": "entry",
+      "id": "block:upgrade_aquatic/pickerelweed"
+    },
+    {
+      "type": "entry",
+      "id": "block:betterend/bubble_coral"
+    },
+    {
+      "type": "entry",
+      "id": "block:betterend/pond_anemone"
+    },
+    {
+      "type": "entry",
+      "id": "block:betterend/small_amaranita_mushroom"
+    },
+    {
+      "type": "entry",
+      "id": "block:betterend/small_jellyshroom"
+    },
+    {
+      "type": "entry",
+      "id": "block:betternether/red_mold"
+    },
+    {
+      "type": "entry",
+      "id": "block:betternether/moss_cover"
+    },
+    {
+      "type": "entry",
+      "id": "block:betternether/wart_seed"
+    }
+  ]
+}

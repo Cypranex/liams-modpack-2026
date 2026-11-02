@@ -1,0 +1,1155 @@
+{
+  "values": [
+    {
+      "id": "betterend:lumecorn",
+      "display": "betterend:lumecorn",
+      "components": [
+        "betterend:lumecorn",
+        "betterend:lumecorn_seed"
+      ],
+      "visual_variants": [
+        {
+          "variant_id": "lumecorn",
+          "display_name": "Lumecorn",
+          "block": "betterend:lumecorn",
+          "components": [
+            "betterend:lumecorn"
+          ]
+        },
+        {
+          "variant_id": "lumecorn_seed",
+          "display_name": "Lumecorn Seed",
+          "block": "betterend:lumecorn_seed",
+          "components": [
+            "betterend:lumecorn_seed"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "betternether:lumabus_vine",
+      "display": "betternether:lumabus_vine",
+      "components": [
+        "betternether:lumabus_vine",
+        "betternether:golden_lumabus_vine",
+        "betternether:lumabus_seed",
+        "betternether:golden_lumabus_seed"
+      ],
+      "visual_variants": [
+        {
+          "variant_id": "lumabus_vine",
+          "display_name": "Lumabus Vine",
+          "block": "betternether:lumabus_vine",
+          "components": [
+            "betternether:lumabus_vine"
+          ]
+        },
+        {
+          "variant_id": "golden_lumabus_vine",
+          "display_name": "Golden Lumabus Vine",
+          "block": "betternether:golden_lumabus_vine",
+          "components": [
+            "betternether:golden_lumabus_vine"
+          ]
+        },
+        {
+          "variant_id": "lumabus_seed",
+          "display_name": "Lumabus Seed",
+          "block": "betternether:lumabus_seed",
+          "components": [
+            "betternether:lumabus_seed"
+          ]
+        },
+        {
+          "variant_id": "golden_lumabus_seed",
+          "display_name": "Golden Lumabus Seed",
+          "block": "betternether:golden_lumabus_seed",
+          "components": [
+            "betternether:golden_lumabus_seed"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "betternether:soul_lily",
+      "display": "betternether:soul_lily",
+      "components": [
+        "betternether:soul_lily",
+        "betternether:soul_lily_sapling"
+      ],
+      "visual_variants": [
+        {
+          "variant_id": "soul_lily",
+          "display_name": "Soul Lily",
+          "block": "betternether:soul_lily",
+          "components": [
+            "betternether:soul_lily"
+          ]
+        },
+        {
+          "variant_id": "soul_lily_sapling",
+          "display_name": "Soul Lily Sapling",
+          "block": "betternether:soul_lily_sapling",
+          "components": [
+            "betternether:soul_lily_sapling"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "betterend:hydralux",
+      "display": "betterend:hydralux",
+      "components": [
+        "betterend:hydralux",
+        "betterend:hydralux_sapling"
+      ],
+      "visual_variants": [
+        {
+          "variant_id": "hydralux",
+          "display_name": "Hydralux",
+          "block": "betterend:hydralux",
+          "components": [
+            "betterend:hydralux"
+          ]
+        },
+        {
+          "variant_id": "hydralux_sapling",
+          "display_name": "Hydralux Sapling",
+          "block": "betterend:hydralux_sapling",
+          "components": [
+            "betterend:hydralux_sapling"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "betterend:end_lily",
+      "display": "betterend:end_lily",
+      "components": [
+        "betterend:end_lily",
+        "betterend:end_lily_seed"
+      ],
+      "visual_variants": [
+        {
+          "variant_id": "end_lily",
+          "display_name": "End Lily",
+          "block": "betterend:end_lily",
+          "components": [
+            "betterend:end_lily"
+          ]
+        },
+        {
+          "variant_id": "end_lily_seed",
+          "display_name": "End Lily Seed",
+          "block": "betterend:end_lily_seed",
+          "components": [
+            "betterend:end_lily_seed"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "betterend:end_lotus_flower",
+      "display": "betterend:end_lotus_flower",
+      "components": [
+        "betterend:end_lotus_flower",
+        "betterend:end_lotus_stem",
+        "betterend:end_lotus_leaf",
+        "betterend:end_lotus_seed"
+      ],
+      "visual_variants": [
+        {
+          "variant_id": "end_lotus_flower",
+          "display_name": "Endlotus Flower",
+          "block": "betterend:end_lotus_flower",
+          "components": [
+            "betterend:end_lotus_flower"
+          ]
+        },
+        {
+          "variant_id": "end_lotus_stem",
+          "display_name": "Endlotus Stem",
+          "block": "betterend:end_lotus_stem",
+          "components": [
+            "betterend:end_lotus_stem"
+          ]
+        },
+        {
+          "variant_id": "end_lotus_leaf",
+          "display_name": "Endlotus Leaf",
+          "block": "betterend:end_lotus_leaf",
+          "components": [
+            "betterend:end_lotus_leaf"
+          ]
+        },
+        {
+          "variant_id": "end_lotus_seed",
+          "display_name": "Endlotus Seed",
+          "block": "betterend:end_lotus_seed",
+          "components": [
+            "betterend:end_lotus_seed"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "betterend:blue_vine",
+      "display": "betterend:blue_vine",
+      "components": [
+        "betterend:blue_vine",
+        "betterend:blue_vine_seed",
+        "betterend:blue_vine_lantern",
+        "betterend:blue_vine_fur"
+      ],
+      "visual_variants": [
+        {
+          "variant_id": "blue_vine",
+          "display_name": "Blue Vine",
+          "block": "betterend:blue_vine",
+          "components": [
+            "betterend:blue_vine"
+          ]
+        },
+        {
+          "variant_id": "blue_vine_seed",
+          "display_name": "Blue Vine Seed",
+          "block": "betterend:blue_vine_seed",
+          "components": [
+            "betterend:blue_vine_seed"
+          ]
+        },
+        {
+          "variant_id": "blue_vine_lantern",
+          "display_name": "Blue Vine Lantern",
+          "block": "betterend:blue_vine_lantern",
+          "components": [
+            "betterend:blue_vine_lantern"
+          ]
+        },
+        {
+          "variant_id": "blue_vine_fur",
+          "display_name": "Blue Vine Fur",
+          "block": "betterend:blue_vine_fur",
+          "components": [
+            "betterend:blue_vine_fur"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "betterend:lanceleaf",
+      "display": "betterend:lanceleaf",
+      "components": [
+        "betterend:lanceleaf",
+        "betterend:lanceleaf_seed"
+      ],
+      "visual_variants": [
+        {
+          "variant_id": "lanceleaf",
+          "display_name": "Lanceleaf",
+          "block": "betterend:lanceleaf",
+          "components": [
+            "betterend:lanceleaf"
+          ]
+        },
+        {
+          "variant_id": "lanceleaf_seed",
+          "display_name": "Lanceleaf Seed",
+          "block": "betterend:lanceleaf_seed",
+          "components": [
+            "betterend:lanceleaf_seed"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "betterend:bulb_vine",
+      "display": "betterend:bulb_vine",
+      "components": [
+        "betterend:bulb_vine",
+        "betterend:bulb_vine_seed"
+      ],
+      "visual_variants": [
+        {
+          "variant_id": "bulb_vine",
+          "display_name": "Bulb Vine",
+          "block": "betterend:bulb_vine",
+          "components": [
+            "betterend:bulb_vine"
+          ]
+        },
+        {
+          "variant_id": "bulb_vine_seed",
+          "display_name": "Bulb Vine Seed",
+          "block": "betterend:bulb_vine_seed",
+          "components": [
+            "betterend:bulb_vine_seed"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "betterend:silk_moth_nest",
+      "display": "betterend:silk_moth_nest",
+      "components": [
+        "betterend:silk_moth_nest",
+        "betterend:silk_moth_hive"
+      ],
+      "visual_variants": [
+        {
+          "variant_id": "silk_moth_nest",
+          "display_name": "Silk Moth Nest",
+          "block": "betterend:silk_moth_nest",
+          "components": [
+            "betterend:silk_moth_nest"
+          ]
+        },
+        {
+          "variant_id": "silk_moth_hive",
+          "display_name": "Silk Moth Hive",
+          "block": "betterend:silk_moth_hive",
+          "components": [
+            "betterend:silk_moth_hive"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "yungscavebiomes:prickly_vines",
+      "display": "yungscavebiomes:prickly_vines",
+      "components": [
+        "yungscavebiomes:prickly_vines",
+        "yungscavebiomes:prickly_vines_plant"
+      ],
+      "visual_variants": [
+        {
+          "variant_id": "prickly_vines",
+          "display_name": "Prickly Vines",
+          "block": "yungscavebiomes:prickly_vines",
+          "components": [
+            "yungscavebiomes:prickly_vines"
+          ]
+        },
+        {
+          "variant_id": "prickly_vines_plant",
+          "display_name": "Prickly Vines Plant",
+          "block": "yungscavebiomes:prickly_vines_plant",
+          "components": [
+            "yungscavebiomes:prickly_vines_plant"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "regions_unexplored:dropleaf",
+      "display": "regions_unexplored:dropleaf",
+      "components": [
+        "regions_unexplored:dropleaf",
+        "regions_unexplored:dropleaf_plant"
+      ],
+      "visual_variants": [
+        {
+          "variant_id": "dropleaf",
+          "display_name": "Dropleaf",
+          "block": "regions_unexplored:dropleaf",
+          "components": [
+            "regions_unexplored:dropleaf"
+          ]
+        },
+        {
+          "variant_id": "dropleaf_plant",
+          "display_name": "Dropleaf",
+          "block": "regions_unexplored:dropleaf_plant",
+          "components": [
+            "regions_unexplored:dropleaf_plant"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "betternether:black_vine",
+      "display": "betternether:black_vine",
+      "components": [
+        "betternether:black_vine",
+        "betternether:blooming_vine",
+        "betternether:gloomsculk_vine"
+      ],
+      "visual_variants": [
+        {
+          "variant_id": "black_vine",
+          "display_name": "Black Vine",
+          "block": "betternether:black_vine",
+          "components": [
+            "betternether:black_vine"
+          ]
+        },
+        {
+          "variant_id": "blooming_vine",
+          "display_name": "Blooming Vine",
+          "block": "betternether:blooming_vine",
+          "components": [
+            "betternether:blooming_vine"
+          ]
+        },
+        {
+          "variant_id": "gloomsculk_vine",
+          "display_name": "Gloomsculk Vine",
+          "block": "betternether:gloomsculk_vine",
+          "components": [
+            "betternether:gloomsculk_vine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "betterend:aeridium",
+      "display": "betterend:aeridium",
+      "components": [
+        "betterend:aeridium",
+        "betterend:amber_grass",
+        "betterend:blooming_cooksonia",
+        "betterend:bushy_grass",
+        "betterend:chorus_grass",
+        "betterend:clawfern",
+        "betterend:crystal_grass",
+        "betterend:fracturn",
+        "betterend:globulagus",
+        "betterend:inflexia",
+        "betterend:jungle_grass",
+        "betterend:lamellarium",
+        "betterend:lutebus",
+        "betterend:orango",
+        "betterend:salteago",
+        "betterend:shadow_plant",
+        "betterend:vaiolush_fern"
+      ],
+      "visual_variants": [
+        {
+          "variant_id": "aeridium",
+          "display_name": "Aeridium",
+          "block": "betterend:aeridium",
+          "components": [
+            "betterend:aeridium"
+          ]
+        },
+        {
+          "variant_id": "amber_grass",
+          "display_name": "Amber Grass",
+          "block": "betterend:amber_grass",
+          "components": [
+            "betterend:amber_grass"
+          ]
+        },
+        {
+          "variant_id": "blooming_cooksonia",
+          "display_name": "Blooming Cooksonia",
+          "block": "betterend:blooming_cooksonia",
+          "components": [
+            "betterend:blooming_cooksonia"
+          ]
+        },
+        {
+          "variant_id": "bushy_grass",
+          "display_name": "Bushy Grass",
+          "block": "betterend:bushy_grass",
+          "components": [
+            "betterend:bushy_grass"
+          ]
+        },
+        {
+          "variant_id": "chorus_grass",
+          "display_name": "Chorus Grass",
+          "block": "betterend:chorus_grass",
+          "components": [
+            "betterend:chorus_grass"
+          ]
+        },
+        {
+          "variant_id": "clawfern",
+          "display_name": "Clawfern",
+          "block": "betterend:clawfern",
+          "components": [
+            "betterend:clawfern"
+          ]
+        },
+        {
+          "variant_id": "crystal_grass",
+          "display_name": "Crystal Grass",
+          "block": "betterend:crystal_grass",
+          "components": [
+            "betterend:crystal_grass"
+          ]
+        },
+        {
+          "variant_id": "fracturn",
+          "display_name": "Fracturn",
+          "block": "betterend:fracturn",
+          "components": [
+            "betterend:fracturn"
+          ]
+        },
+        {
+          "variant_id": "globulagus",
+          "display_name": "Globulagus",
+          "block": "betterend:globulagus",
+          "components": [
+            "betterend:globulagus"
+          ]
+        },
+        {
+          "variant_id": "inflexia",
+          "display_name": "Inflexia",
+          "block": "betterend:inflexia",
+          "components": [
+            "betterend:inflexia"
+          ]
+        },
+        {
+          "variant_id": "jungle_grass",
+          "display_name": "Jungle Grass",
+          "block": "betterend:jungle_grass",
+          "components": [
+            "betterend:jungle_grass"
+          ]
+        },
+        {
+          "variant_id": "lamellarium",
+          "display_name": "Lamellarium",
+          "block": "betterend:lamellarium",
+          "components": [
+            "betterend:lamellarium"
+          ]
+        },
+        {
+          "variant_id": "lutebus",
+          "display_name": "Lutebus",
+          "block": "betterend:lutebus",
+          "components": [
+            "betterend:lutebus"
+          ]
+        },
+        {
+          "variant_id": "orango",
+          "display_name": "Orango",
+          "block": "betterend:orango",
+          "components": [
+            "betterend:orango"
+          ]
+        },
+        {
+          "variant_id": "salteago",
+          "display_name": "Salteago",
+          "block": "betterend:salteago",
+          "components": [
+            "betterend:salteago"
+          ]
+        },
+        {
+          "variant_id": "shadow_plant",
+          "display_name": "Shadow Plant",
+          "block": "betterend:shadow_plant",
+          "components": [
+            "betterend:shadow_plant"
+          ]
+        },
+        {
+          "variant_id": "vaiolush_fern",
+          "display_name": "Vaiolush Fern",
+          "block": "betterend:vaiolush_fern",
+          "components": [
+            "betterend:vaiolush_fern"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "betterend:bulb_moss",
+      "display": "betterend:bulb_moss",
+      "components": [
+        "betterend:bulb_moss",
+        "betterend:cyan_moss",
+        "betterend:jungle_fern",
+        "betterend:ruscus",
+        "betterend:tail_moss",
+        "betterend:twisted_moss"
+      ],
+      "visual_variants": [
+        {
+          "variant_id": "bulb_moss",
+          "display_name": "Bulb Moss",
+          "block": "betterend:bulb_moss",
+          "components": [
+            "betterend:bulb_moss"
+          ]
+        },
+        {
+          "variant_id": "cyan_moss",
+          "display_name": "Cyan Moss",
+          "block": "betterend:cyan_moss",
+          "components": [
+            "betterend:cyan_moss"
+          ]
+        },
+        {
+          "variant_id": "jungle_fern",
+          "display_name": "Jungle Fern",
+          "block": "betterend:jungle_fern",
+          "components": [
+            "betterend:jungle_fern"
+          ]
+        },
+        {
+          "variant_id": "ruscus",
+          "display_name": "Ruscus",
+          "block": "betterend:ruscus",
+          "components": [
+            "betterend:ruscus"
+          ]
+        },
+        {
+          "variant_id": "tail_moss",
+          "display_name": "Tail Moss",
+          "block": "betterend:tail_moss",
+          "components": [
+            "betterend:tail_moss"
+          ]
+        },
+        {
+          "variant_id": "twisted_moss",
+          "display_name": "Twisted Moss",
+          "block": "betterend:twisted_moss",
+          "components": [
+            "betterend:twisted_moss"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "betterend:charnia_cyan",
+      "display": "betterend:charnia_cyan",
+      "components": [
+        "betterend:charnia_cyan",
+        "betterend:charnia_green",
+        "betterend:charnia_light_blue",
+        "betterend:charnia_orange",
+        "betterend:charnia_purple",
+        "betterend:charnia_red"
+      ],
+      "visual_variants": [
+        {
+          "variant_id": "charnia_cyan",
+          "display_name": "Cyan Charnia",
+          "block": "betterend:charnia_cyan",
+          "components": [
+            "betterend:charnia_cyan"
+          ]
+        },
+        {
+          "variant_id": "charnia_green",
+          "display_name": "Green Charnia",
+          "block": "betterend:charnia_green",
+          "components": [
+            "betterend:charnia_green"
+          ]
+        },
+        {
+          "variant_id": "charnia_light_blue",
+          "display_name": "Light Blue Charnia",
+          "block": "betterend:charnia_light_blue",
+          "components": [
+            "betterend:charnia_light_blue"
+          ]
+        },
+        {
+          "variant_id": "charnia_orange",
+          "display_name": "Orange Charnia",
+          "block": "betterend:charnia_orange",
+          "components": [
+            "betterend:charnia_orange"
+          ]
+        },
+        {
+          "variant_id": "charnia_purple",
+          "display_name": "Purple Charnia",
+          "block": "betterend:charnia_purple",
+          "components": [
+            "betterend:charnia_purple"
+          ]
+        },
+        {
+          "variant_id": "charnia_red",
+          "display_name": "Red Charnia",
+          "block": "betterend:charnia_red",
+          "components": [
+            "betterend:charnia_red"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "betterend:dense_vine",
+      "display": "betterend:dense_vine",
+      "components": [
+        "betterend:dense_vine",
+        "betterend:jungle_vine",
+        "betterend:twisted_vine"
+      ],
+      "visual_variants": [
+        {
+          "variant_id": "dense_vine",
+          "display_name": "Dense Vine",
+          "block": "betterend:dense_vine",
+          "components": [
+            "betterend:dense_vine"
+          ]
+        },
+        {
+          "variant_id": "jungle_vine",
+          "display_name": "Jungle Vine",
+          "block": "betterend:jungle_vine",
+          "components": [
+            "betterend:jungle_vine"
+          ]
+        },
+        {
+          "variant_id": "twisted_vine",
+          "display_name": "Twisted Vine",
+          "block": "betterend:twisted_vine",
+          "components": [
+            "betterend:twisted_vine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "betterend:umbrella_moss",
+      "display": "betterend:umbrella_moss",
+      "components": [
+        "betterend:umbrella_moss",
+        "betterend:umbrella_moss_tall",
+        "betterend:twisted_umbrella_moss",
+        "betterend:twisted_umbrella_moss_tall"
+      ],
+      "visual_variants": [
+        {
+          "variant_id": "umbrella_moss",
+          "display_name": "Umbrella Moss",
+          "block": "betterend:umbrella_moss",
+          "components": [
+            "betterend:umbrella_moss"
+          ]
+        },
+        {
+          "variant_id": "umbrella_moss_tall",
+          "display_name": "Tall Umbrella Moss",
+          "block": "betterend:umbrella_moss_tall",
+          "components": [
+            "betterend:umbrella_moss_tall"
+          ]
+        },
+        {
+          "variant_id": "twisted_umbrella_moss",
+          "display_name": "Twisted Umbrella Moss",
+          "block": "betterend:twisted_umbrella_moss",
+          "components": [
+            "betterend:twisted_umbrella_moss"
+          ]
+        },
+        {
+          "variant_id": "twisted_umbrella_moss_tall",
+          "display_name": "Twisted Umbrella Moss Tall",
+          "block": "betterend:twisted_umbrella_moss_tall",
+          "components": [
+            "betterend:twisted_umbrella_moss_tall"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "betternether:black_apple",
+      "display": "betternether:black_apple",
+      "components": [
+        "betternether:black_apple",
+        "betternether:black_apple_seed"
+      ],
+      "visual_variants": [
+        {
+          "variant_id": "black_apple",
+          "display_name": "Black Apple Bush",
+          "block": "betternether:black_apple",
+          "components": [
+            "betternether:black_apple"
+          ]
+        },
+        {
+          "variant_id": "black_apple_seed",
+          "display_name": "Black Apple Seed",
+          "block": "betternether:black_apple_seed",
+          "components": [
+            "betternether:black_apple_seed"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "betternether:ink_bush",
+      "display": "betternether:ink_bush",
+      "components": [
+        "betternether:ink_bush",
+        "betternether:ink_bush_seed"
+      ],
+      "visual_variants": [
+        {
+          "variant_id": "ink_bush",
+          "display_name": "Ink Bush",
+          "block": "betternether:ink_bush",
+          "components": [
+            "betternether:ink_bush"
+          ]
+        },
+        {
+          "variant_id": "ink_bush_seed",
+          "display_name": "Ink Bush Seed",
+          "block": "betternether:ink_bush_seed",
+          "components": [
+            "betternether:ink_bush_seed"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "betternether:nether_grass",
+      "display": "betternether:nether_grass",
+      "components": [
+        "betternether:nether_grass",
+        "betternether:bone_grass",
+        "betternether:sepia_bone_grass",
+        "betternether:soul_grass",
+        "betternether:swamp_grass",
+        "betternether:gloomgrass",
+        "betternether:pale_gloomgrass",
+        "betternether:jungle_moss"
+      ],
+      "visual_variants": [
+        {
+          "variant_id": "nether_grass",
+          "display_name": "Nether Grass",
+          "block": "betternether:nether_grass",
+          "components": [
+            "betternether:nether_grass"
+          ]
+        },
+        {
+          "variant_id": "bone_grass",
+          "display_name": "Bone Grass",
+          "block": "betternether:bone_grass",
+          "components": [
+            "betternether:bone_grass"
+          ]
+        },
+        {
+          "variant_id": "sepia_bone_grass",
+          "display_name": "Sepian Bone Grass",
+          "block": "betternether:sepia_bone_grass",
+          "components": [
+            "betternether:sepia_bone_grass"
+          ]
+        },
+        {
+          "variant_id": "soul_grass",
+          "display_name": "Soul Grass",
+          "block": "betternether:soul_grass",
+          "components": [
+            "betternether:soul_grass"
+          ]
+        },
+        {
+          "variant_id": "swamp_grass",
+          "display_name": "Swamp Grass",
+          "block": "betternether:swamp_grass",
+          "components": [
+            "betternether:swamp_grass"
+          ]
+        },
+        {
+          "variant_id": "gloomgrass",
+          "display_name": "Gloomgrass",
+          "block": "betternether:gloomgrass",
+          "components": [
+            "betternether:gloomgrass"
+          ]
+        },
+        {
+          "variant_id": "pale_gloomgrass",
+          "display_name": "Pale Gloomgrass",
+          "block": "betternether:pale_gloomgrass",
+          "components": [
+            "betternether:pale_gloomgrass"
+          ]
+        },
+        {
+          "variant_id": "jungle_moss",
+          "display_name": "Jungle Moss",
+          "block": "betternether:jungle_moss",
+          "components": [
+            "betternether:jungle_moss"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "betternether:wall_moss",
+      "display": "betternether:wall_moss",
+      "components": [
+        "betternether:wall_moss",
+        "betternether:wall_mushroom_brown",
+        "betternether:wall_mushroom_red"
+      ],
+      "visual_variants": [
+        {
+          "variant_id": "wall_moss",
+          "display_name": "Wall Moss",
+          "block": "betternether:wall_moss",
+          "components": [
+            "betternether:wall_moss"
+          ]
+        },
+        {
+          "variant_id": "wall_mushroom_brown",
+          "display_name": "Wall Brown Mushroom",
+          "block": "betternether:wall_mushroom_brown",
+          "components": [
+            "betternether:wall_mushroom_brown"
+          ]
+        },
+        {
+          "variant_id": "wall_mushroom_red",
+          "display_name": "Wall Red Mushroom",
+          "block": "betternether:wall_mushroom_red",
+          "components": [
+            "betternether:wall_mushroom_red"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "betternether:eye_vine",
+      "display": "betternether:eye_vine",
+      "components": [
+        "betternether:eye_vine",
+        "betternether:eye_seed"
+      ],
+      "visual_variants": [
+        {
+          "variant_id": "eye_vine",
+          "display_name": "Eye Vine",
+          "block": "betternether:eye_vine",
+          "components": [
+            "betternether:eye_vine"
+          ]
+        },
+        {
+          "variant_id": "eye_seed",
+          "display_name": "Eye Seed",
+          "block": "betternether:eye_seed",
+          "components": [
+            "betternether:eye_seed"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hybrid_aquatic:bull_kelp",
+      "display": "hybrid_aquatic:bull_kelp",
+      "components": [
+        "hybrid_aquatic:bull_kelp",
+        "hybrid_aquatic:bull_kelp_plant",
+        "hybrid_aquatic:delesseria",
+        "hybrid_aquatic:delesseria_plant",
+        "hybrid_aquatic:sargassum",
+        "hybrid_aquatic:sargassum_plant"
+      ],
+      "visual_variants": [
+        {
+          "variant_id": "bull_kelp",
+          "display_name": "Bull Kelp",
+          "block": "hybrid_aquatic:bull_kelp",
+          "components": [
+            "hybrid_aquatic:bull_kelp"
+          ]
+        },
+        {
+          "variant_id": "bull_kelp_plant",
+          "display_name": "Bull Kelp Plant",
+          "block": "hybrid_aquatic:bull_kelp_plant",
+          "components": [
+            "hybrid_aquatic:bull_kelp_plant"
+          ]
+        },
+        {
+          "variant_id": "delesseria",
+          "display_name": "Delesseria",
+          "block": "hybrid_aquatic:delesseria",
+          "components": [
+            "hybrid_aquatic:delesseria"
+          ]
+        },
+        {
+          "variant_id": "delesseria_plant",
+          "display_name": "Delesseria Plant",
+          "block": "hybrid_aquatic:delesseria_plant",
+          "components": [
+            "hybrid_aquatic:delesseria_plant"
+          ]
+        },
+        {
+          "variant_id": "sargassum",
+          "display_name": "Sargassum",
+          "block": "hybrid_aquatic:sargassum",
+          "components": [
+            "hybrid_aquatic:sargassum"
+          ]
+        },
+        {
+          "variant_id": "sargassum_plant",
+          "display_name": "Sargassum Plant",
+          "block": "hybrid_aquatic:sargassum_plant",
+          "components": [
+            "hybrid_aquatic:sargassum_plant"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "regions_unexplored:glistering_ivy",
+      "display": "regions_unexplored:glistering_ivy",
+      "components": [
+        "regions_unexplored:glistering_ivy",
+        "regions_unexplored:glistering_ivy_plant",
+        "regions_unexplored:hanging_earlight",
+        "regions_unexplored:hanging_earlight_plant"
+      ],
+      "visual_variants": [
+        {
+          "variant_id": "glistering_ivy",
+          "display_name": "Glistering Ivy",
+          "block": "regions_unexplored:glistering_ivy",
+          "components": [
+            "regions_unexplored:glistering_ivy"
+          ]
+        },
+        {
+          "variant_id": "glistering_ivy_plant",
+          "display_name": "Glistering Ivy",
+          "block": "regions_unexplored:glistering_ivy_plant",
+          "components": [
+            "regions_unexplored:glistering_ivy_plant"
+          ]
+        },
+        {
+          "variant_id": "hanging_earlight",
+          "display_name": "Hanging Earlight Fruit",
+          "block": "regions_unexplored:hanging_earlight",
+          "components": [
+            "regions_unexplored:hanging_earlight"
+          ]
+        },
+        {
+          "variant_id": "hanging_earlight_plant",
+          "display_name": "Hanging Earlight Plant",
+          "block": "regions_unexplored:hanging_earlight_plant",
+          "components": [
+            "regions_unexplored:hanging_earlight_plant"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "upgrade_aquatic:pickerelweed",
+      "display": "upgrade_aquatic:pickerelweed",
+      "components": [
+        "upgrade_aquatic:pickerelweed",
+        "upgrade_aquatic:tall_pickerelweed"
+      ],
+      "visual_variants": [
+        {
+          "variant_id": "pickerelweed",
+          "display_name": "Pickerelweed",
+          "block": "upgrade_aquatic:pickerelweed",
+          "components": [
+            "upgrade_aquatic:pickerelweed"
+          ]
+        },
+        {
+          "variant_id": "tall_pickerelweed",
+          "display_name": "Tall Pickerelweed",
+          "block": "upgrade_aquatic:tall_pickerelweed",
+          "components": [
+            "upgrade_aquatic:tall_pickerelweed"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "betterend:small_amaranita_mushroom",
+      "display": "betterend:small_amaranita_mushroom",
+      "components": [
+        "betterend:small_amaranita_mushroom",
+        "betterend:large_amaranita_mushroom",
+        "betterend:amaranita_fur"
+      ],
+      "visual_variants": [
+        {
+          "variant_id": "small_amaranita_mushroom",
+          "display_name": "Small Amaranita Mushroom",
+          "block": "betterend:small_amaranita_mushroom",
+          "components": [
+            "betterend:small_amaranita_mushroom"
+          ]
+        },
+        {
+          "variant_id": "large_amaranita_mushroom",
+          "display_name": "Large Amaranita Mushroom",
+          "block": "betterend:large_amaranita_mushroom",
+          "components": [
+            "betterend:large_amaranita_mushroom"
+          ]
+        },
+        {
+          "variant_id": "amaranita_fur",
+          "display_name": "Amaranita Fur",
+          "block": "betterend:amaranita_fur",
+          "components": [
+            "betterend:amaranita_fur"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "betternether:red_mold",
+      "display": "betternether:red_mold",
+      "components": [
+        "betternether:red_mold",
+        "betternether:gray_mold"
+      ],
+      "visual_variants": [
+        {
+          "variant_id": "red_mold",
+          "display_name": "Red Mold",
+          "block": "betternether:red_mold",
+          "components": [
+            "betternether:red_mold"
+          ]
+        },
+        {
+          "variant_id": "gray_mold",
+          "display_name": "Gray Mold",
+          "block": "betternether:gray_mold",
+          "components": [
+            "betternether:gray_mold"
+          ]
+        }
+      ]
+    }
+  ]
+}
