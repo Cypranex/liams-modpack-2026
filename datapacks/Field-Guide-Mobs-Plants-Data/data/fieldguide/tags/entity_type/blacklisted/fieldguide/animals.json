@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "endermanoverhaul:pet_enderman",
+    "endermanoverhaul:axolotl_pet_enderman",
+    "endermanoverhaul:hammerhead_pet_enderman"
+  ]
+}
