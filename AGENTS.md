@@ -276,3 +276,29 @@ and land species retain native rates. Recheck the injection/call sites when
 Minecraft, NeoForge or Bestiary changes; never replace this with per-entity
 denial, which fragments schools. Native seeded selection and follower tests
 are part of both companion verification profiles.
+
+## Fowl Play wildlife population (required)
+
+`mods/liams-fowl-population-1.0.1.jar` is built from
+`/home/liam/Projects/minecraft-mods/fowlplay-population`, pinned to Fowl Play
+1.2.3 and Minecraft 1.21.1 / NeoForge 21.1.264+. It enables native distance/idle
+despawning for unprotected wild ducks/geese and rejects whole natural flock
+attempts when 24 combined wild birds are within a 64-block sphere. Accepted
+flocks finish, so this is a spawning threshold, not a hard entity cap. Config:
+`liams_fowl_population-common.toml`. Other birds, breeding and non-natural
+spawn sources retain their native spawning; Respawning Animals is unchanged.
+
+Preserve named, trusted, domestic, clipped, leashed, persistent/riding birds and
+breeding protection. Kept signals and new breeding parents/offspring acquire
+saved native persistence. Old birds with no spawn reason or kept flags cannot
+be distinguished from wildlife; do not promise old breeding provenance can be
+reconstructed. Enclosures alone are not protection. Do not migrate real saves
+or perform blanket flock removal as routine deployment.
+
+When updating Fowl Play/Minecraft/NeoForge or spawning mods, review both required
+Mixins (BirdEntity distance eligibility and NaturalSpawner flock selection),
+native saved spawn reasons and breeding/kept flags. Run `build.py` and both
+`verify.py` profiles (with/without `--with-respawning-animals`), require
+`FOWL_POPULATION_PASS`, review tips/loot resource scope, and deploy only the
+production jar. Tests run in disposable worlds; long-term/full-pack population
+and client performance still need gameplay observation. Restart client/server.
