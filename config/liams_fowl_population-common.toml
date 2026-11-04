@@ -1,0 +1,6 @@
+# Reject new natural duck/goose flocks at this combined local wild population.
+# Accepted flocks finish normally; this is a spawning threshold, not a hard cap.
+wildFlockThreshold = 24
+
+# Count loaded wild birds within this spherical radius, in blocks.
+wildFlockRadius = 64
