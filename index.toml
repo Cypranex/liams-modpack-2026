@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "AGENTS.md"
-hash = "9fbec10bb957767128c22fae3e49f3621df0249c5418ea04a68f69315b59d796"
+hash = "222155f8697a59bec239232079dc3dba58febdf0fdd2d05c761285e7592fda5b"
 
 [[files]]
 file = "config/aether-common.toml"
@@ -143,6 +143,10 @@ hash = "53e0862056da0a54afb157bbae0b9b5fc25718dd14b63be9b426878b9cb1f21a"
 [[files]]
 file = "config/jade/plugins.json"
 hash = "1e8434164f00f7524b4fb931c2552c317164e2617bda75904c02cc874552962d"
+
+[[files]]
+file = "config/liams_fowl_population-common.toml"
+hash = "6828fb6fe7aceab00a9653c7b3663fc33eaafb4315e38df3223206d304d5ab64"
 
 [[files]]
 file = "config/liams_ragdoll_revival-common.toml"
@@ -4620,6 +4624,10 @@ hash = "0abf90fc3cfb13acf7f1550d67a2c99b69698b300c30b02ae1c94ba6f89d3649"
 [[files]]
 file = "mods/liams-dungeon-crawl-compat-1.0.0.jar"
 hash = "dc6eb7afde7f07301d5ce0a071a3371171c3f5b62197aea80cfef485f5573a43"
+
+[[files]]
+file = "mods/liams-fowl-population-1.0.1.jar"
+hash = "8d1385f2b68438f450fc12890ed097a8d31f4b8910308f7b43c5aa301fdce17e"
 
 [[files]]
 file = "mods/liams-native-ore-placement-1.0.1.jar"
