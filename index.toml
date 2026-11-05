@@ -360,6 +360,10 @@ file = "config/simplytooltips/config.toml"
 hash = "8d841088fcf91c96c3c4bff112f604961129c55687906fa0e8fd3968cc45002a"
 
 [[files]]
+file = "config/simulated-server.toml"
+hash = "0a2180d6042fdf19bc295b7890d23d297ba2253c0c95b21d54fb14de4c54fef4"
+
+[[files]]
 file = "config/sound_physics_remastered/soundphysics.properties"
 hash = "92c20ef5a34d83e4df6c35bce72e69abb5721e4010a2e99d2274ec46ffdd5df5"
 
@@ -3744,8 +3748,8 @@ file = "kubejs/server_scripts/remove_chipped_torches.js"
 hash = "99571c19fc8cd469d46fcd02bbb634dc788e949cd2403470a4767ab96b5aca36"
 
 [[files]]
-file = "kubejs/server_scripts/remove_portable_engines_and_deep_seas.js"
-hash = "80333426b8f08a67c0c0d0ffc3589a33a14dbf4b892d1eebee97214b76f65d72"
+file = "kubejs/server_scripts/remove_deep_seas.js"
+hash = "fbba37f5ffe28779bdf00a29e138eff2fff5992de67798182bc551cdceb814f9"
 
 [[files]]
 file = "kubejs/server_scripts/startup_commands.js"
@@ -3792,6 +3796,11 @@ metafile = true
 [[files]]
 file = "mods/aether-emissivity.pw.toml"
 hash = "71b37e848b677dccc17c05a6a68a0a52f45d055a9f1e168d277946569bbb8a36"
+metafile = true
+
+[[files]]
+file = "mods/aether-protect-your-moa.pw.toml"
+hash = "68843d86fd6914e4d4766575fb3f63e37fe8b40153539f0c219439980d40fe07"
 metafile = true
 
 [[files]]
@@ -3847,6 +3856,11 @@ metafile = true
 [[files]]
 file = "mods/atlas-lib.pw.toml"
 hash = "57d314558add15212267a2a73439def174a8d8179e3cbd6abf8926f23fbca2e5"
+metafile = true
+
+[[files]]
+file = "mods/azimuth-api.pw.toml"
+hash = "a14aa30b199bcc4fb3b382327be7cabb22ce03d8e780f68c3b8307136f0589d7"
 metafile = true
 
 [[files]]
@@ -4027,6 +4041,11 @@ hash = "fb35a3daacc36dd8186f9e5aa5336bafe6c1c5813e6248fc5dfb076e3c24cb5c"
 metafile = true
 
 [[files]]
+file = "mods/create-aeronautics-burner-fuel.pw.toml"
+hash = "90f8323031d6bbb7f764562c68783014a7dfd177b0f7a8c6a9c512f9d74516b6"
+metafile = true
+
+[[files]]
 file = "mods/create-aeronautics-climbable-rope.pw.toml"
 hash = "914f2efb2afa0113d5936b0e721fb5c291abb9c2e66944f33fc33be8e33c8a89"
 metafile = true
@@ -4049,6 +4068,11 @@ metafile = true
 [[files]]
 file = "mods/create-big-cannons.pw.toml"
 hash = "a0e9ff95570cd9af3374ca8b44aa095447baf94e565f46ae99819d52a9b48dc1"
+metafile = true
+
+[[files]]
+file = "mods/create-bits-n-bobs.pw.toml"
+hash = "2aa588c0760e81c40fae4df29e14643ddb19d40474bf177206a8f687e70b953e"
 metafile = true
 
 [[files]]
@@ -4456,6 +4480,11 @@ metafile = true
 [[files]]
 file = "mods/immersive-overlays.pw.toml"
 hash = "70ad4b137babadccbdbfe5c2d64e56c56aece891a4074aa745d4f9227b099663"
+metafile = true
+
+[[files]]
+file = "mods/immersive-portals-aeronautics.pw.toml"
+hash = "53f6db77e194bf2369039cb8d6dd3983ddf8b3a80a300d38a0ba68807c5c9224"
 metafile = true
 
 [[files]]
@@ -5034,6 +5063,11 @@ metafile = true
 [[files]]
 file = "mods/structure-layout-optimizer.pw.toml"
 hash = "20d767f7f803fd43e7b539046878bf97a27458595a1beff0b28002aca1b671de"
+metafile = true
+
+[[files]]
+file = "mods/strut-your-stuff.pw.toml"
+hash = "aa89e067824ca42d818a81a6d02ce5296ce662d834c35dd2ff0d81189d3bc3f9"
 metafile = true
 
 [[files]]
