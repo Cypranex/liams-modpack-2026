@@ -369,6 +369,10 @@ file = "config/simplytooltips/config.toml"
 hash = "8d841088fcf91c96c3c4bff112f604961129c55687906fa0e8fd3968cc45002a"
 
 [[files]]
+file = "config/simulated-server.toml"
+hash = "0a2180d6042fdf19bc295b7890d23d297ba2253c0c95b21d54fb14de4c54fef4"
+
+[[files]]
 file = "config/sound_physics_remastered/soundphysics.properties"
 hash = "92c20ef5a34d83e4df6c35bce72e69abb5721e4010a2e99d2274ec46ffdd5df5"
 
@@ -3753,8 +3757,8 @@ file = "kubejs/server_scripts/remove_chipped_torches.js"
 hash = "99571c19fc8cd469d46fcd02bbb634dc788e949cd2403470a4767ab96b5aca36"
 
 [[files]]
-file = "kubejs/server_scripts/remove_portable_engines_and_deep_seas.js"
-hash = "80333426b8f08a67c0c0d0ffc3589a33a14dbf4b892d1eebee97214b76f65d72"
+file = "kubejs/server_scripts/remove_deep_seas.js"
+hash = "fbba37f5ffe28779bdf00a29e138eff2fff5992de67798182bc551cdceb814f9"
 
 [[files]]
 file = "kubejs/server_scripts/startup_commands.js"
@@ -3816,6 +3820,11 @@ metafile = true
 [[files]]
 file = "mods/amendments.pw.toml"
 hash = "aef2b0ee3884d9da84c099557f8f7529f965513d269d450f1f9f8e8cc78b5a47"
+metafile = true
+
+[[files]]
+file = "mods/amplified-nether.pw.toml"
+hash = "9efd2467725934e660f256346950d4e10ca44f034475ce8909a29fe0790dd5cc"
 metafile = true
 
 [[files]]
