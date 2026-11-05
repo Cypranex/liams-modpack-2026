@@ -3810,6 +3810,11 @@ hash = "aef2b0ee3884d9da84c099557f8f7529f965513d269d450f1f9f8e8cc78b5a47"
 metafile = true
 
 [[files]]
+file = "mods/amplified-nether.pw.toml"
+hash = "9efd2467725934e660f256346950d4e10ca44f034475ce8909a29fe0790dd5cc"
+metafile = true
+
+[[files]]
 file = "mods/apothic-attributes.pw.toml"
 hash = "8f5f05a72596ecc0dd11be483785c8a521e987dc2fe6d2fef212c2a382a0c779"
 metafile = true
