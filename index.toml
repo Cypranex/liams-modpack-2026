@@ -121,6 +121,10 @@ file = "config/hybrid_aquatic.json"
 hash = "f6c8d0fa635dfec81ca6f9c894a167962719f73839859922401fed49f29dcd38"
 
 [[files]]
+file = "config/immersive_portals.json"
+hash = "bb10534559bccc451e63486823c95f9ea10399269198b07a31c22774fe4f1985"
+
+[[files]]
 file = "config/immersiveoverlays.json"
 hash = "8a69c2b8f0733135c12c50166292cc4fd800686ae1797103bce9183bf82e7fd1"
 
