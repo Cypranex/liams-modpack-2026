@@ -25,6 +25,10 @@ file = "config/apothic_attributes.cfg"
 hash = "ad5b8d5ca9e8562b3dcc5cc07bad7d27dc4ecb45b4c78b24c53f8e36798d7357"
 
 [[files]]
+file = "config/badoptimizations.txt"
+hash = "56f0393026cb58df5584d874992b515e8d553c80805e45f8c4318cd6585a08b5"
+
+[[files]]
 file = "config/better_mob_combat_reimagined-server.toml"
 hash = "d2950f32141d5f30f6af89ca42bf84f45b942d20028fe14ff8a3282795c06b35"
 
