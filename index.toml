@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "AGENTS.md"
-hash = "222155f8697a59bec239232079dc3dba58febdf0fdd2d05c761285e7592fda5b"
+hash = "46b6e14c8f1a37a14e29f1b471cf2bed0601c6bfa34912f63d9fe7c073598ffd"
 
 [[files]]
 file = "config/aether-common.toml"
@@ -23,6 +23,10 @@ hash = "7c343c56880dbcb47a6252d1d9a7d11036cb0c2d608f36bfdc21fa46cd1b5e01"
 [[files]]
 file = "config/apothic_attributes.cfg"
 hash = "ad5b8d5ca9e8562b3dcc5cc07bad7d27dc4ecb45b4c78b24c53f8e36798d7357"
+
+[[files]]
+file = "config/badoptimizations.txt"
+hash = "56f0393026cb58df5584d874992b515e8d553c80805e45f8c4318cd6585a08b5"
 
 [[files]]
 file = "config/better_mob_combat_reimagined-server.toml"
@@ -122,7 +126,7 @@ hash = "f6c8d0fa635dfec81ca6f9c894a167962719f73839859922401fed49f29dcd38"
 
 [[files]]
 file = "config/immersive_portals.json"
-hash = "bb10534559bccc451e63486823c95f9ea10399269198b07a31c22774fe4f1985"
+hash = "35b5968cba1cb9f1d5bb7d8a124322467872b390445f820e92a267c2edfef51f"
 
 [[files]]
 file = "config/immersiveoverlays.json"
@@ -190,7 +194,7 @@ hash = "c290c6e92552cc7d6f6cea79bddd131bd87c4d5011b1053d5d4422f096a1e5e0"
 
 [[files]]
 file = "config/notenoughanimations.json"
-hash = "b4857fc5663509f73d2423dc9903e75c4d1eef1ce838c3210fe15a7332ebb0a6"
+hash = "7e5a49f8f25ea81b85ee24d996a4490b850f67cd6bbe50a1a6d311a89ddd4d69"
 
 [[files]]
 file = "config/obscuria/aquamirae-client.toml"
@@ -230,7 +234,7 @@ hash = "1ab5157fe6b2732a08a04dc4c07a9973f95167cffcfadf6f6d1d3814717d51a9"
 
 [[files]]
 file = "config/paxi/resourcepacks/Torches x Punchy.zip"
-hash = "d0905986b555584a95267ebae49fac9a73dca78f297945480cde28c27c8dc7eb"
+hash = "bbff1d9febe8e093cbab86475cbebb5da35b791919ac0e4a4c541572416baa31"
 
 [[files]]
 file = "config/paxi/resourcepacks/aether-regenerated.pw.toml"
@@ -244,7 +248,7 @@ metafile = true
 
 [[files]]
 file = "config/paxi/resourcepacks/beautiful-enchanted-books.pw.toml"
-hash = "f95fcabcaee7588dcebbced4017083a1633afefc04c8c1612a0d7ac335d28d54"
+hash = "c8a94015fbce94323bd0bfabab9ba432901f25f6c7e7d9f75662695b24611663"
 metafile = true
 
 [[files]]
@@ -254,7 +258,7 @@ metafile = true
 
 [[files]]
 file = "config/paxi/resourcepacks/drigo-3d-lanterns-x-punchy.pw.toml"
-hash = "b76db6ae5b94ad509c10165373bd1e98220b4fd5bb838eddcad700a1bae5fea4"
+hash = "c5db495f6fc7e5cac8256ef612f4db8d9c817e0701b1e836b4cd5d57141b038a"
 metafile = true
 
 [[files]]
@@ -269,12 +273,12 @@ metafile = true
 
 [[files]]
 file = "config/paxi/resourcepacks/fluid-foolish.pw.toml"
-hash = "0742578d9a8f6d28ecba11fe587dea22309ee8cc5f5501a5d13ab5527e9e05f1"
+hash = "193dc1f1a904c02de3e74d9d8a17cc3524563c7e19fc57e0c3d05ceaa4489085"
 metafile = true
 
 [[files]]
 file = "config/paxi/resourcepacks/fresh-animations.pw.toml"
-hash = "542220c06477ee4ca5797b53f941de4f4128f71080298d92ad2a0fa9a8489fbb"
+hash = "6a489b37b949921beffb24adb91d6f572c4ee82668b7dc15b8aaedd767476aad"
 metafile = true
 
 [[files]]
@@ -522,15 +526,27 @@ hash = "90afbf3b0eed4b0ee5636c324438c7372e5c493dd2e2e25fd726621ca0211e7c"
 
 [[files]]
 file = "datapacks/CTOV Village Terrain Placement/README.md"
-hash = "216299c5a13996573fb098bc69559d8d0ceb9eec78fccf1fa455015d9a40a11a"
+hash = "80901ed64cca278dc2b65acd882638f6236dd9be47c7551b090ac8dcbd89003b"
+
+[[files]]
+file = "datapacks/CTOV Village Terrain Placement/data/ivp/tags/worldgen/structure/standard_village.json"
+hash = "2831c7c77a851ac215fb8725b6084327ddde17f9fb7429cfd042c2ccddb72aeb"
 
 [[files]]
 file = "datapacks/CTOV Village Terrain Placement/data/liams_village_placement/lithostitched/worldgen_modifier/ctov_medium_village.json"
-hash = "03de5c4d8094024d9f914205f0c59732e1a9ac7e6804c6186fa53caaa57b81e7"
+hash = "c4597156fa8ebc5874cbedab32a5b8546f14ff8e18e0f22cad174d303ce70f4c"
 
 [[files]]
 file = "datapacks/CTOV Village Terrain Placement/data/liams_village_placement/lithostitched/worldgen_modifier/ctov_small_village.json"
-hash = "8e99cebb788bcfcea6289da57ef0e74f5fef93cb0b6499ed0840050fd731ff6a"
+hash = "b6ba49e4a0b220e049016018b5a38ff402bd4883ebb2af460eedc0965cfc7377"
+
+[[files]]
+file = "datapacks/CTOV Village Terrain Placement/data/liams_village_placement/tags/worldgen/structure/medium_surface_villages.json"
+hash = "b26be13047f8231609f1951f4e5e8a62ceb2fed25817278d447bc37ac258d076"
+
+[[files]]
+file = "datapacks/CTOV Village Terrain Placement/data/liams_village_placement/tags/worldgen/structure/small_surface_villages.json"
+hash = "06aa724ffa68d59b1029e850ad182c45029ac486b7daa0d7b7d3978582f7e6dc"
 
 [[files]]
 file = "datapacks/CTOV Village Terrain Placement/pack.mcmeta"
@@ -914,7 +930,7 @@ hash = "987cd6e308c13f5aa6d01b704e0d4d01b5b72be9878febdc36ab40da7fc226d7"
 
 [[files]]
 file = "datapacks/Exploration Loot Balance/README.md"
-hash = "a79a4ee7033448f23bcf43248b6e5581d3a8775c3e59d39c07767639ae443d92"
+hash = "ed9dd0ef3c74f5fb83898491807deab439fbe92631e7a1b20d05522e2d0762ba"
 
 [[files]]
 file = "datapacks/Exploration Loot Balance/RESTORE-PITY-PLAN.md"
@@ -926,11 +942,11 @@ hash = "9641489a35a6cf836dbb56ba8ea423d8897a6e4f670c5dffc0665303e48c7caa"
 
 [[files]]
 file = "datapacks/Exploration Loot Balance/archaeology-crystals.json"
-hash = "cbdb39234a0a8044511a50980cc95af5f70ad92ba51e2bff7d8a5bc3020eecd1"
+hash = "b58026c20275beb043af974277ac96091fa7937e103f6c293c1fb7ddf33cadab"
 
 [[files]]
 file = "datapacks/Exploration Loot Balance/coverage-inventory.json"
-hash = "415a899b35dfb7853c72e8ff2e19ad40dab59d4f2ce3dbd877604f1910c78269"
+hash = "18f34107c8e551c891cce1300d6fb12d4e435d4d037159f36524cdb8374a1fc8"
 
 [[files]]
 file = "datapacks/Exploration Loot Balance/data/irons_spellbooks/loot_modifiers/chest_loot/vanilla_generic_loot_modifier.json"
@@ -1510,7 +1526,7 @@ hash = "df7fd0a27cdd2ade21156b0548fcd1cce564b80f277fa7a53ed7b2b20046996b"
 
 [[files]]
 file = "datapacks/Exploration Loot Balance/pack.mcmeta"
-hash = "8a92e9a8828555b721ab4f9bbd01abe5592afb60734813ce249d4853b20a0694"
+hash = "81e29da14afeb326d8775a55733b6ecc92ca8ab995afecf99ca15b1d9490a644"
 
 [[files]]
 file = "datapacks/Exploration Loot Balance/tuning-reference.json"
@@ -3178,7 +3194,7 @@ hash = "fb14fa144d9264e5ff77700911c044d13d933071fa50d45b9c655da30a5279e0"
 
 [[files]]
 file = "kubejs/assets/liams_modpack/lang/en_us.json"
-hash = "fe7e65376e20a4f97e946a72b93bfebffe5347c28b8281cc4f9960906d553072"
+hash = "a6635effbcc4cad46ab6d5eb7771cc1d7445f89fca16be60af8adc4bd5a0c5f9"
 
 [[files]]
 file = "kubejs/assets/liams_modpack/tips/access_auto_jump.json"
@@ -3319,18 +3335,6 @@ hash = "223a374e0b6a59bdf2de8b3ed58c51f44c7ccac2527740d29ed005e14029c32f"
 [[files]]
 file = "kubejs/assets/liams_modpack/tips/building_wood_posts.json"
 hash = "725c9c131fc37cc289890d8a66822b14798e203e108df0b5d331e5dc46ec8328"
-
-[[files]]
-file = "kubejs/assets/liams_modpack/tips/chat_local.json"
-hash = "e7aa1b74b2b5690df17cce73e80294c047859aafc87224e46b031ec0bcc12ce3"
-
-[[files]]
-file = "kubejs/assets/liams_modpack/tips/chat_private_disabled.json"
-hash = "3e3cad66046c7c8f5656ff17ef88389ba09477dfb93af350267532c349a070d0"
-
-[[files]]
-file = "kubejs/assets/liams_modpack/tips/chat_shout.json"
-hash = "d11b2653c55d22b0a7da0e279ad7237f8541b56869d77364276f3b7f4c1a1491"
 
 [[files]]
 file = "kubejs/assets/liams_modpack/tips/comfort_background_fps.json"
@@ -3798,7 +3802,7 @@ metafile = true
 
 [[files]]
 file = "mods/aero-player-tilt.pw.toml"
-hash = "312c08eff851cfd9388563ad1a97394e4fb4f4b0ea37ade0f0159405a3b373cd"
+hash = "747f69b631257e931f443324cccf57234d8d022cd9dda9b9eff88e78315169d9"
 metafile = true
 
 [[files]]
@@ -3828,7 +3832,7 @@ metafile = true
 
 [[files]]
 file = "mods/amendments.pw.toml"
-hash = "aef2b0ee3884d9da84c099557f8f7529f965513d269d450f1f9f8e8cc78b5a47"
+hash = "d6c2790cc195eb3620ef71248c0f30b747eb654b24e55ada7eb35af531594c5e"
 metafile = true
 
 [[files]]
@@ -3878,7 +3882,7 @@ metafile = true
 
 [[files]]
 file = "mods/azurelib.pw.toml"
-hash = "0ff3d654e1621eab0a51da1a5337ed4cf7229e824cc16b5bd051571130ccfcef"
+hash = "a34cb879da54e767b65a35fce4b10f7215667acbe2fd68fdd9cecb819f0de696"
 metafile = true
 
 [[files]]
@@ -3892,7 +3896,7 @@ metafile = true
 
 [[files]]
 file = "mods/balm.pw.toml"
-hash = "603cdc47142b5aa5729cbbf265a473574c9e2b55561de4318e9842d3d4b3b995"
+hash = "fc8954e0d3fa66b917d2c84ee04d07b073a9eb6f719d09e1ff85527c1d61a10e"
 metafile = true
 
 [[files]]
@@ -4005,7 +4009,7 @@ metafile = true
 
 [[files]]
 file = "mods/chalk-mod.pw.toml"
-hash = "c6b9662ee5f41840989a380ec14b648ec0c1cc138d1d035cef42a9f65d6b886f"
+hash = "1d15653f184f09a0baeb343bd722e305aae882b64728cc5ede2e5be08fcebc20"
 metafile = true
 
 [[files]]
@@ -4085,7 +4089,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-big-cannons-going-ballistic.pw.toml"
-hash = "e019f511fcc01921e7e13f70017b48e41728a2f04369e9c270e02c2cacb384cb"
+hash = "0b12883f11dbbe00992317ce0c867e9f9c63d5b5141fb34dc61cc0a34deb56ea"
 metafile = true
 
 [[files]]
@@ -4100,7 +4104,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-deep-seas.pw.toml"
-hash = "8df62ca27c56728bdb6bd69b2c82d13535f042ceef5a97bbfd039da0f4169245"
+hash = "0da26360c1416e697090468c3cca1b7f0398117fd993c5b9f7a7808ba344a99d"
 metafile = true
 
 [[files]]
@@ -4125,7 +4129,7 @@ metafile = true
 
 [[files]]
 file = "mods/ct-overhaul-village.pw.toml"
-hash = "8e63fec28c22201636bd56f0170e9b85e26b558c4ec7215e068f53d3518dc5bb"
+hash = "c5fca9eb7028486e6d9f71823077465e22946031968f8cc0ede491d317978394"
 metafile = true
 
 [[files]]
@@ -4223,7 +4227,7 @@ metafile = true
 
 [[files]]
 file = "mods/ecliptic-seasons.pw.toml"
-hash = "b49ab0d46097d30505f37d68ae16550dea60a4919654d44c88dd88a7c437a491"
+hash = "219ce86e84ed73a0fbafb6e732095e3a09dd2ea5f06a6efb1fbbfdb8b517f56e"
 metafile = true
 
 [[files]]
@@ -4278,12 +4282,12 @@ metafile = true
 
 [[files]]
 file = "mods/enhanced-celestials-2-core.pw.toml"
-hash = "092c2fe392d74839d1210f7c5ecf90de3f7c230cc3f5ca064cf284b29ec97f30"
+hash = "d8f6c0e0e7c3477ce3f193f7e6cf6e1512b1bb3239c119b3cc0866f18ac6a16c"
 metafile = true
 
 [[files]]
 file = "mods/enhanced-celestials-2-default-lunar-events.pw.toml"
-hash = "70f586b80beb657a8676b1147b1b96c4abd0aa421c819aa138038e082c41bc4d"
+hash = "631b478954b07af5f974eac7a56bb7fb9cea2454fda79a1d3b8cfff0f5db27cf"
 metafile = true
 
 [[files]]
@@ -4303,7 +4307,7 @@ metafile = true
 
 [[files]]
 file = "mods/entitytexturefeatures.pw.toml"
-hash = "37ae0fc372cc387710fb7cb525f79a405e88f9e88786f83c1e0834e127997d35"
+hash = "ed1b9c3018ec4e6afbaafd1544138a4f11bc211683ecf9c5d28b42553f60e8c7"
 metafile = true
 
 [[files]]
@@ -4338,7 +4342,7 @@ metafile = true
 
 [[files]]
 file = "mods/fantasy_armor.pw.toml"
-hash = "e67ed3a1cd8d3b4d683ace2baa4388113a97ef35861cfc37be77d5736f4cb804"
+hash = "da74d85c947e483070c162df79ef618d577c8985af8f25dd25d222d5c8974fc3"
 metafile = true
 
 [[files]]
@@ -4397,8 +4401,8 @@ hash = "6abe817055500bb4aa1fc810d953fdd9a02908ced68791716388ace7e361c111"
 metafile = true
 
 [[files]]
-file = "mods/flimsy-wall-lanterns-1.0.6.jar"
-hash = "eb79aef87eda583d45924c7c930b9431eba31050e7bb60f4bf1c76654f176939"
+file = "mods/flimsy-wall-lanterns-1.0.7.jar"
+hash = "23733c6b5ef94e5bcf661de2a956eacd949e70ec6b2bb04e1a1385b326b81a0c"
 
 [[files]]
 file = "mods/formations-nether.pw.toml"
@@ -4596,7 +4600,7 @@ metafile = true
 
 [[files]]
 file = "mods/item-descriptions.pw.toml"
-hash = "e5347f876614ddeaff10c2e7417f946ac5ef56c56acf7838d166d1cd5a8d9d1c"
+hash = "449b6cd2fb278ccd881e5781c782bb01aeaf11025e79030943a5554a4e3eba6c"
 metafile = true
 
 [[files]]
@@ -4621,7 +4625,7 @@ metafile = true
 
 [[files]]
 file = "mods/kubejs.pw.toml"
-hash = "7e0eca275f27b6543f06c36dec433851a956960cbedd2be57d19e159d636bfc1"
+hash = "be9f3f981dd69822b4a3e5ab6fd677ec69a4e01dcf66c62e239b6ef65f31f0fd"
 metafile = true
 
 [[files]]
@@ -4680,8 +4684,8 @@ file = "mods/liams-spelunkers-charm-compat-1.0.0.jar"
 hash = "27d0807223539c736cd6ee0f8fea3d5ba3eb9d04c525c3d2141c988b895039e4"
 
 [[files]]
-file = "mods/liams-torch-compat-1.0.4.jar"
-hash = "03288f5eb633e562f71c6bc897a93827a4a233153fbf71f9179777322f62017c"
+file = "mods/liams-torch-compat-1.0.5.jar"
+hash = "e278e9c19bf59e4937a1718843df583e8abb3e9143fd9fbff4a2e70a5c91ea18"
 
 [[files]]
 file = "mods/libjf.pw.toml"
@@ -4769,12 +4773,12 @@ metafile = true
 
 [[files]]
 file = "mods/moonlight.pw.toml"
-hash = "709bfedec583aee1370ad11210b75a454b1e3f10c0a1da7fe25abd1c28a8681d"
+hash = "e3003f83463910a682f3ea1c419f850fed7bc2c6ff4831144db11228b98e2fb4"
 metafile = true
 
 [[files]]
 file = "mods/moreculling.pw.toml"
-hash = "d6183e3e5f6f98aa2dc8dec2491ca2a4802262007f75781ef449296f7d9671ba"
+hash = "e484cc8f8f03940addbb053b09e9efd2804785d95240719b81393942eb3883d3"
 metafile = true
 
 [[files]]
@@ -4809,7 +4813,7 @@ metafile = true
 
 [[files]]
 file = "mods/not-enough-animations.pw.toml"
-hash = "e0f1cef5482844e62c6fc3c7771fc9ef8385c47092248f76aa1fa271220b24e8"
+hash = "fd84fcf376910b659fdfbcc2401aa545400b0d7c65834eb2fe22bae3a3c921c2"
 metafile = true
 
 [[files]]
@@ -4889,12 +4893,12 @@ metafile = true
 
 [[files]]
 file = "mods/punchy-fpa.pw.toml"
-hash = "73735b60043cd9b34562e58c604a323896d4da3d26ebe1f79e1ee289df50b547"
+hash = "5eb2da392fda896ac20e0eeb83d96a154e8714af836d07a45c7c43633239205f"
 metafile = true
 
 [[files]]
 file = "mods/punchymoves.pw.toml"
-hash = "3b1faf77472d8f29e2622e2dd34df0dc07f25783c26c6f47dc06210dc9e7a340"
+hash = "f549af41ac3d9dc5803077e2e6ff8e457d3f030da4be24835e347629f65e1d2e"
 metafile = true
 
 [[files]]
@@ -4923,6 +4927,10 @@ hash = "14fdd320b04c57a571d98a595272d5a4a01f14877091b435bcfd022ddc4ffcf3"
 [[files]]
 file = "mods/ragdoll-pearl-fix-1.0.0.jar"
 hash = "d5082eaed247023b9f7cdadd0dab261277f79e3485a763b83b8867fc35cb5545"
+
+[[files]]
+file = "mods/ragdoll-portal-compat-1.0.0.jar"
+hash = "a8ac4422d899fce55c820be52d07cff54bee35461609a7fd08efebaa17664411"
 
 [[files]]
 file = "mods/ragdoll-reactions.pw.toml"
@@ -5105,7 +5113,7 @@ metafile = true
 
 [[files]]
 file = "mods/ssrd.pw.toml"
-hash = "4a4c0c54b3b38ac660b9c06d8dc8e51ed3e2efc6dd94ad3e807a48146a420873"
+hash = "902b9f7cae33327dfb12e7a2dd454b20625644ce3c760d21b985e75e18a57e7c"
 metafile = true
 
 [[files]]
