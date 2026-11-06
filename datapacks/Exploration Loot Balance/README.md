@@ -264,3 +264,34 @@ AGENTS.md require coverage/rate/input reviews on mod additions/removals/updates.
 Development evidence is `docs/archaeology-crystals-2026-10-27/`; prior weight-1
 results remain historical under `docs/archaeology-crystals-2026-10-26/`.
 Restart client/server after deploying; new unopened loot rolls use the new rate.
+
+## CTOV/dependency maintenance — 2026-11-05
+
+Reviewed CTOV 3.6.4 and the updated installed jars. Reward profiles, native pool
+edits, stage gates, quantities, unique eligibility and 2% archaeology are
+unchanged. The coverage ledger now records the current unique NBT templates;
+legacy CTOV references no longer present are marked historical. New optional
+More Villagers/Village Taverns sources remain excluded while providers are
+absent; Spawn retains its native ant-mound sources without generic additions.
+
+CTOV's corrected assignments increase potential containers reaching the existing
+sparse profiles. A native 36-layout census (12 each small/medium/large across
+plains/beach/mountain) counted 33–79 / 46–121 / 61–162 potential raw template
+containers; mean unconditional authored bonus selections were 12.90 / 18.87 /
+25.35 per player. These are selected-template estimates before processor/physical
+placement effects, not observed generated-chest counts or world occurrence.
+They exclude native loot, Luck and conditional authored pools. Independent Lootr
+players multiply rewards. Existing modest supply/utility policy is retained;
+there is no automatic valuable equipment/unique route in these villages.
+
+Seven exact inactive Wares warehouse resources are filtered by pack.mcmeta:
+CTOV moved them into the active loot_table directory but retained removed
+set_nbt functions. Wares is absent. All other CTOV/compatibility loot stays in
+place. The development checker fingerprints those originals and refuses a Wares
+installation until this decision is reviewed; do not blanket-filter namespaces.
+
+Final sand/gravel NBT/processor/procedural/native-Remolder review finds the same
+21 tables and 268 unassigned blocks. Native first-stack 2% rates, clean component
+patches, fallback contributions and ordinary-chest exclusion pass with updated
+inputs. The source inventory was refreshed after reviewing exact originals.
+Current evidence: modpack-development/docs/mod-update-fixes-2026-11-05/.

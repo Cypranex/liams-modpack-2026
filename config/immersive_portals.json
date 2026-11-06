@@ -41,7 +41,7 @@
   "easeCommandStickPermission": false,
   "portalsChangeGravityByDefault": false,
   "portalWandUsableOnSurvivalMode": false,
-  "shipPortalMode": "unlimited",
+  "shipPortalMode": "off",
   "shipPortalRangeChunks": 64,
   "portalSearchingRange": 128,
   "serverSideNormalChunkLoading": true,
