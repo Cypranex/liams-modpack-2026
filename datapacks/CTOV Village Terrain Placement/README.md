@@ -1,7 +1,7 @@
 # CTOV Village Terrain Placement
 
 Uses Lithostitched to replace Improved Village Placement's terrain suitability
-condition for CTOV small and medium villages. The village buildings and layout
+condition for CTOV small and medium surface villages. The village buildings and layout
 sizes are unchanged.
 
 | CTOV size | Check radius | Checked span | Grid spacing | Height tolerance |
@@ -17,7 +17,7 @@ still apply. No modifier targets large CTOV villages or non-CTOV villages.
 The small check samples a 6 x 6 grid; medium samples a 7 x 7 grid.
 
 Requires CTOV, Improved Village Placement, and Lithostitched. Configured against
-CTOV 3.6.3 and the installed IVP 1.1.1 artifact with Lithostitched 1.8.1.
+CTOV 3.6.4 and the installed IVP 1.1.1 artifact with Lithostitched 1.8.1.
 
 This unpacked directory is the deployed datapack. Paxi automatically loads it
 from the base `datapacks/` directory with its base-folder loading option enabled.
@@ -27,3 +27,18 @@ in fresh terrain or a new test world.
 
 The two `spawn_condition.radius` values can be adjusted independently. Sparse
 Structures village spacing remains a separate setting.
+
+## CTOV 3.6.4 scope repair — 2026-11-05
+
+Native size tags now include underground variants. Pack-owned surface tags
+include the native tags and remove only each underground ID. The IVP standard
+village tag additively removes all three underground IDs, restoring their
+pre-update lack of a surface-flatness condition. Native CTOV size/village tags
+and other IVP providers remain intact; large surface villages retain radius 64.
+
+`modpack-development/scripts/check_ctov_compat.py` guards selectors and deployment.
+The native loot fixture runs CTOVPlacementChecks: 63 effective surface rules,
+three underground exclusions, unchanged vanilla membership, and 36 native
+selected-piece layout budgets. Layout sampling bypasses terrain suitability and
+is not an occurrence/physical-placement census. Full-world terrain behavior
+still depends on the installed generator. No existing structures are moved.

@@ -2,5 +2,37 @@
   "pack": {
     "pack_format": 48,
     "description": "Targeted exploration rewards; replaces Loot Integrations reservoir sampling"
+  },
+  "filter": {
+    "block": [
+      {
+        "namespace": "wares",
+        "path": "loot_table/chests/village/badlands_warehouse\\.json"
+      },
+      {
+        "namespace": "wares",
+        "path": "loot_table/chests/village/beach_warehouse\\.json"
+      },
+      {
+        "namespace": "wares",
+        "path": "loot_table/chests/village/dark_forest_warehouse\\.json"
+      },
+      {
+        "namespace": "wares",
+        "path": "loot_table/chests/village/jungle_warehouse\\.json"
+      },
+      {
+        "namespace": "wares",
+        "path": "loot_table/chests/village/mountain_warehouse\\.json"
+      },
+      {
+        "namespace": "wares",
+        "path": "loot_table/chests/village/mushroom_warehouse\\.json"
+      },
+      {
+        "namespace": "wares",
+        "path": "loot_table/chests/village/swamp_warehouse\\.json"
+      }
+    ]
   }
 }
