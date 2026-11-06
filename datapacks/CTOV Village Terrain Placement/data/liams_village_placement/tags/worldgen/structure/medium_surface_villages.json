@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "#ctov:medium_village"
+  ],
+  "remove": [
+    "ctov:medium/village_underground"
+  ]
+}

@@ -1,6 +1,7 @@
 name = "Item Descriptions"
 filename = "item_descriptions-2.8.0+1.21.1-neoforge.jar"
 side = "client"
+pin = true
 
 [download]
 url = "https://cdn.modrinth.com/data/UaizcMKP/versions/OrkSfQ0u/item_descriptions-2.8.0%2B1.21.1-neoforge.jar"

@@ -1,6 +1,6 @@
 {
-  "basis": "Installed structure NBT LootTable/loot_table references plus listed procedural vanilla/Aether roots; not a world-generation census; Dungeon Crawl 2.3.17 custom model and procedural placement audit",
-  "parse_failures": 0,
+  "basis": "Installed structure NBT re-audit 2026-11-05; unique template counts, not generated-village container counts. Native procedural roots and reward policy retained.",
+  "parse_failures": [],
   "before_targets": 56,
   "after_targets": 339,
   "added_targets": 283,
@@ -915,9 +915,9 @@
       "profile": "kitchens",
       "status": "covered",
       "reason": "Explicit expansion route",
-      "template_count": 16,
+      "template_count": 30,
       "max_containers_per_template": 5,
-      "example_template": "data/ctov/structure/village/christmas/jobsite/restaurant.nbt"
+      "example_template": "data/ctov/structure/village/beach/jobsite/restaurant.nbt"
     },
     {
       "table": "create_structures:chests/village/village_windmill",
@@ -945,9 +945,9 @@
       "profile": "kitchens",
       "status": "covered",
       "reason": "First-pass reviewed route",
-      "template_count": 2,
-      "max_containers_per_template": 1,
-      "example_template": "data/ctov/structure/village/mesa_fortified/jobsite/bakery.nbt"
+      "template_count": 3,
+      "max_containers_per_template": 2,
+      "example_template": "data/ctov/structure/village/desert_oasis/jobsite/bakery.nbt"
     },
     {
       "table": "ctov:chests/village/village_beach_house",
@@ -975,9 +975,9 @@
       "profile": "garden_stores",
       "status": "covered",
       "reason": "Explicit expansion route",
-      "template_count": 25,
+      "template_count": 41,
       "max_containers_per_template": 3,
-      "example_template": "data/ctov/structure/village/desert_oasis/jobsite/greenhouse.nbt"
+      "example_template": "data/ctov/structure/village/beach/jobsite/orchard.nbt"
     },
     {
       "table": "ctov:chests/village/village_forager",
@@ -1015,7 +1015,7 @@
       "profile": "village_households",
       "status": "covered",
       "reason": "Explicit expansion route",
-      "template_count": 18,
+      "template_count": 17,
       "max_containers_per_template": 2,
       "example_template": "data/ctov/structure/village/mountain/house/big_1.nbt"
     },
@@ -1035,7 +1035,7 @@
       "profile": "workshops",
       "status": "covered",
       "reason": "First-pass reviewed route",
-      "template_count": 20,
+      "template_count": 21,
       "max_containers_per_template": 2,
       "example_template": "data/ctov/structure/village/beach/jobsite/smith.nbt"
     },
@@ -1045,7 +1045,7 @@
       "profile": "village_households",
       "status": "covered",
       "reason": "Explicit expansion route",
-      "template_count": 18,
+      "template_count": 17,
       "max_containers_per_template": 6,
       "example_template": "data/ctov/structure/village/swamp/house/big_1.nbt"
     },
@@ -1054,100 +1054,100 @@
       "installed_json": false,
       "profile": null,
       "status": "retained_native_or_not_a_container",
-      "reason": "No JSON loot table in installed resources; optional integration or unresolved native reference, not targeted",
-      "template_count": 1,
-      "max_containers_per_template": 2,
-      "example_template": "data/ctov/structure/pillager_outpost/dark_forest/tower.nbt"
+      "reason": "Retired CTOV 3.6.3 legacy template reference; absent from 3.6.4 NBT. Kept as historical exclusion, no replacement route.",
+      "template_count": 0,
+      "max_containers_per_template": 0,
+      "example_template": null
     },
     {
       "table": "ctov:village/beach/farm",
       "installed_json": false,
       "profile": null,
       "status": "retained_native_or_not_a_container",
-      "reason": "No JSON loot table in installed resources; optional integration or unresolved native reference, not targeted",
-      "template_count": 1,
-      "max_containers_per_template": 2,
-      "example_template": "data/ctov/structure/village/beach/jobsite/orchard.nbt"
+      "reason": "Retired CTOV 3.6.3 legacy template reference; absent from 3.6.4 NBT. Kept as historical exclusion, no replacement route.",
+      "template_count": 0,
+      "max_containers_per_template": 0,
+      "example_template": null
     },
     {
       "table": "ctov:village/christmas/farm",
       "installed_json": false,
       "profile": null,
       "status": "retained_native_or_not_a_container",
-      "reason": "No JSON loot table in installed resources; optional integration or unresolved native reference, not targeted",
-      "template_count": 1,
-      "max_containers_per_template": 2,
-      "example_template": "data/ctov/structure/village/christmas/jobsite/orchard.nbt"
+      "reason": "Retired CTOV 3.6.3 legacy template reference; absent from 3.6.4 NBT. Kept as historical exclusion, no replacement route.",
+      "template_count": 0,
+      "max_containers_per_template": 0,
+      "example_template": null
     },
     {
       "table": "ctov:village/desert/",
       "installed_json": false,
       "profile": null,
       "status": "retained_native_or_not_a_container",
-      "reason": "No JSON loot table in installed resources; optional integration or unresolved native reference, not targeted",
-      "template_count": 1,
-      "max_containers_per_template": 2,
-      "example_template": "data/ctov/structure/village/mesa_fortified/jobsite/library.nbt"
+      "reason": "Retired CTOV 3.6.3 legacy template reference; absent from 3.6.4 NBT. Kept as historical exclusion, no replacement route.",
+      "template_count": 0,
+      "max_containers_per_template": 0,
+      "example_template": null
     },
     {
       "table": "ctov:village/desert/farm",
       "installed_json": false,
       "profile": null,
       "status": "retained_native_or_not_a_container",
-      "reason": "No JSON loot table in installed resources; optional integration or unresolved native reference, not targeted",
-      "template_count": 2,
-      "max_containers_per_template": 2,
-      "example_template": "data/ctov/structure/village/desert/jobsite/orchard.nbt"
+      "reason": "Retired CTOV 3.6.3 legacy template reference; absent from 3.6.4 NBT. Kept as historical exclusion, no replacement route.",
+      "template_count": 0,
+      "max_containers_per_template": 0,
+      "example_template": null
     },
     {
       "table": "ctov:village/desert/mason",
       "installed_json": false,
       "profile": null,
       "status": "retained_native_or_not_a_container",
-      "reason": "No JSON loot table in installed resources; optional integration or unresolved native reference, not targeted",
-      "template_count": 1,
-      "max_containers_per_template": 1,
-      "example_template": "data/ctov/structure/village/desert/jobsite/woodworker.nbt"
+      "reason": "Retired CTOV 3.6.3 legacy template reference; absent from 3.6.4 NBT. Kept as historical exclusion, no replacement route.",
+      "template_count": 0,
+      "max_containers_per_template": 0,
+      "example_template": null
     },
     {
       "table": "ctov:village/desert_fortified/bakery",
       "installed_json": false,
       "profile": null,
       "status": "retained_native_or_not_a_container",
-      "reason": "No JSON loot table in installed resources; optional integration or unresolved native reference, not targeted",
-      "template_count": 1,
-      "max_containers_per_template": 2,
-      "example_template": "data/ctov/structure/village/desert_oasis/jobsite/bakery.nbt"
+      "reason": "Retired CTOV 3.6.3 legacy template reference; absent from 3.6.4 NBT. Kept as historical exclusion, no replacement route.",
+      "template_count": 0,
+      "max_containers_per_template": 0,
+      "example_template": null
     },
     {
       "table": "ctov:village/halloween/farm",
       "installed_json": false,
       "profile": null,
       "status": "retained_native_or_not_a_container",
-      "reason": "No JSON loot table in installed resources; optional integration or unresolved native reference, not targeted",
-      "template_count": 1,
-      "max_containers_per_template": 1,
-      "example_template": "data/ctov/structure/village/halloween/jobsite/orchard.nbt"
+      "reason": "Retired CTOV 3.6.3 legacy template reference; absent from 3.6.4 NBT. Kept as historical exclusion, no replacement route.",
+      "template_count": 0,
+      "max_containers_per_template": 0,
+      "example_template": null
     },
     {
       "table": "ctov:village/jungle/farm",
       "installed_json": false,
       "profile": null,
       "status": "retained_native_or_not_a_container",
-      "reason": "No JSON loot table in installed resources; optional integration or unresolved native reference, not targeted",
-      "template_count": 1,
-      "max_containers_per_template": 3,
-      "example_template": "data/ctov/structure/village/jungle_tree/jobsite/orchard.nbt"
+      "reason": "Retired CTOV 3.6.3 legacy template reference; absent from 3.6.4 NBT. Kept as historical exclusion, no replacement route.",
+      "template_count": 0,
+      "max_containers_per_template": 0,
+      "example_template": null
     },
     {
       "table": "ctov:village/mesa/farm",
       "installed_json": false,
       "profile": null,
       "status": "retained_native_or_not_a_container",
-      "reason": "No JSON loot table in installed resources; optional integration or unresolved native reference, not targeted",
-      "template_count": 2,
-      "max_containers_per_template": 2,
-      "example_template": "data/ctov/structure/village/mesa/jobsite/orchard.nbt"
+      "reason": "Retired CTOV 3.6.3 legacy template reference; absent from 3.6.4 NBT. Kept as historical exclusion, no replacement route.",
+      "template_count": 0,
+      "max_containers_per_template": 0,
+      "example_template": null
     },
     {
       "table": "ctov:village/mesa/smith",
@@ -1164,100 +1164,100 @@
       "installed_json": false,
       "profile": null,
       "status": "retained_native_or_not_a_container",
-      "reason": "No JSON loot table in installed resources; optional integration or unresolved native reference, not targeted",
-      "template_count": 1,
-      "max_containers_per_template": 1,
-      "example_template": "data/ctov/structure/village/mountain/jobsite/orchard.nbt"
+      "reason": "Retired CTOV 3.6.3 legacy template reference; absent from 3.6.4 NBT. Kept as historical exclusion, no replacement route.",
+      "template_count": 0,
+      "max_containers_per_template": 0,
+      "example_template": null
     },
     {
       "table": "ctov:village/mushroom/farm",
       "installed_json": false,
       "profile": null,
       "status": "retained_native_or_not_a_container",
-      "reason": "No JSON loot table in installed resources; optional integration or unresolved native reference, not targeted",
-      "template_count": 1,
-      "max_containers_per_template": 1,
-      "example_template": "data/ctov/structure/village/mushroom/jobsite/orchard.nbt"
+      "reason": "Retired CTOV 3.6.3 legacy template reference; absent from 3.6.4 NBT. Kept as historical exclusion, no replacement route.",
+      "template_count": 0,
+      "max_containers_per_template": 0,
+      "example_template": null
     },
     {
       "table": "ctov:village/plains/farm",
       "installed_json": false,
       "profile": null,
       "status": "retained_native_or_not_a_container",
-      "reason": "No JSON loot table in installed resources; optional integration or unresolved native reference, not targeted",
-      "template_count": 1,
-      "max_containers_per_template": 1,
-      "example_template": "data/ctov/structure/village/plains/jobsite/orchard.nbt"
+      "reason": "Retired CTOV 3.6.3 legacy template reference; absent from 3.6.4 NBT. Kept as historical exclusion, no replacement route.",
+      "template_count": 0,
+      "max_containers_per_template": 0,
+      "example_template": null
     },
     {
       "table": "ctov:village/savanna/farm",
       "installed_json": false,
       "profile": null,
       "status": "retained_native_or_not_a_container",
-      "reason": "No JSON loot table in installed resources; optional integration or unresolved native reference, not targeted",
-      "template_count": 1,
-      "max_containers_per_template": 2,
-      "example_template": "data/ctov/structure/village/savanna/jobsite/orchard.nbt"
+      "reason": "Retired CTOV 3.6.3 legacy template reference; absent from 3.6.4 NBT. Kept as historical exclusion, no replacement route.",
+      "template_count": 0,
+      "max_containers_per_template": 0,
+      "example_template": null
     },
     {
       "table": "ctov:village/snowy/farm",
       "installed_json": false,
       "profile": null,
       "status": "retained_native_or_not_a_container",
-      "reason": "No JSON loot table in installed resources; optional integration or unresolved native reference, not targeted",
-      "template_count": 1,
-      "max_containers_per_template": 2,
-      "example_template": "data/ctov/structure/village/snowy_igloo/jobsite/orchard.nbt"
+      "reason": "Retired CTOV 3.6.3 legacy template reference; absent from 3.6.4 NBT. Kept as historical exclusion, no replacement route.",
+      "template_count": 0,
+      "max_containers_per_template": 0,
+      "example_template": null
     },
     {
       "table": "ctov:village/snowy/library",
       "installed_json": false,
       "profile": null,
       "status": "retained_native_or_not_a_container",
-      "reason": "No JSON loot table in installed resources; optional integration or unresolved native reference, not targeted",
-      "template_count": 1,
-      "max_containers_per_template": 2,
-      "example_template": "data/ctov/structure/village/snowy_igloo/jobsite/hunter_trainer.nbt"
+      "reason": "Retired CTOV 3.6.3 legacy template reference; absent from 3.6.4 NBT. Kept as historical exclusion, no replacement route.",
+      "template_count": 0,
+      "max_containers_per_template": 0,
+      "example_template": null
     },
     {
       "table": "ctov:village/swamp/farm",
       "installed_json": false,
       "profile": null,
       "status": "retained_native_or_not_a_container",
-      "reason": "No JSON loot table in installed resources; optional integration or unresolved native reference, not targeted",
-      "template_count": 1,
-      "max_containers_per_template": 2,
-      "example_template": "data/ctov/structure/village/swamp_fortified/jobsite/orchard.nbt"
+      "reason": "Retired CTOV 3.6.3 legacy template reference; absent from 3.6.4 NBT. Kept as historical exclusion, no replacement route.",
+      "template_count": 0,
+      "max_containers_per_template": 0,
+      "example_template": null
     },
     {
       "table": "ctov:village/swamp/leatherworker",
       "installed_json": false,
       "profile": null,
       "status": "retained_native_or_not_a_container",
-      "reason": "No JSON loot table in installed resources; optional integration or unresolved native reference, not targeted",
-      "template_count": 1,
-      "max_containers_per_template": 2,
-      "example_template": "data/ctov/structure/village/swamp/jobsite/leatherworker.nbt"
+      "reason": "Retired CTOV 3.6.3 legacy template reference; absent from 3.6.4 NBT. Kept as historical exclusion, no replacement route.",
+      "template_count": 0,
+      "max_containers_per_template": 0,
+      "example_template": null
     },
     {
       "table": "ctov:village/taiga/farm",
       "installed_json": false,
       "profile": null,
       "status": "retained_native_or_not_a_container",
-      "reason": "No JSON loot table in installed resources; optional integration or unresolved native reference, not targeted",
-      "template_count": 2,
-      "max_containers_per_template": 2,
-      "example_template": "data/ctov/structure/village/taiga/jobsite/orchard.nbt"
+      "reason": "Retired CTOV 3.6.3 legacy template reference; absent from 3.6.4 NBT. Kept as historical exclusion, no replacement route.",
+      "template_count": 0,
+      "max_containers_per_template": 0,
+      "example_template": null
     },
     {
       "table": "ctov:village/taiga/library",
       "installed_json": false,
       "profile": null,
       "status": "retained_native_or_not_a_container",
-      "reason": "No JSON loot table in installed resources; optional integration or unresolved native reference, not targeted",
-      "template_count": 1,
-      "max_containers_per_template": 2,
-      "example_template": "data/ctov/structure/village/taiga/jobsite/hunter_trainer.nbt"
+      "reason": "Retired CTOV 3.6.3 legacy template reference; absent from 3.6.4 NBT. Kept as historical exclusion, no replacement route.",
+      "template_count": 0,
+      "max_containers_per_template": 0,
+      "example_template": null
     },
     {
       "table": "deep_aether:chests/dungeon/altar_camp",
@@ -1896,7 +1896,7 @@
       "status": "retained_native_or_not_a_container",
       "reason": "No JSON loot table in installed resources; optional integration or unresolved native reference, not targeted",
       "template_count": 21,
-      "max_containers_per_template": 1,
+      "max_containers_per_template": 2,
       "example_template": "data/ctov/structure/village/beach/jobsite/scriber.nbt"
     },
     {
@@ -1915,9 +1915,9 @@
       "profile": null,
       "status": "retained_native_or_not_a_container",
       "reason": "No JSON loot table in installed resources; optional integration or unresolved native reference, not targeted",
-      "template_count": 19,
+      "template_count": 21,
       "max_containers_per_template": 1,
-      "example_template": "data/ctov/structure/village/beach/jobsite/iron_jewelry.nbt"
+      "example_template": "data/ctov/structure/village/beach/jobsite/irons_jewelry.nbt"
     },
     {
       "table": "irons_spellbooks:chests/battleground/burial_loot",
@@ -2325,7 +2325,7 @@
       "profile": null,
       "status": "retained_native_or_not_a_container",
       "reason": "No JSON loot table in installed resources; optional integration or unresolved native reference, not targeted",
-      "template_count": 21,
+      "template_count": 19,
       "max_containers_per_template": 1,
       "example_template": "data/ctov/structure/village/beach/jobsite/jewelry_shop.nbt"
     },
@@ -2655,7 +2655,7 @@
       "profile": "guard_stores",
       "status": "covered",
       "reason": "Explicit expansion route",
-      "template_count": 55,
+      "template_count": 56,
       "max_containers_per_template": 4,
       "example_template": "data/minecraft/structure/pillager_outpost/watchtower.nbt"
     },
@@ -2855,7 +2855,7 @@
       "profile": "kitchens",
       "status": "covered",
       "reason": "Explicit expansion route",
-      "template_count": 64,
+      "template_count": 65,
       "max_containers_per_template": 7,
       "example_template": "data/minecraft/structure/village/savanna/houses/savanna_butchers_shop_2.nbt"
     },
@@ -2875,7 +2875,7 @@
       "profile": "village_households",
       "status": "covered",
       "reason": "Explicit expansion route",
-      "template_count": 31,
+      "template_count": 32,
       "max_containers_per_template": 7,
       "example_template": "data/minecraft/structure/village/desert/houses/desert_medium_house_1.nbt"
     },
@@ -2885,7 +2885,7 @@
       "profile": "kitchens",
       "status": "covered",
       "reason": "Explicit expansion route",
-      "template_count": 64,
+      "template_count": 66,
       "max_containers_per_template": 4,
       "example_template": "data/minecraft/structure/village/plains/houses/plains_fisher_cottage_1.nbt"
     },
@@ -2975,7 +2975,7 @@
       "profile": "village_households",
       "status": "covered",
       "reason": "Explicit expansion route",
-      "template_count": 84,
+      "template_count": 85,
       "max_containers_per_template": 6,
       "example_template": "data/minecraft/structure/village/taiga/houses/taiga_medium_house_1.nbt"
     },
@@ -2985,7 +2985,7 @@
       "profile": "village_households",
       "status": "covered",
       "reason": "Explicit expansion route",
-      "template_count": 45,
+      "template_count": 44,
       "max_containers_per_template": 4,
       "example_template": "data/minecraft/structure/village/plains/houses/plains_tannery_1.nbt"
     },
@@ -2995,7 +2995,7 @@
       "profile": "rural_libraries",
       "status": "covered",
       "reason": "Explicit expansion route",
-      "template_count": 29,
+      "template_count": 49,
       "max_containers_per_template": 4,
       "example_template": "data/minecraft/structure/village/desert/houses/desert_temple_1.nbt"
     },
@@ -3107,7 +3107,7 @@
       "reason": "No JSON loot table in installed resources; optional integration or unresolved native reference, not targeted",
       "template_count": 2,
       "max_containers_per_template": 1,
-      "example_template": "data/monobank/structures/village/monobank/badlands_locked.nbt"
+      "example_template": "data/monobank/structure/village/monobank/badlands_locked.nbt"
     },
     {
       "table": "monobank:monobank/village/beach",
@@ -3117,7 +3117,7 @@
       "reason": "No JSON loot table in installed resources; optional integration or unresolved native reference, not targeted",
       "template_count": 2,
       "max_containers_per_template": 1,
-      "example_template": "data/monobank/structures/village/monobank/beach_locked.nbt"
+      "example_template": "data/monobank/structure/village/monobank/beach_locked.nbt"
     },
     {
       "table": "monobank:monobank/village/dark_forest",
@@ -3127,7 +3127,7 @@
       "reason": "No JSON loot table in installed resources; optional integration or unresolved native reference, not targeted",
       "template_count": 2,
       "max_containers_per_template": 1,
-      "example_template": "data/monobank/structures/village/monobank/dark_forest_locked.nbt"
+      "example_template": "data/monobank/structure/village/monobank/dark_forest_locked.nbt"
     },
     {
       "table": "monobank:monobank/village/jungle",
@@ -3137,7 +3137,7 @@
       "reason": "No JSON loot table in installed resources; optional integration or unresolved native reference, not targeted",
       "template_count": 2,
       "max_containers_per_template": 1,
-      "example_template": "data/monobank/structures/village/monobank/jungle_locked.nbt"
+      "example_template": "data/monobank/structure/village/monobank/jungle_locked.nbt"
     },
     {
       "table": "monobank:monobank/village/mountain",
@@ -3147,7 +3147,7 @@
       "reason": "No JSON loot table in installed resources; optional integration or unresolved native reference, not targeted",
       "template_count": 2,
       "max_containers_per_template": 1,
-      "example_template": "data/monobank/structures/village/monobank/mountain_locked.nbt"
+      "example_template": "data/monobank/structure/village/monobank/mountain_locked.nbt"
     },
     {
       "table": "monobank:monobank/village/mushroom",
@@ -3157,7 +3157,7 @@
       "reason": "No JSON loot table in installed resources; optional integration or unresolved native reference, not targeted",
       "template_count": 2,
       "max_containers_per_template": 1,
-      "example_template": "data/monobank/structures/village/monobank/mushroom_locked.nbt"
+      "example_template": "data/monobank/structure/village/monobank/mushroom_locked.nbt"
     },
     {
       "table": "monobank:monobank/village/swamp",
@@ -3167,7 +3167,7 @@
       "reason": "No JSON loot table in installed resources; optional integration or unresolved native reference, not targeted",
       "template_count": 2,
       "max_containers_per_template": 1,
-      "example_template": "data/monobank/structures/village/monobank/swamp_locked.nbt"
+      "example_template": "data/monobank/structure/village/monobank/swamp_locked.nbt"
     },
     {
       "table": "morevillagers:chests/village/village_hunter",
@@ -3175,7 +3175,7 @@
       "profile": null,
       "status": "retained_native_or_not_a_container",
       "reason": "No JSON loot table in installed resources; optional integration or unresolved native reference, not targeted",
-      "template_count": 19,
+      "template_count": 18,
       "max_containers_per_template": 1,
       "example_template": "data/ctov/structure/village/beach/jobsite/hunter.nbt"
     },
@@ -4805,7 +4805,7 @@
       "profile": null,
       "status": "retained_native_or_not_a_container",
       "reason": "No JSON loot table in installed resources; optional integration or unresolved native reference, not targeted",
-      "template_count": 16,
+      "template_count": 20,
       "max_containers_per_template": 1,
       "example_template": "data/ctov/structure/village/beach/roads/respawn_obelisk.nbt"
     },
@@ -4885,7 +4885,7 @@
       "profile": null,
       "status": "retained_native_or_not_a_container",
       "reason": "No JSON loot table in installed resources; optional integration or unresolved native reference, not targeted",
-      "template_count": 25,
+      "template_count": 21,
       "max_containers_per_template": 1,
       "example_template": "data/ctov/structure/village/beach/jobsite/gunsmith.nbt"
     },
@@ -5235,9 +5235,9 @@
       "profile": null,
       "status": "retained_native_or_not_a_container",
       "reason": "No JSON loot table in installed resources; optional integration or unresolved native reference, not targeted",
-      "template_count": 16,
-      "max_containers_per_template": 5,
-      "example_template": "data/ctov/structure/village/beach/jobsite/hunter_trainer.nbt"
+      "template_count": 0,
+      "max_containers_per_template": 0,
+      "example_template": null
     },
     {
       "table": "villagersplus:chests/village/village_alchemist",
@@ -5265,7 +5265,7 @@
       "profile": null,
       "status": "retained_native_or_not_a_container",
       "reason": "No JSON loot table in installed resources; optional integration or unresolved native reference, not targeted",
-      "template_count": 20,
+      "template_count": 21,
       "max_containers_per_template": 1,
       "example_template": "data/ctov/structure/village/beach/jobsite/occultist.nbt"
     },
@@ -5518,6 +5518,86 @@
       "template_count": 0,
       "max_containers_per_template": 0,
       "example_template": null
+    },
+    {
+      "table": "morevillagers:chests/village/miner",
+      "installed_json": false,
+      "profile": null,
+      "status": "excluded",
+      "reason": "Optional CTOV integration; provider is absent in the reviewed pack; no authored route.",
+      "template_count": 21,
+      "max_containers_per_template": 1,
+      "example_template": "data/ctov/structure/village/beach/jobsite/miner.nbt"
+    },
+    {
+      "table": "morevillagers:chests/village/netherologist",
+      "installed_json": false,
+      "profile": null,
+      "status": "excluded",
+      "reason": "Optional CTOV integration; provider is absent in the reviewed pack; no authored route.",
+      "template_count": 19,
+      "max_containers_per_template": 1,
+      "example_template": "data/ctov/structure/village/beach/jobsite/netherologist.nbt"
+    },
+    {
+      "table": "spawn:archaeology/ant_mount_common",
+      "installed_json": true,
+      "profile": null,
+      "status": "excluded",
+      "reason": "Spawn native ant-mound container/archaeology identity retained; no generic discovery addition. Archaeology sand/gravel assignment audit remains separately authoritative.",
+      "template_count": 4,
+      "max_containers_per_template": 19,
+      "example_template": "data/spawn/structure/ant_mount/ant_mount_bottom.nbt"
+    },
+    {
+      "table": "spawn:archaeology/ant_mount_epic",
+      "installed_json": true,
+      "profile": null,
+      "status": "excluded",
+      "reason": "Spawn native ant-mound container/archaeology identity retained; no generic discovery addition. Archaeology sand/gravel assignment audit remains separately authoritative.",
+      "template_count": 3,
+      "max_containers_per_template": 22,
+      "example_template": "data/spawn/structure/ant_mount/ant_mount_bottom.nbt"
+    },
+    {
+      "table": "spawn:archaeology/ant_mount_rare",
+      "installed_json": true,
+      "profile": null,
+      "status": "excluded",
+      "reason": "Spawn native ant-mound container/archaeology identity retained; no generic discovery addition. Archaeology sand/gravel assignment audit remains separately authoritative.",
+      "template_count": 3,
+      "max_containers_per_template": 9,
+      "example_template": "data/spawn/structure/ant_mount/ant_mount_bottom.nbt"
+    },
+    {
+      "table": "spawn:chests/ant_mount_common",
+      "installed_json": true,
+      "profile": null,
+      "status": "excluded",
+      "reason": "Spawn native ant-mound container/archaeology identity retained; no generic discovery addition. Archaeology sand/gravel assignment audit remains separately authoritative.",
+      "template_count": 3,
+      "max_containers_per_template": 1,
+      "example_template": "data/spawn/structure/ant_mount/ant_mount_bottom.nbt"
+    },
+    {
+      "table": "spawn:chests/ant_mount_rare",
+      "installed_json": true,
+      "profile": null,
+      "status": "excluded",
+      "reason": "Spawn native ant-mound container/archaeology identity retained; no generic discovery addition. Archaeology sand/gravel assignment audit remains separately authoritative.",
+      "template_count": 2,
+      "max_containers_per_template": 2,
+      "example_template": "data/spawn/structure/ant_mount/ant_mount_bottom.nbt"
+    },
+    {
+      "table": "village_taverns:chests/tavern",
+      "installed_json": false,
+      "profile": null,
+      "status": "excluded",
+      "reason": "Optional CTOV integration; provider is absent in the reviewed pack; no authored route.",
+      "template_count": 21,
+      "max_containers_per_template": 2,
+      "example_template": "data/ctov/structure/village/beach/jobsite/tavern.nbt"
     }
   ],
   "procedural_roots": [
@@ -5564,5 +5644,6 @@
       "dungeoncrawl:monster_overrides/wither_skeleton": "Legacy entity-drop override; not broadened into chest policy or restored"
     }
   },
-  "archaeology_crystals_reference": "archaeology-crystals.json (2% selected brushed reward; separate from chest recipient counts; re-audit on mod changes)"
+  "archaeology_crystals_reference": "archaeology-crystals.json (2% selected brushed reward; separate from chest recipient counts; re-audit on mod changes)",
+  "ctov_update_evidence": "modpack-development/docs/mod-update-fixes-2026-11-05/; 3.6.4 template census and native layout fixtures; no reward rate changes."
 }

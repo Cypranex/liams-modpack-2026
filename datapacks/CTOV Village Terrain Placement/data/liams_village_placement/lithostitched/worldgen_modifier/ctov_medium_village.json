@@ -1,7 +1,7 @@
 {
   "type": "lithostitched:set_structure_spawn_condition",
   "priority": 2100,
-  "structures": "#ctov:medium_village",
+  "structures": "#liams_village_placement:medium_surface_villages",
   "append": false,
   "spawn_condition": {
     "type": "lithostitched:grid",

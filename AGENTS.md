@@ -302,3 +302,27 @@ native saved spawn reasons and breeding/kept flags. Run `build.py` and both
 `FOWL_POPULATION_PASS`, review tips/loot resource scope, and deploy only the
 production jar. Tests run in disposable worlds; long-term/full-pack population
 and client performance still need gameplay observation. Restart client/server.
+
+## Reviewed update guards (2026-11-05)
+
+Item Descriptions is pinned to NeoForge 2.8.0 because installed Field Guide 1.23.0
+requires >=2.8.0 and uses its newer classes. Do not accept Modrinth's older
+1.11+1.21 artifact as an upgrade or bypass Field Guide's dependency check.
+Torch compatibility 1.0.5 and Flimsy Wall Lanterns 1.0.7 are reviewed against
+exact Amendments 1.21-2.2.7; rebuild/check both when that provider changes.
+
+CTOV Village Terrain Placement uses pack-owned surface tags and removes only
+three underground IDs from IVP standard-village membership. Keep native CTOV
+size/village tags intact. On CTOV/IVP/Lithostitched changes run development
+scripts/check_ctov_compat.py and the native CTOVPlacementChecks included in
+the loot fixture; inspect effective radii, underground exclusions and native
+layout budgets. Exploration Loot Balance filters exactly seven inactive Wares
+warehouse tables with obsolete set_nbt functions. Review their fingerprints
+and the filtering decision before installing Wares or updating those originals.
+
+Torches x Punchy.zip is built from the installed Paxi Drigo archive by
+../minecraft-mods/flimsy-torches-x-punchy/build.py. Resolve parent geometry,
+display and texture aliases before giving models to Punchy's direct parser.
+Keep empty handheld Flimsy lantern light at zero and all four torch items as
+native sprites. Source/installed copies and native parser/geometry checks must
+match; game visuals still need ordinary observation after a client restart.
