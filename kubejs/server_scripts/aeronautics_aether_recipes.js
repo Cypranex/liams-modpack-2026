@@ -2,7 +2,7 @@
 // Aeronautics parts that provide thrust or lift behind Aether materials.
 ServerEvents.recipes(event => {
   const gravitite = { item: 'aether:enchanted_gravitite' }
-  const skyroot = { item: 'aether:skyroot_planks' }
+  const skyrootSlab = { item: 'aether:skyroot_slab' }
   const zanite = { item: 'aether:zanite_gemstone' }
   const ambrosium = { item: 'aether:ambrosium_shard' }
   const aercloud = { item: 'aether:cold_aercloud' }
@@ -22,10 +22,9 @@ ServerEvents.recipes(event => {
     })
   }
 
-  shaped('aeronautics:andesite_propeller', ['PE', 'C ', 'S '], {
+  shaped('aeronautics:andesite_propeller', ['P', 'C', 'S'], {
     P: { item: 'create:propeller' },
-    E: skyroot,
-    C: { tag: 'minecraft:wooden_slabs' },
+    C: skyrootSlab,
     S: { item: 'create:shaft' }
   }, 'aeronautics:andesite_propeller')
 
@@ -36,15 +35,14 @@ ServerEvents.recipes(event => {
     B: { item: 'create:brass_casing' }
   }, 'aeronautics:smart_propeller', 2)
 
-  shaped('aeronautics:propeller_bearing', [' AE', ' S ', ' B '], {
-    A: { tag: 'minecraft:wooden_slabs' },
-    E: skyroot,
+  shaped('aeronautics:propeller_bearing', ['A', 'S', 'B'], {
+    A: skyrootSlab,
     S: { tag: 'c:plates/iron' },
     B: { item: 'create:brass_casing' }
   }, 'aeronautics:propeller_bearing')
 
   shaped('aeronautics:gyroscopic_propeller_bearing', [' AE', ' G ', ' B '], {
-    A: { tag: 'minecraft:wooden_slabs' },
+    A: skyrootSlab,
     E: zanite,
     G: { item: 'simulated:gyroscopic_mechanism' },
     B: { item: 'create:brass_casing' }
@@ -90,12 +88,12 @@ ServerEvents.recipes(event => {
     const envelope = `aeronautics:${color}_envelope`
     const wool = `minecraft:${color}_wool`
 
-    // The original crafting recipe uses two wool and two sticks.
+    // Replace one of the original two wool blocks with cold aercloud.
     replace(envelope, {
       type: 'minecraft:crafting_shaped',
       category: 'misc',
       group: 'aeronautics:envelope',
-      pattern: ['WSA', 'SW '],
+      pattern: ['WS', 'SA'],
       key: {
         W: { item: wool },
         S: { item: 'minecraft:stick' },

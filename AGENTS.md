@@ -326,3 +326,20 @@ display and texture aliases before giving models to Punchy's direct parser.
 Keep empty handheld Flimsy lantern light at zero and all four torch items as
 native sprites. Source/installed copies and native parser/geometry checks must
 match; game visuals still need ordinary observation after a client restart.
+
+## Moa armor network fix (2026-11-07)
+
+`mods/liams-moa-armor-sync-fix-1.0.0.jar` snapshots ItemStack values in Protect
+Your Moa's armor packet factory before the native right-click hook consumes the
+held armor. Required Mixin, pinned to Protect Your Moa 1.0.0 / Nitrogen Internals
+1.1.25, reviewed with Aether 1.5.10 / Minecraft 1.21.1 / NeoForge 21.1.264. Keep
+the upstream mod installed; the server needs the companion and a restart. Native
+wire format is unchanged, so clients do not require the fix.
+
+Source/build/tests: `/home/liam/Projects/minecraft-mods/moa-armor-sync-fix`. Run
+`build.py` and `verify.py`: require upstream `Empty ItemStack not allowed`
+reproduction followed by `MOA_ARMOR_PASS` for delayed encoding, three recipients,
+six armor types, consumption/components, equipment/protection and inventory/save
+round trips. Tests use fresh temporary worlds, not real saves. Review call sites
+and codec before updating pinned providers; retire only when upstream snapshots
+the stack. Do not alter Nitrogen's global codec or suppress encoding errors.

@@ -1,6 +1,32 @@
 [
   {
     "when": "position",
+    "mob": "minecraft:bee",
+    "spawntype": [
+      "natural",
+      "chunk_generation"
+    ],
+    "mincount": {
+      "amount": 16,
+      "mob": "minecraft:bee"
+    },
+    "result": "deny"
+  },
+  {
+    "when": "finalize",
+    "mob": "minecraft:bee",
+    "spawntype": [
+      "natural",
+      "chunk_generation"
+    ],
+    "mincount": {
+      "amount": 16,
+      "mob": "minecraft:bee"
+    },
+    "result": "deny"
+  },
+  {
+    "when": "position",
     "mob": [
       "hybrid_aquatic:otter",
       "minecraft:bee"
