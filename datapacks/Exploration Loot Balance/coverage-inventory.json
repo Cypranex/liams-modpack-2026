@@ -5598,6 +5598,18 @@
       "template_count": 21,
       "max_containers_per_template": 2,
       "example_template": "data/ctov/structure/village/beach/jobsite/tavern.nbt"
+    },
+    {
+      "table": "spawn:archaeology/anthill",
+      "installed_json": true,
+      "profile": null,
+      "status": "excluded",
+      "reason": "Native custom Ant Mound brushing rewards retained; only the missing roly-poly slot becomes weight-1 empty, preserving all valid /25 weights. Assigned by Spawn anthill dirt-rot processing to spawn:ant_mound, not vanilla/Lootr suspicious sand/gravel; no generic chest bonus or selected crystal route.",
+      "template_count": 0,
+      "max_containers_per_template": 0,
+      "example_template": null,
+      "procedural_assignment": "data/spawn/spawn_block_recipes/anthill_rot/ant_mound.json",
+      "block": "spawn:ant_mound"
     }
   ],
   "procedural_roots": [
@@ -5618,7 +5630,8 @@
     "dungeoncrawl:chests/food",
     "dungeoncrawl:chests/supply",
     "dungeoncrawl:chests/secret_room",
-    "dungeoncrawl:chests/treasure"
+    "dungeoncrawl:chests/treasure",
+    "spawn:archaeology/anthill"
   ],
   "dungeon_crawl_density_evidence": {
     "fixtures": 64,

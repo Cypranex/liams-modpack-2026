@@ -1,0 +1,25 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "zeta:flag",
+      "flag": "hedges"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "L",
+    "W"
+  ],
+  "key": {
+    "L": {
+      "item": "aether:golden_oak_leaves"
+    },
+    "W": {
+      "tag": "minecraft:oak_logs"
+    }
+  },
+  "result": {
+    "id": "everycomp:q/dtaether/golden_oak_hedge",
+    "count": 2
+  }
+}

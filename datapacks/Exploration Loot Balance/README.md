@@ -8,7 +8,7 @@ Agent maintenance policy: [AGENTS.md](AGENTS.md). Read it for loot rules and the
 
 This second pass expands **56 → 339 exact recipient tables**, with **22 reward profiles** and **85 authored reward item IDs**. It adds useful discoveries and enforces **Overworld → Nether → Aether → End** for newly generated chest/vault loot. Earlier-stage items are allowed in later dimensions. All 12 installed CTOV village tables now receive a reviewed profile.
 
-The installed structure NBT audit parsed successfully and found 531 referenced loot IDs; 448 resolve against installed JSON resources. Optional-mod/legacy references are recorded, not used as guessed targets. The review ledger also lists known procedural containers, for 540 reviewed table IDs overall. Counts are template evidence, not a census of generated structures or an assertion that every optional template is active.
+The installed structure NBT audit parsed successfully and found 531 referenced loot IDs; 448 resolve against installed JSON resources. Optional-mod/legacy references are recorded, not used as guessed targets. The review ledger also lists known procedural containers, for 558 reviewed table IDs overall. Counts are template evidence, not a census of generated structures or an assertion that every optional template is active.
 
 Plans and history: [implemented loot ideas](IDEAS-IMPLEMENTATION-PLAN.md), [native pity restoration](RESTORE-PITY-PLAN.md), [historical pity disable decision](NO-PITY-PLAN.md), [enchanted weapon plan](SWORDS-PLAN.md), [coverage expansion plan](COVERAGE-PLAN.md), [historical first-pass reference](FIRST-PASS-REFERENCE.md), [implemented finds and further loot ideas](LOOT-IDEAS.md). The 75 Loot Integrations sampling rules remain disabled through exact resource overrides. Native loot, keys and boss identities remain, subject to the new dimension filter for chest/vault rewards.
 
@@ -295,3 +295,44 @@ Final sand/gravel NBT/processor/procedural/native-Remolder review finds the same
 patches, fallback contributions and ordinary-chest exclusion pass with updated
 inputs. The source inventory was refreshed after reviewing exact originals.
 Current evidence: modpack-development/docs/mod-update-fixes-2026-11-05/.
+
+## Loot format compatibility repairs — 2026-11-07
+
+Ten exact resource overrides repair the rejected installed loot data without
+adding generic rewards or changing the 339 authored recipient roots. The coverage
+ledger now has 558 records, including Spawn's procedural custom Ant Mound table.
+
+- Four Aether's Delight wing modifiers use the current `attacker` entity target
+  and `items: #farmersdelight:tools/knives` equipment predicate. Native raw/cooked
+  fire conditions remain exclusive. One wing is selected with native chances
+  50% without Looting, then 60%, 70%, 80% at Looting I–III. Non-knives, unrelated
+  animals and missing attackers do not qualify. Other native animal rewards stay.
+- Two My Nether's Delight bastion modifiers use Farmer's Delight's current
+  `table` key. Native helper tables, item weights, rolls, quantities, trophies,
+  enchantments and food are untouched. Matching bastion roots append their native
+  helper once; other tables do not. Post-modifier stage filtering remains active:
+  these Nether rewards cannot enter Overworld chest/vault loot.
+- Spawn's used `spawn:archaeology/anthill` table replaces only the unavailable
+  roly-poly item with an empty weight-1 slot. String, leather, fallen leaves,
+  clay and ant pupa each retain 4/25; each mushroom retains 2/25; empty is 1/25.
+  This custom Ant Mound block is created by native dirt-rot processing. It is
+  outside the selected vanilla/Lootr suspicious sand/gravel crystal inventory;
+  its native rewards receive no crystal or generic bonus. Existing selected
+  crystal gates and their 2% first-stack rates are unchanged.
+- The obsolete upper-hops table is explicitly disabled; the active double-plant
+  `hops_crop` table retains its native age-dependent drops and counts. Infernal
+  Blaze loot is guarded by its actual Born in Chaos provider and item, preserving
+  the original drop definition for a reviewed compatible installation. A single
+  conditional-disabled resource retires Cataclysm Spellbooks' dangling prison
+  modifier reference; the global modifier index and every valid native route
+  remain intact. No substitute item, fake block or new boss/key reward is added.
+
+Original/provider hashes, source tracing and reproducible checks are maintained
+outside the pack in `/home/liam/Projects/minecraft-mods/loot-compatibility`.
+Native evidence is under development `docs/loot-compatibility-2026-11-07/`:
+knife/fire/Looting samples, exact seeded bastion comparisons, anthill/crop drops,
+positive/negative dimensions, existing selected 2% archaeology and Lootr/pity
+regressions. Broader static installed-jar fingerprints retain unrelated earlier
+mod changes; these repairs do not certify newly added, unreviewed archaeology
+sources. Do not refresh those baselines blindly. Restart for deployment; no
+already generated loot, saved inventories or existing worlds are migrated.
