@@ -21,7 +21,19 @@
     "liams_modpack:deep_cave_silver",
     "liams_modpack:deep_cave_lapis_deep",
     "liams_modpack:deep_cave_lapis_lower",
-    "liams_modpack:deep_cave_lapis"
+    "liams_modpack:deep_cave_lapis",
+    "liams_modpack:deep_cave_iron_deepslate",
+    "liams_modpack:deep_cave_redstone_deepslate",
+    "liams_modpack:deep_cave_redstone",
+    "liams_modpack:deep_cave_iron_walls_upper",
+    "liams_modpack:deep_cave_iron_walls_shallow",
+    "liams_modpack:deep_cave_iron_walls_deepslate",
+    "liams_modpack:deep_cave_iron_walls_deep",
+    "liams_modpack:deep_cave_iron_walls_lower",
+    "liams_modpack:deep_cave_iron_walls_bottom",
+    "liams_modpack:deep_cave_zinc_taper",
+    "liams_modpack:deep_cave_coal_taper",
+    "liams_modpack:deep_cave_copper_taper"
   ],
   "step": "underground_ores"
 }
