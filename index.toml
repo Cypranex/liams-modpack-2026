@@ -311,7 +311,7 @@ hash = "8d841088fcf91c96c3c4bff112f604961129c55687906fa0e8fd3968cc45002a"
 
 [[files]]
 file = "config/simulated-server.toml"
-hash = "0a2180d6042fdf19bc295b7890d23d297ba2253c0c95b21d54fb14de4c54fef4"
+hash = "ab05ac30b9be3035902442ea1dc3429588bccb573fe0de7fff26afe2f2ed3b3b"
 
 [[files]]
 file = "config/sodium-extra-options.json"
@@ -4492,6 +4492,11 @@ hash = "24c6c3fe917ffbcef04e788dec3e003d0ed03433bc00f9cf4f23fe9b85636aa7"
 metafile = true
 
 [[files]]
+file = "mods/clear-sound-engine.pw.toml"
+hash = "44dc80501361e85154f3c5999e6d1f2affad6eacd4acbc76793670555d3cec7c"
+metafile = true
+
+[[files]]
 file = "mods/climate-rivers.pw.toml"
 hash = "b468173f5c612f78a2a715a54a7a228d90322c8fd5b619a50be2597fb1e46c50"
 metafile = true
@@ -5348,6 +5353,11 @@ metafile = true
 [[files]]
 file = "mods/rpl.pw.toml"
 hash = "7815e5a589de0c02a62ae83590e1f75f4d0c269e48f2435ce2ac448976ddf49f"
+metafile = true
+
+[[files]]
+file = "mods/rsls.pw.toml"
+hash = "db1cd6f20cf913188d374eda31dfc91040357affbe562ca2b6972b6b030c8f7c"
 metafile = true
 
 [[files]]
