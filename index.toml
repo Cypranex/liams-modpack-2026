@@ -4575,7 +4575,7 @@ metafile = true
 
 [[files]]
 file = "mods/clear-sound-engine.pw.toml"
-hash = "44dc80501361e85154f3c5999e6d1f2affad6eacd4acbc76793670555d3cec7c"
+hash = "8ea8b87c1a9a7a15ba43a1ba492fdcd3eb4e0d82e7668669f63bec54c5bbf985"
 metafile = true
 
 [[files]]
