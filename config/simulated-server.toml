@@ -22,24 +22,24 @@
 			#[in Stress Units]
 			#Configure how much stress a source can accommodate for.
 			[kinetics.stressValues.v2.capacity]
-				light_blue_portable_engine = 16.0
-				yellow_portable_engine = 16.0
-				gray_portable_engine = 16.0
-				black_portable_engine = 16.0
-				red_portable_engine = 16.0
-				lime_portable_engine = 16.0
-				light_gray_portable_engine = 16.0
-				pink_portable_engine = 16.0
-				green_portable_engine = 16.0
-				cyan_portable_engine = 16.0
+				light_blue_portable_engine = 32.0
+				yellow_portable_engine = 32.0
+				gray_portable_engine = 32.0
+				black_portable_engine = 32.0
+				red_portable_engine = 32.0
+				lime_portable_engine = 32.0
+				light_gray_portable_engine = 32.0
+				pink_portable_engine = 32.0
+				green_portable_engine = 32.0
+				cyan_portable_engine = 32.0
 				torsion_spring = 8.0
-				brown_portable_engine = 16.0
-				magenta_portable_engine = 16.0
-				purple_portable_engine = 16.0
+				brown_portable_engine = 32.0
+				magenta_portable_engine = 32.0
+				purple_portable_engine = 32.0
 				steering_wheel = 16.0
-				white_portable_engine = 16.0
-				blue_portable_engine = 16.0
-				orange_portable_engine = 16.0
+				white_portable_engine = 32.0
+				blue_portable_engine = 32.0
+				orange_portable_engine = 32.0
 
 #.
 #Settings for sub-level assembly

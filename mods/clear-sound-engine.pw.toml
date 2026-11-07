@@ -1,0 +1,13 @@
+name = "Clear sound engine"
+filename = "soundclear-1.2.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "4a60791b78c7f5ba1dad15b13dd62b2897797468"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8482035
+project-id = 1604073
