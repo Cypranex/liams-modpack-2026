@@ -1,0 +1,25 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "zeta:flag",
+      "flag": "hedges"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "L",
+    "W"
+  ],
+  "key": {
+    "L": {
+      "item": "betterend:helix_tree_leaves"
+    },
+    "W": {
+      "tag": "betterend:helix_tree_logs"
+    }
+  },
+  "result": {
+    "id": "everycomp:q/dtbetterend/helix_tree_hedge",
+    "count": 2
+  }
+}

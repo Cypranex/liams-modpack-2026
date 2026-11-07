@@ -1,0 +1,25 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "zeta:flag",
+      "flag": "hedges"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "L",
+    "W"
+  ],
+  "key": {
+    "L": {
+      "item": "betternether:willow_leaves"
+    },
+    "W": {
+      "tag": "betternether:willow_logs"
+    }
+  },
+  "result": {
+    "id": "everycomp:q/dtbetternether/willow_hedge",
+    "count": 2
+  }
+}
