@@ -1,0 +1,25 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "zeta:flag",
+      "flag": "hedges"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "L",
+    "W"
+  ],
+  "key": {
+    "L": {
+      "item": "regions_unexplored:eucalyptus_leaves"
+    },
+    "W": {
+      "tag": "regions_unexplored:eucalyptus_logs"
+    }
+  },
+  "result": {
+    "id": "everycomp:q/dtru/eucalyptus_hedge",
+    "count": 2
+  }
+}

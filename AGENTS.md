@@ -343,3 +343,103 @@ six armor types, consumption/components, equipment/protection and inventory/save
 round trips. Tests use fresh temporary worlds, not real saves. Review call sites
 and codec before updating pinned providers; retire only when upstream snapshots
 the stack. Do not alter Nitrogen's global codec or suppress encoding errors.
+
+## Skyroot chest save compatibility (2026-11-07)
+
+`mods/liams-skyroot-chest-compat-1.0.0.jar` restores only the historical
+`everycomp:q/aether/skyroot_chest` and `everycomp:q/aether/trapped_skyroot_chest`
+registrations using Every Compat's native blocks/items/block entities. Ascended
+Quark registers its alternatives even when its module is disabled, which makes
+Every Compat skip these saved IDs. A config toggle alone cannot restore them.
+Keep both upstream mods installed. The companion is pinned to Every Compat
+1.21-2.11.57 and Ascended Quark 1.1.7, Minecraft 1.21.1 / NeoForge 21.1.264+.
+Install on client and server and restart both; registry additions require both.
+
+Disable only AQ Skyroot normal/trapped chest acquisition: per-block conditions
+hide their creative/JEI entries and two exact recipe overrides use a NeoForge
+false condition. Keep AQ block/item/block-entity registrations and existing
+inventories usable. Do not delete/remap these IDs or disable the whole Skyroot
+woodset/Deep Aether integration as routine cleanup. Preserve all unrelated
+Every Compat overlap checks and the targeted hazardous blacklist behavior.
+
+Source/build/native checks: `/home/liam/Projects/minecraft-mods/skyroot-chest-compat`.
+Run `build.py` and `verify.py`: require baseline missing-ID reproduction, exact
+registry/recipe delta, original/AQ normal/trapped inventory/component/name
+round trips, double chests, native crafting and save/restart checks. The forced
+AQ-module profile must disable only its chests while retaining its Skyroot post.
+Test-only Zeta production-mode fixture code must never ship. Review tips and
+loot resource scope for dependency changes; see development evidence under
+`docs/skyroot-chest-compat-2026-11-07/`. Existing pack-wide loot/tips fingerprint
+failures predate this companion; do not refresh unrelated baselines blindly.
+
+No real saves are migrated. Old chests recover only if their saved block/entity
+data still exists; data already saved as air/discarded needs a suitable backup.
+Installing this companion alone cannot reconstruct erased inventory contents.
+
+## Recipe format and missing-item compatibility (2026-11-07)
+
+The 108 reviewed overrides live under `kubejs/data/{cocktailsdelight,everycomp,
+cataclysm_spellbooks,fcru,shieldexp}/recipe/`. Keep them in the late KubeJS data
+layer: Every Compat dynamically regenerates its hedge recipes after ordinary
+Paxi datapacks. Do not move those fixes to a lower-priority datapack.
+
+Forty-eight Cocktails Delight filling/emptying recipes use Create 6 output
+`id` fields and `neoforge:single` sized-fluid inputs, preserving item counts and
+250 mB volumes. Forty-four hedge recipes use the installed DT leaf definition's
+registered primitive-leaf item, retaining native log tags, patterns, hedge
+feature conditions and two-item outputs. Do not replace every JSON `item` key:
+item ingredients and Create item/fluid outputs use different codecs.
+
+Eleven dormant Cataclysm Spellbooks recipes, two obsolete RU shrub-cutting
+recipes, two optional Vegan Delight pouring recipes and one Savage & Ravage
+shield recipe are conditioned before decoding. Do not enable missing content,
+invent replacement items or remove valid remaining recipes to silence errors.
+Preserve the optional pouring volumes (250/1000 mB) and Savage & Ravage's actual
+NeoForge mod condition. Re-review conditions when optional providers are added.
+
+Tooling/provenance: `/home/liam/Projects/minecraft-mods/recipe-compatibility`.
+Review changed original/provider hashes deliberately; regenerate with
+`build_overrides.py`, check with `check_overrides.py [--deployed]`, and run
+`verify.py` in fresh temporary worlds. Require all 108 baseline failures,
+92 repaired/16 guarded targets, native crafting/processing and wrong-input
+checks, unchanged unrelated recipes and resource-reload stability. Test-only
+Zeta/BCLib production fixture shims must never ship. Review tips and synchronize
+only manifest-listed files. Restart server/clients after deployment. No saves,
+loot tables, progression gates or previous Skyroot chest fixes are modified.
+
+## Loot JSON compatibility repairs (2026-11-07)
+
+Ten exact overrides live in Exploration Loot Balance under `data/aethersdelight`,
+`data/mynethersdelight`, `data/spawn`, `data/cocktailsdelight`,
+`data/somakespells` and `data/cataclysm_spellbooks`. Tooling/input hashes/native
+checks are in `/home/liam/Projects/minecraft-mods/loot-compatibility`.
+
+Preserve the four wing modifiers' attacker/knife predicates, exclusive raw/cooked
+fire checks, counts and native Looting chances. The two bastion modifiers rename
+only Farmer's Delight's obsolete `lootTable` field to `table`; never add a second
+route/pool or alter the native helper tables. Keep post-modifier dimension
+filtering and Remastered exemptions unchanged.
+
+The active Spawn Ant Mound table keeps all valid weights out of 25; its removed
+roly-poly reward becomes an empty weight-1 slot. This native custom brushable
+block is created by dirt-rot processing and is outside the selected vanilla/Lootr
+suspicious-sand/gravel crystal inventory. The coverage ledger records it as a
+native exclusion, not a generic reward root. Do not redirect it to a replacement
+mob/item, renormalize its valid rewards, or add unapproved crystal/bonus pools.
+
+Guard the unused upper-hops table without changing active `hops_crop` harvests.
+Infernal Blaze loot requires the actual Born in Chaos provider/item, matching
+its native compatibility registration. A single conditional-disabled resource
+handles Cataclysm Spellbooks' dangling prison modifier; do not replace the global
+modifier index, fabricate missing rewards, or use an air-item no-op. Re-review
+and retire these guards when upstream actually supplies compatible resources.
+
+Run `check_overrides.py [--deployed]` and `verify.py`; require native knife/fire/
+Looting and negative cases, seeded exact bastion comparison, unchanged anthill
+probabilities and active hops harvests. Run the existing loot/dimension/Lootr/pity
+and selected 2% archaeology checks using `prepare_regression.py` plus the native
+rate checker. Native evidence is in development `docs/loot-compatibility-2026-11-07/`.
+Use targeted loot sync, review tips and refresh packwiz. Existing broader jar/
+archaeology coverage fingerprints include unrelated unreviewed mod changes;
+do not refresh them blindly or claim full current-pack coverage from subset
+checks. Restart for new rolls; do not modify real saves or generated inventories.

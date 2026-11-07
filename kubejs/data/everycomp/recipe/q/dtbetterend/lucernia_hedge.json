@@ -1,0 +1,25 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "zeta:flag",
+      "flag": "hedges"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "L",
+    "W"
+  ],
+  "key": {
+    "L": {
+      "item": "betterend:lucernia_leaves"
+    },
+    "W": {
+      "tag": "betterend:lucernia_logs"
+    }
+  },
+  "result": {
+    "id": "everycomp:q/dtbetterend/lucernia_hedge",
+    "count": 2
+  }
+}
