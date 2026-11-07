@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "AGENTS.md"
-hash = "ce14a18ed0f2e7d794cff95eccd427b14a794329634e187641be2a118166789f"
+hash = "1165bddd144ce91f750998c263cfa26ef47079d3778dd3fb2a22e683e4fbb1d6"
 
 [[files]]
 file = "config/aether-client.toml"
@@ -919,7 +919,7 @@ hash = "987cd6e308c13f5aa6d01b704e0d4d01b5b72be9878febdc36ab40da7fc226d7"
 
 [[files]]
 file = "datapacks/Exploration Loot Balance/README.md"
-hash = "ed9dd0ef3c74f5fb83898491807deab439fbe92631e7a1b20d05522e2d0762ba"
+hash = "f5ccefb162398e08a1a1e84dfab114a6e41fb9f27e5695712e2b2180b8bd251a"
 
 [[files]]
 file = "datapacks/Exploration Loot Balance/RESTORE-PITY-PLAN.md"
@@ -935,7 +935,31 @@ hash = "b58026c20275beb043af974277ac96091fa7937e103f6c293c1fb7ddf33cadab"
 
 [[files]]
 file = "datapacks/Exploration Loot Balance/coverage-inventory.json"
-hash = "18f34107c8e551c891cce1300d6fb12d4e435d4d037159f36524cdb8374a1fc8"
+hash = "0151aa6909baf2892380fc47073ed0ddb4c0312f25f181e723cc3a6229554d3b"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/aethersdelight/loot_modifiers/scavenging_cooked_wings_from_flying_cow.json"
+hash = "2a63745fca46ad13b160d95904e2f05ae40fa499ad342632c99407c7f650928d"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/aethersdelight/loot_modifiers/scavenging_cooked_wings_from_phyg.json"
+hash = "b201fa90e891fe43789c7fbd69d17666e0ef397c494bf5d5c248ec8ff8b070bd"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/aethersdelight/loot_modifiers/scavenging_wings_from_flying_cow.json"
+hash = "911d2230e5013d24c756cb85aaf4bb2431886a52344c7fe0b1d0f51870c4b1b3"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/aethersdelight/loot_modifiers/scavenging_wings_from_phyg.json"
+hash = "e63ebc03308d1949b88b876ba4af3f579beee6cce2a8cab8bf72456c02c0b6d1"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/cataclysm_spellbooks/loot_modifiers/archaeology/cursed_pyramid_prison_modifier.json"
+hash = "21b11674b18c3fb0d8292095cf7c12bca82ef4054ec3f1cd8d1e0222d1655629"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/cocktailsdelight/loot_table/blocks/hops_upper.json"
+hash = "650d70630d9c1bc9ecd63218e622d5fec0decf57a0466c6d02c0b72bed4db47c"
 
 [[files]]
 file = "datapacks/Exploration Loot Balance/data/irons_spellbooks/loot_modifiers/chest_loot/vanilla_generic_loot_modifier.json"
@@ -1502,8 +1526,24 @@ file = "datapacks/Exploration Loot Balance/data/lootintegrations/loot/yung_villa
 hash = "7ef962f9307d8bfde68001f67e13ed2987a780be94266137b0c10a862a06c89e"
 
 [[files]]
+file = "datapacks/Exploration Loot Balance/data/mynethersdelight/loot_modifiers/add_loot_bastion_hoglin_stable.json"
+hash = "2ca6a8c428d5bc964f68a1fd0a9ec125168fb7a04710c230fbe05b25a502690a"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/mynethersdelight/loot_modifiers/add_loot_bastion_treasure.json"
+hash = "d42d8060adf1daf267990ce9f752a7f26275cd6433283372a06c49763c2d5705"
+
+[[files]]
 file = "datapacks/Exploration Loot Balance/data/neoforge/loot_modifiers/global_loot_modifiers.json"
 hash = "d53e275a17b6286f1f469c8cf155220883db22f3e69acbdd71b5602689c2269c"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/somakespells/loot_table/entities/infernal_blaze.json"
+hash = "40136f0cb0aaeb95897879490867b6155023730a0d3a88c500e98f92692f3e2e"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/spawn/loot_table/archaeology/anthill.json"
+hash = "9faa08923bd784830e3b7ded8ae8bf681fe9c6af75cedb6ca55011927aa9cff1"
 
 [[files]]
 file = "datapacks/Exploration Loot Balance/dimension-policy.json"
@@ -3678,6 +3718,250 @@ file = "kubejs/data/bannercapes/curios/entities/capes.json"
 hash = "bfd9b6826f330ee651da84f21409b0cb4db52b27c795981a373fd3667117a111"
 
 [[files]]
+file = "kubejs/data/cataclysm_spellbooks/recipe/engineers_power_glove.json"
+hash = "45a194f5aab7f6a71b1e1ffbc74bfdd97a91e9a71573da4bba1b42069ba95e5c"
+
+[[files]]
+file = "kubejs/data/cataclysm_spellbooks/recipe/excel_upgrade_cooldown.json"
+hash = "8f8d19ef80508cd789bc0f998d96ec73947b0b823e866c5aa610a2efa8120ab8"
+
+[[files]]
+file = "kubejs/data/cataclysm_spellbooks/recipe/excel_upgrade_mana.json"
+hash = "6653d3f596bf20833e3cc790101516767c43286823eb93e7372e2bf47d50628b"
+
+[[files]]
+file = "kubejs/data/cataclysm_spellbooks/recipe/excel_upgrade_resistence.json"
+hash = "77c33d24ad3dc343afd9ed2a5d2f6e1a62391d7e472c302d05562fb65c87cbf4"
+
+[[files]]
+file = "kubejs/data/cataclysm_spellbooks/recipe/mechanical_brace.json"
+hash = "73bd447faf79af6cbd275f8aaf4fcab1cb5b57e08ba9f4a878e0e0fb156b83d1"
+
+[[files]]
+file = "kubejs/data/cataclysm_spellbooks/recipe/murasama.json"
+hash = "28c8c9c16cef25008812e02b05446b2ee97d54a15894c49120302bbd37458d1f"
+
+[[files]]
+file = "kubejs/data/cataclysm_spellbooks/recipe/the_berserker_upgrade.json"
+hash = "c10e4382c5e4295236bb64662154d5248c4d03e040c92c1e25062e7f2c32ea13"
+
+[[files]]
+file = "kubejs/data/cataclysm_spellbooks/recipe/the_combuster_upgrade.json"
+hash = "b8d76bdd706bf88c63265f5a8018dc297309b94197675433a3f70c467dcb15ff"
+
+[[files]]
+file = "kubejs/data/cataclysm_spellbooks/recipe/the_nightstalker_upgrade.json"
+hash = "7edcd207616c6b535f51a5760ed0757ada0bf834fcffa62d4a89db5731a87d05"
+
+[[files]]
+file = "kubejs/data/cataclysm_spellbooks/recipe/the_ordeal_upgrade.json"
+hash = "331ddbc7bb3b71dbcc1539e705f09fdcc47289bf254aab6bc8fdd97f13454fea"
+
+[[files]]
+file = "kubejs/data/cataclysm_spellbooks/recipe/the_subjugator_upgrade.json"
+hash = "720aaa76bdfb727dfc7de91e6ccb65e23139cc1fab510a5879629ff0dad81b22"
+
+[[files]]
+file = "kubejs/data/cocktailsdelight/recipe/emptying/blue_curacao.json"
+hash = "2936f8347517cd9ca11226b6f0e4bfc711d187e5c3c553425da8691c92ac6f70"
+
+[[files]]
+file = "kubejs/data/cocktailsdelight/recipe/emptying/bock.json"
+hash = "4e7ea708fbfbbaba8cc98f6f6676c40dec5f04db2c9b59389b96bc93ae01e84e"
+
+[[files]]
+file = "kubejs/data/cocktailsdelight/recipe/emptying/cream_ale.json"
+hash = "dd63cde3d885a71d44ec7ab40f6ec6dc320bdbe6f8372ff1698e5b5a068aec82"
+
+[[files]]
+file = "kubejs/data/cocktailsdelight/recipe/emptying/gin.json"
+hash = "e0a2e9b131e9081f7962f1a6978dcef105eca6b56e57539d8585f13b78efd179"
+
+[[files]]
+file = "kubejs/data/cocktailsdelight/recipe/emptying/hard_cider.json"
+hash = "10fa054f1c56a6e7682af533f174e38c428dde6a52b15f09992983ccc5ccb292"
+
+[[files]]
+file = "kubejs/data/cocktailsdelight/recipe/emptying/hard_lemonade.json"
+hash = "35b6525a2470cd85d51cbedc84862de36a6371297871329009496cf7a9a5d4dc"
+
+[[files]]
+file = "kubejs/data/cocktailsdelight/recipe/emptying/ipa.json"
+hash = "2764aa226516a62f831057b2a4848f35b27e7aa9a7f70dd1ee026598240856c9"
+
+[[files]]
+file = "kubejs/data/cocktailsdelight/recipe/emptying/kraken_rum.json"
+hash = "d6c00fe572302f9c000f960897b3621042950b2ff783ab30526d74fb7aea5379"
+
+[[files]]
+file = "kubejs/data/cocktailsdelight/recipe/emptying/milk_stout.json"
+hash = "125cf02da100d6813763bebb70106dd13377e520a22b806c3991a5ac232f01e2"
+
+[[files]]
+file = "kubejs/data/cocktailsdelight/recipe/emptying/moonshine.json"
+hash = "5ffd985f61f2cc2153201d37da6b4f150b0b67ad1aba9b9813dc56a0feb117e2"
+
+[[files]]
+file = "kubejs/data/cocktailsdelight/recipe/emptying/mulled_wine.json"
+hash = "4aa4674f793da59e2a5a24545d859abdf2b7fd85d5d1ce82495d5a4adc66217f"
+
+[[files]]
+file = "kubejs/data/cocktailsdelight/recipe/emptying/nut_brown_ale.json"
+hash = "49528e97dc456bcee6cda22f773edaa6581bfc6306ea2789f450fcb82dc12dbe"
+
+[[files]]
+file = "kubejs/data/cocktailsdelight/recipe/emptying/peach_wine.json"
+hash = "731ccac7fd47d2d5d1128e444a335b4bfd7b3fc92a1dff4c5a1d7a74554a3ff8"
+
+[[files]]
+file = "kubejs/data/cocktailsdelight/recipe/emptying/pilsner.json"
+hash = "37dfca9de765787131e6bbc614070b2cf0bf52d5e3eb7bad258aa7f3f72cce38"
+
+[[files]]
+file = "kubejs/data/cocktailsdelight/recipe/emptying/plum_wine.json"
+hash = "2a07dab8790439151f7eb923956c3d18b15311b6bfe8daa497cbd5e950a93a19"
+
+[[files]]
+file = "kubejs/data/cocktailsdelight/recipe/emptying/porter.json"
+hash = "32384d145347d30f8050906a6f270c7eafa88dffbfd2cd8c0b0bd94ab956780c"
+
+[[files]]
+file = "kubejs/data/cocktailsdelight/recipe/emptying/red_ale.json"
+hash = "e193a24c4962be1ef712b71aaa23d80371f214186658b1284688fac9ac69e29f"
+
+[[files]]
+file = "kubejs/data/cocktailsdelight/recipe/emptying/red_wine.json"
+hash = "8e2259bb7ac46873e61300823e4d47519f7ec0b38c6d01bc8f99aecf9821fec4"
+
+[[files]]
+file = "kubejs/data/cocktailsdelight/recipe/emptying/rum.json"
+hash = "4f929f999ab1e48fa9f338410e9a82e971b80b5dd3c4b50b1f42f857df467a7e"
+
+[[files]]
+file = "kubejs/data/cocktailsdelight/recipe/emptying/stout.json"
+hash = "c461dd07f3c9c2fab4e0e98475a5c7ad82ea2f64f5068fb0de709cb83805fc2b"
+
+[[files]]
+file = "kubejs/data/cocktailsdelight/recipe/emptying/sweet_red_wine.json"
+hash = "c299f4ed26606b420ad2d1f3242efad02d858ba8d8070ac68ab6bbf72d2bd3b4"
+
+[[files]]
+file = "kubejs/data/cocktailsdelight/recipe/emptying/tequila.json"
+hash = "a551d2e73059ff295f88f200c58a10c8ebc10213508b7cec9985b9d970226c00"
+
+[[files]]
+file = "kubejs/data/cocktailsdelight/recipe/emptying/whiskey.json"
+hash = "d74e2e7213d976387181200714a32662fce501745b54ddc2b262b2e80634d3f7"
+
+[[files]]
+file = "kubejs/data/cocktailsdelight/recipe/emptying/white_wine.json"
+hash = "ca3c485d167f7a811b3be59a07037e3f02567f49e022d79bb082f318b268cf52"
+
+[[files]]
+file = "kubejs/data/cocktailsdelight/recipe/filling/blue_curacao.json"
+hash = "56d022aea042fa559e891bef181bba958a7096b2012c800cd3699c9c9da08ed2"
+
+[[files]]
+file = "kubejs/data/cocktailsdelight/recipe/filling/bock.json"
+hash = "ed4f412e27debfd29a7757ba82da0fba50ecfe0e8212c0b51d44c811baf19e8f"
+
+[[files]]
+file = "kubejs/data/cocktailsdelight/recipe/filling/cream_ale.json"
+hash = "f41de1303b6625be6384e2492f528f7671cb491ec2dc80938204f095ac3fc59f"
+
+[[files]]
+file = "kubejs/data/cocktailsdelight/recipe/filling/gin.json"
+hash = "0875946cd0b3311485f4450eda46f8eb108d654beede4ca56c0a4f1f38fd58cd"
+
+[[files]]
+file = "kubejs/data/cocktailsdelight/recipe/filling/hard_cider.json"
+hash = "d474236f3e6ebedfa37551a363a21c93801c9ccd9c9addc1fc78075e77eccd71"
+
+[[files]]
+file = "kubejs/data/cocktailsdelight/recipe/filling/hard_lemonade.json"
+hash = "9c2ed87cb438933c229b440a1a0fa5f901955bbe4cba631ba51ffcd03cbdde76"
+
+[[files]]
+file = "kubejs/data/cocktailsdelight/recipe/filling/ipa.json"
+hash = "e9fe99bebd2527f11eeb1ecf831fba5e6c5abd456fa392b8fa9dc094ce14cd70"
+
+[[files]]
+file = "kubejs/data/cocktailsdelight/recipe/filling/kraken_rum.json"
+hash = "cec5b112b3efc708124f023f19fcfb8c635858130c8f143d27b3236576604579"
+
+[[files]]
+file = "kubejs/data/cocktailsdelight/recipe/filling/milk_stout.json"
+hash = "209003a28bad6f8c730fa9ba5e44c2169e98632a39bfcedaa0cfaaff7ef7e389"
+
+[[files]]
+file = "kubejs/data/cocktailsdelight/recipe/filling/moonshine.json"
+hash = "9fe09e028ec5e7da5c1ed9c9836580fc92c05345d462dfbd30d315530db2bdf7"
+
+[[files]]
+file = "kubejs/data/cocktailsdelight/recipe/filling/mulled_wine.json"
+hash = "5389338eee290f7ddee0fa54d476ce1cfd9ec20a7183027c967ec9a8d78f4268"
+
+[[files]]
+file = "kubejs/data/cocktailsdelight/recipe/filling/nut_brown_ale.json"
+hash = "fc9b8aed7c65ccd3c21737c5820386cbc6a2d2f79427c1a9cd1a9d6df8930772"
+
+[[files]]
+file = "kubejs/data/cocktailsdelight/recipe/filling/peach_wine.json"
+hash = "47f9850cd21346a05832cba84b58df97b356a36499bc535f0ac273419ef82a16"
+
+[[files]]
+file = "kubejs/data/cocktailsdelight/recipe/filling/pilsner.json"
+hash = "3bc178eb49654390cf1045837d96e7462cf352b4653fe79474cbafc3b1566b0f"
+
+[[files]]
+file = "kubejs/data/cocktailsdelight/recipe/filling/plum_wine.json"
+hash = "707946ef8a707d85b9cb9536213f5f90e0bcc30e1fa918ae71849f2d2abf985f"
+
+[[files]]
+file = "kubejs/data/cocktailsdelight/recipe/filling/porter.json"
+hash = "46e777f233da38e783edf9f606c322830fe9db24ca0544ca017b9b1602ee39ea"
+
+[[files]]
+file = "kubejs/data/cocktailsdelight/recipe/filling/red_ale.json"
+hash = "ada9b8680153e88b9ec663c03731d70bbb4a36225bff7a002b380c82d8c0ce99"
+
+[[files]]
+file = "kubejs/data/cocktailsdelight/recipe/filling/red_wine.json"
+hash = "c99adf8fc41c3f12c6cc9707f6d6b6638e1ac23d218ba23de30484e1393e2f9c"
+
+[[files]]
+file = "kubejs/data/cocktailsdelight/recipe/filling/rum.json"
+hash = "7463e283aaee37b9d90088fe01571df9f7c6974a843baba57bf52820daf35b5d"
+
+[[files]]
+file = "kubejs/data/cocktailsdelight/recipe/filling/stout.json"
+hash = "4c63e489604d83b14cf0c0fd9e411d011d60d611779ccf85dd2238a24f0860bc"
+
+[[files]]
+file = "kubejs/data/cocktailsdelight/recipe/filling/sweet_red_wine.json"
+hash = "17fcab62ec5c05982da2359e6893454f73f476f1e45d18ae3526d3937d2b5a46"
+
+[[files]]
+file = "kubejs/data/cocktailsdelight/recipe/filling/tequila.json"
+hash = "463635a68a7ea3bbebc78b43f449d81865f67f6ee2cfc93868bf0fe433785c15"
+
+[[files]]
+file = "kubejs/data/cocktailsdelight/recipe/filling/whiskey.json"
+hash = "d63c74625863cb3ceab9104859b270720d1fa71c7c5305fc2e479be154cc18e9"
+
+[[files]]
+file = "kubejs/data/cocktailsdelight/recipe/filling/white_wine.json"
+hash = "cfb6055884a86c1fab99b266f53132434d30fb6857c78b33d2c12b1d9a843d40"
+
+[[files]]
+file = "kubejs/data/cocktailsdelight/recipe/pouring/soymilk_bottle.json"
+hash = "4a2507c5c4fd915cff324b5d0cd6aa38fd8230989e7b3b74648c20e767cf8b86"
+
+[[files]]
+file = "kubejs/data/cocktailsdelight/recipe/pouring/soymilk_bucket.json"
+hash = "76292cdad67a7ce9cacb92e83ad3f0aeaa7c945e1a42f4f30719af4ac9244b9c"
+
+[[files]]
 file = "kubejs/data/curios/tags/item/back.json"
 hash = "faed3e3bafb19ab754aeea69c4e4a1637cfbb126b6e7f1a0c9aaf7bade1ec174"
 
@@ -3688,6 +3972,190 @@ hash = "1d5c5de2e3cdafc4fb852ebb8b83858188c60f38a8851de6e3f1b6d39dfdd5e2"
 [[files]]
 file = "kubejs/data/curios/tags/item/torso.json"
 hash = "e0653002effdd327b9ab2de6cf2253af18c027054276a98fe5efa6881192a953"
+
+[[files]]
+file = "kubejs/data/everycomp/recipe/q/dtaddon_lib/cypress_hedge.json"
+hash = "6be19e6daecf58b16ffd93dc9f3b58668b9bbdb53a8773133cec955b4685ce0e"
+
+[[files]]
+file = "kubejs/data/everycomp/recipe/q/dtaddon_lib/palm_hedge.json"
+hash = "e3655d9a8b595c723163497684aac0fbdb81dd5d34a3030113a3673dbec8b01f"
+
+[[files]]
+file = "kubejs/data/everycomp/recipe/q/dtaether/conberry_hedge.json"
+hash = "be2374d6ce0a0f2604800b5f3dd833e9ba9a2bd18f633a662c1e98ae72ace9f6"
+
+[[files]]
+file = "kubejs/data/everycomp/recipe/q/dtaether/cruderoot_hedge.json"
+hash = "bb688e40e62bf48ab54dd816b307c539bc23aef578db98f844f6cb2e942688c5"
+
+[[files]]
+file = "kubejs/data/everycomp/recipe/q/dtaether/golden_oak_hedge.json"
+hash = "a5eafd3e43aeeb5f5ac344c81d0fd4f9ff27b169b1c6d5a7eb8a521ae6b9e222"
+
+[[files]]
+file = "kubejs/data/everycomp/recipe/q/dtaether/roseroot_hedge.json"
+hash = "ec4da290b71256f7b566defaa87bac694fc278c61dca3bfcf84198e894b4ec8e"
+
+[[files]]
+file = "kubejs/data/everycomp/recipe/q/dtaether/skyroot_hedge.json"
+hash = "901fb5ef9bfa172e57f24da44c6e58f7de60a9cb2dcc89efdc007a3c8674b9c1"
+
+[[files]]
+file = "kubejs/data/everycomp/recipe/q/dtaether/sunroot_hedge.json"
+hash = "d5d6923afca5de60b77df2fc416b84ed55b9a3cac3baa2f47afa7fb32a692598"
+
+[[files]]
+file = "kubejs/data/everycomp/recipe/q/dtaether/yagroot_hedge.json"
+hash = "a49c835ad990a947e4a437bc9b46961cfcbd9fec31a97df91b9d52f2317a64d0"
+
+[[files]]
+file = "kubejs/data/everycomp/recipe/q/dtbetterend/dragon_tree_hedge.json"
+hash = "646596ce24acf20407d85c3d473b0ed95ab8d4a1e92f2a55e1c099ffc69e98fa"
+
+[[files]]
+file = "kubejs/data/everycomp/recipe/q/dtbetterend/helix_tree_hedge.json"
+hash = "5d6bc74bf87ac22484127d39ae29e5ed7ef1a7b4b127d0ea739e81146f88a371"
+
+[[files]]
+file = "kubejs/data/everycomp/recipe/q/dtbetterend/lacugrove_hedge.json"
+hash = "b5eca5ec5445ebbd5678b50b1103c6a91c2c1dc88b448fed2c3597edf87a43c2"
+
+[[files]]
+file = "kubejs/data/everycomp/recipe/q/dtbetterend/lucernia_hedge.json"
+hash = "9bd7b6aedba8a66579d113266f9d50f27f720bb4f519a75367a9461ec2f23c06"
+
+[[files]]
+file = "kubejs/data/everycomp/recipe/q/dtbetterend/pythadendron_hedge.json"
+hash = "ec1aeada335d484b9b81d0dc1efb72ef42cc9be448a85f400f83fa69a01415c9"
+
+[[files]]
+file = "kubejs/data/everycomp/recipe/q/dtbetterend/tenanea_hedge.json"
+hash = "795d517e852ee9bf1b29c073d0ea6e13cdb88865874446b8d1be088c26bb7407"
+
+[[files]]
+file = "kubejs/data/everycomp/recipe/q/dtbetterend/umbrella_tree_hedge.json"
+hash = "e1effa70992934c86931a7d36682747b7b423f60f0b46ce0d452304347427082"
+
+[[files]]
+file = "kubejs/data/everycomp/recipe/q/dtbetternether/anchor_tree_hedge.json"
+hash = "7fb478ba1f1f69dcab6caa1392f43d682d6c5ff67b3f931e331cf92ae11adb90"
+
+[[files]]
+file = "kubejs/data/everycomp/recipe/q/dtbetternether/nether_sakura_hedge.json"
+hash = "d9196e726ae38b551e123216f57546770589e9fe7e9c2fe0c7c83451d1275b20"
+
+[[files]]
+file = "kubejs/data/everycomp/recipe/q/dtbetternether/rubeus_hedge.json"
+hash = "0ad907b9b019c673434b7a059cc4d5a3ceca08cef3476868754dffc8907af469"
+
+[[files]]
+file = "kubejs/data/everycomp/recipe/q/dtbetternether/willow_hedge.json"
+hash = "48ea0b608353a49003cce2bb32f1be0759d11c656ec60452a5bd93aaf55bc55c"
+
+[[files]]
+file = "kubejs/data/everycomp/recipe/q/dtquark/ancient_hedge.json"
+hash = "0ec821874cb7d0de8fcc37631aa83821a77c96cc16dca98c5b6767aacb03aaeb"
+
+[[files]]
+file = "kubejs/data/everycomp/recipe/q/dtquark/azalea_hedge.json"
+hash = "cfabcaf3a3469a5bc66f69c1832865da0f717a7aa39adc6ed7149729beed8785"
+
+[[files]]
+file = "kubejs/data/everycomp/recipe/q/dtru/bamboo_hedge.json"
+hash = "3e35493158318dbcc50fe31ccdecc3d7a523becab3c94b3ad7fc421aa01f3e08"
+
+[[files]]
+file = "kubejs/data/everycomp/recipe/q/dtru/baobab_hedge.json"
+hash = "3b98d98228cd6663ef50fc63e8752196949d1f798ed8df97ddbcd2ced9dbda4f"
+
+[[files]]
+file = "kubejs/data/everycomp/recipe/q/dtru/blackwood_hedge.json"
+hash = "199ee4a4fa29d08c5f2d186374d25ec9685433500b4dce0186a37684e453c348"
+
+[[files]]
+file = "kubejs/data/everycomp/recipe/q/dtru/brimwood_hedge.json"
+hash = "d5715038404df7eeb09907aaf906154697f1b0c66b275ee97a63ecd676c8c980"
+
+[[files]]
+file = "kubejs/data/everycomp/recipe/q/dtru/cobalt_hedge.json"
+hash = "fee508fc13dc98080ed600a72a8a8322fde4750f3d2cf9a8828f4d4d40dcc449"
+
+[[files]]
+file = "kubejs/data/everycomp/recipe/q/dtru/cypress_hedge.json"
+hash = "1059be98b6e69685a56c56855b26d820cd30bdf5b80fc4a78f8cd2d7bdf06e4d"
+
+[[files]]
+file = "kubejs/data/everycomp/recipe/q/dtru/dead_hedge.json"
+hash = "40098b19605bb2de8d00b4f35f3eb82e1e6631d87b0ea23f4858142284ae65a9"
+
+[[files]]
+file = "kubejs/data/everycomp/recipe/q/dtru/enchanted_birch_hedge.json"
+hash = "7162d7b02f5e8de5de5346d77a30649dc5ac4d2b202b1a975844c22dd9426488"
+
+[[files]]
+file = "kubejs/data/everycomp/recipe/q/dtru/eucalyptus_hedge.json"
+hash = "aeebae2f33783ec6e43f9293df1cf4ded52ed79f38e4747c067e739e825060cb"
+
+[[files]]
+file = "kubejs/data/everycomp/recipe/q/dtru/joshua_hedge.json"
+hash = "aa21d05bae411e974cfa1dc0395282810228e4e87d0f2eaf9e4ef7cb1229d086"
+
+[[files]]
+file = "kubejs/data/everycomp/recipe/q/dtru/kapok_hedge.json"
+hash = "7830d722e889a3724f0b222328b199657fb8263dbcbec6fd49ae72229edbbd05"
+
+[[files]]
+file = "kubejs/data/everycomp/recipe/q/dtru/larch_hedge.json"
+hash = "bb5b325f25d387a3ada9282710e822c037fa6be5535117f63c591682a0981bd1"
+
+[[files]]
+file = "kubejs/data/everycomp/recipe/q/dtru/magnolia_hedge.json"
+hash = "d23c2dfbd1c02940d16ca031fb67c61ece29c8d0b98ae1b458b28e3cb447ed7f"
+
+[[files]]
+file = "kubejs/data/everycomp/recipe/q/dtru/maple_hedge.json"
+hash = "d5dd5bc54272234198445df9b34437ebd2f08f622be58673dd2079da48b9f370"
+
+[[files]]
+file = "kubejs/data/everycomp/recipe/q/dtru/palm_hedge.json"
+hash = "e0057ee26cad4d455420b5ffb61ec65db15b34f1ac74276b82424b25594da2a1"
+
+[[files]]
+file = "kubejs/data/everycomp/recipe/q/dtru/pine_hedge.json"
+hash = "6fd6c73632c0059460b803774a09cd83758fb87e4f56409af6a63bb0bfccb761"
+
+[[files]]
+file = "kubejs/data/everycomp/recipe/q/dtru/redwood_hedge.json"
+hash = "bf5d81f49949b9b4a18a3a259594795c1524b76f71077132ca4eed1a34f21c4d"
+
+[[files]]
+file = "kubejs/data/everycomp/recipe/q/dtru/reef_jungle_hedge.json"
+hash = "61c5df2b0e90432cdde12597614d1b42547bdf8a198c337cfc2c828fc83b0af6"
+
+[[files]]
+file = "kubejs/data/everycomp/recipe/q/dtru/silver_birch_hedge.json"
+hash = "52443d440fd258088706c29b34f20d59e23a0e39493bd0ac40da9be607039fe0"
+
+[[files]]
+file = "kubejs/data/everycomp/recipe/q/dtru/socotra_hedge.json"
+hash = "baec9ca17cb71ca7ea4473abc27905d813caa218f184f1272a2cf4251c2a2366"
+
+[[files]]
+file = "kubejs/data/everycomp/recipe/q/dtru/twisting_birch_hedge.json"
+hash = "25f181dc8a3eba0884d247ccd425e0fcf421bff653d9d4f310b76182835a5da9"
+
+[[files]]
+file = "kubejs/data/everycomp/recipe/q/dtru/willow_hedge.json"
+hash = "cb3e9845586db2963c07fc1c8b8e9cb6a94fc54a62e178d8adcc5a9a926367c7"
+
+[[files]]
+file = "kubejs/data/fcru/recipe/dead_steppe_shrub.json"
+hash = "5d4344ccf580fa69e6c25fd98a9e75f92258fdcddf8c13c1e365a782822e64af"
+
+[[files]]
+file = "kubejs/data/fcru/recipe/small_desert_shrub.json"
+hash = "ce60df645efc887ff35f55006b7dfe4cf71fb559a7fbf82d5b841660fc571dff"
 
 [[files]]
 file = "kubejs/data/liams_cape_compat/tags/item/body_equipment.json"
@@ -3718,8 +4186,20 @@ file = "kubejs/data/luckyswardrobe/curios/slots/torso.json"
 hash = "17bd4b9b500e694e22ff75b7b16480c1a85bc66949cad8483715611491a3eff4"
 
 [[files]]
+file = "kubejs/data/shieldexp/recipe/griefer_shield.json"
+hash = "a9d8fdf103a8d013e7e2d0a66faae02e948b28a287f88145dbc35f3abd03bfc5"
+
+[[files]]
 file = "kubejs/server_scripts/aeronautics_aether_recipes.js"
 hash = "12760927998983b88e9cc938a1be730abf1df245615a2190734719889157255d"
+
+[[files]]
+file = "kubejs/server_scripts/aether_altar_modded_repairs.js"
+hash = "b9a10fa7bd4f59eee02714ed4299623c7c73e32f0336b8dd3d907ffce52e5bc9"
+
+[[files]]
+file = "kubejs/server_scripts/aether_altar_restrictions.js"
+hash = "52734d4dfeef31aa5380ba3eaa92d88db7657df22c6d3b31d23c7da4f5504a3a"
 
 [[files]]
 file = "kubejs/server_scripts/astikorcarts_chest_recipes.js"
@@ -4720,6 +5200,11 @@ hash = "6bf1d0355898b8ac17d0b8546f3799a6eeef80dadd2570a5c3b6524ebc1335bb"
 metafile = true
 
 [[files]]
+file = "mods/notenoughrecipebook.pw.toml"
+hash = "00c1f4daa049500e6aca53a746fbc9d53578131dae2171418e780442f7c72a2d"
+metafile = true
+
+[[files]]
 file = "mods/oceans-delight.pw.toml"
 hash = "7bf7c8369bd28212a1e294c60310ccb72f1eb773630970e6ab106ae666766cd3"
 metafile = true
@@ -4781,7 +5266,7 @@ metafile = true
 
 [[files]]
 file = "mods/punchymoves.pw.toml"
-hash = "f549af41ac3d9dc5803077e2e6ff8e457d3f030da4be24835e347629f65e1d2e"
+hash = "43ab19a5d5e420e414f0af81d9327980cbc846f338861ffb5bea5321eec073d5"
 metafile = true
 
 [[files]]
@@ -4955,14 +5440,12 @@ hash = "993b4e4970e1a5ef2fe7c6712212f57a84dcf8b31d4b6863540b6395c4f9ce09"
 metafile = true
 
 [[files]]
-file = "mods/spawn-animations-compats.pw.toml"
+file = "mods/spawn-animations-compats.pw.toml.disabled"
 hash = "2136f6e6edb0d6df44e9f9630ac722a0af55340b79e209265376b63c3184312d"
-metafile = true
 
 [[files]]
-file = "mods/spawn-animations.pw.toml"
+file = "mods/spawn-animations.pw.toml.disabled"
 hash = "5e91e5aea16a60450da6df9c5cdb056ae5f2d25967fcc8b16c7ccb3a7403b7c9"
-metafile = true
 
 [[files]]
 file = "mods/spawn-mod.pw.toml"
@@ -5094,7 +5577,7 @@ metafile = true
 
 [[files]]
 file = "mods/worldweaver-neoforge.pw.toml"
-hash = "c56ce9e2c1734c9b5f5cfd53ec1d758fd6df4053635c10814408bb9b0432d5ae"
+hash = "c7812eda3fdc8cf823c886707f5d3f51c838754fccff39447c52d991f079bb99"
 metafile = true
 
 [[files]]
