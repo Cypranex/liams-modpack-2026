@@ -5186,10 +5186,6 @@ file = "mods/liams-ragdoll-revival-1.0.1.jar"
 hash = "e4a5b75cd01c67134f1788c8cb08365430bedf263d99c937caf9d9d7b35a56b4"
 
 [[files]]
-file = "mods/liams-skyroot-chest-compat-1.0.0.jar"
-hash = "6fc65fae0ede1c4e4e215769f6a5be509c993d508b200fa897fc6d415445eab9"
-
-[[files]]
 file = "mods/liams-spelunkers-charm-compat-1.0.0.jar"
 hash = "27d0807223539c736cd6ee0f8fea3d5ba3eb9d04c525c3d2141c988b895039e4"
 
