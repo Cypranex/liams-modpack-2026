@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "AGENTS.md"
-hash = "46b6e14c8f1a37a14e29f1b471cf2bed0601c6bfa34912f63d9fe7c073598ffd"
+hash = "ce14a18ed0f2e7d794cff95eccd427b14a794329634e187641be2a118166789f"
 
 [[files]]
 file = "config/aether-common.toml"
@@ -134,7 +134,7 @@ hash = "8a69c2b8f0733135c12c50166292cc4fd800686ae1797103bce9183bf82e7fd1"
 
 [[files]]
 file = "config/incontrol/spawn.json"
-hash = "22fbe495b4181f20c89aea413cd21446717df6ded67e2a6426dfa49c914fd79e"
+hash = "6540f10637cf8cef34829e39d054fae688f9427bf66d6c1c3579f836012adf4a"
 
 [[files]]
 file = "config/incontrol/spawner.json"
@@ -183,6 +183,10 @@ hash = "387f06b34cd9029999d070113ef689a83d0367ed6ebcf127370d08b6cda7581c"
 [[files]]
 file = "config/modernfix-mixins.properties"
 hash = "1ea0142ca426103fa7c62bc43999ddf420102e8558a5463d3ca07961bf4dc400"
+
+[[files]]
+file = "config/moogs_structures.json"
+hash = "2d97698e16a106999c1753b78e452b2cebd6459606c83796ec7c9a39bc1415fa"
 
 [[files]]
 file = "config/mowziesmobs-common.toml"
@@ -602,7 +606,7 @@ hash = "bdb7fcdd4fe9001c45e23ea36042dcdb4cb6ce957e2cca86040d28e605a5b5ca"
 
 [[files]]
 file = "datapacks/Deep Ore Progression/data/liams_modpack/neoforge/biome_modifier/add_deep_cave_ores.json"
-hash = "c9eb652ad5a980b28e9eccb95800a3fbdccaa9093a0896c0ae9d5ea8d94c19e3"
+hash = "591ae1e08cb1e905578191ee6d546754e30841ef163416b6fce3bb6d503f6657"
 
 [[files]]
 file = "datapacks/Deep Ore Progression/data/liams_modpack/worldgen/configured_feature/deep_cave_diamond.json"
@@ -685,6 +689,14 @@ file = "datapacks/Deep Ore Progression/data/liams_modpack/worldgen/configured_fe
 hash = "ba3300fd61f200ce4dedbb0529b0381029d9401e9efd3078d68e34046929591c"
 
 [[files]]
+file = "datapacks/Deep Ore Progression/data/liams_modpack/worldgen/placed_feature/deep_cave_coal_taper.json"
+hash = "5fab1842cbab3631eaf79f433e8ee1746bb9a14f6d2883a64d9ec98a7e099a05"
+
+[[files]]
+file = "datapacks/Deep Ore Progression/data/liams_modpack/worldgen/placed_feature/deep_cave_copper_taper.json"
+hash = "e3ec96aa01f462247cec66a33844280e937821fea813c52d90d9a361fa4519a1"
+
+[[files]]
 file = "datapacks/Deep Ore Progression/data/liams_modpack/worldgen/placed_feature/deep_cave_diamond.json"
 hash = "744447ff9e75bcca995acaceaf526d08be26963aa37b98901ba89961776f4ddb"
 
@@ -710,15 +722,43 @@ hash = "71f3beb64855566f401bd681b943ff403bb37852e05571cad59b9336275b75e1"
 
 [[files]]
 file = "datapacks/Deep Ore Progression/data/liams_modpack/worldgen/placed_feature/deep_cave_iron.json"
-hash = "ec81a98486bae78e36fa00a7e8451aed9a2caa7a51264b63acfc6f984e599221"
+hash = "c9decc909564f042c53e346621880dc9e73c8fcb89c6a2afca353aa29028375d"
 
 [[files]]
 file = "datapacks/Deep Ore Progression/data/liams_modpack/worldgen/placed_feature/deep_cave_iron_deep.json"
-hash = "e7a3d26c00fb10e1d0f9475481a78f5d43e49414263d124ae9736e6c65ce31ab"
+hash = "a4af02e0565f6975c9fa84c40bf731abbf5c1c2f2649e57b82d59dc9157239b3"
+
+[[files]]
+file = "datapacks/Deep Ore Progression/data/liams_modpack/worldgen/placed_feature/deep_cave_iron_deepslate.json"
+hash = "a163004ebca1299c0d7221bf3b36675ebb31fc5db502c2928a60dca07013a4ad"
 
 [[files]]
 file = "datapacks/Deep Ore Progression/data/liams_modpack/worldgen/placed_feature/deep_cave_iron_lower.json"
-hash = "4f5001062d9e0ecf7e615c9c236be2b5c2c6084fc249334d66fe0df05c85e82c"
+hash = "20bb30a5f9cb28bda5d2351aad74ec8c00b8174d5fc47140d991bf9f05377b40"
+
+[[files]]
+file = "datapacks/Deep Ore Progression/data/liams_modpack/worldgen/placed_feature/deep_cave_iron_walls_bottom.json"
+hash = "3431d37da7b5928e2d0d0b027b0bfbce389850fbcf1b9fde8b4b9e09fc284c57"
+
+[[files]]
+file = "datapacks/Deep Ore Progression/data/liams_modpack/worldgen/placed_feature/deep_cave_iron_walls_deep.json"
+hash = "ce0efa161b16f17a3ce64470078a165535e16483234d5dfc8a230a75c371fef7"
+
+[[files]]
+file = "datapacks/Deep Ore Progression/data/liams_modpack/worldgen/placed_feature/deep_cave_iron_walls_deepslate.json"
+hash = "927bf62bdd79fee46d6e29424d9e04ed0f1c44647657689ed2f81edd15ed7d85"
+
+[[files]]
+file = "datapacks/Deep Ore Progression/data/liams_modpack/worldgen/placed_feature/deep_cave_iron_walls_lower.json"
+hash = "dab7b933e282e0eda8a83605a329f94293bedacd406d3d72cf6c8dcddf55bcb1"
+
+[[files]]
+file = "datapacks/Deep Ore Progression/data/liams_modpack/worldgen/placed_feature/deep_cave_iron_walls_shallow.json"
+hash = "8d8481926d1b3f2dc08336d354643bd612e52f94e1176d4e702e55b3086d8ab2"
+
+[[files]]
+file = "datapacks/Deep Ore Progression/data/liams_modpack/worldgen/placed_feature/deep_cave_iron_walls_upper.json"
+hash = "844921c9678d5b715f74d7b501da3c034fd7b534475c7d3990bd97243a34588e"
 
 [[files]]
 file = "datapacks/Deep Ore Progression/data/liams_modpack/worldgen/placed_feature/deep_cave_lapis.json"
@@ -739,6 +779,14 @@ hash = "7eef617f2a786c7a39b2b13ba00de50bcc01bb58e1b4d1708bb67e63596eee41"
 [[files]]
 file = "datapacks/Deep Ore Progression/data/liams_modpack/worldgen/placed_feature/deep_cave_mithril_lower.json"
 hash = "bfecd19d41ec5a9ae092a44d98b2b4fc486c2dbd5430ac95f33777b8df887ed7"
+
+[[files]]
+file = "datapacks/Deep Ore Progression/data/liams_modpack/worldgen/placed_feature/deep_cave_redstone.json"
+hash = "4183c0706f1669663a40ccf1e17ab87156a2b201e49071be9b65e58586c915c8"
+
+[[files]]
+file = "datapacks/Deep Ore Progression/data/liams_modpack/worldgen/placed_feature/deep_cave_redstone_deepslate.json"
+hash = "040699c48a4adaa7cf1f693cea4a7afa693f1632e5b40a0499c65a405659d1b6"
 
 [[files]]
 file = "datapacks/Deep Ore Progression/data/liams_modpack/worldgen/placed_feature/deep_cave_silver.json"
@@ -763,6 +811,10 @@ hash = "ad42d32613c79cbc743388f8742e2ca5431ced7627371ee2f7a6debee66c24d7"
 [[files]]
 file = "datapacks/Deep Ore Progression/data/liams_modpack/worldgen/placed_feature/deep_cave_spinel_lower.json"
 hash = "753a5766179291b8b1f2e47da6a76893a70916f2e413414500689c0b09419c09"
+
+[[files]]
+file = "datapacks/Deep Ore Progression/data/liams_modpack/worldgen/placed_feature/deep_cave_zinc_taper.json"
+hash = "3060695648fc9762e09655fd2efb517af536592ba70a2fa9e7f00a2b09a1d260"
 
 [[files]]
 file = "datapacks/Deep Ore Progression/data/minecraft/worldgen/placed_feature/ore_diamond.json"
@@ -790,11 +842,15 @@ hash = "df4007db00c176816fa7aef1097dfb4ae0a14d6f1a013ee16d3393f18506a33e"
 
 [[files]]
 file = "datapacks/Deep Ore Progression/data/minecraft/worldgen/placed_feature/ore_iron_middle.json"
-hash = "7b4f632dbc6a9a5c1db3d445d7882680360978fbe19c4c0abbd595f0920d66ab"
+hash = "137b34082fb88af28ae01c1bb74803fc01df4d0073e417d175eb1bbe6cf84f61"
 
 [[files]]
 file = "datapacks/Deep Ore Progression/data/minecraft/worldgen/placed_feature/ore_iron_small.json"
-hash = "f4fecfafef6fb22f7c3fd3eee7dd4da37493cf83a452d10799246dbde0ace7bb"
+hash = "fd01a4a47d4735b8c425db08ec8f121b17d47902d59f8915b9298512690c59ac"
+
+[[files]]
+file = "datapacks/Deep Ore Progression/data/minecraft/worldgen/placed_feature/ore_iron_upper.json"
+hash = "11a467071b4d769016e22e3cbd20f32acf2bdff79c5e56ac16f3ebb9a8eb45a4"
 
 [[files]]
 file = "datapacks/Deep Ore Progression/data/minecraft/worldgen/placed_feature/ore_lapis.json"
@@ -806,11 +862,11 @@ hash = "79eaa70a93c137caeb69971693c767214bf7b11c3cacb936b5071edb50d387e6"
 
 [[files]]
 file = "datapacks/Deep Ore Progression/data/minecraft/worldgen/placed_feature/ore_redstone.json"
-hash = "f53068df315ad225bf5b6c9faad1c12c72958500dd773565ac283b8e22571422"
+hash = "89b1bc5b2d73db91c868ab8b7304142ffb1dcf7fab94aa6f9c5bf6fc4ccae4a4"
 
 [[files]]
 file = "datapacks/Deep Ore Progression/data/minecraft/worldgen/placed_feature/ore_redstone_lower.json"
-hash = "508b51d433af854090fbd4dc3eebc6ae0c752bac4078676207778f241ebafddd"
+hash = "a34478369cacf59708ec99a74ca9997e57d5b417f01c1f7862d154efdffd86ae"
 
 [[files]]
 file = "datapacks/Deep Ore Progression/data/quark/worldgen/placed_feature/ore_lapis_extra.json"
@@ -822,7 +878,7 @@ hash = "bbb0316d5df4d9d97fd8ffb490d97689795d8c5667cd0f8775ea9f823a6b845f"
 
 [[files]]
 file = "datapacks/Deep Ore Progression/pack.mcmeta"
-hash = "af2d3ac9317cf9cf3ec0a4c1e97c71204e3089d174510aef705bb78389284f43"
+hash = "eaff96c746ee20d3035e78f7824e3ee18270425b818fa4ca7ccd876670d987d4"
 
 [[files]]
 file = "datapacks/Deep Underground Structures/data/betterdungeons/worldgen/structure/skeleton_dungeon.json"
@@ -3730,7 +3786,7 @@ hash = "17bd4b9b500e694e22ff75b7b16480c1a85bc66949cad8483715611491a3eff4"
 
 [[files]]
 file = "kubejs/server_scripts/aeronautics_aether_recipes.js"
-hash = "3b13a70d79f12e8e11480b78068728b529a5e27da8dd532d554047b6303ed5b4"
+hash = "12760927998983b88e9cc938a1be730abf1df245615a2190734719889157255d"
 
 [[files]]
 file = "kubejs/server_scripts/astikorcarts_chest_recipes.js"
@@ -3861,6 +3917,11 @@ hash = "187eafde5974beee1263538b462b7b8fe2fc8948c5d413980d9796d55928580b"
 metafile = true
 
 [[files]]
+file = "mods/ascended-quark.pw.toml"
+hash = "439ecce312b5bfbbd2b04ad6ab63ce032cdfad53df1b35c89a9ba362f25e484a"
+metafile = true
+
+[[files]]
 file = "mods/astikorcarts-redux.pw.toml"
 hash = "5d9bdb9a8bcd02fe6f867d52c52a8f20100422de6db324b02543a1d2aff362fa"
 metafile = true
@@ -3882,7 +3943,7 @@ metafile = true
 
 [[files]]
 file = "mods/azurelib.pw.toml"
-hash = "a34cb879da54e767b65a35fce4b10f7215667acbe2fd68fdd9cecb819f0de696"
+hash = "895cc3994140c8a99292db86367894fd5539c2b313da51ddb9f6448b117daa99"
 metafile = true
 
 [[files]]
@@ -3940,8 +4001,13 @@ hash = "438170e7e704a1b8ed67bf0521dc5d77cdeeaabf6f729dba9f8dfdad75330acf"
 metafile = true
 
 [[files]]
+file = "mods/better-end-cities-better-end.pw.toml"
+hash = "c69e82907697da4787e1fe03fc1ec35f75bdbb451c7453fe0b267da3706a3949"
+metafile = true
+
+[[files]]
 file = "mods/better-mob-combat-reimagined.pw.toml"
-hash = "db0b7d18e57866c65e20fe560471911fc5797033cdf1ce4f9a90fec5645f6875"
+hash = "6d30c0bf5a3d60db0fb1a78373882ade1492a3f941bb5944ca67866b68a523a7"
 metafile = true
 
 [[files]]
@@ -3962,6 +4028,11 @@ metafile = true
 [[files]]
 file = "mods/biolith.pw.toml"
 hash = "cc79b689faf345a5aa19ead3423726b6f87c267d686fb5807738e0cd20756679"
+metafile = true
+
+[[files]]
+file = "mods/bits-n-tracks-ce.pw.toml"
+hash = "9eeb8742db75c2e69f4b375b28234fe1d10ed59b19eac03748021276b40b8e1b"
 metafile = true
 
 [[files]]
@@ -4039,7 +4110,7 @@ metafile = true
 
 [[files]]
 file = "mods/cocktails-delight.pw.toml"
-hash = "51967f740fbb78313c9d4e1611b816d1ae8ba5639817883f44a33540acc5578f"
+hash = "f40af75b2609a7f855997394f65f2b8d05c1e4dd253924c24fbbcf61ed2fd184"
 metafile = true
 
 [[files]]
@@ -4317,7 +4388,7 @@ metafile = true
 
 [[files]]
 file = "mods/every-compat.pw.toml"
-hash = "d173124cbe77b9b97005675ba13ac2868bade78186de21ec2876a6726d5d3f81"
+hash = "da13f3c6f0ae14645c29ee2049304917b77a3f74a26374511ccf3dacfcead254"
 metafile = true
 
 [[files]]
@@ -4672,6 +4743,10 @@ file = "mods/liams-fowl-population-1.0.1.jar"
 hash = "8d1385f2b68438f450fc12890ed097a8d31f4b8910308f7b43c5aa301fdce17e"
 
 [[files]]
+file = "mods/liams-moa-armor-sync-fix-1.0.0.jar"
+hash = "7503e6f0e940098ed7c01243f5ae3f7bcd0c4b4dd28b242547a24848660fd321"
+
+[[files]]
 file = "mods/liams-native-ore-placement-1.0.1.jar"
 hash = "fabf2e6db29510739d8dc6885ac6e4f5036930e023edc929eaf3d839753df140"
 
@@ -4767,8 +4842,23 @@ hash = "b54addad8fd6bdd9ee141d740de8c346b1744258cb8c8ab663a61054e48e308e"
 metafile = true
 
 [[files]]
+file = "mods/mes-moogs-end-structures.pw.toml"
+hash = "66e27964c598c333a9082695989d293e554c42a8a295c6cfdc56685bb01d0f4e"
+metafile = true
+
+[[files]]
+file = "mods/mns-moogs-nether-structures.pw.toml"
+hash = "79239b5a547be0fae2e8f2a96b2807f538b416a47fcca57233058ca1ec92c2c9"
+metafile = true
+
+[[files]]
 file = "mods/modernfix.pw.toml"
 hash = "ef65836e005bd42a0f40df30a94eba1ad7ee5ed3194b11eafbeadc64edb44252"
+metafile = true
+
+[[files]]
+file = "mods/moogs-structure-lib.pw.toml"
+hash = "0856f0ead9a5035c74709a848b475e93de9f46bb65cca153bbed7371c3b9b074"
 metafile = true
 
 [[files]]
@@ -5028,7 +5118,7 @@ metafile = true
 
 [[files]]
 file = "mods/shatterbyte-lib.pw.toml"
-hash = "3f552bbdc42f07fd7d5695ced1d27d774af63cff5460be45817939e5f8e4f9de"
+hash = "4faf76c8ebe0d8a863576ea66f0efcd8a571f0cf6edc0faa763f6ad2f077dd3f"
 metafile = true
 
 [[files]]
@@ -5123,7 +5213,7 @@ metafile = true
 
 [[files]]
 file = "mods/streams-reflowing.pw.toml"
-hash = "e435e575d164b1310c0af181e820ae8728804f85e39b1ad15539137c83d0afff"
+hash = "c15f828f93a3ee5765f882d1be4a39fb1386f7e040e1d2e1d81e513c9af23f04"
 metafile = true
 
 [[files]]
