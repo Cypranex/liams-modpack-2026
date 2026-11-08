@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "AGENTS.md"
-hash = "df1777a50a0ab37e9e940440a62b5cdfc30ff4619c1f53cecb87a9b5e0a1396f"
+hash = "292134cf0574925a0013c86e123af9c09bb4a6e239071200dd753ca1976537fc"
 
 [[files]]
 file = "config/aether-common.toml"
@@ -4640,6 +4640,11 @@ hash = "2aa588c0760e81c40fae4df29e14643ddb19d40474bf177206a8f687e70b953e"
 metafile = true
 
 [[files]]
+file = "mods/create-connected.pw.toml"
+hash = "6ac362d60bc8b13e03a5b6b9cdf9c7676f65d3e89e87c66f18514e7ee164cdb0"
+metafile = true
+
+[[files]]
 file = "mods/create-deep-seas.pw.toml"
 hash = "0da26360c1416e697090468c3cca1b7f0398117fd993c5b9f7a7808ba344a99d"
 metafile = true
@@ -4647,6 +4652,11 @@ metafile = true
 [[files]]
 file = "mods/create-emf-compat-skyhook.pw.toml"
 hash = "e9077163c023577cb6a75c826ab59322ea254f79c14377acf65fdace67145253"
+metafile = true
+
+[[files]]
+file = "mods/create-steam-n-rails-1.21.1.pw.toml"
+hash = "80332cead695f1e3c27e99133a48709767d1106f836792bb2fc4d594b88f1a68"
 metafile = true
 
 [[files]]
@@ -5193,6 +5203,10 @@ hash = "fabf2e6db29510739d8dc6885ac6e4f5036930e023edc929eaf3d839753df140"
 [[files]]
 file = "mods/liams-ragdoll-revival-1.0.1.jar"
 hash = "e4a5b75cd01c67134f1788c8cb08365430bedf263d99c937caf9d9d7b35a56b4"
+
+[[files]]
+file = "mods/liams-soundclear-compat-1.0.0.jar"
+hash = "6a1ef9fe88ff61ec87eb73d8b1b997d4bb542dd578ed1d083603edf1a3a06318"
 
 [[files]]
 file = "mods/liams-spelunkers-charm-compat-1.0.0.jar"
