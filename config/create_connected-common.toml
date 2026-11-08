@@ -1,0 +1,3 @@
+# Disable Kinetic Batteries; keep all other Create Connected features at their defaults.
+[features]
+kinetic_battery = false
