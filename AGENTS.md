@@ -465,3 +465,25 @@ refresh packwiz after deployment. Restart clients; actual portal audio still
 needs gameplay verification. This CME fix alone does not establish the cause
 of every total-silence event. Evidence is in development
 `docs/create-sound-thread-compat-2026-11-08/`.
+
+## Clear Sound Engine / RSLS compatibility (2026-11-08)
+
+Keep client companion `mods/liams-soundclear-compat-1.0.0.jar` alongside Clear
+Sound Engine artifact 1.2.0 (internal mod version 1.0.0) and RSLS 1.1.17. Its
+required client-only Mixin replaces Clear Sound's two volume-toggle call sites
+with filtered category stops and no restore. It skips MASTER and preserves
+MUSIC/RECORDS, native timer/music guard/retry, settings and unrelated queued work.
+RSLS queues the old MASTER mute/restore pair; mute calls stopAll, which discards
+its queued restore and leaves listener gain zero. Do not repair this by blindly
+resetting volume, delaying restoration, or disabling RSLS.
+
+Source/build/native-method queue fixture:
+`/home/liam/Projects/minecraft-mods/soundclear-rsls-compat`. Run `build.py` and
+`verify.py`; require baseline gain-zero/restore-loss reproduction,
+`CLEAR_SOUND_FIXED_PASS` and `CLEAR_SOUND_SERVER_PASS`. Review the exact native
+SoundManager volume/stop paths and RSLS dispatch/cancellation before updating
+providers. Preserve two exact redirects and client-only scope. The companion
+has no content/data/loot/tips resources. Review tips, refresh packwiz and restart
+clients; no server change or save edits. Evidence and gameplay limits are under
+development `docs/clear-sound-gain-2026-11-08/`. The Create sound-thread companion
+addresses a separate exception and remains installed.
