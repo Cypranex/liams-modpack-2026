@@ -443,3 +443,25 @@ Use targeted loot sync, review tips and refresh packwiz. Existing broader jar/
 archaeology coverage fingerprints include unrelated unreviewed mod changes;
 do not refresh them blindly or claim full current-pack coverage from subset
 checks. Restart for new rolls; do not modify real saves or generated inventories.
+
+## Create / RSLS sound-thread compatibility (2026-11-08)
+
+Keep Raise Sound Limit Simplified enabled. Client companion
+`mods/liams-create-sound-compat-1.0.0.jar` publishes immutable Create ambience
+position/volume frames on the client thread for RSLS audio reads. It fixes the
+observed SoundScape.determineMeanPos ConcurrentModificationException through
+Sable's initial playback-position hook. Required client-only Mixin, pinned to
+Create 6.0.10 and RSLS 1.1.17; reviewed with Sable 2.0.6 and Minecraft 1.21.1 /
+NeoForge 21.1.264+. No server installation or save edits are needed.
+
+Source: `/home/liam/Projects/minecraft-mods/create-sound-thread-compat`.
+Run `build.py` and `verify.py`; require baseline native CME reproduction,
+`CREATE_SOUND_FIXED_PASS` and `CREATE_SOUND_SERVER_PASS`. Preserve native sound
+math, five-tick mean cache cadence, relative volume/pitch and stop lifecycle.
+Review constructor/play/tick thread ownership and installed audio hooks before
+provider updates. Do not move live counter iteration onto the audio executor or
+replace the fix with exception suppression. Review tips/resource scope and
+refresh packwiz after deployment. Restart clients; actual portal audio still
+needs gameplay verification. This CME fix alone does not establish the cause
+of every total-silence event. Evidence is in development
+`docs/create-sound-thread-compat-2026-11-08/`.

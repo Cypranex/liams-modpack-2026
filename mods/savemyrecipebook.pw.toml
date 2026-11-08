@@ -1,0 +1,13 @@
+name = "SaveMyRecipeBook"
+filename = "smrb-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "808fd90107f20f4a4268bf3164be7fd521e83509"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8164806
+project-id = 1557605
