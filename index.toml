@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "AGENTS.md"
-hash = "1165bddd144ce91f750998c263cfa26ef47079d3778dd3fb2a22e683e4fbb1d6"
+hash = "df1777a50a0ab37e9e940440a62b5cdfc30ff4619c1f53cecb87a9b5e0a1396f"
 
 [[files]]
 file = "config/aether-client.toml"
@@ -5048,6 +5048,10 @@ file = "mods/liams-corpse-expiry-fix-1.1.0.jar"
 hash = "0abf90fc3cfb13acf7f1550d67a2c99b69698b300c30b02ae1c94ba6f89d3649"
 
 [[files]]
+file = "mods/liams-create-sound-compat-1.0.0.jar"
+hash = "a079fd2b26e8b1534b0aab0136fa5ce489db50573ae0e8750e857f7c97696716"
+
+[[files]]
 file = "mods/liams-dungeon-crawl-compat-1.0.0.jar"
 hash = "dc6eb7afde7f07301d5ce0a071a3371171c3f5b62197aea80cfef485f5573a43"
 
@@ -5202,11 +5206,6 @@ metafile = true
 [[files]]
 file = "mods/no-f3.pw.toml"
 hash = "6bf1d0355898b8ac17d0b8546f3799a6eeef80dadd2570a5c3b6524ebc1335bb"
-metafile = true
-
-[[files]]
-file = "mods/notenoughrecipebook.pw.toml"
-hash = "00c1f4daa049500e6aca53a746fbc9d53578131dae2171418e780442f7c72a2d"
 metafile = true
 
 [[files]]
@@ -5388,6 +5387,11 @@ metafile = true
 [[files]]
 file = "mods/sable_player_ragdoll-1.21.1-0.7.5-rider-fix.jar"
 hash = "31faa6088a07a711211ea9c39ea4fb3013a216c2d4012ffda373ef41a7f1b9f7"
+
+[[files]]
+file = "mods/savemyrecipebook.pw.toml"
+hash = "f8eacf1492d1ff3eb743ad3c597768359e376d6bc4497e88dbc66760b7671f5f"
+metafile = true
 
 [[files]]
 file = "mods/servercore.pw.toml"
