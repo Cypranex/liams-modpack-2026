@@ -65,6 +65,10 @@ file = "config/create-client.toml"
 hash = "a24ca52e9c93885f97f5cea636b5f34fc7be72d800b20aee21ad4e9bc10b97dc"
 
 [[files]]
+file = "config/create_connected-common.toml"
+hash = "547e124d251830eeca5a9ed2eafb55f6231421c4d2178249ed37daa394160571"
+
+[[files]]
 file = "config/create_submarine-client.toml"
 hash = "8876263a73287c1a3b103858d1d1f0d682dc3e224902044697908cbf1f52f56c"
 
