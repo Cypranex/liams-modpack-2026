@@ -2,7 +2,11 @@ hash-format = "sha256"
 
 [[files]]
 file = "AGENTS.md"
-hash = "292134cf0574925a0013c86e123af9c09bb4a6e239071200dd753ca1976537fc"
+hash = "7f4b8585fd0320331b4331aa515de5606da884074ad0813c74c5b3cdd98f0d34"
+
+[[files]]
+file = "config/aeronauticswinds-common.toml"
+hash = "b9d2c3f0732dd96c3a1295d9406d1a7d4eede16a0b5636f68fe484bb2f768a45"
 
 [[files]]
 file = "config/aether-client.toml"
@@ -335,7 +339,7 @@ hash = "b7bda4e98f68a8a7e8e12cb3890946181a3f2e5dde64c41d78853ab352fcdd18"
 
 [[files]]
 file = "config/spelunkers_charm-common.toml"
-hash = "7225ac690b707a1fd0436e9cb13ea52a144d6ae8f1b245eb8d704cd00498f10d"
+hash = "143f328ea55a3c410d6b0a07dca9d73f8640e9171d2a33b6bdd2c61040479e9a"
 
 [[files]]
 file = "config/supplementaries-client.toml"
@@ -1628,6 +1632,66 @@ hash = "91dfb715179055ce5163326937e8608f201a80d8fe3088a74d203d6a30696a1f"
 [[files]]
 file = "datapacks/Full Depth Caves/pack.mcmeta"
 hash = "eff2d2a23b538f0e59a02ef33768c0bc20d96bad9bf34e7d4f8febc8f83b043b"
+
+[[files]]
+file = "datapacks/Hedge's Bestiary Combat Drops/README.md"
+hash = "da9c8cb964699716e935431b63b24715c83314f66dbda6e4346edd2b3e14c4da"
+
+[[files]]
+file = "datapacks/Hedge's Bestiary Combat Drops/data/hedges_bestiary/loot_table/entities/blurpum.json"
+hash = "d71a0043f9883517dff28456f96a67e6e36221a50c6c36aac67e487e2bc3718a"
+
+[[files]]
+file = "datapacks/Hedge's Bestiary Combat Drops/data/hedges_bestiary/loot_table/entities/burodon.json"
+hash = "8cc79cbc55faafe6de3962d69597a1987ade23ab5df1186faa66df2eebb480f6"
+
+[[files]]
+file = "datapacks/Hedge's Bestiary Combat Drops/data/hedges_bestiary/loot_table/entities/chub.json"
+hash = "8bfd3ed04eb15063b3ee67807bfee6a0c367f2bcf7f9bf52c0c9ab4f0daa269d"
+
+[[files]]
+file = "datapacks/Hedge's Bestiary Combat Drops/data/hedges_bestiary/loot_table/entities/dawn_dove.json"
+hash = "ad65cf1eb9d37a74fdee8b33bf18ba53334cdfae2200688dd1a8abd7c151a976"
+
+[[files]]
+file = "datapacks/Hedge's Bestiary Combat Drops/data/hedges_bestiary/loot_table/entities/ferocetus.json"
+hash = "22c3f3523f84d189fe519ec24ec9701514ede32f9e42d5b050eb675914b137b9"
+
+[[files]]
+file = "datapacks/Hedge's Bestiary Combat Drops/data/hedges_bestiary/loot_table/entities/gild_glider.json"
+hash = "add8cc394a28fbcbab048e07561c76f204735892cb3fe946c99077a8f7fc57a7"
+
+[[files]]
+file = "datapacks/Hedge's Bestiary Combat Drops/data/hedges_bestiary/loot_table/entities/nib_nib.json"
+hash = "7014a5ea0df8dc1fe76ef45c64ca5988940d13c70537be37c6e802fd4d1f743a"
+
+[[files]]
+file = "datapacks/Hedge's Bestiary Combat Drops/data/hedges_bestiary/loot_table/entities/plombo.json"
+hash = "48b0c7412a2850e9320ebb8fb06c0fd085128e7a0528287185b7338bf0c315bc"
+
+[[files]]
+file = "datapacks/Hedge's Bestiary Combat Drops/data/hedges_bestiary/loot_table/entities/spotted_striker.json"
+hash = "b5cc5ebd655d5552540587be013c77ce161fbb3de8561d376d8a7a7519ac1c03"
+
+[[files]]
+file = "datapacks/Hedge's Bestiary Combat Drops/data/hedges_bestiary/loot_table/entities/tearacuda.json"
+hash = "c13bc03acd74f9ed7bdf277652e08ead1b71cf1374716b1947e1e1e1768c2b86"
+
+[[files]]
+file = "datapacks/Hedge's Bestiary Combat Drops/data/hedges_bestiary/loot_table/entities/zappet.json"
+hash = "2773dfa0d2f05efb2b4e197523767eb9859e07c23ca45dd9631a89e2844c9e21"
+
+[[files]]
+file = "datapacks/Hedge's Bestiary Combat Drops/data/hedges_bestiary/loot_table/entities/zipperling.json"
+hash = "d968b7c862b16427775305a0ff12e4b64122e8e626912b38c04ba8580c8c4e84"
+
+[[files]]
+file = "datapacks/Hedge's Bestiary Combat Drops/data/hedges_bestiary/loot_table/entities/zippermouth.json"
+hash = "cb4212cc6af7e08a7009e881a4eb033fe5abd19777dea39c23093659b5b3dde9"
+
+[[files]]
+file = "datapacks/Hedge's Bestiary Combat Drops/pack.mcmeta"
+hash = "c7a0efbb32550b2b5a4af0a55298a2a5696900e60a366831615e7b117f040d24"
 
 [[files]]
 file = "datapacks/Hybrid Aquatic NeoForge Depth Disable/data/hybrid_aquatic/hybrid_aquatic/density_function_wrapper/ocean_depth_modifier.json"
@@ -3022,6 +3086,42 @@ file = "datapacks/Mowzie Biome Compatibility/pack.mcmeta"
 hash = "70ed0c5eff6cfd96f09a16d848ed9dc845549b4cc9a15773dda7f8f5d13d9976"
 
 [[files]]
+file = "datapacks/No Ocean Ships/README.md"
+hash = "2bec88a17019dac7d0dbc61d1968e8456a7018cb0c5f5dd1ee9862ef4b71d2b0"
+
+[[files]]
+file = "datapacks/No Ocean Ships/data/aquamirae/worldgen/structure/pirate_ship.json"
+hash = "3c8296b3709871f7e88a710ebeb725edac2e07ccd8797cd37e915a5ca235ec18"
+
+[[files]]
+file = "datapacks/No Ocean Ships/data/ctov/worldgen/template_pool/pillager_outpost/beach/features.json"
+hash = "c07e5de7f84e8738b0f4c70ab19415efd8e43144864f3c0d390897579a2c9b8b"
+
+[[files]]
+file = "datapacks/No Ocean Ships/data/ctov/worldgen/template_pool/village/beach/deco.json"
+hash = "305d90f427b52b75c91da9e83499b1fd2d58190de5d5ef7baa16b512d623faf9"
+
+[[files]]
+file = "datapacks/No Ocean Ships/data/formationsoverworld/worldgen/structure/raft.json"
+hash = "9334d94f923aeda98b386c0cdf3e187c90eacaa511f958c0b000a1348524bb5c"
+
+[[files]]
+file = "datapacks/No Ocean Ships/data/grim_kingdoms/worldgen/structure/ship2.json"
+hash = "9f6b40b00e392eac88184f2cae1753dce0f2456650d97d6c9563b93592d4372e"
+
+[[files]]
+file = "datapacks/No Ocean Ships/data/structory/worldgen/structure/boat.json"
+hash = "5a754cb4a6fc0fe41915e7612997338ad5410eacaec288937dea92205f7de86e"
+
+[[files]]
+file = "datapacks/No Ocean Ships/data/supplementaries/worldgen/structure/galleon.json"
+hash = "5879bf1acdcdd284c11a92308446a2c8b803d43d2eab456faabb75c05ec49b1a"
+
+[[files]]
+file = "datapacks/No Ocean Ships/pack.mcmeta"
+hash = "34ba0da56a097fbec29238fba5010ebc2a50ec7e64606050ab7fffa5a5211947"
+
+[[files]]
 file = "datapacks/Permanent Light Progression/README.md"
 hash = "67d2798ba5806797712fcb470c52b104f08c1f37031908886e63288162c8090a"
 
@@ -4194,6 +4294,10 @@ file = "kubejs/data/luckyswardrobe/curios/slots/torso.json"
 hash = "17bd4b9b500e694e22ff75b7b16480c1a85bc66949cad8483715611491a3eff4"
 
 [[files]]
+file = "kubejs/data/minecraft/recipe/torch.json"
+hash = "58c4608b910f565e1271e36dbee472ed429f2d9e2698fa8cafb7ec9ba1d04845"
+
+[[files]]
 file = "kubejs/data/shieldexp/recipe/griefer_shield.json"
 hash = "a9d8fdf103a8d013e7e2d0a66faae02e948b28a287f88145dbc35f3abd03bfc5"
 
@@ -4246,6 +4350,10 @@ file = "kubejs/server_scripts/remove_deep_seas.js"
 hash = "fbba37f5ffe28779bdf00a29e138eff2fff5992de67798182bc551cdceb814f9"
 
 [[files]]
+file = "kubejs/server_scripts/remove_wind_rider_recipe.js"
+hash = "de1179882c64a9d56acfe1481de437aaa57ad460a97c21773659f6b5552f0aee"
+
+[[files]]
 file = "kubejs/server_scripts/startup_commands.js"
 hash = "aec92d31b788863b85cf2b13cd685cdfa75892d8740298b5e042f70c1d6bab02"
 
@@ -4280,6 +4388,11 @@ metafile = true
 [[files]]
 file = "mods/aeronautics-camera-sync.pw.toml"
 hash = "ccd0a3a090f99cec2d34923a8d69f103fb845ae3a40595079c24839c523a1801"
+metafile = true
+
+[[files]]
+file = "mods/aeronautics-winds-and-weather.pw.toml"
+hash = "1b68a8cba16699309b9398e664d7816c0f5bc95bd43dda2d03d0c8ab26b86919"
 metafile = true
 
 [[files]]
@@ -4383,7 +4496,7 @@ metafile = true
 
 [[files]]
 file = "mods/bclib-neoforge.pw.toml"
-hash = "c3c9a50495bda856f0d71e5f71f13dff3a66ce5b41fd70d2ff385f31bef819a4"
+hash = "f625927d49a62f8c1dff430aac72063164fca6fe5fdbbe0e38d54190db475eae"
 metafile = true
 
 [[files]]
@@ -4418,7 +4531,7 @@ metafile = true
 
 [[files]]
 file = "mods/better-mob-combat-reimagined.pw.toml"
-hash = "6d30c0bf5a3d60db0fb1a78373882ade1492a3f941bb5944ca67866b68a523a7"
+hash = "9ba7958411c7c88ed6b1d33724feb658ce7085d286d0d3083e6105232b6800e2"
 metafile = true
 
 [[files]]
@@ -4438,7 +4551,7 @@ metafile = true
 
 [[files]]
 file = "mods/bits-n-tracks-ce.pw.toml"
-hash = "9eeb8742db75c2e69f4b375b28234fe1d10ed59b19eac03748021276b40b8e1b"
+hash = "572842ab313bec0b3917b6ad57da6c6902611bc6bd3d9089e5201062da92d10e"
 metafile = true
 
 [[files]]
@@ -4551,7 +4664,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-aeronautics-climbable-rope.pw.toml"
-hash = "914f2efb2afa0113d5936b0e721fb5c291abb9c2e66944f33fc33be8e33c8a89"
+hash = "b9550555c9db41c89f4b8d5df03f315e33ebe3c397f314be4287a403e01b6b10"
 metafile = true
 
 [[files]]
@@ -4749,7 +4862,7 @@ metafile = true
 
 [[files]]
 file = "mods/explorify.pw.toml"
-hash = "6adce6422e74091638dbd7872270ee58d9a22dc18340580f809cc50c739e0d4f"
+hash = "133a8fa53146424351e19d604b1d47a100797a3361b8cb3c2ee8971ee84f63b4"
 metafile = true
 
 [[files]]
@@ -4804,7 +4917,7 @@ metafile = true
 
 [[files]]
 file = "mods/field-guide.pw.toml"
-hash = "6be3a80953cf4544cf6f486f80239f374794078bcb63c570d98ac989d5c33bf6"
+hash = "62f27ad45a3ac3454fae7f54958aad35d9fd9c5860c6019d4f00651883dbfe36"
 metafile = true
 
 [[files]]
@@ -4913,7 +5026,7 @@ metafile = true
 
 [[files]]
 file = "mods/hedges-bestiary.pw.toml"
-hash = "519a50fe73b647c1291feea4d6f2ce455c41184e3f033bab68e0f33cd0c732ee"
+hash = "01e70d95d68ca773c0ee95ec2d945915fff7f74fa5d92dcc860a2454c357bb3b"
 metafile = true
 
 [[files]]
@@ -5017,7 +5130,7 @@ metafile = true
 
 [[files]]
 file = "mods/knaves-needs.pw.toml"
-hash = "28144b27f38089220cb9c3f4aeb735210eb957a550e72b1cb3653970f5ce4eb0"
+hash = "692b953bf1b339f968e919cba7d97d87fd462e5a43daa69cc916219f1ed362b6"
 metafile = true
 
 [[files]]
@@ -5050,8 +5163,8 @@ file = "mods/liams-aether-worldgen-fix-1.0.1.jar"
 hash = "eff2b2acf978857515ae3e79b7bb47d5a080dce97fb16750dbfcdc50710a3007"
 
 [[files]]
-file = "mods/liams-bestiary-progression-1.0.2.jar"
-hash = "ac2ab95acd32de62c5cc08886bd63d8f356c7f9147c1f89b9e526677d912b745"
+file = "mods/liams-bestiary-progression-1.0.4.jar"
+hash = "f9a5751533e0cc490bc25f423cac0c901cfe0d783f8215692ea3be657fdc1abd"
 
 [[files]]
 file = "mods/liams-cape-compat-1.0.1.jar"
@@ -5092,10 +5205,6 @@ hash = "e4a5b75cd01c67134f1788c8cb08365430bedf263d99c937caf9d9d7b35a56b4"
 [[files]]
 file = "mods/liams-soundclear-compat-1.0.0.jar"
 hash = "6a1ef9fe88ff61ec87eb73d8b1b997d4bb542dd578ed1d083603edf1a3a06318"
-
-[[files]]
-file = "mods/liams-spelunkers-charm-compat-1.0.0.jar"
-hash = "27d0807223539c736cd6ee0f8fea3d5ba3eb9d04c525c3d2141c988b895039e4"
 
 [[files]]
 file = "mods/liams-torch-compat-1.0.5.jar"
@@ -5197,7 +5306,7 @@ metafile = true
 
 [[files]]
 file = "mods/moonlight.pw.toml"
-hash = "e3003f83463910a682f3ea1c419f850fed7bc2c6ff4831144db11228b98e2fb4"
+hash = "b14b3d7f88512f23bccca8e2f133e52e84307679b6eba4e818ce13e8f87e503d"
 metafile = true
 
 [[files]]
@@ -5490,7 +5599,7 @@ metafile = true
 
 [[files]]
 file = "mods/spelunkers-charm-ii.pw.toml"
-hash = "ae881540ee35e2fc22284891e44d3ae313ba22baafab8962087fdbf00d0da4f2"
+hash = "6f681ba28467488d73c8089be9c8084a35b85c13bce82dc4075196cc31d7ba2d"
 metafile = true
 
 [[files]]
