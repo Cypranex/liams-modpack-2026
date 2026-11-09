@@ -4391,9 +4391,8 @@ hash = "ccd0a3a090f99cec2d34923a8d69f103fb845ae3a40595079c24839c523a1801"
 metafile = true
 
 [[files]]
-file = "mods/aeronautics-winds-and-weather.pw.toml"
+file = "mods/aeronautics-winds-and-weather.pw.toml.disabled"
 hash = "1b68a8cba16699309b9398e664d7816c0f5bc95bd43dda2d03d0c8ab26b86919"
-metafile = true
 
 [[files]]
 file = "mods/aether-protect-your-moa.pw.toml"
