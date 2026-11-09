@@ -1,13 +1,13 @@
 name = "EMF Compat: Supplementaries"
-filename = "emf_compat_supplementaries_neoforge_1.21.1_1.1.1.jar"
+filename = "emf_compat_supplementaries_neoforge_1.21.1_1.1.2.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/z4FSlBqI/versions/HczpDeQN/emf_compat_supplementaries_neoforge_1.21.1_1.1.1.jar"
+url = "https://cdn.modrinth.com/data/z4FSlBqI/versions/ify2HjAy/emf_compat_supplementaries_neoforge_1.21.1_1.1.2.jar"
 hash-format = "sha512"
-hash = "5e2ac1df5fdce0534a58ea769c2a92ed9b45fcf785b898a19f91a30e8b57c36c636b3c56664da2507d3e528ad078e590ad42ab2d236793909ac45cdae8046087"
+hash = "99e19475f7b4859823824a852057a889587742387cc6e59289b53a0b05359dc64b4462221c59e80c1c207711e373efbd316a9317a6abe934d1caf59640d64372"
 
 [update]
 [update.modrinth]
 mod-id = "z4FSlBqI"
-version = "HczpDeQN"
+version = "ify2HjAy"
