@@ -253,7 +253,7 @@ New structures need new chunks; never migrate existing dungeons or inventories.
 ## Hedge's Bestiary progression (required)
 
 The complete progression customization ships in
-`mods/liams-bestiary-progression-1.0.2.jar`, built from
+`mods/liams-bestiary-progression-1.0.4.jar`, built from
 `/home/liam/Projects/minecraft-mods/bestiary-progression`. It includes recipes,
 item registration/model/name, taming/breeding rules and Patchouli overrides.
 Do not restore the retired Bestiary KubeJS scripts/assets or add duplicate
@@ -261,7 +261,7 @@ datapack/resource-pack overrides. It has no KubeJS dependency, but intentionally
 retains the saved item ID `kubejs:abyssal_treat`; do not rename it or register it
 twice. Install on both client and server and restart after changes.
 
-The companion is pinned to Bestiary 1.1.3. Recheck native capture conditions,
+The companion is pinned to Bestiary 1.1.4. Recheck native capture conditions,
 treat tiers, breeding/cooldowns and the persistent one-scale trade on updates.
 Build with `build.py`; run `verify.py` with and without `--with-kubejs` and
 require the native PASS marker. Keep all species tamable; preserve the approved
@@ -487,3 +487,21 @@ has no content/data/loot/tips resources. Review tips, refresh packwiz and restar
 clients; no server change or save edits. Evidence and gameplay limits are under
 development `docs/clear-sound-gain-2026-11-08/`. The Create sound-thread companion
 addresses a separate exception and remains installed.
+
+## Hedge’s Bestiary combat drops (2026-11-09)
+
+`datapacks/Hedge's Bestiary Combat Drops` supplies exactly 13 previously absent
+native entity loot tables. Existing-item themed salvage drops directly; no
+container items or new registrations. Keep adult/player-kill gates, fixed rare
+chances and count-one valuables. Looting affects provisions only. Keep native
+six-species drops, held inventories, taming/eggs and the one-scale Abyssal Treat
+trade intact. Coastal Blurpum Variant=1 substitutes shrimp for perch.
+
+The README records precise rates. Development generator/static/native checks:
+`scripts/build_bestiary_combat_drops.py`, `check_bestiary_combat_drops.py`,
+`BestiaryCombatDropsChecks.java`, integrated into the exploration smoke fixture.
+Recheck item registry IDs and native default loot IDs on provider updates; fail
+if upstream adds a target table and review how to preserve its new rewards.
+Evidence: development `docs/bestiary-combat-drops-2026-11-09/`. Review tips without
+adding reward spoilers, sync only this datapack and reviewed docs, refresh
+packwiz, and restart for future kills. Do not rewrite existing saves.

@@ -1,13 +1,13 @@
 name = "Better Mob Combat - Reimagined"
-filename = "better_mob_combat_reimagined-1.1.18.jar"
+filename = "better_mob_combat_reimagined-1.1.19.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/ZMyutZkx/versions/EIX8lwXT/better_mob_combat_reimagined-1.1.18.jar"
+url = "https://cdn.modrinth.com/data/ZMyutZkx/versions/FK8H3pvL/better_mob_combat_reimagined-1.1.19.jar"
 hash-format = "sha512"
-hash = "a09a23176f6aab68345838973d5018ad6324c7be9faffcf314b0c66e1fbc588d6cacd1415c1aa67e2954cd7b91b2de31055758830d9db116e4aa7102e49d4a22"
+hash = "d1b3e1268649bcf5427a1604d50d6dd6f0883f7bea1508f2218205ac88148b114bf53f2396bc29251216974e88ba5027988b88bd03391a37e9f99ca98afcbe1a"
 
 [update]
 [update.modrinth]
 mod-id = "ZMyutZkx"
-version = "EIX8lwXT"
+version = "FK8H3pvL"

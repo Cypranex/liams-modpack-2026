@@ -1,0 +1,13 @@
+name = "Create: Atmospherics"
+filename = "create_atmospherics-2.0.0-oceans-e638ce3.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/vh6aSn2S/versions/69W6RqG8/create_atmospherics-2.0.0-oceans-e638ce3.jar"
+hash-format = "sha512"
+hash = "d8e0402f6a655aeb637c613008619d1aae6ab99fce8ba04f42f6fb0795600665e6cf5c753d8eca49e45bf7522bfc3421220c8afa2d1323682d612557736f1ee1"
+
+[update]
+[update.modrinth]
+mod-id = "vh6aSn2S"
+version = "69W6RqG8"

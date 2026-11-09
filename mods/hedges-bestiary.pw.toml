@@ -1,13 +1,13 @@
 name = "Hedge's Bestiary"
-filename = "hedges_bestiary-1.1.3-neo.jar"
+filename = "hedges_bestiary-1.1.4-neo.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/CnMFlEHI/versions/KpNk8n7C/hedges_bestiary-1.1.3-neo.jar"
+url = "https://cdn.modrinth.com/data/CnMFlEHI/versions/ReWdzuJK/hedges_bestiary-1.1.4-neo.jar"
 hash-format = "sha512"
-hash = "a511e0f76597987777ddd149f82a4854fe1b715d62268fb043ec4fd4dea8b75babf844a62424226c473cd38889f6614ba98db405f86f78cc503189ef4aabcb50"
+hash = "e011e72e084c8f65254bc742762445ec0db546cd213a1a6a723cb9dfdedc79abb4e25319fca26b6bb309e0b2fe7252458d2bb326acf8dc72911e31fe75f70da7"
 
 [update]
 [update.modrinth]
 mod-id = "CnMFlEHI"
-version = "KpNk8n7C"
+version = "ReWdzuJK"

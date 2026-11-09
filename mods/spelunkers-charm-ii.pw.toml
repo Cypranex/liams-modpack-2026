@@ -1,13 +1,13 @@
 name = "Spelunker's Charm II"
-filename = "spelunkers_charm-5.0.6.jar"
+filename = "spelunkers_charm-5.1.0.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/WKLy3h5B/versions/rsUHNeoF/spelunkers_charm-5.0.6.jar"
+url = "https://cdn.modrinth.com/data/WKLy3h5B/versions/TuGk61lr/spelunkers_charm-5.1.0.jar"
 hash-format = "sha512"
-hash = "30bf851d32b92b144a5bdb40f700ee220c82261a754bbed224cf762571151a9e79f2d2f52c9eba2e45dfbfbe8aae43bbd640dc844ce0c6db282d7470e91161ad"
+hash = "ef477ea698f6aca3b308d5e64d4ff71f8d06f3302c691582d1c378b598ccba72d3f6dc03720a5574d438670318aff378a8d7b597010334dee9bc58d6f53bd75f"
 
 [update]
 [update.modrinth]
 mod-id = "WKLy3h5B"
-version = "rsUHNeoF"
+version = "TuGk61lr"
