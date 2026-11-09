@@ -1,13 +1,13 @@
 name = "EMF Compat: Quark"
-filename = "emf_compat_quark_1.21.1_1.1.0.jar"
+filename = "emf_compat_quark_neoforge_1.21.1_1.1.1.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/UvuFGp0l/versions/iuCwulgK/emf_compat_quark_1.21.1_1.1.0.jar"
+url = "https://cdn.modrinth.com/data/UvuFGp0l/versions/ZdahQjlA/emf_compat_quark_neoforge_1.21.1_1.1.1.jar"
 hash-format = "sha512"
-hash = "192f8125545aa0d5c3203c96a8530d2060077647b503b6993d654e59066971a6198be46a6f333736de91f5de4c805b3afbb44c1fcece7df8e74c6b89d712a65b"
+hash = "687843149052c6aebb18fc0e69361102dc2e5df82d835ffba4cf1f8fb14c2059adbd28ee6e0d2ad9f63c1b90f89fbf1d07575f04ed725f8e506cafe0db65c885"
 
 [update]
 [update.modrinth]
 mod-id = "UvuFGp0l"
-version = "iuCwulgK"
+version = "ZdahQjlA"
