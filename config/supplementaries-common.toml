@@ -126,7 +126,7 @@
 		music_disc_heave_ho = true
 
 		[functional.cannon.cannon_boat]
-			enabled = true
+			enabled = false
 			#Cannon boat recoil multiplier. Higher values will make the cannon boat recoil more when firing a cannonball
 			# Default: 0.5
 			# Range: 0.0 ~ 5.0
@@ -146,7 +146,7 @@
 		[functional.cannon.plunderer]
 			enabled = true
 			#Galleons are automatically disabled if 'rope' feature is disabled
-			galleon = true
+			galleon = false
 			#Chance for a raid wave to spawn in open water near the village instead of on land. Such waves arrive on boats steered by plunderers, which take the place of some of the wave pillagers. The rest swim along and hop on when a seat is free. Set to 0 to disable
 			# Default: 0.75
 			# Range: 0.0 ~ 1.0
@@ -674,7 +674,7 @@
 
 	[tweaks.ai_tweaks]
 		#Allows pillagers to use cannon boats. Add more entities to the 'supplementaries:can_use_cannon_boat' tag to allow them to use cannon boats as well
-		pillagers_use_cannon_boats = true
+		pillagers_use_cannon_boats = false
 		#Allows mobs (like raiders and endermen) to dismount from boats when on land. Add more entities to the 'supplementaries:can_dismount_boats' tag to allow them to dismount as well
 		smart_boat_dismount = true
 		#Allows traders to open doors (because they couldn't apparently)
