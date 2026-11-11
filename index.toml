@@ -266,7 +266,7 @@ hash = "93e6db1672e3a55fd77265c85a394a691a3206c7a49637fa42dc5b9853f51f86"
 
 [[files]]
 file = "config/paxi/resourcepacks/Field-Guide-Mobs-Plants-Resources.zip"
-hash = "1ab5157fe6b2732a08a04dc4c07a9973f95167cffcfadf6f6d1d3814717d51a9"
+hash = "9dc76032464a43cf54736011150cf19f82f6d62bd6adc5287244dc52ac8ca6cc"
 
 [[files]]
 file = "config/paxi/resourcepacks/fluid-foolish.pw.toml"
@@ -323,7 +323,7 @@ hash = "8d841088fcf91c96c3c4bff112f604961129c55687906fa0e8fd3968cc45002a"
 
 [[files]]
 file = "config/simulated-server.toml"
-hash = "ab05ac30b9be3035902442ea1dc3429588bccb573fe0de7fff26afe2f2ed3b3b"
+hash = "97ccb9ac8c9a8aab1b2c5251d663bfd697fec58a7b43278c5a7756a74825f209"
 
 [[files]]
 file = "config/sodium-extra-options.json"
@@ -347,7 +347,7 @@ hash = "4aacf3a569e3e6b960214b88335e621042aa122b1aad72f8b786577cdb1993c5"
 
 [[files]]
 file = "config/supplementaries-common.toml"
-hash = "3a84bae1966d67023b64ef54132d3ed8ff64e7b768f38bad8a59b2fdbd0af058"
+hash = "a475111be507f06bc27fd216f5718229f0cde511c2ba2046f7d90ab12f41077c"
 
 [[files]]
 file = "config/tide/tide_server.json"
