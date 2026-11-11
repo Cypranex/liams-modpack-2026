@@ -246,7 +246,7 @@ hash = "f7b0b9a3e4c35f9360fa0ffba2d7d8dc64b30612556aed95b5d8a1ac8bfdea37"
 
 [[files]]
 file = "config/paxi/resourcepacks/Field-Guide-Mobs-Plants-Resources.zip"
-hash = "1ab5157fe6b2732a08a04dc4c07a9973f95167cffcfadf6f6d1d3814717d51a9"
+hash = "9dc76032464a43cf54736011150cf19f82f6d62bd6adc5287244dc52ac8ca6cc"
 
 [[files]]
 file = "config/paxi/resourcepacks/Torches x Punchy.zip"
@@ -385,7 +385,7 @@ hash = "8d841088fcf91c96c3c4bff112f604961129c55687906fa0e8fd3968cc45002a"
 
 [[files]]
 file = "config/simulated-server.toml"
-hash = "ab05ac30b9be3035902442ea1dc3429588bccb573fe0de7fff26afe2f2ed3b3b"
+hash = "97ccb9ac8c9a8aab1b2c5251d663bfd697fec58a7b43278c5a7756a74825f209"
 
 [[files]]
 file = "config/sound_physics_remastered/soundphysics.properties"
@@ -405,7 +405,7 @@ hash = "fcbff2c28c3ae0282ce1805e43e495bc76a9cb7d6bcd930bbc5dc31839cfd2e6"
 
 [[files]]
 file = "config/supplementaries-common.toml"
-hash = "3a84bae1966d67023b64ef54132d3ed8ff64e7b768f38bad8a59b2fdbd0af058"
+hash = "a475111be507f06bc27fd216f5718229f0cde511c2ba2046f7d90ab12f41077c"
 
 [[files]]
 file = "config/tide/tide_server.json"
