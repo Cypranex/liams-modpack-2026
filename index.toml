@@ -5571,8 +5571,8 @@ file = "mods/ragdoll-lighting-compat-1.0.0.jar"
 hash = "f7636554d35d70dec004aef6fb5fdaf06925a1daff1d52ca0248c8a8e8ead3ae"
 
 [[files]]
-file = "mods/ragdoll-pathing-guard-1.0.0.jar"
-hash = "14fdd320b04c57a571d98a595272d5a4a01f14877091b435bcfd022ddc4ffcf3"
+file = "mods/ragdoll-pathing-guard-1.0.1.jar"
+hash = "6fea31db262f5c73f5c72e7c7046903556dec08c65eae9b36d021ee0ae3c246c"
 
 [[files]]
 file = "mods/ragdoll-pearl-fix-1.0.0.jar"
