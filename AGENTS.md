@@ -505,3 +505,41 @@ if upstream adds a target table and review how to preserve its new rewards.
 Evidence: development `docs/bestiary-combat-drops-2026-11-09/`. Review tips without
 adding reward spoilers, sync only this datapack and reviewed docs, refresh
 packwiz, and restart for future kills. Do not rewrite existing saves.
+
+
+## Storage Weight compatibility (2026-11-13, v1.1.0)
+
+`mods/liams-backpack-weight-compat-1.1.0.jar`, built in
+`/home/liam/Projects/minecraft-mods/backpack-weight-compat`, extends Weight's
+item reader and plot scanner and registers the active backpack's extra player
+mass through the public API. Remove the superseded 1.0.0 companion, retaining all
+upstream/ragdoll/rendering mods. Mod ID remains liams_backpack_weight_compat.
+
+Reviewed pins: Weight 1.2.1 / Reliable Backpacks 1.9.1 / Sable 2.0.6 / Create
+6.0.10 / Connected 1.3.3 / Railways 0.3.0-beta.2 / Supplementaries 4.0.2 /
+Moonlight 3.8.3 / Brewin' and Chewin' 4.5.0; optional Quark 4.1-488, Zeta 1.1-40.
+Exact jar hashes and loader strings live in the development project.
+
+Keep inventory/container/tank weight enabled in config/weight-server.toml.
+Native shell/tags/overrides, contents multiplier and per-container caps remain.
+Portable vanilla container/bundle, Create package/toolbox, Supplementaries
+lunch/quiver/soft-fluid and optional Quark seed-pouch readers are read-only.
+Preserve chest contribution subtraction, hidden physical vs cosmetic equipment,
+single active backpack lookup, nesting/work bounds and no loot generation.
+
+Vaults and silos must use each physical block's local backing inventory, never
+charge combined capabilities from each part. Toolboxes own their capability;
+bridges, access ports and portable interfaces do not. The additive Weight tank
+tag covers Connected fluid vessels, rail fuel tanks, B&C kegs and actual jars.
+Creative sources remain excluded. Jars use soft-fluid mass (250 mB/bottle) with
+the Forge scanner bypassed to prevent duplicate fluid mass; retain native fluid
+maps/fallback/caps. Tinted-jar assets do not establish a registered block.
+
+On provider updates review APIs and run build.py and verify.py; require both
+side transformation markers, baseline, Accessories, standalone Curios, optional
+Quark and actual Sable-plot scanner PASS markers. The Zeta production-mode shim
+is fixture-only and must never ship. Read README.md, SUPPORT-AUDIT.md and
+VALIDATION.md in the development project before extensions. Review tips and
+loot resource scope; deploy only the production jar, refresh packwiz, and restart
+client/server. Do not modify existing saves or silently refresh broad review
+fingerprints to accept unrelated mod drift.
