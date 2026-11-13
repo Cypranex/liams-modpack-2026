@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "AGENTS.md"
-hash = "7f4b8585fd0320331b4331aa515de5606da884074ad0813c74c5b3cdd98f0d34"
+hash = "a13173fefa527a2d9796c2b38ed9448e973af135159404236571db3f99d2275a"
 
 [[files]]
 file = "config/aeronauticswinds-common.toml"
@@ -434,6 +434,10 @@ hash = "fc6f28e3ac52bb24cacb406b68660b235b1e861b7a44cbdaded206f47f52d273"
 [[files]]
 file = "config/wakes-client.toml"
 hash = "51f2c4e7d90673329adddfff7e4b65e97bbd925cf93fb9578e83d55a66e769d3"
+
+[[files]]
+file = "config/weight-server.toml"
+hash = "7f67175de55d1481927375fa2d2f6d8b7d0a17d99fcff3eda0039b39528ef614"
 
 [[files]]
 file = "datapacks/Aquatic Worldgen Cleanup/data/hybrid_aquatic/tags/worldgen/biome/has_whale_fall.json"
@@ -5283,6 +5287,10 @@ metafile = true
 [[files]]
 file = "mods/liams-aether-worldgen-fix-1.0.1.jar"
 hash = "eff2b2acf978857515ae3e79b7bb47d5a080dce97fb16750dbfcdc50710a3007"
+
+[[files]]
+file = "mods/liams-backpack-weight-compat-1.1.0.jar"
+hash = "50931840256c5c7b3e931ddf31c90458fe085ae143bab8f47b6f890a89e4c397"
 
 [[files]]
 file = "mods/liams-bestiary-progression-1.0.4.jar"
