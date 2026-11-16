@@ -1,8 +1,8 @@
 # Modded loot ideas and current decisions
 
-The coverage pass prioritizes items that change what a player can do on an expedition, small comforts, and occasional curiosities. Most reusable tools belong in a **shared 2–4% discovery pool**, not one independent roll per item. The current pools use 85 verified item IDs; the native registry test covers every item actually shipped in those pools.
+The coverage pass prioritizes items that change what a player can do on an expedition, small comforts, and occasional curiosities. Most reusable tools belong in a **shared 2–4% discovery pool**, not one independent roll per item. The current pools use 233 authored item IDs. The 2026-11-13 [modest variety revision](MODEST-VARIETY.md) adds 148 food, clothing, tackle, travel and household candidates; its report records current native verification scope. The tables below document the earlier discovery concepts; their item-specific utility odds may change as shared pools expand. Use the current reward JSONs for exact odds.
 
-## Implemented in this pass
+## Earlier discovery concepts — historical item-specific odds
 
 | Find | Why it is interesting | Placement / final chance examples |
 |---|---|---|

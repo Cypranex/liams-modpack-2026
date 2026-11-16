@@ -92,6 +92,28 @@
           "type": "minecraft:item",
           "name": "create:super_glue",
           "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "quark:trowel",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "quark:abacus",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            }
+          ]
         }
       ]
     },
@@ -152,6 +174,51 @@
             {
               "function": "minecraft:set_custom_data",
               "tag": "{liams_loot_idea:\"smith\"}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.01
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "luckyswardrobe:leather_apron",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "luckyswardrobe:masons_apron",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "luckyswardrobe:blacksmith_mask",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
             }
           ]
         }

@@ -46,15 +46,15 @@
         },
         {
           "condition": "neoforge:loot_table_id",
+          "loot_table_id": "nova_structures:chests/creeping_crypt/crypt_hallway"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
           "loot_table_id": "minecraft:chests/simple_dungeon"
         },
         {
           "condition": "neoforge:loot_table_id",
           "loot_table_id": "nova_structures:chests/creeping_crypt/crypt_grave"
-        },
-        {
-          "condition": "neoforge:loot_table_id",
-          "loot_table_id": "nova_structures:chests/creeping_crypt/crypt_hallway"
         }
       ]
     }

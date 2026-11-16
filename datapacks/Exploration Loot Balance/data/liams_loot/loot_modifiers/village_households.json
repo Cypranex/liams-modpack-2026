@@ -50,10 +50,6 @@
         },
         {
           "condition": "neoforge:loot_table_id",
-          "loot_table_id": "minecraft:chests/village/village_shepherd"
-        },
-        {
-          "condition": "neoforge:loot_table_id",
           "loot_table_id": "minecraft:chests/village/village_snowy_house"
         },
         {
@@ -63,10 +59,6 @@
         {
           "condition": "neoforge:loot_table_id",
           "loot_table_id": "minecraft:chests/village/village_taiga_house"
-        },
-        {
-          "condition": "neoforge:loot_table_id",
-          "loot_table_id": "minecraft:chests/village/village_tannery"
         },
         {
           "condition": "neoforge:loot_table_id",

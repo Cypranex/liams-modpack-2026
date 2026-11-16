@@ -22,6 +22,20 @@
     "liams_loot:sparse_stores",
     "liams_loot:magic_resupply",
     "liams_loot:nether_expeditions",
-    "liams_loot:end_expeditions"
+    "liams_loot:end_expeditions",
+    "liams_loot:wardrobes",
+    "liams_loot:sparse_wardrobes",
+    "liams_loot:domestic_stores",
+    "liams_loot:music_rooms",
+    "liams_loot:fishing_stores",
+    "liams_loot:maritime_stores",
+    "liams_loot:sparse_food",
+    "liams_loot:sparse_supplies",
+    "liams_loot:village_kitchens",
+    "liams_loot:village_workshops",
+    "liams_loot:village_wardrobes",
+    "liams_loot:village_fishing",
+    "liams_loot:village_gardens",
+    "liams_loot:village_archers"
   ]
 }

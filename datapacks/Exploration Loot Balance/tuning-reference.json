@@ -4,14 +4,10 @@
       "betterarcheology:archeology/chest_jungle_temple_food",
       "betterdeserttemples:chests/food_storage",
       "betterstrongholds:chests/mess",
-      "chefsdelight:chests/cooker",
-      "ctov:chests/village/village_bakery",
       "formationsoverworld:hobbit_hole/food",
       "formationsoverworld:small_house/fireplace",
       "irons_spellbooks:chests/impaled_icebreaker/food_barrel",
       "minecraft:chests/illager_mansion/kitchen",
-      "minecraft:chests/village/village_butcher",
-      "minecraft:chests/village/village_fisher",
       "nova_structures:chests/food_supply",
       "nova_structures:chests/illager_hideout_meat",
       "nova_structures:chests/illager_hideout_vegitarian",
@@ -46,14 +42,9 @@
     ],
     "workshops": [
       "betterdeserttemples:chests/storage",
-      "ctov:chests/village/village_smith",
       "formationsoverworld:stone_tower/smithing",
       "formationsoverworld:witch_tower/smithing",
       "minecraft:chests/illager_mansion/smithing_room",
-      "minecraft:chests/village/village_armorer",
-      "minecraft:chests/village/village_mason",
-      "minecraft:chests/village/village_toolsmith",
-      "minecraft:chests/village/village_weaponsmith",
       "nova_structures:chests/badland_miner_outpost_forge",
       "nova_structures:chests/lone_citadel/c_forge",
       "nova_structures:chests/lone_citadel/c_forge_chest"
@@ -115,21 +106,16 @@
       "minecraft:chests/village/village_jungle_house",
       "minecraft:chests/village/village_plains_house",
       "minecraft:chests/village/village_savanna_house",
-      "minecraft:chests/village/village_shepherd",
       "minecraft:chests/village/village_snowy_house",
       "minecraft:chests/village/village_swamp_house",
       "minecraft:chests/village/village_taiga_house",
-      "minecraft:chests/village/village_tannery",
       "ribbits:chests/merchant",
       "ribbits:chests/nitwit"
     ],
     "garden_stores": [
-      "ctov:chests/village/village_farm",
-      "ctov:chests/village/village_forager",
       "irons_spellbooks:chests/wheat",
       "nova_structures:chests/witch_villa/gardening",
-      "nova_structures:chests/witch_villa/pumpkin_room",
-      "ribbits:chests/gardener"
+      "nova_structures:chests/witch_villa/pumpkin_room"
     ],
     "rural_libraries": [
       "ctov:chests/village/village_library",
@@ -180,7 +166,6 @@
       "minecraft:chests/illager_mansion/ancient_city_raid_chest",
       "minecraft:chests/illager_mansion/generic",
       "minecraft:chests/illager_mansion/secret_room",
-      "minecraft:chests/illager_mansion/wool",
       "minecraft:chests/jungle_temple",
       "minecraft:chests/ruined_portal",
       "minecraft:chests/stronghold_corridor",
@@ -227,7 +212,6 @@
       "minecraft:chests/illager_mansion/ravager_chest",
       "minecraft:chests/illager_mansion/vindicator_chest",
       "minecraft:chests/pillager_outpost",
-      "minecraft:chests/village/village_fletcher",
       "nova_structures:chests/illager_hideout_weaponry"
     ],
     "coastal_caches": [
@@ -235,17 +219,12 @@
       "betteroceanmonuments:chests/upper_side_chamber",
       "formationsoverworld:raft",
       "minecraft:chests/buried_treasure",
-      "minecraft:chests/shipwreck_map",
       "minecraft:chests/shipwreck_treasure",
       "minecraft:chests/underwater_ruin_big",
       "minecraft:chests/underwater_ruin_small",
       "nova_structures:chests/conduit_ruin/conduit_ruin_big",
       "nova_structures:chests/conduit_ruin/conduit_ruin_main",
-      "nova_structures:chests/conduit_ruin/conduit_ruin_small",
-      "nova_structures:chests/illager_hideout_fishing",
-      "nova_structures:chests/water_supply",
-      "ribbits:chests/fisherman_main",
-      "supplementaries:loot/galleon/chest"
+      "nova_structures:chests/conduit_ruin/conduit_ruin_small"
     ],
     "cold_caches": [
       "friendsandfoes:barrels/iceologer_cabin",
@@ -263,7 +242,6 @@
       "irons_spellbooks:chests/filler_storage_loot",
       "irons_spellbooks:chests/pyromancer_tower/old_cask",
       "irons_spellbooks:chests/pyromancer_tower/pyromancer_basic_storage",
-      "minecraft:chests/shipwreck_supply",
       "nova_structures:chests/desert_ruins/desert_ruin_grave",
       "nova_structures:chests/desert_ruins/desert_ruin_lesser_treasure",
       "nova_structures:chests/illager_hideout_raw_ores",
@@ -277,7 +255,6 @@
       "nova_structures:chests/stray_fort_loot_generic",
       "nova_structures:chests/toxic_lair/generic",
       "nova_structures:chests/undead_crypts_grave",
-      "nova_structures:chests/witch_villa/dirty_clothes",
       "ribbits:chests/fisherman_storage",
       "structory:harvest/manor2/loot",
       "structory:harvest/old_manor/common",
@@ -285,10 +262,7 @@
       "dungeoncrawl:chests/stage_2",
       "dungeoncrawl:chests/stage_3",
       "dungeoncrawl:chests/stage_4",
-      "dungeoncrawl:chests/stage_5",
-      "dungeoncrawl:chests/food",
-      "dungeoncrawl:chests/supply",
-      "dungeoncrawl:chests/secret_room"
+      "dungeoncrawl:chests/stage_5"
     ],
     "magic_resupply": [
       "betterarcheology:archeology/chest_catacombs_potion",
@@ -330,10 +304,7 @@
       "nova_structures:chests/illager_hideout_brewing",
       "nova_structures:chests/mangrove_witchhud",
       "nova_structures:chests/toxic_lair/brewing",
-      "nova_structures:chests/witch_villa/bedroom",
-      "nova_structures:chests/witch_villa/general_storage",
       "nova_structures:chests/witch_villa/lab",
-      "nova_structures:chests/witch_villa/music_room",
       "nova_structures:chests/witch_villa/slime_room"
     ],
     "nether_expeditions": [
@@ -382,6 +353,63 @@
       "nova_structures:chests/end_castle/rocket_barrel",
       "nova_structures:chests/end_castle/supply",
       "nova_structures:chests/end_lighthouse/supply_lighthouse"
+    ],
+    "wardrobes": [
+      "minecraft:chests/illager_mansion/wool"
+    ],
+    "sparse_wardrobes": [
+      "nova_structures:chests/witch_villa/dirty_clothes"
+    ],
+    "domestic_stores": [
+      "nova_structures:chests/witch_villa/bedroom",
+      "nova_structures:chests/witch_villa/general_storage"
+    ],
+    "music_rooms": [
+      "nova_structures:chests/witch_villa/music_room"
+    ],
+    "fishing_stores": [
+      "nova_structures:chests/illager_hideout_fishing",
+      "nova_structures:chests/water_supply"
+    ],
+    "maritime_stores": [
+      "minecraft:chests/shipwreck_supply",
+      "minecraft:chests/shipwreck_map",
+      "supplementaries:loot/galleon/chest"
+    ],
+    "sparse_food": [
+      "dungeoncrawl:chests/food"
+    ],
+    "sparse_supplies": [
+      "dungeoncrawl:chests/supply",
+      "dungeoncrawl:chests/secret_room"
+    ],
+    "village_kitchens": [
+      "ctov:chests/village/village_bakery",
+      "minecraft:chests/village/village_butcher",
+      "chefsdelight:chests/cooker"
+    ],
+    "village_workshops": [
+      "ctov:chests/village/village_smith",
+      "minecraft:chests/village/village_armorer",
+      "minecraft:chests/village/village_mason",
+      "minecraft:chests/village/village_toolsmith",
+      "minecraft:chests/village/village_weaponsmith"
+    ],
+    "village_wardrobes": [
+      "minecraft:chests/village/village_shepherd",
+      "minecraft:chests/village/village_tannery"
+    ],
+    "village_fishing": [
+      "minecraft:chests/village/village_fisher",
+      "ribbits:chests/fisherman_main"
+    ],
+    "village_gardens": [
+      "ctov:chests/village/village_farm",
+      "ctov:chests/village/village_forager",
+      "ribbits:chests/gardener"
+    ],
+    "village_archers": [
+      "minecraft:chests/village/village_fletcher"
     ]
   },
   "native_curio_tuning": [
@@ -853,12 +881,9 @@
       "pool": 2,
       "chance": 0.0075,
       "tables": [
-        "ctov:chests/village/village_farm",
-        "ctov:chests/village/village_forager",
         "irons_spellbooks:chests/wheat",
         "nova_structures:chests/witch_villa/gardening",
-        "nova_structures:chests/witch_villa/pumpkin_room",
-        "ribbits:chests/gardener"
+        "nova_structures:chests/witch_villa/pumpkin_room"
       ],
       "overworld_only": false,
       "overworld_max_y": null
@@ -870,14 +895,9 @@
       "chance": 0.0075,
       "tables": [
         "betterdeserttemples:chests/storage",
-        "ctov:chests/village/village_smith",
         "formationsoverworld:stone_tower/smithing",
         "formationsoverworld:witch_tower/smithing",
         "minecraft:chests/illager_mansion/smithing_room",
-        "minecraft:chests/village/village_armorer",
-        "minecraft:chests/village/village_mason",
-        "minecraft:chests/village/village_toolsmith",
-        "minecraft:chests/village/village_weaponsmith",
         "nova_structures:chests/badland_miner_outpost_forge",
         "nova_structures:chests/lone_citadel/c_forge",
         "nova_structures:chests/lone_citadel/c_forge_chest"
@@ -909,14 +929,10 @@
         "betterarcheology:archeology/chest_jungle_temple_food",
         "betterdeserttemples:chests/food_storage",
         "betterstrongholds:chests/mess",
-        "chefsdelight:chests/cooker",
-        "ctov:chests/village/village_bakery",
         "formationsoverworld:hobbit_hole/food",
         "formationsoverworld:small_house/fireplace",
         "irons_spellbooks:chests/impaled_icebreaker/food_barrel",
         "minecraft:chests/illager_mansion/kitchen",
-        "minecraft:chests/village/village_butcher",
-        "minecraft:chests/village/village_fisher",
         "nova_structures:chests/food_supply",
         "nova_structures:chests/illager_hideout_meat",
         "nova_structures:chests/illager_hideout_vegitarian",
@@ -933,12 +949,9 @@
       "pool": 3,
       "chance": 0.04,
       "tables": [
-        "ctov:chests/village/village_farm",
-        "ctov:chests/village/village_forager",
         "irons_spellbooks:chests/wheat",
         "nova_structures:chests/witch_villa/gardening",
-        "nova_structures:chests/witch_villa/pumpkin_room",
-        "ribbits:chests/gardener"
+        "nova_structures:chests/witch_villa/pumpkin_room"
       ],
       "overworld_only": false,
       "overworld_max_y": null
@@ -1076,6 +1089,60 @@
       ],
       "overworld_only": true,
       "overworld_max_y": null
+    },
+    {
+      "concept": "gardener",
+      "profile": "village_gardens",
+      "pool": 2,
+      "chance": 0.0075,
+      "tables": [
+        "ctov:chests/village/village_farm",
+        "ctov:chests/village/village_forager",
+        "ribbits:chests/gardener"
+      ],
+      "overworld_only": false,
+      "overworld_max_y": null
+    },
+    {
+      "concept": "smith",
+      "profile": "village_workshops",
+      "pool": 2,
+      "chance": 0.0075,
+      "tables": [
+        "ctov:chests/village/village_smith",
+        "minecraft:chests/village/village_armorer",
+        "minecraft:chests/village/village_mason",
+        "minecraft:chests/village/village_toolsmith",
+        "minecraft:chests/village/village_weaponsmith"
+      ],
+      "overworld_only": false,
+      "overworld_max_y": null
+    },
+    {
+      "concept": "tasting",
+      "profile": "village_kitchens",
+      "pool": 2,
+      "chance": 0.03,
+      "tables": [
+        "chefsdelight:chests/cooker",
+        "ctov:chests/village/village_bakery",
+        "minecraft:chests/village/village_butcher"
+      ],
+      "overworld_only": false,
+      "overworld_max_y": null
+    },
+    {
+      "concept": "preserves",
+      "profile": "village_gardens",
+      "pool": 3,
+      "chance": 0.04,
+      "tables": [
+        "ctov:chests/village/village_farm",
+        "ctov:chests/village/village_forager",
+        "ribbits:chests/gardener"
+      ],
+      "overworld_only": false,
+      "overworld_max_y": null
     }
   ],
   "pity": {
@@ -1131,12 +1198,182 @@
       "dungeoncrawl:chests/supply",
       "dungeoncrawl:chests/secret_room"
     ],
-    "treasure_root": "dungeoncrawl:chests/treasure"
+    "treasure_root": "dungeoncrawl:chests/treasure",
+    "recipient_profiles": {
+      "dungeoncrawl:chests/stage_1": "sparse_stores",
+      "dungeoncrawl:chests/stage_2": "sparse_stores",
+      "dungeoncrawl:chests/stage_3": "sparse_stores",
+      "dungeoncrawl:chests/stage_4": "sparse_stores",
+      "dungeoncrawl:chests/stage_5": "sparse_stores",
+      "dungeoncrawl:chests/food": "sparse_food",
+      "dungeoncrawl:chests/supply": "sparse_supplies",
+      "dungeoncrawl:chests/secret_room": "sparse_supplies"
+    }
   },
   "archaeology_crystals_reference": {
     "file": "archaeology-crystals.json",
     "chance": 0.02,
     "revision": "2026-10-27",
     "scope": "Selected brushed reward from reviewed table-backed sand/gravel; no ordinary chest crystals; nested composition remains 2%."
+  },
+  "modest_variety": {
+    "revision": "2026-11-13",
+    "reference": "MODEST-VARIETY.md",
+    "room_reassignments": [
+      {
+        "table": "minecraft:chests/village/village_shepherd",
+        "before": "village_households",
+        "after": "wardrobes"
+      },
+      {
+        "table": "minecraft:chests/village/village_tannery",
+        "before": "village_households",
+        "after": "wardrobes"
+      },
+      {
+        "table": "minecraft:chests/illager_mansion/wool",
+        "before": "dungeon_discoveries",
+        "after": "wardrobes"
+      },
+      {
+        "table": "nova_structures:chests/witch_villa/dirty_clothes",
+        "before": "sparse_stores",
+        "after": "sparse_wardrobes"
+      },
+      {
+        "table": "nova_structures:chests/witch_villa/bedroom",
+        "before": "magic_resupply",
+        "after": "domestic_stores"
+      },
+      {
+        "table": "nova_structures:chests/witch_villa/general_storage",
+        "before": "magic_resupply",
+        "after": "domestic_stores"
+      },
+      {
+        "table": "nova_structures:chests/witch_villa/music_room",
+        "before": "magic_resupply",
+        "after": "music_rooms"
+      },
+      {
+        "table": "minecraft:chests/village/village_fisher",
+        "before": "kitchens",
+        "after": "fishing_stores"
+      },
+      {
+        "table": "ribbits:chests/fisherman_main",
+        "before": "coastal_caches",
+        "after": "fishing_stores"
+      },
+      {
+        "table": "nova_structures:chests/illager_hideout_fishing",
+        "before": "coastal_caches",
+        "after": "fishing_stores"
+      },
+      {
+        "table": "nova_structures:chests/water_supply",
+        "before": "coastal_caches",
+        "after": "fishing_stores"
+      },
+      {
+        "table": "minecraft:chests/shipwreck_supply",
+        "before": "sparse_stores",
+        "after": "maritime_stores"
+      },
+      {
+        "table": "minecraft:chests/shipwreck_map",
+        "before": "coastal_caches",
+        "after": "maritime_stores"
+      },
+      {
+        "table": "supplementaries:loot/galleon/chest",
+        "before": "coastal_caches",
+        "after": "maritime_stores"
+      },
+      {
+        "table": "dungeoncrawl:chests/food",
+        "before": "sparse_stores",
+        "after": "sparse_food"
+      },
+      {
+        "table": "dungeoncrawl:chests/supply",
+        "before": "sparse_stores",
+        "after": "sparse_supplies"
+      },
+      {
+        "table": "dungeoncrawl:chests/secret_room",
+        "before": "sparse_stores",
+        "after": "sparse_supplies"
+      }
+    ],
+    "dense_profiles": [
+      "sparse_stores",
+      "sparse_food",
+      "sparse_supplies",
+      "sparse_wardrobes"
+    ],
+    "native_loot_unchanged": true
+  },
+  "village_revision": {
+    "revision": "2026-11-15",
+    "reference": "VILLAGE-LOOT.md",
+    "split_profiles": {
+      "village_kitchens": "kitchens",
+      "village_workshops": "workshops",
+      "village_wardrobes": "wardrobes",
+      "village_fishing": "fishing_stores",
+      "village_gardens": "garden_stores",
+      "village_archers": "guard_stores"
+    },
+    "changed_profiles": [
+      "village_households",
+      "rural_libraries",
+      "village_kitchens",
+      "village_workshops",
+      "village_wardrobes",
+      "village_fishing",
+      "village_gardens",
+      "village_archers"
+    ],
+    "affected_tables": [
+      "ctov:chests/village/village_badlands_house",
+      "ctov:chests/village/village_beach_house",
+      "ctov:chests/village/village_dark_forest_house",
+      "ctov:chests/village/village_jungle_house",
+      "ctov:chests/village/village_mountain_house",
+      "ctov:chests/village/village_mushroom_house",
+      "ctov:chests/village/village_swamp_house",
+      "minecraft:chests/village/village_desert_house",
+      "minecraft:chests/village/village_jungle_house",
+      "minecraft:chests/village/village_plains_house",
+      "minecraft:chests/village/village_savanna_house",
+      "minecraft:chests/village/village_snowy_house",
+      "minecraft:chests/village/village_swamp_house",
+      "minecraft:chests/village/village_taiga_house",
+      "ribbits:chests/merchant",
+      "ribbits:chests/nitwit",
+      "ctov:chests/village/village_library",
+      "minecraft:chests/village/village_cartographer",
+      "minecraft:chests/village/village_temple",
+      "ribbits:chests/sorcerer",
+      "ctov:chests/village/village_bakery",
+      "minecraft:chests/village/village_butcher",
+      "chefsdelight:chests/cooker",
+      "ctov:chests/village/village_smith",
+      "minecraft:chests/village/village_armorer",
+      "minecraft:chests/village/village_mason",
+      "minecraft:chests/village/village_toolsmith",
+      "minecraft:chests/village/village_weaponsmith",
+      "minecraft:chests/village/village_shepherd",
+      "minecraft:chests/village/village_tannery",
+      "minecraft:chests/village/village_fisher",
+      "ribbits:chests/fisherman_main",
+      "ctov:chests/village/village_farm",
+      "ctov:chests/village/village_forager",
+      "ribbits:chests/gardener",
+      "minecraft:chests/village/village_fletcher"
+    ],
+    "household_primary_chance": 1.0,
+    "household_discovery_chance": 0.3
   }
 }

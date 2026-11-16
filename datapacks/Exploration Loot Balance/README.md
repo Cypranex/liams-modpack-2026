@@ -6,7 +6,7 @@ Agent maintenance policy: [AGENTS.md](AGENTS.md). Read it for loot rules and the
 
 ## Current scope
 
-This second pass expands **56 → 339 exact recipient tables**, with **22 reward profiles** and **85 authored reward item IDs**. It adds useful discoveries and enforces **Overworld → Nether → Aether → End** for newly generated chest/vault loot. Earlier-stage items are allowed in later dimensions. All 12 installed CTOV village tables now receive a reviewed profile.
+This second pass expands **56 → 339 exact recipient tables**, with **36 reward profiles** and **233 authored reward item IDs**. It adds useful discoveries and enforces **Overworld → Nether → Aether → End** for newly generated chest/vault loot. Earlier-stage items are allowed in later dimensions. All 12 installed CTOV village tables now receive a reviewed profile.
 
 The installed structure NBT audit parsed successfully and found 531 referenced loot IDs; 448 resolve against installed JSON resources. Optional-mod/legacy references are recorded, not used as guessed targets. The review ledger also lists known procedural containers, for 558 reviewed table IDs overall. Counts are template evidence, not a census of generated structures or an assertion that every optional template is active.
 
@@ -14,32 +14,30 @@ Plans and history: [implemented loot ideas](IDEAS-IMPLEMENTATION-PLAN.md), [nati
 
 ## Rewards and coverage
 
-Each table has one authored profile. New bonuses use one-roll pools with zero bonus rolls; rates below describe an entire pool, not the chance of every listed item independently.
+The **2026-11-15 stronger village revision** updates 36 exact village roots: guaranteed
+modest household food/drink, 30% shared household discoveries, and stronger profession
+selections. [Village loot](VILLAGE-LOOT.md) is the current reference for village rates,
+six profession-specific splits and per-player budgets; other profiles retain the
+[modest-variety baseline](MODEST-VARIETY.md). There are 36 profiles / 233 item IDs.
 
-| Profile / location | Typical additions | Final pool chance |
-|---|---|---:|
-| Village households | Modded meals; occasional flute, bubble blower or soap | Food 15%; discovery 2% |
-| Garden/farm stores | Food; Quark seed pouch or flute | Food 20%; tool 3% |
-| Kitchens/taverns | Farmer's Delight/Rustic Delight food; empty lunch basket | Food 20%; basket 1.5% |
-| Workshops/smithies | Small andesite alloy/copper-nugget/canvas supply; Create wrench, sand paper, blueprint, goggles or super glue | Supplies 20%; tool 4% |
-| Rural libraries | Paper/food/canvas; antique ink or crafting blueprint | Supplies 18%; discovery 2% |
-| Expedition caches | Food/canvas/string; regular chalk, altimeter or slingshot | Supplies 22%; tool 3.5% |
-| Newly covered dungeons/crypts | Food/canvas; chalk, slingshot or altimeter | Supplies 22%; tool 3.5% |
-| Same dungeon profile, Overworld Y <= -64 | C&C depth gauge or 2–3 kunai | Additional 1% pool |
-| Guard/archer stores | Small blunt-arrow/food/canvas supply; quiver or slingshot | Supplies 22%; utility 2.5% |
-| Coastal/underwater caches | Kelp roll, fish stew or canvas; one Bubble Pearl | Supplies 20%; pearl 2% |
-| Cold caches | Soup, canvas or hot cocoa; one Icy Pearl | Supplies 20%; pearl 2% |
-| Repeated/high-density stores | A little food/canvas; regular chalk or flute | Supplies 6%; utility 0.5% |
-| Magic structures/witch stores | Food/canvas/paper; antique ink or regular chalk | Supplies 15%; utility 2% |
-| Newly covered Nether expeditions | Food/canvas/common ink; chalk, 1–2 blue bombs or altimeter | Supplies 22%; utility 3% |
-| Newly covered End expeditions | Food/canvas/uncommon ink; chalk, altimeter or quiver | Supplies 20%; utility 2.5% |
-| Ordinary Aether dungeon chests/camps | Aether's Delight food | 25% |
+The **2026-11-13 modest-variety revision** expands everyday food, drink, clothing,
+tackle, travel and household discoveries across the same 339 exact recipients.
+[Modest variety](MODEST-VARIETY.md) is the baseline reference for the earlier 30
+profiles, pool gates, candidates, room reassignment and per-player budget examples.
+`tuning-reference.json` and the reward JSONs provide exact entries and weights.
 
-First-pass profiles remain for selected dungeon supplies, libraries, hidden/late treasure, ordinary surface supplies and armouries. Their native curio/ink/scroll tuning remains active. Added coverage includes Dungeons & Taverns, Better Archeology, CTOV, vanilla/overhauled villages and mansions, Formations, Structory, Ribbits, Friends & Foes, Aquamirae, Better Nether/End settlements and ordinary Iron's structures. Exact IDs and assigned profiles are in `tuning-reference.json` and `coverage-inventory.json`.
+Ordinary primary pools generally use 35–45%; common dungeon supplies retain 30%,
+workshop materials 20%, maritime provisions 25%, and dense stores 6%. Shared utility
+pools remain small. Eight new profiles distinguish wardrobes, sparse laundry,
+domestic stores, music rooms, fishing, maritime, sparse food and sparse supplies.
+No sparse store receives a valuable bonus per container. Existing bounded weapons,
+accessories, kits, scrolls, maps, native pity and their exact eligibility remain.
 
-Native Cataclysm/Mowzie structure loot, locked Aether victory treasure, trial/boss/vault rewards, keys, archaeological blocks, pots, traps, projectiles, internal-only helpers and the 124-container citadel bookshelf template are deliberately retained rather than given generic bonuses. The dimension filter still protects ordinary chest/vault generation where applicable. No boss entity-drop filters were added.
-
-Some tables are both independently placed in containers and referenced by another table (for example CTOV bakery → farm). Their additions are NeoForge **global modifiers on the outer loot roll**, not extra pools placed into those native tables. Each outer chest receives its own single profile; internal raw table delegation does not add the child's profile again. The native bakery/farm check verifies this behavior. Internal helpers without independently reviewed placements are not targeted.
+Every recipient has one additive outer-roll profile. Native structure loot, boss
+victory/key rewards, locked Aether treasure, archaeology and helper-only tables keep
+their existing policies. Exact independently placed parent/child roots may both be
+covered, but internal delegation does not apply a second profile. The native bakery
+regression checks single injection with the revised kitchen and garden selections.
 
 ## Dimension order
 
@@ -124,28 +122,11 @@ Chalk's installed two-roll bonus tables were a substantial extra source: the com
 
 ## Effective chances and structure budgets
 
-For a one-roll pool with gate probability `p`, entry weight `w`, and total weight `W`, the final selection chance is **`p × w/W`**. Quantities affect expected item counts, not selection probability. Location-restricted rates apply only when their stated location predicate passes. The dimension filter can remove an otherwise selected higher-stage result; it does not increase another entry's chance.
-
-Examples:
-
-- Workshop wrench: `4% × 3/12 = 1%`; goggles and super glue each `4% × 1/12 ≈ 0.3333%`. One selected tool, not five separate 4% rolls.
-- Garden seed pouch: `3% × 3/5 = 1.8%`; flute 1.2%.
-- Expedition chalk: `3.5% × 4/7 = 2%`; altimeter 0.5%, slingshot 1%.
-- Deep dungeon depth gauge: `1% × 1/4 = 0.25%`; 2–3 kunai 0.75%, only at Overworld Y <= -64. These do not put bulk silver into surface loot.
-- Guard-store quiver: `2.5% × 1/3 ≈ 0.8333%`.
-- Dense-store chalk: 0.4%; flute 0.1%.
-- Native Nether expedition blue bombs: `3% × 2/6 = 1%`, 1–2 bombs, permitted from Nether onward.
-
-| Structure scenario, per player | Expected additions from the stated profile |
-|---|---|
-| 20 village household chests | 3 food selections and 0.4 utility items total |
-| 24 newly covered ordinary dungeon chests | 5.28 provisions and 0.84 utility items; if all are at/below -64, another 0.24 depth-gauge/kunai selections |
-| 65-container Aquamirae camp (observed template count) | 3.9 provisions and 0.325 utility items, not 65 independent high-value treasure rolls |
-| 40-container Friends & Foes citadel store (observed template count) | 2.4 provisions and 0.2 utility items |
-| 124-container Iron's citadel bookshelf template | No new generic bonus pools; native bookshelf rewards retained |
-| 24 End-city treasure chests | About 2.068 selected Iron's accessories across native/new pools, plus 0.96 authored enchanted diamond weapons |
-
-Template counts are not complete jigsaw-structure counts. The 20/24-chest scenarios are explicit assumptions. Multiply expected **aggregate** rewards by the number of independent Lootr players: four players get four separate budgets. Lootr team mode and automatic refresh remain unchanged/off.
+Current modest pool gates, item weighting, quantities, dimension eligibility and
+structure scenarios are in [MODEST-VARIETY.md](MODEST-VARIETY.md). For fully eligible
+one-roll entries, final chance is `pool gate × entry weight / total eligible weight`.
+The dimension guard removes prohibited results without rerolling. Count repeated
+containers and independent Lootr players when assessing aggregate rewards.
 
 Native basic-curio gates remain: generic 2%, good 5%, treasure 12%, stronghold library 8%, Nether 3%, ancient city 4%, End city 6%. Ten selected loot-only accessories are among 13 equally weighted native basic entries. The separate 4% missing-accessory pool remains limited to its original hidden/late treasure list: Mana Ring and Amethyst Resonance Charm 1.7143% each, Greater Conjurer's Talisman 0.5714%. Expulsion/Visibility retain native ominous-vault sources. No selected recipes or merchant sales were restored.
 
