@@ -10,10 +10,6 @@
         },
         {
           "condition": "neoforge:loot_table_id",
-          "loot_table_id": "ctov:chests/village/village_smith"
-        },
-        {
-          "condition": "neoforge:loot_table_id",
           "loot_table_id": "formationsoverworld:stone_tower/smithing"
         },
         {
@@ -23,22 +19,6 @@
         {
           "condition": "neoforge:loot_table_id",
           "loot_table_id": "minecraft:chests/illager_mansion/smithing_room"
-        },
-        {
-          "condition": "neoforge:loot_table_id",
-          "loot_table_id": "minecraft:chests/village/village_armorer"
-        },
-        {
-          "condition": "neoforge:loot_table_id",
-          "loot_table_id": "minecraft:chests/village/village_mason"
-        },
-        {
-          "condition": "neoforge:loot_table_id",
-          "loot_table_id": "minecraft:chests/village/village_toolsmith"
-        },
-        {
-          "condition": "neoforge:loot_table_id",
-          "loot_table_id": "minecraft:chests/village/village_weaponsmith"
         },
         {
           "condition": "neoforge:loot_table_id",

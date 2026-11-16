@@ -313,3 +313,44 @@ source, installed and isolated-runtime mod sets. Audit the native roller and
 Lootr hook on updates; verify eligible-table hard/soft pity, easy-table exclusion,
 same-region exclusion and independent players. Never migrate or erase real
 saved state to demonstrate pity. The previous no-pity plan is historical.
+
+## Modest loot variety (2026-11-13)
+
+Read `MODEST-VARIETY.md` for the current 30 profiles / 339 recipients / 233 authored
+item IDs and pool budgets. Eight room-specific profiles distinguish wardrobe,
+sparse laundry, domestic, music, fishing, maritime, sparse food and sparse supplies.
+Keep the four sparse profiles at 6% provisions and 0.5% utility unless deliberately
+rebalancing their whole-structure budgets; Witch Villa laundry has 26 containers in
+one reviewed template. Dungeon Crawl's eight frequent roots now use the explicit
+`recipient_profiles` mapping, all at the same sparse gates.
+
+Native tables, native LootJS edits, special discovery kits/components, bounded weapons,
+accessory gates and pity were preserved. Do not add a duplicate utility/food route
+when expanding entries. New dimensional food entries have explicit eligible-dimension
+conditions as well as post-generation filtering. Ordinary music-room goat horns must
+receive a native instrument. Capes are ordinary Banner Capes, never elytra capes.
+
+Development tooling: `scripts/build_loot_variety.py`, `check_loot_variety.py` and
+`LootVarietyChecks.java`; provenance/baseline/report in `docs/loot-variety-2026-11-13/`.
+The generator deliberately uses that revision's frozen baseline; rebase it explicitly
+before using it after later loot edits, to avoid overwriting intervening work.
+The checker supports an explicit `--chest-only` scope that does not certify archaeology
+inventory. Run the full checker separately and retain its failures; do not refresh
+unrelated installed-jar/archaeology/tips baselines to hide dependency drift.
+
+## Stronger village loot (2026-11-15)
+
+`VILLAGE-LOOT.md` supersedes the November 13 village rates: 36 profiles, 339 roots,
+233 item IDs. Households guarantee one modest portion with 30% shared discovery;
+six exact village-profession subsets have separate profiles. Keep these increases
+out of their shared non-village/dense counterparts. Fletchers remain excluded from
+guard weapons/kits, even though the retained explicit guard predicate is now redundant.
+Special-kit rules are partitioned over disjoint original/new profile recipients;
+do not apply both modifiers to a single outer roll. Preserve original special rates.
+
+Tooling/evidence: development `scripts/build_village_loot.py`, `check_village_loot.py`,
+`LootVarietyChecks.java` and `docs/village-loot-2026-11-15/`. Its baseline freezes the
+prior source; never rerun older snapshot generators over subsequent changes. Require
+native taiga guaranteed portions/discovery frequency, personal Lootr fills and the
+existing progression/pity/component/outer-delegation regressions. Existing unrelated
+archaeology and tips baseline mismatches remain explicit; do not reset those guards.

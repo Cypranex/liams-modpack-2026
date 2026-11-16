@@ -18,14 +18,6 @@
         },
         {
           "condition": "neoforge:loot_table_id",
-          "loot_table_id": "chefsdelight:chests/cooker"
-        },
-        {
-          "condition": "neoforge:loot_table_id",
-          "loot_table_id": "ctov:chests/village/village_bakery"
-        },
-        {
-          "condition": "neoforge:loot_table_id",
           "loot_table_id": "formationsoverworld:hobbit_hole/food"
         },
         {
@@ -39,14 +31,6 @@
         {
           "condition": "neoforge:loot_table_id",
           "loot_table_id": "minecraft:chests/illager_mansion/kitchen"
-        },
-        {
-          "condition": "neoforge:loot_table_id",
-          "loot_table_id": "minecraft:chests/village/village_butcher"
-        },
-        {
-          "condition": "neoforge:loot_table_id",
-          "loot_table_id": "minecraft:chests/village/village_fisher"
         },
         {
           "condition": "neoforge:loot_table_id",

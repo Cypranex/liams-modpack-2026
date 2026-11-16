@@ -5,28 +5,42 @@
   "after_targets": 339,
   "added_targets": 283,
   "profiles": {
-    "kitchens": 17,
+    "kitchens": 13,
     "surface_supplies": 8,
     "dungeon_supplies": 13,
-    "workshops": 12,
+    "workshops": 7,
     "library_supplies": 11,
     "hidden_treasure": 4,
     "nether_supplies": 8,
     "late_treasure": 4,
     "aether_provisions": 4,
     "armoury": 2,
-    "village_households": 18,
-    "garden_stores": 6,
+    "village_households": 16,
+    "garden_stores": 3,
     "rural_libraries": 4,
     "expedition_caches": 13,
-    "dungeon_discoveries": 68,
-    "guard_stores": 6,
-    "coastal_caches": 15,
+    "dungeon_discoveries": 67,
+    "guard_stores": 5,
+    "coastal_caches": 10,
     "cold_caches": 7,
-    "sparse_stores": 32,
-    "magic_resupply": 44,
+    "sparse_stores": 27,
+    "magic_resupply": 41,
     "nether_expeditions": 34,
-    "end_expeditions": 9
+    "end_expeditions": 9,
+    "wardrobes": 1,
+    "sparse_wardrobes": 1,
+    "domestic_stores": 2,
+    "music_rooms": 1,
+    "fishing_stores": 2,
+    "maritime_stores": 3,
+    "sparse_food": 1,
+    "sparse_supplies": 2,
+    "village_kitchens": 3,
+    "village_workshops": 5,
+    "village_wardrobes": 2,
+    "village_fishing": 2,
+    "village_gardens": 3,
+    "village_archers": 1
   },
   "tables": [
     {
@@ -912,7 +926,7 @@
     {
       "table": "chefsdelight:chests/cooker",
       "installed_json": true,
-      "profile": "kitchens",
+      "profile": "village_kitchens",
       "status": "covered",
       "reason": "Explicit expansion route",
       "template_count": 30,
@@ -942,7 +956,7 @@
     {
       "table": "ctov:chests/village/village_bakery",
       "installed_json": true,
-      "profile": "kitchens",
+      "profile": "village_kitchens",
       "status": "covered",
       "reason": "First-pass reviewed route",
       "template_count": 3,
@@ -972,7 +986,7 @@
     {
       "table": "ctov:chests/village/village_farm",
       "installed_json": true,
-      "profile": "garden_stores",
+      "profile": "village_gardens",
       "status": "covered",
       "reason": "Explicit expansion route",
       "template_count": 41,
@@ -982,7 +996,7 @@
     {
       "table": "ctov:chests/village/village_forager",
       "installed_json": true,
-      "profile": "garden_stores",
+      "profile": "village_gardens",
       "status": "covered",
       "reason": "First-pass reviewed route",
       "template_count": 18,
@@ -1032,7 +1046,7 @@
     {
       "table": "ctov:chests/village/village_smith",
       "installed_json": true,
-      "profile": "workshops",
+      "profile": "village_workshops",
       "status": "covered",
       "reason": "First-pass reviewed route",
       "template_count": 21,
@@ -2602,9 +2616,9 @@
     {
       "table": "minecraft:chests/illager_mansion/wool",
       "installed_json": true,
-      "profile": "dungeon_discoveries",
+      "profile": "wardrobes",
       "status": "covered",
-      "reason": "Explicit expansion route",
+      "reason": "2026-11-13 room-specific modest loot profile; retained native loot",
       "template_count": 9,
       "max_containers_per_template": 3,
       "example_template": "data/minecraft/structure/illager_mansion/mansion_attic_room5.nbt"
@@ -2682,9 +2696,9 @@
     {
       "table": "minecraft:chests/shipwreck_map",
       "installed_json": true,
-      "profile": "coastal_caches",
+      "profile": "maritime_stores",
       "status": "covered",
-      "reason": "Explicit expansion route",
+      "reason": "2026-11-13 room-specific modest loot profile; retained native loot",
       "template_count": 22,
       "max_containers_per_template": 6,
       "example_template": "data/cataclysm/structure/sunken_city_mid_east.nbt"
@@ -2692,9 +2706,9 @@
     {
       "table": "minecraft:chests/shipwreck_supply",
       "installed_json": true,
-      "profile": "sparse_stores",
+      "profile": "maritime_stores",
       "status": "covered",
-      "reason": "Explicit expansion route",
+      "reason": "2026-11-13 room-specific modest loot profile; retained native loot",
       "template_count": 14,
       "max_containers_per_template": 13,
       "example_template": "data/cataclysm/structure/sunken_city_upper_treasureroom.nbt"
@@ -2842,7 +2856,7 @@
     {
       "table": "minecraft:chests/village/village_armorer",
       "installed_json": true,
-      "profile": "workshops",
+      "profile": "village_workshops",
       "status": "covered",
       "reason": "Explicit expansion route",
       "template_count": 46,
@@ -2852,7 +2866,7 @@
     {
       "table": "minecraft:chests/village/village_butcher",
       "installed_json": true,
-      "profile": "kitchens",
+      "profile": "village_kitchens",
       "status": "covered",
       "reason": "Explicit expansion route",
       "template_count": 65,
@@ -2882,9 +2896,9 @@
     {
       "table": "minecraft:chests/village/village_fisher",
       "installed_json": true,
-      "profile": "kitchens",
+      "profile": "village_fishing",
       "status": "covered",
-      "reason": "Explicit expansion route",
+      "reason": "2026-11-13 room-specific modest loot profile; retained native loot",
       "template_count": 66,
       "max_containers_per_template": 4,
       "example_template": "data/minecraft/structure/village/plains/houses/plains_fisher_cottage_1.nbt"
@@ -2892,7 +2906,7 @@
     {
       "table": "minecraft:chests/village/village_fletcher",
       "installed_json": true,
-      "profile": "guard_stores",
+      "profile": "village_archers",
       "status": "covered",
       "reason": "Explicit expansion route",
       "template_count": 22,
@@ -2912,7 +2926,7 @@
     {
       "table": "minecraft:chests/village/village_mason",
       "installed_json": true,
-      "profile": "workshops",
+      "profile": "village_workshops",
       "status": "covered",
       "reason": "Explicit expansion route",
       "template_count": 37,
@@ -2942,9 +2956,9 @@
     {
       "table": "minecraft:chests/village/village_shepherd",
       "installed_json": true,
-      "profile": "village_households",
+      "profile": "village_wardrobes",
       "status": "covered",
-      "reason": "Explicit expansion route",
+      "reason": "2026-11-13 room-specific modest loot profile; retained native loot",
       "template_count": 53,
       "max_containers_per_template": 8,
       "example_template": "data/minecraft/structure/village/snowy/houses/snowy_shepherds_house_1.nbt"
@@ -2982,9 +2996,9 @@
     {
       "table": "minecraft:chests/village/village_tannery",
       "installed_json": true,
-      "profile": "village_households",
+      "profile": "village_wardrobes",
       "status": "covered",
-      "reason": "Explicit expansion route",
+      "reason": "2026-11-13 room-specific modest loot profile; retained native loot",
       "template_count": 44,
       "max_containers_per_template": 4,
       "example_template": "data/minecraft/structure/village/plains/houses/plains_tannery_1.nbt"
@@ -3002,7 +3016,7 @@
     {
       "table": "minecraft:chests/village/village_toolsmith",
       "installed_json": true,
-      "profile": "workshops",
+      "profile": "village_workshops",
       "status": "covered",
       "reason": "Explicit expansion route",
       "template_count": 41,
@@ -3012,7 +3026,7 @@
     {
       "table": "minecraft:chests/village/village_weaponsmith",
       "installed_json": true,
-      "profile": "workshops",
+      "profile": "village_workshops",
       "status": "covered",
       "reason": "Explicit expansion route",
       "template_count": 48,
@@ -3652,9 +3666,9 @@
     {
       "table": "nova_structures:chests/illager_hideout_fishing",
       "installed_json": true,
-      "profile": "coastal_caches",
+      "profile": "fishing_stores",
       "status": "covered",
-      "reason": "Explicit expansion route",
+      "reason": "2026-11-13 room-specific modest loot profile; retained native loot",
       "template_count": 1,
       "max_containers_per_template": 1,
       "example_template": "data/minecraft/structure/illager_mansion/mansion_middle_room_basement2.nbt"
@@ -4382,9 +4396,9 @@
     {
       "table": "nova_structures:chests/water_supply",
       "installed_json": true,
-      "profile": "coastal_caches",
+      "profile": "fishing_stores",
       "status": "covered",
-      "reason": "Explicit expansion route",
+      "reason": "2026-11-13 room-specific modest loot profile; retained native loot",
       "template_count": 2,
       "max_containers_per_template": 9,
       "example_template": "data/nova_structures/structure/badlands_miner_outpost/badlands_miner_outpost_event_23.nbt"
@@ -4392,9 +4406,9 @@
     {
       "table": "nova_structures:chests/witch_villa/bedroom",
       "installed_json": true,
-      "profile": "magic_resupply",
+      "profile": "domestic_stores",
       "status": "covered",
-      "reason": "Explicit expansion route",
+      "reason": "2026-11-13 room-specific modest loot profile; retained native loot",
       "template_count": 3,
       "max_containers_per_template": 1,
       "example_template": "data/nova_structures/structure/witch_villa/room/witch_villa_small_room_5.nbt"
@@ -4402,9 +4416,9 @@
     {
       "table": "nova_structures:chests/witch_villa/dirty_clothes",
       "installed_json": true,
-      "profile": "sparse_stores",
+      "profile": "sparse_wardrobes",
       "status": "covered",
-      "reason": "Explicit expansion route",
+      "reason": "2026-11-13 room-specific modest loot profile; retained native loot",
       "template_count": 3,
       "max_containers_per_template": 26,
       "example_template": "data/nova_structures/structure/witch_villa/plot/witch_villa_outhouse_1.nbt"
@@ -4422,9 +4436,9 @@
     {
       "table": "nova_structures:chests/witch_villa/general_storage",
       "installed_json": true,
-      "profile": "magic_resupply",
+      "profile": "domestic_stores",
       "status": "covered",
-      "reason": "Explicit expansion route",
+      "reason": "2026-11-13 room-specific modest loot profile; retained native loot",
       "template_count": 3,
       "max_containers_per_template": 2,
       "example_template": "data/nova_structures/structure/witch_villa/plot/witch_villa_side_garden_1.nbt"
@@ -4462,9 +4476,9 @@
     {
       "table": "nova_structures:chests/witch_villa/music_room",
       "installed_json": true,
-      "profile": "magic_resupply",
+      "profile": "music_rooms",
       "status": "covered",
-      "reason": "Explicit expansion route",
+      "reason": "2026-11-13 room-specific modest loot profile; retained native loot",
       "template_count": 2,
       "max_containers_per_template": 1,
       "example_template": "data/nova_structures/structure/witch_villa/plot/witch_villa_entry_big_1.nbt"
@@ -4812,9 +4826,9 @@
     {
       "table": "ribbits:chests/fisherman_main",
       "installed_json": true,
-      "profile": "coastal_caches",
+      "profile": "village_fishing",
       "status": "covered",
-      "reason": "Explicit expansion route",
+      "reason": "2026-11-13 room-specific modest loot profile; retained native loot",
       "template_count": 2,
       "max_containers_per_template": 6,
       "example_template": "data/ribbits/structure/houses/brown_fishing_house.nbt"
@@ -4832,7 +4846,7 @@
     {
       "table": "ribbits:chests/gardener",
       "installed_json": true,
-      "profile": "garden_stores",
+      "profile": "village_gardens",
       "status": "covered",
       "reason": "Explicit expansion route",
       "template_count": 2,
@@ -5192,9 +5206,9 @@
     {
       "table": "supplementaries:loot/galleon/chest",
       "installed_json": true,
-      "profile": "coastal_caches",
+      "profile": "maritime_stores",
       "status": "covered",
-      "reason": "Explicit expansion route",
+      "reason": "2026-11-13 room-specific modest loot profile; retained native loot",
       "template_count": 3,
       "max_containers_per_template": 1,
       "example_template": "data/supplementaries/structure/galleon/galleon.nbt"
@@ -5482,9 +5496,9 @@
     {
       "table": "dungeoncrawl:chests/food",
       "installed_json": true,
-      "profile": "sparse_stores",
+      "profile": "sparse_food",
       "status": "covered",
-      "reason": "Dungeon Crawl custom models/procedural stage and feature chests; native resource/gear/lighting trims; dense budget",
+      "reason": "2026-11-13 room-specific modest loot profile; retained native loot",
       "template_count": 0,
       "max_containers_per_template": 0,
       "example_template": null
@@ -5492,9 +5506,9 @@
     {
       "table": "dungeoncrawl:chests/supply",
       "installed_json": true,
-      "profile": "sparse_stores",
+      "profile": "sparse_supplies",
       "status": "covered",
-      "reason": "Dungeon Crawl custom models/procedural stage and feature chests; native resource/gear/lighting trims; dense budget",
+      "reason": "2026-11-13 room-specific modest loot profile; retained native loot",
       "template_count": 0,
       "max_containers_per_template": 0,
       "example_template": null
@@ -5502,9 +5516,9 @@
     {
       "table": "dungeoncrawl:chests/secret_room",
       "installed_json": true,
-      "profile": "sparse_stores",
+      "profile": "sparse_supplies",
       "status": "covered",
-      "reason": "Dungeon Crawl custom models/procedural stage and feature chests; native resource/gear/lighting trims; dense budget",
+      "reason": "2026-11-13 room-specific modest loot profile; retained native loot",
       "template_count": 0,
       "max_containers_per_template": 0,
       "example_template": null

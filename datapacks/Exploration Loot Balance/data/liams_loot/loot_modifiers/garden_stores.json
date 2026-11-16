@@ -6,14 +6,6 @@
       "terms": [
         {
           "condition": "neoforge:loot_table_id",
-          "loot_table_id": "ctov:chests/village/village_farm"
-        },
-        {
-          "condition": "neoforge:loot_table_id",
-          "loot_table_id": "ctov:chests/village/village_forager"
-        },
-        {
-          "condition": "neoforge:loot_table_id",
           "loot_table_id": "irons_spellbooks:chests/wheat"
         },
         {
@@ -23,10 +15,6 @@
         {
           "condition": "neoforge:loot_table_id",
           "loot_table_id": "nova_structures:chests/witch_villa/pumpkin_room"
-        },
-        {
-          "condition": "neoforge:loot_table_id",
-          "loot_table_id": "ribbits:chests/gardener"
         }
       ]
     }

@@ -22,10 +22,6 @@
         },
         {
           "condition": "neoforge:loot_table_id",
-          "loot_table_id": "minecraft:chests/shipwreck_map"
-        },
-        {
-          "condition": "neoforge:loot_table_id",
           "loot_table_id": "minecraft:chests/shipwreck_treasure"
         },
         {
@@ -47,22 +43,6 @@
         {
           "condition": "neoforge:loot_table_id",
           "loot_table_id": "nova_structures:chests/conduit_ruin/conduit_ruin_small"
-        },
-        {
-          "condition": "neoforge:loot_table_id",
-          "loot_table_id": "nova_structures:chests/illager_hideout_fishing"
-        },
-        {
-          "condition": "neoforge:loot_table_id",
-          "loot_table_id": "nova_structures:chests/water_supply"
-        },
-        {
-          "condition": "neoforge:loot_table_id",
-          "loot_table_id": "ribbits:chests/fisherman_main"
-        },
-        {
-          "condition": "neoforge:loot_table_id",
-          "loot_table_id": "supplementaries:loot/galleon/chest"
         }
       ]
     }
