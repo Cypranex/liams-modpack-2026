@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "AGENTS.md"
-hash = "a13173fefa527a2d9796c2b38ed9448e973af135159404236571db3f99d2275a"
+hash = "f43008408cd243836dce0b983f1506ba5f153074452d483dc4eda0edaadc695f"
 
 [[files]]
 file = "config/aeronauticswinds-common.toml"
@@ -903,7 +903,7 @@ hash = "e4bf5a07d051510070733bca5b775abe25be76832f0ffaf0c0fbd02262b7f090"
 
 [[files]]
 file = "datapacks/Exploration Loot Balance/AGENTS.md"
-hash = "cc5c4d9e8a444da239d663f48329c7dc61b819f14ee3775eab909b5c9a01e573"
+hash = "3bdbce7886d9f434cc341fb0477c5be29045bf90885359ee8ce756aba7a6d766"
 
 [[files]]
 file = "datapacks/Exploration Loot Balance/ARCHAEOLOGY-CRYSTALS-PLAN.md"
@@ -923,7 +923,11 @@ hash = "359f8fbc5fa0c667be29f9eec1e5854ae1a6855d92494674e59dff151c4aefc7"
 
 [[files]]
 file = "datapacks/Exploration Loot Balance/LOOT-IDEAS.md"
-hash = "3a968cd16ada5159e5b63e4d0155e4ead220440029ef38f92845a1b4c4615dff"
+hash = "a59e714c69cf9b606f724da2bdbba9ea15233401cd41625c78d1803ca9d0636d"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/MODEST-VARIETY.md"
+hash = "6196b9a54227db7d4ca58772d899524e546ae71830c1c3bb5420485a928e90e4"
 
 [[files]]
 file = "datapacks/Exploration Loot Balance/NETHER-REMASTERED-PLAN.md"
@@ -935,7 +939,7 @@ hash = "987cd6e308c13f5aa6d01b704e0d4d01b5b72be9878febdc36ab40da7fc226d7"
 
 [[files]]
 file = "datapacks/Exploration Loot Balance/README.md"
-hash = "f5ccefb162398e08a1a1e84dfab114a6e41fb9f27e5695712e2b2180b8bd251a"
+hash = "7fce4044e47ac45d3a5474a258724da677b2c102bb8b1232e150a61ebdd56db9"
 
 [[files]]
 file = "datapacks/Exploration Loot Balance/RESTORE-PITY-PLAN.md"
@@ -946,12 +950,16 @@ file = "datapacks/Exploration Loot Balance/SWORDS-PLAN.md"
 hash = "9641489a35a6cf836dbb56ba8ea423d8897a6e4f670c5dffc0665303e48c7caa"
 
 [[files]]
+file = "datapacks/Exploration Loot Balance/VILLAGE-LOOT.md"
+hash = "b70538e68045ba1324a4fc310a206254b06264c102a72d7eddaa01425d0dd3f6"
+
+[[files]]
 file = "datapacks/Exploration Loot Balance/archaeology-crystals.json"
 hash = "b58026c20275beb043af974277ac96091fa7937e103f6c293c1fb7ddf33cadab"
 
 [[files]]
 file = "datapacks/Exploration Loot Balance/coverage-inventory.json"
-hash = "0151aa6909baf2892380fc47073ed0ddb4c0312f25f181e723cc3a6229554d3b"
+hash = "a67844c718bcacb50a42a4c15a31d68b58e55482ee7ddaa1cd00b98083a7a19d"
 
 [[files]]
 file = "datapacks/Exploration Loot Balance/data/aethersdelight/loot_modifiers/scavenging_cooked_wings_from_flying_cow.json"
@@ -991,19 +999,23 @@ hash = "8a3ad65872871d048f54685abc7f2619dace393ef878a203a7d241d5b7cc2a49"
 
 [[files]]
 file = "datapacks/Exploration Loot Balance/data/liams_loot/loot_modifiers/coastal_caches.json"
-hash = "b745b3748aa7347b9a27b6f76384e856959e868d6c15c78efc75617e92b9921e"
+hash = "8aa535b2d832619ec4ab4d02b1d116bc68f677610dc9b79ba68da8cb54177709"
 
 [[files]]
 file = "datapacks/Exploration Loot Balance/data/liams_loot/loot_modifiers/cold_caches.json"
 hash = "5ddddf3efc3df37275a94c1c60bad7f236495e949eca569cddab61b942f1d31d"
 
 [[files]]
+file = "datapacks/Exploration Loot Balance/data/liams_loot/loot_modifiers/domestic_stores.json"
+hash = "d0ae4eceb662ac09159664f6ab026e53f32e7fb80d9b8a055eea8528c4e6a45f"
+
+[[files]]
 file = "datapacks/Exploration Loot Balance/data/liams_loot/loot_modifiers/dungeon_discoveries.json"
-hash = "f2145aa8a635eea09bae16117998efdc56a5e592ae3c949c0e06fca308afb69b"
+hash = "8222d2f5eff2dabd3d26e5f7cc6f3c379ae1a861d408f010d8cc1ce14fda26fe"
 
 [[files]]
 file = "datapacks/Exploration Loot Balance/data/liams_loot/loot_modifiers/dungeon_supplies.json"
-hash = "655a73141623c67b310f8df0c79de416088ee048f0247f9543c006c54fb0cf39"
+hash = "df5aa46aa7857a480757756cffb3492668a291ad1de70876bc1dcedb3ba512e5"
 
 [[files]]
 file = "datapacks/Exploration Loot Balance/data/liams_loot/loot_modifiers/end_expeditions.json"
@@ -1014,12 +1026,16 @@ file = "datapacks/Exploration Loot Balance/data/liams_loot/loot_modifiers/expedi
 hash = "68f98c765e34aa5a6566c8bb656a8ee45d3c235498a17c41dbcf01f01b1920da"
 
 [[files]]
+file = "datapacks/Exploration Loot Balance/data/liams_loot/loot_modifiers/fishing_stores.json"
+hash = "0d75700e39059b133258181a71406f7ef538cfc078ac989e4e326ee737dfbff9"
+
+[[files]]
 file = "datapacks/Exploration Loot Balance/data/liams_loot/loot_modifiers/garden_stores.json"
-hash = "0ea078339376ee78015818c7dc409c7861726bfcead2994c6dcd040deff78d65"
+hash = "b494fcfef18b03c9ff0f5e920d2158317169238ba18b941638397449df4a5652"
 
 [[files]]
 file = "datapacks/Exploration Loot Balance/data/liams_loot/loot_modifiers/guard_stores.json"
-hash = "b40c64f18127fc73d64b4e169b26c4a66896b79594b032d5b013d7f3fc0b5297"
+hash = "f0f70aff64daaaa1d7582f7d1d5468ecc9392fb510df2ae632e45aca80abf9fd"
 
 [[files]]
 file = "datapacks/Exploration Loot Balance/data/liams_loot/loot_modifiers/hidden_treasure.json"
@@ -1027,7 +1043,7 @@ hash = "b5d898d253ee904cdd3772e9724f4071f32b97a0c4087eaee8028ebccd3598e1"
 
 [[files]]
 file = "datapacks/Exploration Loot Balance/data/liams_loot/loot_modifiers/kitchens.json"
-hash = "8c8fa47dc05b0e4d832ddbc6c8a66dc257cb625755b525e91394ffea88554ee4"
+hash = "5e35bc085a8c291d34037a0c12aa33a34985b0bfa6d513bd8a8e19554f9205e1"
 
 [[files]]
 file = "datapacks/Exploration Loot Balance/data/liams_loot/loot_modifiers/late_treasure.json"
@@ -1039,7 +1055,15 @@ hash = "36d605742af10ede4065674d5096e4bad72f29952c8da749313a9b51a5d864b5"
 
 [[files]]
 file = "datapacks/Exploration Loot Balance/data/liams_loot/loot_modifiers/magic_resupply.json"
-hash = "0e1079ae2faacb798958a612459dc0582f771411439eac0dab76a72a72f68850"
+hash = "c70343e3ada0192f3e160f3589d644611a1cf23b18b3bc060aed2550e7c14a60"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/liams_loot/loot_modifiers/maritime_stores.json"
+hash = "034a425f03de506be258a65065f784c39c6b8d886690357fd4a0a35976f7cb5d"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/liams_loot/loot_modifiers/music_rooms.json"
+hash = "e79400fb0acf13214d700d927d8e857e1e732df5d21f694db9baf05f0aeaab94"
 
 [[files]]
 file = "datapacks/Exploration Loot Balance/data/liams_loot/loot_modifiers/nether_expeditions.json"
@@ -1054,24 +1078,64 @@ file = "datapacks/Exploration Loot Balance/data/liams_loot/loot_modifiers/rural_
 hash = "0251bf38410092c43b13baf893664696f1fd953570d38bdb1cecbf195151bce6"
 
 [[files]]
+file = "datapacks/Exploration Loot Balance/data/liams_loot/loot_modifiers/sparse_food.json"
+hash = "4440d845838f977f6d3631d8fe1f499032a0835555e4a6345ed487ea94e55a4a"
+
+[[files]]
 file = "datapacks/Exploration Loot Balance/data/liams_loot/loot_modifiers/sparse_stores.json"
-hash = "e6132916ce7da21fad32621d576a0ecd31073d44ea5aa5aa688afd032dd81b70"
+hash = "941eb855bdea5a3259d68cb25429f6c3f1373a0fe1bded810cc979d9ed567859"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/liams_loot/loot_modifiers/sparse_supplies.json"
+hash = "e67b140ee16719cb99c27bf61409225db8acfde91327ad6e73788bff0c451d99"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/liams_loot/loot_modifiers/sparse_wardrobes.json"
+hash = "791765634e8c3db14ffb934f241515b2715074c70864ccb01144e0c265604c83"
 
 [[files]]
 file = "datapacks/Exploration Loot Balance/data/liams_loot/loot_modifiers/surface_supplies.json"
 hash = "2809b32facf11211ca4210a24ff4c8437ad301feaccb62753371f8916d9331da"
 
 [[files]]
+file = "datapacks/Exploration Loot Balance/data/liams_loot/loot_modifiers/village_archers.json"
+hash = "7d1922d3065ba41a35b33fa5461b8714f1adf049e2981a5286b0d89f68ab8ba0"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/liams_loot/loot_modifiers/village_fishing.json"
+hash = "a21faa9b3c68b212acfe7001dee2ea825f13a26801ec5d8ad4e81aa60a064d0f"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/liams_loot/loot_modifiers/village_gardens.json"
+hash = "8d2b0f27e00365d225359c9dc899ccab73dea9453ec9de842b3b631b1283a444"
+
+[[files]]
 file = "datapacks/Exploration Loot Balance/data/liams_loot/loot_modifiers/village_households.json"
-hash = "1130d99340a0d76acada657819f8b002e5d58158c4a1c5f9a3226dc6cd7ecef2"
+hash = "2dcc245d1d79987c283efae3b1924fb4963ac5e450426fb49e49d3fcaacbe982"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/liams_loot/loot_modifiers/village_kitchens.json"
+hash = "581dbcb4833603cadf6c2411bb7a139d1ca34d7f8665f6196bc0d49799026d3a"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/liams_loot/loot_modifiers/village_wardrobes.json"
+hash = "77fe3df37400e445be26fb40fc966a3657387f12572877a0b76f307be06d8026"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/liams_loot/loot_modifiers/village_workshops.json"
+hash = "461e06793b395ee3788cff9fcc7abdcbf74c955252ce1fa672e4ddb02fdd9e41"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/liams_loot/loot_modifiers/wardrobes.json"
+hash = "f2f65aab2911a6144add4090a139c5c76edf22ab119f5a97ae6ecbb04a788abe"
 
 [[files]]
 file = "datapacks/Exploration Loot Balance/data/liams_loot/loot_modifiers/workshops.json"
-hash = "6bbfa5a0cbe790e44ffe0fa09d760b2ef3d60d3b5a0c9f746bd71bb72b5661b4"
+hash = "f03a2d38ec542c19c5772b3d5b335f841e6150fbea3a019514966bf6a2c50b37"
 
 [[files]]
 file = "datapacks/Exploration Loot Balance/data/liams_loot/loot_table/rewards/aether_provisions.json"
-hash = "6190e7ab7cc4f693061439bf52a591f119b9bc5fe57db4d87dfca223387d11af"
+hash = "389c11b5c27ca8fc1848cef9b416365e9a3e7d2e95e5cf9ef4e09cbc1f7284ae"
 
 [[files]]
 file = "datapacks/Exploration Loot Balance/data/liams_loot/loot_table/rewards/armoury.json"
@@ -1079,35 +1143,43 @@ hash = "ee77e628d5176f716dc375cea409b1bade9f4cd46724880a9670688ffa0cddd0"
 
 [[files]]
 file = "datapacks/Exploration Loot Balance/data/liams_loot/loot_table/rewards/coastal_caches.json"
-hash = "52111314ef65721ceef2ae588c4026e2dd511c008704b967d1e50b79d1a210de"
+hash = "d0d05f67dd660985beeecf87d3231633fd7030825151a1c5698e160aaf7410e1"
 
 [[files]]
 file = "datapacks/Exploration Loot Balance/data/liams_loot/loot_table/rewards/cold_caches.json"
-hash = "51fd4c22dc0a62089e676747cf04b2e48bae1f53694f4af078c7b4ac3c7ff796"
+hash = "caed3cd40d533f2ae4cb73dac5780ea9db25ef476f0cf1e7508f563dbf37bc82"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/liams_loot/loot_table/rewards/domestic_stores.json"
+hash = "a37a14efdab691d3e0652986ff2ad3286ee8f2fe19e705d7341d280876df01af"
 
 [[files]]
 file = "datapacks/Exploration Loot Balance/data/liams_loot/loot_table/rewards/dungeon_discoveries.json"
-hash = "b455bf0454739de98c09e7bf975f3a0f6435105f41c2db5bfda106aa88b47c08"
+hash = "2a7fb8d97d3e52fc356c0e421e28a89f76637c963d833f065ba4832a0afb83d1"
 
 [[files]]
 file = "datapacks/Exploration Loot Balance/data/liams_loot/loot_table/rewards/dungeon_supplies.json"
-hash = "fdfea6bc45c476087f3819ca3b18b71c9f34c8c69b8b299a0109c64787bc9cbc"
+hash = "5d790971534d452bc945f0892713e125f766c57a5d469d48686dfad92c5e162b"
 
 [[files]]
 file = "datapacks/Exploration Loot Balance/data/liams_loot/loot_table/rewards/end_expeditions.json"
-hash = "83fc5ba132e3d9c7a9d10c62034aca59f080da3fc7cf58b1331841480ccc8b8c"
+hash = "0f76653a01dc4eeec2e454f8cff7ac390103bd38487966d36a74ba92d6683fb9"
 
 [[files]]
 file = "datapacks/Exploration Loot Balance/data/liams_loot/loot_table/rewards/expedition_caches.json"
-hash = "6c89a646b21b89327759a8791a9aa8d74b236ebe6b784a58ae35c8f26e85ed7e"
+hash = "abf398d8448fda347802b5b1b69f0d4bcbd7498faadb13db5bfcf989f38f30a3"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/liams_loot/loot_table/rewards/fishing_stores.json"
+hash = "41f51468771c993b8406f56e57c351009dffdf265a3f9bede7b5dc01b5c33a82"
 
 [[files]]
 file = "datapacks/Exploration Loot Balance/data/liams_loot/loot_table/rewards/garden_stores.json"
-hash = "3b1e7c2aaca817d91f5985bd3f82e61cc56d78fb8b52a04648347ac24f0da562"
+hash = "e7be11d872a149ee5e8a7d1cf64755da9d7a3e4b517a63538b4335510deab78d"
 
 [[files]]
 file = "datapacks/Exploration Loot Balance/data/liams_loot/loot_table/rewards/guard_stores.json"
-hash = "0e120199895b5060fddf63eeb664488c83a23710716d7e75cadda0f318289ab4"
+hash = "ddb8cc5291d4ee4bd56dd6640a2954a195de3de14178aed37edac027e0964186"
 
 [[files]]
 file = "datapacks/Exploration Loot Balance/data/liams_loot/loot_table/rewards/hidden_treasure.json"
@@ -1115,7 +1187,7 @@ hash = "bc8bc2a5366941c6cdbd1f1e709fd99ffe1c17fafa202c39dccbd68debb0d876"
 
 [[files]]
 file = "datapacks/Exploration Loot Balance/data/liams_loot/loot_table/rewards/kitchens.json"
-hash = "38b04939331bd0c4b87849076196aeb148c6d3b2f5b7c610d75d89b4e6627660"
+hash = "d16cfe55ee36383c53a44404b39a570e6cc037425211a2887a27f4a1625e9f8c"
 
 [[files]]
 file = "datapacks/Exploration Loot Balance/data/liams_loot/loot_table/rewards/late_treasure.json"
@@ -1123,39 +1195,87 @@ hash = "bc8f114cdbc78603a4962139eb8d8e8355b420d41615886f8ac5e1523bc63afd"
 
 [[files]]
 file = "datapacks/Exploration Loot Balance/data/liams_loot/loot_table/rewards/library_supplies.json"
-hash = "4e5734fea0c2780dc5e41e6adef56c17099c3fc25eb906f2058a30d8071b93d0"
+hash = "ca810761bd172682792bc876866d45674ee17bafa7c8bb23e47543853f1eaa7f"
 
 [[files]]
 file = "datapacks/Exploration Loot Balance/data/liams_loot/loot_table/rewards/magic_resupply.json"
-hash = "198188f045c134d10286f3ba080663126342918306dfdf61d01e9e0128b95bc7"
+hash = "5412157ca1badd697dea5ed5a92cf623fc7c3df85c2eed6609613e1ce4f330f8"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/liams_loot/loot_table/rewards/maritime_stores.json"
+hash = "685cf94b2c806a5b9e2b1aefd9ccb86248cf4413d759af3d3a031ab101d0fb43"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/liams_loot/loot_table/rewards/music_rooms.json"
+hash = "f419d2869c694be394e999d6e9e2b507f7760580a4984e783566d68dfaf60aa6"
 
 [[files]]
 file = "datapacks/Exploration Loot Balance/data/liams_loot/loot_table/rewards/nether_expeditions.json"
-hash = "955be8a393af6797eccaacef67f3c560f4673633ba4469dd3a8f21c6f728c635"
+hash = "3475504483ac57ff222e9781fbd77ff913e6df06fe2caf6c1fa3948f4491842c"
 
 [[files]]
 file = "datapacks/Exploration Loot Balance/data/liams_loot/loot_table/rewards/nether_supplies.json"
-hash = "b5a8dc8b08e9a34d5451e707b051b7e8b7b85c83dc79edf1abc444cd64e5d9f4"
+hash = "98cf38cf5bdc5e217260145b2127e0dcca0ac64d39f6de14ca86bce8e6b2f1ac"
 
 [[files]]
 file = "datapacks/Exploration Loot Balance/data/liams_loot/loot_table/rewards/rural_libraries.json"
-hash = "d24615696150b12477620467c886e3854018922f0d58c9a0f57c61bfe4db1f99"
+hash = "de3620ba55a16cc59713ac2c3bd2d015a0d3cd36b8f7e387cf0e9114e944be4c"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/liams_loot/loot_table/rewards/sparse_food.json"
+hash = "8d660e59e1cf0e0b2209c81f78730dc97269c3878ba2f07fc8a8b6b94469cdeb"
 
 [[files]]
 file = "datapacks/Exploration Loot Balance/data/liams_loot/loot_table/rewards/sparse_stores.json"
-hash = "4e3325263958b1b0ed2f86c7e961ca1dabfaf4e1e7672065bb94fd8fae0ce840"
+hash = "c78f47abfb92774140c19d68ac7e454c8d70dbdc7e545d63c0f47e40287d8a14"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/liams_loot/loot_table/rewards/sparse_supplies.json"
+hash = "8ad2cb6f03ec5eac92dd7cdcad62685299ce6fd5dbf19f085f139eb887b2846b"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/liams_loot/loot_table/rewards/sparse_wardrobes.json"
+hash = "b4f75e1a5ce09bfea01602d4f65445f97701657f9d553b37f6791cf59691623e"
 
 [[files]]
 file = "datapacks/Exploration Loot Balance/data/liams_loot/loot_table/rewards/surface_supplies.json"
-hash = "86fe5e21ce9783aa3c8798b22012ecc804a253f629d3989dc8915c673cb34b56"
+hash = "3f8c80a66d31adba46fc6f3407aaf893999c1f2530bef4e90ccbd6c7d71cdb83"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/liams_loot/loot_table/rewards/village_archers.json"
+hash = "829a677b12f234dcb0c04189dbcfd5c2977819dbed569a8ae4f3ab320476343b"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/liams_loot/loot_table/rewards/village_fishing.json"
+hash = "60aa8f85a98067b3f14738ff701d605a09590c7cf38e53ef7c3a7055be3fe203"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/liams_loot/loot_table/rewards/village_gardens.json"
+hash = "03ae7ee7ac05f9a3f651336ea60710d24e047cd85471475eb3d47c7b87082098"
 
 [[files]]
 file = "datapacks/Exploration Loot Balance/data/liams_loot/loot_table/rewards/village_households.json"
-hash = "146204491db06575f9e735c4cdf0b418eb2653edf62b752454a9e0c80faa6a4d"
+hash = "225ffbbd0f627c6ff6aa68177069ce5354ae1eb44440e8adbaaf6aa1cd1ff0af"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/liams_loot/loot_table/rewards/village_kitchens.json"
+hash = "696a07cbf78c2c17f909f399c0e7192eadb208f1ade5df1a3f3d265898e93bb4"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/liams_loot/loot_table/rewards/village_wardrobes.json"
+hash = "24e863b31246c2da140062a5e865640ef50ae96c8e3977ec2830ef586f88bbb4"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/liams_loot/loot_table/rewards/village_workshops.json"
+hash = "fd2a4af95efc64d1c6f5d752f88d633736d04f2075a3bc11a3d8b8ed8db00164"
+
+[[files]]
+file = "datapacks/Exploration Loot Balance/data/liams_loot/loot_table/rewards/wardrobes.json"
+hash = "04fa4985e99f4b51adf2f54d5e294b5eac4466b3867927ad5bfd1087009df19f"
 
 [[files]]
 file = "datapacks/Exploration Loot Balance/data/liams_loot/loot_table/rewards/workshops.json"
-hash = "c47ce78ecff5ffd4b33ca96761a1d78367eb543355ce49ab6c3ad127f2191a60"
+hash = "f073b91ef6f161857a3a973777f16d0a5c755fe1133947b3a037316234351998"
 
 [[files]]
 file = "datapacks/Exploration Loot Balance/data/liams_loot/remolders/archaeology_crystals/betterarcheology/archeology/desert_sand.json"
@@ -1551,7 +1671,7 @@ hash = "d42d8060adf1daf267990ce9f752a7f26275cd6433283372a06c49763c2d5705"
 
 [[files]]
 file = "datapacks/Exploration Loot Balance/data/neoforge/loot_modifiers/global_loot_modifiers.json"
-hash = "d53e275a17b6286f1f469c8cf155220883db22f3e69acbdd71b5602689c2269c"
+hash = "3158a991913d715591e9d6ea9ef9bddd5819a90c0ef6722262a338aea44c42c6"
 
 [[files]]
 file = "datapacks/Exploration Loot Balance/data/somakespells/loot_table/entities/infernal_blaze.json"
@@ -1575,7 +1695,7 @@ hash = "81e29da14afeb326d8775a55733b6ecc92ca8ab995afecf99ca15b1d9490a644"
 
 [[files]]
 file = "datapacks/Exploration Loot Balance/tuning-reference.json"
-hash = "af3907234f176f994a9a7d70badf522a1d23a50a2cfa787467bfbd0c32ea626f"
+hash = "c3f4c9160c3cda5cf9c9d1781088bae8c0b970cd7acaa054eb19988f3103b9bb"
 
 [[files]]
 file = "datapacks/Fangs and Claws Persistent Animals/data/respawninganimals/tags/entity_type/persistent_animals.json"
@@ -4440,7 +4560,7 @@ metafile = true
 
 [[files]]
 file = "mods/architectury-api.pw.toml"
-hash = "187eafde5974beee1263538b462b7b8fe2fc8948c5d413980d9796d55928580b"
+hash = "21347d7f9c96cebacb7238dbef2670e2906a11572606016c8184e9485947dacc"
 metafile = true
 
 [[files]]
@@ -4470,12 +4590,12 @@ metafile = true
 
 [[files]]
 file = "mods/azurelib.pw.toml"
-hash = "895cc3994140c8a99292db86367894fd5539c2b313da51ddb9f6448b117daa99"
+hash = "04a1239e44c76a0c6a3b670513480c402105450af02357b22e6b0027781a6ed0"
 metafile = true
 
 [[files]]
-file = "mods/backpack-ragdoll-compat-1.0.0.jar"
-hash = "ded1e6253a9dabc99a82c216d8ca2fd183f48107037fe9dae065b6afaab1f4b5"
+file = "mods/backpack-ragdoll-compat-1.0.1.jar"
+hash = "136f7833cd7e27ec77a55e07911423104a2cdaa3df21bc6c75065525bd1d62a7"
 
 [[files]]
 file = "mods/badoptimizations.pw.toml"
@@ -4534,7 +4654,7 @@ metafile = true
 
 [[files]]
 file = "mods/better-mob-combat-reimagined.pw.toml"
-hash = "9ba7958411c7c88ed6b1d33724feb658ce7085d286d0d3083e6105232b6800e2"
+hash = "9a0431b81cab063f62d1ad86359b1bc4d94b62907da90d166746946347c2b2f4"
 metafile = true
 
 [[files]]
@@ -4554,7 +4674,7 @@ metafile = true
 
 [[files]]
 file = "mods/bits-n-tracks-ce.pw.toml"
-hash = "572842ab313bec0b3917b6ad57da6c6902611bc6bd3d9089e5201062da92d10e"
+hash = "c7916294254f19658955c2781468e89df4266e7c5267d1f5b5f11202937c10a1"
 metafile = true
 
 [[files]]
@@ -4582,8 +4702,8 @@ hash = "22d9510588b081cf9905f6549d24bc11012aa8d9c7d38a8619ab9db5ccb7b9a8"
 metafile = true
 
 [[files]]
-file = "mods/buckler-ragdoll-compat-1.0.0.jar"
-hash = "0118156526fbfe8dfcbca3d5dbcffaa61a3399a989aee89db28a1916bfd5fe22"
+file = "mods/buckler-ragdoll-compat-1.0.1.jar"
+hash = "99a54cdad84d582949c8d7292ab24a100cb21cc69fd587c6e8c7bacfa7a42afe"
 
 [[files]]
 file = "mods/cataclysm-spellbooks.pw.toml"
@@ -4667,7 +4787,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-aeronautics-climbable-rope.pw.toml"
-hash = "b9550555c9db41c89f4b8d5df03f315e33ebe3c397f314be4287a403e01b6b10"
+hash = "74458a17668530918172dce94e2e2066f9e6dd128131d85c417e32ff892e1b62"
 metafile = true
 
 [[files]]
@@ -4682,7 +4802,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-big-cannons-going-ballistic.pw.toml"
-hash = "0b12883f11dbbe00992317ce0c867e9f9c63d5b5141fb34dc61cc0a34deb56ea"
+hash = "53a60af7d05b27e6be7e2c50796ffd313ad8c87c2a7a7b29b526bd6611cbd637"
 metafile = true
 
 [[files]]
@@ -4702,7 +4822,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-deep-seas.pw.toml"
-hash = "0da26360c1416e697090468c3cca1b7f0398117fd993c5b9f7a7808ba344a99d"
+hash = "c4f8f71ce17c44e0dfd0e68a037f4bc16b9136ee1f523de1fbed6f476bca3d85"
 metafile = true
 
 [[files]]
@@ -4713,6 +4833,11 @@ metafile = true
 [[files]]
 file = "mods/create.pw.toml"
 hash = "dcaf5f2e28db0b9a127d0167456832341045ddc9aec058c3d9fcf53f618d2404"
+metafile = true
+
+[[files]]
+file = "mods/createloconautics.pw.toml"
+hash = "075bbff94d93dc64557e5b4439402e98c46ca0444f7e779d66ef81070f25a4d0"
 metafile = true
 
 [[files]]
@@ -4850,12 +4975,12 @@ metafile = true
 
 [[files]]
 file = "mods/entityculling.pw.toml"
-hash = "426238488c9ffd843f661f8bc74aa8e585fa6b4d342c43c4ba4cb8451298b725"
+hash = "d518db51c2502b5b04d6ca4add6a2b3e862a0af15e7a65f0ab83180778adb604"
 metafile = true
 
 [[files]]
 file = "mods/every-compat.pw.toml"
-hash = "da13f3c6f0ae14645c29ee2049304917b77a3f74a26374511ccf3dacfcead254"
+hash = "1d219a061f5f85f6a33f009f8095cc4ac2db7cf92cd3be7e1b8bd75e613d82f9"
 metafile = true
 
 [[files]]
@@ -4875,7 +5000,7 @@ metafile = true
 
 [[files]]
 file = "mods/fangs-n-claws.pw.toml"
-hash = "d5dade346e8d11b6f549f31990b72d2d3a08d70f18b80c33aac2b7e5a0f8765d"
+hash = "515ed1466fa5ca7e862636cfafe8f2eb1f8166037681034e876fd9f3d85328fd"
 metafile = true
 
 [[files]]
@@ -4920,7 +5045,7 @@ metafile = true
 
 [[files]]
 file = "mods/field-guide.pw.toml"
-hash = "62f27ad45a3ac3454fae7f54958aad35d9fd9c5860c6019d4f00651883dbfe36"
+hash = "c893ac9c3ea53b63a864a7adbbfa0339209001f02fe32a888a4c228bc1b95df3"
 metafile = true
 
 [[files]]
@@ -5059,12 +5184,12 @@ metafile = true
 
 [[files]]
 file = "mods/immersive-overlays.pw.toml"
-hash = "70ad4b137babadccbdbfe5c2d64e56c56aece891a4074aa745d4f9227b099663"
+hash = "f749b285b2ef2b2fe470c6fdbce03bc46970101f61dac6560af02b9cc1619171"
 metafile = true
 
 [[files]]
 file = "mods/immersive-portals-aeronautics.pw.toml"
-hash = "53f6db77e194bf2369039cb8d6dd3983ddf8b3a80a300d38a0ba68807c5c9224"
+hash = "ceb8f9f0e311f48f27fa0a8cf0f24c6fd79c0d379181bee1d8c363a586a222d3"
 metafile = true
 
 [[files]]
@@ -5079,7 +5204,7 @@ metafile = true
 
 [[files]]
 file = "mods/integrated-api.pw.toml"
-hash = "91e64f115f316af85a1162f327d2b14b4669e6f6dffafc468f633be4317cf3b4"
+hash = "2006d93b750930a88d26709981818a3b8b14dfa3b0e8d0f05d0532d3475ee80b"
 metafile = true
 
 [[files]]
@@ -5153,7 +5278,7 @@ metafile = true
 
 [[files]]
 file = "mods/l_enders-cataclysm-delight.pw.toml"
-hash = "637e5b445b28d460884ce868948328ef512eb10ab2af60a86bd3e2c37ac49697"
+hash = "bfd9184f71cc1b76ecd421fdfde7dac179be909383777bfe0891010a495c5645"
 metafile = true
 
 [[files]]
@@ -5166,8 +5291,8 @@ file = "mods/liams-aether-worldgen-fix-1.0.1.jar"
 hash = "eff2b2acf978857515ae3e79b7bb47d5a080dce97fb16750dbfcdc50710a3007"
 
 [[files]]
-file = "mods/liams-backpack-weight-compat-1.1.0.jar"
-hash = "50931840256c5c7b3e931ddf31c90458fe085ae143bab8f47b6f890a89e4c397"
+file = "mods/liams-backpack-weight-compat-1.1.1.jar"
+hash = "d27d5a4c63304d06f671d9aedb0aa9903fdf758d3f4079a4f7ea801bf8aa2966"
 
 [[files]]
 file = "mods/liams-bestiary-progression-1.0.4.jar"
@@ -5178,12 +5303,12 @@ file = "mods/liams-cape-compat-1.0.1.jar"
 hash = "2a3edc19383a95fa49fc1135a7600feac168d27caab6ba6691f07b688024f152"
 
 [[files]]
-file = "mods/liams-corpse-controls-1.0.0.jar"
-hash = "05da0498ed9a0ccea95981c65669432efa098f9f4924a061002effc0342ca586"
+file = "mods/liams-corpse-controls-1.0.1.jar"
+hash = "32aa4ba4a7068826b0f0e241ac6fa2b0805ba55bdb9add427a33621a1edb96f0"
 
 [[files]]
-file = "mods/liams-corpse-expiry-fix-1.1.0.jar"
-hash = "0abf90fc3cfb13acf7f1550d67a2c99b69698b300c30b02ae1c94ba6f89d3649"
+file = "mods/liams-corpse-expiry-fix-1.2.0.jar"
+hash = "a8347c45c6ab0ee74ca417c167f102a5060ffef46d989503d2814c575c19666f"
 
 [[files]]
 file = "mods/liams-create-sound-compat-1.0.0.jar"
@@ -5206,8 +5331,8 @@ file = "mods/liams-native-ore-placement-1.0.1.jar"
 hash = "fabf2e6db29510739d8dc6885ac6e4f5036930e023edc929eaf3d839753df140"
 
 [[files]]
-file = "mods/liams-ragdoll-revival-1.0.1.jar"
-hash = "e4a5b75cd01c67134f1788c8cb08365430bedf263d99c937caf9d9d7b35a56b4"
+file = "mods/liams-ragdoll-revival-1.0.2.jar"
+hash = "31a964b4b9319e9527a3fe814521fe3251b5900ecb2d7728692730b7feb70449"
 
 [[files]]
 file = "mods/liams-soundclear-compat-1.0.0.jar"
@@ -5268,7 +5393,7 @@ metafile = true
 
 [[files]]
 file = "mods/loot-integrations.pw.toml"
-hash = "543b8a8ff5796648146f3102dea686e806f793052d329d0fa3efee8194d4df52"
+hash = "bb7fdcba7059fac083d4b8f74cfc2f6d5893a19465709424b545cc5982f995b6"
 metafile = true
 
 [[files]]
@@ -5408,7 +5533,7 @@ metafile = true
 
 [[files]]
 file = "mods/punchymoves.pw.toml"
-hash = "43ab19a5d5e420e414f0af81d9327980cbc846f338861ffb5bea5321eec073d5"
+hash = "5f8080d0058db84d816392a7be603d1a75b333e7ea75b3c79dadf60b5fa65321"
 metafile = true
 
 [[files]]
@@ -5427,24 +5552,24 @@ hash = "d22d14965fb93e68529f7b0861c11179b866e5c83a1cd5d394a8bf813653446b"
 metafile = true
 
 [[files]]
-file = "mods/ragdoll-lighting-compat-1.0.0.jar"
-hash = "f7636554d35d70dec004aef6fb5fdaf06925a1daff1d52ca0248c8a8e8ead3ae"
+file = "mods/ragdoll-lighting-compat-1.0.1.jar"
+hash = "9cc506e6fa7eec3de4d5c57706d8353c2314043b76961c7daacbd7755334e412"
 
 [[files]]
-file = "mods/ragdoll-pathing-guard-1.0.2.jar"
-hash = "29c4e302a819bdac0ff98493091773fe50b78163822ac20d11ee87eed6cf1d7a"
+file = "mods/ragdoll-pathing-guard-1.0.3.jar"
+hash = "c7d8c9026a8e4c21ca7d4dc1907c98487285b37c51c34e5bdc513dd18259cb68"
 
 [[files]]
-file = "mods/ragdoll-pearl-fix-1.0.0.jar"
-hash = "d5082eaed247023b9f7cdadd0dab261277f79e3485a763b83b8867fc35cb5545"
+file = "mods/ragdoll-pearl-fix-1.0.1.jar"
+hash = "76b9f3e773ec708db9f59d88e61cd091ddcf3de77146968c49023b28ed58917f"
 
 [[files]]
-file = "mods/ragdoll-portal-compat-1.0.0.jar"
-hash = "a8ac4422d899fce55c820be52d07cff54bee35461609a7fd08efebaa17664411"
+file = "mods/ragdoll-portal-compat-1.0.1.jar"
+hash = "ff5f855d373903654cba6c1a921a1b5d050fd00003c3882c866d2583a296908b"
 
 [[files]]
 file = "mods/ragdoll-reactions.pw.toml"
-hash = "89bd0f15795c70a1e06074e22bc5d80969abd48e1f540c79e3023cf8be51bef9"
+hash = "d9091100ab33ec6ecdc9f56ccab9e71d2449a0d6809a478ac3c3bb6aaa2465f4"
 metafile = true
 
 [[files]]
@@ -5509,7 +5634,12 @@ metafile = true
 
 [[files]]
 file = "mods/sable-ragdoll-corpse.pw.toml"
-hash = "e48a9f24f9c0e937b4aa46bcfec7e8ceaa40a4f29f4ea1c659c6d28575560320"
+hash = "9c418d8a79d2e1cbe199b2e1e78d36dd51e18a0858c7de90de4e64ac7dc5484f"
+metafile = true
+
+[[files]]
+file = "mods/sable-ragdolls.pw.toml"
+hash = "b3ed49355ebdaebfecc279916f873901b57ee9f10e8b7a50c3a46d41ce28df96"
 metafile = true
 
 [[files]]
@@ -5523,10 +5653,6 @@ hash = "72817b94a481d4a023a4eb7a3007374a5682ae6ffccbf7dcb5142df2639bf553"
 metafile = true
 
 [[files]]
-file = "mods/sable_player_ragdoll-1.21.1-0.7.5-rider-fix.jar"
-hash = "31faa6088a07a711211ea9c39ea4fb3013a216c2d4012ffda373ef41a7f1b9f7"
-
-[[files]]
 file = "mods/savemyrecipebook.pw.toml"
 hash = "f8eacf1492d1ff3eb743ad3c597768359e376d6bc4497e88dbc66760b7671f5f"
 metafile = true
@@ -5538,7 +5664,7 @@ metafile = true
 
 [[files]]
 file = "mods/shatterbyte-lib.pw.toml"
-hash = "4faf76c8ebe0d8a863576ea66f0efcd8a571f0cf6edc0faa763f6ad2f077dd3f"
+hash = "919deaa10fc414f61ffe85af18100cbd169e1535b6a822eddb18ed19b5cbacf2"
 metafile = true
 
 [[files]]
@@ -5621,7 +5747,7 @@ metafile = true
 
 [[files]]
 file = "mods/streams-reflowing.pw.toml"
-hash = "c15f828f93a3ee5765f882d1be4a39fb1386f7e040e1d2e1d81e513c9af23f04"
+hash = "2d411b12c4877129c1b17963fb7b106c0311d87719b4dff8e5639e947f0454f5"
 metafile = true
 
 [[files]]
@@ -5631,7 +5757,7 @@ metafile = true
 
 [[files]]
 file = "mods/structure-layout-optimizer.pw.toml"
-hash = "20d767f7f803fd43e7b539046878bf97a27458595a1beff0b28002aca1b671de"
+hash = "a84f7b320926970b11a158f1eb734d9b4127188883d20945ed4d33ffe13da7a1"
 metafile = true
 
 [[files]]
@@ -5641,7 +5767,7 @@ metafile = true
 
 [[files]]
 file = "mods/supplementaries.pw.toml"
-hash = "c7e7206384e1d5ab7caecc643dda50dae1886312e0aeca5aaef8852bb6b11b4e"
+hash = "6b7fe7dddd1ae7b41e2de7ef622981a2a1daad26c9a164e084c8aeffb47e8c30"
 metafile = true
 
 [[files]]
