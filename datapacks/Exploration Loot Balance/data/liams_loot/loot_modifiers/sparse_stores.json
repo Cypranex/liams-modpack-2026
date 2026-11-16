@@ -30,10 +30,6 @@
         },
         {
           "condition": "neoforge:loot_table_id",
-          "loot_table_id": "minecraft:chests/shipwreck_supply"
-        },
-        {
-          "condition": "neoforge:loot_table_id",
           "loot_table_id": "nova_structures:chests/desert_ruins/desert_ruin_grave"
         },
         {
@@ -86,10 +82,6 @@
         },
         {
           "condition": "neoforge:loot_table_id",
-          "loot_table_id": "nova_structures:chests/witch_villa/dirty_clothes"
-        },
-        {
-          "condition": "neoforge:loot_table_id",
           "loot_table_id": "ribbits:chests/fisherman_storage"
         },
         {
@@ -119,18 +111,6 @@
         {
           "condition": "neoforge:loot_table_id",
           "loot_table_id": "dungeoncrawl:chests/stage_5"
-        },
-        {
-          "condition": "neoforge:loot_table_id",
-          "loot_table_id": "dungeoncrawl:chests/food"
-        },
-        {
-          "condition": "neoforge:loot_table_id",
-          "loot_table_id": "dungeoncrawl:chests/supply"
-        },
-        {
-          "condition": "neoforge:loot_table_id",
-          "loot_table_id": "dungeoncrawl:chests/secret_room"
         }
       ]
     }

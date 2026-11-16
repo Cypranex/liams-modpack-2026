@@ -509,14 +509,14 @@ packwiz, and restart for future kills. Do not rewrite existing saves.
 
 ## Storage Weight compatibility (2026-11-13, v1.1.0)
 
-`mods/liams-backpack-weight-compat-1.1.0.jar`, built in
+`mods/liams-backpack-weight-compat-1.1.1.jar`, built in
 `/home/liam/Projects/minecraft-mods/backpack-weight-compat`, extends Weight's
 item reader and plot scanner and registers the active backpack's extra player
 mass through the public API. Remove the superseded 1.0.0 companion, retaining all
 upstream/ragdoll/rendering mods. Mod ID remains liams_backpack_weight_compat.
 
 Reviewed pins: Weight 1.2.1 / Reliable Backpacks 1.9.1 / Sable 2.0.6 / Create
-6.0.10 / Connected 1.3.3 / Railways 0.3.0-beta.2 / Supplementaries 4.0.2 /
+6.0.10 / Connected 1.3.3 / Railways 0.3.0-beta.2 / Supplementaries 4.1.1 /
 Moonlight 3.8.3 / Brewin' and Chewin' 4.5.0; optional Quark 4.1-488, Zeta 1.1-40.
 Exact jar hashes and loader strings live in the development project.
 
@@ -543,3 +543,36 @@ VALIDATION.md in the development project before extensions. Review tips and
 loot resource scope; deploy only the production jar, refresh packwiz, and restart
 client/server. Do not modify existing saves or silently refresh broad review
 fingerprints to accept unrelated mod drift.
+
+
+## Ragdoll dependency update (2026-11-15)
+
+The pack now uses upstream Sable Ragdolls **0.8.1**, required by Reactions 0.8.0
+and Corpse 0.4.0. The retired locally patched 0.7.5 jar must remain absent.
+Reviewed companion versions: portal 1.0.1 (IP Aeronautics 2.8.27), buckler 1.0.1,
+corpse controls 1.0.1, corpse expiry 1.2.0, revival 1.0.2, pearl 1.0.1,
+lighting 1.0.1, backpack renderer 1.0.1 and pathing guard 1.0.3. Keep their
+required Mixins and exact reviewed dependency ranges; never disable a hook to
+accept a provider update. Storage Weight 1.1.1 supports Supplementaries 4.1.1.
+
+Ragdolls 0.8.1 stores ownership on body blocks. Persistent limb/session IDs can
+survive movement into a different physical Sable plot. Use its ownership APIs,
+not old sublevel user-data assumptions, UUID-only membership or the removed
+RagdollRemovalHelper/expireImmediate API. Corpse cleanup must preflight every
+recorded limb, preserve unloaded-body inventories and remove only owned body
+blocks. Never remove a whole shared sublevel as a cleanup fallback. Missing
+body records/items are not reconstructed; no real saves are migrated.
+
+Build source remains under /home/liam/Projects/minecraft-mods; corpse controls
+source is /home/liam/Projects/liams-modpack/patches/corpse-control. Current
+build.py scripts write build/ artifacts without implicit pack installation.
+Run the portal/buckler/pathing/lighting/backpack/weight checks and the native
+corpse-expiry-fix prepare_smoke.py fixture on provider changes. Require actual
+PASS markers, including both sides and native body/inventory checks. Use fresh
+/tmp worlds only. Review tips and loot resources, deploy only reviewed jars,
+refresh packwiz and restart clients/servers. Two orphan Atmospherics companions
+were archived from Local Testing because their parent mod is absent; do not
+reinstall them without the reviewed parent and an API/dependency review.
+
+Current evidence and retained broader loot/tips baseline limitations are in
+/home/liam/Projects/minecraft-mods/modpack-development/docs/mod-update-fixes-2026-11-15/.
