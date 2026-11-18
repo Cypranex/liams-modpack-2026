@@ -5458,8 +5458,8 @@ file = "mods/liams-ragdoll-revival-1.0.2.jar"
 hash = "31a964b4b9319e9527a3fe814521fe3251b5900ecb2d7728692730b7feb70449"
 
 [[files]]
-file = "mods/liams-shipbreaker-compat-1.0.0.jar"
-hash = "8e367f98492d7863a79353343cd81decbc9fbc2fe446e2b7c37bb681bd284b1b"
+file = "mods/liams-shipbreaker-compat-1.0.1.jar"
+hash = "4413c32e066156516904955fecaf8df65ea7bc9970a401e786be8d105860d90b"
 
 [[files]]
 file = "mods/liams-soundclear-compat-1.0.0.jar"
