@@ -25,16 +25,16 @@ file = "config/amendments-client.toml"
 hash = "b613383363e5bf46e61befb99be501212c60c4a4e3b2419eb3714c510b0d8f4a"
 
 [[files]]
+file = "config/apotheosis/apothic_attributes.cfg"
+hash = "ad5b8d5ca9e8562b3dcc5cc07bad7d27dc4ecb45b4c78b24c53f8e36798d7357"
+
+[[files]]
 file = "config/apotheosis/apothic_enchanting.cfg"
 hash = "80bc14418cd225db1afffe473ebc812dbd85862eb137417150c31fa8777110c4"
 
 [[files]]
 file = "config/apotheosis/enchantments.cfg"
 hash = "7c343c56880dbcb47a6252d1d9a7d11036cb0c2d608f36bfdc21fa46cd1b5e01"
-
-[[files]]
-file = "config/apothic_attributes.cfg"
-hash = "ad5b8d5ca9e8562b3dcc5cc07bad7d27dc4ecb45b4c78b24c53f8e36798d7357"
 
 [[files]]
 file = "config/ascended_quark-common.toml"
