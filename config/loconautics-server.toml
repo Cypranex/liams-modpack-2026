@@ -1,0 +1,4 @@
+# Allow only Loconautics physics train assembly.
+[foundation]
+enableSableTrains = true
+enableCreateTrains = false
