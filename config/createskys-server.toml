@@ -1,0 +1,28 @@
+[storms]
+	#Local storms. Rain and thunder only happen under storm clouds instead of everywhere at once.
+	#The vanilla weather cycle (and /weather) still decides when storms form
+	enabled = true
+	#Storm speed in blocks per second
+	# Default: 4.0
+	# Range: 0.5 ~ 20.0
+	speed = 4.0
+	#Direction storms move in, in degrees (0 = north, 90 = east, 180 = south, 270 = west)
+	# Default: 270.0
+	# Range: 0.0 ~ 360.0
+	direction = 270.0
+	#How many storms form when it rains (0 = only from /weather)
+	# Default: 1.0
+	# Range: 0.0 ~ 4.0
+	frequency = 1.0
+	#Storm size. At 1 the rain is about 600-1200 blocks across
+	# Default: 1.0
+	# Range: 0.3 ~ 3.0
+	size = 1.25
+	#Y level of the top of storm clouds. Create Aeronautics ships below this in a thunderstorm can get struck by lightning
+	# Default: 576.0
+	# Range: 64.0 ~ 2048.0
+	cloudTop = 576.0
+	#Chance that a lightning strike near a ship hits the ship
+	# Default: 0.1
+	# Range: 0.0 ~ 1.0
+	shipStrikeChance = 0.1

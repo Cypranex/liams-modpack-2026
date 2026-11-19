@@ -545,6 +545,23 @@ client/server. Do not modify existing saves or silently refresh broad review
 fingerprints to accept unrelated mod drift.
 
 
+## Mob death ragdolls disabled (2026-11-18)
+
+`kubejs/server_scripts/mob_death_ragdolls.js` disables Sable mob death ragdolls
+without disabling living-mob reactions or player ragdolls/corpse inventories.
+It cancels dead-mob `MobRagdollStartEvent` before model extraction/networking.
+At uncanceled server-side deaths, it expires an existing recovery deadline and
+uses native `releaseSession(..., ENTITY_DEATH)` to clear pending/queued bodies or
+terminate an active body, including held bodies. Preserve native visibility,
+AI/collision restoration, source synchronization, end events and scoped cleanup.
+Do not cancel `LivingDeathEvent`, change drops or use the all-mob blacklist as a
+death-only switch. Retest the event/method contracts on Sable Ragdolls updates;
+current target is 0.8.1. Restart clients/servers after deployment.
+
+Verification, provider hashes and tips review:
+`/home/liam/Projects/minecraft-mods/modpack-development/docs/mob-death-ragdolls-2026-11-18/`.
+Isolated policy/API/event checks do not establish live rendering/physics behavior.
+
 ## Ragdoll dependency update (2026-11-15)
 
 The pack now uses upstream Sable Ragdolls **0.8.1**, required by Reactions 0.8.0
@@ -576,3 +593,18 @@ reinstall them without the reviewed parent and an API/dependency review.
 
 Current evidence and retained broader loot/tips baseline limitations are in
 /home/liam/Projects/minecraft-mods/modpack-development/docs/mod-update-fixes-2026-11-15/.
+
+
+## Compat launch pins (2026-11-19)
+
+Current companions: Create sound 1.0.1 and Clear Sound 1.0.1 for RSLS 1.1.18;
+Storage Weight 1.2.1 for Supplementaries 1.21.1-4.1.3. These supersede older
+companion/version references above. Keep exactly one jar per companion ID;
+remove both older Storage Weight 1.1.1 and 1.2.0 jars when installing 1.2.1.
+Provider audio/storage classes were compared byte-for-byte; preserve required
+Mixin hooks and exact reviewed pins. Create: Food is optional and currently
+absent in Local Testing; keep its adapter isolated and do not install it as a
+side effect of compiling or testing the companion. Build tooling retains a
+hash-pinned compile-only provider jar outside the pack.
+
+Evidence: /home/liam/Projects/minecraft-mods/modpack-development/docs/compat-launch-2026-11-19/RESULTS.md.
