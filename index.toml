@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "AGENTS.md"
-hash = "839ab6e9a29b32876fab5bfe2f4597b1b639aa3605ef3b449d1acd37f7ad720c"
+hash = "8a794b2c0c51bc74ddac1add06a2c0a33471c441e61b02f605d88f9342fe51dd"
 
 [[files]]
 file = "config/aeronauticswinds-common.toml"
@@ -4533,7 +4533,7 @@ hash = "03420c61bd4536965f3e76bf058c680a0d098572d8d7b7fe8af7ef68c81505d4"
 
 [[files]]
 file = "kubejs/server_scripts/mob_death_ragdolls.js"
-hash = "89e417a8eefce97981aa7b5cfa266203107de77f6c2067ebd3ae3a0272443a8f"
+hash = "be6273dd053ea0331b247defd078b2b543b9799817555ba79330bbb7fdf9a8bb"
 
 [[files]]
 file = "kubejs/server_scripts/remove_chipped_torches.js"

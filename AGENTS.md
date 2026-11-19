@@ -562,6 +562,13 @@ Verification, provider hashes and tips review:
 `/home/liam/Projects/minecraft-mods/modpack-development/docs/mob-death-ragdolls-2026-11-18/`.
 Isolated policy/API/event checks do not establish live rendering/physics behavior.
 
+2026-11-19 crash correction: use `entity.level`, not `entity.level()`, in
+KubeJS. EntityMixin hides vanilla `level()` from JS; EntityKJS exposes the level
+through its remapped getter. Regression tests must use Java bean objects with
+the hidden vanilla method, not a JavaScript `level()` stub. The isolated Rhino
+check must reproduce the old TypeError before passing the corrected script.
+Evidence: `/home/liam/Projects/minecraft-mods/modpack-development/docs/mob-death-ragdolls-crash-2026-11-19/`.
+
 ## Ragdoll dependency update (2026-11-15)
 
 The pack now uses upstream Sable Ragdolls **0.8.1**, required by Reactions 0.8.0
