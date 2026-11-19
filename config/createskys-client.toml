@@ -1,0 +1,77 @@
+[clouds]
+	#Enable the new clouds. The vanilla Clouds video setting also turns them off (not with Distant Horizons installed)
+	enabled = true
+	#Y level of the cloud base. Vanilla clouds are at 192
+	# Default: 192
+	# Range: 64 ~ 1024
+	cloudHeight = 320
+	#Max height clouds can grow above the base, in blocks. Higher uses more VRAM
+	# Default: 384
+	# Range: 32 ~ 512
+	cloudThickness = 256
+	#Size of a cloud block. Smaller = more detail but the clouds don't reach as far
+	# Default: 4
+	# Range: 2 ~ 12
+	blockSize = 4
+	#Cloud cover in clear weather (0 = clear sky, 1 = overcast)
+	# Default: 0.5
+	# Range: 0.0 ~ 1.0
+	coverage = 0.45
+	#Cloud cover when it's raining
+	# Default: 0.88
+	# Range: 0.0 ~ 1.0
+	rainCoverage = 0.88
+	#Wind speed in blocks per second. Vanilla clouds move at 0.6
+	# Default: 1.5
+	# Range: 0.0 ~ 30.0
+	windSpeed = 2.0
+	#Wind direction in degrees (0 = north, 90 = east, 180 = south, 270 = west like vanilla)
+	# Default: 270.0
+	# Range: 0.0 ~ 360.0
+	windDirection = 270.0
+	#How fast clouds change shape (0 = never)
+	# Default: 1.0
+	# Range: 0.0 ~ 10.0
+	evolution = 1.0
+	#Cloud pattern seed. Clouds are synced to world time so the same seed gives everyone the same sky
+	# Default: 0
+	# Range: > -2147483648
+	seed = 0
+	#How fast light fades inside clouds. Higher = darker undersides
+	# Default: 1.0
+	# Range: 0.1 ~ 4.0
+	lightAbsorption = 1.0
+	#Cloud brightness
+	# Default: 1.0
+	# Range: 0.3 ~ 2.0
+	brightness = 1.0
+
+[shadows]
+	cloudShadows = true
+	#How dark cloud shadows are (0 = invisible, 1 = black)
+	# Default: 0.25
+	# Range: 0.0 ~ 1.0
+	shadowStrength = 0.25
+
+[lightShafts]
+	lightShafts = true
+	#Light shaft brightness
+	# Default: 1.0
+	# Range: 0.0 ~ 4.0
+	shaftStrength = 1.0
+	#Haze under the clouds. More haze makes light shafts easier to see from far away
+	# Default: 1.0
+	# Range: 0.0 ~ 4.0
+	haze = 1.0
+
+[quality]
+	#Lower detail clouds past 700 blocks so they reach the horizon
+	farClouds = true
+	#Max raymarch steps for clouds. Lower is faster but far away clouds can get cut off
+	# Default: 384
+	# Range: 64 ~ 1024
+	cloudSteps = 384
+	#Raymarch steps for light shafts
+	# Default: 32
+	# Range: 8 ~ 96
+	shaftSteps = 32
