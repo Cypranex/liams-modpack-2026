@@ -1,6 +1,6 @@
 [clouds]
 	#Enable the new clouds. The vanilla Clouds video setting also turns them off (not with Distant Horizons installed)
-	enabled = true
+	enabled = false
 	#Y level of the cloud base. Vanilla clouds are at 192
 	# Default: 192
 	# Range: 64 ~ 1024
@@ -47,14 +47,14 @@
 	brightness = 1.0
 
 [shadows]
-	cloudShadows = true
+	cloudShadows = false
 	#How dark cloud shadows are (0 = invisible, 1 = black)
 	# Default: 0.25
 	# Range: 0.0 ~ 1.0
 	shadowStrength = 0.25
 
 [lightShafts]
-	lightShafts = true
+	lightShafts = false
 	#Light shaft brightness
 	# Default: 1.0
 	# Range: 0.0 ~ 4.0

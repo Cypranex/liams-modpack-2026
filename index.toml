@@ -90,7 +90,7 @@ hash = "82cef6ee04ca8071c80113167bd2331dbf74bbfb06506b4dde6c32546b98905c"
 
 [[files]]
 file = "config/createskys-client.toml"
-hash = "c208bfc5f7dd72229452198ce4e8a29fac43cc59eba6d0ae01fb56aa15a2ae46"
+hash = "09ebc4e46c2e22b360cbbf5eac093fa4ae8938863b24455c287eec124e3837d4"
 
 [[files]]
 file = "config/createskys-server.toml"
@@ -166,7 +166,7 @@ hash = "f6c8d0fa635dfec81ca6f9c894a167962719f73839859922401fed49f29dcd38"
 
 [[files]]
 file = "config/immersive_portals.json"
-hash = "35b5968cba1cb9f1d5bb7d8a124322467872b390445f820e92a267c2edfef51f"
+hash = "ed391841de064ed136559227a253dc962f698535d3881c349367cf450be37ed2"
 
 [[files]]
 file = "config/immersiveoverlays.json"
@@ -5555,11 +5555,6 @@ metafile = true
 [[files]]
 file = "mods/prickle.pw.toml"
 hash = "c99c5bac469e8d6ece5aae80f08635e3bbb8367f0c586b6288573c725faefe69"
-metafile = true
-
-[[files]]
-file = "mods/punchymoves.pw.toml"
-hash = "5f8080d0058db84d816392a7be603d1a75b333e7ea75b3c79dadf60b5fa65321"
 metafile = true
 
 [[files]]
