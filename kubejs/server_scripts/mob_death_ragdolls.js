@@ -20,7 +20,8 @@ NativeEvents.onEvent(mobDeathRagdollPriority.LOWEST,
     if (event.isCanceled()) return
     const entity = event.getEntity()
     if (!(entity instanceof mobDeathRagdollMob) || entity.isAlive()) return
-    const level = entity.level()
+    // KubeJS exposes EntityKJS.getLevel as a property, shadowing level().
+    const level = entity.level
     if (level.isClientSide()) return
     const session = mobDeathRagdollAssembly.sessionId(entity)
     if (session === null) return
