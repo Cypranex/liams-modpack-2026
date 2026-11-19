@@ -146,7 +146,7 @@ hash = "f6c8d0fa635dfec81ca6f9c894a167962719f73839859922401fed49f29dcd38"
 
 [[files]]
 file = "config/immersive_portals.json"
-hash = "35b5968cba1cb9f1d5bb7d8a124322467872b390445f820e92a267c2edfef51f"
+hash = "ed391841de064ed136559227a253dc962f698535d3881c349367cf450be37ed2"
 
 [[files]]
 file = "config/immersiveoverlays.json"
@@ -191,6 +191,10 @@ hash = "7555077253c07f0695f66834d6f22d3ff4a2e076f384f5fe42c3f8365c002020"
 [[files]]
 file = "config/localizedchat-common.toml"
 hash = "a74574357ff7f93c62d6a5aaaf3e86ccc8a2c4712097b9b138632ccfb2f973b4"
+
+[[files]]
+file = "config/loconautics-server.toml"
+hash = "8b61c6498294404077fa128e564ec7991e902f9066a3ca566f9839f9cd661820"
 
 [[files]]
 file = "config/loot.toml"
