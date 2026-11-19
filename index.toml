@@ -221,6 +221,10 @@ file = "config/localizedchat-common.toml"
 hash = "a74574357ff7f93c62d6a5aaaf3e86ccc8a2c4712097b9b138632ccfb2f973b4"
 
 [[files]]
+file = "config/loconautics-server.toml"
+hash = "8b61c6498294404077fa128e564ec7991e902f9066a3ca566f9839f9cd661820"
+
+[[files]]
 file = "config/loot.toml"
 hash = "efc59c26c997e99bd7bd35f053650063157d17f74d5ac7f2fff52857bf1c3235"
 
