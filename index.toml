@@ -4867,6 +4867,10 @@ hash = "075bbff94d93dc64557e5b4439402e98c46ca0444f7e779d66ef81070f25a4d0"
 metafile = true
 
 [[files]]
+file = "mods/createskys-rain-compat-1.1.0.jar"
+hash = "b5e500fc878e16c7e12e7bfd83d6bbf06b718425f971d21c46581470dff5bb47"
+
+[[files]]
 file = "mods/creeper-overhaul.pw.toml"
 hash = "cd4c4ec6ef26d2b61e0cb0bdd398e8d528b88ebf739fc0898bc8cb2f7a88debb"
 metafile = true
