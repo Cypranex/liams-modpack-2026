@@ -1,13 +1,13 @@
 name = "Dynamic Trees - BetterNether"
-filename = "dtbetternether-1.21.1-2.3.0.jar"
+filename = "dtbetternether-1.21.1-2.4.0h.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/STvBgZH8/versions/2uwGuAdG/dtbetternether-1.21.1-2.3.0.jar"
+url = "https://cdn.modrinth.com/data/STvBgZH8/versions/Ldf9GQrQ/dtbetternether-1.21.1-2.4.0h.jar"
 hash-format = "sha512"
-hash = "b891932f6dd194b02c722dfb1bccd4b20c8b4aaf44d3234693f5d935e703066e714d8a256a9a59fbdca447ae2aee898e396b9638e88466ba23d62437c39be4b5"
+hash = "8d084879ce7cbc555a74e98fa741f31c2a3b60c0c25bf0eccb4d99b073dda763f4bd15a082b7a551e080f80aa34eddbec07557fd81efffc0fe87791532cfa3f2"
 
 [update]
 [update.modrinth]
 mod-id = "STvBgZH8"
-version = "2uwGuAdG"
+version = "Ldf9GQrQ"
