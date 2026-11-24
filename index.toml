@@ -4945,8 +4945,8 @@ hash = "075bbff94d93dc64557e5b4439402e98c46ca0444f7e779d66ef81070f25a4d0"
 metafile = true
 
 [[files]]
-file = "mods/createsky-atmospherics-compat-1.0.2.jar"
-hash = "4da7064763771b64c7369b93ef92b8fa4e26abe0c81122354df2f076e8662609"
+file = "mods/createsky-atmospherics-compat-1.0.3.jar"
+hash = "b99498af61df8adcd1da580daef6bcd54bb091cc31a6e8878d7a760585d2de19"
 
 [[files]]
 file = "mods/createskys-rain-compat-1.1.0.jar"
