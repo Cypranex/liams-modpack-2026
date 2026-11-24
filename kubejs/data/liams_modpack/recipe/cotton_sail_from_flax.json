@@ -1,0 +1,32 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "aeronauticswinds"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "supplementaries"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "group": "aeronauticswinds:sails",
+  "pattern": [
+    "SFS",
+    "FFF",
+    "SFS"
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:string"
+    },
+    "F": {
+      "item": "supplementaries:flax"
+    }
+  },
+  "result": {
+    "id": "aeronauticswinds:cotton_sail",
+    "count": 1
+  }
+}
