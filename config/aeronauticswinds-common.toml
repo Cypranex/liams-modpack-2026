@@ -292,7 +292,7 @@
 	# Range: 0 ~ 12
 	stormBlockMoveLimit = 2
 	#Allow severe hail, thunderstorms, sandstorms, and blizzards to damage exposed crops, flowers, and natural leaves.
-	enableStormVegetationDamage = true
+	enableStormVegetationDamage = false
 	#Maximum exposed vegetation blocks damaged per player each five-second weather pass.
 	# Default: 2
 	# Range: 0 ~ 12
@@ -321,21 +321,21 @@
 	tornadoBlockDamage = false
 	#Let a tsunami's wall of water and the debris in its flood kill. Off, it stops at one heart like
 	#every other weather hazard. Needs enableExtremeWeatherHazards for any harm at all.
-	tsunamiLethal = true
+	tsunamiLethal = false
 	#Let a tsunami tear out plants, fences, doors, Create machinery and (the great ones) light
 	#buildings in its path, and break moving contraptions apart. Also needs the mobGriefing game rule.
 	tsunamiBlockDamage = false
 
 [seasons]
 	#Enable dynamic regional seasons (Spring, Summer, Autumn, Winter).
-	enableSeasons = true
+	enableSeasons = false
 	#Duration of each season in in-game Minecraft days (default 6 = 24 days/year).
 	# Default: 6
 	# Range: 1 ~ 120
 	daysPerSeason = 6
 	#Long summer days and short winter ones: the sun is up for about 14.5 hours at midsummer
 	#and 9.5 at midwinter, instead of 12 all year.
-	seasonalDayLength = true
+	seasonalDayLength = false
 	#Automatically synchronize with Serene Seasons, Ecliptic Seasons, Homeostatic Seasons, or Forge Seasons when installed.
 	preferExternalSeasons = true
 	#Block distance along Z axis for Northern/Southern hemisphere inversion.
@@ -347,31 +347,31 @@
 	#days, frost fairs and more). Each changes the world a little and none does harm.
 	enableSeasonalEvents = true
 	#Modulate crop and sapling growth speed based on seasons and frost dormancy.
-	enableSeasonalCropEffects = true
+	enableSeasonalCropEffects = false
 	#Allow sub-zero winter temperatures to freeze standing surface water and accumulate snow.
-	enableWinterFreezing = true
+	enableWinterFreezing = false
 	#Allow hot summer heat to dry unwatered farmland and melt winter snow/ice.
-	enableSummerDrying = true
+	enableSummerDrying = false
 	#Allow trees to shed fallen leaf litter onto the ground in Autumn.
-	enableFallenLeaves = true
+	enableFallenLeaves = false
 	#Allow natural deciduous trees to enter winter dormancy and thin out outer leaves in sub-zero frost.
-	enableTreeDefoliation = true
+	enableTreeDefoliation = false
 	#Allow trees to regrow full lush green canopies when Spring arrives.
-	enableTreeRegrowth = true
+	enableTreeRegrowth = false
 
 [heat_and_steam]
 	#Enable player thermal comfort, cold breath condensation, and freezing risk.
-	enablePlayerTemperatureEffects = true
+	enablePlayerTemperatureEffects = false
 	#Damage entities that stand in scalding (steaming) or very hot water. The chilling effect of hot fluids still applies while this is off.
-	enableScaldingDamage = true
+	enableScaldingDamage = false
 	#Damage entities that linger in freezing water, and expose them to frostbite.
-	enableHypothermiaDamage = true
+	enableHypothermiaDamage = false
 	#Enable glass-roofed and heated greenhouse climate protection for crops.
-	enableGreenhouses = true
+	enableGreenhouses = false
 	#Players resting in a sealed greenhouse warmer than 30 C slowly regenerate, like in a sauna.
 	enableGreenhouseSauna = true
 	#Let tagged heat and cooling sources convert nearby water between plain, hot, steaming, cold and chilled. Sources and rates are data-driven through the aeronauticswinds heat/cooling tags.
-	enableThermalFluidConversion = true
+	enableThermalFluidConversion = false
 	#Ticks between thermal conversion passes. Each pass may move a position one step along the ladder, so this is how fast water heats or chills.
 	# Default: 40
 	# Range: 1 ~ 1200
@@ -385,7 +385,7 @@
 	# Range: 1 ~ 8
 	thermalConversionRadius = 3
 	#Make Create Aeronautics hot-air balloon lift respond to ambient and onboard temperature.
-	enableHeatBuoyancy = true
+	enableHeatBuoyancy = false
 	#Balloon temperature-response strength. 1.2 is physically scaled; 0 disables the temperature adjustment.
 	# Default: 1.2
 	# Range: 0.0 ~ 20.0
@@ -405,7 +405,7 @@
 	#A boiler's burners must bring all the water piped in to the boil, at the temperature of the
 	#water round the boiler (the biome and season). Flood a small fire with cold sea water and it
 	#stops boiling and the steam falls away; off, Create's boiler ignores the feed's temperature.
-	boilerFeedCooling = true
+	boilerFeedCooling = false
 
 [flight]
 	#Enable wind glider aerodynamics for players using the Wind Rider item.
@@ -467,7 +467,7 @@
 	#every island's rim, the void throwing gliders back up, and weightless air by the gateways.
 	endAir = true
 	#Allow wind to deflect vanilla and modded projectiles using a restrained, capped model.
-	enableProjectileWind = true
+	enableProjectileWind = false
 	#Crosswind strength for ordinary projectiles. One is still intentionally subtle.
 	# Default: 0.12
 	# Range: 0.0 ~ 5.0
