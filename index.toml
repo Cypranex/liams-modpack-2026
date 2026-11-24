@@ -6,7 +6,7 @@ hash = "8a794b2c0c51bc74ddac1add06a2c0a33471c441e61b02f605d88f9342fe51dd"
 
 [[files]]
 file = "config/aeronauticswinds-common.toml"
-hash = "b9d2c3f0732dd96c3a1295d9406d1a7d4eede16a0b5636f68fe484bb2f768a45"
+hash = "33e02aae7258fe817bf298601e9ec620dd9475957db4ffd19970198713f04474"
 
 [[files]]
 file = "config/aether-client.toml"
@@ -4410,6 +4410,10 @@ file = "kubejs/data/liams_cape_compat/tags/item/capes.json"
 hash = "6dc5fc855a145c9799b05c87528ff20cef9b6416ebcb300848973dad4cf76743"
 
 [[files]]
+file = "kubejs/data/liams_modpack/recipe/cotton_sail_from_flax.json"
+hash = "9f2f2398d2500df1095ac7058620996ef312ab349e256a3c722014a7157699ff"
+
+[[files]]
 file = "kubejs/data/liams_modpack/tags/entity_type/depth_scaling_excluded.json"
 hash = "3d4fa2570182050b271954e192125e0b16609f5079ff64c3576e3de7f7c23080"
 
@@ -4531,8 +4535,9 @@ hash = "ccd0a3a090f99cec2d34923a8d69f103fb845ae3a40595079c24839c523a1801"
 metafile = true
 
 [[files]]
-file = "mods/aeronautics-winds-and-weather.pw.toml.disabled"
+file = "mods/aeronautics-winds-and-weather.pw.toml"
 hash = "1b68a8cba16699309b9398e664d7816c0f5bc95bd43dda2d03d0c8ab26b86919"
+metafile = true
 
 [[files]]
 file = "mods/aether-protect-your-moa.pw.toml"
@@ -4865,6 +4870,10 @@ metafile = true
 file = "mods/createloconautics.pw.toml"
 hash = "075bbff94d93dc64557e5b4439402e98c46ca0444f7e779d66ef81070f25a4d0"
 metafile = true
+
+[[files]]
+file = "mods/createsky-atmospherics-compat-1.0.0.jar"
+hash = "769cf46902072d06b82d6d0e5080803da8a1357546a9958b7fbbbfb8d4a91781"
 
 [[files]]
 file = "mods/createskys-rain-compat-1.1.0.jar"
@@ -5321,6 +5330,10 @@ file = "mods/liams-aether-worldgen-fix-1.0.1.jar"
 hash = "eff2b2acf978857515ae3e79b7bb47d5a080dce97fb16750dbfcdc50710a3007"
 
 [[files]]
+file = "mods/liams-atmospherics-streams-compat-1.0.1.jar"
+hash = "aca5442d8710fece99521f8b896e7be20285f6ea7adb641c4292e7b2454c6fb9"
+
+[[files]]
 file = "mods/liams-backpack-weight-compat-1.2.1.jar"
 hash = "e6595dbbc1e6b1511df318aa29bbe26074b6da465308f272bf6757457c89d9f9"
 
@@ -5588,6 +5601,10 @@ metafile = true
 [[files]]
 file = "mods/ragdoll-lighting-compat-1.0.1.jar"
 hash = "9cc506e6fa7eec3de4d5c57706d8353c2314043b76961c7daacbd7755334e412"
+
+[[files]]
+file = "mods/ragdoll-ocean-revival-compat-1.1.0.jar"
+hash = "752c0070f26e86f3a18afff4deef7959653aee287598ca83937fa8cf8fc3b502"
 
 [[files]]
 file = "mods/ragdoll-pathing-guard-1.0.3.jar"
