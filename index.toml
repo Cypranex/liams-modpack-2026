@@ -4969,8 +4969,8 @@ hash = "075bbff94d93dc64557e5b4439402e98c46ca0444f7e779d66ef81070f25a4d0"
 metafile = true
 
 [[files]]
-file = "mods/createsky-atmospherics-compat-1.0.1.jar"
-hash = "8e3cf745d3f7fbcd0608bdc476a93184ad99de95097cd62e3dd2e28224c34a9b"
+file = "mods/createsky-atmospherics-compat-1.0.2.jar"
+hash = "4da7064763771b64c7369b93ef92b8fa4e26abe0c81122354df2f076e8662609"
 
 [[files]]
 file = "mods/createskys-rain-compat-1.1.0.jar"
@@ -5502,8 +5502,8 @@ file = "mods/liams-aether-worldgen-fix-1.0.1.jar"
 hash = "eff2b2acf978857515ae3e79b7bb47d5a080dce97fb16750dbfcdc50710a3007"
 
 [[files]]
-file = "mods/liams-atmospherics-streams-compat-1.0.1.jar"
-hash = "aca5442d8710fece99521f8b896e7be20285f6ea7adb641c4292e7b2454c6fb9"
+file = "mods/liams-atmospherics-streams-compat-1.0.2.jar"
+hash = "a1abf8b860113f9222ba49c5a40efb1be96347fe6e045b23edc1b175caa3b540"
 
 [[files]]
 file = "mods/liams-backpack-weight-compat-1.2.1.jar"
