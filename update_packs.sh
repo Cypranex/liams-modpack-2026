@@ -9,7 +9,7 @@ ORIGINAL_BRANCH=$(git branch --show-current)
 # Ensure local main is fully up to date
 echo "Updating main..."
 git checkout main
-git pull origin main
+git pull --ff-only origin main
 
 for BRANCH in "max-graphics" "max-performance"; do
     echo -e "\n========================================"
@@ -17,7 +17,7 @@ for BRANCH in "max-graphics" "max-performance"; do
     echo "========================================"
     
     git checkout "$BRANCH"
-    git pull origin "$BRANCH"
+    git pull --ff-only origin "$BRANCH"
     
     # Merge main without opening an editor
     echo "Merging main into $BRANCH..."
