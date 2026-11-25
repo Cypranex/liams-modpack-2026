@@ -279,9 +279,9 @@ are part of both companion verification profiles.
 
 ## Fowl Play wildlife population (required)
 
-`mods/liams-fowl-population-1.0.1.jar` is built from
+`mods/liams-fowl-population-1.0.2.jar` is built from
 `/home/liam/Projects/minecraft-mods/fowlplay-population`, pinned to Fowl Play
-1.2.3 and Minecraft 1.21.1 / NeoForge 21.1.264+. It enables native distance/idle
+1.2.4 and Minecraft 1.21.1 / NeoForge 21.1.264+. It enables native distance/idle
 despawning for unprotected wild ducks/geese and rejects whole natural flock
 attempts when 24 combined wild birds are within a 64-block sphere. Accepted
 flocks finish, so this is a spawning threshold, not a hard entity cap. Config:
@@ -615,3 +615,25 @@ side effect of compiling or testing the companion. Build tooling retains a
 hash-pinned compile-only provider jar outside the pack.
 
 Evidence: /home/liam/Projects/minecraft-mods/modpack-development/docs/compat-launch-2026-11-19/RESULTS.md.
+
+## Compat launch pins (2026-11-25)
+
+Torch Compatibility 1.0.6 and Storage Weight Compatibility 1.2.2 use Quark
+4.1-489. The Weight build reviews Zeta 1.1-41. Fowl Population 1.0.2 uses
+Fowl Play 1.2.4. Use the exact pinned providers when rebuilding.
+
+Keep the Create: Atmospherics 2.1.0 companions for Create: Sky, Streams Reflowing,
+wave buoyancy and ragdoll revival active. Create: Sky draws the clouds from
+Atmospherics' regional weather, with a Y=320 cloud and precipitation boundary.
+The separate Create: Sky rain fix patches Ecliptic precipitation and stays
+active. Ecliptic Seasons owns seasonal gameplay. The optional Atmospherics
+calendar precision companion is unnecessary for this preset.
+
+Keep gameplay settings in `config/aeronauticswinds-common.toml` and visuals in
+`config/aeronauticswinds-client.toml`. Streams Reflowing owns river generation
+and currents. Atmospherics draws the ocean waves and ship wakes.
+
+Use Sodium 0.8.13 and Sodium Extra 0.9.5 with Ecliptic Seasons 0.15.6.
+Sodium 0.8.14-beta.2 reaches the title screen but fails Ecliptic's required
+foliage-color injection when loading a world. Check a disposable world before
+accepting a new rendering-provider pair.
