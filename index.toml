@@ -6,7 +6,7 @@ hash = "8a794b2c0c51bc74ddac1add06a2c0a33471c441e61b02f605d88f9342fe51dd"
 
 [[files]]
 file = "config/aeronauticswinds-common.toml"
-hash = "33e02aae7258fe817bf298601e9ec620dd9475957db4ffd19970198713f04474"
+hash = "dcb56bc42d5a83cc3f7fa982cc6e7fd5ed0d92e5e0e663ef3c277544388b31ce"
 
 [[files]]
 file = "config/aether-common.toml"
@@ -3262,6 +3262,14 @@ hash = "fb2355b8ab6bf1fcd1e218c707c73f8685a3dfc09954ba94382682904b83ab24"
 [[files]]
 file = "datapacks/Liam's FreeTerraForged Preset/pack.mcmeta"
 hash = "b5822279d2f64adb0fc9d65f9deb90f52098ebfbdc4bdcd4bf99aac442ed6e5e"
+
+[[files]]
+file = "datapacks/Lunar Events in Rain/data/minecraft/enhancedcelestials2core/lunar/dimension_settings/overworld.json"
+hash = "388fc6749f5ff158f9b696dcf3fa7bc03ac07604cc3d5e1ce361d41a22976969"
+
+[[files]]
+file = "datapacks/Lunar Events in Rain/pack.mcmeta"
+hash = "f55121c38bff3778655333b3f24433c9efdb1aaf689cf5a0b3beb4ae68630518"
 
 [[files]]
 file = "datapacks/Mowzie Biome Compatibility/data/mowziesmobs/tags/worldgen/biome/has_structure/frostmaw_arena_biomes.json"
