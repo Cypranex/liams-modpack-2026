@@ -1,7 +1,7 @@
 [general]
 	#Let every player use the commands that only read: /atmospherics info, forecast, almanac,
 	#event list and season query. Changing the weather, wind or season stays op-only.
-	openReadOnlyCommands = true
+	openReadOnlyCommands = false
 
 [wind]
 	#Average baseline wind speed in m/s.
@@ -309,7 +309,7 @@
 [rare_events]
 	#Rare weather events: tornadoes, waterspouts, rogue waves, maelstroms, haboobs, meteor
 	#showers and more. They start near players when the place, season and weather suit them.
-	enableRareEvents = true
+	enableRareEvents = false
 	#How often rare events happen. 1.0 is roughly one event per player every four in-game days.
 	# Default: 1.0
 	# Range: 0.0 ~ 20.0
