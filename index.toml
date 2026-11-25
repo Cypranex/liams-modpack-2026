@@ -6,7 +6,7 @@ hash = "8a794b2c0c51bc74ddac1add06a2c0a33471c441e61b02f605d88f9342fe51dd"
 
 [[files]]
 file = "config/aeronauticswinds-common.toml"
-hash = "33e02aae7258fe817bf298601e9ec620dd9475957db4ffd19970198713f04474"
+hash = "dcb56bc42d5a83cc3f7fa982cc6e7fd5ed0d92e5e0e663ef3c277544388b31ce"
 
 [[files]]
 file = "config/aether-client.toml"
