@@ -56,6 +56,12 @@
 	# Default: 3.0
 	# Range: 0.0 ~ 20.0
 	thermalStrength = 3.0
+	#How far the prevailing wind turns with the seasons, as a monsoon's does (0..1). At 1 it blows the world's
+	#own way at midsummer and the other way at midwinter, with light, shifting winds at the turn of spring and
+	#autumn; at 0.5 the winter wind only dies away; at 0 it blows the same way all year.
+	# Default: 1.0
+	# Range: 0.0 ~ 1.0
+	seasonalWinds = 1.0
 
 [ships]
 	#Enable opt-in windcatcher forces and restrained extreme-storm hull loads.
@@ -183,6 +189,18 @@
 	# Default: 8192.0
 	# Range: 256.0 ~ 65536.0
 	windmillMaxStressCapacity = 8192.0
+	#Keep the water out of a ship's hull: below the waterline her inside is air to walk, breathe and see in, not the water she floats in. A sealed space stays dry even sunk; an open boat's inside is dry while her rim stands clear of the water.
+	dryHulls = true
+	#Aboard a ship an open door, a ladder and an open hatch over a ladder are not collided with, so a heeling ship doesn't wedge a player in a doorway or a ladderway one block wide. They are still there to click, climb and shut; a shut door and a trapdoor used as a rail are solid as ever.
+	clearShipPassages = true
+	#The yards on one mast are braced together, as a ship's are: braced by hand, or brought round by the ropes on any one of them, the others follow.
+	linkYards = true
+	#How much a Rudder still steers with its blade in the air rather than the water, as a share of its
+	#steering in water: an airship's rudder turns her as a smaller helm would, and only as she moves through
+	#the air (a balloon drifting with the wind can't steer). Weaker in the thin air high up. 0 = water only.
+	# Default: 0.35
+	# Range: 0.0 ~ 1.0
+	rudderAirStrength = 0.35
 
 [ocean]
 	#Let the wind drift vanilla boats and rafts on open water. Disabled by default.
@@ -254,6 +272,26 @@
 	shipsRideWaves = true
 	#Boats on the water are Sable bodies: they pitch and roll with the waves and bump into ships, docks and the shore.
 	boatPhysics = true
+	#The y of the sea's top layer of water blocks. -10000 asks the world: 62 in a normal one, the data pack's sea level in a custom one, the water layer of a superflat world made of water. Set it for a sea built by hand at another height. Water at any other height is a lake: it lies flat. Read when the world loads.
+	# Default: -10000
+	# Range: -10000 ~ 4000
+	seaSurfaceY = -10000
+	#With the Flowing Fluids mod installed: where a storm surge or a high spring tide stands over low land, the water it stands in is put there as real, finite water, which runs on inland and drains back by that mod's rules. Off unless asked for, since it changes the world. Does nothing without Flowing Fluids.
+	surgeFloodsWithFlowingFluids = false
+	#With the Flowing Fluids mod installed: heavy rain leaves real, finite water on open ground, which gathers in the hollows and dries as that mod has it, in place of this mod's own puddles. Off unless asked for. Does nothing without Flowing Fluids.
+	rainFillsWithFlowingFluids = false
+	#Rip currents: narrow gaps through the surf where the water runs back out to sea, a few blocks wide and some sixty apart. They carry swimmers and small boats out past the breakers; swim along the beach to get out of one. The breakers have a gap where one runs.
+	riptides = false
+	#How fast a rip runs out, against how fast it was made to (half a block a second in a small surf, two and a half in a big one).
+	# Default: 1.0
+	# Range: 0.0 ~ 3.0
+	riptideStrength = 1.0
+	#Beaches form: grass and dirt lying at the sea's level turn to sand where the waves wash over them, the first row beside the water in any sea, up to three rows where the sea runs high; a sheltered cove keeps its turf. Ground with a flower, a sapling, a crop or anything built on it is left alone. Which blocks count is the block tag aeronauticswinds:beach_soil.
+	beachFormation = false
+	#How fast the sea turns a shore to beach. At 1 a shore in an ordinary sea is sand in a day or two of game time, sooner in a storm.
+	# Default: 1.0
+	# Range: 0.0 ~ 20.0
+	beachFormationRate = 1.0
 
 [rivers]
 	#Carve river networks into new chunks: streams start in the hills, join and widen on the way
@@ -309,11 +347,11 @@
 [rare_events]
 	#Rare weather events: tornadoes, waterspouts, rogue waves, maelstroms, haboobs, meteor
 	#showers and more. They start near players when the place, season and weather suit them.
-	enableRareEvents = false
+	enableRareEvents = true
 	#How often rare events happen. 1.0 is roughly one event per player every four in-game days.
 	# Default: 1.0
 	# Range: 0.0 ~ 20.0
-	rareEventFrequency = 1.0
+	rareEventFrequency = 0.1
 	#Let tornadoes strip leaves, flowers and crops in their path. Off by default.
 	rareEventBlockDamage = false
 	#Let F3 and stronger tornadoes tear blocks loose and fling them about (F5 takes nearly anything).
@@ -358,6 +396,14 @@
 	enableTreeDefoliation = false
 	#Allow trees to regrow full lush green canopies when Spring arrives.
 	enableTreeRegrowth = false
+	#Blocks the seasons leave alone: never recoloured, never shed in autumn, never grown back in spring.
+	#Each entry is a block id ("nomansland:yellow_birch_leaves"), a block tag ("#modid:some_leaves"),
+	#or a whole mod ("nomansland:*"). The block tag aeronauticswinds:seasonal_excluded does the same from a
+	#data pack. Colours are read from each player's own copy of this file, leaf fall from the server's.
+	seasonalExclusions = []
+	#A deciduous tree's leaves leave their bare twigs behind when they fall, so the crown keeps its
+	#shape through the winter; spring puts the same leaves back on them. Off: the leaves just go.
+	winterBareBranches = true
 
 [heat_and_steam]
 	#Enable player thermal comfort, cold breath condensation, and freezing risk.
@@ -370,7 +416,7 @@
 	enableGreenhouses = false
 	#Players resting in a sealed greenhouse warmer than 30 C slowly regenerate, like in a sauna.
 	enableGreenhouseSauna = true
-	#Let tagged heat and cooling sources convert nearby water between plain, hot, steaming, cold and chilled. Sources and rates are data-driven through the aeronauticswinds heat/cooling tags.
+	#Water has a temperature: heat and cooling sources turn nearby water into Boiling or Cold Water (sources and rates through the aeronauticswinds heat/cooling tags), tanks and basins over burners boil theirs, and a boiler's feed water cools it (boilerFeedCooling). Off, water is only ever plain water and Create's boilers work exactly as in Create.
 	enableThermalFluidConversion = false
 	#Ticks between thermal conversion passes. Each pass may move a position one step along the ladder, so this is how fast water heats or chills.
 	# Default: 40
@@ -406,10 +452,12 @@
 	#water round the boiler (the biome and season). Flood a small fire with cold sea water and it
 	#stops boiling and the steam falls away; off, Create's boiler ignores the feed's temperature.
 	boilerFeedCooling = false
+	#Let the Nether's heat and the End's cold wear a player down and hurt them as a heatwave or a deep freeze does. Off, only the weather, hot or cold water and fire do: nobody is burnt or frozen just for being in the Nether or the End.
+	dimensionAirHurts = false
 
 [flight]
 	#Enable wind glider aerodynamics for players using the Wind Rider item.
-	enableSkyEntityWind = true
+	enableSkyEntityWind = false
 	# Default: 1.0
 	# Range: 0.0 ~ 5.0
 	skyEntityWindFactor = 1.0
@@ -488,10 +536,6 @@
 	enableImmersiveAircraftWind = false
 	#Use ProtoManly Weather, Weather2, or Simple Clouds as the authoritative wind source when installed.
 	preferExternalWeatherWind = true
-	#Conversion multiplier from ProtoManly Weather's wind vector to m/s.
-	# Default: 1.0
-	# Range: 0.0 ~ 20.0
-	pmWeatherWindScale = 1.0
 	#Conversion from Weather2's normalized wind speed to m/s.
 	# Default: 20.0
 	# Range: 0.0 ~ 100.0
@@ -518,3 +562,504 @@
 	# Default: 7.0
 	# Range: 0.0 ~ 30.0
 	maxExternalDisasterUpdraft = 7.0
+	#With the Living Wind mod installed: its wind blows the way this mod's does where the players are, so its vanes, windmills and leaves, and the sails of Create: Deep Seas that it drives, face the same way as the sails and vanes here (and as hard, with livingWindFollowsStrength). Its gusts stay its own. Off, Living Wind blows its own way. Does nothing without Living Wind.
+	livingWindFollowsWind = true
+	#With Living Wind installed (and livingWindFollowsWind on), set its wind's strength from this mod's wind too,
+	#so its windmills, vanes and sails turn harder in this mod's storms and lie still in its calms.
+	livingWindFollowsStrength = true
+	#Conversion multiplier from ProtoManly Weather's wind to m/s. Its wind is in miles an hour, so 0.447 is true to it; 1.0 (the old default) made every wind over twice as strong.
+	# Default: 0.447
+	# Range: 0.0 ~ 20.0
+	pmWeatherWindFactor = 0.447
+	#With ProtoManly's Weather: its tornadoes take hold of Sable ships (drag them in and round, spin them, lift the light ones) and its lightning jolts the ships near where it lands. Off, its storms pass ships by, as they do without this mod.
+	pmWeatherStormsOnShips = true
+	#With ProtoManly's Weather: a tornado tears from a ship inside it what it would tear from a house (sailcloth, fences and doors first, planks from a strong one). Needs its own block damage setting and the mobGriefing game rule.
+	pmWeatherTearsShips = true
+	#With ProtoManly's Weather: take the air's temperature from it, so its instruments and this mod's read the same. Off, this mod keeps its own, by biome, season and weather.
+	pmWeatherTemperature = true
+	#With ProtoManly Weather pushing Sable ships itself (its 'Sable Wind Multiplier' over 0): leave the wind on bare hulls to it, so a ship is not blown along twice. Sails stay this mod's.
+	pmWeatherPushesHulls = true
+	#With Create: Skys installed, keep its own local storms: they then decide where it rains, and this mod's
+	#weather only when. Off, this mod's weather decides where it rains and Create: Skys draws its clouds from it
+	#(its storms are switched off for the session, its own file is left alone).
+	createSkysStorms = false
+
+[below_deck]
+	#Aboard a ship an open door's leaf is not collided with, so it can't wedge a player in a doorway one block wide when she heels. Under 'Open doors and ladders don't block aboard'.
+	openDoorsGiveWay = true
+	#Aboard a ship a ladder is not collided with (it is still climbed), so a ladderway one block square stays wide enough when she heels.
+	laddersGiveWay = true
+	#Aboard a ship an open trapdoor with a ladder under or over it (a hatch) is not collided with. Trapdoors used as rails or planking are never touched.
+	hatchesGiveWay = true
+	#Aboard a ship lying over, a player keeps their feet and is drawn in to the width they have standing square to the deck, so they walk her passages upright instead of crawling or sticking.
+	seaLegs = true
+	#How far over a ship lies [degrees] before a player aboard is drawn in. Lower helps in narrower places; higher leaves the player their full width for longer.
+	# Default: 11.0
+	# Range: 4.0 ~ 20.0
+	seaLegsFromDegrees = 11.0
+	#Past this [degrees] a player aboard is left as the game has them (on hands and knees). No higher than 23: beyond it a narrowed player is no longer held in by a ship's walls.
+	# Default: 23.0
+	# Range: 12.0 ~ 23.0
+	seaLegsToDegrees = 23.0
+
+[server_load]
+	#How many chunks round a thing are looked at for sea before anything more is asked about it. Lower is cheaper; 1 can miss the sea for something more than a chunk inland on a wide beach.
+	# Default: 2
+	# Range: 1 ~ 4
+	seaCheckChunks = 2
+	#Seconds between looks at a stretch of shore that nothing has changed on (a changed shore is looked at again at once). Higher is cheaper on servers with busy coasts.
+	# Default: 10
+	# Range: 2 ~ 60
+	shoreRouteSeconds = 10
+	#Ticks a server keeps its answer to 'is it raining on this column'. Higher is cheaper in storms; the edge of a rain area is then that much late for mobs and fire.
+	# Default: 16
+	# Range: 1 ~ 40
+	rainCheckTicks = 16
+	#The server reads the sea at nine points under every boat instead of five. Only the look of a boat on other players' screens can gain from it; costs server time for each boat afloat.
+	boatFullSeaSampling = false
+	#Spots round each player looked at every tick for leaves to fall, regrow or rot. Lower is cheaper with many players; the seasons then take longer to show in the trees. 0 stops it.
+	# Default: 16
+	# Range: 0 ~ 64
+	treeSeasonPasses = 16
+
+[sea_and_mods]
+	#Check the world generator's sea level against the open sea itself, and use the sea's own height where they differ (Tellus fills the block at its sea level). Off, the generator is believed.
+	readSeaLevelFromWater = true
+	#Clouds, the air cooling with height and the sights of the upper air keep their heights over the sea wherever the world has it. Off, they stay at a normal world's heights.
+	skyFollowsSeaLevel = true
+	#With Flowing Fluids and 'Storm surge floods with real water': how fast the surge's water is put down, against how fast that mod drains it away.
+	# Default: 1.0
+	# Range: 0.25 ~ 4.0
+	surgeFloodRate = 1.0
+	#With Flowing Fluids and 'Heavy rain leaves real water': how much of the rain is left standing.
+	# Default: 1.0
+	# Range: 0.25 ~ 4.0
+	rainPuddleRate = 1.0
+	#With Living Wind: seconds its heading takes to come round to this mod's wind. 0 follows every flicker of a gust; higher keeps its vanes steadier.
+	# Default: 1.5
+	# Range: 0.0 ~ 10.0
+	livingWindEaseSeconds = 1.5
+
+[weather_mix]
+	#How much of the natural weather is rain and storm. 1 is as made (fair and cloudy skies about seven tenths of the time); 2 about halves the fair weather; 0.5 makes rain and storms rare.
+	# Default: 1.0
+	# Range: 0.25 ~ 4.0
+	weatherStorminess = 1.0
+	#How often storms throw lightning to the ground, against how often they were made to. 0 leaves thunderstorms their flashes in the cloud and their thunder but strikes nothing.
+	# Default: 1.0
+	# Range: 0.0 ~ 4.0
+	lightningFrequency = 1.0
+	#Raises (or, negative, lowers) the clouds alone by this many blocks: every deck of them, the rain under them and the game's own cloud height. The cold and thin air aloft stay where they are (the sky height offset moves those too).
+	# Default: 0
+	# Range: -128 ~ 512
+	cloudHeightOffset = 0
+	#Raises (or, negative, lowers) the whole sky by this many blocks: the cloud decks, where rain starts under them, the air cooling and thinning with height and the sights of the upper air. For worlds built tall, or bases the clouds sit in.
+	# Default: 0
+	# Range: -64 ~ 512
+	skyHeightOffset = 0
+
+[weather_kinds]
+	#Let the natural weather turn to breeze. Off, the next milder kind comes in its place. Weather set by command is never held back.
+	breeze = true
+	#Let the natural weather turn to overcast. Off, the next milder kind comes in its place. Weather set by command is never held back.
+	overcast = true
+	#Let the natural weather turn to cloudy. Off, the next milder kind comes in its place. Weather set by command is never held back.
+	cloudy = true
+	#Let the natural weather turn to windy. Off, the next milder kind comes in its place. Weather set by command is never held back.
+	windy = true
+	#Let the natural weather turn to drizzle. Off, the next milder kind comes in its place. Weather set by command is never held back.
+	drizzle = true
+	#Let the natural weather turn to light rain. Off, the next milder kind comes in its place. Weather set by command is never held back.
+	light_rain = true
+	#Let the natural weather turn to rain. Off, the next milder kind comes in its place. Weather set by command is never held back.
+	rain = true
+	#Let the natural weather turn to storm. Off, the next milder kind comes in its place. Weather set by command is never held back.
+	storm = true
+	#Let the natural weather turn to fog. Off, the next milder kind comes in its place. Weather set by command is never held back.
+	fog = true
+	#Let the natural weather turn to heatwave. Off, the next milder kind comes in its place. Weather set by command is never held back.
+	heatwave = true
+	#Let the natural weather turn to snow. Off, the next milder kind comes in its place. Weather set by command is never held back.
+	snow = true
+	#Let the natural weather turn to blizzard. Off, the next milder kind comes in its place. Weather set by command is never held back.
+	blizzard = true
+	#Let the natural weather turn to thunderstorm. Off, the next milder kind comes in its place. Weather set by command is never held back.
+	thunderstorm = true
+	#Let the natural weather turn to hail. Off, the next milder kind comes in its place. Weather set by command is never held back.
+	hail = true
+	#Let the natural weather turn to mist. Off, the next milder kind comes in its place. Weather set by command is never held back.
+	mist = true
+	#Let the natural weather turn to sandstorm. Off, the next milder kind comes in its place. Weather set by command is never held back.
+	sandstorm = true
+	#Let the natural weather turn to monsoon. Off, the next milder kind comes in its place. Weather set by command is never held back.
+	monsoon = true
+	#Let the natural weather turn to gale. Off, the next milder kind comes in its place. Weather set by command is never held back.
+	gale = true
+	#Let the natural weather turn to hurricane. Off, the next milder kind comes in its place. Weather set by command is never held back.
+	hurricane = true
+	#Let the natural weather turn to ice storm. Off, the next milder kind comes in its place. Weather set by command is never held back.
+	ice_storm = true
+	#Let the natural weather turn to deep freeze. Off, the next milder kind comes in its place. Weather set by command is never held back.
+	deep_freeze = true
+	#Let the natural weather turn to scorcher. Off, the next milder kind comes in its place. Weather set by command is never held back.
+	scorcher = true
+	#Let the natural weather turn to squall. Off, the next milder kind comes in its place. Weather set by command is never held back.
+	squall = true
+
+[event_chances]
+	#How often a meteor shower comes, against how often it was made to: 0 never, 1 as made, 2 twice as readily. One started by command is never held back.
+	# Default: 1.0
+	# Range: 0.0 ~ 10.0
+	meteor_shower = 1.0
+	#How often a red sprites comes, against how often it was made to: 0 never, 1 as made, 2 twice as readily. One started by command is never held back.
+	# Default: 1.0
+	# Range: 0.0 ~ 10.0
+	red_sprites = 1.0
+	#How often a rainbow comes, against how often it was made to: 0 never, 1 as made, 2 twice as readily. One started by command is never held back.
+	# Default: 1.0
+	# Range: 0.0 ~ 10.0
+	rainbow = 1.0
+	#How often a sun halo comes, against how often it was made to: 0 never, 1 as made, 2 twice as readily. One started by command is never held back.
+	# Default: 1.0
+	# Range: 0.0 ~ 10.0
+	sun_halo = 1.0
+	#How often a geomagnetic storm comes, against how often it was made to: 0 never, 1 as made, 2 twice as readily. One started by command is never held back.
+	# Default: 1.0
+	# Range: 0.0 ~ 10.0
+	geomagnetic_storm = 1.0
+	#How often a tornado comes, against how often it was made to: 0 never, 1 as made, 2 twice as readily. One started by command is never held back.
+	# Default: 1.0
+	# Range: 0.0 ~ 10.0
+	tornado = 1.0
+	#How often a supercell comes, against how often it was made to: 0 never, 1 as made, 2 twice as readily. One started by command is never held back.
+	# Default: 1.0
+	# Range: 0.0 ~ 10.0
+	supercell = 1.0
+	#How often a downburst comes, against how often it was made to: 0 never, 1 as made, 2 twice as readily. One started by command is never held back.
+	# Default: 1.0
+	# Range: 0.0 ~ 10.0
+	downburst = 1.0
+	#How often a derecho comes, against how often it was made to: 0 never, 1 as made, 2 twice as readily. One started by command is never held back.
+	# Default: 1.0
+	# Range: 0.0 ~ 10.0
+	derecho = 1.0
+	#How often a haboob comes, against how often it was made to: 0 never, 1 as made, 2 twice as readily. One started by command is never held back.
+	# Default: 1.0
+	# Range: 0.0 ~ 10.0
+	haboob = 1.0
+	#How often a fire whirl comes, against how often it was made to: 0 never, 1 as made, 2 twice as readily. One started by command is never held back.
+	# Default: 1.0
+	# Range: 0.0 ~ 10.0
+	fire_whirl = 1.0
+	#How often a giant hail comes, against how often it was made to: 0 never, 1 as made, 2 twice as readily. One started by command is never held back.
+	# Default: 1.0
+	# Range: 0.0 ~ 10.0
+	giant_hail = 1.0
+	#How often a ball lightning comes, against how often it was made to: 0 never, 1 as made, 2 twice as readily. One started by command is never held back.
+	# Default: 1.0
+	# Range: 0.0 ~ 10.0
+	ball_lightning = 1.0
+	#How often a thundersnow comes, against how often it was made to: 0 never, 1 as made, 2 twice as readily. One started by command is never held back.
+	# Default: 1.0
+	# Range: 0.0 ~ 10.0
+	thundersnow = 1.0
+	#How often a polar vortex comes, against how often it was made to: 0 never, 1 as made, 2 twice as readily. One started by command is never held back.
+	# Default: 1.0
+	# Range: 0.0 ~ 10.0
+	polar_vortex = 1.0
+	#How often a heat burst comes, against how often it was made to: 0 never, 1 as made, 2 twice as readily. One started by command is never held back.
+	# Default: 1.0
+	# Range: 0.0 ~ 10.0
+	heat_burst = 1.0
+	#How often a ashfall comes, against how often it was made to: 0 never, 1 as made, 2 twice as readily. One started by command is never held back.
+	# Default: 1.0
+	# Range: 0.0 ~ 10.0
+	ashfall = 1.0
+	#How often a freezing fog comes, against how often it was made to: 0 never, 1 as made, 2 twice as readily. One started by command is never held back.
+	# Default: 1.0
+	# Range: 0.0 ~ 10.0
+	freezing_fog = 1.0
+	#How often a waterspout comes, against how often it was made to: 0 never, 1 as made, 2 twice as readily. One started by command is never held back.
+	# Default: 1.0
+	# Range: 0.0 ~ 10.0
+	waterspout = 1.0
+	#How often a rogue wave comes, against how often it was made to: 0 never, 1 as made, 2 twice as readily. One started by command is never held back.
+	# Default: 1.0
+	# Range: 0.0 ~ 10.0
+	rogue_wave = 1.0
+	#How often a rissaga comes, against how often it was made to: 0 never, 1 as made, 2 twice as readily. One started by command is never held back.
+	# Default: 1.0
+	# Range: 0.0 ~ 10.0
+	rissaga = 1.0
+	#How often a maelstrom comes, against how often it was made to: 0 never, 1 as made, 2 twice as readily. One started by command is never held back.
+	# Default: 1.0
+	# Range: 0.0 ~ 10.0
+	maelstrom = 1.0
+	#How often a white squall comes, against how often it was made to: 0 never, 1 as made, 2 twice as readily. One started by command is never held back.
+	# Default: 1.0
+	# Range: 0.0 ~ 10.0
+	white_squall = 1.0
+	#How often a sea smoke comes, against how often it was made to: 0 never, 1 as made, 2 twice as readily. One started by command is never held back.
+	# Default: 1.0
+	# Range: 0.0 ~ 10.0
+	sea_smoke = 1.0
+	#How often a bioluminescent tide comes, against how often it was made to: 0 never, 1 as made, 2 twice as readily. One started by command is never held back.
+	# Default: 1.0
+	# Range: 0.0 ~ 10.0
+	bioluminescent_tide = 1.0
+	#How often a fog bank comes, against how often it was made to: 0 never, 1 as made, 2 twice as readily. One started by command is never held back.
+	# Default: 1.0
+	# Range: 0.0 ~ 10.0
+	fog_bank = 1.0
+	#How often a st elmos fire comes, against how often it was made to: 0 never, 1 as made, 2 twice as readily. One started by command is never held back.
+	# Default: 1.0
+	# Range: 0.0 ~ 10.0
+	st_elmos_fire = 1.0
+	#How often a green flash comes, against how often it was made to: 0 never, 1 as made, 2 twice as readily. One started by command is never held back.
+	# Default: 1.0
+	# Range: 0.0 ~ 10.0
+	green_flash = 1.0
+	#How often a morning glory comes, against how often it was made to: 0 never, 1 as made, 2 twice as readily. One started by command is never held back.
+	# Default: 1.0
+	# Range: 0.0 ~ 10.0
+	morning_glory = 1.0
+	#How often a fata morgana comes, against how often it was made to: 0 never, 1 as made, 2 twice as readily. One started by command is never held back.
+	# Default: 1.0
+	# Range: 0.0 ~ 10.0
+	fata_morgana = 1.0
+	#How often a brocken spectre comes, against how often it was made to: 0 never, 1 as made, 2 twice as readily. One started by command is never held back.
+	# Default: 1.0
+	# Range: 0.0 ~ 10.0
+	brocken_spectre = 1.0
+	#How often a flying dutchman comes, against how often it was made to: 0 never, 1 as made, 2 twice as readily. One started by command is never held back.
+	# Default: 1.0
+	# Range: 0.0 ~ 10.0
+	flying_dutchman = 1.0
+	#How often a doldrums comes, against how often it was made to: 0 never, 1 as made, 2 twice as readily. One started by command is never held back.
+	# Default: 1.0
+	# Range: 0.0 ~ 10.0
+	doldrums = 1.0
+	#How often a foo fighters comes, against how often it was made to: 0 never, 1 as made, 2 twice as readily. One started by command is never held back.
+	# Default: 1.0
+	# Range: 0.0 ~ 10.0
+	foo_fighters = 0.0
+	#How often a lenticular clouds comes, against how often it was made to: 0 never, 1 as made, 2 twice as readily. One started by command is never held back.
+	# Default: 1.0
+	# Range: 0.0 ~ 10.0
+	lenticular_clouds = 1.0
+	#How often a moonbow comes, against how often it was made to: 0 never, 1 as made, 2 twice as readily. One started by command is never held back.
+	# Default: 1.0
+	# Range: 0.0 ~ 10.0
+	moonbow = 1.0
+	#How often a noctilucent clouds comes, against how often it was made to: 0 never, 1 as made, 2 twice as readily. One started by command is never held back.
+	# Default: 1.0
+	# Range: 0.0 ~ 10.0
+	noctilucent_clouds = 1.0
+	#How often a mammatus comes, against how often it was made to: 0 never, 1 as made, 2 twice as readily. One started by command is never held back.
+	# Default: 1.0
+	# Range: 0.0 ~ 10.0
+	mammatus = 1.0
+	#How often a heat lightning comes, against how often it was made to: 0 never, 1 as made, 2 twice as readily. One started by command is never held back.
+	# Default: 1.0
+	# Range: 0.0 ~ 10.0
+	heat_lightning = 1.0
+	#How often a fish rain comes, against how often it was made to: 0 never, 1 as made, 2 twice as readily. One started by command is never held back.
+	# Default: 1.0
+	# Range: 0.0 ~ 10.0
+	fish_rain = 1.0
+	#How often a will o the wisp comes, against how often it was made to: 0 never, 1 as made, 2 twice as readily. One started by command is never held back.
+	# Default: 1.0
+	# Range: 0.0 ~ 10.0
+	will_o_the_wisp = 1.0
+	#How often a wandering compass comes, against how often it was made to: 0 never, 1 as made, 2 twice as readily. One started by command is never held back.
+	# Default: 1.0
+	# Range: 0.0 ~ 10.0
+	wandering_compass = 1.0
+	#How often a fire rainbow comes, against how often it was made to: 0 never, 1 as made, 2 twice as readily. One started by command is never held back.
+	# Default: 1.0
+	# Range: 0.0 ~ 10.0
+	fire_rainbow = 1.0
+	#How often a solar eclipse comes, against how often it was made to: 0 never, 1 as made, 2 twice as readily. One started by command is never held back.
+	# Default: 1.0
+	# Range: 0.0 ~ 10.0
+	solar_eclipse = 1.0
+	#How often a great comet comes, against how often it was made to: 0 never, 1 as made, 2 twice as readily. One started by command is never held back.
+	# Default: 1.0
+	# Range: 0.0 ~ 10.0
+	great_comet = 1.0
+	#How often a light pillars comes, against how often it was made to: 0 never, 1 as made, 2 twice as readily. One started by command is never held back.
+	# Default: 1.0
+	# Range: 0.0 ~ 10.0
+	light_pillars = 1.0
+	#How often a crepuscular rays comes, against how often it was made to: 0 never, 1 as made, 2 twice as readily. One started by command is never held back.
+	# Default: 1.0
+	# Range: 0.0 ~ 10.0
+	crepuscular_rays = 1.0
+	#How often a nacreous clouds comes, against how often it was made to: 0 never, 1 as made, 2 twice as readily. One started by command is never held back.
+	# Default: 1.0
+	# Range: 0.0 ~ 10.0
+	nacreous_clouds = 1.0
+	#How often a milky sea comes, against how often it was made to: 0 never, 1 as made, 2 twice as readily. One started by command is never held back.
+	# Default: 1.0
+	# Range: 0.0 ~ 10.0
+	milky_sea = 1.0
+	#How often a derelict comes, against how often it was made to: 0 never, 1 as made, 2 twice as readily. One started by command is never held back.
+	# Default: 1.0
+	# Range: 0.0 ~ 10.0
+	derelict = 0.0
+	#How often a hy brasil comes, against how often it was made to: 0 never, 1 as made, 2 twice as readily. One started by command is never held back.
+	# Default: 1.0
+	# Range: 0.0 ~ 10.0
+	hy_brasil = 1.0
+	#How often a sea serpent comes, against how often it was made to: 0 never, 1 as made, 2 twice as readily. One started by command is never held back.
+	# Default: 1.0
+	# Range: 0.0 ~ 10.0
+	sea_serpent = 1.0
+	#How often a sargasso comes, against how often it was made to: 0 never, 1 as made, 2 twice as readily. One started by command is never held back.
+	# Default: 1.0
+	# Range: 0.0 ~ 10.0
+	sargasso = 1.0
+	#How often a red sky morning comes, against how often it was made to: 0 never, 1 as made, 2 twice as readily. One started by command is never held back.
+	# Default: 1.0
+	# Range: 0.0 ~ 10.0
+	red_sky_morning = 1.0
+	#How often a circumzenithal arc comes, against how often it was made to: 0 never, 1 as made, 2 twice as readily. One started by command is never held back.
+	# Default: 1.0
+	# Range: 0.0 ~ 10.0
+	circumzenithal_arc = 1.0
+	#How often a billow clouds comes, against how often it was made to: 0 never, 1 as made, 2 twice as readily. One started by command is never held back.
+	# Default: 1.0
+	# Range: 0.0 ~ 10.0
+	billow_clouds = 1.0
+	#How often a jet stream comes, against how often it was made to: 0 never, 1 as made, 2 twice as readily. One started by command is never held back.
+	# Default: 1.0
+	# Range: 0.0 ~ 10.0
+	jet_stream = 1.0
+	#How often a fallstreak hole comes, against how often it was made to: 0 never, 1 as made, 2 twice as readily. One started by command is never held back.
+	# Default: 1.0
+	# Range: 0.0 ~ 10.0
+	fallstreak_hole = 1.0
+	#How often a gigantic jet comes, against how often it was made to: 0 never, 1 as made, 2 twice as readily. One started by command is never held back.
+	# Default: 1.0
+	# Range: 0.0 ~ 10.0
+	gigantic_jet = 1.0
+	#How often a dust devils comes, against how often it was made to: 0 never, 1 as made, 2 twice as readily. One started by command is never held back.
+	# Default: 1.0
+	# Range: 0.0 ~ 10.0
+	dust_devils = 1.0
+	#How often a desert mirage comes, against how often it was made to: 0 never, 1 as made, 2 twice as readily. One started by command is never held back.
+	# Default: 1.0
+	# Range: 0.0 ~ 10.0
+	desert_mirage = 1.0
+	#How often a red dust storm comes, against how often it was made to: 0 never, 1 as made, 2 twice as readily. One started by command is never held back.
+	# Default: 1.0
+	# Range: 0.0 ~ 10.0
+	red_dust_storm = 1.0
+	#How often a monsoon burst comes, against how often it was made to: 0 never, 1 as made, 2 twice as readily. One started by command is never held back.
+	# Default: 1.0
+	# Range: 0.0 ~ 10.0
+	monsoon_burst = 1.0
+	#How often a foxfire comes, against how often it was made to: 0 never, 1 as made, 2 twice as readily. One started by command is never held back.
+	# Default: 1.0
+	# Range: 0.0 ~ 10.0
+	foxfire = 1.0
+	#How often a catatumbo lightning comes, against how often it was made to: 0 never, 1 as made, 2 twice as readily. One started by command is never held back.
+	# Default: 1.0
+	# Range: 0.0 ~ 10.0
+	catatumbo_lightning = 1.0
+	#How often a ice fog comes, against how often it was made to: 0 never, 1 as made, 2 twice as readily. One started by command is never held back.
+	# Default: 1.0
+	# Range: 0.0 ~ 10.0
+	ice_fog = 1.0
+	#How often a chinook comes, against how often it was made to: 0 never, 1 as made, 2 twice as readily. One started by command is never held back.
+	# Default: 1.0
+	# Range: 0.0 ~ 10.0
+	chinook = 0.0
+	#How often a petal storm comes, against how often it was made to: 0 never, 1 as made, 2 twice as readily. One started by command is never held back.
+	# Default: 1.0
+	# Range: 0.0 ~ 10.0
+	petal_storm = 1.0
+	#How often a sea of clouds comes, against how often it was made to: 0 never, 1 as made, 2 twice as readily. One started by command is never held back.
+	# Default: 1.0
+	# Range: 0.0 ~ 10.0
+	sea_of_clouds = 1.0
+	#How often a tsunami comes, against how often it was made to: 0 never, 1 as made, 2 twice as readily. One started by command is never held back.
+	# Default: 1.0
+	# Range: 0.0 ~ 10.0
+	tsunami = 1.0
+	#How often a rogue set comes, against how often it was made to: 0 never, 1 as made, 2 twice as readily. One started by command is never held back.
+	# Default: 1.0
+	# Range: 0.0 ~ 10.0
+	rogue_set = 1.0
+
+[storm_damage]
+	#How fast hail wears a sail that is set under it, against how fast it was made to. Furled sails and sails under a roof take none. 0 and hail leaves sails alone.
+	# Default: 1.0
+	# Range: 0.0 ~ 5.0
+	hailSailWear = 1.0
+	#Hard mode: a strong gale, a hurricane or a tornado tears the outer blocks off a ship, and seas breaking over her deck smash what stands on it, weakest first (glass, wool, fences and doors, then planks, in the worst storms stone). Over a long storm that can hole her and sink her. Chests, machines and anything that stands through events are spared. Needs the mobGriefing game rule.
+	stormsBreakShips = false
+	#How much a storm breaks a ship when that is on, against how much it was made to: blocks a second.
+	# Default: 1.0
+	# Range: 0.1 ~ 5.0
+	stormShipDamage = 1.0
+
+[altitude]
+	#How much colder the air gets for every hundred blocks of height [degrees C]. 8.5 as made: freezing some two hundred blocks over a temperate sea. Lower for a world with very tall terrain (2 keeps a plain at y 500 mild); 0 and height makes no difference.
+	# Default: 8.5
+	# Range: 0.0 ~ 50.0
+	altitudeCoolingPer100Blocks = 8.5
+	#Blocks over the sea below which height does not cool the air at all. Set it to where a tall world's ordinary ground lies, and only its mountains are colder.
+	# Default: 0.0
+	# Range: 0.0 ~ 4000.0
+	altitudeCoolingStartsAt = 0.0
+	#The most that height ever cools the air by [degrees C], however high. 300 is as good as no limit; 20 keeps the highest peak no more than twenty degrees colder than the sea.
+	# Default: 300.0
+	# Range: 0.0 ~ 300.0
+	altitudeCoolingMost = 300.0
+
+[dimensions]
+	#The air of other dimensions, for worlds that aren't the Overworld's kind of place: a moon with no air, a planet whose thin air blows fast and pushes at nothing. Entries are parted by semicolons, each 'dimension = key:value, key:value', and a * in the dimension's name stands for anything. Keys: air (none, thin, thick or normal: a ready-made set), wind_speed and wind_force (times the Overworld's; the force is how hard a wind of the same speed pushes), weather and seasons (true or false), temperature (a fixed reading, degrees C) and temperature_offset. For example 'mymod:moon = air:none; mymod:*_orbit = air:none; mymod:mars = wind_speed:1.6, wind_force:0.017, weather:false'. Data packs can say the same in data/<namespace>/aeronauticswinds/dimension_air/<name>.json, which is how the mod knows Create: Northstar's and Ad Astra's worlds already; what is written here wins. '/atmospherics info' tells what is in force where you stand.
+	dimensionAir = ""
+
+[masts]
+	#A mast carrying more sail than it will stand in the wind there is creaks, its crew is warned, and held there it breaks a third of the way up and everything above comes down. A thicker mast (2x2, 3x3) and stays and shrouds led from it to each quarter bear far more. Off, no mast ever breaks.
+	mastsCanSnap = false
+	#How much every mast will stand, against how much it was made to. 2 and a mast bears twice the sail in the same wind; 0.5 half.
+	# Default: 1.0
+	# Range: 0.1 ~ 20.0
+	mastStrength = 1.0
+	#Seconds a mast stands twice the load it can bear before it breaks. A tenth over takes ten times as long, so a gust is no danger and a held overload is.
+	# Default: 6.0
+	# Range: 1.0 ~ 120.0
+	mastSnapSeconds = 6.0
+
+[ship_handling]
+	#How fast an anchor's chain runs out and comes in, against how fast it was made to: let go, cranked by hand and wound by a shaft alike.
+	# Default: 1.0
+	# Range: 0.25 ~ 4.0
+	anchorChainSpeed = 1.0
+	#How hard a dug-in anchor holds a ship, against how hard it was made to. Lower and a gale drags her anchor sooner; higher and she rides out more on less chain.
+	# Default: 1.0
+	# Range: 0.25 ~ 4.0
+	anchorHoldStrength = 1.0
+	#How fast the sea comes in through an opening below a hull's waterline, against how fast it was made to. 0 and a holed hull never floods.
+	# Default: 1.0
+	# Range: 0.0 ~ 4.0
+	hullFloodRate = 1.0
+	#How fast a flooded hull empties once her openings are out of the water or stopped, against how fast it was made to.
+	# Default: 1.0
+	# Range: 0.0 ~ 8.0
+	hullBailRate = 1.0
+	#How fast ballast tanks fill and empty, against how fast they were made to.
+	# Default: 1.0
+	# Range: 0.25 ~ 4.0
+	ballastFlowRate = 1.0
+	#How hard the water checks a ship that is being thrown over fast (the brake that stops a hull flipping end over end off a wave). 0 leaves her to tumble; higher is steadier and less lively.
+	# Default: 1.0
+	# Range: 0.0 ~ 3.0
+	capsizeBrake = 1.0
+	#How hard the water checks a hull bobbing up and down, against how hard it was made to. Lower and she bounces on a sea; higher and she sits heavy in it.
+	# Default: 1.0
+	# Range: 0.25 ~ 3.0
+	heaveDamping = 1.0
