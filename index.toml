@@ -3206,6 +3206,14 @@ file = "datapacks/Liam's FreeTerraForged Preset/pack.mcmeta"
 hash = "b5822279d2f64adb0fc9d65f9deb90f52098ebfbdc4bdcd4bf99aac442ed6e5e"
 
 [[files]]
+file = "datapacks/Lunar Events in Rain/data/minecraft/enhancedcelestials2core/lunar/dimension_settings/overworld.json"
+hash = "388fc6749f5ff158f9b696dcf3fa7bc03ac07604cc3d5e1ce361d41a22976969"
+
+[[files]]
+file = "datapacks/Lunar Events in Rain/pack.mcmeta"
+hash = "f55121c38bff3778655333b3f24433c9efdb1aaf689cf5a0b3beb4ae68630518"
+
+[[files]]
 file = "datapacks/Mowzie Biome Compatibility/data/mowziesmobs/tags/worldgen/biome/has_structure/frostmaw_arena_biomes.json"
 hash = "25f74f53b93e790bf15926e41c564068ae1681d01a2b2a326a809e92860a219c"
 
