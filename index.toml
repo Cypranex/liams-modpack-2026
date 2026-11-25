@@ -10,7 +10,7 @@ hash = "0244a3e0dc336e0a10fc723e39bebbce7e6f4b3d6d76ead44857b8d54ef3467e"
 
 [[files]]
 file = "config/aeronauticswinds-common.toml"
-hash = "7993cb6557b5da1731d8f617ce1c6e66fb14a3548837e201fa659e5857c9ac5e"
+hash = "2640449a017041205dffc88ae48afa1ce7b2b6bfc609d08385f6155601d6c328"
 
 [[files]]
 file = "config/aether-client.toml"
@@ -295,7 +295,7 @@ hash = "ecbf4c205c059603d5032d54c75ffeef63ee7e5a01460eb9db742de2c45254ac"
 
 [[files]]
 file = "config/quark-common.toml"
-hash = "dfea052db7050da49203e2290ee32a0d27cd649e1571321b2008b6cedc1f65e1"
+hash = "143ae810c7f08847be0f8873542ff9acf3366b91d912db1f15645084e2760e16"
 
 [[files]]
 file = "config/ragdoll_corpse-common.toml"
