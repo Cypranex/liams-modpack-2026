@@ -383,7 +383,7 @@
 	#The almanac: a dozen events that come round every year at their own point in the
 	#seasons (spring thaw, cherry blossom, the Perseids, the harvest moon, the halcyon
 	#days, frost fairs and more). Each changes the world a little and none does harm.
-	enableSeasonalEvents = true
+	enableSeasonalEvents = false
 	#Modulate crop and sapling growth speed based on seasons and frost dormancy.
 	enableSeasonalCropEffects = false
 	#Allow sub-zero winter temperatures to freeze standing surface water and accumulate snow.
