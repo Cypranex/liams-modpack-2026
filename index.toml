@@ -2,11 +2,15 @@ hash-format = "sha256"
 
 [[files]]
 file = "AGENTS.md"
-hash = "8a794b2c0c51bc74ddac1add06a2c0a33471c441e61b02f605d88f9342fe51dd"
+hash = "4d81c2aff4c9475f690dd56d0da0e598fb73174da58434b224ea683b1bf6c705"
+
+[[files]]
+file = "config/aeronauticswinds-client.toml"
+hash = "0244a3e0dc336e0a10fc723e39bebbce7e6f4b3d6d76ead44857b8d54ef3467e"
 
 [[files]]
 file = "config/aeronauticswinds-common.toml"
-hash = "dcb56bc42d5a83cc3f7fa982cc6e7fd5ed0d92e5e0e663ef3c277544388b31ce"
+hash = "7993cb6557b5da1731d8f617ce1c6e66fb14a3548837e201fa659e5857c9ac5e"
 
 [[files]]
 file = "config/aether-common.toml"
@@ -451,10 +455,6 @@ hash = "0bb36e3a8790d49451b97e62e1610fd46edd60b79d2a7609542074c9e85ceb09"
 [[files]]
 file = "config/voicechat/voicechat-server.properties"
 hash = "fc6f28e3ac52bb24cacb406b68660b235b1e861b7a44cbdaded206f47f52d273"
-
-[[files]]
-file = "config/wakes-client.toml"
-hash = "51f2c4e7d90673329adddfff7e4b65e97bbd925cf93fb9578e83d55a66e769d3"
 
 [[files]]
 file = "config/weight-server.toml"
@@ -4585,6 +4585,14 @@ file = "kubejs/server_scripts/underground_damage_scaling.js"
 hash = "1a9fab53853efd3faaa81edfacda5b918744acdeb3c8a9f209802d732a7c1284"
 
 [[files]]
+file = "logs/debug.log"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "logs/latest.log"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
 file = "mods/3dskinlayers.pw.toml"
 hash = "2dc498bd8a43a8e02fc9d08fe5846ac17f6eabbecbf38ae39aa7b1f23fe100b0"
 metafile = true
@@ -4616,7 +4624,7 @@ metafile = true
 
 [[files]]
 file = "mods/aeronautics-winds-and-weather.pw.toml"
-hash = "1b68a8cba16699309b9398e664d7816c0f5bc95bd43dda2d03d0c8ab26b86919"
+hash = "f35dc37fc57372a24ee685faf28e4118efd5c93eb8222ec9f4488b367184fc8c"
 metafile = true
 
 [[files]]
@@ -4977,8 +4985,8 @@ hash = "075bbff94d93dc64557e5b4439402e98c46ca0444f7e779d66ef81070f25a4d0"
 metafile = true
 
 [[files]]
-file = "mods/createsky-atmospherics-compat-1.0.3.jar"
-hash = "b99498af61df8adcd1da580daef6bcd54bb091cc31a6e8878d7a760585d2de19"
+file = "mods/createsky-atmospherics-compat-1.0.6.jar"
+hash = "2ada95272792aa4bd30f79abbc494be21428d9f03774b93d64d41389bd966d6d"
 
 [[files]]
 file = "mods/createskys-rain-compat-1.1.0.jar"
@@ -5244,7 +5252,7 @@ metafile = true
 
 [[files]]
 file = "mods/field-guide.pw.toml"
-hash = "72cb8a05dcb399e4c7b29fd6baae5ca6e59b5bb475ac82197d0cc5c538ad4dfc"
+hash = "6bb4baf56e02a2a951d60799aa75696a64b901854431f2016d831dd64f8f86b7"
 metafile = true
 
 [[files]]
@@ -5283,7 +5291,7 @@ metafile = true
 
 [[files]]
 file = "mods/fowlplay.pw.toml"
-hash = "549e72a053da13a50404bd0901b75ce25c6045e778d5a89afcf58e9b5e1945f5"
+hash = "a062a34236acb766f24a2082b9f7681217e4316034fd5b6ae55cff3861f346c4"
 metafile = true
 
 [[files]]
@@ -5308,7 +5316,7 @@ metafile = true
 
 [[files]]
 file = "mods/fruits-delight.pw.toml"
-hash = "bd54b25ed6127a176979f89d56ebee73856ff5023c575232ee707571fcdb2c1c"
+hash = "c293050bd81b54250029d6226b041dea3c218a19bde32e9b8b6bccd5b00b95d1"
 metafile = true
 
 [[files]]
@@ -5368,7 +5376,7 @@ metafile = true
 
 [[files]]
 file = "mods/hybrid-api.pw.toml"
-hash = "fdc55b26800127cafd9a88b2bd03615fc49ced589cffb036145d98c029af437f"
+hash = "d2a5dbd90b927d700febdfb08bd2ce5ef1ab5684fa1eee5ca2dc5e1a412f6551"
 metafile = true
 
 [[files]]
@@ -5408,7 +5416,7 @@ metafile = true
 
 [[files]]
 file = "mods/integrated-api.pw.toml"
-hash = "2006d93b750930a88d26709981818a3b8b14dfa3b0e8d0f05d0532d3475ee80b"
+hash = "b7cfca17d3eacf7f687a92cd6a9982595575b96bf59c32abdf02f48b4736c05f"
 metafile = true
 
 [[files]]
@@ -5510,16 +5518,16 @@ file = "mods/liams-aether-worldgen-fix-1.0.1.jar"
 hash = "eff2b2acf978857515ae3e79b7bb47d5a080dce97fb16750dbfcdc50710a3007"
 
 [[files]]
-file = "mods/liams-atmospherics-streams-compat-1.0.2.jar"
-hash = "a1abf8b860113f9222ba49c5a40efb1be96347fe6e045b23edc1b175caa3b540"
+file = "mods/liams-atmospherics-streams-compat-1.0.3.jar"
+hash = "bf9b0bf539872137bbe66040f8076554f75fcb457dbc6518406f82f424edf9ee"
 
 [[files]]
-file = "mods/liams-atmospherics-wave-buoyancy-1.0.3.jar"
-hash = "1b9cd685803d3184fa380c1a09c55899cac03ed90bc259b5d6c5be8614481461"
+file = "mods/liams-atmospherics-wave-buoyancy-1.0.4.jar"
+hash = "f9f6e4cb24b593d176f7bd7e45ebe86b25b96c1231819029c6fccbf2fec86aca"
 
 [[files]]
-file = "mods/liams-backpack-weight-compat-1.2.1.jar"
-hash = "e6595dbbc1e6b1511df318aa29bbe26074b6da465308f272bf6757457c89d9f9"
+file = "mods/liams-backpack-weight-compat-1.2.2.jar"
+hash = "8c5fa6053490e09669a7d7a54441d7cb246e9fcba76a69e2eaf2bc66c3feee0e"
 
 [[files]]
 file = "mods/liams-bestiary-progression-1.0.4.jar"
@@ -5546,8 +5554,8 @@ file = "mods/liams-dungeon-crawl-compat-1.0.0.jar"
 hash = "dc6eb7afde7f07301d5ce0a071a3371171c3f5b62197aea80cfef485f5573a43"
 
 [[files]]
-file = "mods/liams-fowl-population-1.0.1.jar"
-hash = "8d1385f2b68438f450fc12890ed097a8d31f4b8910308f7b43c5aa301fdce17e"
+file = "mods/liams-fowl-population-1.0.2.jar"
+hash = "2cf60d9d1c815632a4d355957a9e9b3e959b1d2adf8b634e7ebf15d276c01bd1"
 
 [[files]]
 file = "mods/liams-moa-armor-sync-fix-1.0.0.jar"
@@ -5570,8 +5578,8 @@ file = "mods/liams-soundclear-compat-1.0.1.jar"
 hash = "6b7a7749c8e2ffe4e267c60987e740bbd03ce9aa71094ba51d667f1e162669a4"
 
 [[files]]
-file = "mods/liams-torch-compat-1.0.5.jar"
-hash = "4f68515d8d4b733f03faae5a1a6729faa6f0d03e86f608edac049aea5afc25d2"
+file = "mods/liams-torch-compat-1.0.6.jar"
+hash = "d0f09b72009e9930283ca69f1900727bb0080a089c4d97273439254da96a6c89"
 
 [[files]]
 file = "mods/libjf.pw.toml"
@@ -5819,7 +5827,7 @@ metafile = true
 
 [[files]]
 file = "mods/quark.pw.toml"
-hash = "d22d14965fb93e68529f7b0861c11179b866e5c83a1cd5d394a8bf813653446b"
+hash = "2b05d3abd5691664ab4c0914f420bcced2fb3097514810e709992a7b5b0f8738"
 metafile = true
 
 [[files]]
@@ -5827,8 +5835,8 @@ file = "mods/ragdoll-lighting-compat-1.0.1.jar"
 hash = "9cc506e6fa7eec3de4d5c57706d8353c2314043b76961c7daacbd7755334e412"
 
 [[files]]
-file = "mods/ragdoll-ocean-revival-compat-1.1.0.jar"
-hash = "752c0070f26e86f3a18afff4deef7959653aee287598ca83937fa8cf8fc3b502"
+file = "mods/ragdoll-ocean-revival-compat-1.1.1.jar"
+hash = "27dbcf2f09fbfba44566daa75174f9073f763238132a2cf105f740f0d0843405"
 
 [[files]]
 file = "mods/ragdoll-pathing-guard-1.0.3.jar"
@@ -5949,7 +5957,7 @@ metafile = true
 
 [[files]]
 file = "mods/shatterbyte-lib.pw.toml"
-hash = "919deaa10fc414f61ffe85af18100cbd169e1535b6a822eddb18ed19b5cbacf2"
+hash = "3a181c58191972f82c8d5b4f364d206da330acccc0fc4d3a4706d791e3cff7b1"
 metafile = true
 
 [[files]]
@@ -6144,11 +6152,6 @@ file = "mods/voicechat-interaction-neoforge-1.0.0.jar"
 hash = "a2d539c08e558c35c27f3a0e5806048de2f29da6d4ab78018b95589f69f35d42"
 
 [[files]]
-file = "mods/wakes-reforged.pw.toml"
-hash = "8e464c45945b7311b01d0be50a714e8a64d389dc27331f4a27d7981fd29131b9"
-metafile = true
-
-[[files]]
 file = "mods/wavey-capes.pw.toml"
 hash = "215ae0d445df462bd276febe9a4cf7cdd0342ff055d7570fa93d6c87c30c0a3e"
 metafile = true
@@ -6255,7 +6258,7 @@ metafile = true
 
 [[files]]
 file = "mods/zeta.pw.toml"
-hash = "cb474b6c0dde741836ed4f796f3b6ab0b9d3cdc0453e651122cd002d5d1f8df8"
+hash = "4a7817ccda08202a8eeb61e696b4be8e6e9c5ea144c535940f78bade1032bb55"
 metafile = true
 
 [[files]]
