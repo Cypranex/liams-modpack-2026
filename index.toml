@@ -5350,8 +5350,12 @@ file = "mods/liams-aether-worldgen-fix-1.0.1.jar"
 hash = "eff2b2acf978857515ae3e79b7bb47d5a080dce97fb16750dbfcdc50710a3007"
 
 [[files]]
-file = "mods/liams-atmospherics-streams-compat-1.0.3.jar"
-hash = "bf9b0bf539872137bbe66040f8076554f75fcb457dbc6518406f82f424edf9ee"
+file = "mods/liams-atmospherics-quark-compat-1.0.0.jar"
+hash = "98681fdc51d037ff256a75d4ca2ae04c0a69a7e1e282a76aa591d91cf55c7bcd"
+
+[[files]]
+file = "mods/liams-atmospherics-streams-compat-1.0.4.jar"
+hash = "849af28de1ccc8715abd7813484623269920c32453a24d07bc8c6bd2e3f53fd7"
 
 [[files]]
 file = "mods/liams-atmospherics-wave-buoyancy-1.0.4.jar"
