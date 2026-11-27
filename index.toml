@@ -4891,11 +4891,6 @@ hash = "dcaf5f2e28db0b9a127d0167456832341045ddc9aec058c3d9fcf53f618d2404"
 metafile = true
 
 [[files]]
-file = "mods/createloconautics.pw.toml"
-hash = "075bbff94d93dc64557e5b4439402e98c46ca0444f7e779d66ef81070f25a4d0"
-metafile = true
-
-[[files]]
 file = "mods/createsky-atmospherics-compat-1.0.6.jar"
 hash = "2ada95272792aa4bd30f79abbc494be21428d9f03774b93d64d41389bd966d6d"
 
@@ -5437,7 +5432,7 @@ hash = "a7e9a5ddc06f5afe7b45c40bbe56f8bebbd6bf3eae426bc40edabd2b69f2d60b"
 
 [[files]]
 file = "mods/loconautics.pw.toml"
-hash = "b7527fe9fc9a17bd0026b38de03cf959afcd4c619694f8cfe35103e3e265ddb4"
+hash = "310b6b4073500a52c4f5162d6808b8e3153b1d48de665782e7adfedc88985e9b"
 metafile = true
 
 [[files]]
