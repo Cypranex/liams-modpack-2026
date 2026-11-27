@@ -30,7 +30,7 @@ hash = "b613383363e5bf46e61befb99be501212c60c4a4e3b2419eb3714c510b0d8f4a"
 
 [[files]]
 file = "config/amendments-common.toml"
-hash = "5bc6096addd32f7cc0ca90c16d2244d936ea5a4eaae21d3d1b537627ccd46589"
+hash = "a6e77ee77104ec026209b0c5c0955a0f75d8c1ad37cc42b8f24f318fc1e2fa5a"
 
 [[files]]
 file = "config/apotheosis/apothic_attributes.cfg"
