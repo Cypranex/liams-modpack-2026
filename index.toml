@@ -21,6 +21,10 @@ file = "config/aether-startup.toml"
 hash = "e3915bf50d806c5caa3dcebc243818c2c4aeb149599b33e6286ea2828370dd69"
 
 [[files]]
+file = "config/amendments-common.toml"
+hash = "5bc6096addd32f7cc0ca90c16d2244d936ea5a4eaae21d3d1b537627ccd46589"
+
+[[files]]
 file = "config/apotheosis/apothic_attributes.cfg"
 hash = "ad5b8d5ca9e8562b3dcc5cc07bad7d27dc4ecb45b4c78b24c53f8e36798d7357"
 
@@ -257,10 +261,6 @@ file = "config/paxi-neoforge-1_21.toml"
 hash = "93e6db1672e3a55fd77265c85a394a691a3206c7a49637fa42dc5b9853f51f86"
 
 [[files]]
-file = "config/paxi/resourcepack_load_order.json"
-hash = "f7b0b9a3e4c35f9360fa0ffba2d7d8dc64b30612556aed95b5d8a1ac8bfdea37"
-
-[[files]]
 file = "config/paxi/resourcepacks/Field-Guide-Mobs-Plants-Resources.zip"
 hash = "9dc76032464a43cf54736011150cf19f82f6d62bd6adc5287244dc52ac8ca6cc"
 
@@ -291,11 +291,6 @@ metafile = true
 [[files]]
 file = "config/paxi/resourcepacks/drigo-3d-lanterns-x-punchy.pw.toml"
 hash = "c5db495f6fc7e5cac8256ef612f4db8d9c817e0701b1e836b4cd5d57141b038a"
-metafile = true
-
-[[files]]
-file = "config/paxi/resourcepacks/fa-player-extension.pw.toml"
-hash = "b10943dd0c7472c8782d27e1239a851dfa41ee21608dff9207b84c0a81b56e20"
 metafile = true
 
 [[files]]
@@ -5717,16 +5712,6 @@ metafile = true
 [[files]]
 file = "mods/no-f3.pw.toml"
 hash = "6bf1d0355898b8ac17d0b8546f3799a6eeef80dadd2570a5c3b6524ebc1335bb"
-metafile = true
-
-[[files]]
-file = "mods/not-enough-animations-emf-compat.pw.toml"
-hash = "6cf7b5e139890e94b43c6e78a1c1e65f6595055c58b92e2daf8119923d8e5278"
-metafile = true
-
-[[files]]
-file = "mods/not-enough-animations.pw.toml"
-hash = "fd84fcf376910b659fdfbcc2401aa545400b0d7c65834eb2fe22bae3a3c921c2"
 metafile = true
 
 [[files]]
