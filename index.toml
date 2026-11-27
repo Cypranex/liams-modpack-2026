@@ -6,7 +6,7 @@ hash = "4d81c2aff4c9475f690dd56d0da0e598fb73174da58434b224ea683b1bf6c705"
 
 [[files]]
 file = "config/aeronauticswinds-client.toml"
-hash = "0244a3e0dc336e0a10fc723e39bebbce7e6f4b3d6d76ead44857b8d54ef3467e"
+hash = "84dcac81e2050057af649fda6e9c2a0714f4a57c01dd02e72ecb4d5dfe9ef168"
 
 [[files]]
 file = "config/aeronauticswinds-common.toml"
@@ -81,6 +81,10 @@ file = "config/caverns_and_chasms-client.toml"
 hash = "b8038eaf11ea5642cc80cfcd0a2aeb37d6e1a22f5507622170e9bfb1c65ac017"
 
 [[files]]
+file = "config/contraptionlights-client.toml"
+hash = "1a04ce3b4078e2e85168a971652c180c50f83b14c8d1864334cbfa3f54131d03"
+
+[[files]]
 file = "config/create-client.toml"
 hash = "7ef8dc861bc49bbe6385a2d65826c3abb4e88b953e3947f21dc2f05b8d1eb29d"
 
@@ -106,7 +110,7 @@ hash = "63515bffd023b9bfff8f54db7d180f12ec53062255d9e290ed0c3a1ae51450ed"
 
 [[files]]
 file = "config/defaultoptions/options.txt"
-hash = "a716b010cded5c2fd43a48e8fb2a313d2d5c7aa5509d9eddeb9ecff0cb1427fa"
+hash = "f1ae318d3ba72a7b821f076c1ac6d3ad8684114beee26cae958699e1fb2928a4"
 
 [[files]]
 file = "config/dungeon_crawl.toml"
@@ -171,10 +175,6 @@ hash = "f6c8d0fa635dfec81ca6f9c894a167962719f73839859922401fed49f29dcd38"
 [[files]]
 file = "config/immersive_portals.json"
 hash = "ed391841de064ed136559227a253dc962f698535d3881c349367cf450be37ed2"
-
-[[files]]
-file = "config/immersiveoverlays.json"
-hash = "8a69c2b8f0733135c12c50166292cc4fd800686ae1797103bce9183bf82e7fd1"
 
 [[files]]
 file = "config/incontrol/spawn.json"
@@ -343,7 +343,7 @@ hash = "97ccb9ac8c9a8aab1b2c5251d663bfd697fec58a7b43278c5a7756a74825f209"
 
 [[files]]
 file = "config/sodium-extra-options.json"
-hash = "d8fa25060b6d738ec29ba2383678b0f234e89d7e3d1e0d3bf4ff7ba1f4a05182"
+hash = "aa1eb45f1d928f01ddc70cee785c4645356127b631b6e4920b5171b77d1edb5b"
 
 [[files]]
 file = "config/sodium-options.json"
@@ -356,6 +356,10 @@ hash = "b7bda4e98f68a8a7e8e12cb3890946181a3f2e5dde64c41d78853ab352fcdd18"
 [[files]]
 file = "config/spelunkers_charm-common.toml"
 hash = "143f328ea55a3c410d6b0a07dca9d73f8640e9171d2a33b6bdd2c61040479e9a"
+
+[[files]]
+file = "config/streamsreflowing-client.properties"
+hash = "62da65efceccd2c6987949ca597d4840b101babc44c988342d2f253e4b8d5ba5"
 
 [[files]]
 file = "config/supplementaries-client.toml"
@@ -5242,11 +5246,6 @@ hash = "4601b9be31b6e131dca8a148c974d015444bcac7c82fcb66fbd8751a67933a5d"
 metafile = true
 
 [[files]]
-file = "mods/immersive-overlays.pw.toml"
-hash = "f749b285b2ef2b2fe470c6fdbce03bc46970101f61dac6560af02b9cc1619171"
-metafile = true
-
-[[files]]
 file = "mods/immersive-portals-aeronautics.pw.toml"
 hash = "ceb8f9f0e311f48f27fa0a8cf0f24c6fd79c0d379181bee1d8c363a586a222d3"
 metafile = true
@@ -5579,11 +5578,6 @@ metafile = true
 [[files]]
 file = "mods/peaceful-moon-2.pw.toml"
 hash = "62d7231bec1dde8ff674068adec4e8fe2e11a4667d04cfffbc9248cbb2bf685a"
-metafile = true
-
-[[files]]
-file = "mods/perception.pw.toml"
-hash = "378f188dd4dd616783418b9169e6016d5eff359a13c6debeb64c82093637e8e9"
 metafile = true
 
 [[files]]

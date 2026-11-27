@@ -5,7 +5,7 @@ enableVsync:false
 entityDistanceScaling:0.5
 entityShadows:false
 graphicsMode:0
-maxFps:260
+maxFps:60
 mipmapLevels:0
 particles:2
 renderClouds:"false"

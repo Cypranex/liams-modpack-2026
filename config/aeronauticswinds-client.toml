@@ -33,7 +33,7 @@
 	#Leaves, grass, flowers and crops sway with the local wind: a gentle stir in calm air,
 	#bent flat in a gale. Works with Sodium. Under an Iris shader pack the pack's own
 	#waving is used instead.
-	foliageSway = true
+	foliageSway = false
 	#How far foliage moves in the wind.
 	# Default: 1.0
 	# Range: 0.0 ~ 2.0
@@ -78,21 +78,21 @@
 	#1 = nearby waves only, 2 = balanced, 3 = every wave out to the horizon.
 	# Default: 2
 	# Range: 1 ~ 3
-	waterWaveQuality = 2
+	waterWaveQuality = 1
 	#Foam on breaking crests, whitecaps and surf.
 	seaFoam = true
 	#Waves running on over low land at the beach, as over water.
 	shorelineSwash = true
 	#Spray off breaking waves and where hulls slam into the sea.
-	oceanSpray = true
+	oceanSpray = false
 	#Waves washing over docks, jetties and other low floors by the sea.
-	deckWash = true
+	deckWash = false
 	#No longer used: the sea over the land is always drawn as water.
 	shorelineSheet = false
 	#Wakes and bow waves behind moving ships and boats.
 	shipWakes = true
 	#Spray off a ship's bow and where she comes down hard on the sea.
-	hullSpray = true
+	hullSpray = false
 	#Spray where a crest comes over a ship's rail.
 	greenWater = true
 
@@ -103,19 +103,19 @@
 	#sandstorm grit, dust devils, sea spray, summer fireflies and storm debris.
 	#These are what make a season and a biome look different rather than only
 	#reading differently on the HUD.
-	enableWeatherEventVisuals = true
+	enableWeatherEventVisuals = false
 	#Multiplier on how often ambient weather events emit particles. 0 disables them.
 	# Default: 1.0
 	# Range: 0.0 ~ 3.0
 	weatherEventAmount = 1.0
 	#Lift sparse, opaque block dust from exposed ground. Disable for no mod-created particles.
-	enableWindParticles = true
+	enableWindParticles = false
 	#Density of discreet ground dust. One remains intentionally sparse.
 	# Default: 0.65
 	# Range: 0.0 ~ 2.0
 	windParticleAmount = 0.65
 	#Make existing vanilla and mod particles drift gently with wind; does not spawn extra particles.
-	enableParticleWind = true
+	enableParticleWind = false
 	#Strength of cosmetic particle drift.
 	# Default: 0.45
 	# Range: 0.0 ~ 2.0
@@ -130,7 +130,7 @@
 	#How many storm particles to spawn. Also follows vanilla's Particles setting.
 	# Default: 1.0
 	# Range: 0.0 ~ 3.0
-	stormEffectAmount = 0.5
+	stormEffectAmount = 0.25
 	#Draw grey curtains of rain hanging under distant storm cells, and the dust wall of an
 	#approaching sandstorm.
 	distantRainCurtains = true
@@ -353,7 +353,7 @@
 	#The most storm particles (rain, spray, debris, snow) made in one tick, before the amounts above.
 	# Default: 120
 	# Range: 20 ~ 400
-	stormParticleBudget = 120
+	stormParticleBudget = 48
 
 [hud]
 	#Moves the info card (the wind, weather and instrument readouts shown mid-screen) sideways, in GUI pixels from where it is put. It is kept on the screen.

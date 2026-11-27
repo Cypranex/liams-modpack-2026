@@ -1,0 +1,3 @@
+[general]
+	# Disable dynamic contraption lighting in the performance profile.
+	mode = "OFF"
