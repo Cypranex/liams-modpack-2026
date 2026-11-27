@@ -131,7 +131,7 @@
 
 	[misc.threading_water_swim]
 		#Holding jump in water keeps players at the surface with their head out instead of bobbing up and down
-		surface_swimming = true
+		surface_swimming = false
 		#Float at the surface automatically, without holding jump. Sneak to dive
 		surface_auto_float = false
 		#Makes players able to only push themselves up in water when they deep enough in water up to their chest or next to a ledge
