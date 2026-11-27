@@ -1,13 +1,13 @@
 name = "Create: Loconautics"
-filename = "loconautics-0.1.3BETA.jar"
+filename = "loconautics-0.1.4BETA.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/VeDZqxHa/versions/dEi5A4wM/loconautics-0.1.3BETA.jar"
+url = "https://cdn.modrinth.com/data/VeDZqxHa/versions/UFlwCsft/loconautics-0.1.4BETA.jar"
 hash-format = "sha512"
-hash = "4105ebb37835ea1955ed6b4c8bbdabe0234949e12f7e31f2eaf458f039e194779639867f4d514d00876d24957a0f92749eda8a9926e97382643a96d3f01aa24b"
+hash = "3b6db7f26e46be64281c974ae9fc0cec652d52ae5215d56712ce4f919cb8df7a2ba972c65b9daaf0c8aa67f38764c8465fc20150aa3b763aa3152a90476ba02e"
 
 [update]
 [update.modrinth]
 mod-id = "VeDZqxHa"
-version = "dEi5A4wM"
+version = "UFlwCsft"
