@@ -10,7 +10,7 @@ hash = "84dcac81e2050057af649fda6e9c2a0714f4a57c01dd02e72ecb4d5dfe9ef168"
 
 [[files]]
 file = "config/aeronauticswinds-common.toml"
-hash = "2640449a017041205dffc88ae48afa1ce7b2b6bfc609d08385f6155601d6c328"
+hash = "c9d2ce54e2772b456e41782cf5a8554770bf055cfbea6af5950eec8c2a50fdf2"
 
 [[files]]
 file = "config/aether-client.toml"
@@ -5588,6 +5588,10 @@ metafile = true
 file = "mods/placebo.pw.toml"
 hash = "d94791108548d174758d587440c656f1a56884083fa3151bf90b515126482435"
 metafile = true
+
+[[files]]
+file = "mods/player-metadata-trace-1.1.0.jar"
+hash = "85ea1b3abc36a2b85366419491f11dd7cfc1a3063249ee4ddf11d23782553f8b"
 
 [[files]]
 file = "mods/playeranimator.pw.toml"
