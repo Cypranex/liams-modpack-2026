@@ -5412,6 +5412,10 @@ file = "mods/liams-soundclear-compat-1.0.1.jar"
 hash = "6b7a7749c8e2ffe4e267c60987e740bbd03ce9aa71094ba51d667f1e162669a4"
 
 [[files]]
+file = "mods/liams-spawn-aquamirae-compat-1.0.0.jar"
+hash = "07c7097d6ad547d21555408f69d38dfc7000e9d1ab348331e88077341ff8cc08"
+
+[[files]]
 file = "mods/liams-torch-compat-1.0.6.jar"
 hash = "d0f09b72009e9930283ca69f1900727bb0080a089c4d97273439254da96a6c89"
 
