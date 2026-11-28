@@ -103,7 +103,7 @@
 	#Gentle ambient hull-drag share for Sable sublevels without Windcatchers. This gives balloons and bare contraptions slight drift and sway; zero disables it.
 	# Default: 0.025
 	# Range: 0.0 ~ 0.25
-	ambientNonSailWindFactor = 0.025
+	ambientNonSailWindFactor = 0.0025
 	#Maximum extra no-sail hull response from presenting a large face to the wind. At 0.18, the largest exposed surfaces receive at most 18% more force.
 	# Default: 0.18
 	# Range: 0.0 ~ 1.0
